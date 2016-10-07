@@ -7,7 +7,7 @@ defmodule Cineaste.Repo.Migrations.CreateFilm do
       add :title, :string, null: false
       add :release_date, :date, null: false
       add :duration, :integer, null: false
-      add :showcase, :boolean, default: false
+      add :showcase, :boolean, default: false, null: false
       add :original_title, :string
       add :original_transliteration, :string
       add :original_translation, :string

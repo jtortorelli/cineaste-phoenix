@@ -14,8 +14,8 @@ defmodule Cineaste.Film do
     field :aliases, {:array, :string}
   end
 
-  def changeset(user, params \\ %{}) do
-    user
+  def changeset(film, params \\ %{}) do
+    film
     |> cast(params, [:title, :release_date, :duration, :showcase])
     |> validate_required([:title, :release_date, :duration, :showcase])
   end
