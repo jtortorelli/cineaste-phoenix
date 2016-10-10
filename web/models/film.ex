@@ -12,6 +12,7 @@ defmodule Cineaste.Film do
     field :original_transliteration, :string
     field :original_translation, :string
     field :aliases, {:array, :string}
+    many_to_many :people, Cineaste.Person, join_through: Cineaste.StaffPersonRole
   end
 
   def changeset(film, params \\ %{}) do
