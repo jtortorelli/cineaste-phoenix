@@ -586,7 +586,7 @@ people = [
   },
   %Person{
     id: "48a7856e-e00d-410a-8dee-c9069575da5c",
-    given_name: "Shigkazu",
+    given_name: "Shigekazu",
     family_name: "Ikuno",
     gender: "M",
     showcase: false,
