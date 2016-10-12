@@ -16,7 +16,8 @@ defmodule Cineaste.Person do
     field :birth_place, :string
     field :death_place, :string
     field :aliases, {:array, :string}
-    many_to_many :films, Cineaste.Film, join_through: Cineaste.StaffPersonRole
+    many_to_many :films_worked_on, Cineaste.Film, join_through: Cineaste.StaffPersonRole
+    many_to_many :films_starred_in, Cineaste.Film, join_through: Cineaste.ActorPersonRole
   end
 
   def changset(person, params \\ %{}) do
