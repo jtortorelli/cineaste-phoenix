@@ -723,7 +723,7 @@ people = [
   %Person{
     id: "b08c8645-13e0-4392-b01e-3d1d069d60ae",
     given_name: "Fuminto",
-    family_name: "Masuo",
+    family_name: "Matsuo",
     gender: "M",
     showcase: true,
     original_name: "&#26494;&#23614; &#25991;&#20154;",
