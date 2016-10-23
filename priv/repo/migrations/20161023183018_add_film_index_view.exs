@@ -6,9 +6,10 @@ defmodule Cineaste.Repo.Migrations.AddFilmIndexView do
       CREATE VIEW film_index_view AS
       SELECT id,
       title,
-      EXTRACT(year from release_date) AS year,
+      CAST(EXTRACT(year from release_date) AS int) AS year,
       aliases
-      FROM films;
+      FROM films
+      WHERE showcase = true;
     """
   end
   
