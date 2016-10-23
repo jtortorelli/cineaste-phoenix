@@ -1,0 +1,41 @@
+The Mysterians
+Kenji,Sahara,1,Dr. Joji Atsumi
+Yumi,Shirakawa,2,Etsuko Shiraishi
+Momoko,Kochi,3,Hiroko Iwamoto
+Akihiko,Hirata,4,Dr. Ryoichi Shiraishi
+Takashi,Shimura,5,Dr. Tanjiro Adachi
+Susumu,Fujita,6,General Morita
+Hisaya,Ito,7,Officer Seki
+Yoshio,Kosugi,8,Officer Sugimoto
+Fuyuki,Murakami,9,Dr. Kawanami
+Yoshio,Tsuchiya,10,The Grand Mysterian
+Minosuke,Yamada,11,Defense Secretary
+Tetsu,Nakamura,12,Dr. Koda
+Heihachiro,Okawa,13,Translator
+Takeo,Oikawa,14,Newsreader
+Haruya,Kato,15,Villager
+Senkichi,Omura,16,Villager
+Yutaka,Sada,17,Policeman
+Hideo,Mihara,18,Military Officer
+Soji,Ubukata,19,Dr. Noda
+Mitsuo,Tsuda,20,Parliamentarian
+Ren,Imaizumi,21,Adachi's Assistant
+Shin,Otomo,22,Policeman
+Takuzo,Kumagai,23,Soldier
+Akio,Kusama,24,Policeman
+Shoichi,Hirose,25,Detective
+Tadao,Nakamaru,26,Soldier
+Kamayuki,Tsubono,27,Policeman
+Rinsaku,Ogata,28,Policeman
+George,Furness,30,Dr. Svenson
+Harold,Conway,31,Dr. DeGracia
+Haruo,Nakajima,32,Mogera,Soldier
+Katsumi,Tezuka,33,Mogera
+Yoshio,Katsube,99,Reporter
+Tadashi,Okabe,99,Soldier
+Minoru,Ito,99,Reporter
+Masaaki,Tachibana,99,Soldier,Policeman
+Keiji,Sakakida,99,Military Officer
+Kazuo,Hinata,99,Pilot
+Hideo,Shibuya,99,Policeman
+Junichiro,Mukai,99,Pilot

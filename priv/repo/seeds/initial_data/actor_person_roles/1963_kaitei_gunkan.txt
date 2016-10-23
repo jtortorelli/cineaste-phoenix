@@ -1,0 +1,38 @@
+Atragon
+Tadao,Takashima,1,Susumu Hatanaka
+Yoko,Fujiyama,2,Makoto Jinguji
+Yu,Fujiki,3,Yoshito Nishibe
+Kenji,Sahara,4,Unno
+Ken,Uehara,5,Admiral Kusumi
+Hiroshi,Koizumi,6,Detective Ito
+Jun,Tazaki,7,Captain Hachiro Jinguji
+Yoshibumi,Tajima,8,Lt. Amano
+Akihiko,Hirata,9,Mu Agent No. 23
+Hideyo,Amamoto,10,High Priest of Mu
+Susumu,Fujita,11,General
+Minoru,Takada,12,Military Officer
+Hisaya,Ito,13,Kidnapped Scientist
+Ikio,Sawamura,14,Taxi Driver
+Tetsuko,Kobayashi,15,Empress of Mu
+Hiroshi,Hasegawa,16,Atragon Crew
+Nadao,Kirino,17,Kidnapped Scientist
+Shin,Otomo,18,Military Officer
+Haruya,Sakamoto,19,Atragon Crew
+Tetsu,Nakamura,20,Cargo Ship Captain
+Yutaka,Nakayama,21,Cargo Ship Crew
+Mitsuo,Tsuda,22,Military Officer
+Koji,Uno,23,Policeman
+Rinsaku,Ogata,25,Military Officer
+Yutaka,Oka,27,Mihara Tourist
+Yukihiko,Gondo,28,Mihara Tourist
+Shoichi,Hirose,29,Mu Citizen
+Katsumi,Tezuka,30,Military Officer
+Takuzo,Kumagai,31,Military Officer
+Shiro,Tsuchiya,33,Atragon Crew
+Wataru,Omae,34,Soldier
+Hideo,Shibuya,38,Soldier
+Keisuke,Yamada,39,Military Officer
+Tadashi,Okabe,99,Soldier
+Yoshio,Katsube,99,Atragon Crew
+Haruo,Suzuki,99,Atragon Crew
+Osman,Yusef,99,Mu Soldier

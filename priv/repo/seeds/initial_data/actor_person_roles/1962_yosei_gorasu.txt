@@ -1,0 +1,48 @@
+Gorath
+Ryo,Ikebe,1,Dr. Tazawa
+Yumi,Shirakawa,2,Tomoko Sonoda
+Akira,Kubo,3,Tatsuma Kanai
+Kumi,Mizuno,4,Takiko Nomura
+Hiroshi,Tachikawa,5,Astronaut Wakabayashi
+Akihiko,Hirata,6,Captain Endo
+Kenji,Sahara,7,Lt. Saiki
+Jun,Tazaki,8,Captain Raizo Sonoda
+Ken,Uehara,9,Dr. Kono
+Takashi,Shimura,10,Dr. Keisuke Sonoda
+Seizaburo,Kawazu,11,Minister Tada
+Ko,Mishima,12,South Pole Engineer Sanada
+Sachio,Sakai,13,Doctor
+Takamaru,Sasaki,14,Prime Minister Seki
+Ko,Nishimura,15,Minister Murata
+Eitaro,Ozawa,16,Minister Kinami
+Masanari,Nihei,17,Astronaut Ito
+Kozo,Nomura,18,Satellite Commander
+Keiko,Sata,19,Secretary
+Hideyo,Amamoto,20,Barfly
+George,Furness,21,UN Ambassador
+Ross,Bennett,22,Gibson
+Junichiro,Mukai,23,Security Guard
+Nadao,Kirino,24,Lt. Manabe
+Fumio,Sakashita,25,Hayao Sonoda
+Ikio,Sawamura,26,Taxi Driver
+Rinsaku,Ogata,29,Spaceship Crew
+Tadashi,Okabe,33,Spaceship Crew
+Koji,Uno,34,Reporter
+Yukihiko,Gondo,35,Spaceship Crew
+Kenichiro,Maruyama,36,Spaceship Crew
+Yasuhiko,Saijo,37,Spaceship Crew
+Katsumi,Tezuka,38,Magma
+Wataru,Omae,42,Spaceship Crew
+Hideo,Shibuya,45,Reporter
+Takuzo,Kumagai,50,Minister
+Yoshio,Katsube,99,Reporter,Satellite Crew
+Somesho,Matsumoto,99,Minister
+Yutaka,Oka,99,South Pole Crew
+Kamayuki,Tsubono,99,Minister
+Akio,Kusama,99,Minister
+Keisuke,Yamada,99,Minister
+Keiji,Sakakida,99,Minister
+Obel,Wyatt,99,UN Ambassador
+Ken,Echigo,99,Satellite Crew
+Saburo,Iketani,99,TV Announcer
+Osman,Yusef,99,South Pole Crew

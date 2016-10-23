@@ -1,0 +1,33 @@
+The Invisible Man
+Seizaburo,Kawazu,1,Nanjo
+Miki,Sanjo,2,Michiyo
+Minoru,Takada,3,Yajima
+Yoshio,Tsuchiya,4,Komatsu
+Kenjiro,Uemura,5,Ken
+Kamatari,Fujiwara,6,Mari's Grandfather
+Fuyuki,Murakami,7,Newspaper Editor
+Yo,Shiomi,8,Scientist
+Sonosuke,Sawamura,9,Parliamentarian
+Seijiro,Onda,10,Commissioner
+Shin,Otomo,11,Police Chief
+Keiko,Kondo,13,Mari
+Fuminto,Matsuo,14,Yajima's Henchman
+Yutaka,Nakayama,15,Yajima's Henchman
+Haruo,Suzuki,18,Yajima's Henchman
+Shiro,Tsuciya,21,Parliamentarian
+Yutaka,Sada,22,Bus Passenger, Nightclub Mascot
+Haruo,Nakajima,23,Suicidal Invisible Man
+Akira,Sera,24,Food Stand Chef
+Mitsuo,Tsuda,25,Nightclub Patron
+Yutaka,Oka,27,Newsreader
+Shoichi,Hirose,28,Policeman
+Yasuhisa,Tsutsumi,29,Jewelry Store Clerk
+Takuzo,Kumagai,30,Parliamentarian
+Minoru,Ito,32,Driver
+Keiji,Sakakida,33,Policeman
+Haruya,Sakamoto,99,Detective,Bus Passenger
+Junichiro,Mukai,99,Detective,Bus Passenger
+Kazuo,Hinata,99,Reporter
+Kamayuki,Tsubono,99,Bus Passenger
+Koji,Uno,99,Bus Driver, Detective
+Ken,Echigo,99,Waiter

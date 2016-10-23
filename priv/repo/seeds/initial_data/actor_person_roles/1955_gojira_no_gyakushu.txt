@@ -1,0 +1,28 @@
+Godzilla Raids Again
+Hiroshi,Koizumi,1,Tsukioka
+Setsuko,Wakayama,2,Hidemi Yamaji
+Minoru,Chiaki,3,Kobayashi
+Takashi,Shimura,4,Dr. Kyohei Yamane
+Masao,Shimizu,5,Dr. Tadokoro
+Seijiro,Onda,6,Captain Terasawa
+Sonosuke,Sawamura,7,Hokkaido Branch Manager Shibeki
+Yoshio,Tsuchiya,8,Tajima
+Mayuri,Mokusho,9,Yasuko
+Minosuke,Yamada,10,Defense Secretary
+Yukio,Kasama,11,Mr. Yamaji
+Senkichi,Omura,12,Escaped Convict
+Ren,Yamamoto,13,Ikeda
+Shin,Otomo,14,Escaped Convict
+Shiro,Tsuchiya,15,Fishing Company Employee
+Takeo,Oikawa,16,Police Chief
+Sokichi,Maki,17,Escaped Convict
+Shoichi,Hirose,18,Escaped Convict
+Junpei,Natsuki,20,Escaped Convict
+Katsumi,Tezuka,22,Anguirus
+Haruo,Nakajima,23,Godzilla
+Miyoko,Hoshino,24,Nightclub Singer
+Masaaki,Tachibana,99,Policeman
+Koji,Uno,99,Assistant
+Keiji,Sakakida,99,Assistant
+Akira,Sera,99,Fishing Company Employee
+Tadao,Nakamaru,99,Policeman

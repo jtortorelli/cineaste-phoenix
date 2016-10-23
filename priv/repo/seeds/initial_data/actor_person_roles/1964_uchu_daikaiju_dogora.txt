@@ -1,0 +1,38 @@
+Dogora, the Space Monster
+Yosuke,Natsuki,1,Detective Komai
+Yoko,Fujiyama,2,Masayo Kirino
+Hiroshi,Koizumi,3,Dr. Kirino
+Akiko,Wakabayashi,4,Hamako
+Nobuo,Nakamura,5,Dr. Munakata
+Seizaburo,Kawazu,6,Gang Leader
+Robert,Dunham,7,Mark Jackson
+Susumu,Fujita,8,General Iwata
+Jun,Tazaki,9,Police Chief
+Yoshibumi,Tajima,10,Gangster
+Hideyo,Amamoto,11,Gangster
+Nadao,Kirino,12,Gangster
+Akira,Wakamatsu,13,Gangster
+Haruya,Kato,14,Gangster
+Jun,Funato,15,Detective Nitta
+Yasuhisa,Tsutsumi,16,Policeman
+Mitsuo,Tsuda,18,Soldier
+Takuzo,Kumagai,19,Military Advisor
+Chotaro,Togin,20,Truck Driver
+Shoichi,Hirose,21,Coal Miner
+Yutaka,Nakayama,22,Coal Miner
+Shiro,Tsuchiya,24,Coal Miner
+Haruya,Sakamoto,26,Truck Driver
+Hideo,Shibuya,27,Reporter
+Yutaka,Oka,28,Coal Miner
+Tadashi,Okabe,32,Policeman
+Wataru,Omae,33,Satellite Technician
+Koji,Uno,34,Coal Miner
+Yukihiko,Gondo,99,Train Attendant
+Kamayuki,Tsubono,99,Detective
+Haruo,Suzuki,99,Soldier
+Ken,Echigo,99,Soldier
+Keisuke,Yamada,99,Soldier
+Akio,Kusama,99,Soldier
+Masaaki,Tachibana,99,Soldier
+Rinsaku,Ogata,99,Soldier
+Yoshio,Katsube,99,Satellite Technician

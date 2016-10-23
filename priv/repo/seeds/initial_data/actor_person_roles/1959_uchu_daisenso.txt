@@ -1,0 +1,36 @@
+Battle in Outer Space
+Ryo,Ikebe,1,Major Ichiro Katsumiya
+Kyoko,Anzai,2,Etsuko,Shiraishi
+Minoru,Takada,3,Defense Commander
+Koreya,Senda,4,Dr. Adachi
+Leonard,Stanford,5,Dr. Richardson
+Harold,Conway,6,Dr. Immelman
+George,Wyman,7,Dr. Ahmed
+Elise,Richter,8,Sylvia
+Hisaya,Ito,9,Astronaut Kogure
+Yoshio,Tsuchiya,10,Astronaut Iwamura
+Nadao,Kirino,11,Astronaut Okada
+Kozo,Nomura,12,Space Jet Pilot
+Fuyuki,Murakami,13,Detective Iriake
+Ikio,Sawamura,14,Line Inspector
+Takuzo,Kumagai,15,Military Officer
+Katsumi,Tezuka,16,Military Officer
+Mitsuo,Tsuda,17,Military Officer
+Tadashi,Okabe,18,Military Officer
+Osman,Yusef,19,Astronaut
+Yasuhisa,Tsutsumi,24,Train Conductor
+Rinsaku,Ogata,28,Astronaut
+Keisuke,Yamada,29,UN Official
+Yutaka,Oka,31,Astronaut
+Shigeo,Kato,32,Train Conductor
+Yukihiko,Gondo,34,Space Station Crew
+Andrew,Hughes,99,UN Official
+Haruya,Sakamoto,99,Policeman
+Haruo,Suzuki,99,Detective
+Kazuo,Hinata,99,UN Official
+Junichiro,Mukai,99,Policeman
+Keiji,Sakakida,99,UN Official
+Minoru,Ito,99,Speaker
+Obel,Wyatt,99,Military Officer
+Saburo,Iketani,99,Newsreader
+Yoshio,Katsube,99,Attendant

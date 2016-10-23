@@ -1,0 +1,32 @@
+King Kong Escapes
+Akira,Takarada,1,Lt. Jiro Nomura
+Mie,Hama,2,Madame Piranha
+Rhodes,Reason,3,Carl Nelson
+Linda,Miller,4,Susan Watson
+Hideyo,Amamoto,5,Dr. Who
+Yoshibumi,Tajima,6,Who Henchman
+Sachio,Sakai,7,Who Henchman
+Ikio,Sawamura,9,Islander
+Nadao,Kirino,10,Who Henchman
+Shoichi,Hirose,11,Submarine Crew
+Kazuo,Suzuki,12,Who Henchman
+Toru,Ibuki,13,Who Henchman
+Naoya,Kusakawa,14,Who Henchman
+Susumu,Kurobe,15,Who Henchman
+Haruo,Nakajima,16,Bystander,King Kong
+Hiroshi,Sekida,17,Gorosaurus,Mechani-Kong
+Shigeo,Kato,99,Who Henchman
+Seishiro,Kuno,99,Who Henchman
+Tadashi,Okabe,99,Soldier
+Yoshio,Katsube,99,Who Henchman
+Yutaka,Oka,99,Submarine Crew
+Haruo,Suzuki,99,Who Henchman
+Haruya,Sakamoto,99,Soldier
+Hideo,Shibuya,99,Submarine Crew
+Kamayuki,Tsubono,99,Military Advisor
+Kazuo,Hinata,99,Military Advisor
+Masaaki,Tachibana,99,Soldier
+Osman,Yusef,99,Submarine Crew
+Rinsaku,Ogata,99,Submarine Crew
+Andrew,Hughes,99,UN Reporter
+Akio,Kusama,99,Soldier

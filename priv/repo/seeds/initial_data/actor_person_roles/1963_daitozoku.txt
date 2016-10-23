@@ -1,0 +1,30 @@
+Samurai Pirate
+Toshiro,Mifune,1,Sukeza
+Makoto,Sato,2,The Black Pirate
+Ichiro,Arishima,3,The Wizard of Kume
+Mitsuko,Kusabue,4,Sobei
+Mie,Hama,5,Princess Yaya
+Akiko,Wakabayashi,6,Yaya's Handmaiden
+Kumi,Mizuno,7,Miwa the Rebel Leader
+Tadao,Nakamaru,8,The Chancellor
+Jun,Tazaki,9,Slim
+Jun,Funato,10,The Prince of Ming
+Hideyo,Amamoto,11,Granny the Witch
+Takashi,Shimura,12,King Rasetsu
+Hideo,Sunazuka,13,Mustachioed Rebel
+Masanari,Nihei,14,Tall Rebel
+Shoji,Oki,15,Turbaned Rebel
+Yutaka,Nakayama,16,Samurai Ichizo
+Yoshio,Kosugi,17,Ming Advisor
+Nakajiro,Tomita,18,Samurai Tokubei
+Tetsu,Nakamura,19,Archer
+Nadao,Kirino,20,Samurai
+Junichiro,Mukai,22,Jail Keeper
+Yasuhisa,Tsutsumi,23,Samurai
+Hiroshi,Hasegawa,25,Palace Guard
+Eishu,Kin,26,Giant Bodyguard
+Haruo,Suzuki,27,Samurai
+Seishiro,Kuno,99,Prison Guard
+Akio,Kusama,99,Villager
+Keiji,Sakakida,99,Villager
+Yutaka,Oka,99,Pirate

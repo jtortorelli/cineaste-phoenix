@@ -1,0 +1,17 @@
+Matango
+Akira,Kubo,1,Kenji Murai
+Kumi,Mizuno,2,Mami Sekiguchi
+Hiroshi,Koizumi,3,Naoyuki Sakuta
+Kenji,Sahara,4,Senzo Koyama
+Hiroshi,Tachikawa,5,Etsuro Yoshida
+Yoshio,Tsuchiya,6,Masafumi Kasai
+Miki,Yashiro,7,Akiko Soma
+Hideyo,Amamoto,8,Mushroom Man
+Takuzo,Kumagai,9,Doctor
+Akio,Kusama,10,Official
+Yutaka,Oka,11,Doctor
+Keisuke,Yamada,12,Doctor
+Kazuo,Hinata,13,Official
+Katsumi,Tezuka,14,Official
+Haruo,Nakajima,15,Mushroom Man
+Masaki,Shinohara,18,Mushroom Man

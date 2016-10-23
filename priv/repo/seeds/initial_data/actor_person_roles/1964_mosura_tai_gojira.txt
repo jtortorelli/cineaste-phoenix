@@ -1,0 +1,46 @@
+Mothra vs. Godzilla
+Akira,Takarada,1,Ichiro Sakai
+Yuriko,Hoshi,2,Junko Nakanishi
+Hiroshi,Koizumi,3,Dr. Miura
+Yu,Fujiki,4,Jiro Nakamura
+Kenji,Sahara,5,Torahata
+Jun,Tazaki,7,Newspaper Editor
+Yoshibumi,Tajima,8,Kumayama
+Kenzo,Tabu,9,Industrial Park Developer
+Yutaka,Sada,10,School Principal
+Akira,Tani,11,Chief Fisherman
+Susumu,Fujita,12,General
+Ikio,Sawamura,13,Village Priest
+Ren,Yamamoto,14,Sailor
+Kozo,Nomura,15,Soldier
+Yasuhisa,Tsutsumi,16,Village Policeman
+Mitsuo,Tsuda,17,Soldier
+Shin,Otomo,18,Policeman
+Senkichi,Omura,19,Fisherman
+Yoshio,Kosugi,20,Infant Island Chief
+Miki,Yashiro,21,Schoolteacher
+Wataru,Omae,24,Kumayama's Henchman
+Shiro,Tsuchiya,25,Fisherman
+Takuzo,Kumagai,26,Fisherman
+Koji,Uno,27,Fisherman
+Yutaka,Nakayama,28,Fisherman
+Hideo,Shibuya,30,Reporter
+Ken,Echigo,32,Reporter
+Yukihiko,Gondo,33,Kumayama's Henchman
+Tadashi,Okabe,36,Soldier
+Haruya,Sakamoto,37,Soldier
+Seishiro,Kuno,38,Soldier
+Keisuke,Yamada,40,Soldier
+Rinsaku,Ogata,44,Islander
+Haruo,Suzuki,45,Radio Operator
+Katsumi,Tezuka,47,Godzilla
+Haruo,Nakajima,48,Godzilla
+Harold,Conway,99,Military Advisor (American Version)
+Osman,Yusef,99,Reporter (American Version)
+Yutaka,Oka,99,Hotel Clerk
+Masaaki,Tachibana,99,Soldier
+Kenichiro,Maruyama,99,Islander
+Keiji,Sakakida,99,Islander
+Kazuo,Hinata,99,Reporter
+Junpei,Natsuki,99,Reporter
+Yoshio,Katsube,99,Fisherman

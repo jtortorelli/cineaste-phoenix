@@ -1,0 +1,41 @@
+Monster Zero
+Akira,Takarada,1,Astronaut Fuji
+Nick,Adams,2,Astronaut Glenn
+Kumi,Mizuno,3,Namikawa
+Keiko,Sawai,4,Haruno Fuji
+Jun,Tazaki,5,Dr. Sakurai
+Yoshio,Tsuchiya,6,The Controller of Planet X
+Akira,Kubo,7,Tetsuo
+Takamaru,Sasaki,8,Prime Minister
+Fuyuki,Murakami,9,Minister
+Yoshibumi,Tajima,10,Soldier
+Kenzo,Tabu,11,Xian Commander
+Noriko,Sengoku,12,Tetsuo's Landlady
+Somesho,Matsumoto,13,Priest
+Gen,Shimizu,14,General
+Toru,Ibuki,15,Xian
+Kazuo,Suzuki,16,Xian
+Yasuhisa,Tsutsumi,17,Soldier
+Nadao,Kirino,18,Soldier
+Toki,Shiozawa,19,Minister
+Mitsuo,Tsuda,20,Soldier
+Takuzo,Kumagai,21,Soldier
+Koji,Uno,22,Xian
+Masaaki,Tachibana,23,Scientist
+Yutaka,Oka,24,Reporter
+Rinsaku,Ogata,25,Soldier
+Tadashi,Okabe,26,Reporter
+Kamayuki,Tsubono,29,Reporter
+Minoru,Ito,30,Reporter
+Haruo,Nakajima,31,Godzilla
+Masaki,Shinohara,32,Rodan
+Shoichi,Hirose,33,King Ghidorah
+Akio,Kusama,99,Military Advisor
+Haruo,Suzuki,99,Xian
+Akira,Wakamatsu,99,Xian
+Junpei,Natsuki,99,Scientist
+Haruya,Sakamoto,99,Soldier
+Keisuke,Yamada,99,Minister
+Kazuo,Hinata,99,Scientist
+Yoshio,Katsube,99,Xian
+Saburo,Iketani,99,Radio Announcer

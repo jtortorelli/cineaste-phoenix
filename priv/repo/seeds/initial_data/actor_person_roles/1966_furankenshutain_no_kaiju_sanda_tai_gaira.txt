@@ -1,0 +1,37 @@
+War of the Gargantuas
+Kenji,Sahara,1,Dr. Yuzo Majida
+Kumi,Mizuno,2,Akemi
+Russ,Tamblyn,3,Dr. Paul Stewart
+Jun,Tazaki,4,General Hashimoto
+Kipp,Hamilton,5,Nightclub Singer
+Yoshibumi,Tajima,6,Coast Guard
+Nobuo,Nakamura,7,Dr. Kida
+Hisaya,Ito,8,Coast Guard
+Nadao,Kirino,9,Soldier
+Yasuhisa,Tsutsumi,10,Soldier
+Heihachiro,Okawa,11,Doctor
+Shoichi,Hirose,12,Guide
+Kozo,Nomura,13,Soldier
+Ikio,Sawamura,14,Fisherman
+Ren,Yamamoto,15,Sailor
+Yasuhiko,Saijo,17,Bystander
+Haruya,Sakamoto,19,Soldier
+Mitsuo,Tsuda,20,Soldier
+Wataru,Omae,21,Air Traffic Controller
+Tadashi,Okabe,24,Reporter
+Yoshio,Katsube,25,Reporter
+Minoru,Ito,26,Reporter
+Shiro,Tsuchiya,27,Military Advisor
+Takuzo,Kumagai,28,Military Advisor
+Masaaki,Tachibana,31,Reporter
+Hideo,Shibuya,32,Reporter
+Yutaka,Oka,33,Reporter
+Haruo,Nakajima,34,Gaira
+Hiroshi,Sekida,35,Sanda
+Goro,Mutsumi,36,Dr. Paul Stewart (Voice)
+Akio,Kusama,99,Military Advisor
+Junpei,Natsuki,99,Reporter
+Kamayuki,Tsubono,99,Soldier
+Keisuke,Yamada,99,Military Advisor
+Seishiro,Kuno,99,Fisherman
+Rinsaku,Ogata,99,Soldier

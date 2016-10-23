@@ -1,0 +1,27 @@
+Godzilla vs. the Sea Monster
+Akira,Takarada,1,Yoshimura
+Kumi,Mizuno,2,Daiyo
+Akihiko,Hirata,3,Red Bamboo Captain Yamoto
+Jun,Tazaki,4,Red Bamboo Commander
+Hideo,Sunazuka,5,Nita
+Chotaro,Togin,6,Ichino
+Toru,Ibuki,7,Yata
+Toru,Watanabe,8,Ryota
+Hideyo,Amamoto,9,Red Bamboo Officer
+Ikio,Sawamura,10,Captive Islander
+Hisaya,Ito,11,Red Bamboo Scientist
+Shigeki,Ishida,12,Newspaper Editor
+Shoichi,Hirose,13,Escaped Islander
+Kazuo,Suzuki,14,Escaped Islander
+Yutaka,Sada,15,Villager
+Chieko,Nakakita,17,Yata's & Ryota's Mother
+Tadashi,Okabe,19,Red Bamboo Scientist
+Wataru,Omae,20,Reporter
+Kenichiro,Maruyama,21,Reporter
+Rinsaku,Ogata,22,Red Bamboo Soldier
+Yoshio,Katsube,23,Captive Islander,Red Bamboo Soldier
+Hideo,Shibuya,24,Policeman
+Haruo,Nakajima,25,Godzilla
+Hiroshi,Sekida,26,Ebirah
+Yukihiko,Gondo,99,Red Bamboo Soldier
+Junpei,Natsuki,99,Captive Islander

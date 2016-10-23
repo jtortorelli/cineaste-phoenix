@@ -1,0 +1,46 @@
+King Kong vs. Godzilla
+Tadao,Takashima,1,Osamu Sakurai
+Kenji,Sahara,2,Kazuo Fujita
+Yu,Fujiki,3,Kinsaburo Furue
+Ichiro,Arishima,4,Mr. Tako
+Jun,Tazaki,5,General Shinzo
+Akihiko,Hirata,6,Minister Shigezawa
+Mie,Hama,7,Fumiko Sakurai
+Akiko,Wakabayashi,8,Tamiye
+Yoshio,Kosugi,10,Faro Island Chief
+Yoshibumi,Tajima,11,Research Ship Captain
+Ikio,Sawamura,12,Island Priest
+Somesho,Matsumoto,13, Dr. Onuki
+Ko,Mishima,14,Coast Guard
+Sachio,Sakai,15,Obayashi
+Tatsuo,Matsumura,16,Dr. Makino
+Senkichi,Omura,17,Guide
+Ren,Yamamoto,18,Soldier
+Haruya,Kato,19,Obayashi's Assistant
+Shin,Otomo,20,Transport Ship Captain
+Nadao,Kirino,21,Soldier
+Yasuhisa,Tsutsumi,22,Soldier
+Yutaka,Nakayama,23,Sailor
+Naoya,Kusakawa,25,Reporter
+Mitsuo,Tsuda,26,Military Officer
+Kenzo,Tabu,28,TV Host
+Takuzo,Kumagai,29,Military Official
+Shiro,Tsuchiya,30,Evacuee
+Kazuo,Suzuki,32,Bystander
+Hideo,Shibuya,33,Reporter
+Masaaki,Tachibana,34,Reporter
+Haruya,Sakamoto,35,Soldier
+Douglas,Fein,41,Submarine Captain
+Harold,Conway,42,Scientist
+Osman,Yusef,43,Scientist
+Shoichi,Hirose,44,King Kong
+Haruo,Nakajima,45,Godzilla
+Katsumi,Tezuka,46,Godzilla
+Keisuke,Yamada,99,Military Official
+Rinsaku,Ogata,99,Soldier
+Tadashi,Okabe,99,Soldier
+Yukihiko,Gondo,99,Helicopter Pilot
+Haruo,Suzuki,99,Sailor
+Akio,Kusama,99,Military Official
+Kazuo,Hinata,99,Scientist
+Junpei,Natsuki,99,Islander

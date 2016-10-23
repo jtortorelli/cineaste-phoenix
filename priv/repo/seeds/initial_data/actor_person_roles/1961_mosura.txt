@@ -1,0 +1,45 @@
+Mothra
+Frankie,Sakai,1,Senichiro Fukuda
+Hiroshi,Koizumi,2,Dr. Shinichi Chujo
+Kyoko,Kagawa,3,Michi Hanamura
+Jerry,Ito,5,Clark Nelson
+Ken,Uehara,6,Dr. Harada
+Akihiko,Hirata,7,Doctor
+Kenji,Sahara,8,Helicopter Pilot
+Seizaburo,Kawazu,9,General
+Takashi,Shimura,10,Newspaper Editor
+Yoshio,Kosugi,11,Ship's Captain
+Yoshibumi,Tajima,12,Soldier
+Ren,Yamamoto,13,Marooned Sailor
+Haruya,Kato,14,Marooned Sailor
+Tetsu,Nakamura,16,Nelson's Henchman
+Shoichi,Hirose,17,Dam Worker
+Yasuhisa,Tsutsumi,20,Expedition Member
+Mitsuo,Tsuda,23,Cruise Ship Captain
+Tadashi,Okabe,26,Expedition Member
+Akira,Wakamatsu,27,Nelson's Henchman
+Osman,Yusef,29,Nelson's Henchman
+Obel,Wyatt,30,Rolisican Mayor
+Harold,Conway,31,Rolisican Ambassador
+Robert,Dunham,32,Rolisican Policeman
+Koji,Uno,34,Policeman
+Wataru,Omae,35,Coast Guard
+Katsumi,Tezuka,39,Mothra
+Hideo,Shibuya,42,Reporter
+Kazuo,Hinata,43,Military Officer
+Shigeo,Kato,44,Dam Worker
+Rinsaku,Ogata,45,Fighter Pilot
+Yutaka,Oka,46,Pilot
+Yoshio,Katsube,50,Expedition Member
+Akio,Kusama,52,Soldier
+Haruo,Nakajima,53,Mothra
+Junpei,Natsuki,56,Evacuee
+Hiroshi,Sekida,59,Cruise Liner Helmsman
+Masaaki,Tachibana,61,Reporter
+Haruya,Sakamoto,99,Policeman
+Kamayuki,Tsubono,99,Soldier
+Keiji,Sakakida,99,Soldier
+Masanari,Nihei,99,Policeman
+Minoru,Ito,99,Soldier
+Saburo,Iketani,99,Announcer
+Yukihiko,Gondo,99,Dam Worker

@@ -1,0 +1,67 @@
+The Birth of Japan
+Toshiro,Mifune,1,Prince Ousu,Susano-o
+Yoko,Tsukasa,2,Oto Tachibana
+Kumi,Mizuno,3,Azami
+Misa,Uehara,4,Kushinada
+Kyoko,Kagawa,5,Princess Miyazu
+Kinuyo,Tanaka,6,Princess Yamato
+Nobuko,Otowa,7,Dancing Goddess
+Haruko,Sugimura,8,Storyteller
+Akira,Kubo,9,Prince Ioki
+Akira,Takarada,10,Prince Wakatarashi
+Ganjiro,Nakamura,11,Emperor Keiko
+Eijiro,Tono,12,Otomo
+Akihiko,Hirata,13,Takehiko
+Ko,Mishima,14,Yakumo
+Hisaya,Ito,15,Kodate Otomo
+Jun,Tazaki,16,Kurohiko
+Takashi,Shimura,17,Elder Kumaso
+Kichijiro,Ueda,18,Hachihara
+Yoshio,Kosugi,19,Inaba
+Kozo,Nomura,20,Makeri Otomo
+Yu,Fujiki,21,Kojikahi
+Keiko,Muramatsu,23,Izanami
+Chieko,Nakakita,25,Tenazuchi
+Bokuzen,Hidari,26,Deity
+Minosuke,Yamada,27,Okuri
+Akira,Sera,28,Anazuchi
+Hajime,Izu,29,Prince Oji
+Yoshibumi,Tajima,30,Deity
+Fuyuki,Murakami,31,Deity
+Akira,Tani,32,Deity
+Junichiro,Mukai,33,Moroto
+Ikio,Sawamura,34,Deity
+Senkichi,Omura,35,Yamato Villager
+Yutaka,Sada,36,Yamato Villager
+Mitsuo,Tsuda,39,Yamato Soldier
+Nadao,Kirino,40,Yamato Soldier
+Shin,Otomo,41,Kumaso Soldier
+Shoichi,Hirose,44,Kumaso Soldier
+Shiro,Tsuchiya,45,Yamato Soldier
+Fuminto,Matsuo,46,Yamato Villager
+Yasuhisa,Tsutsumi,47,Yamato Soldier
+Takuzo,Kuamgai,49,Yamato Villager
+Haruya,Sakamoto,53,Yamato Soldier
+Rinsaku,Ogata,54,Yamato,Soldier
+Hiroyuki,Wakita,59,Izanagi
+Hideyo,Amamoto,60,Deity
+Keiju,Kobayashi,70,Amatsumara
+Daisuke,Kato,71,Futodama
+Norihei,Miki,72,Koyane
+Ichiro,Arishima,73,Ridouri
+Kingoro,Yanagiya,74,Omoikane
+Kenichi,Enomoto,75,Tamaso
+Taro,Asahiyo,76,Tajikarao
+Koji,Tsuruta,77,Younger Kumaso
+Setsuko,Hara,78,Amaterasu
+Akio,Kusama,99,Deity,Yamato Villager
+Ren,Yamamoto,99,Yamato Soldier
+Naoya,Kusakawa,99,Utte Soldier
+Masaaki,Tachibana,99,Yamato Soldier
+Ken,Echigo,99,Yamato Soldier
+Keiji,Sakakida,99,Yamato Villager
+Kazuo,Hinata,99,Utte Villager
+Kamayuki,Tsubono,99,Otomo Soldier
+Junpei,Natsuki,99,Owari Villager
+Yukihiko,Gondo,99,Yamato Villager
+Yutaka,Oka,99,Deity

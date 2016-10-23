@@ -1,0 +1,51 @@
+Ghidorah, the Three-Headed Monster
+Yosuke,Natsuki,1,Detective Shindo
+Yuriko,Hoshi,2,Naoko Shindo
+Hiroshi,Koizumi,3,Dr. Murai
+Takashi,Shimura,4,Dr. Tsukamoto
+Akiko,Wakabayashi,6,Princess Salno
+Hisaya,Ito,7,Malmess
+Susumu,Kurobe,8,Assassin
+Akihiko,Hirata,9,Chief Okita
+Kenji,Sahara,10,Newspaper Editor
+Toru,Ibuki,11,Assassin
+Kozo,Nomura,12,Geologist
+Yoshibumi,Tajima,13,Cruise Ship Captain
+Hideyo,Amamoto,14,Salno's Manservant
+Yoshio,Kosugi,15,Infant Island Chief
+Minoru,Takada,16,Defense Minister
+Yuriko,Hanabusa,17,Mrs. Shindo
+Haruya,Kato,18,Reporter
+Ikio,Sawamura,19,Fisherman
+Nakajiro,Tomita,20,General
+Shigeki,Ishida,21,Parliamentarian
+Shin,Otomo,22,Sergina Opposition Leader
+Yutaka,Nakayama,23,Mt. Aso Tourist
+Senkichi,Omura,24,Mt. Aso Tourist
+Somesho,Matsumoto,25,UFO Club President
+Kazuo,Suzuki,26,Assassin
+Senya,Aozora,27,TV Presenter
+Ichiya,Aozora,28,TV Presenter
+Shoichi,Hirose,29,King Ghidorah,Villager
+Heihachiro,Okawa,30,UFO Club Member
+Junichiro,Mukai,31,Parliamentarian
+Hideo,Shibuya,34,Volcanologist,Villager
+Katsumi,Tezuka,36,Godzilla
+Koji,Uno,37,Hotel Clerk
+Takuzo,Kumagai,41,Parliamentarian
+Mitsuo,Tsuda,42,Parliamentarian
+Yoshio,Katsube,43,Reporter
+Kamayuki,Tsubono,44,Soldier
+Ken,Echigo,47,Bystander
+Yutaka,Oka,51,Dam Worker
+Haruo,Nakajima,52,Godzilla
+Haruya,Sakamoto,54,Geologist
+Seishiro,Kuno,99,Waiter
+Minoru,Ito,99,Reporter
+Masaki,Shinohara,99,Rodan
+Tadashi,Okabe,99,Tsukamoto's Assistant
+Kazuo,Hinata,99,Parliamentarian,Serginan on Plane
+Keisuke,Yamada,99,Prime Minister
+Keiji,Sakakida,99,Serginan Official
+Junpei,Natsuki,99,UFO Club Member
+Akio,Kusama,99,Parliamentarian

@@ -1,0 +1,45 @@
+Frankenstein Conquers the World
+Tadao,Takashima,1,Dr. Yuzo Kawaji
+Nick,Adams,2,Dr. James Bowen
+Kumi,Mizuno,3,Dr. Sueko Togami
+Yoshio,Tsuchiya,4,Kawai
+Koji,Furuhata,5,Frankenstein
+Jun,Tazaki,6,Officer Nishi
+Susumu,Fujita,7,Osaka Police Chief
+Takashi,Shimura,8,Axis Scientist
+Nobuo,Nakamura,9,Skeptical Museum Curator
+Kenji,Sahara,10,Policeman
+Hisaya,Ito,11,Policeman
+Yoshibumi,Tajima,12,Axis Submarine Captain
+Kozo,Nomura,13,Reporter
+Haruya,Kato,14,TV Reporter
+Ikio,Sawamura,15,Man Walking Dog
+Yoshio,Kosugi,16,Soldier
+Keiko,Sawai,18,Kazuko
+Peter,Mann,20,Dr. Liesendorf
+Ren,Yamamoto,21,Kawai's Assistant
+Yutaka,Sada,22,Laboratory Administrator
+Kenzo,Tabu,23,Skeptical Reporter
+Shigeki,Ishida,24,Skeptical Scientist
+Haruo,Nakajima,25,Baragon
+Yutaka,Nakayama,26,TV Reporter
+Senkichi,Omura,27,TV Cameraman
+Nadao,Kirino,28,Policeman
+Yasuhiko,Saijo,29,Reporter
+Shin,Otomo,30,Policeman
+Shoichi,Hirose,31,Miner
+Junichiro,Mukai,32,Village Policeman
+Mitsuo,Tsuda,34,Miner
+Hideo,Shibuya,36,Reporter
+Masaaki,Tachibana,38,Reporter
+Tadashi,Okabe,39,Reporter
+Rinsaku,Ogata,40,Soldier
+Yoshio,Katsube,99,Bystander
+Minoru,Ito,99,Scientist
+Keiji,Sakakida,99,Scientist
+Kazuo,Hinata,99,Reporter
+Akio,Kusama,99,Policeman
+Kamayuki,Tsubono,99,Policeman
+Junpei,Natsuki,99,Villager
+Haruya,Sakamoto,99,Axis Soldier
+Haruo,Suzuki,99,Reporter

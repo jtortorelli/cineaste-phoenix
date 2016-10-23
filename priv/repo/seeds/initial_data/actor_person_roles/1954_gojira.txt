@@ -1,0 +1,41 @@
+Godzilla, King of the Monsters
+Akira,Takarada,1,Hideto Ogata
+Momoko,Kochi,2,Emiko Yamane
+Akihiko,Hirata,3,Dr. Daisuke Serizawa
+Takashi,Shimura,4,Dr. Kyohei Yamane
+Fuyuki,Murakami,5,Dr. Tanabe
+Sachio,Sakai,6,Hagiwara
+Toranosuke,Ogawa,7,Fishing Company President
+Ren,Yamamoto,8,Masaji
+Kan,Hayashi,9,Diet Chairman
+Seijiro,Onda,10,Parliamentarian
+Takeo,Oikawa,11,Defense Secretary
+Keiji,Sakakida,12,Mayor Inada
+Toyoaki,Suzuki,13,Shinkichi
+Kuninori,Kodo,14,Izuma
+Kin,Sugai,15,Parliamentarian
+Shizuko,Azuma,17,Cruise Passenger
+Tadashi,Okabe,19,Yamane's Assistant
+Kiyoshi,Kimata,20,Cruise Passenger
+Ren,Imaizumi,21,Coast Guard
+Masaaki,Tachibana,22,Doomed Reporter
+Yasuhisa,Tsutsumi,24,Islander
+Saburo,Iketani,26,Reporter
+Katsumi,Tezuka,27,Newspaper Editor,Godzilla
+Haruo,Nakajima,28,Newspaper Reporter,Godzilla
+Yutaka,Sada,99,Defense Official
+Takuzo,Kumagai,99,Defense Official
+Yu,Fujiki,99,Ship's Radio Operator
+Shoichi,Hirose,99,Parliamentarian
+Sokichi,Maki,99,Coast Guard
+Junpei,Natsuki,99,Substation Operator
+Junichiro,Mukai,99,Defense Official,Reporter
+Kamayuki,Tsubono,99,Coast Guard
+Kazuo,Hinata,99,Defense Official
+Ken,Echigo,99,Sailor
+Kenji,Sahara,99,Cruise Passenger,Reporter
+Koji,Uno,99,Correspondent
+Mitsuo,Tsuda,99,Policeman
+Rinsaku,Ogata,99,Radio Operator
+Akira,Sera,99,Radio Operator
+Hideo,Shibuya,99,Reporter

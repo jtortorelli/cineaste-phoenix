@@ -1,0 +1,19 @@
+Son of Godzilla
+Tadao,Takashima,1,Dr. Kusumi
+Beverly,Maeda,2,Saeko
+Akira,Kubo,3,Goro Maki
+Akihiko,Hirata,4,Fujisaki
+Kenji,Sahara,5,Morio
+Yoshio,Tsuchiya,6,Furukawa
+Susumu,Kurobe,7,Pilot
+Kazuo,Suzuki,8,Pilot
+Kenichiro,Maruyama,9,Ozawa
+Seishiro,Kuno,10,Tashiro
+Yasuhiko,Saijo,11,Suzuki
+Chotaro,Togin,12,Pilot
+Wataru,Omae,13,Pilot
+Seiji,Onaka,14,Godzilla
+Hiroshi,Sekida,15,Godzilla
+Haruo,Nakajima,16,Godzilla
+Masao,Fukasawa,17,Minya
+Osman,Yusef,99,Submarine Officer

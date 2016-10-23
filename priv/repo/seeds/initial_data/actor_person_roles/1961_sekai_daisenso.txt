@@ -1,0 +1,41 @@
+The Last War
+Frankie,Sakai,1,Mokichi Tamura
+Akira,Takarada,2,Takano
+Yuriko,Hoshi,3,Saeko Tamura
+Nobuko,Otowa,4,Yoshi Tamura
+Yumi,Shirakawa,5,Sanae Ebara
+Chishu,Ryu,6,Ebara
+Jerry,Ito,7,Watkins
+Eijiro,Tono,8,Takano's Captain
+So,Yamamura,9,Prime Minister
+Ken,Uehara,10,Minister
+Seizaburo,Kawazu,11,Minister
+Nobuo,Nakamura,12,Cabinet Secretary
+Chieko,Nakakita,13,Ohara
+Minoru,Takada,14,Missile Defense Officer
+Shigeki,Ishida,15,Press Club Chauffeur
+Kozo,Nomura,17,Tamura's Stock Broker
+Yutaka,Sada,19,Reporter
+Nadao,Kirino,20,Missile Defense Officer
+Koji,Uno,21,Defense Officer
+Takuzo,Kumagai,26,Minister
+Soji,Ubukata,27,Minister
+Shiro,Tsuchiya,28,Minister
+Naoya,Kusakawa,30,Helicopter Crew
+Wataru,Omae,31,Sailor
+Yoshio,Katsube,32,Reporter
+Masaki,Shinohara,33,Defense Crew
+Yutaka,Oka,34,Defense Crew
+Harold,Conway,52,Federation Missile Commander
+Osman,Yusef,53,Alliance Pilot
+Hiroshi,Sekida,99,TV Singer
+Obel,Wyatt,99,Alliance Officer
+Saburo,Iketani,99,TV Announcer
+Masanari,Nihei,99,TV Singer
+Ken,Echigo,99,TV Singer
+Kamayuki,Tsubono,99,Press Club Chauffeur
+Kazuo,Hinata,99,Official
+Masaaki,Tachibana,99,Reporter,Security Guard
+Akio,Kusama,99,Press Club Chauffeur
+Haruo,Suzuki,99,Defense Officer
+Hideo,Shibuya,99,Sailor

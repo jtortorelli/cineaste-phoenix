@@ -1,0 +1,45 @@
+Destroy All Monsters
+Akira,Kubo,1,Katsuo Yamabe
+Yukiko,Kobayashi,2,Kyoko Manabe
+Kyoko,Ai,3,Kilaak Queen
+Jun,Tazaki,4,Dr. Yoshido
+Yoshio,Tsuchiya,5,Dr. Otani
+Kenji,Sahara,6,Moon Base Commander Nishikawa
+Susumu,Kurobe,7,Possessed Monster Island Tech
+Hisaya,Ito,8,Major Tada
+Yoshibumi,Tajima,9,Defense Chief Sugiyama
+Nadao,Kirino,10,Special Police
+Naoya,Kusakawa,11,Special Police
+Ikio,Sawamura,12,Mountaineer
+Wataru,Omae,13,SY-3 Pilot
+Kazuo,Suzuki,14,Possessed Monster Island Tech
+Yutaka,Sada,15,Village Policeman
+Chotaro,Togin,16,SY-3 Pilot Ogata
+Yasuhiko,Saijo,17,SY-3 Pilot
+Seishiro,Kuno,18,SY-3 Pilot
+Kenichiro,Maruyama,19,Moon Base Tech
+Toru,Ibuki,20,Possessed Monster Island Tech
+Ken,Echigo,21,SY-3 Pilot
+Minoru,Ito,22,Possessed Monster Island Tech
+Hideo,Shibuya,23,Reporter
+Yoshio,Katsube,24,UNSC Tech
+Kamayuki,Tsubono,25,Special Police
+Tadashi,Okabe,26,Mt. Fuji Reporter
+Haruya,Sakamoto,27,Military Advisor
+Rinsaku,Ogata,28,Military Advisor
+Yukihiko,Gondo,29,Soldier
+Yutaka,Oka,30,Reporter
+Haruo,Nakajima,36,Godzilla,Military Advisor
+Hiroshi,Sekida,37,Anguiris,Gorosaurus
+Teruo,Aragaki,38,Rodan
+Susumu,Utsumi,39,King Ghidorah
+Masao,Fukasawa,40,Minya
+Saburo,Iketani,41,Radio Announcer
+Heihachiro,Okawa,42,UNSC Scientist
+Andrew,Hughes,43,Dr. Stevenson
+Junpei,Natsuki,99,Military Advisor
+Kazuo,Hinata,99,Military Advisor
+Masaaki,Tachibana,99,Military Advisor
+Soji,Ubukata,99,Reporter
+Akio,Kusama,99,Monster Island Tech,Military Advisor
+Takuzo,Kumagai,99,Reporter

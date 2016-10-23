@@ -1,0 +1,31 @@
+The Adventure of Taklamakan
+Toshiro,Mifune,1,Osami
+Tatsuya,Mihashi,2,The King
+Tadao,Nakamaru,3,Ensai
+Makoto,Sato,4,Gorjaka the Bandit
+Mie,Hama,5,The Innkeeper's Daughter
+Akiko,Wakabayashi,6,The Chamberlain's Daughter
+Yumi,Shirakawa,7,The Queen
+Ichiro,Arishima,8,The Wizard Hermit
+Jun,Tazaki,9,The Innkeeper
+Akihiko,Hirata,10,The Chamberlain
+Susumu,Kurobe,11,Palace Guard
+Hideyo,Amamoto,12,Granny the Witch
+Toshio,Kurosawa,13,Osami's Brother
+Hiroko,Sakurai,14,The Queen's Handmaiden
+Shoji,Oki,15,Sundara
+Sachio,Sakai,16,Caravan Leader
+Shigeki,Ishida,17,Royal Advisor
+Shunji,Kasuga,18,Royal Advisor
+Naoya,Kusakawa,19,Palace Guard
+Ren,Yamamoto,20,Jail Keeper
+Ikio,Sawamura,21,Slave Auctioneer
+Minoru,Takada,22,Buddhist Priest
+Hiroshi,Hasegawa,22,Palace Guard
+Shiro,Tsuchiya,27,Merchant
+Minoru,Ito,99,Villager
+Yoshio,Katsube,99,Villager
+Yukihiko,Gondo,99,Palace Guard
+Junpei,Natsuki,99,Villager
+Keiji,Sakakida,99,Villager
+Masaaki,Tachibana,99,Villager

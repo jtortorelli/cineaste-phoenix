@@ -1,0 +1,39 @@
+The Secret of the Telegian
+Koji,Tsuruta,1,Kirioka
+Yumi,Shirakawa,2,Akiko Chujo
+Seizaburo,Kawazu,3,Onishi
+Yoshio,Tsuchiya,4,Detective Ozaki
+Tadao,Nakamura,5,Tsudo
+Akihiko,Hirata,6,Detective Kobayashi
+Takamaru,Sasaki,7,Dr. Nikki
+Yoshibumi,Tajima,8,Takamasa
+Fuyuki,Murakami,9,Dr. Miura
+Ikio,Sawamura,10,Thriller Show Announcer
+Sachio,Sakai,11,Taki
+Shin,Otomo,12,Tsukamoto
+Ren,Yamamoto,13,Detective Marune
+Fuminto,Matsuo,14,Reporter
+Senkichi,Omura,17,Islander
+Yutaka,Sada,18,Policeman
+Akira,Sera,19,Caretaker
+Hideyo,Amamoto,20,Bodyguard
+Shoichi,Hirose,21,Bodyguard
+Nadao,Kirino,22,Bodyguard
+Shiro,Tsuchiya,23,Police Executive
+Takuzo,Kumagai,24,Tourist
+Tadashi,Okabe,26,Policeman
+Yutaka,Nakayama,27,Waiter
+Koji,Uno,28,Delivery Truck Driver
+Tatsuo,Matsumura,29,Newspaper Editor
+Yasuhisa,Tsutsumi,30,Reporter
+Yasuhiko,Saijo,35,Reporter
+Junichiro,Mukai,40,Police Executive
+Hideo,Shibuya,42,Policeman
+Yoshio,Katsube,99,Policeman
+Minoru,Ito,99,Thriller Show Employee
+Yutaka,Oka,99,Reporter
+Yukihiko,Gondo,99,Policeman
+Kazuo,Hinata,99,Waiter
+Akio,Kusama,99,Police Executive
+Masaaki,Tachibana,99,Crime Scene Investigator
+Ken,Echigo,99,Policeman

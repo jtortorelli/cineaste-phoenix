@@ -1,0 +1,39 @@
+The Human Vapor
+Tatsuya,Mihashi,1,Detective Okamoto
+Kaoru,Yachigusa,2,Fujichiyo Kasuga
+Yoshio,Tsuchiya,3,Mizuno
+Keiko,Sata,4,Kyoko Kono
+Hisaya,Ito,5,Dr. Tamiya
+Yoshibumi,Tajima,6,Detective Tabata
+Yoshio,Kosugi,7,Detective Inao
+Fuyuki,Murakami,8,Dr. Sano
+Bokuzen,Hidari,9,Jiya (Kasuga's Manservant)
+Takamaru,Sasaki,10,Police Executive
+Minosuke,Yamada,11,Newspaper Executive
+Tatsuo,Matsumura,12,Newspaper Editor
+Yoyo,Miyata,13,Bank Official
+Ko,Mishima,14,Detective Fujita
+Kozo,Nomura,15,Reporter Kawasaki
+Ren,Yamamoto,16,Nishiyama
+Somesho,Matsumoto,17,Kasuga's Instructor
+Yasuhisa,Tsutsumi,18,Policeman
+Shoichi,Hirose,20,Jail Officer
+Tetsu,Nakamura,21,Newspaper Executive
+Toki,Shiozawa,22,Instructor's Wife
+Takuzo,Kumagai,23,Newspaper Executive
+Kamayuki,Tsubono,24,Detective Osaki
+Rinasku,Ogata,25,Policeman
+Keiji,Sakakida,26,Jail Officer
+Yutaka,Oka,27,Man in Audience
+Keisuke,Yamada,28,Police Executive
+Yukihiko,Gondo,29,Detective Hotta
+Akio,Kusama,30,Police Executive
+Hideo,Shibuya,34,Banker
+Masaaki,Tachibana,35,Reporter
+Minoru,Ito,38,Reporter
+Wataru,Omae,39,Reporter
+Yoshio,Katsube,99,Reporter
+Ken,Echigo,99,Scientist
+Kazuo,Hinata,99,Bank Official
+Junpei,Natsuki,99,Reporter
+Haruo,Suzuki,99,Policeman

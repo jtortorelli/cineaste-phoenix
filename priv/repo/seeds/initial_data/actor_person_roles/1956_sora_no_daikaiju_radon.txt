@@ -1,0 +1,32 @@
+Rodan
+Kenji,Sahara,1,Shigeru Kawamura
+Yumi,Shirakawa,2,Kiyo
+Akio,Kobori,3,Chief Nishimura
+Akihiko,Hirata,4,Dr. Kashiwagi
+Fuyuki,Murakami,5,Dr. Minami
+Minosuke,Yamada,7,Mining Chief Osaki
+Yoshibumi,Tajima,8,Izeki
+Fuminto,Matsuo,10,Dr. Hayama
+Akio,Kusama,12,Tsuda
+Hideo,Mihara,15,Air Force Commander
+Ren,Imaizumi,16,Dr. Sunagawa
+Rinsaku,Ogata,20,Goro
+Keiji,Sakakida,21,Miner
+Takuzo,Kumagai,22,Policeman
+Junichiro,Mukai,24,Air Force Officer
+Mitsuo,Tsuda,25,Air Force Officer
+Shoichi,Hirose,30,Meganulon,Pilot
+Koji,Uno,34,Reporter
+Tadashi,Okabe,35,Reporter
+Yutaka,Oka,36,Pilot
+Masaaki,Tachibana,41,Policeman
+Yasuhisa,Tsutsumi,45,Pilot
+Haruya,Sakamoto,49,Miner
+Kamayuki,Tsubono,51,Air Force Officer,Police Chemist
+Hideo,Shibuya,54,Miner
+Haruo,Suzuki,55,Coal Car Staff
+Ken,Echigo,58,Policeman
+Katsumi,Tezuka,61,Meganulon,Hotel Manager
+Haruo,Nakajima,62,Soldier,Rodan
+Ren,Yamamoto,99,Soldier,
+Saburo,Iketani,99,Newsreader

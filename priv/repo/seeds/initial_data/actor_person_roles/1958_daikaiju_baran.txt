@@ -1,0 +1,29 @@
+Varan the Unbelievable
+Kozo,Nomura,1,Kenji Uozaki
+Ayumi,Sonoda,2,Yuriko Shinjo
+Koreya,Senda,3,Dr. Sugimoto
+Akihiko,Hirata,4,Dr. Fujimora
+Fuyuki,Murakami,5,Dr. Majima
+Yoshio,Tsuchiya,6,Officer Katsumoto
+Minosuke,Yamada,7,Defense Secretary
+Hisaya,Ito,8,Ichiro Shinjo
+Yoshibumi,Tajima,9,Naval Officer
+Nadao,Kirino,10,Yutaka Wada
+Akira,Sera,11,Village Priest
+Akio,Kusama,12,Soldier
+Fuminto,Matsuo,15,Horiguchi
+Soji,Ubukata,16,Policeman
+Mitsuo,Tsuda,21,Soldier
+Takuzo,Kumagai,22,Soldier
+Shoichi,Hirose,23,Fisherman
+Keisuke,Yamada,24,Soldier
+Hideo,Shibuya,25,Reporter
+Masaki,Shinohara,27,Fisherman
+Rinsaku,Ogata,33,Soldier
+Junichiro,Mukai,34,Soldier
+Haruya,Sakamoto,40,Soldier
+Katsumi,Tezuka,46,Varan
+Haruo,Nakajima,47,Varan
+Yoshio,Katsube,99,Reporter
+Keiji,Sakakida,99,Truck Driver
+Yutaka,Oka,99,Bomber Pilot

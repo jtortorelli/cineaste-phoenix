@@ -1,0 +1,44 @@
+The H-Man
+Yumi,Shirakawa,1,Chikako Arai
+Kenji,Sahara,2,Dr. Masada
+Akihiko,Hirata,3,Detective Tominaga
+Eitaro,Ozawa,4,Detective Miyashita
+Koreya,Senda,5,Dr. Maki
+Makoto,Sato,6,Uchida
+Hisaya,Ito,7,Misaki
+Yoshio,Tsuchiya,9,Detective Taguchi
+Ko,Mishima,11,Gangster
+Yoshibumi,Tajima,12,Detective Sakata
+Tetsu,Nakamura,13,Mr. Chin
+Haruya,Kato,14,Fisherman
+Senkichi,Oura,15,Fisherman
+Ayumi,Sonoda,16,Nightclub Dancer
+Kan,Hayashi,17,Police Executive
+Minosuke,Yamada,18,Police Executive
+Jun,Fujio,19,Nishiyama
+Ren,Yamamoto,20,Gangster
+Akira,Sera,21,Fisherman
+Tadao,Nakamaru,22,Detective Seki
+Yosuke,Natsuki,23,Bystander
+Nadao,Kirino,27,Gangster Waiter
+Yutaka,Sada,28,Taxi Driver
+Shin,Otomo,29,Gangster
+Soji,Ubukata,30,Police Executive
+Mitsuo,Tsuda,31,Police Executive
+Yutaka,Nakayama,32,Informant Gangster
+Kamayuki,Tsubono,33,Detective Ogawa
+Shigeo,Kato,34,Fisherman
+Yutaka,Oka,35,Soldier
+Shoichi,Hirose,36,Fireman
+Takuzo,Kumagai,37,Soldier
+Akio,Kusama,38,Police Chemist
+Shiro,Tsuchiya,39,Police Executive
+Katsumi,Tezuka,40,Fishing Captain
+Haruo,Nakajima,41,Fisherman
+Hideo,Shibuya,99,Reporter
+Junichiro,Mukai,99,Soldier
+Haruo,Suzuki,99,Policeman
+Masaaki,Tachibana,99,Waiter
+Yoshio,Katsube,99,Reporter
+Kazuo,Hinata,99,Barfly,Police Executive
+Yukihiko,Gondo,99,Policeman
