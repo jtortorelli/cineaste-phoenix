@@ -1,3 +1,12 @@
 <div class="jumbotron">
   <h2>Film Index</h2>  
 </div>
+<div class="container">
+  <ul>
+    <%= for view <- @film_index_views do %>
+    <li>
+      <%= link "#{view.title} (#{view.year})", to: film_path(@conn, :show, view.id) %>
+    </li>
+    <% end %>
+  </ul>
+</div>
