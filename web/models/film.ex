@@ -21,4 +21,12 @@ defmodule Cineaste.Film do
     |> cast(params, [:title, :release_date, :duration, :showcase])
     |> validate_required([:title, :release_date, :duration, :showcase])
   end
+  
+  def sort_title(film) do
+    if (String.starts_with?(film.title, "The ")) do
+      String.trim_leading(film.title, "The ")
+    else
+      film.title
+    end
+  end
 end
