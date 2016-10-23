@@ -7,19 +7,34 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Cineaste!</title>
+    <title>Godzilla Cineaste</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
   <body>
     <div class="container">
       <header class="header">
-        <nav role="navigation">
-          <ul class="nav nav-pills pull-right">
-            <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
-          </ul>
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#cineaste-navbar" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="<%= home_path(@conn, :index)%>">
+                    <img alt="Brand" src="<%= static_path(@conn, "/images/c-logo-sm.png")%>" width="20" height="20">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="cineaste-navbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="<%= film_path(@conn, :index) %>">Films</a></li>
+                    <li><a href="<%= people_path(@conn, :index) %>">People</a></li>
+                </ul>
+            </div>
+          </div>
         </nav>
-        <span class="logo"></span>
       </header>
 
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>

@@ -16,7 +16,8 @@ defmodule Cineaste.Router do
   scope "/", Cineaste do
     pipe_through :browser # Use the default browser stack
 
-    get "/", PageController, :index
+    # get "/", PageController, :index
+    get "/", HomeController, :index
     get "/films", FilmController, :index
     get "/films/:id", FilmController, :show
     get "/people", PeopleController, :index
