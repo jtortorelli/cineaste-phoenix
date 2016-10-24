@@ -14,7 +14,8 @@ defmodule Cineaste.Film do
     field :aliases, {:array, :string}
     many_to_many :staff, Cineaste.Person, join_through: Cineaste.StaffPersonRole
     many_to_many :cast, Cineaste.Person, join_through: Cineaste.ActorPersonRole
-    many_to_many :studio, Cineaste.Studio, join_through: Cineaste.StudioFilm
+    many_to_many :studios, Cineaste.Studio, join_through: Cineaste.StudioFilm
+    many_to_many :series, Cineaste.Series, join_through: Cineaste.SeriesFilm
   end
 
   def changeset(film, params \\ %{}) do

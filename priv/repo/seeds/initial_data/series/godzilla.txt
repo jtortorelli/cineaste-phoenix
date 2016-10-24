@@ -1,0 +1,10 @@
+Godzilla
+1,Godzilla_ King of the Monsters
+2,Godzilla Raids Again
+3,King Kong vs. Godzilla
+4,Mothra vs. Godzilla
+5,Ghidorah_ the Three-Headed Monster
+6,Monster Zero
+7,Godzilla vs. the Sea Monster
+8,Son of Godzilla
+9,Destroy All Monsters
