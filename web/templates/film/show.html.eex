@@ -1,4 +1,10 @@
 <div class="jumbotron">
   <h2><%= @film.title %></h2>
-  <img src="<%= static_path(@conn, "/images/posters/#{@film.id}.jpg")%>" height="400" width="270" />
+</div>
+<div class="row">
+  <div class="col-md-4">
+    <div id="poster">
+      <img src="<%= static_path(@conn, "/images/posters/#{@film.id}.jpg")%>" height="400" width="270" />
+    </div>
+  </div>
 </div>
