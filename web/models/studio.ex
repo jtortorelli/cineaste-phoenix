@@ -5,6 +5,7 @@ defmodule Cineaste.Studio do
   @derive {Phoenix.Param, key: :id}
   schema "studios" do
     field :name, :string
+    many_to_many :film, Cineaste.Film, join_through: Cineaste.StudioFilm
   end
   
   def changset(studio, params \\ %{}) do
