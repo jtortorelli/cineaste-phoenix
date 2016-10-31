@@ -11,6 +11,10 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
+## Data Seeding
+
+Application data is inserted to Postgres step wise using seed scripts in `priv/repo/seeds/initial_data`. Scripts are run using `mix run <path>`. Scripts are dependent on order. A master script for inserting data has been considered, but given the amount of data that will potentially be included in this application, the inclusion of a SQL dump file is far more likely as a means of standing up the application for development.
+
 ## Heroku
 
 Application (such as it is at this time) is deployed at [`murmuring-mountain-10497.herokuapp.com`](https://murmuring-mountain-10497.herokuapp.com). Provisioning of domain name `godzillacineaste.net` is in progress.
