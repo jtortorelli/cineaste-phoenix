@@ -9,7 +9,7 @@ defmodule Cineaste.StaffPersonRole do
     field :order, :integer, default: 99
   end
 
-  def changset(staff_role, params \\ {}) do
+  def changset(staff_role, params \\ %{}) do
     staff_role
     |> cast(params, [:person_id, :film_id, :role])
     |> validate_required([:person_id, :film_id, :role])
