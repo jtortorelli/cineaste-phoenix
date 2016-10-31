@@ -13,7 +13,7 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
 
 ## Heroku
 
-Application (such as it is at this time) is deployed at murmuring-mountain-10497.herokuapp.com. Provisioning of domain name godzillacineaste.net is in progress.
+Application (such as it is at this time) is deployed at [`murmuring-mountain-10497.herokuapp.com`](https://murmuring-mountain-10497.herokuapp.com). Provisioning of domain name `godzillacineaste.net` is in progress.
 
 ## Learn more
 
