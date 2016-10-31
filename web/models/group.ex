@@ -10,4 +10,10 @@ defmodule Cineaste.Group do
     field :active_end, :integer
     field :props, {:map, :string}
   end
+  
+  def changeset(group, params \\ %{}) do
+    group
+    |> cast(params, [:name, :showcase])
+    |> validate_required([:name, :showcase]) 
+  end
 end
