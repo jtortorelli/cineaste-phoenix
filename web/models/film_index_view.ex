@@ -9,7 +9,7 @@ defmodule Cineaste.FilmIndexView do
     field :aliases, {:array, :string}
   end
   
-  def changeset(film_index_view, params \\ {}) do
+  def changeset(film_index_view, params \\ %{}) do
      film_index_view
      |> cast(params, [:id, :title, :year])
      |> validate_required([:id, :title, :year])
