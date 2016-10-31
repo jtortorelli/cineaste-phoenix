@@ -10,22 +10,6 @@
 </div>
 <div class="row">
   <div class="col-mid-4">
-    <div id="staff">
-      <table class="table">
-        <%= for view <- @film_staff_views do %>
-        <tr>
-          <td>
-            <%= view.role %>
-          </td>
-          <td>
-            <%= for staff <- sorted_staff(view.staff) do %>
-              <%= staff.name %>
-              <br />
-            <% end %>
-          </td>
-        </tr>
-        <% end %>
-      </table>
-    </div>
+    <%= render "film_staff.html", film_staff_views: @film_staff_views %>
   </div>
 </div>
