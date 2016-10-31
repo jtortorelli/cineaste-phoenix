@@ -10,7 +10,9 @@ defmodule Cineaste.FilmController do
 
   def show(conn, %{"id" => id}) do
     film = Repo.get!(Film, id)
-    render conn, "show.html", film: film
+    film_staff_views = Repo.all(from view in Cineaste.FilmStaffView, where: view.film_id == ^film.id)
+    |> Enum.sort_by(fn(view) -> List.first(view.staff).order end)
+    render conn, "show.html", film: film, film_staff_views: film_staff_views
   end
 
 end
