@@ -97,7 +97,7 @@ roles = [
     film_id: last_war.id,
     person_id: ikuma_dan.id,
     role: "Music",
-    order: 0
+    order: 10
   },
   %StaffPersonRole{
     film_id: last_war.id,
