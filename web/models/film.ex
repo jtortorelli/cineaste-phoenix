@@ -8,9 +8,7 @@ defmodule Cineaste.Film do
     field :release_date, Ecto.Date
     field :duration, :integer
     field :showcase, :boolean, default: false
-    field :original_title, :string
-    field :original_transliteration, :string
-    field :original_translation, :string
+    field :props, {:map, :string}
     field :aliases, {:array, :string}
     many_to_many :staff, Cineaste.Person, join_through: Cineaste.StaffPersonRole
     many_to_many :cast, Cineaste.Person, join_through: Cineaste.ActorPersonRole
