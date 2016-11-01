@@ -1,0 +1,14 @@
+King Kong Escapes
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Kaoru,Mabuchi,2,Screenplay
+Arthur,Rankin,3,Technical Advisor
+Hajime,Koizumi,4,Cinematography
+Takeo,Kita,5,Art Director
+Shoichi,Yoshizawa,6,Sound Recording
+Toshio,Takashima,7,Lighting
+Akira,Ifukube,8,Music
+Ryohei,Fujii,11,Editor
+Yasuyuki,Inoue,18,Special Effects Art Director
+Teruyoshi,Nakano,22,Special Effects Assistant Director

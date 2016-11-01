@@ -1,0 +1,17 @@
+Son of Godzilla
+Jun,Fukuda,-3,Director
+Sadamasa,Arikawa,-2,Special Effects Director
+Eiji,Tsuburaya,-1,Special Effects Supervisor
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Sekizawa,2,Screenplay
+Kazue,Shiba,3,Screenplay
+Kazuo,Yamada,4,Cinematography
+Takeo,Kita,5,Art Director
+Shin,Watari,6,Sound Recording
+Toshiya,Ban,7,Sound Recording
+Takeji,Yamaguchi,8,Lighting
+Shoshichi,Kojima,9,Lighting
+Masaru,Sato,10,Music
+Ryohei,Fujii,13,Editor
+Yasuyuki,Inoue,20,Special Effects Art Director
+Teruyoshi,Nakano,24,Special Effects Assistant Director

@@ -1,0 +1,14 @@
+Battle in Outer Space
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Jojiro,Okami,2,Original Story
+Shinichi,Sekizawa,3,Screenplay
+Hajime,Koizumi,4,Cinematography
+Teruaki,Abe,5,Art Director
+Rokuro,Ishikawa,6,Lighting
+Choshichiro,Mikami,7,Sound Recording
+Masanobu,Miyazaki,8,Sound Recording
+Akira,Ifukube,9,Music
+Kazuji,Taira,11,Editor
+Sadamasa,Arikawa,15,Special Effects Cinematography

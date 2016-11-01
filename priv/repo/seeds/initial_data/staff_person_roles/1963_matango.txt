@@ -1,0 +1,16 @@
+Matango
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Hoshi,2,Original Story
+Masami,Fukushima,3,Original Story
+William,Hodgson,4,Original Story
+Kaoru,Mabuchi,5,Screenplay
+Hajime,Koizumi,6,Cinematography
+Shigekazu,Ikuno,7,Art Director
+Fumio,Yanoguchi,8,Sound Recording
+Shoshichi,Kojima,9,Lighting
+Sadao,Bekku,10,Music
+Reiko,Kaneko,13,Editor
+Sadamasa,Arikawa,17,Special Effects Cinematography
+Teruyoshi,Nakano,24,Special Effects Assistant Director

@@ -1,0 +1,14 @@
+Atragon
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Sekizawa,2,Screenplay
+Shunro,Oshikawa,3,Original Story
+Hajime,Koizumi,4,Cinematography
+Takeo,Kita,5,Art Director
+Masanao,Uehara,6,Sound Recording
+Shoshichi,Kojima,7,Lighting
+Akira,Ifukube,8,Music
+Ryohei,Fujii,11,Editor
+Sadamasa,Arikawa,15,Special Effects Cinematography
+Teruyoshi,Nakano,22,Special Effects Assistant Director

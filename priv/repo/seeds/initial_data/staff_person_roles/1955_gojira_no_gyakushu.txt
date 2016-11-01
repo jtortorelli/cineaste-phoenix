@@ -1,0 +1,13 @@
+Godzilla Raids Again
+Motoyoshi,Oda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shigeru,Kayama,2,Original Story
+Takeo,Murata,3,Screenplay
+Shigeaki,Hidaka,4,Screenplay
+Seiichi,Endo,5,Cinematography
+Takeo,Kita,6,Art Director
+Masanobu,Miyazaki,8,Sound Recording
+Masaki,Onuma,9,Lighting
+Masaru,Sato,10,Music
+Kazuji,Taira,16, Editor

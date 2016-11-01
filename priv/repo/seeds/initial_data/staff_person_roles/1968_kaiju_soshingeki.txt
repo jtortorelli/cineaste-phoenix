@@ -1,0 +1,15 @@
+Destroy All Monsters
+Ishiro,Honda,-3,Director
+Sadamasa,Arikawa,-2,Special Effects Director
+Eiji,Tsuburaya,-1,Special Effects Supervisor
+Tomoyuki,Tanaka,1,Producer
+Kaoru,Mabuchi,2,Screenplay
+Ishiro,Honda,3,Screenplay
+Taiichi,Kankura,4,Cinematography
+Takeo,Kita,5,Art Director
+Shoichi,Yoshizawa,6,Sound Recording
+Seiji,Hirano,7,Lighting
+Akira,Ifukube,8,Music
+Ryohei,Fujii,11,Editor
+Yasuyuki,Inoue,16,Special Effects Art Director
+Teruyoshi,Nakano,21,Special Effects Assistant Director

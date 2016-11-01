@@ -1,0 +1,13 @@
+Godzilla, King of the Monsters
+Ishiro,Honda,-1,Director
+Tomoyuki,Tanaka,1,Producer
+Shigeru,Kayama,2,Original Story
+Takeo,Murata,3,Screenplay
+Ishiro,Honda,4,Screenplay
+Masao,Tamai,5,Cinematography
+Takeo,Kita,6,Art Director
+Hisashi,Shimonaga,8,Sound Recording
+Choshiro,Ishii,9,Lighting
+Akira,Ifukube,10,Music
+Eiji,Tsuburaya,11,Special Effects
+Kazuji,Taira,16,Editor

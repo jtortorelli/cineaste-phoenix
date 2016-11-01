@@ -1,0 +1,13 @@
+Frankenstein Conquers the World
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Kaoru,Mabuchi,2,Screenplay
+Hajime,Koizumi,3,Cinematography
+Takeo,Kita,4,Art Director
+Wataru,Konuma,5,Sound Recording
+Shoshichi,Kojima,6,Lighting
+Akira,Ifukube,7,Music
+Ryohei,Fujii,10,Editor
+Sadamasa,Arikawa,14,Special Effects Cinematography
+Teruyoshi,Nakano,21,Special Effects Assistant Director

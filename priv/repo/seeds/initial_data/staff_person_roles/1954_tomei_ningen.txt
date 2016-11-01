@@ -1,0 +1,12 @@
+The Invisible Man
+Motoyoshi,Oda,-2,Director
+Eiji,Tsuburaya,-1,Cinematography
+Eiji,Tsuburaya,-1,Special Effects Supervisor
+Takeo,Kita,1,Producer
+Kei,Beppu,2,Original Story
+Shigeaki,Hidaka,3,Screenplay
+Teruaki,Abe,4,Art Director
+Shoichi,Fujinawa,5,Sound Recording
+Kuichiro,Kishida,6,Lighting
+Kyosuke,Kami,7,Music
+Shuichi,Ihara,9,Editor

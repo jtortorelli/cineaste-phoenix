@@ -1,0 +1,14 @@
+The Mysterians
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Jojiro,Okami,2,Original Story
+Shigeru,Kayama,3,Screenplay
+Kaoru,Mabuchi,4,Screenplay
+Hajime,Koizumi,5,Cinematography
+Teruaki,Abe,6,Art Director
+Masanobu,Miyazaki,7,Sound Recording
+Kuichiro,Kishida,8,Lighting
+Akira,Ifukube,9,Music
+Koichi,Iwashita,12,Editor
+Sadamasa,Arikawa,16,Special Effects Cinematography

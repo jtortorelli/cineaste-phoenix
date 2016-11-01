@@ -1,0 +1,12 @@
+The Adventure of Taklamakan
+Senkichi,Taniguchi,-1,Director
+Tomoyuki,Tanaka,1,Producer
+Hiroshi,Nezu,2,Assistant Producer
+Kaoru,Mabuchi,3,Screenplay
+Osamu,Dazai,4,Original Story
+Kazuo,Yamada,5,Cinematography
+Hiroshi,Ueda,6,Art Director
+Yoshio,Nishikawa,7,Sound Recording
+Hiromitsu,Mori,8,Lighting
+Akira,Ifukube,9,Music
+Yoshitami,Kuroiwa,12,Editor

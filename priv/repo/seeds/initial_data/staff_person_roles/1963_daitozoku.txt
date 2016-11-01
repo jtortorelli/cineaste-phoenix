@@ -1,0 +1,16 @@
+Samurai Pirate
+Senkichi,Taniguchi,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Kenichiro,Tsunoda,2,Producer
+Toshio,Yasumi,3,Story Coordinator
+Kaoru,Mabuchi,4,Screenplay
+Shinichi,Sekizawa,5,Screenplay
+Takao,Saito,6,Cinematography
+Takeo,Kita,7,Art Director
+Shin,Watarai,8,Sound Recording
+Norikazu,Onda,9,Lighting
+Masaru,Sato,10,Music
+Yoshitami,Kuroiwa,13,Editor
+Sadamasa,Arikawa,18,Special Effects Cinematography
+Teruyoshi,Nakano,25,Special Effects Assistant Director

@@ -1,0 +1,14 @@
+Gorath
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Jojiro,Okami,2,Original Story
+Kaoru,Mabuchi,3,Screenplay
+Hajime,Koizumi,4,Cinematography
+Takeo,Kita,5,Art Director
+Teruaki,Abe,6,Art Director
+Toshiya,Ban,7,Sound Recording
+Toshio,Takashima,8,Lighting
+Kan,Ishii,9,Music
+Reiko,Kaneko,12,Editor
+Sadamasa,Arikawa,15,Special Effects Cinematography

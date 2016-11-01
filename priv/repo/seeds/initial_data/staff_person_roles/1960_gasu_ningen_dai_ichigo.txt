@@ -1,0 +1,13 @@
+The Human Vapor
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Kaoru,Mabuchi,2,Screenplay
+Hajime,Koizumi,3,Cinematography
+Kiyoshi,Shimizu,4,Art Director
+Masao,Fujiyoshi,5,Sound Recording
+Masanobu,Miyazaki,6,Sound Recording
+Toshio,Takashima,7,Lighting
+Sadamasa,Arikawa,9,Special Effects Cinematography
+Kunio,Miyauchi,12,Music
+Kazuji,Taira,18,Editor

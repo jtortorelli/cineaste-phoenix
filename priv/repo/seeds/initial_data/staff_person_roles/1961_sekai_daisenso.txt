@@ -1,0 +1,15 @@
+The Last War
+Shue,Matsubayashi,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Sanezumi,Fujimoto,1,Producer
+Tomoyuki,Tanaka,2,Producer
+Toshio,Yasumi,3,Screenplay
+Kaoru,Mabuchi,4,Screenplay
+Rokuro,Nishigaki,5,Cinematography
+Takeo,Kita,6,Art Director
+Teruaki,Abe,7,Art Director
+Fumio,Yanoguchi,8,Sound Recording
+Hiromitsu,Mori,9,Lighting
+Ikuma,Dan,10,Music
+Koichi,Iwashita,13,Editor
+Sadamasa,Arikawa,16,Special Effects Cinematography

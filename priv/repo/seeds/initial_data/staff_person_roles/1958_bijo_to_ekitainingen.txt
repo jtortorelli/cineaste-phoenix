@@ -1,0 +1,14 @@
+The H-Man
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Hideo,Unagami,2,Original Story
+Shinichi,Sekizawa,3,Screenplay
+Hajime,Koizumi,4,Cinematography
+Takeo,Kita,5,Art Director
+Choshichiro,Mikami,6,Sound Recording
+Masanobu,Miyazaki,7,Sound Recording
+Tsuruzo,Nishikawa,8,Lighting
+Masaru,Sato,9,Music
+Sadamasa,Arikawa,11,Special Effects Cinematography
+Kazuji,Taira,16,Editor

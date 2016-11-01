@@ -1,0 +1,13 @@
+The Secret of the Telegian
+Jun,Fukuda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Sekizawa,2,Screenplay
+Kazuo,Yamada,3,Cinematography
+Kyoe,Hamagami,4,Art Director
+Yoshio,Nishikawa,5,Sound Recording
+Masanobu,Miyazaki,6,Sound Recording
+Tsuruzo,Nishikawa,7,Lighting
+Sei,Ikeno,8,Music
+Sadamasa,Arikawa,10,Special Effects Cinematography
+Kazuji,Taira,15,Editor

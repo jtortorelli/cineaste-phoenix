@@ -1,0 +1,14 @@
+Godzilla vs. the Sea Monster
+Jun,Fukuda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Sekizawa,2,Screenplay
+Kazuo,Yamada,3,Cinematography
+Takeo,Kita,4,Art Director
+Shoichi,Yoshizawa,5,Sound Recording
+Norikazu,Onda,6,Lighting
+Masaru,Sato,7,Music
+Ryohei,Fujii,10,Editor
+Sadamasa,Arikawa,14,Special Effects Assistant Director
+Yasuyuki,Inoue,17,Special Effects Art Director
+Teruyoshi,Nakano,21,Special Effects Assistant Director

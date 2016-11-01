@@ -1,0 +1,16 @@
+War of the Gargantuas
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Keichiro,Tsunoda,2,Producer
+Kaoru,Mabuchi,3,Screenplay
+Ishiro,Honda,4,Screenplay
+Hajime,Koizumi,5,Cinematography
+Takeo,Kita,6,Art Director
+Norio,Tone,7,Sound Recording
+Toshio,Takashima,8,Lighting
+Akira,Ifukube,9,Music
+Ryohei,Fujii,12,Editor
+Sadamasa,Arikawa,16,Special Effects Cinematography
+Yasuyuki,Inoue,19,Special Effects Art Director
+Teruyoshi,Nakano,23,Special Effects Assistant Director

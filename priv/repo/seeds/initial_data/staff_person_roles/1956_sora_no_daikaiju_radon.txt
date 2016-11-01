@@ -1,0 +1,14 @@
+Rodan
+Ishiro,Honda,-1,Director
+Tomoyuki,Tanaka,1,Producer
+Ken,Kuronuma,2,Original Story
+Takeo,Murata,3,Screenplay
+Kaoru,Mabuchi,4,Screenplay
+Isamu,Ashida,5,Cinematography
+Takeo,Kita,6,Art Director
+Masanobu,Miyazaki,7,Sound Recording
+Shigeru,Mori,8,Lighting
+Akira,Ifukube,9,Music
+Eiji,Tsuburaya,10,Special Effects Director
+Jun,Fukuda,15,Assistant Director
+Koichi,Iwashita,16,Editor

@@ -1,0 +1,17 @@
+Mothra
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichiro,Nakamura,2,Original Story
+Takehiko,Fukunaga,3,Original Story
+Yoshie,Hotta,4,Original Story
+Shinichi,Sekizawa,5,Screenplay
+Hajime,Koizumi,6,Cinematography
+Takeo,Kita,7,Art Director
+Teruaki,Abe,8,Art Director
+Shoichi,Fujinawa,9,Sound Recording
+Masanobu,Miyazaki,10,Sound Recording
+Toshio,Takashima,11,Lighting
+Yuji,Koseki,12,Music
+Kazuji,Taira,17,Editor
+Sadamasa,Arikawa,20,Special Effects Cinematography

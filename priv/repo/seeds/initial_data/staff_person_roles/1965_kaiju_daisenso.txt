@@ -1,0 +1,13 @@
+Monster Zero
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Sekizawa,2,Screenplay
+Hajime,Koizumi,3,Cinematography
+Takeo,Kita,4,Art Director
+Wataru,Konuma,5,Sound Recording
+Shoshichi,Kojima,6,Lighting
+Akira,Ifukube,7,Music
+Ryohei,Fujii,10,Editor
+Sadamasa,Arikawa,16,Special Effects Cinematography
+Teruyoshi,Nakano,23,Special Effects Assistant Director

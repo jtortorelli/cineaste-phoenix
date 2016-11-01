@@ -1,0 +1,13 @@
+King Kong vs. Godzilla
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Shinichi,Sekizawa,2,Screenplay
+Hajime,Koizumi,3,Cinematography
+Takeo,Kita,4,Art Director
+Teruaki,Abe,5,Art Director
+Masao,Fujiyoshi,6,Sound Recording
+Toshio,Takashima,7,Lighting
+Akira,Ifukube,8,Music
+Reiko,Kaneko,11,Editor
+Sadamasa,Arikawa,14,Special Effects Cinematography

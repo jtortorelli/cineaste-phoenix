@@ -1,0 +1,14 @@
+Varan the Unbelievable
+Ishiro,Honda,-2,Director
+Eiji,Tsuburaya,-1,Special Effects Director
+Tomoyuki,Tanaka,1,Producer
+Ken,Kuronuma,2,Original Story
+Shinichi,Sekizawa,3,Screenplay
+Hajime,Koizumi,4,Cinematography
+Kiyoshi,Shimizu,5,Art Director
+Wataru,Konuma,6,Sound Recording
+Masanobu,Miyazaki,7,Sound Recording
+Mitsuo,Kaneko,8,Lighting
+Akira,Ifukube,9,Music
+Koichi,Iwashita,12,Editor
+Sadamasa,Arikawa,15,Special Effects Cinematography
