@@ -1,17 +1,15 @@
-<div id="staff">
-  <table class="table">
-    <%= for view <- @film_staff_views do %>
-    <tr>
-      <td>
-        <%= view.role %>
-      </td>
-      <td>
-        <%= for staff <- sorted_staff(view.staff) do %>
-          <%= staff.name %>
-          <br />
-        <% end %>
-      </td>
-    </tr>
-    <% end %>
-  </table>
-</div>
+<table class="table table-nonfluid">
+  <%= for view <- @film_staff_views do %>
+  <tr>
+    <td>
+      <%= view.role %>
+    </td>
+    <td>
+      <%= for staff <- sorted_staff(view.staff) do %>
+        <%= staff.name %>
+        <br />
+      <% end %>
+    </td>
+  </tr>
+  <% end %>
+</table>

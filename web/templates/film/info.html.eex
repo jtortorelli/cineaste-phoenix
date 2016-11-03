@@ -1,4 +1,4 @@
-<table class="table">
+<table class="table table-nonfluid">
   <%= display_original_title(@film.props) %>
   <%= display_aliases(@film.aliases) %>
   <tr>
