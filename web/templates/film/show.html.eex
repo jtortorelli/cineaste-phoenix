@@ -10,6 +10,11 @@
 </div>
 <div class="row">
   <div class="col-mid-4">
-    <%= render "film_staff.html", film_staff_views: @film_staff_views %>
+    <%= render "info.html", film: @film %>
+  </div>
+</div>
+<div class="row">
+  <div class="col-mid-4">
+    <%= render "staff.html", film_staff_views: @film_staff_views %>
   </div>
 </div>

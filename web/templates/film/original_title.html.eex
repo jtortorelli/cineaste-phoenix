@@ -1,0 +1,10 @@
+<tr>
+  <td>
+    Original Title
+  </td>
+  <td>
+    <%= raw @title %><br/>
+    <%= @transliteration %><br/>
+    <%= @translation %><br/>
+  </td>
+</tr>

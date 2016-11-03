@@ -1,0 +1,10 @@
+<tr>
+  <td>
+    Aliases
+  </td>
+  <td>
+    <%= for alias <- @aliases do %>
+    <%= alias %><br/>
+    <% end %>
+  </td>
+</tr>

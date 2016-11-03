@@ -1,0 +1,31 @@
+<table class="table">
+  <%= display_original_title(@film.props) %>
+  <%= display_aliases(@film.aliases) %>
+  <tr>
+    <td>
+      Release Date
+    </td>
+    <td>
+      <%= display_release_date(@film.release_date) %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Produced by
+    </td>
+    <td>
+      <%= for studio <- @film.studios do %>
+        <%= studio.name %><br/>
+      <% end %>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      Runtime
+    </td>
+    <td>
+      <%= @film.duration %>m
+    </td>
+  </tr>
+  <%= display_series_info(@film) %>
+</table>

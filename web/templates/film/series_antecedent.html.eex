@@ -1,0 +1,8 @@
+<tr>
+  <td>
+    Followed by
+  </td>
+  <td>
+    <%= @film.title %>
+  </td>
+</tr>
