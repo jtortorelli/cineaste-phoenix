@@ -32,7 +32,9 @@ defmodule Cineaste.FilmController do
   end
   
   defp _render_film_not_found_message(conn) do
-    text conn, "Film not found" 
+    conn
+    |> put_status(404)
+    |>render(Cineaste.ErrorView, :"404", message: "The thing was not found")
   end
 
 end
