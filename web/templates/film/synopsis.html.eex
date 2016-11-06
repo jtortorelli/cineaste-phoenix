@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-12">
+        <div>
+            <!-- Synopsis modal button -->
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#synopsis-modal">
+                View spoilerific synopsis
+            </button>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="synopsis-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Synopsis</h4>
+            </div>
+            <div class="modal-body">
+              <%= raw @synopsis %>
+            </div>
+        </div>
+    </div>
+</div>

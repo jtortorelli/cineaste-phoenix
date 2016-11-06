@@ -24,7 +24,12 @@ defmodule Cineaste.FilmController do
     film = Repo.preload(film, [:studios])
     film_staff_views = Repo.all(from view in Cineaste.FilmStaffView, where: view.film_id == ^film.id)
     |> Enum.sort_by(fn(view) -> List.first(view.staff).order end)
-    render conn, "show.html", film: film, film_staff_views: film_staff_views
+    film_synopsis = File.read!("web/static/assets/text/synopses/#{film.id}.txt")
+    |> String.split("\n")
+    |> tl
+    |> Enum.map(fn x -> "<p>#{x}</p>" end)
+    |> Enum.join
+    render conn, "show.html", film: film, film_staff_views: film_staff_views, synopsis: film_synopsis
   end
   
   defp _render_film_page(conn, _) do

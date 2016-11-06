@@ -18,3 +18,4 @@
     </div>
   </div>
 </div>
+<%= render "synopsis.html", synopsis: @synopsis %>
