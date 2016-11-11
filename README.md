@@ -17,7 +17,7 @@ Application data is inserted to Postgres step wise using seed scripts in `priv/r
 
 ## Heroku
 
-Application (such as it is at this time) is deployed at [`murmuring-mountain-10497.herokuapp.com`](https://murmuring-mountain-10497.herokuapp.com). Provisioning of domain name `godzillacineaste.net` is in progress.
+Application (such as it is at this time) is deployed at [`murmuring-mountain-10497.herokuapp.com`](https://murmuring-mountain-10497.herokuapp.com). Domain name [`godzillacineaste.net`](https://www.godzillacineaste.net) is currently resolving to the app, although no SSL certificate has been provisioned yet and the site will trigger a security warning on the first visit.
 
 ## Learn more
 
