@@ -1,0 +1,17 @@
+<div id="other-cast">
+  <h4>Rest of Cast Listed Alphabetically</h4>
+  <table class="table table-nonfluid">
+    <%= for view <- @other_cast do %>
+    <tr>
+      <td>
+        <%= view.names.display_name %>
+      </td>
+      <td>
+        <%= for role <- view.roles do %>
+          <%= role %><br/>
+        <% end %>
+      </td>
+    </tr>
+    <% end %>
+  </table>
+</div>

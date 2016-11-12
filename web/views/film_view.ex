@@ -65,5 +65,21 @@ defmodule Cineaste.FilmView do
   defp _display_series_antecedent(_) do
     {:safe, ""}
   end
+  
+  def render_top_billed_cast([_h|_t] = top_billed_cast) do
+    render "top_billed_cast.html", top_billed_cast: top_billed_cast 
+  end
+  
+  def render_top_billed_cast(_) do
+    ""
+  end
+  
+  def render_other_cast([_h|_t] = other_cast) do
+    render "other_cast.html", other_cast: other_cast
+  end
+  
+  def render_other_cast(_) do
+    "" 
+  end
 
 end

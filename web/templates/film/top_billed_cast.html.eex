@@ -1,0 +1,17 @@
+<div id="top-billed-cast">
+  <h4>Top Billed Cast</h4>
+  <table class="table table-nonfluid">
+    <%= for view <- @top_billed_cast do %>
+      <tr>
+        <td>
+          <%= view.names.display_name %>
+        </td>
+        <td>
+          <%= for role <- view.roles do %>
+            <%= role %><br/>
+          <% end %>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+</div>
