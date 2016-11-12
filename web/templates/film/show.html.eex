@@ -1,6 +1,7 @@
 <div class="jumbotron">
   <h2><%= @film.title %></h2>
 </div>
+<%= render "synopsis.html", synopsis: @synopsis %>
 <div class="row">
   <div class="col-md-4">
     <div id="poster">
@@ -18,4 +19,3 @@
     </div>
   </div>
 </div>
-<%= render "synopsis.html", synopsis: @synopsis %>
