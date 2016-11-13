@@ -1,0 +1,10 @@
+<div>
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a>
+    </li>
+    <li role="presentation">
+      <a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">Gallery</a>
+    </li>
+  </ul>
+</div>

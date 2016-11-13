@@ -1,26 +1,5 @@
 <div class="jumbotron">
   <h2><%= @film.title %></h2>
 </div>
-<%= render "synopsis.html", synopsis: @synopsis %>
-<div class="row">
-  <div class="col-md-4">
-    <div id="poster">
-      <img src="<%= static_path(@conn, "/images/posters/#{@film.id}.jpg")%>" height="400" width="270" />
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div id="info">
-      <%= render "info.html", film: @film %>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div id="staff">
-      <%= render "staff.html", film_staff_views: @film_staff_views %>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-12">
-    <%= render "cast.html", top_billed_cast: @top_billed_cast, other_cast: @other_cast %>
-  </div>
-</div>
+<%= render "tabs.html" %>
+<%= render "overview.html", conn: @conn, film: @film, film_staff_views: @film_staff_views, top_billed_cast: @top_billed_cast, other_cast: @other_cast, synopsis: @synopsis %>
