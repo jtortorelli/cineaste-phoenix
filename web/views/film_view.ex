@@ -81,5 +81,10 @@ defmodule Cineaste.FilmView do
   def render_other_cast(_) do
     "" 
   end
+  
+  def render_gallery(conn, film_id) do
+    {:ok, file_names} = File.ls("priv/static/images/galleries/films/#{film_id}/full")
+    render "gallery.html", conn: conn, film_id: film_id, file_names: file_names
+  end
 
 end

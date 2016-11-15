@@ -1,0 +1,7 @@
+<div role="tabpanel" class="tab-pane fade" id="gallery">
+    <%= for i <- @file_names do %>
+      <a href="<%= static_path(@conn, "/images/galleries/films/#{@film_id}/full/#{i}")%>" data-lightbox="#{film_id}">
+        <img class="img-thumbnail" src="<%= static_path(@conn, "/images/galleries/films/#{@film_id}/thumbs/#{i}")%>" />
+      </a>
+    <% end %>
+</div>
