@@ -1,3 +1,12 @@
 <div class="jumbotron">
   <h2>People Index</h2>
 </div>
+<div class="container">
+  <ul>
+    <%= for view <- @people_index_views do %>
+    <li>
+      <%= render_link(@conn, view) %>
+    </li>
+    <% end %>
+  </ul>
+</div>
