@@ -1,10 +1,13 @@
 defmodule Cineaste.FilmController do
   use Cineaste.Web, :controller
   alias Cineaste.FilmIndexView
+  alias Cineaste.FilmStaffView
+  alias Cineaste.FilmCastView
+  alias Cineaste.ErrorView
   alias Cineaste.Film
 
   def index(conn, _params) do
-    film_index_views = Repo.all(Cineaste.FilmIndexView) |> Enum.sort_by(fn(view) -> FilmIndexView.sort_title(view) end) 
+    film_index_views = Repo.all(FilmIndexView) |> Enum.sort_by(fn(view) -> FilmIndexView.sort_title(view) end) 
     render conn, "index.html", film_index_views: film_index_views
   end
 
@@ -22,9 +25,9 @@ defmodule Cineaste.FilmController do
   
   defp _render_film_page(conn, %Film{} = film) do
     film = Repo.preload(film, [:studios])
-    film_staff_views = Repo.all(from view in Cineaste.FilmStaffView, where: view.film_id == ^film.id)
+    film_staff_views = Repo.all(from view in FilmStaffView, where: view.film_id == ^film.id)
     |> Enum.sort_by(fn(view) -> List.first(view.staff).order end)
-    film_cast_views = Repo.all(from view in Cineaste.FilmCastView, where: view.film_id == ^film.id, order_by: view.order)
+    film_cast_views = Repo.all(from view in FilmCastView, where: view.film_id == ^film.id, order_by: view.order)
     top_billed_cast = Enum.filter(film_cast_views, fn x -> x.order < 99 end)
     other_cast = Enum.filter(film_cast_views, fn x -> x.order >= 99 end) |> Enum.sort_by(fn(view) -> view.names.sort_name end)
     film_synopsis = File.read!("web/static/assets/text/synopses/#{film.id}.txt")
@@ -42,7 +45,7 @@ defmodule Cineaste.FilmController do
   defp _render_film_not_found_message(conn) do
     conn
     |> put_status(404)
-    |> render(Cineaste.ErrorView, :"404", message: "The thing was not found")
+    |> render(ErrorView, :"404", message: "The thing was not found")
   end
 
 end
