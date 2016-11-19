@@ -4,5 +4,5 @@
 <%= render "tabs.html" %>
 <div class="tab-content">
   <%= render "overview.html", conn: @conn, film: @film, film_staff_views: @film_staff_views, top_billed_cast: @top_billed_cast, other_cast: @other_cast, synopsis: @synopsis %>
-  <%= render_gallery(@conn, @film.id) %>
+  <%= render_gallery(@film.id) %>
 </div>

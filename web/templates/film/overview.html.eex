@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-4">
         <div id="poster">
-          <img src="<%= static_path(@conn, "/images/posters/#{@film.id}.jpg")%>" height="400" width="270" />
+          <img src="<%= render_poster(@film.id) %>" height="400" width="270" />
         </div>
       </div>
       <div class="col-md-4">
