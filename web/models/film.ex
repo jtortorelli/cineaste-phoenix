@@ -14,6 +14,7 @@ defmodule Cineaste.Film do
     many_to_many :cast, Cineaste.Person, join_through: Cineaste.ActorPersonRole
     many_to_many :studios, Cineaste.Studio, join_through: Cineaste.StudioFilm
     many_to_many :series, Cineaste.Series, join_through: Cineaste.SeriesFilm
+    has_many :images, Cineaste.FilmImage
   end
 
   def changeset(film, params \\ %{}) do
