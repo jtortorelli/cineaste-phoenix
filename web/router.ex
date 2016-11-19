@@ -21,7 +21,8 @@ defmodule Cineaste.Router do
     get "/films", FilmController, :index
     get "/films/:id", FilmController, :show
     get "/people", PeopleController, :index
-    get "/people/:id", PeopleController, :show
+    get "/people/person/:id", PeopleController, :show_person
+    get "/people/group/:id", PeopleController, :show_group
   end
 
   # Other scopes may use custom stacks.

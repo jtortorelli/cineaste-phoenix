@@ -5,11 +5,11 @@ defmodule Cineaste.PeopleController do
     render conn, "index.html"
   end
 
-  def show(conn, %{"id" => id, "type" => "person"}) do
+  def show_person(conn, %{"id" => id}) do
     render conn, "show_person.html", id: id
   end
 
-  def show(conn, %{"id" => id, "type" => "group"}) do
+  def show_group(conn, %{"id" => id}) do
     render conn, "show_group.html", id: id
   end
 end
