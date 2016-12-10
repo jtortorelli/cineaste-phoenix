@@ -8,9 +8,7 @@ defmodule Cineaste.Person do
     field :family_name, :string
     field :gender, :string, default: "U"
     field :showcase, :boolean, default: false
-    field :original_name, :string
-    field :japanese_name, :string
-    field :birth_name, :string
+    field :other_names, {:map, :string}
     field :dob, {:map, :integer}
     field :dod, {:map, :integer}
     field :birth_place, :string
