@@ -5,8 +5,6 @@ defmodule Cineaste.PeopleController do
   alias Cineaste.Group
   alias Cineaste.ErrorView
 
-
-
   def index(conn, _params) do
     people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn(view) -> view.sort_name end)
     render conn, "index.html", people_index_views: people_index_views
@@ -24,6 +22,10 @@ defmodule Cineaste.PeopleController do
      _render_person_page(conn, Repo.get(Person, uuid))
   end
   
+  def _find_person(conn, _) do
+     _render_page_not_found_message(conn)
+  end
+  
   def _render_person_page(conn, %Person{} = person) do
      render conn, "show_person.html", person: person
   end
@@ -32,12 +34,12 @@ defmodule Cineaste.PeopleController do
     _render_page_not_found_message(conn) 
   end
   
-  def _find_person(conn, _) do
-     _render_page_not_found_message(conn)
-  end
-  
   def _find_group(conn, {:ok, uuid}) do
      _render_group_page(conn, Repo.get(Group, uuid))
+  end
+  
+  def _find_group(conn, _) do
+     _render_page_not_found_message(conn)
   end
   
   def _render_group_page(conn, %Group{} = group) do
@@ -48,9 +50,7 @@ defmodule Cineaste.PeopleController do
     _render_page_not_found_message(conn) 
   end
   
-  def _find_group(conn, _) do
-     _render_page_not_found_message(conn)
-  end
+
   
   def _render_page_not_found_message(conn) do
     conn
