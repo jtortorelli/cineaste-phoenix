@@ -6,6 +6,7 @@ defmodule Cineaste.FilmView do
   alias Cineaste.Film
   alias Cineaste.SeriesFilm
   alias Cineaste.FilmImage
+  alias Cineaste.CommonView
   require Logger
   
   def sorted_staff(staff) do
@@ -23,7 +24,7 @@ defmodule Cineaste.FilmView do
   end
   
   def display_aliases([_head | _tail] = aliases) do
-     render "aliases.html", aliases: aliases
+    CommonView.render_aliases_table_row(aliases)
   end
   
   def display_aliases(_) do
