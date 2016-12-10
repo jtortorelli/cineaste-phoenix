@@ -1,6 +1,10 @@
 defmodule Cineaste.PeopleController do
   use Cineaste.Web, :controller
   alias Cineaste.PeopleIndexView
+  alias Cineaste.Person
+  alias Cineaste.Group
+  alias Cineaste.ErrorView
+
 
 
   def index(conn, _params) do
@@ -9,10 +13,48 @@ defmodule Cineaste.PeopleController do
   end
 
   def show_person(conn, %{"id" => id}) do
-    render conn, "show_person.html", id: id
+    _find_person(conn, Ecto.UUID.cast(id))
   end
 
   def show_group(conn, %{"id" => id}) do
-    render conn, "show_group.html", id: id
+    _find_group(conn, Ecto.UUID.cast(id))
+  end
+  
+  def _find_person(conn, {:ok, uuid}) do
+     _render_person_page(conn, Repo.get(Person, uuid))
+  end
+  
+  def _render_person_page(conn, %Person{} = person) do
+     render conn, "show_person.html", person: person
+  end
+  
+  def _render_person_page(conn, _) do
+    _render_page_not_found_message(conn) 
+  end
+  
+  def _find_person(conn, _) do
+     _render_page_not_found_message(conn)
+  end
+  
+  def _find_group(conn, {:ok, uuid}) do
+     _render_group_page(conn, Repo.get(Group, uuid))
+  end
+  
+  def _render_group_page(conn, %Group{} = group) do
+     render conn, "show_group.html", group: group
+  end
+  
+  def _render_group_page(conn, _) do
+    _render_page_not_found_message(conn) 
+  end
+  
+  def _find_group(conn, _) do
+     _render_page_not_found_message(conn)
+  end
+  
+  def _render_page_not_found_message(conn) do
+    conn
+    |> put_status(404)
+    |> render(ErrorView, :"404", message: "The thing was not found") 
   end
 end

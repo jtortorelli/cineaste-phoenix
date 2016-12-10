@@ -10,4 +10,14 @@ defmodule Cineaste.PeopleView do
     end 
   end
 
+  def render_person_profile_pic(person_id) do
+    s3_person_profile_pic_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:person_profiles]
+    s3_person_profile_pic_url <> person_id <> ".jpg"
+  end
+  
+  def render_group_profile_pic(group_id) do
+    s3_group_profile_pic_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:group_profiles]
+    s3_group_profile_pic_url <> group_id <> ".jpg" 
+  end
+
 end

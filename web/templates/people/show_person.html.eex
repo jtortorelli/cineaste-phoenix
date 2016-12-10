@@ -1,3 +1,7 @@
 <div class="jumbotron">
-  <h2>Person Page for ID: <%= @id %></h2>
+  <h2><%= @person.given_name <> " " <> @person.family_name %></h2>
+</div>
+
+<div class="row">
+  <img class="img-thumbnail" src="<%= render_person_profile_pic(@person.id) %>"
 </div>
