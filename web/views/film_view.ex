@@ -9,9 +9,7 @@ defmodule Cineaste.FilmView do
   alias Cineaste.CommonView
   require Logger
   
-  def sorted_staff(staff) do
-     Enum.sort_by(staff, fn(x) -> x.order end)
-  end
+  def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
   
   def display_original_title(%{"original_title" => title, "original_transliteration" => transliteration, "original_translation" => translation} = props) do
     Logger.debug "inside display_original_title"
@@ -19,26 +17,14 @@ defmodule Cineaste.FilmView do
     render "original_title.html", title: title, transliteration: transliteration, translation: translation
   end
   
-  def display_original_title(_) do
-    "" 
-  end
+  def display_original_title(_), do: nil 
   
-  def display_aliases([_head | _tail] = aliases) do
-    CommonView.render_aliases_table_row(aliases)
-  end
+  def display_aliases([_head | _tail] = aliases), do: CommonView.render_aliases_table_row(aliases)
+  def display_aliases(_), do: nil
   
-  def display_aliases(_) do
-    ""
-  end
+  def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")
   
-  def display_release_date(date) do
-    Timex.format!(date, "{Mfull} {D}, {YYYY}")
-  end
-  
-  def display_series_info(%Film{} = film) do
-    _display_series_info(Repo.preload(film, [:series])) 
-  end
-  
+  def display_series_info(%Film{} = film), do: _display_series_info(Repo.preload(film, [:series]))  
   defp _display_series_info(%Film{:series => [_h|_t]} = film) do
     series = List.first(film.series)
     series_film = Repo.one(from s in SeriesFilm, where: s.film_id == ^film.id and s.series_id == ^series.id)
@@ -47,43 +33,33 @@ defmodule Cineaste.FilmView do
     raw "#{precedent_template}#{antecedent_template}"
   end
   
-  defp _display_series_info(_) do
-    "" 
-  end
+  defp _display_series_info(_), do: nil 
 
   defp _display_series_precedent(%SeriesFilm{} = series_film) do
     film = Repo.preload(series_film, [:film]).film
     render "series_precedent.html", film: film
   end
   
-  defp _display_series_precedent(_) do
-    {:safe, ""}
-  end
+  defp _display_series_precedent(_), do: {:safe, ""}
   
   defp _display_series_antecedent(%SeriesFilm{} = series_film) do
     film = Repo.preload(series_film, [:film]).film
     render "series_antecedent.html", film: film
   end
   
-  defp _display_series_antecedent(_) do
-    {:safe, ""}
-  end
+  defp _display_series_antecedent(_), do: {:safe, ""}
   
   def render_top_billed_cast([_h|_t] = top_billed_cast) do
     render "top_billed_cast.html", top_billed_cast: top_billed_cast 
   end
   
-  def render_top_billed_cast(_) do
-    ""
-  end
+  def render_top_billed_cast(_), do: nil
   
   def render_other_cast([_h|_t] = other_cast) do
     render "other_cast.html", other_cast: other_cast
   end
   
-  def render_other_cast(_) do
-    "" 
-  end
+  def render_other_cast(_), do: nil
   
   def render_gallery(film_id) do
     s3_gallery_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:film_galleries]
