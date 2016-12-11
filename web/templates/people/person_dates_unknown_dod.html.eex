@@ -1,0 +1,18 @@
+<tr>
+  <td>
+    Born
+  </td>
+  <td>
+    <%= @dob %>
+    <br/>
+    <%= @birth_place %>
+  </td>
+</tr>
+<tr>
+  <td>
+    Died
+  </td>
+  <td>
+    Unknown
+  </td>
+</tr>

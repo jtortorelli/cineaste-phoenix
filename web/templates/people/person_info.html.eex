@@ -3,4 +3,5 @@
   <%= render_birth_name(@person.other_names) %>
   <%= render_japanese_name(@person.other_names) %>
   <%= render_aliases(@person.aliases) %>
+  <%= render_dates(@person) %>
 </table>

@@ -1,6 +1,7 @@
 defmodule Cineaste.PeopleView do
   use Cineaste.Web, :view
   alias Cineaste.CommonView
+  alias Cineaste.Person
 
   def render_link(conn, view) do
     case view.type do
@@ -34,5 +35,34 @@ defmodule Cineaste.PeopleView do
   
   def render_aliases([_head | _tail] = aliases), do: CommonView.render_aliases_table_row(aliases)
   def render_aliases(_), do: nil
+  
+  defp create_display_date(%{"year" => year, "month" => month, "day" => day}) do
+     {:ok, date} = Date.new(year, month, day)
+     Timex.format!(date, "{Mfull} {D}, {YYYY}")
+  end
+  
+  defp create_display_date(%{"year" => year, "month" => month}) do
+    {:ok, date} = Date.new(year, month, 1)
+    Timex.format!(date, "{Mfull}, {YYYY}") 
+  end
+  
+  defp create_display_date(%{"year" => year}) do
+    {:ok, date} = Date.new(year, 1, 1)
+    Timex.format!(date, "{YYYY}")
+  end
+  
+  def render_dates(%Person{dob: %{}, dod: nil} = person) do
+    render "person_dates_living.html", dob: create_display_date(person.dob), age: Person.age(person), birth_place: person.birth_place
+  end
+  
+  def render_dates(%Person{dob: %{}, dod: %{"unknown" => unknown}} = person) do
+    render "person_dates_unknown_dod.html", dob: create_display_date(person.dob), birth_place: person.birth_place
+  end
+  
+  def render_dates(%Person{dob: %{}, dod: %{}} = person) do
+    render "person_dates_deceased.html", dob: create_display_date(person.dob), dod: create_display_date(person.dod), age: Person.age(person), birth_place: person.birth_place, death_place: person.death_place
+  end
+  
+  def render_dates(_), do: nil
 
 end

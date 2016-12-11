@@ -1,0 +1,10 @@
+<tr>
+  <td>
+    Born
+  </td>
+  <td>
+    <%= "#{@dob} (#{@age})" %>
+    <br/>
+    <%= @birth_place %>
+  </td>
+</tr>
