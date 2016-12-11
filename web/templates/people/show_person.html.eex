@@ -6,3 +6,6 @@
   <img class="img-thumbnail" src="<%= render_person_profile_pic(@person.id) %>" />
   <%= render_person_info(@person) %>
 </div>
+<div class="row">
+  <%= raw @bio %>
+</div>

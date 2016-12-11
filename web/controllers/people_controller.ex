@@ -27,7 +27,11 @@ defmodule Cineaste.PeopleController do
   end
   
   def _render_person_page(conn, %Person{} = person) do
-     render conn, "show_person.html", person: person
+    bio = File.read!("web/static/assets/text/bios/people/#{person.id}.txt")
+    |> String.split("\n")
+    |> Enum.map(fn x -> "<p>#{x}</p>" end)
+    |> Enum.join
+    render conn, "show_person.html", person: person, bio: bio
   end
   
   def _render_person_page(conn, _) do
