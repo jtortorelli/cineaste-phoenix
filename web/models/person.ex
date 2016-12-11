@@ -35,7 +35,7 @@ defmodule Cineaste.Person do
   end
   
   def _calculate_age(%{"year" => dob_year, "month" => dob_month}, %{"year" => dod_year, "month" => dod_month}) do
-    {:ok, dob_date} = Date.from(dob_year, dob_month, 1)
+    {:ok, dob_date} = Date.new(dob_year, dob_month, 1)
     {:ok, dod_date} = Date.new(dod_year, dod_month, 1)
     Timex.diff(dod_date, dob_date, :years)
   end
