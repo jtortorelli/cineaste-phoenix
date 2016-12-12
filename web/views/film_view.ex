@@ -33,7 +33,7 @@ defmodule Cineaste.FilmView do
     raw "#{antecedent_template}#{subsequent_template}"
   end
   
-  defp _display_series_info(_), do: nil 
+  defp _display_series_info(_, _), do: nil 
 
   defp _display_series_antecedent(%SeriesFilm{} = series_film, conn) do
     film = Repo.preload(series_film, [:film]).film
