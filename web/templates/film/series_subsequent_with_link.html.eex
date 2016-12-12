@@ -1,0 +1,8 @@
+<tr>
+  <td>
+    Followed by
+  </td>
+  <td>
+    <%= link "#{@film.title}", to: film_path(@conn, :show, @film.id) %>
+  </td>
+</tr>

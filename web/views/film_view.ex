@@ -24,30 +24,38 @@ defmodule Cineaste.FilmView do
   
   def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")
   
-  def display_series_info(%Film{} = film), do: _display_series_info(Repo.preload(film, [:series]))  
-  defp _display_series_info(%Film{:series => [_h|_t]} = film) do
+  def display_series_info(conn, %Film{} = film), do: _display_series_info(conn, Repo.preload(film, [:series]))  
+  defp _display_series_info(conn, %Film{:series => [_h|_t]} = film) do
     series = List.first(film.series)
     series_film = Repo.one(from s in SeriesFilm, where: s.film_id == ^film.id and s.series_id == ^series.id)
-    {:safe, precedent_template} = Repo.one(from s in SeriesFilm, where: s.series_id == ^series.id and s.order == ^(series_film.order - 1)) |> _display_series_precedent
-    {:safe, antecedent_template} = Repo.one(from s in SeriesFilm, where: s.series_id == ^series.id and s.order == ^(series_film.order + 1)) |> _display_series_antecedent
-    raw "#{precedent_template}#{antecedent_template}"
+    {:safe, antecedent_template} = Repo.one(from s in SeriesFilm, where: s.series_id == ^series.id and s.order == ^(series_film.order - 1)) |> _display_series_antecedent(conn)
+    {:safe, subsequent_template} = Repo.one(from s in SeriesFilm, where: s.series_id == ^series.id and s.order == ^(series_film.order + 1)) |> _display_series_subsequent(conn)
+    raw "#{antecedent_template}#{subsequent_template}"
   end
   
   defp _display_series_info(_), do: nil 
 
-  defp _display_series_precedent(%SeriesFilm{} = series_film) do
+  defp _display_series_antecedent(%SeriesFilm{} = series_film, conn) do
     film = Repo.preload(series_film, [:film]).film
-    render "series_precedent.html", film: film
+    if film.showcase do
+      render "series_antecedent_with_link.html", film: film, conn: conn
+    else
+      render "series_antecedent.html", film: film
+    end
   end
   
-  defp _display_series_precedent(_), do: {:safe, ""}
+  defp _display_series_antecedent(_, _), do: {:safe, ""}
   
-  defp _display_series_antecedent(%SeriesFilm{} = series_film) do
+  defp _display_series_subsequent(%SeriesFilm{} = series_film, conn) do
     film = Repo.preload(series_film, [:film]).film
-    render "series_antecedent.html", film: film
+    if film.showcase do
+      render "series_subsequent_with_link.html", film: film, conn: conn
+    else
+      render "series_subsequent.html", film: film
+    end
   end
   
-  defp _display_series_antecedent(_), do: {:safe, ""}
+  defp _display_series_subsequent(_, _), do: {:safe, ""}
   
   def render_top_billed_cast([_h|_t] = top_billed_cast) do
     render "top_billed_cast.html", top_billed_cast: top_billed_cast 

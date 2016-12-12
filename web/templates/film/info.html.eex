@@ -27,5 +27,5 @@
       <%= @film.duration %>m
     </td>
   </tr>
-  <%= display_series_info(@film) %>
+  <%= display_series_info(@conn, @film) %>
 </table>

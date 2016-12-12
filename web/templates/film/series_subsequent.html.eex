@@ -1,6 +1,6 @@
 <tr>
   <td>
-    Preceded by
+    Followed by
   </td>
   <td>
     <%= @film.title %>

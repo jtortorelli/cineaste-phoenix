@@ -8,7 +8,7 @@
       </div>
       <div class="col-md-4">
         <div id="info">
-          <%= render "info.html", film: @film %>
+          <%= render "info.html", film: @film, conn: @conn %>
         </div>
       </div>
       <div class="col-md-4">
