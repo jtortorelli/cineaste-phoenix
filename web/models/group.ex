@@ -9,6 +9,7 @@ defmodule Cineaste.Group do
     field :active_start, :integer
     field :active_end, :integer
     field :props, {:map, :string}
+    many_to_many :members, Cineaste.Person, join_through: Cineaste.GroupMembership
   end
   
   def changeset(group, params \\ %{}) do
