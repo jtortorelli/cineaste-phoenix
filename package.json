@@ -14,10 +14,10 @@
   },
   "devDependencies": {
     "babel-brunch": "~6.0.0",
-    "brunch": "2.7.4",
+    "brunch": "2.9.1",
     "clean-css-brunch": "~2.0.0",
     "copycat-brunch": "^1.1.0",
-    "css-brunch": "~2.0.0",
+    "css-brunch": "2.6.1",
     "javascript-brunch": "~2.0.0",
     "sass-brunch": "^2.7.0",
     "uglify-js-brunch": "~2.0.1"

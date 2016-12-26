@@ -1,12 +1,13 @@
-<div class="jumbotron">
+<div class="container">
+
+<div>
+  <img class="img-thumbnail" src="<%= render_person_profile_pic(@person.id) %>" />
   <h2><%= @person.given_name <> " " <> @person.family_name %></h2>
 </div>
-<div class="container">
   <%= render "tabs.html" %>
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane fade in active" id="bio">
       <div class="row">
-        <img class="img-thumbnail" src="<%= render_person_profile_pic(@person.id) %>" />
         <%= render_person_info(@person) %>
       </div>
       <div class="row">
