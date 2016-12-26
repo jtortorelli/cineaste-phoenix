@@ -200,6 +200,38 @@ CREATE VIEW film_staff_view AS
 ALTER TABLE film_staff_view OWNER TO postgres;
 
 --
+-- Name: group_memberships; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE group_memberships (
+    group_id uuid,
+    person_id uuid
+);
+
+
+ALTER TABLE group_memberships OWNER TO postgres;
+
+--
+-- Name: group_roles_view; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW group_roles_view AS
+ SELECT f.title AS film_title,
+    f.release_date AS film_release_date,
+    f.showcase AS film_showcase,
+    f.id AS film_id,
+    'Actor'::text AS role,
+    r.roles AS characters,
+    g.id AS group_id
+   FROM ((actor_group_roles r
+     JOIN films f ON ((f.id = r.film_id)))
+     JOIN groups g ON ((g.id = r.group_id)))
+  ORDER BY g.id, 'Actor'::text, f.release_date;
+
+
+ALTER TABLE group_roles_view OWNER TO postgres;
+
+--
 -- Name: people_index_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
@@ -220,6 +252,37 @@ UNION
 
 
 ALTER TABLE people_index_view OWNER TO postgres;
+
+--
+-- Name: person_roles_view; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW person_roles_view AS
+ SELECT f.title AS film_title,
+    f.release_date AS film_release_date,
+    f.showcase AS film_showcase,
+    f.id AS film_id,
+    r.role,
+    NULL::character varying[] AS characters,
+    p.id AS person_id
+   FROM ((staff_person_roles r
+     JOIN films f ON ((f.id = r.film_id)))
+     JOIN people p ON ((p.id = r.person_id)))
+UNION
+ SELECT f.title AS film_title,
+    f.release_date AS film_release_date,
+    f.showcase AS film_showcase,
+    f.id AS film_id,
+    'Actor'::character varying AS role,
+    r.roles AS characters,
+    p.id AS person_id
+   FROM ((actor_person_roles r
+     JOIN films f ON ((f.id = r.film_id)))
+     JOIN people p ON ((p.id = r.person_id)))
+  ORDER BY 7, 5, 2;
+
+
+ALTER TABLE person_roles_view OWNER TO postgres;
 
 --
 -- Name: schema_migrations; Type: TABLE; Schema: public; Owner: postgres
@@ -2404,16 +2467,16 @@ a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
-1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2002-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
 4f663866-4a44-4560-bd28-58446fbd15a0	Returner	2002-08-31	116	f	\N	{"original_title": "リターナー", "original_translation": "Returner", "original_transliteration": "Retaanaa"}
 aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	Parasyte: Completion	2015-04-25	117	f	\N	{"original_title": "寄生獣 完結編", "original_translation": "Parasitic Beast Completion", "original_transliteration": "Kiseijyuu Kanketsuhen"}
 dd83f9ef-cece-4825-b1ed-f63063b0226b	Onmyoji	2001-10-06	116	f	\N	{"original_title": "陰陽師", "original_translation": "Yin Yang Master", "original_transliteration": "Onmyouji"}
-24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2001-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
 e2a0f019-2668-4657-a1a0-02fc7fb5c188	Masked Rider: The First	2005-11-05	90	f	\N	{"original_title": "仮面ライダー THE FIRST", "original_translation": "Masked Rider: The First", "original_transliteration": "Kamen Raidaa The First"}
 a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	f	\N	{"original_title": "デスノート the Last name", "original_translation": "Death Note: The Last Name", "original_transliteration": "Desu Nooto The Last Name"}
 2f2754dd-ea02-4cbc-957e-b4d23f38fc65	20th Century Boys	2008-08-30	142	f	{"20th Century Boys 1: The Beginning of the End"}	{"original_title": "20世紀少年", "original_translation": "20th Century Boys", "original_transliteration": "20 Seiki Shyounen"}
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
+24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
+1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2000-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
 424cf769-b58f-4044-ad2e-b9b6aee6c477	Lake of Dracula	1971-06-16	82	f	\N	{"original_title": "呪いの館 血を吸う眼", "original_translation": "House of Curses: Bloodsucking Eyes", "original_transliteration": "Noroi No Yakata Chiwosuu Me"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	f	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	f	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
@@ -2535,6 +2598,16 @@ b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_t
 
 
 --
+-- Data for Name: group_memberships; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY group_memberships (group_id, person_id) FROM stdin;
+5bbcef55-15b8-4fc1-a507-a115d57bfbbf	b8fae912-626e-4e22-aac4-10062bd7082f
+5bbcef55-15b8-4fc1-a507-a115d57bfbbf	701ee638-17cf-45b4-8815-95f87d4caf9a
+\.
+
+
+--
 -- Data for Name: groups; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
@@ -2583,6 +2656,7 @@ b3d271ee-f159-45dd-b774-cc823c21d82d	Wataru	Omae	M	t	{"day": 14, "year": 1934, "
 b6c06259-91a2-4c9f-ae59-1ccedf1f3b58	Rhodes	Reason	M	t	{"day": 19, "year": 1930, "month": 4}	{"day": 26, "year": 2014, "month": 12}	Glendale, California, United States	Palm Springs, California, United States	\N	{"japanese_name": "&#12525;&#12540;&#12474;&#12539;&#12522;&#12540;&#12474;&#12531;"}
 f9094a20-8286-4b66-bd41-eafd905c9d83	Toki	Shiozawa	F	t	{"day": 1, "year": 1928, "month": 4}	{"day": 17, "year": 2007, "month": 5}	Nakazato, Ushigome, Tokyo, Japan	Meguro, Tokyo, Japan	\N	{"original_name": "&#22633;&#27810; &#12392;&#12365;"}
 3b4f6a36-44b7-4b23-af88-d03beec21e4d	Masao	Shimizu	M	f	{"day": 5, "year": 1908, "month": 10}	{"day": 5, "year": 1975, "month": 10}	Ushigome, Tokyo, Japan	Shinjuku, Tokyo, Japan	\N	{"original_name": "&#28165;&#27700; &#23558;&#22827;"}
+b8fae912-626e-4e22-aac4-10062bd7082f	Emi	Ito	F	f	{"day": 1, "year": 1941, "month": 4}	{"day": 15, "year": 2012, "month": 6}	Tokoname, Chita, Aichi, Japan	\N	\N	{"birth_name": "Hideyo Ito (伊藤 日出代)", "original_name": "伊藤エミ"}
 7991849b-aa0b-4efd-9759-dcc4ff87ceb1	Hiroshi	Inagaki	M	t	{"day": 30, "year": 1905, "month": 12}	{"day": 21, "year": 1980, "month": 5}	Komagome Sendagaya, Hongo, Tokyo, Japan	\N	{"Akihiro Azuma (&#26481; &#26126;&#28009;)","Kinpachi Kahijara (&#26806;&#21407; &#37329;&#20843;)"}	{"birth_name": "Hiroshijiro Inagaki (&#31282;&#22435; &#28009;&#20108;&#37070;)", "original_name": "&#31282;&#22435; &#28009;"}
 bf17ae68-1ab5-48b3-93f8-12876984d814	Sachio	Sakai	M	t	{"day": 8, "year": 1925, "month": 9}	{"day": 11, "year": 1998, "month": 3}	Tokyo, Japan	\N	\N	{"birth_name": "Yukio Abe (&#38463;&#37096; &#24184;&#30007;)", "original_name": "&#22586; &#24038;&#21315;&#22827;"}
 34de1ef2-9428-4c7e-8512-5683f7cced38	Hiroshi	Koizumi	M	t	{"day": 12, "year": 1926, "month": 8}	{"day": 31, "year": 2015, "month": 5}	Kamakura, Kanagawa, Japan	\N	\N	{"original_name": "&#23567;&#27849; &#21338;"}
@@ -2600,6 +2674,7 @@ b53e5364-0ae6-4a10-b2d2-d41e6c87bd49	Minoru	Ito	M	t	{"day": 13, "year": 1928, "m
 3e42b352-0c52-4e39-b028-7b5a8b45e415	Yasuhiko	Saijo	M	t	{"day": 20, "year": 1939, "month": 2}	\N	Kagurazaka, Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "&#35199;&#26781; &#24247;&#24422;"}
 10af34fa-1751-4bfb-8950-3bd3667cc03f	Masaki	Shinohara	M	t	{"day": 1, "year": 1927, "month": 1}	\N	\N	\N	\N	{"original_name": "&#31712;&#21407; &#27491;&#35352;"}
 914bfc59-ae69-495a-9a25-b1138de87bb0	Shigeaki	Hidaka	M	f	{"day": 30, "year": 1916, "month": 7}	\N	Miyazaki, Japan	\N	\N	{"original_name": "&#26085;&#39640; &#32321;&#26126;"}
+701ee638-17cf-45b4-8815-95f87d4caf9a	Yumi	Ito	F	f	{"day": 1, "year": 1941, "month": 4}	{"day": 18, "year": 2016, "month": 5}	Tokoname, Chita, Aichi, Japan	\N	\N	{"birth_name": "Tsukiko Ito (伊藤 月子)", "original_name": "伊藤ユミ"}
 c6877155-e133-42c0-874b-1aba9fd78b16	Tomoyuki	Tanaka	M	t	{"day": 26, "year": 1910, "month": 4}	{"day": 2, "year": 1997, "month": 4}	Kashiwara, Osaka, Japan	\N	\N	{"original_name": "&#30000;&#20013; &#21451;&#24184;"}
 fae6c562-be36-496b-acdb-889a433773cc	Setsuko	Wakayama	F	t	{"day": 7, "year": 1929, "month": 6}	{"day": 9, "year": 1985, "month": 5}	Meguro, Tokyo, Japan	Chofu, Tokyo, Japan	\N	{"birth_name": "Setsuko Sakazume (&#22338;&#29226; &#12475;&#12484;&#23376;)", "original_name": "&#33509;&#23665; &#12475;&#12484;&#23376;"}
 43f92b30-e8dc-496c-836f-a39ec34ce058	Kunio	Miyauchi	M	t	{"day": 16, "year": 1932, "month": 2}	{"day": 27, "year": 2006, "month": 11}	Setagaya, Tokyo, Japan	Fuchu, Tokyo, Japan	\N	{"birth_name": "Kokuro Miyauchi (&#23470;&#20869; &#22269;&#37070;)", "original_name": "&#23470;&#20869; &#22283;&#37070;"}
@@ -2876,6 +2951,9 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20161210031323	2016-12-10 03:14:27
 20161216193140	2016-12-16 19:44:59
 20161217212636	2016-12-17 21:31:04
+20161220232057	2016-12-20 23:24:47
+20161226165612	2016-12-26 17:00:03
+20161226213706	2016-12-26 21:38:27
 \.
 
 
@@ -3438,6 +3516,22 @@ ALTER TABLE ONLY actor_person_roles
 
 ALTER TABLE ONLY film_images
     ADD CONSTRAINT film_images_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+
+
+--
+-- Name: group_memberships_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY group_memberships
+    ADD CONSTRAINT group_memberships_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id);
+
+
+--
+-- Name: group_memberships_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY group_memberships
+    ADD CONSTRAINT group_memberships_person_id_fkey FOREIGN KEY (person_id) REFERENCES people(id);
 
 
 --
