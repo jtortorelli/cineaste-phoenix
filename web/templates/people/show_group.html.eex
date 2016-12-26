@@ -1,7 +1,15 @@
-<div class="jumbotron">
-  <h2><%= @group.name %></h2>
-</div>
-
-<div class="row">
-  <img class="img-thumbnail" src="<%= render_group_profile_pic(@group.id) %>"
+<div class="container">
+  <div>
+    <img class="img-thumbnail" src="<%= render_group_profile_pic(@group.id) %>"/>
+    <h2><%= @group.name %></h2>
+  </div>
+  <%= render "tabs.html" %>
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="bio">
+      
+    </div>
+    <div role="tabpanel" class="tab-pane fade" id="selected-filmography">
+      
+    </div>
+  </div>
 </div>
