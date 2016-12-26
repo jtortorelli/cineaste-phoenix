@@ -2612,8 +2612,8 @@ COPY group_memberships (group_id, person_id) FROM stdin;
 --
 
 COPY groups (id, name, showcase, active_start, active_end, props) FROM stdin;
-5bbcef55-15b8-4fc1-a507-a115d57bfbbf	The Peanuts	t	1959	1975	{"japanese_name": "&#12470;&#12539;&#12500;&#12540;&#12490;&#12483;&#12484;"}
-660408b0-763e-451b-a3de-51cad893c087	The Bambi Pair	f	\N	\N	{"japanese_name": "&#12506;&#12450;&#12539;&#12496;&#12531;&#12499;"}
+5bbcef55-15b8-4fc1-a507-a115d57bfbbf	The Peanuts	t	1959	1975	{"original_name": "&#12470;&#12539;&#12500;&#12540;&#12490;&#12483;&#12484;"}
+660408b0-763e-451b-a3de-51cad893c087	The Bambi Pair	f	\N	\N	{"original_name": "&#12506;&#12450;&#12539;&#12496;&#12531;&#12499;"}
 \.
 
 
