@@ -15,6 +15,7 @@ defmodule Cineaste.GroupRolesView do
   def changeset(group_roles_view, params \\ %{}) do
     group_roles_view
     |> cast(params, [:film_title, :film_release_date, :film_showcase, :film_id, :role, :group_id])
+    |> cast_actor_role(params)
     |> validate_required([:film_title, :film_release_date, :film_showcase, :film_id, :role, :group_id])
   end
   
