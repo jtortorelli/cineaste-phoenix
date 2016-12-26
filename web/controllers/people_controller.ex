@@ -5,6 +5,7 @@ defmodule Cineaste.PeopleController do
   alias Cineaste.Group
   alias Cineaste.ErrorView
   alias Cineaste.PersonRolesView
+  alias Cineaste.GroupRolesView
 
   def index(conn, _params) do
     people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn(view) -> view.sort_name end)
@@ -49,7 +50,8 @@ defmodule Cineaste.PeopleController do
   end
   
   def _render_group_page(conn, %Group{} = group) do
-     render conn, "show_group.html", group: group
+    roles = Repo.all(from view in GroupRolesView, where: view.group_id == ^group.id)
+    render conn, "show_group.html", group: group, roles: roles
   end
   
   def _render_group_page(conn, _) do
