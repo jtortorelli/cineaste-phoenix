@@ -1,0 +1,12 @@
+<%= for role_name <- @role_names do %>
+  <p>
+    <%= "#{role_name} (#{Map.get(@role_groups, role_name) |> Enum.count})" %>
+  </p>
+  <ul>
+    <%= for role <- Map.get(@role_groups, role_name) do %>
+      <li>
+        <%= raw "<i>#{role.film_title}</i> (#{Timex.format!(role.film_release_date, "{YYYY}")})" %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>

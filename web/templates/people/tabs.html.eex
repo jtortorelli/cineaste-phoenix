@@ -1,0 +1,10 @@
+<div>
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active">
+      <a href="#bio" aria-controls="bio" role="tab" data-toggle="tab">Bio</a>
+    </li>
+    <li role="presentation">
+      <a href="#selected-filmography" aria-controls="gallery" role="tab" data-toggle="tab">Selected Filmography</a>
+    </li>
+  </ul>
+</div>

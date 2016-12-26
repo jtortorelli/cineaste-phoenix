@@ -64,5 +64,11 @@ defmodule Cineaste.PeopleView do
   end
   
   def render_dates(_), do: nil
+  
+  def render_selected_filmography(roles) do
+    role_names = Enum.map(roles, fn r -> r.role end) |> Enum.uniq
+    role_groups = Enum.reduce(role_names, %{}, fn role_name, acc -> Map.put(acc, role_name, Enum.filter(roles, fn r -> r.role == role_name end)) end)
+    render "selected_filmography_roles.html", role_names: role_names, role_groups: role_groups
+  end
 
 end

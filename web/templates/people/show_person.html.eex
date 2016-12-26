@@ -2,11 +2,24 @@
   <h2><%= @person.given_name <> " " <> @person.family_name %></h2>
 </div>
 <div class="container">
-  <div class="row">
-    <img class="img-thumbnail" src="<%= render_person_profile_pic(@person.id) %>" />
-    <%= render_person_info(@person) %>
-  </div>
-  <div class="row">
-    <%= raw @bio %>
+  <%= render "tabs.html" %>
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane fade in active" id="bio">
+      <div class="row">
+        <img class="img-thumbnail" src="<%= render_person_profile_pic(@person.id) %>" />
+        <%= render_person_info(@person) %>
+      </div>
+      <div class="row">
+        <%= raw @bio %>
+      </div>
+    </div>
+    
+    
+    <div role="tabpanel" class="tab-pane fade" id="selected-filmography">
+      <div class="row">
+        <%= render_selected_filmography(@roles) %>
+      </div>
+    </div>
+  
   </div>
 </div>

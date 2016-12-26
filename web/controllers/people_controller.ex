@@ -4,6 +4,7 @@ defmodule Cineaste.PeopleController do
   alias Cineaste.Person
   alias Cineaste.Group
   alias Cineaste.ErrorView
+  alias Cineaste.PersonRolesView
 
   def index(conn, _params) do
     people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn(view) -> view.sort_name end)
@@ -27,11 +28,12 @@ defmodule Cineaste.PeopleController do
   end
   
   def _render_person_page(conn, %Person{} = person) do
+    roles = Repo.all(from view in PersonRolesView, where: view.person_id == ^person.id)
     bio = File.read!("web/static/assets/text/bios/people/#{person.id}.txt")
     |> String.split("\n")
     |> Enum.map(fn x -> "<p>#{x}</p>" end)
     |> Enum.join
-    render conn, "show_person.html", person: person, bio: bio
+    render conn, "show_person.html", person: person, bio: bio, roles: roles
   end
   
   def _render_person_page(conn, _) do
