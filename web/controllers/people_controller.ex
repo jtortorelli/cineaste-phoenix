@@ -50,8 +50,13 @@ defmodule Cineaste.PeopleController do
   end
   
   def _render_group_page(conn, %Group{} = group) do
+    group = Repo.preload(group, [:members])
     roles = Repo.all(from view in GroupRolesView, where: view.group_id == ^group.id)
-    render conn, "show_group.html", group: group, roles: roles
+    bio = File.read("web/static/assets/text/bio/groups/#{group.id}.txt")
+    |> String.split("\n")
+    |> Enum.map(fn x -> "<p>#{x}</p>" end)
+    |> Enum.join
+    render conn, "show_group.html", group: group, bio: bio, roles: roles
   end
   
   def _render_group_page(conn, _) do
