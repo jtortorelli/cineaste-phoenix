@@ -1,0 +1,5 @@
+<table class="table table-nonfluid">
+  <%= render_original_name(@group.props) %>
+  <%= render_members(@group.members) %>
+  <%= render_group_active_period(@group.active_start, @group.active_end) %>
+</table>

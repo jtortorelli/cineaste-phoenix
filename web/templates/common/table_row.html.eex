@@ -3,6 +3,6 @@
     <%= @key %>
   </td>
   <td>
-    <%= @value %>
+    <%= raw @value %>
   </td>
 </tr>

@@ -70,5 +70,26 @@ defmodule Cineaste.PeopleView do
     role_groups = Enum.reduce(role_names, %{}, fn role_name, acc -> Map.put(acc, role_name, Enum.filter(roles, fn r -> r.role == role_name end)) end)
     render "selected_filmography_roles.html", role_names: role_names, role_groups: role_groups
   end
-
+  
+  def render_group_info(group), do: render "group_info.html", group: group
+  
+  def render_members([_head | _tail] = members) do
+    joined_members = Enum.map(members, fn x -> "#{x.given_name} #{x.family_name}" end)
+    |> Enum.join("<br/>")
+    CommonView.render_table_row("Members", joined_members)
+  end
+  
+  def render_members(_), do: nil
+  
+  def render_group_active_period(start_date, nil) do
+    period = "#{start_date} - Present"
+    CommonView.render_table_row("Active Period", period)
+  end
+  
+  def render_group_active_period(start_date, end_date) do
+    period = "#{start_date} - #{end_date}"
+    CommonView.render_table_row("Active Period", period) 
+  end
+  
+  def render_group_active_period(_, _), do: nil
 end
