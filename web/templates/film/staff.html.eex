@@ -6,7 +6,11 @@
     </td>
     <td>
       <%= for staff <- sorted_staff(view.staff) do %>
-        <%= staff.name %>
+        <%= if staff.showcase do %>
+          <%= link "#{staff.name}", to: people_path(@conn, :show_person, staff.person_id) %>
+        <% else %>
+          <%= staff.name %>
+        <% end %>
         <br />
       <% end %>
     </td>

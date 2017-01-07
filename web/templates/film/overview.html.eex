@@ -13,7 +13,7 @@
       </div>
       <div class="col-md-4">
         <div id="staff">
-          <%= render "staff.html", film_staff_views: @film_staff_views %>
+          <%= render "staff.html", film_staff_views: @film_staff_views, conn: @conn %>
         </div>
       </div>
     </div>
