@@ -14,13 +14,13 @@
         <%= raw @bio %>
       </div>
     </div>
-    
-    
+
+
     <div role="tabpanel" class="tab-pane fade" id="selected-filmography">
       <div class="row">
-        <%= render_selected_filmography(@roles) %>
+        <%= render_selected_filmography(@conn, @roles) %>
       </div>
     </div>
-  
+
   </div>
 </div>

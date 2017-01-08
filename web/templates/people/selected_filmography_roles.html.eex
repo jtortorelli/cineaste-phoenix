@@ -5,10 +5,7 @@
   <ul>
     <%= for role <- Map.get(@role_groups, role_name) do %>
       <li>
-        <%= raw "<i>#{role.film_title}</i> (#{Timex.format!(role.film_release_date, "{YYYY}")})" %>
-        <%= if role_name == "Actor" do %>
-          <%= "... #{Enum.join(role.characters, ", ")}"%>
-        <% end %>
+        <%= render_film_link(@conn, role, role_name) %>
       </li>
     <% end %>
   </ul>
