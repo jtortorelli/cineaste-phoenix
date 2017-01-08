@@ -4,7 +4,7 @@
     <%= for view <- @other_cast do %>
     <tr>
       <td>
-        <%= render_people_link(@conn, view.entity_id, view.names.display_name, view.showcase, view.type) %>
+        <%= render_people_link(@conn, view) %>
       </td>
       <td>
         <%= for role <- view.roles do %>

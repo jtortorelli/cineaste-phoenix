@@ -83,15 +83,15 @@ defmodule Cineaste.FilmView do
     s3_poster_url <> film_id <> ".jpg"
   end
 
-  def render_people_link(conn, id, text, true, "person") do
+  def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "person"}) do
     link "#{text}", to: people_path(conn, :show_person, id)
   end
 
-  def render_people_link(conn, id, text, true, "group") do
+  def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "group"}) do
     link "#{text}", to: people_path(conn, :show_group, id)
   end
 
-  def render_people_link(_, _, text, false, _) do
+  def render_people_link(_conn, %{names: %{display_name: text}, showcase: false}) do
     text
   end
 
