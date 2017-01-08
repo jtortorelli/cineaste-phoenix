@@ -4,7 +4,7 @@
     <%= for view <- @top_billed_cast do %>
       <tr>
         <td>
-          <%= view.names.display_name %>
+          <%= render_people_link(@conn, view.entity_id, view.names.display_name, view.showcase, view.type) %>
         </td>
         <td>
           <%= for role <- view.roles do %>

@@ -1,2 +1,2 @@
-<%= render_top_billed_cast(@top_billed_cast) %>
-<%= render_other_cast(@other_cast) %>
+<%= render_top_billed_cast(@conn, @top_billed_cast) %>
+<%= render_other_cast(@conn, @other_cast) %>
