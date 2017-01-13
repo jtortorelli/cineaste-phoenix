@@ -2,11 +2,12 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.5.4
--- Dumped by pg_dump version 9.5.4
+-- Dumped from database version 9.6.1
+-- Dumped by pg_dump version 9.6.1
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
 SET check_function_bodies = false;
@@ -104,6 +105,7 @@ ALTER TABLE people OWNER TO postgres;
 
 CREATE VIEW film_cast_view AS
  SELECT r.film_id,
+    p.id AS entity_id,
     r.roles,
     r."order",
     p.showcase,
@@ -113,6 +115,7 @@ CREATE VIEW film_cast_view AS
      JOIN people p ON ((p.id = r.person_id)))
 UNION
  SELECT r.film_id,
+    g.id AS entity_id,
     r.roles,
     r."order",
     g.showcase,
@@ -969,6 +972,7 @@ b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Gian
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	34de1ef2-9428-4c7e-8512-5683f7cced38	{"Detective Ito"}	6
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Captain Hachiro Jinguji"}	7
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	86209caa-4d37-4745-be23-dbee24bf244a	{"Lt. Amano"}	8
+0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	fefa0ceb-89a5-4d79-8a4a-80dfb16238a0	{Reporter}	24
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Mu Agent No. 23"}	9
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	7890926d-3000-43b1-9be4-272609b3cca7	{"High Priest of Mu"}	10
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	b86678a4-b0f5-477d-af53-af0dde7e60ef	{General}	11
@@ -1197,7 +1201,6 @@ b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Gian
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	0e2de731-55a7-44be-a0b3-8213183d631e	{Soldier}	21
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Xian}	22
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	be4ac231-b431-4c18-b5a9-851e2a7713f1	{Scientist}	23
-0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	fefa0ceb-89a5-4d79-8a4a-80dfb16238a0	{Reporter}	24
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	b883c489-0fe7-4165-86a4-49b531a28c37	{Soldier}	25
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{Reporter}	26
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	92dd9d68-0b73-443a-8aae-f0e7bba34f32	{Reporter}	29
@@ -2399,6 +2402,7 @@ e8ccb201-e076-48cb-9307-f8b99101f133	The Human Vapor	1960-12-11	91	t	\N	{"origin
 b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost World of Sinbad"}	{"original_title": "&#22823;&#30423;&#36042;", "original_translation": "Great Bandit", "original_transliteration": "Daitouzoku"}
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	Dogora, the Space Monster	1964-08-11	81	t	{Dogora}	{"original_title": "&#23431;&#23449;&#22823;&#24618;&#29539;&#12489;&#12468;&#12521;", "original_translation": "Space Giant Monster Dogora", "original_transliteration": "Uchyuu Daikaijyuu Dogora"}
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
+58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
 9883d93a-db06-4c02-ba91-1d41c335acf1	Rashomon	1950-08-26	88	f	\N	{"original_title": "羅生門", "original_translation": "Rashomon", "original_transliteration": "Rashyoumon"}
 483afdf4-329f-42fb-8d0c-a1d7bd60d5d2	Seven Samurai	1954-04-26	207	f	\N	{"original_title": "七人の侍", "original_translation": "Seven Samurai", "original_transliteration": "Shichinin No Samurai"}
@@ -2463,6 +2467,7 @@ ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	f	\N	{"original_t
 88a761bb-acae-4a56-b157-ed2fe51951ab	Kaiji 2	2011-11-05	133	f	\N	{"original_title": "カイジ2", "original_translation": "Kaiji 2", "original_transliteration": "Kaiji 2"}
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	f	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	f	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
+c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"original_title": "着信アリ", "original_translation": "Incoming Call", "original_transliteration": "Chyakushin Ari"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
@@ -2497,6 +2502,7 @@ c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_ti
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	f	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	f	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
+940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -2531,7 +2537,6 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"or
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	f	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
-940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
 228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
 5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
@@ -2566,8 +2571,6 @@ e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	f	
 d47406e8-fd4b-4031-87e9-387f905eeb13	GMK	2001-12-15	105	f	\N	{"original_title": "ゴジラ・モスラ・キングギドラ 大怪獣総攻撃", "original_translation": "Godzilla, Mothra, King Ghidorah: Giant Monsters All Out Attack", "original_transliteration": "Gojira Mosura Kingugidora Daikaijyuu Soukougeki"}
 2a3810e7-dee8-45c2-8982-5730cc86e50c	Azumi	2003-05-10	142	f	\N	{"original_title": "あずみ", "original_translation": "Azumi", "original_transliteration": "Azumi"}
 5988c778-2ffb-4036-8341-962e43b21b7d	Always: Sunset on Third Street '64'	2012-01-21	142	f	\N	{"original_title": "ALWAYS 三丁目の夕日'64", "original_translation": "Always: Sunset on Third Street '64", "original_transliteration": "Always San Chyoume No Yuuhi '64'"}
-58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
-c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"original_title": "着信アリ", "original_translation": "Incoming Call", "original_transliteration": "Chyakushin Ari"}
 113ece47-aff0-4d03-9096-f9f7830f5528	Tetsujin-28	2005-03-19	114	f	\N	{"original_title": "鉄人28号", "original_translation": "Iron Man No. 28", "original_transliteration": "Tetsujin Nijyuu Hachi Gou"}
 e867eee7-3dfb-4a98-88d4-94ab919efb14	LoveDeath	2007-05-12	158	f	\N	\N
 6f7545a5-808f-49a1-88e0-b444d1a56f29	Sukiyaki Western Django	2007-09-15	121	f	\N	{"original_title": "スキヤキ・ウエスタン ジャンゴ", "original_translation": "Sukiyaki Western Django", "original_transliteration": "Sukiyaki Uesutan Jyango"}
@@ -2589,11 +2592,36 @@ a189e004-9ee6-4c76-90c6-b4630efccd95	The Sinking of Japan	2006-07-15	135	f	\N	{"
 37e6a670-8016-4594-ba9b-070dd2c76311	Hara-Kiri: Death of a Samurai	2011-10-15	126	f	\N	{"original_title": "一命", "original_translation": "Life", "original_transliteration": "Ichimei"}
 0c035d95-032c-4975-8693-1058d6676add	Kaiji	2009-10-10	129	f	\N	{"original_title": "カイジ", "original_translation": "Kaiji", "original_transliteration": "Kaiji"}
 32feba7e-991a-4f63-90e4-31765bf552bd	Zatoichi	1989-02-04	116	f	{"Zatoichi: The Blind Swordsman","Zatoichi: Darkness is His Ally"}	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
-6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2009-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 65abec00-0bd3-48d7-9394-7816acfe04a3	Daredevil in the Castle	1961-01-03	95	f	\N	{"original_title": "大坂城物語", "original_translation": "Osaka Castle Story", "original_transliteration": "Oosakajyou Monogatari"}
 e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	Whirlwind	1964-01-03	106	f	\N	{"original_title": "士魂魔道 大龍巻", "original_translation": "Buddhist Spirit Great Tornado", "original_transliteration": "Shikonmadou Daitatsumaki"}
 b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_title": "仄暗い水の底から", "original_translation": "Dark Water from the Bottom", "original_transliteration": "Honokurai Mizu No Soko Kara"}
 897f493c-cd9b-485d-8aa6-3459792e4fd8	The Sword of Doom	1966-02-25	120	f	\N	{"original_title": "大菩薩峠", "original_translation": "Great Bodhisattva Pass", "original_transliteration": "Daibasatsu Touge"}
+590ec282-c912-4887-91d3-15fb7f581f40	The Tale of Zatoichi	1962-04-18	96	f	\N	{"original_title": "座頭市物語", "original_translation": "Zatouichi Monogatari", "original_transliteration": "Story of Zatoichi"}
+39675aec-9067-4575-a1a1-9fbecdd88675	The Tale of Zatoichi Continues	1962-10-12	73	f	\N	{"original_title": "続・座頭市物語", "original_translation": "Zoku Zatouichi Monogatari", "original_transliteration": "Story of Zatoichi Continued"}
+979f5970-26c8-476a-9e55-3844963ee9a1	New Tale of Zatoichi	1963-03-15	91	f	\N	{"original_title": "新・座頭市物語", "original_translation": "Shin Zatouichi Monogatari", "original_transliteration": "New Story of Zatoichi"}
+4c6b33c0-c731-4b31-a84c-4ef3e8edcf9c	Zatoichi the Fugitive	1963-08-10	86	f	\N	{"original_title": "座頭市兇状旅", "original_translation": "Zatouichi Kyoujyoutabi", "original_transliteration": "Zatoichi Funeral Journey"}
+7e76cb19-b5c2-4090-b8f3-ec4aa47c5636	Zatoichi on the Road	1963-11-30	88	f	\N	{"original_title": "座頭市喧嘩旅", "original_translation": "Zatouichi Kenkatabi", "original_transliteration": "Zatoichi Fighting Journey"}
+815adb31-c73a-4a87-a6b5-7ed3230a5d21	Zatoichi and the Chest of Gold	1964-03-14	83	f	\N	{"original_title": "座頭市千両首", "original_translation": "Zatouichi Senryoukubi", "original_transliteration": "Zatoichi Thousand Ryo Neck"}
+6818987e-5678-465e-84c9-0465a25bcac3	Zatoichi's Flashing Sword	1964-07-11	82	f	\N	{"original_title": "座頭市あばれ凧", "original_translation": "Zatouichi Abaredako", "original_transliteration": "Zatoichi Wild Kite"}
+fa1784bb-e22e-4f7c-a9f8-cdfd0e0052f6	Fight, Zatoichi, Fight	1964-10-17	87	f	\N	{"original_title": "座頭市血笑旅", "original_translation": "Zatouichi Kesshyoutabi", "original_transliteration": "Zatoichi Blood Smile Journey"}
+079eedd8-33f5-45f4-a45b-53d8cdd5aaba	Adventures of Zatoichi	1964-12-30	86	f	\N	{"original_title": "座頭市関所破り", "original_translation": "Zatouichi Sekishyou Yaburi", "original_transliteration": "Zatoichi Barrier Break"}
+7f698138-a8f1-47cc-a15e-5d144cce176b	Zatoichi's Revenge	1965-04-03	84	f	\N	{"original_title": "座頭市二段斬り", "original_translation": "Zatouichi Nidankiri", "original_transliteration": "Zatoichi Two-Step Slash"}
+ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	f	\N	{"original_title": "座頭市喧嘩太鼓", "original_translation": "Zatouichi Kenkadaiko", "original_transliteration": "Zatoichi War Drum"}
+072b2fb3-3b71-49b9-a33c-1fab534f8fea	Zatoichi Meets Yojimbo	1970-01-15	115	f	\N	{"original_title": "座頭市と用心棒", "original_translation": "Zatouichi To Yojinbou", "original_transliteration": "Zatoichi and Yojimbo"}
+ed9ad73c-2b06-490c-9409-e5c8dec2f583	Zatoichi and the Doomed Man	1965-09-18	78	f	\N	{"original_title": "座頭市逆手斬り", "original_translation": "Zatouichi Sakategiri", "original_transliteration": "Zatoichi Enemy Slashing"}
+9fbcb82b-d10b-4790-88b1-c4734ed11258	Zatoichi Goes to the Fire Festival	1970-08-12	96	f	\N	{"original_title": "座頭市あばれ火祭り", "original_translation": "Zatouichi Abarehi Matsuri", "original_transliteration": "Zatoichi Fire Festival"}
+6d07b165-ef5c-40ab-ad68-e53e8bc9f7fa	Zatoichi and the Chess Expert	1965-12-24	87	f	\N	{"original_title": "座頭市地獄旅", "original_translation": "Zatouichi Jigokutabi", "original_transliteration": "Zatoichi Hell Journey"}
+650f80b2-ef90-4fe3-abec-08c5befc3955	Zatoichi Meets the One-Armed Swordsman	1971-01-13	94	f	\N	{"original_title": "新座頭市・破れ！唐人剣", "original_translation": "Shin Zatouichi Yabare! Toujinken", "original_transliteration": "New Zatoichi Slash! Tangese Sword"}
+0da7c76b-1bdb-41d0-a403-79109f7804f8	Zatoichi's Vengeance	1966-05-03	83	f	\N	{"original_title": "座頭市の歌が聞える", "original_translation": "Zatouichi No Utaga Kikoeru", "original_transliteration": "Listening to Song of Zatoichi"}
+21e27984-4ac9-4a94-b056-9b8c1649a02f	Zatoichi at Large	1972-01-15	90	f	\N	{"original_title": "座頭市御用旅", "original_translation": "Zatouichi Goyoutabi", "original_transliteration": "Zatoichi Favorite Journey"}
+9a26d075-9c52-4795-a209-40844549a919	Zatoichi's Pilgrimage	1966-08-13	82	f	\N	{"original_title": "座頭市海を渡る", "original_translation": "Zatouichi Umi O Wataru", "original_transliteration": "Zatoichi Cross the Ocean"}
+381c515c-e1bf-49bd-81c0-0126e2bf6719	Zatoichi in Desperation	1972-09-02	95	f	\N	{"original_title": "新座頭市物語・折れた杖", "original_translation": "Shin Zatouichi Monogatari Oreta Tsue", "original_transliteration": "New Story of Zatoichi Broken Cane"}
+0eef4e8f-4c53-480f-a875-8659546a943e	Zatoichi's Cane Sword	1967-01-03	93	f	\N	{"original_title": "座頭市鉄火旅", "original_translation": "Zatouichi Tekkatabi", "original_transliteration": "Zatoichi Fire Journey"}
+8ac9d4ae-b517-4372-9e42-2e327cd0d95c	Zatoichi's Conspiracy	1973-04-21	88	f	\N	{"original_title": "新座頭市物語・笠間の血祭り", "original_translation": "Shin Zatouichi Monogatari Kasama No Chimatsuri", "original_transliteration": "New Story of Zatoichi Kasama Blood Festival"}
+b37e654d-9604-45bb-9b18-aad485e4b30d	Zatoichi the Outlaw	1967-08-12	96	f	\N	{"original_title": "座頭市牢破り", "original_translation": "Zatouichi Rouyaburi", "original_transliteration": "Zatoichi Jailbreak"}
+ac6e5a74-3b42-416d-a73a-93ceced56b19	Zatoichi Challenged	1967-12-30	87	f	\N	{"original_title": "座頭市血煙り街道", "original_translation": "Zatouichi Chikemurikaidou", "original_transliteration": "Zatoichi Blood Smoke Road"}
+5810d823-af91-47ae-ab7d-20a34efbda83	Zatoichi and the Fugitives	1968-08-10	82	f	\N	{"original_title": "座頭市果し状", "original_translation": "Zatouichi Hatashijyou", "original_transliteration": "Zatoichi Letter of Challenge"}
+6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2003-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 \.
 
 
@@ -2705,6 +2733,7 @@ c0eeeca2-2862-4a6f-bf5b-66920a8172a8	Nobuo	Nakamura	M	t	{"day": 14, "year": 1908
 9bf7c6b0-5a5f-485d-80e1-4fe6a1241bfd	Momoko	Kochi	F	t	{"day": 7, "year": 1932, "month": 3}	{"day": 5, "year": 1998, "month": 11}	Yunaka, Taito, Tokyo, Japan	Hiroo, Shibuya, Tokyo, Japan	\N	{"birth_name": "Momoko Okochi (&#22823;&#27827;&#20869; &#26691;&#23376;)", "original_name": "&#27827;&#20869; &#26691;&#23376;"}
 6ec04ee3-d9f9-4d8b-91e2-ab10ae2e9d48	Hiroshi	Tachikawa	M	t	{"day": 7, "year": 1931, "month": 3}	\N	Ogimachi, Tama, Tokyo, Japan	\N	\N	{"birth_name": "Yoichi Tachikawa (&#22826;&#20992;&#24029; &#27915;&#19968;)", "original_name": "&#22826;&#20992;&#24029; &#23515;"}
 2ffd8877-261d-408c-97df-97bd6eb5748d	Mitsuko	Kusabue	F	t	{"day": 22, "year": 1933, "month": 10}	\N	Yokohama, Kanagawa, Japan	\N	\N	{"original_name": "&#33609;&#31515; &#20809;&#23376;"}
+e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Shigeru	Mori	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26862;&#33538;"}
 f298c956-ac3a-4d29-b92b-462c16b833e1	Shunro	Oshikawa	M	t	{"day": 21, "year": 1876, "month": 3}	{"day": 16, "year": 1914, "month": 11}	Matsuyama, Ehime, Japan	Tokyo, Japan	\N	{"birth_name": "Masanori Oshikawa (&#25276;&#24029; &#26041;&#23384;)", "original_name": "&#25276;&#24029; &#26149;&#28010;"}
 65171b44-fd3a-4948-9613-3f7206141774	Hideo	Shibuya	M	t	{"day": 20, "year": 1928, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "&#28171;&#35895; &#33521;&#30007;"}
 b883c489-0fe7-4165-86a4-49b531a28c37	Rinsaku	Ogata	M	t	{"day": 6, "year": 1925, "month": 1}	\N	\N	\N	\N	{"original_name": "&#32210;&#26041; &#29136;&#20316;"}
@@ -2791,6 +2820,7 @@ ca42052c-b7db-4e90-a825-bf0afe11a5b9	Mie	Hama	F	t	{"day": 20, "year": 1943, "mon
 d08d501c-fb18-4360-8e59-9685b5ecead3	Akiko	Wakabayashi	F	t	{"day": 13, "year": 1939, "month": 12}	\N	Kitasen, Ota, Tokyo, Japan	\N	\N	{"original_name": "&#33509;&#26519; &#26144;&#23376;"}
 d387c2a2-4b42-48ff-bf6c-22e7909b93c8	Akira	Tani	M	t	{"day": 22, "year": 1910, "month": 9}	{"day": 11, "year": 1966, "month": 8}	Osaka, Japan	Satoshihigashi, Komae, Kitatama, Tokyo, Japan	\N	{"original_name": "&#35895; &#26179;"}
 6976faf1-cfe4-489a-9dd5-c76f1ecc969b	Arthur	Rankin	M	t	{"day": 19, "year": 1924, "month": 7}	{"day": 30, "year": 2014, "month": 1}	New York City, New York, United States	Harrington Sound, Bermuda	\N	{"japanese_name": "&#12450;&#12540;&#12469;&#12540;&#12539;&#12521;&#12531;&#12461;&#12531;"}
+7102d855-7fc6-4668-b20e-38fe1e3705cf	Shizuko	Azuma	F	f	{"day": 22, "year": 1930, "month": 8}	{"unknown": 1}	Tokyo, Japan	\N	\N	{"original_name": "&#26481; &#38745;&#23376;"}
 ba759075-8927-42c2-8da7-58086e6f1e27	Ken	Echigo	M	t	{"day": 2, "year": 1929, "month": 12}	{"unknown": 1}	Akita, Japan	\N	{"Kenzo Echigo (&#36234;&#24460; &#25010;&#19977;)"}	{"original_name": "&#36234;&#24460; &#25010;"}
 0e2de731-55a7-44be-a0b3-8213183d631e	Takuzo	Kumagai	M	t	{"day": 3, "year": 1906, "month": 11}	{"unknown": 1}	Nagano, Japan	\N	{"Jiro Kumagai (&#29066;&#35895; &#20108;&#33391;)"}	{"original_name": "&#29066;&#35895; &#21331;&#19977;"}
 69bf5524-7df6-4af9-bf93-b646a935ed53	Beverly	Maeda	F	t	{"day": 8, "year": 1948, "month": 8}	\N	Kamakura, Kanagawa, Japan	\N	\N	{"original_name": "&#21069;&#30000; &#32654;&#27874;&#37324;"}
@@ -2822,7 +2852,6 @@ c70d0b2e-8511-4bfb-8527-808b3fef2a09	Takeo	Kita	M	f	{"day": 9, "year": 1901, "mo
 84c442af-6bd6-4e53-93c6-f4b213175de4	Takeo	Murata	M	f	{"day": 17, "year": 1907, "month": 6}	{"day": 19, "year": 1994, "month": 7}	Shinagawa, Tokyo, Japan	\N	\N	{"original_name": "&#26449;&#30000; &#27494;&#38596;"}
 ef73315d-624c-4436-a729-5e47d474365e	Toranosuke	Ogawa	M	f	{"day": 1, "year": 1897, "month": 12}	{"day": 29, "year": 1967, "month": 12}	Akasuka, Tokyo, Japan	Urawa, Saitama, Japan	\N	{"original_name": "&#23567;&#24029; &#34382;&#20043;&#21161;"}
 97417c8f-8ba2-463d-a9d6-dac0810125be	Kiyoshi	Kimata	M	f	\N	\N	\N	\N	\N	{"original_name": "&#40232;&#30000; &#28165;"}
-7102d855-7fc6-4668-b20e-38fe1e3705cf	Shizuko	Azuma	F	f	{"day": 22, "year": 1930, "month": 8}	{"unknown": 1}	Tokyo, Japan	\N	\N	{"original_name": "&#26481; &#38745;&#23376;"}
 daffb7f5-4b0c-4e00-96c4-6ac19b15d22b	Kin	Sugai	F	f	{"day": 28, "year": 1928, "month": 2}	\N	Ushigome, Tokyo, Japan	\N	\N	{"original_name": "&#33733;&#20117; &#12365;&#12435;"}
 0c704bd2-886c-4acc-8b83-f0b9b7ee8aac	Toyoaki	Suzuki	M	f	\N	\N	\N	\N	\N	{"original_name": "&#37428;&#26408;&#35914;&#26126;"}
 600f3ec6-2ba2-4c6d-8cc1-01f4d625755b	Takeo	Oikawa	M	f	\N	\N	\N	\N	\N	{"original_name": "&#31496;&#24029;&#27494;&#22827;"}
@@ -2868,6 +2897,7 @@ aa27cf6a-ae9a-4e2a-9921-a67f6b2f8184	Ryohei	Fujii	M	f	\N	\N	\N	\N	\N	{"original_
 8d818c87-fa3d-440c-9825-2def708d19cc	Kiyoshi	Shimizu	M	f	\N	\N	\N	\N	\N	{"original_name": "&#28165;&#27700;&#21916;&#20195;&#24535;"}
 b4a497d1-74e0-4304-bc20-7a32275c73ab	Tsuruzo	Nishikawa	M	f	\N	\N	\N	\N	\N	{"original_name": "&#35199;&#24029;&#40372;&#19977;"}
 36e34390-71ca-4e42-a28e-e6944cc7d582	Rokuro	Ishikawa	M	f	\N	\N	\N	\N	\N	{"original_name": "&#30707;&#24029;&#32209;&#37070;"}
+475b78c0-45ad-46dc-8c99-b41a09ee2ec5	Kazue	Shiba	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26031;&#27874;&#19968;&#32117;"}
 a37d0291-2e69-40af-86f0-133859aaf1ff	Kisaku	Ito	M	f	{"day": 1, "year": 1899, "month": 8}	{"day": 31, "year": 1967, "month": 3}	Misaki, Kanda, Tokyo, Japan	\N	\N	{"original_name": "&#20234;&#34276; &#29113;&#26388;"}
 f0248816-9020-47ff-a5f2-b77c0e43002c	Ko	Nishimura	M	f	{"day": 25, "year": 1923, "month": 1}	{"day": 15, "year": 1997, "month": 4}	Sapporo, Hokkaido, Japan	Kokubunji, Tokyo, Japan	\N	{"original_name": "&#35199;&#26449; &#26179;"}
 a7476494-4b15-4fd8-93b4-4548ed8f0086	Shoshichi	Kojima	M	f	\N	\N	\N	\N	\N	{"original_name": "&#23567;&#23798;&#27491;&#19971;"}
@@ -2903,8 +2933,6 @@ b7285384-4240-4eaf-b9c0-ca8fcdc74233	Sadao	Bekku	M	f	{"day": 24, "year": 1922, "
 7f06db03-42ca-4a84-bb01-a856eb036026	Yoyo	Miyata	M	f	{"day": 16, "year": 1915, "month": 2}	{"day": 11, "year": 1983, "month": 7}	Kumamoto, Japan	\N	{"Hitsujiyo Miyata (&#23470;&#30000; &#32650;&#23481;)"}	{"birth_name": "Nobuo Iwashita (&#23721;&#19979; &#20449;&#22827;)", "original_name": "&#23470;&#30000; &#27915;&#23481;"}
 439b033b-b72a-4ed0-b2fd-c44468378bc0	Hiroko	Sakurai	F	f	{"day": 4, "year": 1946, "month": 3}	\N	Meguro, Tokyo, Japan	\N	\N	{"original_name": "&#26716;&#20117; &#28009;&#23376;"}
 6032ee2a-e49e-43be-b727-dfda0a12c60f	Noriko	Sengoku	F	f	{"day": 29, "year": 1922, "month": 4}	{"day": 27, "year": 2012, "month": 12}	Komazawa, Ebara, Tokyo, Japan	\N	\N	{"original_name": "&#21315;&#30707; &#35215;&#23376;"}
-475b78c0-45ad-46dc-8c99-b41a09ee2ec5	Kazue	Shiba	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26031;&#27874;&#19968;&#32117;"}
-e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Shigeru	Mori	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26862;&#33538;"}
 1877d46d-9ace-4741-836c-0b03933c496d	Masami	Fukushima	M	f	{"day": 18, "year": 1929, "month": 2}	{"day": 9, "year": 1976, "month": 4}	Fengyuan, Sakhalin	\N	\N	{"original_name": "&#31119;&#23798; &#27491;&#23455;"}
 07f8acfe-8d57-4c46-811c-8f499e27a989	Shoichi	Fujinawa	M	f	\N	\N	\N	\N	\N	{"original_name": "&#34276;&#32260;&#27491;&#19968;"}
 8dddd2f4-0d44-40b8-ab2c-b927053f99bd	Keiko	Muramatsu	F	f	\N	\N	\N	\N	\N	{"original_name": "&#26449;&#26494;&#24693;&#23376;"}
@@ -2954,6 +2982,7 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20161220232057	2016-12-20 23:24:47
 20161226165612	2016-12-26 17:00:03
 20161226213706	2016-12-26 21:38:27
+20170107235902	2017-01-08 02:12:08
 \.
 
 
@@ -3423,7 +3452,7 @@ a7136259-307b-4315-9247-4bd6ee60ae61	Mifune Productions
 
 
 --
--- Name: film_images_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: film_images film_images_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY film_images
@@ -3431,7 +3460,7 @@ ALTER TABLE ONLY film_images
 
 
 --
--- Name: films_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: films films_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY films
@@ -3439,7 +3468,7 @@ ALTER TABLE ONLY films
 
 
 --
--- Name: groups_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: groups groups_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY groups
@@ -3447,7 +3476,7 @@ ALTER TABLE ONLY groups
 
 
 --
--- Name: people_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: people people_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY people
@@ -3455,7 +3484,7 @@ ALTER TABLE ONLY people
 
 
 --
--- Name: schema_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: schema_migrations schema_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY schema_migrations
@@ -3463,7 +3492,7 @@ ALTER TABLE ONLY schema_migrations
 
 
 --
--- Name: series_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: series series_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY series
@@ -3471,7 +3500,7 @@ ALTER TABLE ONLY series
 
 
 --
--- Name: studios_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+-- Name: studios studios_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY studios
@@ -3479,7 +3508,7 @@ ALTER TABLE ONLY studios
 
 
 --
--- Name: actor_group_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: actor_group_roles actor_group_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY actor_group_roles
@@ -3487,7 +3516,7 @@ ALTER TABLE ONLY actor_group_roles
 
 
 --
--- Name: actor_group_roles_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: actor_group_roles actor_group_roles_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY actor_group_roles
@@ -3495,7 +3524,7 @@ ALTER TABLE ONLY actor_group_roles
 
 
 --
--- Name: actor_person_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: actor_person_roles actor_person_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY actor_person_roles
@@ -3503,7 +3532,7 @@ ALTER TABLE ONLY actor_person_roles
 
 
 --
--- Name: actor_person_roles_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: actor_person_roles actor_person_roles_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY actor_person_roles
@@ -3511,7 +3540,7 @@ ALTER TABLE ONLY actor_person_roles
 
 
 --
--- Name: film_images_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: film_images film_images_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY film_images
@@ -3519,7 +3548,7 @@ ALTER TABLE ONLY film_images
 
 
 --
--- Name: group_memberships_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: group_memberships group_memberships_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY group_memberships
@@ -3527,7 +3556,7 @@ ALTER TABLE ONLY group_memberships
 
 
 --
--- Name: group_memberships_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: group_memberships group_memberships_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY group_memberships
@@ -3535,7 +3564,7 @@ ALTER TABLE ONLY group_memberships
 
 
 --
--- Name: series_films_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: series_films series_films_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY series_films
@@ -3543,7 +3572,7 @@ ALTER TABLE ONLY series_films
 
 
 --
--- Name: series_films_series_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: series_films series_films_series_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY series_films
@@ -3551,7 +3580,7 @@ ALTER TABLE ONLY series_films
 
 
 --
--- Name: staff_person_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: staff_person_roles staff_person_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY staff_person_roles
@@ -3559,7 +3588,7 @@ ALTER TABLE ONLY staff_person_roles
 
 
 --
--- Name: staff_person_roles_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: staff_person_roles staff_person_roles_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY staff_person_roles
@@ -3567,7 +3596,7 @@ ALTER TABLE ONLY staff_person_roles
 
 
 --
--- Name: studio_films_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: studio_films studio_films_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY studio_films
@@ -3575,21 +3604,11 @@ ALTER TABLE ONLY studio_films
 
 
 --
--- Name: studio_films_studio_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+-- Name: studio_films studio_films_studio_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY studio_films
     ADD CONSTRAINT studio_films_studio_id_fkey FOREIGN KEY (studio_id) REFERENCES studios(id);
-
-
---
--- Name: public; Type: ACL; Schema: -; Owner: postgres
---
-
-REVOKE ALL ON SCHEMA public FROM PUBLIC;
-REVOKE ALL ON SCHEMA public FROM postgres;
-GRANT ALL ON SCHEMA public TO postgres;
-GRANT ALL ON SCHEMA public TO PUBLIC;
 
 
 --
