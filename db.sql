@@ -3448,6 +3448,9 @@ a7136259-307b-4315-9247-4bd6ee60ae61	3b0b0351-0b4b-4ab1-a84e-6fc554c86a31
 COPY studios (id, name) FROM stdin;
 b52fcdd6-691b-4a16-a670-e6ad6f176521	Toho
 a7136259-307b-4315-9247-4bd6ee60ae61	Mifune Productions
+c21957cc-cf69-4391-86f7-76e151b5ba73	Daiei
+be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
+95ad9c89-93ff-4636-8cb7-4ce98b441801	Toei
 \.
 
 
