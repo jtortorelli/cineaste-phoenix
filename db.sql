@@ -2430,7 +2430,6 @@ f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	f	{"Gamera v
 f47487ec-0730-46ae-9056-29fe675715b0	The Magic Serpent	1966-12-21	94	f	\N	{"original_title": "怪竜大決戦", "original_translation": "Dragon Great Battle", "original_transliteration": "Kairyuu Daikessen"}
 a50d9661-fed2-455d-9a9a-009ffa254b07	The X from Outer Space	1967-03-25	88	f	\N	{"original_title": "宇宙大怪獣ギララ", "original_translation": "Giant Space Monster Guirara", "original_transliteration": "Uchuu Daikaijyuu Girara"}
 0b006dae-79e5-4dca-b8e2-09591eacba55	Goke, Body Snatcher from Hell	1968-08-14	84	f	\N	{"original_title": "吸血鬼ゴケミドロ", "original_translation": "Vampire Gokemidoro", "original_transliteration": "Kyuuketsuki Gokemidoro"}
-b093530b-88fa-4439-bce1-aaf1b066b5ba	Living Skeleton	1968-11-09	81	f	\N	{"original_title": "吸血髑髏船", "original_translation": "Blood Sucking Skeleton Ship", "original_transliteration": "Kyuuketsu Dokurosen"}
 ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	f	\N	{"original_title": "昆虫大戦争", "original_translation": "Insect Great War", "original_transliteration": "Konchyuu Daisensou"}
 7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	f	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	f	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
@@ -2622,6 +2621,7 @@ b37e654d-9604-45bb-9b18-aad485e4b30d	Zatoichi the Outlaw	1967-08-12	96	f	\N	{"or
 ac6e5a74-3b42-416d-a73a-93ceced56b19	Zatoichi Challenged	1967-12-30	87	f	\N	{"original_title": "座頭市血煙り街道", "original_translation": "Zatouichi Chikemurikaidou", "original_transliteration": "Zatoichi Blood Smoke Road"}
 5810d823-af91-47ae-ab7d-20a34efbda83	Zatoichi and the Fugitives	1968-08-10	82	f	\N	{"original_title": "座頭市果し状", "original_translation": "Zatouichi Hatashijyou", "original_transliteration": "Zatoichi Letter of Challenge"}
 6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2003-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
+b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	f	\N	{"original_title": "吸血髑髏船", "original_translation": "Blood Sucking Skeleton Ship", "original_transliteration": "Kyuuketsu Dokurosen"}
 \.
 
 
@@ -2993,6 +2993,8 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 COPY series (id, name) FROM stdin;
 abf663c4-4467-4a76-a25f-735b00fbc120	Godzilla
 7719d635-5ead-451c-bd0a-f901523814aa	Frankenstein
+27c45133-7fc7-45cb-9b43-01125c346bba	Gamera
+662d184c-742a-48e0-b472-e6f7fb7a182e	Daimajin
 \.
 
 
@@ -3012,6 +3014,13 @@ abf663c4-4467-4a76-a25f-735b00fbc120	40cb6fad-15b4-46f5-8066-273cb965c3c4	8
 abf663c4-4467-4a76-a25f-735b00fbc120	7be35dd2-8758-4cb8-85af-17985772d431	9
 7719d635-5ead-451c-bd0a-f901523814aa	183fbe01-1bd2-4ade-b83b-6248ec7d7fee	1
 7719d635-5ead-451c-bd0a-f901523814aa	23c1c82e-aedb-4c9b-b040-c780eec577e8	2
+27c45133-7fc7-45cb-9b43-01125c346bba	0704c7e5-5709-4401-adaa-8cbec670e47d	1
+27c45133-7fc7-45cb-9b43-01125c346bba	16789ef4-c05d-4f15-b09f-3bed5291655c	2
+27c45133-7fc7-45cb-9b43-01125c346bba	40ca591f-8493-4fad-9527-464e3501e1d2	3
+27c45133-7fc7-45cb-9b43-01125c346bba	bbfd5e01-14bc-4890-aab1-92a02bec413d	4
+662d184c-742a-48e0-b472-e6f7fb7a182e	9ec4301a-1522-4af9-b83b-92d50b4f0db9	1
+662d184c-742a-48e0-b472-e6f7fb7a182e	ff2cfc4e-76d6-4985-811f-834d4b7f5485	2
+662d184c-742a-48e0-b472-e6f7fb7a182e	ce555690-494d-4983-a2a7-c99fb2fc0387	3
 \.
 
 
@@ -3438,6 +3447,20 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	ba6031ef-c7b0-451c-8465-cb2a3c494896
 b52fcdd6-691b-4a16-a670-e6ad6f176521	40cb6fad-15b4-46f5-8066-273cb965c3c4
 b52fcdd6-691b-4a16-a670-e6ad6f176521	7be35dd2-8758-4cb8-85af-17985772d431
 a7136259-307b-4315-9247-4bd6ee60ae61	3b0b0351-0b4b-4ab1-a84e-6fc554c86a31
+c21957cc-cf69-4391-86f7-76e151b5ba73	0704c7e5-5709-4401-adaa-8cbec670e47d
+c21957cc-cf69-4391-86f7-76e151b5ba73	16789ef4-c05d-4f15-b09f-3bed5291655c
+c21957cc-cf69-4391-86f7-76e151b5ba73	40ca591f-8493-4fad-9527-464e3501e1d2
+c21957cc-cf69-4391-86f7-76e151b5ba73	bbfd5e01-14bc-4890-aab1-92a02bec413d
+c21957cc-cf69-4391-86f7-76e151b5ba73	9ec4301a-1522-4af9-b83b-92d50b4f0db9
+c21957cc-cf69-4391-86f7-76e151b5ba73	ff2cfc4e-76d6-4985-811f-834d4b7f5485
+c21957cc-cf69-4391-86f7-76e151b5ba73	ce555690-494d-4983-a2a7-c99fb2fc0387
+c21957cc-cf69-4391-86f7-76e151b5ba73	7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8
+be46d083-e66d-4292-86fa-b1e26d4f5eed	0b006dae-79e5-4dca-b8e2-09591eacba55
+be46d083-e66d-4292-86fa-b1e26d4f5eed	b093530b-88fa-4439-bce1-aaf1b066b5ba
+be46d083-e66d-4292-86fa-b1e26d4f5eed	a50d9661-fed2-455d-9a9a-009ffa254b07
+be46d083-e66d-4292-86fa-b1e26d4f5eed	ef01babe-d621-40ca-8d85-363b051921a6
+95ad9c89-93ff-4636-8cb7-4ce98b441801	f47487ec-0730-46ae-9056-29fe675715b0
+95ad9c89-93ff-4636-8cb7-4ce98b441801	89faa565-3c41-4d2d-b589-df8b13007a5e
 \.
 
 
@@ -3448,6 +3471,9 @@ a7136259-307b-4315-9247-4bd6ee60ae61	3b0b0351-0b4b-4ab1-a84e-6fc554c86a31
 COPY studios (id, name) FROM stdin;
 b52fcdd6-691b-4a16-a670-e6ad6f176521	Toho
 a7136259-307b-4315-9247-4bd6ee60ae61	Mifune Productions
+c21957cc-cf69-4391-86f7-76e151b5ba73	Daiei
+be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
+95ad9c89-93ff-4636-8cb7-4ce98b441801	Toei
 \.
 
 

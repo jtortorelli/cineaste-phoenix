@@ -1,0 +1,5 @@
+Gamera
+1,Gamera_ the Giant Monster
+2,Gamera vs. Barugon
+3,Gamera vs. Gyaos
+4,Gamera vs. Viras

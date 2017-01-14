@@ -1,0 +1,4 @@
+Daimajin
+1,Daimajin
+2,Return of Daimajin
+3,Daimajin Strikes Again
