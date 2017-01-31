@@ -2433,6 +2433,7 @@ a50d9661-fed2-455d-9a9a-009ffa254b07	The X from Outer Space	1967-03-25	88	f	\N	{
 ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	f	\N	{"original_title": "昆虫大戦争", "original_translation": "Insect Great War", "original_transliteration": "Konchyuu Daisensou"}
 7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	f	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	f	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
+a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	f	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
@@ -2467,7 +2468,6 @@ ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	f	\N	{"original_t
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	f	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	f	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"original_title": "着信アリ", "original_translation": "Incoming Call", "original_transliteration": "Chyakushin Ari"}
-a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
@@ -2502,6 +2502,7 @@ c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_ti
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	f	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
+228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -2537,7 +2538,6 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"or
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
-228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
 5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
@@ -3006,10 +3006,8 @@ cabe2a54-774e-49c9-83f9-d86daf442136	Shozo	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_
 b819de2f-4340-4a22-bedc-9c6bfc49548c	Toshio	Taniguchi	M	f	\N	\N	\N	\N	\N	{"original_name": "谷口 登司夫"}
 de047fb1-0bc8-4eaf-84f5-6b340342a5f3	Tetsuya	Yamanouchi	M	f	{"day": 20, "year": 1934, "month": 7}	{"day": 2, "year": 2010, "month": 4}	Hiroshima, Japan	\N	\N	{"original_name": "山内 鉄也"}
 ac47d37c-4ba3-4920-8008-39bd496673f9	Shizuo	Hirase	M	f	\N	\N	\N	\N	\N	{"original_name": "平瀬 静雄"}
-094fbabe-38ec-4b55-a2a9-eaf5d712716b	Yunota	Yoshida	M	f	\N	\N	\N	\N	\N	{"original_name": "芳野 尹孝"}
 d06885ec-080f-49eb-9bd7-dd119fd1086c	Tsuneo	Koga	M	f	\N	\N	\N	\N	\N	{"original_name": "小角 恒雄"}
 7a8706df-b467-4e81-9880-eefb297c4ad6	Kimiyoshi	Yasuda	M	f	{"day": 15, "year": 1911, "month": 2}	{"day": 26, "year": 1983, "month": 7}	Tokyo, Japan	\N	\N	{"original_name": "安田 公義"}
-41004f90-bd9d-43ab-a5d4-d1d3f0b6f829	Shigeo	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 茂"}
 4b3a7838-059f-4398-8211-fd57a16453c7	Hajime	Sato	M	f	{"day": 3, "year": 1929, "month": 3}	{"day": 10, "year": 1995, "month": 5}	Saitama, Japan	\N	\N	{"original_name": "佐藤 肇"}
 aa570b58-916a-4e25-895f-5d6393826fad	Masaru	Igami	M	f	{"day": 14, "year": 1931, "month": 7}	{"day": 16, "year": 1991, "month": 11}	Gunma	Japan	\N	{"original_name": "伊 上勝"}
 1e947044-87dd-4398-859a-4f20184f86c8	Chita	Okoshi	U	f	\N	\N	\N	\N	\N	{"original_name": "大越 千虎"}
@@ -3034,6 +3032,7 @@ bdf1596b-70f1-4d02-a4a7-47da0f31eee2	Tatsuo	Aomoto	M	f	\N	\N	\N	\N	\N	\N
 bee2d6b7-568f-4386-b380-2ebe35fdc297	Yoshikazu	Yamasawa	M	f	\N	\N	\N	\N	\N	{"original_name": "山沢 義一"}
 139d9d4e-57f3-4a85-bf1b-f72ebcf0b2c0	Toshiaki	Tsushima	M	f	{"day": 22, "year": 1936, "month": 5}	{"day": 25, "year": 2013, "month": 11}	Okayama, Japan	\N	\N	{"original_name": "津島 利章"}
 35dd54c6-d61a-471e-a6ad-fc2b4b992219	Masa	Tsubuki	M	f	\N	\N	\N	\N	\N	{"original_name": "津吹 正"}
+094fbabe-38ec-4b55-a2a9-eaf5d712716b	Yunota	Yoshino	M	f	\N	\N	\N	\N	\N	{"original_name": "芳野 尹孝"}
 395dcc9b-eee7-4108-9821-b298a36c3763	Masayuki	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 正幸"}
 2caacc76-1f58-43ec-867c-ea717b8db1fb	Akihiko	Arakawa	M	f	\N	\N	\N	\N	\N	\N
 38b37c37-ad76-4398-ac1a-2bbac0274798	Akira	Naito	M	f	\N	\N	\N	\N	\N	{"original_name": "内藤 昭"}
@@ -3050,6 +3049,7 @@ d4374410-4d45-4928-9216-559cf8217068	Yosuke	Uchida	M	f	\N	\N	\N	\N	\N	{"original
 4dd7e01c-2b16-4fd3-b182-acea716de1cd	Taku	Izumi	M	f	{"day": 20, "year": 1930, "month": 1}	{"day": 11, "year": 1992, "month": 5}	Shitaya, Tokyo, Japan	\N	\N	{"birth_name": "Takao Imaizumi (今泉 隆雄)", "original_name": "いずみ たく"}
 5e025577-ff1e-4462-9c3d-0446693fe1cd	Hideo	Kobayashi	M	f	\N	\N	\N	\N	\N	{"original_name": "小林 英男"}
 0ac5ec0b-66de-41d3-86b3-599bed0ed8c9	Wataru	Nakajima	M	f	\N	\N	\N	\N	\N	\N
+41004f90-bd9d-43ab-a5d4-d1d3f0b6f829	Shigeru	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 茂"}
 \.
 
 
@@ -3327,6 +3327,7 @@ b30c5657-a980-489b-bd91-d58e63609102	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Specia
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects Cinematography	15
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	22
 75bb901c-e41c-494f-aae8-7a5282f3bf96	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-2
+ef01babe-d621-40ca-8d85-363b051921a6	094fbabe-38ec-4b55-a2a9-eaf5d712716b	Art	6
 75bb901c-e41c-494f-aae8-7a5282f3bf96	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	-1
 75bb901c-e41c-494f-aae8-7a5282f3bf96	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
 75bb901c-e41c-494f-aae8-7a5282f3bf96	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Screenplay	2
@@ -3509,6 +3510,147 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Specia
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	10
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Assistant Director	15
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	d1e73155-2bf5-4378-929f-277d92e5e2ae	Editor	16
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	a1d942b8-21be-40de-be75-6a2d63a7d5f8	Director	-1
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	a5e97a63-5c15-41ba-85c9-71f2c7af4f01	Producer	1
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	3d231f5f-cbda-4086-ac77-7403eac26317	Original Story	3
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	b54ca5c3-b7bf-4ad3-a3eb-8b30339ffa54	Screenplay	4
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	fbe37cd8-26cf-4808-a578-a89f947afb36	Cinematography	5
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	72416ff4-fecf-4f02-9dd8-9936854ecef8	Sound Recording	6
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	4cafc82d-fc63-42a5-bfc3-8894faa35e9f	Lighting	7
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	5f8fa4d8-e602-4040-a06e-5644578718f6	Art Director	8
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	fb0028bf-9f32-4434-896e-5bff5f4777fb	Music	33
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	fc69e110-1c48-4727-bde1-66e526756bcc	Editor	35
+0704c7e5-5709-4401-adaa-8cbec670e47d	7887e636-a848-430c-8436-293b47151fd0	Director	-1
+0704c7e5-5709-4401-adaa-8cbec670e47d	f1a27fcf-fc61-4758-b3d7-dab10b1303e9	Screenplay	2
+0704c7e5-5709-4401-adaa-8cbec670e47d	114fce55-397a-4d9a-8e51-e6cf35909748	Cinematography	3
+0704c7e5-5709-4401-adaa-8cbec670e47d	740d232d-bd82-4b4a-b555-5e0d95ddf757	Sound Recording	4
+0704c7e5-5709-4401-adaa-8cbec670e47d	df40aa02-23ca-407e-96ba-0aceacdbbdea	Lighting	5
+0704c7e5-5709-4401-adaa-8cbec670e47d	b322f19f-bf67-4e2c-8a50-476de85f537b	Art Director	6
+0704c7e5-5709-4401-adaa-8cbec670e47d	1715410d-9cf0-4ecd-9857-4fb5f1bd4b97	Music	7
+0704c7e5-5709-4401-adaa-8cbec670e47d	09aaa976-2352-491d-b7d1-27bf5b0fd8c5	Editor	8
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	7a8706df-b467-4e81-9880-eefb297c4ad6	Director	-2
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	d136912d-c3cc-4246-a9cc-0752da39dfab	Special Effects Director	-1
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	a5e97a63-5c15-41ba-85c9-71f2c7af4f01	Producer	1
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	47e3892f-c0a6-45b7-bd5a-a964b7718a1d	Screenplay	3
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	23af9bb7-2ab0-4bff-a544-25a14711d8ec	Cinematography	4
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	9ea2c1cd-5f09-43a2-b33a-de182b57cae0	Sound Recording	5
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	615f098e-644e-4429-98d6-8334a8e8ddec	Lighting	6
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	38b37c37-ad76-4398-ac1a-2bbac0274798	Art Director	7
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	8
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	9a0aefbe-591f-4dae-9c4d-5ff785c4a061	Editor	9
+ce555690-494d-4983-a2a7-c99fb2fc0387	e20f479b-3a6a-47d7-96e3-e7e31e723e46	Director	-2
+ce555690-494d-4983-a2a7-c99fb2fc0387	d136912d-c3cc-4246-a9cc-0752da39dfab	Special Effects Director	-1
+ce555690-494d-4983-a2a7-c99fb2fc0387	a5e97a63-5c15-41ba-85c9-71f2c7af4f01	Producer	1
+ce555690-494d-4983-a2a7-c99fb2fc0387	47e3892f-c0a6-45b7-bd5a-a964b7718a1d	Screenplay	3
+ce555690-494d-4983-a2a7-c99fb2fc0387	b4496161-1678-4409-b9fd-da6ef674df01	Cinematography	4
+ce555690-494d-4983-a2a7-c99fb2fc0387	23af9bb7-2ab0-4bff-a544-25a14711d8ec	Cinematography	5
+ce555690-494d-4983-a2a7-c99fb2fc0387	a87ae5a4-cb4e-4605-aaaf-6ca63f38f892	Sound Recording	6
+ce555690-494d-4983-a2a7-c99fb2fc0387	d458d15a-475f-44c5-874a-6f3b29839182	Lighting	7
+ce555690-494d-4983-a2a7-c99fb2fc0387	615f098e-644e-4429-98d6-8334a8e8ddec	Lighting	8
+ce555690-494d-4983-a2a7-c99fb2fc0387	f3aab2c2-4a3e-41b2-bdc7-787488acc1bc	Art Director	9
+ce555690-494d-4983-a2a7-c99fb2fc0387	41004f90-bd9d-43ab-a5d4-d1d3f0b6f829	Art Director	10
+ce555690-494d-4983-a2a7-c99fb2fc0387	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	11
+ce555690-494d-4983-a2a7-c99fb2fc0387	b819de2f-4340-4a22-bedc-9c6bfc49548c	Editor	12
+16789ef4-c05d-4f15-b09f-3bed5291655c	334edb75-cdf8-4c2f-b22f-7697030a7701	Director	-1
+16789ef4-c05d-4f15-b09f-3bed5291655c	a5e97a63-5c15-41ba-85c9-71f2c7af4f01	Producer	1
+16789ef4-c05d-4f15-b09f-3bed5291655c	f1a27fcf-fc61-4758-b3d7-dab10b1303e9	Screenplay	3
+16789ef4-c05d-4f15-b09f-3bed5291655c	8f0d87f4-a164-4c5a-af72-3d85ba1449ee	Cinematography	4
+16789ef4-c05d-4f15-b09f-3bed5291655c	3eb06002-3915-448e-a679-6fc538a995f1	Sound Recording	5
+16789ef4-c05d-4f15-b09f-3bed5291655c	1c177c21-bbf9-4d93-9986-ec61102dbb87	Lighting	6
+16789ef4-c05d-4f15-b09f-3bed5291655c	1ccef90e-d58d-4bbc-996a-08005f93cd9d	Art Director	7
+16789ef4-c05d-4f15-b09f-3bed5291655c	5c532e64-32a4-4291-8b62-7ea8be62cc38	Music	8
+16789ef4-c05d-4f15-b09f-3bed5291655c	09aaa976-2352-491d-b7d1-27bf5b0fd8c5	Editor	9
+16789ef4-c05d-4f15-b09f-3bed5291655c	7887e636-a848-430c-8436-293b47151fd0	Special Effects Director	13
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	24f35657-5e36-479c-b16e-442878de6253	Director	-2
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	d136912d-c3cc-4246-a9cc-0752da39dfab	Special Effects Director	-1
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	a5e97a63-5c15-41ba-85c9-71f2c7af4f01	Producer	1
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	47e3892f-c0a6-45b7-bd5a-a964b7718a1d	Screenplay	3
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	23af9bb7-2ab0-4bff-a544-25a14711d8ec	Cinematography	4
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	cabe2a54-774e-49c9-83f9-d86daf442136	Cinematography	5
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	1d93ccc6-3f5f-4c5a-b933-76e890eb5adf	Sound Recording	6
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	615f098e-644e-4429-98d6-8334a8e8ddec	Lighting	7
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	d7d3674f-ff56-438a-af89-26cafa460c57	Lighting	8
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	38b37c37-ad76-4398-ac1a-2bbac0274798	Art Director	9
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	41004f90-bd9d-43ab-a5d4-d1d3f0b6f829	Art Director	10
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	11
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	4b710372-cad8-4bf3-accb-59557dd8d8f3	Editor	12
+89faa565-3c41-4d2d-b589-df8b13007a5e	4b3a7838-059f-4398-8211-fd57a16453c7	Director	-1
+89faa565-3c41-4d2d-b589-df8b13007a5e	e3a5a656-330e-4f39-a068-228d6bcf1b87	Original Story	2
+89faa565-3c41-4d2d-b589-df8b13007a5e	edf7cbdc-0c89-413c-bc52-ff7d7671aa7e	Screenplay	3
+89faa565-3c41-4d2d-b589-df8b13007a5e	bee2d6b7-568f-4386-b380-2ebe35fdc297	Cinematography	5
+89faa565-3c41-4d2d-b589-df8b13007a5e	d4374410-4d45-4928-9216-559cf8217068	Sound Recording	6
+89faa565-3c41-4d2d-b589-df8b13007a5e	c4a052b1-6559-493f-b0bf-ee05ebefc6fe	Lighting	7
+89faa565-3c41-4d2d-b589-df8b13007a5e	d516b368-3b08-4d2d-845e-c3f2ae37033d	Art Director	8
+89faa565-3c41-4d2d-b589-df8b13007a5e	a63d1091-af4f-49a3-9520-a3eb2ff778d2	Music	9
+89faa565-3c41-4d2d-b589-df8b13007a5e	2e1c0225-a5f5-4b38-86e5-2cc9b3d04d63	Editor	10
+f47487ec-0730-46ae-9056-29fe675715b0	de047fb1-0bc8-4eaf-84f5-6b340342a5f3	Director	-1
+f47487ec-0730-46ae-9056-29fe675715b0	aa570b58-916a-4e25-895f-5d6393826fad	Screenplay	3
+f47487ec-0730-46ae-9056-29fe675715b0	99da4137-2150-4449-bc63-91c854d9a477	Cinematography	4
+f47487ec-0730-46ae-9056-29fe675715b0	9497e236-3905-40b9-b5ee-453b96fc5d89	Lighting	5
+f47487ec-0730-46ae-9056-29fe675715b0	2caacc76-1f58-43ec-867c-ea717b8db1fb	Sound Recording	6
+f47487ec-0730-46ae-9056-29fe675715b0	73378725-9e35-4f1f-b522-08ea234ce1e5	Art Director	7
+f47487ec-0730-46ae-9056-29fe675715b0	139d9d4e-57f3-4a85-bf1b-f72ebcf0b2c0	Music	8
+f47487ec-0730-46ae-9056-29fe675715b0	96fdf693-30a4-4a4f-9df7-b038e2aeafeb	Editor	9
+40ca591f-8493-4fad-9527-464e3501e1d2	7887e636-a848-430c-8436-293b47151fd0	Director	-1
+40ca591f-8493-4fad-9527-464e3501e1d2	f3d54e06-5646-4d23-8b5e-8346da366ce3	Producer	1
+40ca591f-8493-4fad-9527-464e3501e1d2	f1a27fcf-fc61-4758-b3d7-dab10b1303e9	Screenplay	3
+40ca591f-8493-4fad-9527-464e3501e1d2	468ac861-fbe0-4d61-9c3f-1434781fe8fd	Cinematography	4
+40ca591f-8493-4fad-9527-464e3501e1d2	3eb06002-3915-448e-a679-6fc538a995f1	Sound Recording	5
+40ca591f-8493-4fad-9527-464e3501e1d2	9565e97a-5e0a-4ed8-8400-8e8e02e29a7b	Lighting	6
+40ca591f-8493-4fad-9527-464e3501e1d2	b322f19f-bf67-4e2c-8a50-476de85f537b	Art Director	7
+40ca591f-8493-4fad-9527-464e3501e1d2	09aaa976-2352-491d-b7d1-27bf5b0fd8c5	Editor	12
+40ca591f-8493-4fad-9527-464e3501e1d2	1715410d-9cf0-4ecd-9857-4fb5f1bd4b97	Music	99
+a50d9661-fed2-455d-9a9a-009ffa254b07	0d8bace7-0e59-4e11-946c-5f33f08f03f1	Director	-2
+a50d9661-fed2-455d-9a9a-009ffa254b07	4e61a1bd-6487-45e6-a191-2c5700363891	Special Effects Director	-1
+a50d9661-fed2-455d-9a9a-009ffa254b07	0ac5ec0b-66de-41d3-86b3-599bed0ed8c9	Producer	1
+a50d9661-fed2-455d-9a9a-009ffa254b07	4139cd2f-a171-45dd-9606-0621de923045	Screenplay	3
+a50d9661-fed2-455d-9a9a-009ffa254b07	8aaea7b8-c2c0-4204-a62f-f6e0594f286e	Screenplay	4
+a50d9661-fed2-455d-9a9a-009ffa254b07	0d8bace7-0e59-4e11-946c-5f33f08f03f1	Screenplay	5
+a50d9661-fed2-455d-9a9a-009ffa254b07	ac47d37c-4ba3-4920-8008-39bd496673f9	Cinematography	7
+a50d9661-fed2-455d-9a9a-009ffa254b07	1e947044-87dd-4398-859a-4f20184f86c8	Cinematography	8
+a50d9661-fed2-455d-9a9a-009ffa254b07	460ddeaf-4325-499f-aa2f-82e89782fe5d	Art Director	9
+a50d9661-fed2-455d-9a9a-009ffa254b07	4dd7e01c-2b16-4fd3-b182-acea716de1cd	Music	10
+a50d9661-fed2-455d-9a9a-009ffa254b07	35dd54c6-d61a-471e-a6ad-fc2b4b992219	Lighting	11
+a50d9661-fed2-455d-9a9a-009ffa254b07	48184ea8-dffd-4f03-8f73-57f5ff3d94d4	Lighting	12
+a50d9661-fed2-455d-9a9a-009ffa254b07	55575c38-b55e-4bb0-b308-e36b03307420	Editor	13
+bbfd5e01-14bc-4890-aab1-92a02bec413d	7887e636-a848-430c-8436-293b47151fd0	Director	-1
+bbfd5e01-14bc-4890-aab1-92a02bec413d	f3d54e06-5646-4d23-8b5e-8346da366ce3	Producer	1
+bbfd5e01-14bc-4890-aab1-92a02bec413d	f1a27fcf-fc61-4758-b3d7-dab10b1303e9	Screenplay	4
+bbfd5e01-14bc-4890-aab1-92a02bec413d	e01927e9-11a5-46a9-a060-baba807daf43	Cinematography	5
+bbfd5e01-14bc-4890-aab1-92a02bec413d	ccf80df2-a664-4ca3-ad2c-b682ef456b3b	Sound Recording	7
+bbfd5e01-14bc-4890-aab1-92a02bec413d	1efc7ab0-558e-40d5-9ff6-e7d469357984	Lighting	8
+bbfd5e01-14bc-4890-aab1-92a02bec413d	528d732d-4d4c-430f-92a0-07de1e0b311d	Art Director	9
+bbfd5e01-14bc-4890-aab1-92a02bec413d	ddcab35a-da50-4f15-8055-eef5b564db80	Music	10
+bbfd5e01-14bc-4890-aab1-92a02bec413d	351512e7-428a-47ea-bb92-a234d14376af	Editor	15
+ef01babe-d621-40ca-8d85-363b051921a6	0d8bace7-0e59-4e11-946c-5f33f08f03f1	Director	-1
+ef01babe-d621-40ca-8d85-363b051921a6	d06885ec-080f-49eb-9bd7-dd119fd1086c	Producer	1
+ef01babe-d621-40ca-8d85-363b051921a6	edf7cbdc-0c89-413c-bc52-ff7d7671aa7e	Screenplay	3
+ef01babe-d621-40ca-8d85-363b051921a6	ac47d37c-4ba3-4920-8008-39bd496673f9	Cinematography	4
+ef01babe-d621-40ca-8d85-363b051921a6	b86bdf63-3b93-45b4-9fac-e502ae05c8dc	Cinematography	5
+ef01babe-d621-40ca-8d85-363b051921a6	a63d1091-af4f-49a3-9520-a3eb2ff778d2	Music	7
+ef01babe-d621-40ca-8d85-363b051921a6	bdf1596b-70f1-4d02-a4a7-47da0f31eee2	Lighting	8
+ef01babe-d621-40ca-8d85-363b051921a6	4282aa50-5c6f-411f-8293-36d2798949d7	Editor	9
+0b006dae-79e5-4dca-b8e2-09591eacba55	4b3a7838-059f-4398-8211-fd57a16453c7	Director	-1
+0b006dae-79e5-4dca-b8e2-09591eacba55	89bb92ec-906d-4ae8-8296-1c917f0224b1	Producer	1
+0b006dae-79e5-4dca-b8e2-09591eacba55	edf7cbdc-0c89-413c-bc52-ff7d7671aa7e	Screenplay	2
+0b006dae-79e5-4dca-b8e2-09591eacba55	ef20d0c1-0371-4c88-91ec-a7b71b625ba8	Screenplay	3
+0b006dae-79e5-4dca-b8e2-09591eacba55	ac47d37c-4ba3-4920-8008-39bd496673f9	Cinematography	4
+0b006dae-79e5-4dca-b8e2-09591eacba55	094fbabe-38ec-4b55-a2a9-eaf5d712716b	Art Director	5
+0b006dae-79e5-4dca-b8e2-09591eacba55	a63d1091-af4f-49a3-9520-a3eb2ff778d2	Music	6
+0b006dae-79e5-4dca-b8e2-09591eacba55	bdf1596b-70f1-4d02-a4a7-47da0f31eee2	Lighting	7
+0b006dae-79e5-4dca-b8e2-09591eacba55	4282aa50-5c6f-411f-8293-36d2798949d7	Editor	8
+0b006dae-79e5-4dca-b8e2-09591eacba55	0e124ef1-d5e9-4473-8dad-ca7833fccb33	Sound Recording	9
+b093530b-88fa-4439-bce1-aaf1b066b5ba	a49b90b1-3cb5-44ec-89d0-12da68234600	Director	-1
+b093530b-88fa-4439-bce1-aaf1b066b5ba	89bb92ec-906d-4ae8-8296-1c917f0224b1	Producer	1
+b093530b-88fa-4439-bce1-aaf1b066b5ba	22e872ab-b41f-48d0-a34d-f4e1987fade3	Screenplay	2
+b093530b-88fa-4439-bce1-aaf1b066b5ba	ef20d0c1-0371-4c88-91ec-a7b71b625ba8	Screenplay	3
+b093530b-88fa-4439-bce1-aaf1b066b5ba	395dcc9b-eee7-4108-9821-b298a36c3763	Cinematography	4
+b093530b-88fa-4439-bce1-aaf1b066b5ba	0acf9ae6-3158-4cba-8218-1c29e2db28fb	Cinematography	5
+b093530b-88fa-4439-bce1-aaf1b066b5ba	ff95dbdf-9c88-49ba-b744-67991d1f73cf	Art Director	6
+b093530b-88fa-4439-bce1-aaf1b066b5ba	7c84b99f-8441-4bca-b272-28871206e3c8	Music	7
+b093530b-88fa-4439-bce1-aaf1b066b5ba	c5ae1c5e-6885-484b-a6bc-7d86ec7d4559	Lighting	8
+b093530b-88fa-4439-bce1-aaf1b066b5ba	2e2c8b9c-e622-4534-8196-2cd54cf9d3d5	Editor	9
+b093530b-88fa-4439-bce1-aaf1b066b5ba	5e025577-ff1e-4462-9c3d-0446693fe1cd	Sound Recording	10
 \.
 
 
