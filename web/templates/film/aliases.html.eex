@@ -2,7 +2,7 @@
   <td class="subdue">
     Aliases
   </td>
-  <td class="minor">
+  <td class="major">
     <%= for alias <- @aliases do %>
     <%= raw alias %><br/>
     <% end %>

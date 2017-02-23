@@ -1,18 +1,18 @@
 <tr>
-  <td>
+  <td class="subdue">
     Born
   </td>
-  <td>
+  <td class="minor">
     <%= @dob %>
     <br/>
-    <%= @birth_place %>
+    <span class="subtitle"><%= @birth_place %></span>
   </td>
 </tr>
 <tr>
-  <td>
+  <td class="subdue">
     Died
   </td>
-  <td>
+  <td class="minor">
     Unknown
   </td>
 </tr>

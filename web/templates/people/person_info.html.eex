@@ -1,4 +1,4 @@
-<table class="table table-nonfluid">
+<table class="table table-nonfluid" id="person-info">
   <%= render_original_name(@person.other_names) %>
   <%= render_birth_name(@person.other_names) %>
   <%= render_japanese_name(@person.other_names) %>

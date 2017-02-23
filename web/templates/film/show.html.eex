@@ -1,8 +1,8 @@
-<div class="jumbotron">
-  <h2><%= @film.title %></h2>
-</div>
+<div class="container">
+<h2><%= @film.title %></h2>
 <%= render "tabs.html" %>
 <div class="tab-content">
   <%= render "overview.html", conn: @conn, film: @film, film_staff_views: @film_staff_views, top_billed_cast: @top_billed_cast, other_cast: @other_cast, synopsis: @synopsis %>
   <%= render_gallery(@film.id) %>
 </div>
+<div class="container">

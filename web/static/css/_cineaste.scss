@@ -1,7 +1,59 @@
+$bowlby: 'Bowlby One SC', cursive;
+$roboto-condensed: 'Roboto Condensed', sans-serif;
+$roboto: 'Roboto', sans-serif;
+
 .table-nonfluid {
   width: auto !important;
 }
 
 .header {
   margin-bottom: 65px;
+}
+
+h2 {
+  font-family: $bowlby;
+  font-weight: normal;
+}
+
+#cineaste-navbar {
+  font-family: $roboto-condensed;
+}
+
+body {
+  font-family: $roboto;
+}
+
+#overview {
+  font-family: $roboto-condensed;
+}
+
+#synopsis-modal {
+  font-family: $roboto;
+}
+
+#person-info, #group-info {
+  font-family: $roboto-condensed;
+  font-size: 10pt;
+  float: left;
+  margin: 5px;
+}
+
+.container {
+  max-width: 910px !important;
+  .row {
+    padding: inherit;
+  }
+}
+
+.subdue {
+  color: #aaaaaa;
+}
+
+.minor {
+  color: #666666;
+}
+
+.subtitle {
+  font-size: 8pt;
+  font-style: italic;
 }

@@ -19,7 +19,7 @@ defmodule Cineaste.FilmView do
 
   def display_original_title(_), do: nil
 
-  def display_aliases([_head | _tail] = aliases), do: CommonView.render_aliases_table_row(aliases)
+  def display_aliases([_head | _tail] = aliases), do: render "aliases.html", aliases: aliases
   def display_aliases(_), do: nil
 
   def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")

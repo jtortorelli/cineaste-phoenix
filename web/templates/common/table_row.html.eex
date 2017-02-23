@@ -1,8 +1,8 @@
 <tr>
-  <td>
+  <td class="subdue">
     <%= @key %>
   </td>
-  <td>
+  <td class="minor">
     <%= raw @value %>
   </td>
 </tr>
