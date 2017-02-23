@@ -1442,6 +1442,13 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	cae2fb10-3188-41b9-9a7f-d23a5d8f9eb2	{Villager}	99
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	f38a2a42-a836-4c62-a1d5-265cba51076b	{Villager}	99
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	be4ac231-b431-4c18-b5a9-851e2a7713f1	{Villager}	99
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	55568fbd-5fe6-4dad-806a-b7b0d89ffdc5	{"Dr. Toru Isobe"}	1
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	8b799dcc-7588-403b-80f8-c0d4467c2019	{"Hikari Aozora","Ginko Amano"}	2
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	2a416760-6248-4c35-a23e-b8f6becf0f88	{"Dr. Eisuke Matsuda"}	4
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	1e37d5f2-45c2-490b-915d-ba87309ae4ca	{"Dr. Naotaro Isobe"}	5
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	686f2dc2-a12d-4f46-af2f-b0d3c81069c9	{"Dr. Yoshio Komura"}	6
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	524b444f-a3c5-4fd2-b5a1-919939b43c4c	{"Tomoko Komura"}	7
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	{"Kiyoko Matsuda"}	8
 \.
 
 
@@ -2366,6 +2373,29 @@ f474852a-cc25-477d-a7b9-06aa688f7fb2	gallery	02437	\N
 0a158e9d-6e48-4b6e-9674-862d952fb3ab	gallery	01075	\N
 0a158e9d-6e48-4b6e-9674-862d952fb3ab	gallery	02216	\N
 0a158e9d-6e48-4b6e-9674-862d952fb3ab	gallery	04186	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00059	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00099	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00189	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00458	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00693	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00745	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00817	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00891	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	00908	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	01009	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	01284	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	01431	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	01508	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02029	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02178	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02220	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02254	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02380	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02399	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02488	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02507	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02533	\N
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	gallery	02586	\N
 \.
 
 
@@ -2409,7 +2439,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 14fab775-bb0f-413e-9840-be528e07ba70	Samurai I: Musashi Miyamoto	1954-09-26	94	f	\N	{"original_title": "宮本武蔵", "original_translation": "Miyamoto Musashi", "original_transliteration": "Miyamoto Musashi"}
 6c45cc47-8f6d-4861-95ab-4c9a2b404218	Samurai II: Duel at Ichijoji Temple	1955-07-12	103	f	\N	{"original_title": "續宮本武蔵 一乘寺の決斗", "original_translation": "Continued Miyamoto Musashi: Duel of Ichijoji Temple", "original_transliteration": "Zoku Miyamoto Musashi Ichijyouji No Kettou"}
 8196e3f6-20f4-44a6-ab7c-d58dbedc4475	Samurai III: Duel at Ganryu Island	1956-01-03	104	f	\N	{"original_title": "宮本武蔵 完結篇 決闘巌流島", "original_translation": "Miyamoto Musashi Completion: Duel Ganryu Island", "original_transliteration": "Miyamoto Musashi Kanketsuhen Kettou Ganryuushima"}
-7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	Warning from Space	1956-01-29	82	f	\N	{"original_title": "宇宙人東京に現わる", "original_translation": "Space Men Appear in Tokyo", "original_transliteration": "Uchyuujin Toukyou Ni Arawaru"}
 0541315f-20ef-4562-95a5-8c4f45199d63	Throne of Blood	1957-01-15	110	f	\N	{"original_title": "蜘蛛巣城", "original_translation": "Spider Web Castle", "original_transliteration": "Kumonosujyou"}
 44c5daba-56db-4918-9e92-3f673631b3b9	The Hidden Fortress	1958-12-28	139	f	\N	{"original_title": "隠し砦の三悪人", "original_translation": "Three Villains of the Hidden Fortress", "original_transliteration": "Kakushi Toride No San Akunin"}
 91f3996c-85e9-49f6-8cea-c3dd3ac4c2e2	Yojimbo	1961-04-25	110	f	\N	{"original_title": "用心棒", "original_translation": "Bodyguard", "original_transliteration": "Youjinbou"}
@@ -2622,6 +2651,7 @@ ac6e5a74-3b42-416d-a73a-93ceced56b19	Zatoichi Challenged	1967-12-30	87	f	\N	{"or
 5810d823-af91-47ae-ab7d-20a34efbda83	Zatoichi and the Fugitives	1968-08-10	82	f	\N	{"original_title": "座頭市果し状", "original_translation": "Zatouichi Hatashijyou", "original_transliteration": "Zatoichi Letter of Challenge"}
 6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2003-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	f	\N	{"original_title": "吸血髑髏船", "original_translation": "Blood Sucking Skeleton Ship", "original_transliteration": "Kyuuketsu Dokurosen"}
+7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	Warning from Space	1956-01-29	82	t	\N	{"original_title": "宇宙人東京に現わる", "original_translation": "Space Men Appear in Tokyo", "original_transliteration": "Uchyuujin Toukyou Ni Arawaru"}
 \.
 
 
@@ -3050,6 +3080,13 @@ d4374410-4d45-4928-9216-559cf8217068	Yosuke	Uchida	M	f	\N	\N	\N	\N	\N	{"original
 5e025577-ff1e-4462-9c3d-0446693fe1cd	Hideo	Kobayashi	M	f	\N	\N	\N	\N	\N	{"original_name": "小林 英男"}
 0ac5ec0b-66de-41d3-86b3-599bed0ed8c9	Wataru	Nakajima	M	f	\N	\N	\N	\N	\N	\N
 41004f90-bd9d-43ab-a5d4-d1d3f0b6f829	Shigeru	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 茂"}
+55568fbd-5fe6-4dad-806a-b7b0d89ffdc5	Keizo	Kawasaki	M	f	{"day": 1, "year": 1933, "month": 7}	{"day": 21, "year": 2015, "month": 7}	Kawasaki, Kanagawa, Japan	Kawasaki, Kanagawa, Japan	\N	{"birth_name": "Yasuji Suyama (陶山 惠司)", "original_name": "川崎 敬三"}
+8b799dcc-7588-403b-80f8-c0d4467c2019	Toyomi	Karita	F	f	\N	\N	\N	\N	\N	{"original_name": "苅田 とよみ"}
+2a416760-6248-4c35-a23e-b8f6becf0f88	Isao	Yamagata	M	f	{"day": 25, "year": 1915, "month": 7}	{"day": 28, "year": 1996, "month": 7}	London, United Kingdom	Tokyo, Japan	\N	{"birth_name": "Isao Hanawa (塙 勲)", "original_name": "山形 勲"}
+1e37d5f2-45c2-490b-915d-ba87309ae4ca	Shozo	Nanbu	M	f	{"day": 26, "year": 1898, "month": 6}	{"unknown": 1}	Hayami, Oita, Japan	\N	\N	{"original_name": "南部 彰三"}
+686f2dc2-a12d-4f46-af2f-b0d3c81069c9	Bontaro	Miake	M	f	{"day": 15, "year": 1906, "month": 10}	{"year": 1987}	Masuda, Mino, Shimane, Japan	\N	\N	{"birth_name": "Susumu Miake (見明 先先)", "original_name": "見明 凡太朗"}
+524b444f-a3c5-4fd2-b5a1-919939b43c4c	Mieko	Nagai	F	f	\N	\N	\N	\N	\N	{"original_name": "永井 ミエ子"}
+1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	Kiyoko	Hirai	F	f	\N	\N	\N	\N	\N	{"original_name": "平井 岐代子"}
 \.
 
 
