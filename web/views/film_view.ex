@@ -6,7 +6,6 @@ defmodule Cineaste.FilmView do
   alias Cineaste.Film
   alias Cineaste.SeriesFilm
   alias Cineaste.FilmImage
-  alias Cineaste.CommonView
   require Logger
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)

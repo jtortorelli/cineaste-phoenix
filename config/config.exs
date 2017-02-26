@@ -21,14 +21,15 @@ config :cineaste, Cineaste.Endpoint,
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
-  
+
 # S3 URLs
 config :cineaste, :s3,
   base_url: "https://s3-us-west-2.amazonaws.com/cineaste/images/",
   posters: "posters/",
   film_galleries: "galleries/films/",
   person_profiles: "profiles/person/",
-  group_profiles: "profiles/group/"
+  group_profiles: "profiles/group/",
+  site_images: "site/"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.

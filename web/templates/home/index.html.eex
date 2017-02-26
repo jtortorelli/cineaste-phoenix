@@ -1,3 +1,5 @@
-<div class="jumbotron">
-  <h2>Welcome</h2>  
+<div class="container">
+  <div class="row">
+    <%= display_banner() %>
+  </div>
 </div>

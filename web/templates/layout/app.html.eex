@@ -10,6 +10,8 @@
     <title>Godzilla Cineaste</title>
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
   </head>
 
   <body>

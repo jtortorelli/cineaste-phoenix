@@ -99,10 +99,11 @@ defmodule Cineaste.PeopleView do
     CommonView.render_table_row("Active Period", period)
   end
 
+  def render_group_active_period(nil, nil), do: nil
+
   def render_group_active_period(start_date, end_date) do
     period = "#{start_date} - #{end_date}"
     CommonView.render_table_row("Active Period", period)
   end
 
-  def render_group_active_period(_, _), do: nil
 end
