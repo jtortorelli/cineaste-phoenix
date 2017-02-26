@@ -1,6 +1,6 @@
 <div id="other-cast">
-  <h4>Rest of Cast Listed Alphabetically</h4>
   <table class="table table-nonfluid">
+    <thead><span class="table-header">Rest of Cast Listed Alphabetically</span></thead>
     <%= for view <- @other_cast do %>
     <tr>
       <td>

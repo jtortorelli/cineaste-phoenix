@@ -1,4 +1,5 @@
 <table class="table table-nonfluid">
+  <thead><span class="table-header">Staff</span></thead>
   <%= for view <- @film_staff_views do %>
   <tr>
     <td>
@@ -7,9 +8,9 @@
     <td>
       <%= for staff <- sorted_staff(view.staff) do %>
         <%= if staff.showcase do %>
-          <%= link "#{staff.name}", to: people_path(@conn, :show_person, staff.person_id) %>
+          <%= link(raw(String.replace(staff.name, " ", "&nbsp;")), to: people_path(@conn, :show_person, staff.person_id)) %>
         <% else %>
-          <%= staff.name %>
+          <%= raw String.replace(staff.name, " ", "&nbsp;") %>
         <% end %>
         <br />
       <% end %>

@@ -1,13 +1,9 @@
-<div class="row">
-    <div class="col-md-12">
-        <div class="text-center">
+
             <!-- Synopsis modal button -->
             <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#synopsis-modal">
                 View Spoilerific Synopsis
             </button>
-        </div>
-    </div>
-</div>
+
 <div class="modal fade" id="synopsis-modal" tabindex="-1" role="dialog">
     <div class="modal-dialog">
         <div class="modal-content">

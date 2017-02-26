@@ -1,6 +1,6 @@
 <div id="top-billed-cast">
-  <h4>Top Billed Cast</h4>
   <table class="table table-nonfluid">
+    <thead><span class="table-header">Top Billed Cast</span></thead>
     <%= for view <- @top_billed_cast do %>
       <tr>
         <td>

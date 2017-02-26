@@ -1,4 +1,5 @@
 <table class="table table-nonfluid">
+  <thead><span class="table-header">Info</span></thead>
   <%= display_original_title(@film.props) %>
   <%= display_aliases(@film.aliases) %>
   <tr>
@@ -28,4 +29,9 @@
     </td>
   </tr>
   <%= display_series_info(@conn, @film) %>
+  <tr>
+    <td colspan="2">
+      <%= render "synopsis.html", synopsis: @synopsis %>
+    </td>
+  </tr>
 </table>

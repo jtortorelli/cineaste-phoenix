@@ -1,5 +1,4 @@
   <div role="tabpanel" class="tab-pane fade in active" id="overview">
-    <%= render "synopsis.html", synopsis: @synopsis %>
     <div class="container">
     <div class="row">
       <div class="col-md-4">
@@ -9,7 +8,7 @@
       </div>
       <div class="col-md-4">
         <div id="info">
-          <%= render "info.html", film: @film, conn: @conn %>
+          <%= render "info.html", film: @film, synopsis: @synopsis, conn: @conn %>
         </div>
       </div>
       <div class="col-md-4">

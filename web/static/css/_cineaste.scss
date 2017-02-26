@@ -16,8 +16,9 @@ h2 {
 }
 
 #cineaste-navbar {
-  font-family: $roboto-condensed;
+  font-family: $roboto;
   text-transform: uppercase;
+  font-weight: 900;
 }
 
 body {
@@ -78,10 +79,16 @@ a.image-link {
 }
 
 .nav-tabs {
+  font-weight: 900;
   text-transform: uppercase;
   border-bottom: 0;
   li > a, li:hover > a, li.active > a:hover, li.active > a, li.active > a:focus {
     border: 0;
     background-color: transparent;
   }
+}
+
+.table-header {
+  font-weight: 700;
+  text-transform: uppercase;
 }
