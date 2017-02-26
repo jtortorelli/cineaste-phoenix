@@ -5,6 +5,6 @@
   <td class="minor">
     <%= raw "#{@dob} <span class=\"subtitle\">(#{@age})</span>" %>
     <br/>
-    <%= @birth_place %>
+    <span class="subtitle"><%= @birth_place %></span>
   </td>
 </tr>
