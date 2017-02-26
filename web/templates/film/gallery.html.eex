@@ -1,7 +1,9 @@
 <div role="tabpanel" class="tab-pane fade" id="gallery">
+  <div class="container">
     <%= for i <- @file_names do %>
-      <a href="<%= @full_url <> i <> ".jpg" %>" data-lightbox="#{film_id}">
-        <img class="img-thumbnail" src="<%= @thumb_url <> i <> ".jpg" %>" />
+      <a class="image-link" href="<%= @full_url <> i <> ".jpg" %>" data-lightbox="#{film_id}">
+        <img class="img-rounded" src="<%= @thumb_url <> i <> ".jpg" %>" />
       </a>
     <% end %>
+  </div>
 </div>

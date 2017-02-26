@@ -17,6 +17,7 @@ h2 {
 
 #cineaste-navbar {
   font-family: $roboto-condensed;
+  text-transform: uppercase;
 }
 
 body {
@@ -39,14 +40,17 @@ body {
 }
 
 .container {
-  max-width: 910px !important;
-  .row {
-    padding: inherit;
-  }
+  max-width: 920px !important;
+  padding: 5px;
+}
+
+.row {
+  margin: 0px;
 }
 
 .subdue {
   color: #aaaaaa;
+  font-weight: 300;
 }
 
 .minor {
@@ -56,4 +60,28 @@ body {
 .subtitle {
   font-size: 8pt;
   font-style: italic;
+}
+
+a.image-link {
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
+  }
+  img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+.index li {
+  list-style-type: none;
+}
+
+.nav-tabs {
+  text-transform: uppercase;
+  border-bottom: 0;
+  li > a, li:hover > a, li.active > a:hover, li.active > a, li.active > a:focus {
+    border: 0;
+    background-color: transparent;
+  }
 }

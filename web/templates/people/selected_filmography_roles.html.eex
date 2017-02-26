@@ -2,7 +2,7 @@
   <p>
     <%= "#{role_name} (#{Map.get(@role_groups, role_name) |> Enum.count})" %>
   </p>
-  <ul>
+  <ul class="index">
     <%= for role <- Map.get(@role_groups, role_name) do %>
       <li>
         <%= render_film_link(@conn, role, role_name) %>

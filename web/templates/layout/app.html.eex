@@ -44,6 +44,17 @@
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
+      <div class="container footer">
+        <div class="row">
+        <hr/>
+        <p class="subtitle subdue" align="center">
+          The Godzilla Cineaste<br/>
+          Original text &copy; James Tortorelli 2016<br/>
+          Films referenced herein are the property of their respective studios. All rights reserved.
+        </p>
+        <hr/>
+      </div>
+      </div>
 
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

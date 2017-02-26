@@ -1,4 +1,5 @@
 <div class="container">
+
   <div>
     <img class="img-thumbnail" src="<%= render_group_profile_pic(@group.id) %>"/>
     <h2><%= @group.name %></h2>
@@ -6,17 +7,24 @@
   <%= render "tabs.html" %>
   <div class="tab-content">
     <div role="tabpanel" class="tab-pane fade in active" id="bio">
-      <div class="row">
-        <%= render_group_info(@group) %>
-      </div>
-      <div class="row">
-        <%= raw @bio %>
+      <div class="container">
+        <div class="row">
+            <%= render_group_info(@group) %>
+
+            <%= raw @bio %>
+        </div>
       </div>
     </div>
+
+
     <div role="tabpanel" class="tab-pane fade" id="selected-filmography">
-      <div class="row">
-        <%= render_selected_filmography(@conn, @roles) %>
+      <div class="container">
+        <div class="row">
+            <%= render_selected_filmography(@conn, @roles) %>
+        </div>
       </div>
     </div>
+  </div>
+
   </div>
 </div>
