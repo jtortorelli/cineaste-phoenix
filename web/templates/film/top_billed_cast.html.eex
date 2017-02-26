@@ -3,10 +3,10 @@
     <thead><span class="table-header">Top Billed Cast</span></thead>
     <%= for view <- @top_billed_cast do %>
       <tr>
-        <td>
+        <td class="minor">
           <%= render_people_link(@conn, view) %>
         </td>
-        <td>
+        <td class="subdue">
           <%= for role <- view.roles do %>
             <%= role %><br/>
           <% end %>

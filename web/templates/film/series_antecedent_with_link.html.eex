@@ -1,8 +1,8 @@
 <tr>
-  <td>
+  <td class="subdue">
     Preceded by
   </td>
-  <td>
+  <td class="minor">
     <%= link "#{@film.title}",  to: film_path(@conn, :show, @film.id)%>
   </td>
 </tr>

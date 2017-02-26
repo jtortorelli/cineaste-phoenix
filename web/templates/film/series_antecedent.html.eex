@@ -1,8 +1,8 @@
 <tr>
-  <td>
+  <td class="subdue">
     Preceded by
   </td>
-  <td>
+  <td class="minor">
     <%= @film.title %>
   </td>
 </tr>

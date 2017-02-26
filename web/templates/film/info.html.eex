@@ -3,28 +3,28 @@
   <%= display_original_title(@film.props) %>
   <%= display_aliases(@film.aliases) %>
   <tr>
-    <td>
+    <td class="subdue">
       Release Date
     </td>
-    <td>
+    <td class="minor">
       <%= display_release_date(@film.release_date) %>
     </td>
   </tr>
   <tr>
-    <td>
+    <td class="subdue">
       Produced by
     </td>
-    <td>
+    <td class="minor">
       <%= for studio <- @film.studios do %>
         <%= studio.name %><br/>
       <% end %>
     </td>
   </tr>
   <tr>
-    <td>
+    <td class="subdue">
       Runtime
     </td>
-    <td>
+    <td class="minor">
       <%= @film.duration %>m
     </td>
   </tr>

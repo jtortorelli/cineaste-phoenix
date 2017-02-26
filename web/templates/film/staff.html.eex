@@ -2,10 +2,10 @@
   <thead><span class="table-header">Staff</span></thead>
   <%= for view <- @film_staff_views do %>
   <tr>
-    <td>
+    <td class="subdue">
       <%= view.role %>
     </td>
-    <td>
+    <td class="minor">
       <%= for staff <- sorted_staff(view.staff) do %>
         <%= if staff.showcase do %>
           <%= link(raw(String.replace(staff.name, " ", "&nbsp;")), to: people_path(@conn, :show_person, staff.person_id)) %>

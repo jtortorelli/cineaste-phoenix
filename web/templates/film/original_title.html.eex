@@ -1,10 +1,10 @@
 <tr>
-  <td>
+  <td class="subdue">
     Original Title
   </td>
-  <td>
+  <td class="minor">
     <%= raw @title %><br/>
-    <%= @transliteration %><br/>
-    <%= @translation %><br/>
+    <span class="subtitle"><%= @transliteration %></span><br/>
+    <span class="subtitle"><%= @translation %></span><br/>
   </td>
 </tr>
