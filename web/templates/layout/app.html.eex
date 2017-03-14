@@ -59,6 +59,7 @@
       </div>
 
     </div> <!-- /container -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.13/vue.min.js"></script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>

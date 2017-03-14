@@ -2,4 +2,9 @@
   <div class="row">
     <%= display_banner() %>
   </div>
+  <div class="row">
+  <div id="hello-world">
+    {{message}}
+  </div>
+  </div>
 </div>
