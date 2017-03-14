@@ -78,7 +78,8 @@ exports.config = {
     globals: {
       $: 'jquery',
       jQuery: 'jquery',
-      bootstrap: 'bootstrap-sass'
+      bootstrap: 'bootstrap-sass',
+      Vue: 'vue/dist/vue.min.js'
     }
   }
 };
