@@ -1,12 +1,25 @@
 <div class="container">
   <div class="row">
-<h2>Film Index</h2>
-  <ul class="index">
-    <%= for view <- @film_index_views do %>
-    <li>
-      <%= link "#{view.title} (#{view.year})", to: film_path(@conn, :show, view.id) %>
-    </li>
-    <% end %>
-  </ul>
+    <h2>Films</h2>
+    <div id="film-index">
+      <ul class="index">
+        <li v-for="film in filteredFilms">
+          <a v-bind:href="'/films/' + film.id">{{ film.title }} ({{ film.year }})</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
-</div>
+<script>
+new Vue({
+  el: '#film-index',
+  data: {
+    films: <%= raw Poison.encode!(@film_index_views) %>
+  },
+  computed: {
+    filteredFilms: function() {
+      return this.films;
+    }
+  }
+})
+</script>

@@ -53,13 +53,6 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 
 socket.connect()
 
-let app = new Vue({
-  el: '#hello-world',
-  data: {
-    message: 'Test Vue Message'
-  }
-});
-
 // Now that you are connected, you can join channels with a topic:
 let channel = socket.channel("topic:subtopic", {})
 channel.join()
