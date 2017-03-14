@@ -2,6 +2,10 @@
   <div class="row">
     <h2>Films</h2>
     <div id="film-index">
+      <div class="input-group input-group-sm">
+        <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
+        <input v-model="searchTerm" type="text" class="form-control" id="film-search">
+      </div>
       <ul class="index">
         <li v-for="film in filteredFilms">
           <a v-bind:href="'/films/' + film.id">{{ film.title }} ({{ film.year }})</a>
@@ -11,14 +15,27 @@
   </div>
 </div>
 <script>
-new Vue({
+let filmIndex = new Vue({
   el: '#film-index',
   data: {
+    searchTerm: '',
     films: <%= raw Poison.encode!(@film_index_views) %>
   },
   computed: {
     filteredFilms: function() {
-      return this.films;
+      if (this.searchTerm.trim().length < 1) {
+        return this.films;
+      }
+      let terms = this.searchTerm.trim().toLowerCase().split(' ');
+      return this.films.filter(function(film) {
+        let flag = true;
+        terms.forEach(function(t, index) {
+          if (!film.title.toLowerCase().includes(t)) {
+            flag = false;
+          }
+        });
+        return flag;
+      });
     }
   }
 })
