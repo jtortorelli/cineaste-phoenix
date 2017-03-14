@@ -19,4 +19,12 @@ import "lightbox2"
 // Local files can be imported directly using relative
 // paths "./socket" or full ones "web/static/js/socket".
 
-import socket from "./socket"
+// import socket from "./socket"
+
+import Vue from "vue/dist/vue.js";
+new Vue({
+  el: "#hello-world",
+  data: {
+    message: "Hello World"
+  }
+});

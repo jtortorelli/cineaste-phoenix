@@ -74,7 +74,7 @@ exports.config = {
 
   npm: {
     enabled: true,
-    whitelist: ["phoenix", "phoenix_html", "lightbox2"],
+    whitelist: ["phoenix", "phoenix_html", "lightbox2", "vue"],
     globals: {
       $: 'jquery',
       jQuery: 'jquery',
