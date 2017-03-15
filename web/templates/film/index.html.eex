@@ -28,15 +28,31 @@ let filmIndex = new Vue({
       }
       let terms = this.searchTerm.trim().toLowerCase().split(' ');
       return this.films.filter(function(film) {
-        let flag = true;
-        terms.forEach(function(t, index) {
-          if (!film.title.toLowerCase().includes(t)) {
-            flag = false;
+        if (containsSearchTerms(film.title.toLowerCase(), terms)) {
+          return true;
+        } else {
+          if (film.aliases) {
+            let flag = false;
+            film.aliases.some(function(alias) {
+              flag = containsSearchTerms(alias.toLowerCase(), terms);
+              return flag;
+            });
+            return flag;
+          } else {
+            return false;
           }
-        });
-        return flag;
+        }
       });
     }
   }
-})
+});
+function containsSearchTerms(string, searchTerms) {
+  let flag = true;
+  searchTerms.forEach(function(t, index) {
+    if (!string.includes(t)) {
+      flag = false;
+    }
+  });
+  return flag;
+}
 </script>
