@@ -1,18 +1,28 @@
-<div id="top-billed-cast">
-  <table class="table table-nonfluid">
-    <thead><span class="table-header">Top Billed Cast</span></thead>
+<div id="top-billed-cast" style="display: inline-block; text-align: center;">
+  <!-- <table class="table table-nonfluid">
+    <thead><span class="table-header">Top Billed Cast</span></thead> -->
+    <p>
+      <span class="table-header">Top Billed Cast</span>
+    </p>
     <%= for view <- @top_billed_cast do %>
-      <tr>
-        <td class="minor">
+      <%= for role <- view.roles do %>
+        <div style="text-align: center; display: inline-block; margin: 5px;">
+          <img class="img-circle" src="<%= render_cast_thumb(view, role) %>" /><br />
+          <%= role %><br />
           <%= render_people_link(@conn, view) %>
-        </td>
-        <td class="subdue">
-          <%= for role <- view.roles do %>
-            <%= role %><br/>
-            <img src="<%= render_cast_thumb(view, role) %>" />
-          <% end %>
-        </td>
-      </tr>
+        </div>
+        <!-- <tr>
+          <td class="minor">
+            <%= render_people_link(@conn, view) %>
+          </td>
+          <td class="subdue">
+            <%= for role <- view.roles do %>
+              <%= role %><br/>
+              <img class="img-circle" src="<%= render_cast_thumb(view, role) %>" />
+            <% end %>
+          </td>
+        </tr> -->
+      <% end %>
     <% end %>
-  </table>
+  <!-- </table> -->
 </div>

@@ -1,8 +1,17 @@
-<div id="other-cast">
-  <table class="table table-nonfluid">
-    <thead><span class="table-header">Rest of Cast Listed Alphabetically</span></thead>
+<div id="other-cast" style="display: inline-block; text-align: center;">
+  <p>
+    <span class="table-header">Rest of Cast Listed Alphabetically</span>
+  </p>
+  <!-- <table class="table table-nonfluid"> -->
+    <!-- <thead><span class="table-header">Rest of Cast Listed Alphabetically</span></thead> -->
     <%= for view <- @other_cast do %>
-    <tr>
+    <%= for role <- view.roles do %>
+    <div style="text-align: center; display: inline-block; margin: 5px;">
+      <img class="img-circle" src="<%= render_cast_thumb(view, role) %>" /><br />
+      <%= role %><br />
+      <%= render_people_link(@conn, view) %>
+    </div>
+    <!-- <tr>
       <td class="minor">
         <%= render_people_link(@conn, view) %>
       </td>
@@ -11,7 +20,8 @@
           <%= role %><br/>
         <% end %>
       </td>
-    </tr>
+    </tr> -->
+    <% end %>
     <% end %>
   </table>
 </div>
