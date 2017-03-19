@@ -1,6 +1,6 @@
 <%= for role_name <- @role_names do %>
   <p>
-    <%= "#{role_name} (#{Map.get(@role_groups, role_name) |> Enum.count})" %>
+    <%= raw "<span class=\"table-header\">#{role_name}</span> <span class=\"subdue\">(#{Map.get(@role_groups, role_name) |> Enum.count})</span>" %>
   </p>
   <ul class="index">
     <%= for role <- Map.get(@role_groups, role_name) do %>
