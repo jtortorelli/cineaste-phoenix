@@ -2,12 +2,12 @@
   <p>
     <%= raw "<span class=\"table-header\">#{@description}</span>" %>
   </p>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <%= for view <- @cast do %>
       <%= for role <- view.roles do %>
       <div style="text-align: center; display: inline-block; margin: 5px; max-width: 150px;">
         <img class="img-circle" src="<%= render_cast_thumb(view, role) %>" /><br />
-        <%= role %><br />
+        <%= raw "<span class=\"subdue\">#{role}</span>" %><br />
         <%= render_people_link(@conn, view) %>
       </div>
       <% end %>
