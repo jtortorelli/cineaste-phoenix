@@ -9,6 +9,7 @@
         <td class="subdue">
           <%= for role <- view.roles do %>
             <%= role %><br/>
+            <img src="<%= render_cast_thumb(view, role) %>" />
           <% end %>
         </td>
       </tr>

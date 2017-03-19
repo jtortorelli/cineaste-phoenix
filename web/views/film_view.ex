@@ -94,4 +94,9 @@ defmodule Cineaste.FilmView do
     text
   end
 
+  def render_cast_thumb(%{film_id: film_id, entity_id: entity_id, roles: roles}, role) do
+    index = Enum.find_index(roles, fn(r) -> r == role end) |> Integer.to_string
+    Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:cast] <> film_id <> "/" <> entity_id <> "." <> index <> ".jpg"
+  end
+
 end
