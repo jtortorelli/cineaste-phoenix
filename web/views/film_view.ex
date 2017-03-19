@@ -57,13 +57,13 @@ defmodule Cineaste.FilmView do
   defp _display_series_subsequent(_, _), do: {:safe, ""}
 
   def render_top_billed_cast(conn, [_h|_t] = top_billed_cast) do
-    render "top_billed_cast.html", conn: conn, top_billed_cast: top_billed_cast
+    render "cast_display.html", conn: conn, cast: top_billed_cast, id: "top-billed-cast", description: "Top Billed Cast"
   end
 
   def render_top_billed_cast(_, _), do: nil
 
   def render_other_cast(conn, [_h|_t] = other_cast) do
-    render "other_cast.html", conn: conn, other_cast: other_cast
+    render "cast_display.html", conn: conn, cast: other_cast, id: "other-cast", description: "Rest of Cast Listed Alphabetically"
   end
 
   def render_other_cast(_, _), do: nil
