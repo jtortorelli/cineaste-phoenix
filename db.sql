@@ -1394,8 +1394,6 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	be4ac231-b431-4c18-b5a9-851e2a7713f1	{"Doomed Reporter"}	22
 653335e2-101e-4303-90a2-eb71dac3c6e3	c21e21a8-e940-417c-982e-33aacb5e19a7	{Islander}	24
 653335e2-101e-4303-90a2-eb71dac3c6e3	5240cb5f-b0a8-4c64-aa01-93a65b45d419	{Reporter}	26
-653335e2-101e-4303-90a2-eb71dac3c6e3	f5b35e44-efd4-4298-8124-4bccd4325e23	{"Newspaper Editor",Godzilla}	27
-653335e2-101e-4303-90a2-eb71dac3c6e3	9b787e61-5c06-463d-aa62-18c142735fc8	{"Newspaper Reporter",Godzilla}	28
 653335e2-101e-4303-90a2-eb71dac3c6e3	1cfeedcd-f22a-4d2a-9858-491a773d65ad	{"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	0e2de731-55a7-44be-a0b3-8213183d631e	{"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	235193ac-7eb5-4514-b03d-cefab039ed5f	{"Ship's Radio Operator"}	99
@@ -1403,15 +1401,11 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	acace893-b445-4425-98d9-09126f7dcbf6	{"Coast Guard"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	cae2fb10-3188-41b9-9a7f-d23a5d8f9eb2	{"Substation Operator"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	65171b44-fd3a-4948-9613-3f7206141774	{Reporter}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	c0aaff10-a67a-4304-a3c3-875a00348870	{"Defense Official",Reporter}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	92dd9d68-0b73-443a-8aae-f0e7bba34f32	{"Coast Guard"}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	839d802a-34c1-4258-a75a-2a5bbfe67afc	{"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	ba759075-8927-42c2-8da7-58086e6f1e27	{Sailor}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Cruise Passenger",Reporter}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Correspondent}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	2f7a44eb-826b-477e-973b-5c57a715b25a	{Policeman}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	b883c489-0fe7-4165-86a4-49b531a28c37	{"Radio Operator"}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Radio Operator"}	99
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	006a5098-4f81-40eb-8f8e-785e6f43a956	{Osami}	1
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	27bfdcc6-5f02-47fd-ae38-7ea8d9fac219	{"The King"}	2
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	99d628a5-b63c-4bf4-ae4e-1290b618f02f	{Ensai}	3
@@ -1427,6 +1421,11 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	7c32641a-4525-485a-aeb6-b7cdf4baf19e	{"Osami's Brother"}	13
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	439b033b-b72a-4ed0-b2fd-c44468378bc0	{"The Queen's Handmaiden"}	14
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	32b3608c-6052-4ea4-9f14-38fa182a0340	{Sundara}	15
+653335e2-101e-4303-90a2-eb71dac3c6e3	839d802a-34c1-4258-a75a-2a5bbfe67afc	{"Defense Official","Radio Operator"}	99
+653335e2-101e-4303-90a2-eb71dac3c6e3	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{Reporter,"Cruise Passenger"}	99
+653335e2-101e-4303-90a2-eb71dac3c6e3	c0aaff10-a67a-4304-a3c3-875a00348870	{Reporter,"Defense Official"}	99
+653335e2-101e-4303-90a2-eb71dac3c6e3	9b787e61-5c06-463d-aa62-18c142735fc8	{Godzilla,"Newspaper Reporter"}	28
+653335e2-101e-4303-90a2-eb71dac3c6e3	f5b35e44-efd4-4298-8124-4bccd4325e23	{Godzilla,"Newspaper Editor"}	27
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	bf17ae68-1ab5-48b3-93f8-12876984d814	{"Caravan Leader"}	16
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	6de27671-6ff7-4603-beb5-1d683c42c4c2	{"Royal Advisor"}	17
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	06d3db81-7ec1-4f1c-9df6-e210dba769b2	{"Royal Advisor"}	18
@@ -1449,6 +1448,7 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	686f2dc2-a12d-4f46-af2f-b0d3c81069c9	{"Dr. Yoshio Komura"}	6
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	524b444f-a3c5-4fd2-b5a1-919939b43c4c	{"Tomoko Komura"}	7
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	{"Kiyoko Matsuda"}	8
+653335e2-101e-4303-90a2-eb71dac3c6e3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{Parliamentarian}	99
 \.
 
 
