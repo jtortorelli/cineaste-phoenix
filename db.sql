@@ -371,7 +371,6 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	bd14a659-bf60-4b65-9ec2-514bad9ccb72	{"Dr. Kyohei Yamane"}	4
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	3b4f6a36-44b7-4b23-af88-d03beec21e4d	{"Dr. Tadokoro"}	5
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	468e289d-6838-4fb7-b710-7b47a209e5d0	{"Captain Terasawa"}	6
-7f9c68a7-8cec-4f4e-be97-528fe66605c3	23034690-67d2-4b91-a857-a04f9f810deb	{"Hokkaido Branch Manager Shibeki"}	7
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	06adecc6-cbbe-4893-a916-16e683448590	{Tajima}	8
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	922bb3b7-bee1-45e6-bcd0-524336747977	{Yasuko}	9
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	aa83b831-f8ba-42af-95d0-fab1c9755bbc	{"Defense Secretary"}	10
@@ -379,7 +378,6 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f79f33f2-2385-49c8-9c63-e6c118835713	{"Escaped Convict"}	12
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	56679376-b60c-4926-ae33-3c99ae021778	{Ikeda}	13
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f78c7a73-5c05-4dd1-b0a8-c6fdfbee3a3e	{"Escaped Convict"}	14
-7f9c68a7-8cec-4f4e-be97-528fe66605c3	9e5948a3-3002-44bf-912e-5902e5f385f1	{"Fishing Company Employee"}	15
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	600f3ec6-2ba2-4c6d-8cc1-01f4d625755b	{"Police Chief"}	16
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	acace893-b445-4425-98d9-09126f7dcbf6	{"Escaped Convict"}	17
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f41e7c82-78c1-40ed-b341-2e8d2e1b5df2	{"Escaped Convict"}	18
@@ -390,7 +388,6 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	be4ac231-b431-4c18-b5a9-851e2a7713f1	{Policeman}	99
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Assistant}	99
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f38a2a42-a836-4c62-a1d5-265cba51076b	{Soldier}	99
-7f9c68a7-8cec-4f4e-be97-528fe66605c3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Fishing Company Employee"}	99
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	99d628a5-b63c-4bf4-ae4e-1290b618f02f	{Policeman}	99
 79a16ff9-c72a-4dd0-ba4e-67f578e97682	8880384d-16f9-4e12-b9c2-708c2ecaa93a	{Nanjo}	1
 79a16ff9-c72a-4dd0-ba4e-67f578e97682	97fb5fee-4d35-45d7-8438-93a364a5135d	{Michiyo}	2
@@ -440,6 +437,7 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	0e2de731-55a7-44be-a0b3-8213183d631e	{Policeman}	22
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	c0aaff10-a67a-4304-a3c3-875a00348870	{"Air Force Officer"}	24
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	2f7a44eb-826b-477e-973b-5c57a715b25a	{"Air Force Officer"}	25
+7f9c68a7-8cec-4f4e-be97-528fe66605c3	9e5948a3-3002-44bf-912e-5902e5f385f1	{"Fishing Company Employee"}	15
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	f41e7c82-78c1-40ed-b341-2e8d2e1b5df2	{Meganulon,Pilot}	30
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Reporter}	34
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{Reporter}	35
@@ -1255,7 +1253,6 @@ b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Gian
 23c1c82e-aedb-4c9b-b040-c780eec577e8	b883c489-0fe7-4165-86a4-49b531a28c37	{Soldier}	99
 f474852a-cc25-477d-a7b9-06aa688f7fb2	2aec7762-810f-40b3-943c-211bc049d319	{Yoshimura}	1
 f474852a-cc25-477d-a7b9-06aa688f7fb2	22c73667-bbd2-41e1-93ed-45913b29fe29	{Daiyo}	2
-f474852a-cc25-477d-a7b9-06aa688f7fb2	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Red Bamboo Captain Yamoto"}	3
 f474852a-cc25-477d-a7b9-06aa688f7fb2	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Red Bamboo Commander"}	4
 f474852a-cc25-477d-a7b9-06aa688f7fb2	a860b944-2633-47f3-bea6-8f6a2dece2ff	{Nita}	5
 f474852a-cc25-477d-a7b9-06aa688f7fb2	e55d872b-7180-48d9-a4ae-dbb5c3912e73	{Ichino}	6
@@ -1333,26 +1330,22 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 7be35dd2-8758-4cb8-85af-17985772d431	bee0c590-edb2-4f54-8d6a-7e105e2ed741	{"Kilaak Queen"}	3
 7be35dd2-8758-4cb8-85af-17985772d431	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Dr, Yoshido"}	4
 7be35dd2-8758-4cb8-85af-17985772d431	06adecc6-cbbe-4893-a916-16e683448590	{"Dr. Otani"}	5
-7be35dd2-8758-4cb8-85af-17985772d431	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Moon Base Commander Nishikawa"}	6
-7be35dd2-8758-4cb8-85af-17985772d431	949e61ea-2ba5-475d-8491-e784144eaf71	{"Possessed Monster Island Tech"}	7
 7be35dd2-8758-4cb8-85af-17985772d431	0b33ac7b-829f-4140-b760-74806280cf6a	{"Major Tada"}	8
 7be35dd2-8758-4cb8-85af-17985772d431	86209caa-4d37-4745-be23-dbee24bf244a	{"Defense Chief Sugiyama"}	9
 7be35dd2-8758-4cb8-85af-17985772d431	6082d456-e1d7-43de-8174-148d1a2b09c0	{"Special Police"}	10
 7be35dd2-8758-4cb8-85af-17985772d431	415eddaf-1711-4795-9381-bc001c89b0a7	{"Special Police"}	11
 7be35dd2-8758-4cb8-85af-17985772d431	4aac5e75-0c01-418b-98fb-17d3f7138f85	{Mountaineer}	12
 7be35dd2-8758-4cb8-85af-17985772d431	b3d271ee-f159-45dd-b774-cc823c21d82d	{"SY-3 Pilot"}	13
-7be35dd2-8758-4cb8-85af-17985772d431	0a4287a6-254e-42ce-b2fa-1a403c80947b	{"Possessed Monster Island Tech"}	14
 7be35dd2-8758-4cb8-85af-17985772d431	1cfeedcd-f22a-4d2a-9858-491a773d65ad	{"Village Policeman"}	15
 7be35dd2-8758-4cb8-85af-17985772d431	e55d872b-7180-48d9-a4ae-dbb5c3912e73	{"SY-3 Pilot Ogata"}	16
 7be35dd2-8758-4cb8-85af-17985772d431	3e42b352-0c52-4e39-b028-7b5a8b45e415	{"SY-3 Pilot"}	17
 7be35dd2-8758-4cb8-85af-17985772d431	2ebd5427-97aa-4b77-b5af-66a55ff46fc4	{"SY-3 Pilot"}	18
 7be35dd2-8758-4cb8-85af-17985772d431	3b4d8cf3-372d-4180-a625-d7ece05d7d58	{"Moon Base Tech"}	19
-7be35dd2-8758-4cb8-85af-17985772d431	2ef5fd75-6752-4e6b-ba59-02d2761e999e	{"Possessed Monster Island Tech"}	20
 7be35dd2-8758-4cb8-85af-17985772d431	ba759075-8927-42c2-8da7-58086e6f1e27	{"SY-3 Pilot"}	21
-7be35dd2-8758-4cb8-85af-17985772d431	b53e5364-0ae6-4a10-b2d2-d41e6c87bd49	{"Possessed Monster Island Tech"}	22
 7be35dd2-8758-4cb8-85af-17985772d431	65171b44-fd3a-4948-9613-3f7206141774	{Reporter}	23
 7be35dd2-8758-4cb8-85af-17985772d431	f9a23daa-fab8-418d-90f0-30a195ca171d	{"UNSC Tech"}	24
 7be35dd2-8758-4cb8-85af-17985772d431	92dd9d68-0b73-443a-8aae-f0e7bba34f32	{"Special Police"}	25
+7be35dd2-8758-4cb8-85af-17985772d431	949e61ea-2ba5-475d-8491-e784144eaf71	{"Possessed Monster Island Tech"}	7
 7be35dd2-8758-4cb8-85af-17985772d431	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{"Mt. Fuji Reporter"}	26
 7be35dd2-8758-4cb8-85af-17985772d431	d85dc51d-4970-45b8-8b69-8472f0099fcb	{"Military Advisor"}	27
 7be35dd2-8758-4cb8-85af-17985772d431	b883c489-0fe7-4165-86a4-49b531a28c37	{"Military Advisor"}	28
@@ -1378,7 +1371,6 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	bd14a659-bf60-4b65-9ec2-514bad9ccb72	{"Dr. Kyohei Yamane"}	4
 653335e2-101e-4303-90a2-eb71dac3c6e3	3881d7da-94c0-408b-b384-1133f2c55f46	{"Dr. Tanabe"}	5
 653335e2-101e-4303-90a2-eb71dac3c6e3	bf17ae68-1ab5-48b3-93f8-12876984d814	{Hagiwara}	6
-653335e2-101e-4303-90a2-eb71dac3c6e3	ef73315d-624c-4436-a729-5e47d474365e	{"Fishing Company President"}	7
 653335e2-101e-4303-90a2-eb71dac3c6e3	56679376-b60c-4926-ae33-3c99ae021778	{Masaji}	8
 653335e2-101e-4303-90a2-eb71dac3c6e3	f03e5540-5215-405b-8641-1b3f60ebe755	{"Diet Chairman"}	9
 653335e2-101e-4303-90a2-eb71dac3c6e3	468e289d-6838-4fb7-b710-7b47a209e5d0	{Parliamentarian}	10
@@ -1410,8 +1402,6 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	27bfdcc6-5f02-47fd-ae38-7ea8d9fac219	{"The King"}	2
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	99d628a5-b63c-4bf4-ae4e-1290b618f02f	{Ensai}	3
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	7e735ef6-b865-424d-9291-0387716327cb	{"Gorjaka the Bandit"}	4
-3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	ca42052c-b7db-4e90-a825-bf0afe11a5b9	{"The Innkeeper's Daughter"}	5
-3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	d08d501c-fb18-4360-8e59-9685b5ecead3	{"The Chamberlain's Daughter"}	6
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	ba66d21c-9c9a-4290-848e-a89f3a2ce28d	{"The Queen"}	7
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	19291744-943e-4d56-a006-f82021b01e1a	{"The Wizard Hermit"}	8
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"The Innkeeper"}	9
@@ -1426,6 +1416,9 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	c0aaff10-a67a-4304-a3c3-875a00348870	{Reporter,"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	9b787e61-5c06-463d-aa62-18c142735fc8	{Godzilla,"Newspaper Reporter"}	28
 653335e2-101e-4303-90a2-eb71dac3c6e3	f5b35e44-efd4-4298-8124-4bccd4325e23	{Godzilla,"Newspaper Editor"}	27
+3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	ca42052c-b7db-4e90-a825-bf0afe11a5b9	{Kureya}	5
+3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	d08d501c-fb18-4360-8e59-9685b5ecead3	{Spriya}	6
+653335e2-101e-4303-90a2-eb71dac3c6e3	ef73315d-624c-4436-a729-5e47d474365e	{"Fishing Company President"}	7
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	bf17ae68-1ab5-48b3-93f8-12876984d814	{"Caravan Leader"}	16
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	6de27671-6ff7-4603-beb5-1d683c42c4c2	{"Royal Advisor"}	17
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	06d3db81-7ec1-4f1c-9df6-e210dba769b2	{"Royal Advisor"}	18
@@ -1449,6 +1442,13 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	524b444f-a3c5-4fd2-b5a1-919939b43c4c	{"Tomoko Komura"}	7
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	{"Kiyoko Matsuda"}	8
 653335e2-101e-4303-90a2-eb71dac3c6e3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{Parliamentarian}	99
+7f9c68a7-8cec-4f4e-be97-528fe66605c3	23034690-67d2-4b91-a857-a04f9f810deb	{"Branch Manager Shibeki"}	7
+f474852a-cc25-477d-a7b9-06aa688f7fb2	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Red Bamboo Captain Yamoto"}	3
+7be35dd2-8758-4cb8-85af-17985772d431	0a4287a6-254e-42ce-b2fa-1a403c80947b	{"Possessed Monster Island Tech"}	14
+7be35dd2-8758-4cb8-85af-17985772d431	b53e5364-0ae6-4a10-b2d2-d41e6c87bd49	{"Possessed Monster Island Tech"}	22
+7be35dd2-8758-4cb8-85af-17985772d431	2ef5fd75-6752-4e6b-ba59-02d2761e999e	{"Possessed Monster Island Tech"}	20
+7be35dd2-8758-4cb8-85af-17985772d431	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Moon Base Commander Nishikawa"}	6
+7f9c68a7-8cec-4f4e-be97-528fe66605c3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Fishing Company Employee"}	99
 \.
 
 
