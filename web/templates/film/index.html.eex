@@ -2,7 +2,7 @@
   <div class="row">
     <h2>Films</h2>
     <div id="film-index">
-      <div class="input-group input-group-sm">
+      <div id="search-bar" class="input-group input-group-sm">
         <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
         <input v-model="searchTerm" type="text" class="form-control" id="film-search">
       </div>
