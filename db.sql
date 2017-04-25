@@ -371,7 +371,6 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	bd14a659-bf60-4b65-9ec2-514bad9ccb72	{"Dr. Kyohei Yamane"}	4
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	3b4f6a36-44b7-4b23-af88-d03beec21e4d	{"Dr. Tadokoro"}	5
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	468e289d-6838-4fb7-b710-7b47a209e5d0	{"Captain Terasawa"}	6
-7f9c68a7-8cec-4f4e-be97-528fe66605c3	23034690-67d2-4b91-a857-a04f9f810deb	{"Hokkaido Branch Manager Shibeki"}	7
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	06adecc6-cbbe-4893-a916-16e683448590	{Tajima}	8
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	922bb3b7-bee1-45e6-bcd0-524336747977	{Yasuko}	9
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	aa83b831-f8ba-42af-95d0-fab1c9755bbc	{"Defense Secretary"}	10
@@ -379,7 +378,6 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f79f33f2-2385-49c8-9c63-e6c118835713	{"Escaped Convict"}	12
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	56679376-b60c-4926-ae33-3c99ae021778	{Ikeda}	13
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f78c7a73-5c05-4dd1-b0a8-c6fdfbee3a3e	{"Escaped Convict"}	14
-7f9c68a7-8cec-4f4e-be97-528fe66605c3	9e5948a3-3002-44bf-912e-5902e5f385f1	{"Fishing Company Employee"}	15
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	600f3ec6-2ba2-4c6d-8cc1-01f4d625755b	{"Police Chief"}	16
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	acace893-b445-4425-98d9-09126f7dcbf6	{"Escaped Convict"}	17
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f41e7c82-78c1-40ed-b341-2e8d2e1b5df2	{"Escaped Convict"}	18
@@ -390,7 +388,6 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	be4ac231-b431-4c18-b5a9-851e2a7713f1	{Policeman}	99
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Assistant}	99
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	f38a2a42-a836-4c62-a1d5-265cba51076b	{Soldier}	99
-7f9c68a7-8cec-4f4e-be97-528fe66605c3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Fishing Company Employee"}	99
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	99d628a5-b63c-4bf4-ae4e-1290b618f02f	{Policeman}	99
 79a16ff9-c72a-4dd0-ba4e-67f578e97682	8880384d-16f9-4e12-b9c2-708c2ecaa93a	{Nanjo}	1
 79a16ff9-c72a-4dd0-ba4e-67f578e97682	97fb5fee-4d35-45d7-8438-93a364a5135d	{Michiyo}	2
@@ -440,6 +437,7 @@ COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	0e2de731-55a7-44be-a0b3-8213183d631e	{Policeman}	22
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	c0aaff10-a67a-4304-a3c3-875a00348870	{"Air Force Officer"}	24
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	2f7a44eb-826b-477e-973b-5c57a715b25a	{"Air Force Officer"}	25
+7f9c68a7-8cec-4f4e-be97-528fe66605c3	9e5948a3-3002-44bf-912e-5902e5f385f1	{"Fishing Company Employee"}	15
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	f41e7c82-78c1-40ed-b341-2e8d2e1b5df2	{Meganulon,Pilot}	30
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Reporter}	34
 56dab76c-fc4d-4547-b2fe-3a743154f1d5	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{Reporter}	35
@@ -974,6 +972,7 @@ b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Gian
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	86209caa-4d37-4745-be23-dbee24bf244a	{"Lt. Amano"}	8
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	fefa0ceb-89a5-4d79-8a4a-80dfb16238a0	{Reporter}	24
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Mu Agent No. 23"}	9
+700c2ce1-095e-48ac-96c0-1d31f0c4e52b	d08d501c-fb18-4360-8e59-9685b5ecead3	{Hamako}	4
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	7890926d-3000-43b1-9be4-272609b3cca7	{"High Priest of Mu"}	10
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	b86678a4-b0f5-477d-af53-af0dde7e60ef	{General}	11
 5df297a2-5f6d-430d-b7fc-952e97ac9d79	def945ba-826b-4d5a-b100-ce9eb2362805	{"Military Officer"}	12
@@ -1050,7 +1049,6 @@ b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Gian
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	5e35fe94-1c41-4e60-a400-aa44c201deb1	{"Detective Komai"}	1
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	975efb7b-e01c-4ca2-9c8d-6deaddcf6ade	{"Masayo Kirino"}	2
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	34de1ef2-9428-4c7e-8512-5683f7cced38	{"Dr. Kirino"}	3
-700c2ce1-095e-48ac-96c0-1d31f0c4e52b	d08d501c-fb18-4360-8e59-9685b5ecead3	{Hamako}	4
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	c0eeeca2-2862-4a6f-bf5b-66920a8172a8	{"Dr. Munakata"}	5
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	8880384d-16f9-4e12-b9c2-708c2ecaa93a	{"Gang Leader"}	6
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	7b5238d1-ec51-47fa-ae20-8f15e501944f	{"Mark Jackson"}	7
@@ -1255,7 +1253,6 @@ b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Gian
 23c1c82e-aedb-4c9b-b040-c780eec577e8	b883c489-0fe7-4165-86a4-49b531a28c37	{Soldier}	99
 f474852a-cc25-477d-a7b9-06aa688f7fb2	2aec7762-810f-40b3-943c-211bc049d319	{Yoshimura}	1
 f474852a-cc25-477d-a7b9-06aa688f7fb2	22c73667-bbd2-41e1-93ed-45913b29fe29	{Daiyo}	2
-f474852a-cc25-477d-a7b9-06aa688f7fb2	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Red Bamboo Captain Yamoto"}	3
 f474852a-cc25-477d-a7b9-06aa688f7fb2	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Red Bamboo Commander"}	4
 f474852a-cc25-477d-a7b9-06aa688f7fb2	a860b944-2633-47f3-bea6-8f6a2dece2ff	{Nita}	5
 f474852a-cc25-477d-a7b9-06aa688f7fb2	e55d872b-7180-48d9-a4ae-dbb5c3912e73	{Ichino}	6
@@ -1333,26 +1330,22 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 7be35dd2-8758-4cb8-85af-17985772d431	bee0c590-edb2-4f54-8d6a-7e105e2ed741	{"Kilaak Queen"}	3
 7be35dd2-8758-4cb8-85af-17985772d431	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Dr, Yoshido"}	4
 7be35dd2-8758-4cb8-85af-17985772d431	06adecc6-cbbe-4893-a916-16e683448590	{"Dr. Otani"}	5
-7be35dd2-8758-4cb8-85af-17985772d431	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Moon Base Commander Nishikawa"}	6
-7be35dd2-8758-4cb8-85af-17985772d431	949e61ea-2ba5-475d-8491-e784144eaf71	{"Possessed Monster Island Tech"}	7
 7be35dd2-8758-4cb8-85af-17985772d431	0b33ac7b-829f-4140-b760-74806280cf6a	{"Major Tada"}	8
 7be35dd2-8758-4cb8-85af-17985772d431	86209caa-4d37-4745-be23-dbee24bf244a	{"Defense Chief Sugiyama"}	9
 7be35dd2-8758-4cb8-85af-17985772d431	6082d456-e1d7-43de-8174-148d1a2b09c0	{"Special Police"}	10
 7be35dd2-8758-4cb8-85af-17985772d431	415eddaf-1711-4795-9381-bc001c89b0a7	{"Special Police"}	11
 7be35dd2-8758-4cb8-85af-17985772d431	4aac5e75-0c01-418b-98fb-17d3f7138f85	{Mountaineer}	12
 7be35dd2-8758-4cb8-85af-17985772d431	b3d271ee-f159-45dd-b774-cc823c21d82d	{"SY-3 Pilot"}	13
-7be35dd2-8758-4cb8-85af-17985772d431	0a4287a6-254e-42ce-b2fa-1a403c80947b	{"Possessed Monster Island Tech"}	14
 7be35dd2-8758-4cb8-85af-17985772d431	1cfeedcd-f22a-4d2a-9858-491a773d65ad	{"Village Policeman"}	15
 7be35dd2-8758-4cb8-85af-17985772d431	e55d872b-7180-48d9-a4ae-dbb5c3912e73	{"SY-3 Pilot Ogata"}	16
 7be35dd2-8758-4cb8-85af-17985772d431	3e42b352-0c52-4e39-b028-7b5a8b45e415	{"SY-3 Pilot"}	17
 7be35dd2-8758-4cb8-85af-17985772d431	2ebd5427-97aa-4b77-b5af-66a55ff46fc4	{"SY-3 Pilot"}	18
 7be35dd2-8758-4cb8-85af-17985772d431	3b4d8cf3-372d-4180-a625-d7ece05d7d58	{"Moon Base Tech"}	19
-7be35dd2-8758-4cb8-85af-17985772d431	2ef5fd75-6752-4e6b-ba59-02d2761e999e	{"Possessed Monster Island Tech"}	20
 7be35dd2-8758-4cb8-85af-17985772d431	ba759075-8927-42c2-8da7-58086e6f1e27	{"SY-3 Pilot"}	21
-7be35dd2-8758-4cb8-85af-17985772d431	b53e5364-0ae6-4a10-b2d2-d41e6c87bd49	{"Possessed Monster Island Tech"}	22
 7be35dd2-8758-4cb8-85af-17985772d431	65171b44-fd3a-4948-9613-3f7206141774	{Reporter}	23
 7be35dd2-8758-4cb8-85af-17985772d431	f9a23daa-fab8-418d-90f0-30a195ca171d	{"UNSC Tech"}	24
 7be35dd2-8758-4cb8-85af-17985772d431	92dd9d68-0b73-443a-8aae-f0e7bba34f32	{"Special Police"}	25
+7be35dd2-8758-4cb8-85af-17985772d431	949e61ea-2ba5-475d-8491-e784144eaf71	{"Possessed Monster Island Tech"}	7
 7be35dd2-8758-4cb8-85af-17985772d431	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{"Mt. Fuji Reporter"}	26
 7be35dd2-8758-4cb8-85af-17985772d431	d85dc51d-4970-45b8-8b69-8472f0099fcb	{"Military Advisor"}	27
 7be35dd2-8758-4cb8-85af-17985772d431	b883c489-0fe7-4165-86a4-49b531a28c37	{"Military Advisor"}	28
@@ -1378,7 +1371,6 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	bd14a659-bf60-4b65-9ec2-514bad9ccb72	{"Dr. Kyohei Yamane"}	4
 653335e2-101e-4303-90a2-eb71dac3c6e3	3881d7da-94c0-408b-b384-1133f2c55f46	{"Dr. Tanabe"}	5
 653335e2-101e-4303-90a2-eb71dac3c6e3	bf17ae68-1ab5-48b3-93f8-12876984d814	{Hagiwara}	6
-653335e2-101e-4303-90a2-eb71dac3c6e3	ef73315d-624c-4436-a729-5e47d474365e	{"Fishing Company President"}	7
 653335e2-101e-4303-90a2-eb71dac3c6e3	56679376-b60c-4926-ae33-3c99ae021778	{Masaji}	8
 653335e2-101e-4303-90a2-eb71dac3c6e3	f03e5540-5215-405b-8641-1b3f60ebe755	{"Diet Chairman"}	9
 653335e2-101e-4303-90a2-eb71dac3c6e3	468e289d-6838-4fb7-b710-7b47a209e5d0	{Parliamentarian}	10
@@ -1394,8 +1386,6 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	be4ac231-b431-4c18-b5a9-851e2a7713f1	{"Doomed Reporter"}	22
 653335e2-101e-4303-90a2-eb71dac3c6e3	c21e21a8-e940-417c-982e-33aacb5e19a7	{Islander}	24
 653335e2-101e-4303-90a2-eb71dac3c6e3	5240cb5f-b0a8-4c64-aa01-93a65b45d419	{Reporter}	26
-653335e2-101e-4303-90a2-eb71dac3c6e3	f5b35e44-efd4-4298-8124-4bccd4325e23	{"Newspaper Editor",Godzilla}	27
-653335e2-101e-4303-90a2-eb71dac3c6e3	9b787e61-5c06-463d-aa62-18c142735fc8	{"Newspaper Reporter",Godzilla}	28
 653335e2-101e-4303-90a2-eb71dac3c6e3	1cfeedcd-f22a-4d2a-9858-491a773d65ad	{"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	0e2de731-55a7-44be-a0b3-8213183d631e	{"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	235193ac-7eb5-4514-b03d-cefab039ed5f	{"Ship's Radio Operator"}	99
@@ -1403,21 +1393,15 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 653335e2-101e-4303-90a2-eb71dac3c6e3	acace893-b445-4425-98d9-09126f7dcbf6	{"Coast Guard"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	cae2fb10-3188-41b9-9a7f-d23a5d8f9eb2	{"Substation Operator"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	65171b44-fd3a-4948-9613-3f7206141774	{Reporter}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	c0aaff10-a67a-4304-a3c3-875a00348870	{"Defense Official",Reporter}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	92dd9d68-0b73-443a-8aae-f0e7bba34f32	{"Coast Guard"}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	839d802a-34c1-4258-a75a-2a5bbfe67afc	{"Defense Official"}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	ba759075-8927-42c2-8da7-58086e6f1e27	{Sailor}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Cruise Passenger",Reporter}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Correspondent}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	2f7a44eb-826b-477e-973b-5c57a715b25a	{Policeman}	99
 653335e2-101e-4303-90a2-eb71dac3c6e3	b883c489-0fe7-4165-86a4-49b531a28c37	{"Radio Operator"}	99
-653335e2-101e-4303-90a2-eb71dac3c6e3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Radio Operator"}	99
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	006a5098-4f81-40eb-8f8e-785e6f43a956	{Osami}	1
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	27bfdcc6-5f02-47fd-ae38-7ea8d9fac219	{"The King"}	2
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	99d628a5-b63c-4bf4-ae4e-1290b618f02f	{Ensai}	3
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	7e735ef6-b865-424d-9291-0387716327cb	{"Gorjaka the Bandit"}	4
-3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	ca42052c-b7db-4e90-a825-bf0afe11a5b9	{"The Innkeeper's Daughter"}	5
-3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	d08d501c-fb18-4360-8e59-9685b5ecead3	{"The Chamberlain's Daughter"}	6
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	ba66d21c-9c9a-4290-848e-a89f3a2ce28d	{"The Queen"}	7
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	19291744-943e-4d56-a006-f82021b01e1a	{"The Wizard Hermit"}	8
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"The Innkeeper"}	9
@@ -1427,6 +1411,14 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	7c32641a-4525-485a-aeb6-b7cdf4baf19e	{"Osami's Brother"}	13
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	439b033b-b72a-4ed0-b2fd-c44468378bc0	{"The Queen's Handmaiden"}	14
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	32b3608c-6052-4ea4-9f14-38fa182a0340	{Sundara}	15
+653335e2-101e-4303-90a2-eb71dac3c6e3	839d802a-34c1-4258-a75a-2a5bbfe67afc	{"Defense Official","Radio Operator"}	99
+653335e2-101e-4303-90a2-eb71dac3c6e3	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{Reporter,"Cruise Passenger"}	99
+653335e2-101e-4303-90a2-eb71dac3c6e3	c0aaff10-a67a-4304-a3c3-875a00348870	{Reporter,"Defense Official"}	99
+653335e2-101e-4303-90a2-eb71dac3c6e3	9b787e61-5c06-463d-aa62-18c142735fc8	{Godzilla,"Newspaper Reporter"}	28
+653335e2-101e-4303-90a2-eb71dac3c6e3	f5b35e44-efd4-4298-8124-4bccd4325e23	{Godzilla,"Newspaper Editor"}	27
+3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	ca42052c-b7db-4e90-a825-bf0afe11a5b9	{Kureya}	5
+3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	d08d501c-fb18-4360-8e59-9685b5ecead3	{Spriya}	6
+653335e2-101e-4303-90a2-eb71dac3c6e3	ef73315d-624c-4436-a729-5e47d474365e	{"Fishing Company President"}	7
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	bf17ae68-1ab5-48b3-93f8-12876984d814	{"Caravan Leader"}	16
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	6de27671-6ff7-4603-beb5-1d683c42c4c2	{"Royal Advisor"}	17
 3b0b0351-0b4b-4ab1-a84e-6fc554c86a31	06d3db81-7ec1-4f1c-9df6-e210dba769b2	{"Royal Advisor"}	18
@@ -1449,6 +1441,14 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	e82833e4-7eee-4ef1-88e5-a285946593aa	{Soldi
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	686f2dc2-a12d-4f46-af2f-b0d3c81069c9	{"Dr. Yoshio Komura"}	6
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	524b444f-a3c5-4fd2-b5a1-919939b43c4c	{"Tomoko Komura"}	7
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	{"Kiyoko Matsuda"}	8
+653335e2-101e-4303-90a2-eb71dac3c6e3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{Parliamentarian}	99
+7f9c68a7-8cec-4f4e-be97-528fe66605c3	23034690-67d2-4b91-a857-a04f9f810deb	{"Branch Manager Shibeki"}	7
+f474852a-cc25-477d-a7b9-06aa688f7fb2	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Red Bamboo Captain Yamoto"}	3
+7be35dd2-8758-4cb8-85af-17985772d431	0a4287a6-254e-42ce-b2fa-1a403c80947b	{"Possessed Monster Island Tech"}	14
+7be35dd2-8758-4cb8-85af-17985772d431	b53e5364-0ae6-4a10-b2d2-d41e6c87bd49	{"Possessed Monster Island Tech"}	22
+7be35dd2-8758-4cb8-85af-17985772d431	2ef5fd75-6752-4e6b-ba59-02d2761e999e	{"Possessed Monster Island Tech"}	20
+7be35dd2-8758-4cb8-85af-17985772d431	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Moon Base Commander Nishikawa"}	6
+7f9c68a7-8cec-4f4e-be97-528fe66605c3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Fishing Company Employee"}	99
 \.
 
 
@@ -2445,24 +2445,23 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 1e30aa89-d04e-4742-8283-a57bc37fdb8d	Sanjuro	1962-01-01	96	f	\N	{"original_title": "椿三十郎", "original_translation": "Thirty-Year-Old Camellia", "original_transliteration": "Tsubaki Sanjyuurou"}
 db1ac1c3-fc1d-418d-b44b-fb82cbde802c	High and Low	1963-03-01	143	f	\N	{"original_title": "天国と地獄", "original_translation": "Heaven and Hell", "original_transliteration": "Tengoku To Jigoku"}
 8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	f	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
-89faa565-3c41-4d2d-b589-df8b13007a5e	The Golden Bat	1966-12-21	73	f	\N	{"original_title": "黄金 バット", "original_translation": "Golden Bat", "original_transliteration": "Ougon Batto"}
-9ec4301a-1522-4af9-b83b-92d50b4f0db9	Daimajin	1966-04-17	84	f	\N	{"original_title": "大魔神", "original_translation": "Great Demon", "original_transliteration": "Daimajin"}
-ff2cfc4e-76d6-4985-811f-834d4b7f5485	Return of Daimajin	1966-08-13	79	f	{"The Wrath of Daimajin"}	{"original_title": "大魔神怒る", "original_translation": "Great Demon Grows Angry", "original_transliteration": "Daimajin Okoru"}
-ce555690-494d-4983-a2a7-c99fb2fc0387	Daimajin Strikes Again	1966-12-10	87	f	{"The Return of Daimajin"}	{"original_title": "大魔神逆襲", "original_translation": "Great Demon Counterattack", "original_transliteration": "Daimajin Gyakushyuu"}
-0704c7e5-5709-4401-adaa-8cbec670e47d	Gamera, the Giant Monster	1965-11-27	78	f	{"Gammera the Invincible",Gamera}	{"original_title": "大怪獣ガメラ", "original_translation": "Giant Monster Gamera", "original_transliteration": "Daikaijyuu Gamera"}
-16789ef4-c05d-4f15-b09f-3bed5291655c	Gamera vs. Barugon	1966-04-17	101	f	{"War of the Monsters"}	{"original_title": "大怪獣決闘 ガメラ対バルゴン", "original_translation": "Giant Monster Battle Gamera Against Barugon", "original_transliteration": "Daikaijyuu Kessen Gamera Tai Barugon"}
-40ca591f-8493-4fad-9527-464e3501e1d2	Gamera vs. Gyaos	1967-03-15	87	f	{"Gamera vs. Gaos","The Return of the Giant Monsters"}	{"original_title": "大怪獣空中戦 ガメラ対ギャオス", "original_translation": "Giant Monster Air Battle Gamera Against Gyaos", "original_transliteration": "Daikaijyuu Kuuchyuusen Gamera Tai Gyaosu"}
-bbfd5e01-14bc-4890-aab1-92a02bec413d	Gamera vs. Viras	1968-03-20	72	f	{"Destroy All Planets"}	{"original_title": "ガメラ対宇宙怪獣バイラス", "original_translation": "Gamera Against Space Monster Viras", "original_transliteration": "Gamera Tai Uchyuu Kaijyuu Bairasu"}
 ea195732-907d-4586-b446-608e919f2599	Gamera vs. Guiron	1969-03-21	82	f	{"Attack of the Monsters"}	{"original_title": "ガメラ対大悪獣ギロン", "original_translation": "Gamera Against Great Villain Beast Guiron", "original_transliteration": "Gamera Tai Daiakujyuu Giron"}
 f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	f	{"Gamera vs. Monster X"}	{"original_title": "ガメラ対大魔獣ジャイガー", "original_translation": "Gamera Against Great Demon Beast Jiger", "original_transliteration": "Gamera Tai Daimajyuu Jyaigaa"}
 802edf4f-2899-4309-a7ac-a1166137e903	Gamera vs. Zigra	1971-07-17	88	f	\N	{"original_title": "ガメラ対深海怪獣ジグラ", "original_translation": "Gamera Against Deep Sea Monster Zigra", "original_transliteration": "Gamera Tai Shinkai Kaijyuu Jigura"}
-f47487ec-0730-46ae-9056-29fe675715b0	The Magic Serpent	1966-12-21	94	f	\N	{"original_title": "怪竜大決戦", "original_translation": "Dragon Great Battle", "original_transliteration": "Kairyuu Daikessen"}
-a50d9661-fed2-455d-9a9a-009ffa254b07	The X from Outer Space	1967-03-25	88	f	\N	{"original_title": "宇宙大怪獣ギララ", "original_translation": "Giant Space Monster Guirara", "original_transliteration": "Uchuu Daikaijyuu Girara"}
-0b006dae-79e5-4dca-b8e2-09591eacba55	Goke, Body Snatcher from Hell	1968-08-14	84	f	\N	{"original_title": "吸血鬼ゴケミドロ", "original_translation": "Vampire Gokemidoro", "original_transliteration": "Kyuuketsuki Gokemidoro"}
-ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	f	\N	{"original_title": "昆虫大戦争", "original_translation": "Insect Great War", "original_transliteration": "Konchyuu Daisensou"}
 7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	f	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	f	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
+ce555690-494d-4983-a2a7-c99fb2fc0387	Daimajin Strikes Again	1966-12-10	87	t	{"The Return of Daimajin"}	{"original_title": "大魔神逆襲", "original_translation": "Great Demon Counterattack", "original_transliteration": "Daimajin Gyakushyuu"}
+0704c7e5-5709-4401-adaa-8cbec670e47d	Gamera, the Giant Monster	1965-11-27	78	t	{"Gammera the Invincible",Gamera}	{"original_title": "大怪獣ガメラ", "original_translation": "Giant Monster Gamera", "original_transliteration": "Daikaijyuu Gamera"}
+16789ef4-c05d-4f15-b09f-3bed5291655c	Gamera vs. Barugon	1966-04-17	101	t	{"War of the Monsters"}	{"original_title": "大怪獣決闘 ガメラ対バルゴン", "original_translation": "Giant Monster Battle Gamera Against Barugon", "original_transliteration": "Daikaijyuu Kessen Gamera Tai Barugon"}
+40ca591f-8493-4fad-9527-464e3501e1d2	Gamera vs. Gyaos	1967-03-15	87	t	{"Gamera vs. Gaos","The Return of the Giant Monsters"}	{"original_title": "大怪獣空中戦 ガメラ対ギャオス", "original_translation": "Giant Monster Air Battle Gamera Against Gyaos", "original_transliteration": "Daikaijyuu Kuuchyuusen Gamera Tai Gyaosu"}
+bbfd5e01-14bc-4890-aab1-92a02bec413d	Gamera vs. Viras	1968-03-20	72	t	{"Destroy All Planets"}	{"original_title": "ガメラ対宇宙怪獣バイラス", "original_translation": "Gamera Against Space Monster Viras", "original_transliteration": "Gamera Tai Uchyuu Kaijyuu Bairasu"}
+89faa565-3c41-4d2d-b589-df8b13007a5e	The Golden Bat	1966-12-21	73	t	\N	{"original_title": "黄金 バット", "original_translation": "Golden Bat", "original_transliteration": "Ougon Batto"}
+f47487ec-0730-46ae-9056-29fe675715b0	The Magic Serpent	1966-12-21	94	t	\N	{"original_title": "怪竜大決戦", "original_translation": "Dragon Great Battle", "original_transliteration": "Kairyuu Daikessen"}
+a50d9661-fed2-455d-9a9a-009ffa254b07	The X from Outer Space	1967-03-25	88	t	\N	{"original_title": "宇宙大怪獣ギララ", "original_translation": "Giant Space Monster Guirara", "original_transliteration": "Uchuu Daikaijyuu Girara"}
+ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	t	\N	{"original_title": "昆虫大戦争", "original_translation": "Insect Great War", "original_transliteration": "Konchyuu Daisensou"}
+0b006dae-79e5-4dca-b8e2-09591eacba55	Goke, Body Snatcher from Hell	1968-08-14	84	t	\N	{"original_title": "吸血鬼ゴケミドロ", "original_translation": "Vampire Gokemidoro", "original_transliteration": "Kyuuketsuki Gokemidoro"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	f	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
@@ -2497,7 +2496,6 @@ ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	f	\N	{"original_t
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	f	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	f	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"original_title": "着信アリ", "original_translation": "Incoming Call", "original_transliteration": "Chyakushin Ari"}
-361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -2532,6 +2530,7 @@ c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_ti
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
+5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -2567,7 +2566,6 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"or
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
-5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -2650,8 +2648,10 @@ b37e654d-9604-45bb-9b18-aad485e4b30d	Zatoichi the Outlaw	1967-08-12	96	f	\N	{"or
 ac6e5a74-3b42-416d-a73a-93ceced56b19	Zatoichi Challenged	1967-12-30	87	f	\N	{"original_title": "座頭市血煙り街道", "original_translation": "Zatouichi Chikemurikaidou", "original_transliteration": "Zatoichi Blood Smoke Road"}
 5810d823-af91-47ae-ab7d-20a34efbda83	Zatoichi and the Fugitives	1968-08-10	82	f	\N	{"original_title": "座頭市果し状", "original_translation": "Zatouichi Hatashijyou", "original_transliteration": "Zatoichi Letter of Challenge"}
 6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2003-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
-b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	f	\N	{"original_title": "吸血髑髏船", "original_translation": "Blood Sucking Skeleton Ship", "original_transliteration": "Kyuuketsu Dokurosen"}
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	Warning from Space	1956-01-29	82	t	\N	{"original_title": "宇宙人東京に現わる", "original_translation": "Space Men Appear in Tokyo", "original_transliteration": "Uchyuujin Toukyou Ni Arawaru"}
+9ec4301a-1522-4af9-b83b-92d50b4f0db9	Daimajin	1966-04-17	84	t	\N	{"original_title": "大魔神", "original_translation": "Great Demon", "original_transliteration": "Daimajin"}
+ff2cfc4e-76d6-4985-811f-834d4b7f5485	Return of Daimajin	1966-08-13	79	t	{"The Wrath of Daimajin"}	{"original_title": "大魔神怒る", "original_translation": "Great Demon Grows Angry", "original_transliteration": "Daimajin Okoru"}
+b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	t	\N	{"original_title": "吸血髑髏船", "original_translation": "Blood Sucking Skeleton Ship", "original_transliteration": "Kyuuketsu Dokurosen"}
 \.
 
 
@@ -2764,6 +2764,7 @@ c0eeeca2-2862-4a6f-bf5b-66920a8172a8	Nobuo	Nakamura	M	t	{"day": 14, "year": 1908
 6ec04ee3-d9f9-4d8b-91e2-ab10ae2e9d48	Hiroshi	Tachikawa	M	t	{"day": 7, "year": 1931, "month": 3}	\N	Ogimachi, Tama, Tokyo, Japan	\N	\N	{"birth_name": "Yoichi Tachikawa (&#22826;&#20992;&#24029; &#27915;&#19968;)", "original_name": "&#22826;&#20992;&#24029; &#23515;"}
 2ffd8877-261d-408c-97df-97bd6eb5748d	Mitsuko	Kusabue	F	t	{"day": 22, "year": 1933, "month": 10}	\N	Yokohama, Kanagawa, Japan	\N	\N	{"original_name": "&#33609;&#31515; &#20809;&#23376;"}
 e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Shigeru	Mori	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26862;&#33538;"}
+2caacc76-1f58-43ec-867c-ea717b8db1fb	Akihiko	Arakawa	M	f	\N	\N	\N	\N	\N	\N
 f298c956-ac3a-4d29-b92b-462c16b833e1	Shunro	Oshikawa	M	t	{"day": 21, "year": 1876, "month": 3}	{"day": 16, "year": 1914, "month": 11}	Matsuyama, Ehime, Japan	Tokyo, Japan	\N	{"birth_name": "Masanori Oshikawa (&#25276;&#24029; &#26041;&#23384;)", "original_name": "&#25276;&#24029; &#26149;&#28010;"}
 65171b44-fd3a-4948-9613-3f7206141774	Hideo	Shibuya	M	t	{"day": 20, "year": 1928, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "&#28171;&#35895; &#33521;&#30007;"}
 b883c489-0fe7-4165-86a4-49b531a28c37	Rinsaku	Ogata	M	t	{"day": 6, "year": 1925, "month": 1}	\N	\N	\N	\N	{"original_name": "&#32210;&#26041; &#29136;&#20316;"}
@@ -3064,7 +3065,6 @@ bee2d6b7-568f-4386-b380-2ebe35fdc297	Yoshikazu	Yamasawa	M	f	\N	\N	\N	\N	\N	{"ori
 35dd54c6-d61a-471e-a6ad-fc2b4b992219	Masa	Tsubuki	M	f	\N	\N	\N	\N	\N	{"original_name": "津吹 正"}
 094fbabe-38ec-4b55-a2a9-eaf5d712716b	Yunota	Yoshino	M	f	\N	\N	\N	\N	\N	{"original_name": "芳野 尹孝"}
 395dcc9b-eee7-4108-9821-b298a36c3763	Masayuki	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 正幸"}
-2caacc76-1f58-43ec-867c-ea717b8db1fb	Akihiko	Arakawa	M	f	\N	\N	\N	\N	\N	\N
 38b37c37-ad76-4398-ac1a-2bbac0274798	Akira	Naito	M	f	\N	\N	\N	\N	\N	{"original_name": "内藤 昭"}
 e20f479b-3a6a-47d7-96e3-e7e31e723e46	Kazuo	Mori	M	f	{"day": 15, "year": 1911, "month": 1}	{"day": 29, "year": 1989, "month": 6}	Matsuyama, Ehime, Japan	\N	\N	{"original_name": "森 一生"}
 d516b368-3b08-4d2d-845e-c3f2ae37033d	Shinichi	Eno	M	f	\N	\N	\N	\N	\N	{"original_name": "江野 慎一"}

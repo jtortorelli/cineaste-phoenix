@@ -76,6 +76,10 @@ defmodule Cineaste.PeopleView do
     raw "#{link_text} <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
   end
 
+  def render_film_link(conn, %{film_id: id, film_title: title, film_release_date: date, film_showcase: false, characters: characters}, "Actor") do
+    raw "<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")}) <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
+  end
+
   def render_film_link(conn, %{film_id: id, film_title: title, film_release_date: date, film_showcase: true}, _role_name) do
     link raw("<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")})"), to: film_path(conn, :show, id)
   end

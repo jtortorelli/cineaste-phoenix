@@ -5,7 +5,6 @@ defmodule Cineaste.FilmView do
   alias Cineaste.Repo
   alias Cineaste.Film
   alias Cineaste.SeriesFilm
-  alias Cineaste.FilmImage
   require Logger
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
@@ -68,13 +67,11 @@ defmodule Cineaste.FilmView do
 
   def render_other_cast(_, _), do: nil
 
-  def render_gallery(film_id) do
+  def render_gallery(film_id, gallery_images) do
     s3_gallery_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:film_galleries]
-    file_names = Repo.all(from image in FilmImage, where: image.film_id == ^film_id and image.type == "gallery", order_by: image.file_name)
-    |> Enum.map(fn(x) -> x.file_name end)
     full_url = s3_gallery_url <> film_id <> "/full/"
     thumb_url = s3_gallery_url <> film_id <> "/thumbs/"
-    render "gallery.html", film_id: film_id, file_names: file_names, full_url: full_url, thumb_url: thumb_url
+    render "gallery.html", film_id: film_id, file_names: gallery_images, full_url: full_url, thumb_url: thumb_url
   end
 
   def render_poster(film_id) do
