@@ -2434,7 +2434,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
-9883d93a-db06-4c02-ba91-1d41c335acf1	Rashomon	1950-08-26	88	f	\N	{"original_title": "羅生門", "original_translation": "Rashomon", "original_transliteration": "Rashyoumon"}
 483afdf4-329f-42fb-8d0c-a1d7bd60d5d2	Seven Samurai	1954-04-26	207	f	\N	{"original_title": "七人の侍", "original_translation": "Seven Samurai", "original_transliteration": "Shichinin No Samurai"}
 14fab775-bb0f-413e-9840-be528e07ba70	Samurai I: Musashi Miyamoto	1954-09-26	94	f	\N	{"original_title": "宮本武蔵", "original_translation": "Miyamoto Musashi", "original_transliteration": "Miyamoto Musashi"}
 6c45cc47-8f6d-4861-95ab-4c9a2b404218	Samurai II: Duel at Ichijoji Temple	1955-07-12	103	f	\N	{"original_title": "續宮本武蔵 一乘寺の決斗", "original_translation": "Continued Miyamoto Musashi: Duel of Ichijoji Temple", "original_transliteration": "Zoku Miyamoto Musashi Ichijyouji No Kettou"}
@@ -2462,6 +2461,7 @@ f47487ec-0730-46ae-9056-29fe675715b0	The Magic Serpent	1966-12-21	94	t	\N	{"orig
 a50d9661-fed2-455d-9a9a-009ffa254b07	The X from Outer Space	1967-03-25	88	t	\N	{"original_title": "宇宙大怪獣ギララ", "original_translation": "Giant Space Monster Guirara", "original_transliteration": "Uchuu Daikaijyuu Girara"}
 ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	t	\N	{"original_title": "昆虫大戦争", "original_translation": "Insect Great War", "original_transliteration": "Konchyuu Daisensou"}
 0b006dae-79e5-4dca-b8e2-09591eacba55	Goke, Body Snatcher from Hell	1968-08-14	84	t	\N	{"original_title": "吸血鬼ゴケミドロ", "original_translation": "Vampire Gokemidoro", "original_transliteration": "Kyuuketsuki Gokemidoro"}
+9883d93a-db06-4c02-ba91-1d41c335acf1	Rashomon	1950-08-26	88	t	\N	{"original_title": "羅生門", "original_translation": "Rashomon", "original_transliteration": "Rashyoumon"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	f	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
@@ -3087,6 +3087,14 @@ d4374410-4d45-4928-9216-559cf8217068	Yosuke	Uchida	M	f	\N	\N	\N	\N	\N	{"original
 686f2dc2-a12d-4f46-af2f-b0d3c81069c9	Bontaro	Miake	M	f	{"day": 15, "year": 1906, "month": 10}	{"year": 1987}	Masuda, Mino, Shimane, Japan	\N	\N	{"birth_name": "Susumu Miake (見明 先先)", "original_name": "見明 凡太朗"}
 524b444f-a3c5-4fd2-b5a1-919939b43c4c	Mieko	Nagai	F	f	\N	\N	\N	\N	\N	{"original_name": "永井 ミエ子"}
 1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	Kiyoko	Hirai	F	f	\N	\N	\N	\N	\N	{"original_name": "平井 岐代子"}
+449ff18f-f1bf-4f74-b7d0-d725027fa078	Akira	Kurosawa	M	f	{"day": 23, "year": 1910, "month": 3}	{"day": 6, "year": 1998, "month": 9}	Oimachi, Ebara, Tokyo, Japan	Seijo, Setagaya, Tokyo, Japan	\N	{"original_name": "黒澤 明"}
+50fd1eb9-7289-4cf4-bdc6-065797936bd7	Ryunosuke	Akutagawa	M	f	{"day": 1, "year": 1892, "month": 3}	{"day": 24, "year": 1927, "month": 7}	Kyobashi, Tokyo, Japan	Tabata, Takinogawa, Toshima, Tokyo, Japan	\N	{"original_name": "芥川 龍之介"}
+2209b83b-f80d-4f9b-be22-838581803d4b	Shinobu	Hashimoto	M	f	{"day": 18, "year": 1918, "month": 4}	\N	Tsurui, Kisaki, Hyogo, Japan	\N	\N	{"original_name": "橋本 忍"}
+786ceebd-6927-4242-a1cd-5933186090c3	Kazuo	Miyakawa	M	f	{"day": 25, "year": 1908, "month": 2}	{"day": 7, "year": 1999, "month": 8}	Oike, Kawaramachi, Kyoto, Japan	\N	\N	{"original_name": "宮川 一夫"}
+4c0538b4-3e0f-41ab-b29a-cf058f7f0708	Takashi	Matsuyama	M	f	{"day": 22, "year": 1908, "month": 9}	{"day": 14, "year": 1977, "month": 7}	Kobe, Hyogo, Japan	\N	\N	{"original_name": "松山 崇"}
+cbf78cce-3676-40c9-b871-0dcddd5423df	Fumio	Hayasaka	M	f	{"day": 19, "year": 1914, "month": 8}	{"day": 15, "year": 1955, "month": 10}	Sendai, Miyagi, Japan	Setagaya, Kenichi, Tokyo, Japan	\N	{"original_name": "早坂 文雄"}
+fafb356d-5415-434e-9809-afd08177a68d	Kenichi	Okamoto	M	f	\N	\N	\N	\N	\N	{"original_name": "岡本 健一"}
+e1099923-73b2-4388-8718-0bbeb2b38fe3	Shigeo	Nishida	M	f	\N	\N	\N	\N	\N	{"original_name": "西田 重雄"}
 \.
 
 
@@ -3688,6 +3696,16 @@ b093530b-88fa-4439-bce1-aaf1b066b5ba	7c84b99f-8441-4bca-b272-28871206e3c8	Music	
 b093530b-88fa-4439-bce1-aaf1b066b5ba	c5ae1c5e-6885-484b-a6bc-7d86ec7d4559	Lighting	8
 b093530b-88fa-4439-bce1-aaf1b066b5ba	2e2c8b9c-e622-4534-8196-2cd54cf9d3d5	Editor	9
 b093530b-88fa-4439-bce1-aaf1b066b5ba	5e025577-ff1e-4462-9c3d-0446693fe1cd	Sound Recording	10
+9883d93a-db06-4c02-ba91-1d41c335acf1	449ff18f-f1bf-4f74-b7d0-d725027fa078	Director	-1
+9883d93a-db06-4c02-ba91-1d41c335acf1	50fd1eb9-7289-4cf4-bdc6-065797936bd7	Original Story	3
+9883d93a-db06-4c02-ba91-1d41c335acf1	449ff18f-f1bf-4f74-b7d0-d725027fa078	Screenplay	4
+9883d93a-db06-4c02-ba91-1d41c335acf1	2209b83b-f80d-4f9b-be22-838581803d4b	Screenplay	5
+9883d93a-db06-4c02-ba91-1d41c335acf1	786ceebd-6927-4242-a1cd-5933186090c3	Cinematography	6
+9883d93a-db06-4c02-ba91-1d41c335acf1	a87ae5a4-cb4e-4605-aaaf-6ca63f38f892	Sound Recording	7
+9883d93a-db06-4c02-ba91-1d41c335acf1	4c0538b4-3e0f-41ab-b29a-cf058f7f0708	Art Director	8
+9883d93a-db06-4c02-ba91-1d41c335acf1	cbf78cce-3676-40c9-b871-0dcddd5423df	Music	9
+9883d93a-db06-4c02-ba91-1d41c335acf1	fafb356d-5415-434e-9809-afd08177a68d	Lighting	10
+9883d93a-db06-4c02-ba91-1d41c335acf1	e1099923-73b2-4388-8718-0bbeb2b38fe3	Editor	11
 \.
 
 
@@ -3740,6 +3758,7 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	a50d9661-fed2-455d-9a9a-009ffa254b07
 be46d083-e66d-4292-86fa-b1e26d4f5eed	ef01babe-d621-40ca-8d85-363b051921a6
 95ad9c89-93ff-4636-8cb7-4ce98b441801	f47487ec-0730-46ae-9056-29fe675715b0
 95ad9c89-93ff-4636-8cb7-4ce98b441801	89faa565-3c41-4d2d-b589-df8b13007a5e
+c21957cc-cf69-4391-86f7-76e151b5ba73	9883d93a-db06-4c02-ba91-1d41c335acf1
 \.
 
 
