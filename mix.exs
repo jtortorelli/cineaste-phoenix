@@ -41,7 +41,7 @@ defmodule Cineaste.Mixfile do
      {:timex, "~> 3.0"},
      {:poison, "~> 3.0", override: true},
      {:earmark, "~>1.2.0"},
-     {:httpoison, "~>0.11.2"}]
+     {:httpoison, "~>0.11.1"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
