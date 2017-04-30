@@ -5,6 +5,7 @@ defmodule Cineaste.FilmView do
   alias Cineaste.Repo
   alias Cineaste.Film
   alias Cineaste.SeriesFilm
+  alias Cineaste.S3View
   require Logger
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
@@ -68,15 +69,13 @@ defmodule Cineaste.FilmView do
   def render_other_cast(_, _), do: nil
 
   def render_gallery(film_id, gallery_images) do
-    s3_gallery_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:film_galleries]
-    full_url = s3_gallery_url <> film_id <> "/full/"
-    thumb_url = s3_gallery_url <> film_id <> "/thumbs/"
+    full_url = S3View.get_gallery_url(film_id, "full")
+    thumb_url = S3View.get_gallery_url(film_id, "thumbs")
     render "gallery.html", film_id: film_id, file_names: gallery_images, full_url: full_url, thumb_url: thumb_url
   end
 
   def render_poster(film_id) do
-    s3_poster_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:posters]
-    s3_poster_url <> film_id <> ".jpg"
+    S3View.get_poster_url(film_id)
   end
 
   def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "person"}) do

@@ -2,6 +2,7 @@ defmodule Cineaste.PeopleView do
   use Cineaste.Web, :view
   alias Cineaste.CommonView
   alias Cineaste.Person
+  alias Cineaste.S3View
 
   def render_link(conn, view) do
     case view.type do
@@ -13,13 +14,11 @@ defmodule Cineaste.PeopleView do
   end
 
   def render_person_profile_pic(person_id) do
-    s3_person_profile_pic_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:person_profiles]
-    s3_person_profile_pic_url <> person_id <> ".jpg"
+    S3View.get_profile_pic("person", person_id)
   end
 
   def render_group_profile_pic(group_id) do
-    s3_group_profile_pic_url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:group_profiles]
-    s3_group_profile_pic_url <> group_id <> ".jpg"
+    S3View.get_profile_pic("group", group_id)
   end
 
   def render_person_info(person), do: render "person_info.html", person: person

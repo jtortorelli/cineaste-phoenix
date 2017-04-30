@@ -1,8 +1,9 @@
 defmodule Cineaste.HomeView do
   use Cineaste.Web, :view
+  alias Cineaste.S3View
 
   def display_banner() do
-    url = Application.get_env(:cineaste, :s3)[:base_url] <> Application.get_env(:cineaste, :s3)[:site_images] <> "full-logo.jpg"
+    url = S3View.get_display_banner()
     render "banner.html", banner_url: url
   end
 end

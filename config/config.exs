@@ -24,12 +24,14 @@ config :logger, :console,
 
 # S3 URLs
 config :cineaste, :s3,
-  base_url: "https://s3-us-west-2.amazonaws.com/cineaste/images/",
-  posters: "posters/",
-  film_galleries: "galleries/films/",
-  person_profiles: "profiles/person/",
-  group_profiles: "profiles/group/",
-  site_images: "site/"
+  base_url: "https://s3-us-west-2.amazonaws.com/cineaste",
+  images: "/images",
+  text: "/text",
+  posters: "/posters",
+  film_galleries: "/galleries/films",
+  profiles: "/profiles",
+  site_images: "/site",
+  synopses: "/synopses"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
