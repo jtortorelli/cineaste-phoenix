@@ -4,6 +4,7 @@ defmodule Cineaste.FilmController do
   alias Cineaste.FilmStaffView
   alias Cineaste.FilmCastView
   alias Cineaste.ErrorView
+  alias Cineaste.S3View
   alias Cineaste.Film
   alias Cineaste.FilmImage
 
@@ -39,11 +40,8 @@ defmodule Cineaste.FilmController do
 
     other_cast = Enum.filter(film_cast_views, fn x -> x.order >= 99 end) |> Enum.sort_by(fn(view) -> view.names.sort_name end)
 
-    film_synopsis = File.read!("web/static/assets/text/synopses/#{film.id}.txt")
-    |> String.split("\n")
-    |> tl
-    |> Enum.map(fn x -> "<p>#{x}</p>" end)
-    |> Enum.join
+    film_synopsis = HTTPoison.get!(S3View.get_film_synopsis_url(film.id)).body
+    |> Earmark.as_html!
 
     render conn, "show.html", film: film, film_staff_views: film_staff_views, top_billed_cast: top_billed_cast, other_cast: other_cast, synopsis: film_synopsis, gallery_images: film_image_names
   end

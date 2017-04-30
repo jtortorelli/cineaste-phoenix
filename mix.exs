@@ -19,7 +19,7 @@ defmodule Cineaste.Mixfile do
   def application do
     [mod: {Cineaste, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex, :timex, :poison]]
+                    :phoenix_ecto, :postgrex, :timex, :poison, :earmark, :httpoison]]
   end
 
   # Specifies which paths to compile per environment.
@@ -39,7 +39,9 @@ defmodule Cineaste.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:timex, "~> 3.0"},
-     {:poison, "~> 3.0", override: true}]
+     {:poison, "~> 3.0", override: true},
+     {:earmark, "~>1.2.0"},
+     {:httpoison, "~>0.11.2"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

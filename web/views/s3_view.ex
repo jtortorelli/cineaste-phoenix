@@ -35,9 +35,22 @@ defmodule Cineaste.S3View do
     |> Kernel.<>(".jpg")
   end
 
+  def get_film_synopsis_url(film_id) do
+    get_base_text_url()
+    |> Kernel.<>(Application.get_env(:cineaste, :s3)[:synopses])
+    |> Kernel.<>("/")
+    |> Kernel.<>(film_id)
+    |> Kernel.<>(".md")
+  end
+
   defp get_base_image_url() do
     Application.get_env(:cineaste, :s3)[:base_url]
     |> Kernel.<>(Application.get_env(:cineaste, :s3)[:images])
+  end
+
+  defp get_base_text_url() do
+    Application.get_env(:cineaste, :s3)[:base_url]
+    |> Kernel.<>(Application.get_env(:cineaste, :s3)[:text])
   end
 
 end
