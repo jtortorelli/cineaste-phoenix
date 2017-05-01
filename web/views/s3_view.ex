@@ -43,6 +43,16 @@ defmodule Cineaste.S3View do
     |> Kernel.<>(".md")
   end
 
+  def get_bio_url(type, id) do
+    get_base_text_url()
+    |> Kernel.<>(Application.get_env(:cineaste, :s3)[:bios])
+    |> Kernel.<>("/")
+    |> Kernel.<>(type)
+    |> Kernel.<>("/")
+    |> Kernel.<>(id)
+    |> Kernel.<>(".md")
+  end
+
   defp get_base_image_url() do
     Application.get_env(:cineaste, :s3)[:base_url]
     |> Kernel.<>(Application.get_env(:cineaste, :s3)[:images])
