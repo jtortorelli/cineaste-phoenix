@@ -6,11 +6,15 @@
         <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
         <input v-model="searchTerm" type="text" class="form-control" id="film-search">
       </div>
-      <ul class="index">
-        <li v-for="film in filteredFilms">
-          <a v-bind:href="'/films/' + film.id">{{ film.title }} ({{ film.year }})</a>
-        </li>
-      </ul>
+      <div style="display: flex; flex-wrap: wrap; justify-content:left;">
+        <div v-for="film in filteredFilms" style="text-align:center; display: inline-block; max-width: 150px; min-width: 150px;">
+          <a v-bind:href="'/films/' + film.id">
+          <img class="img-rounded" v-bind:src="'<%= render_poster()%>' + film.id + '.jpg'" width="135" height="200" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); margin-bottom: 5px;"/><br/>
+        </a>
+          <span>{{film.title}}</span><br/>
+          <span class="subdue">{{film.year}}</span>
+        </div>
+      </div>
     </div>
   </div>
 </div>

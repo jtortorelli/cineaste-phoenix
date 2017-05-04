@@ -24,6 +24,7 @@ defmodule Cineaste.FilmView do
   def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")
 
   def display_series_info(conn, %Film{} = film), do: _display_series_info(conn, Repo.preload(film, [:series]))
+
   defp _display_series_info(conn, %Film{:series => [_h|_t]} = film) do
     series = List.first(film.series)
     series_film = Repo.one(from s in SeriesFilm, where: s.film_id == ^film.id and s.series_id == ^series.id)
@@ -76,6 +77,10 @@ defmodule Cineaste.FilmView do
 
   def render_poster(film_id) do
     S3View.get_poster_url(film_id)
+  end
+
+  def render_poster() do
+    S3View.get_poster_url()
   end
 
   def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "person"}) do

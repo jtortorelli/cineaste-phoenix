@@ -19,6 +19,12 @@ defmodule Cineaste.S3View do
     |> Kernel.<>(".jpg")
   end
 
+  def get_poster_url() do
+    get_base_image_url()
+    |> Kernel.<>(Application.get_env(:cineaste, :s3)[:posters])
+    |> Kernel.<>("/")
+  end
+
   def get_display_banner() do
     get_base_image_url()
     |> Kernel.<>(Application.get_env(:cineaste, :s3)[:site_images])
