@@ -1,12 +1,31 @@
 <div class="container">
-<div class="row">
-  <h2>People Index</h2>
-  <ul class="index">
-    <%= for view <- @people_index_views do %>
-    <li>
-      <%= render_link(@conn, view) %>
-    </li>
-    <% end %>
-  </ul>
-</div>
+  <div class="row">
+    <h2>People</h2>
+    <div id="people-index">
+      <!-- <div id="search-bar" class="input-group input-group-sm">
+        <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
+        <input type="text" class="form-control" id="people-search">
+      </div> -->
+      <div class="hidden-xs" style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <%= for view <- @people_index_views do %>
+          <div style="text-align: center; display: inline-block; max-width: 110px; min-width: 110px; margin: 5px;">
+            <%= raw render_image_link(@conn, view) %>
+            <br/>
+            <%= raw render_index_display_name(view.display_name) %>
+            <br/>
+            <span class="subtitle"><%= raw render_view_roles(view) %></span>
+          </div>
+        <% end %>
+      </div>
+      <div class="visible-xs-block">
+        <ul class="index">
+          <%= for view <- @people_index_views do %>
+          <li>
+            <%= render_link(@conn, view) %>
+          </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>

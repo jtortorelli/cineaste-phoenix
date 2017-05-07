@@ -9,8 +9,9 @@ defmodule Cineaste.Repo.Migrations.AddRolesToPeopleIndexView do
     CREATE VIEW people_index_view AS
     SELECT p.id,
     'person' AS type,
+    p.gender AS gender,
     p.family_name || ' ' || p.given_name AS sort_name,
-    p.family_name || ', ' || p.given_name AS display_name,
+    ARRAY [ p.family_name, p.given_name ] AS display_name,
     p.aliases AS aliases,
     (SELECT ARRAY(
       SELECT
@@ -26,8 +27,9 @@ defmodule Cineaste.Repo.Migrations.AddRolesToPeopleIndexView do
     UNION
     SELECT g.id,
     'group' AS type,
+    NULL AS gender,
     regexp_replace(g.name, '^The ', '') AS sort_name,
-    g.name AS display_name,
+    ARRAY [ g.name ] AS display_name,
     NULL AS aliases,
     (SELECT ARRAY(
       SELECT

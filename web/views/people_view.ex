@@ -7,10 +7,80 @@ defmodule Cineaste.PeopleView do
   def render_link(conn, view) do
     case view.type do
       "person" ->
-        link "#{view.display_name}", to: people_path(conn, :show_person, view.id)
+        link "#{Enum.join(view.display_name, ", ")}", to: people_path(conn, :show_person, view.id)
       "group" ->
         link "#{view.display_name}", to: people_path(conn, :show_group, view.id)
     end
+  end
+
+  def render_image_link(conn, view) do
+    case view.type do
+      "person" ->
+        raw link raw("<img class=\"img-circle shadowed\" src=\"#{render_person_profile_pic(view.id)}\" height=\"100px\" width=\"100px\">"), to: people_path(conn, :show_person, view.id)
+      "group" ->
+        raw link raw("<img class=\"img-circle shadowed\" src=\"#{render_group_profile_pic(view.id)}\" height=\"100px\" width=\"100px\">"), to: people_path(conn, :show_group, view.id)
+    end
+  end
+
+  def render_view_roles(view) do
+    Enum.map(view.roles, fn(x) -> convert_role_to_display_value(x, view) end)
+    |> Enum.join("<br/>")
+  end
+
+  defp convert_role_to_display_value("Actor", %{gender: "F"}) do
+    "Actress"
+  end
+
+  defp convert_role_to_display_value("Actor", %{type: "group"}) do
+    "Performers"
+  end
+
+  defp convert_role_to_display_value("Special Effects Supervisor", _) do
+    "SFX Supervisor"
+  end
+
+  defp convert_role_to_display_value("Cinematography", _) do
+    "Cinematographer"
+  end
+
+  defp convert_role_to_display_value("Special Effects Cinematography", _) do
+    "SFX Cinematographer"
+  end
+
+  defp convert_role_to_display_value("Special Effects Director", _) do
+    "SFX Director"
+  end
+
+  defp convert_role_to_display_value("Special Effects Assistant Director", _) do
+    "SFX A.D."
+  end
+
+  defp convert_role_to_display_value("Music", _) do
+    "Composer"
+  end
+
+  defp convert_role_to_display_value("Original Story", _) do
+    "Author"
+  end
+
+  defp convert_role_to_display_value("Screenplay", _) do
+    "Screenwriter"
+  end
+
+  defp convert_role_to_display_value("Special Effects Art Director", _) do
+    "SFX Art Director"
+  end
+
+  defp convert_role_to_display_value(role, _) do
+    role
+  end
+
+  def render_index_display_name([family_name | [given_name | []]]) do
+    "<span class=\"table-header\">#{family_name}</span><br/><span class=\"subdue\">#{given_name}</span>"
+  end
+
+  def render_index_display_name([group_name | []]) do
+    "<span class=\"table-header\">#{group_name}</span>"
   end
 
   def render_person_profile_pic(person_id) do

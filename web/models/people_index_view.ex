@@ -5,8 +5,9 @@ defmodule Cineaste.PeopleIndexView do
   schema "people_index_view" do
     field :id, Ecto.UUID
     field :type, :string
+    field :gender, :string
     field :sort_name, :string
-    field :display_name, :string
+    field :display_name, {:array, :string}
     field :aliases, {:array, :string}
     field :roles, {:array, :string}
   end
