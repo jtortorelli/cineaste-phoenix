@@ -4,6 +4,7 @@
       <%= display_banner() %>
     </div>
     <div class="col-md-4">
+      <h2>Updates</h2>
       <%= render "twitter_update_timeline.html" %>
     </div>
   </div>
