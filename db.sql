@@ -235,28 +235,6 @@ CREATE VIEW group_roles_view AS
 ALTER TABLE group_roles_view OWNER TO postgres;
 
 --
--- Name: people_index_view; Type: VIEW; Schema: public; Owner: postgres
---
-
-CREATE VIEW people_index_view AS
- SELECT p.id,
-    'person'::text AS type,
-    (((p.family_name)::text || ' '::text) || (p.given_name)::text) AS sort_name,
-    (((p.family_name)::text || ', '::text) || (p.given_name)::text) AS display_name
-   FROM people p
-  WHERE (p.showcase = true)
-UNION
- SELECT g.id,
-    'group'::text AS type,
-    regexp_replace((g.name)::text, '^The '::text, ''::text) AS sort_name,
-    g.name AS display_name
-   FROM groups g
-  WHERE (g.showcase = true);
-
-
-ALTER TABLE people_index_view OWNER TO postgres;
-
---
 -- Name: person_roles_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
@@ -286,6 +264,44 @@ UNION
 
 
 ALTER TABLE person_roles_view OWNER TO postgres;
+
+--
+-- Name: people_index_view; Type: VIEW; Schema: public; Owner: postgres
+--
+
+CREATE VIEW people_index_view AS
+ SELECT p.id,
+    'person'::text AS type,
+    p.gender,
+    (((p.family_name)::text || ' '::text) || (p.given_name)::text) AS sort_name,
+    ARRAY[p.family_name, p.given_name] AS display_name,
+    p.aliases,
+    ( SELECT ARRAY( SELECT prv.role
+                   FROM person_roles_view prv
+                  WHERE (p.id = prv.person_id)
+                  GROUP BY prv.role
+                  ORDER BY (count(*)) DESC
+                 LIMIT 3) AS "array") AS roles
+   FROM people p
+  WHERE (p.showcase = true)
+UNION
+ SELECT g.id,
+    'group'::text AS type,
+    NULL::character varying AS gender,
+    regexp_replace((g.name)::text, '^The '::text, ''::text) AS sort_name,
+    ARRAY[g.name] AS display_name,
+    NULL::character varying[] AS aliases,
+    ( SELECT ARRAY( SELECT grv.role
+                   FROM group_roles_view grv
+                  WHERE (g.id = grv.group_id)
+                  GROUP BY grv.role
+                  ORDER BY (count(*)) DESC
+                 LIMIT 3) AS "array") AS roles
+   FROM groups g
+  WHERE (g.showcase = true);
+
+
+ALTER TABLE people_index_view OWNER TO postgres;
 
 --
 -- Name: schema_migrations; Type: TABLE; Schema: public; Owner: postgres
@@ -3133,6 +3149,7 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20161226165612	2016-12-26 17:00:03
 20161226213706	2016-12-26 21:38:27
 20170107235902	2017-01-08 02:12:08
+20170507184156	2017-05-07 21:14:16.523506
 \.
 
 
