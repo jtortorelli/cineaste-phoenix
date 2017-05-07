@@ -11,6 +11,7 @@ defmodule Cineaste.Repo.Migrations.AddRolesToPeopleIndexView do
     'person' AS type,
     p.family_name || ' ' || p.given_name AS sort_name,
     p.family_name || ', ' || p.given_name AS display_name,
+    p.aliases AS aliases,
     (SELECT ARRAY(
       SELECT
       prv.role
@@ -27,6 +28,7 @@ defmodule Cineaste.Repo.Migrations.AddRolesToPeopleIndexView do
     'group' AS type,
     regexp_replace(g.name, '^The ', '') AS sort_name,
     g.name AS display_name,
+    NULL AS aliases,
     (SELECT ARRAY(
       SELECT
       grv.role
