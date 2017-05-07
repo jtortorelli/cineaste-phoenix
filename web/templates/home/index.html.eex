@@ -1,5 +1,10 @@
 <div class="container">
   <div class="row">
-    <%= display_banner() %>
+    <div class="col-md-8">
+      <%= display_banner() %>
+    </div>
+    <div class="col-md-4">
+      <%= render "twitter_update_timeline.html" %>
+    </div>
   </div>
 </div>
