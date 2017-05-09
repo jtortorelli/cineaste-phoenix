@@ -40,6 +40,12 @@ body {
   margin: 5px;
 }
 
+@media only screen and (max-width: $screen-xs-max) {
+  #person-info, #group-info {
+    float: none;
+  }
+}
+
 .container {
   max-width: 920px !important;
   padding: 5px;
@@ -103,4 +109,8 @@ a.image-link {
 
 .shadowed {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+p {
+  overflow: hidden;
 }
