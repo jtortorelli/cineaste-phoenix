@@ -2450,7 +2450,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
-44c5daba-56db-4918-9e92-3f673631b3b9	The Hidden Fortress	1958-12-28	139	f	\N	{"original_title": "隠し砦の三悪人", "original_translation": "Three Villains of the Hidden Fortress", "original_transliteration": "Kakushi Toride No San Akunin"}
 91f3996c-85e9-49f6-8cea-c3dd3ac4c2e2	Yojimbo	1961-04-25	110	f	\N	{"original_title": "用心棒", "original_translation": "Bodyguard", "original_transliteration": "Youjinbou"}
 1e30aa89-d04e-4742-8283-a57bc37fdb8d	Sanjuro	1962-01-01	96	f	\N	{"original_title": "椿三十郎", "original_translation": "Thirty-Year-Old Camellia", "original_transliteration": "Tsubaki Sanjyuurou"}
 db1ac1c3-fc1d-418d-b44b-fb82cbde802c	High and Low	1963-03-01	143	f	\N	{"original_title": "天国と地獄", "original_translation": "Heaven and Hell", "original_transliteration": "Tengoku To Jigoku"}
@@ -2475,6 +2474,7 @@ ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	t	\N	{"original_titl
 9883d93a-db06-4c02-ba91-1d41c335acf1	Rashomon	1950-08-26	88	t	\N	{"original_title": "羅生門", "original_translation": "Rashomon", "original_transliteration": "Rashyoumon"}
 14fab775-bb0f-413e-9840-be528e07ba70	Samurai I: Musashi Miyamoto	1954-09-26	94	t	\N	{"original_title": "宮本武蔵", "original_translation": "Miyamoto Musashi", "original_transliteration": "Miyamoto Musashi"}
 483afdf4-329f-42fb-8d0c-a1d7bd60d5d2	Seven Samurai	1954-04-26	207	t	\N	{"original_title": "七人の侍", "original_translation": "Seven Samurai", "original_transliteration": "Shichinin No Samurai"}
+44c5daba-56db-4918-9e92-3f673631b3b9	The Hidden Fortress	1958-12-28	139	t	\N	{"original_title": "隠し砦の三悪人", "original_translation": "Three Villains of the Hidden Fortress", "original_transliteration": "Kakushi Toride No San Akunin"}
 0541315f-20ef-4562-95a5-8c4f45199d63	Throne of Blood	1957-01-15	110	t	\N	{"original_title": "蜘蛛巣城", "original_translation": "Spider Web Castle", "original_transliteration": "Kumonosujyou"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	f	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
@@ -3120,6 +3120,8 @@ dcf535d9-0eeb-4d33-9323-6c9a5222056e	Asakazu	Nakai	M	f	{"day": 29, "year": 1901,
 fe66f8e5-725a-4936-ac68-57c5c4d8083f	Sojiro	Motoki	M	f	{"day": 19, "year": 1914, "month": 6}	{"day": 21, "year": 1977, "month": 5}	Shimbashi, Shiba, Tokyo, Japan	Shinjuku, Tokyo, Japan	{"Tamezo Shibuya (渋谷 民三)","Takeo Takagi (高木 丈夫)","Junzo Fujimoto (藤本 潤三)","Junji Fujimoto (藤本 潤二)"}	{"original_name": "本木 荘二郎"}
 f4d4339a-2409-4d7c-a54c-b3696b9cbd43	Kohei	Ezaki	M	f	{"day": 15, "year": 1904, "month": 6}	{"day": 27, "year": 1963, "month": 6}	Takato, Kamina, Nagano, Japan	Meguro, Tokyo, Japan	\N	{"original_name": "江崎 孝坪"}
 0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Yoshiro	Muraki	M	f	{"day": 15, "year": 1924, "month": 8}	{"day": 26, "year": 2009, "month": 10}	Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "村木 与四郎"}
+dc03d84b-d92e-40f7-af3c-40caf85e6eca	Ichio	Yamazaki	M	f	\N	\N	\N	\N	\N	{"original_name": "山崎 市雄"}
+1af80cca-3720-4976-b0ef-9e16cf7d871f	Ichiro	Inohara	M	f	\N	\N	\N	\N	\N	{"original_name": "猪原 一郎"}
 \.
 
 
@@ -3795,6 +3797,19 @@ b093530b-88fa-4439-bce1-aaf1b066b5ba	5e025577-ff1e-4462-9c3d-0446693fe1cd	Sound 
 0541315f-20ef-4562-95a5-8c4f45199d63	986d08ab-500a-4b71-a4e6-5cb2bcf6abb4	Lighting	10
 0541315f-20ef-4562-95a5-8c4f45199d63	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	9
 0541315f-20ef-4562-95a5-8c4f45199d63	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	12
+44c5daba-56db-4918-9e92-3f673631b3b9	449ff18f-f1bf-4f74-b7d0-d725027fa078	Director	-1
+44c5daba-56db-4918-9e92-3f673631b3b9	36234a9f-5c59-4d3a-b25e-4428d8fe1472	Producer	1
+44c5daba-56db-4918-9e92-3f673631b3b9	449ff18f-f1bf-4f74-b7d0-d725027fa078	Producer	2
+44c5daba-56db-4918-9e92-3f673631b3b9	9da86934-7584-466a-84be-853819168103	Screenplay	3
+44c5daba-56db-4918-9e92-3f673631b3b9	b54ca5c3-b7bf-4ad3-a3eb-8b30339ffa54	Screenplay	4
+44c5daba-56db-4918-9e92-3f673631b3b9	2209b83b-f80d-4f9b-be22-838581803d4b	Screenplay	5
+44c5daba-56db-4918-9e92-3f673631b3b9	449ff18f-f1bf-4f74-b7d0-d725027fa078	Screenplay	6
+44c5daba-56db-4918-9e92-3f673631b3b9	dc03d84b-d92e-40f7-af3c-40caf85e6eca	Cinematography	7
+44c5daba-56db-4918-9e92-3f673631b3b9	0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Art Director	8
+44c5daba-56db-4918-9e92-3f673631b3b9	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	9
+44c5daba-56db-4918-9e92-3f673631b3b9	6ad606bd-e3cb-45c2-b8a6-bb068854ffd7	Sound Recording	10
+44c5daba-56db-4918-9e92-3f673631b3b9	1af80cca-3720-4976-b0ef-9e16cf7d871f	Lighting	11
+44c5daba-56db-4918-9e92-3f673631b3b9	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	12
 \.
 
 
@@ -3853,6 +3868,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	6c45cc47-8f6d-4861-95ab-4c9a2b404218
 b52fcdd6-691b-4a16-a670-e6ad6f176521	8196e3f6-20f4-44a6-ab7c-d58dbedc4475
 b52fcdd6-691b-4a16-a670-e6ad6f176521	483afdf4-329f-42fb-8d0c-a1d7bd60d5d2
 b52fcdd6-691b-4a16-a670-e6ad6f176521	0541315f-20ef-4562-95a5-8c4f45199d63
+b52fcdd6-691b-4a16-a670-e6ad6f176521	44c5daba-56db-4918-9e92-3f673631b3b9
 \.
 
 
