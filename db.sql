@@ -2632,7 +2632,6 @@ a189e004-9ee6-4c76-90c6-b4630efccd95	The Sinking of Japan	2006-07-15	135	f	\N	{"
 37e6a670-8016-4594-ba9b-070dd2c76311	Hara-Kiri: Death of a Samurai	2011-10-15	126	f	\N	{"original_title": "一命", "original_translation": "Life", "original_transliteration": "Ichimei"}
 0c035d95-032c-4975-8693-1058d6676add	Kaiji	2009-10-10	129	f	\N	{"original_title": "カイジ", "original_translation": "Kaiji", "original_transliteration": "Kaiji"}
 32feba7e-991a-4f63-90e4-31765bf552bd	Zatoichi	1989-02-04	116	f	{"Zatoichi: The Blind Swordsman","Zatoichi: Darkness is His Ally"}	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
-65abec00-0bd3-48d7-9394-7816acfe04a3	Daredevil in the Castle	1961-01-03	95	f	\N	{"original_title": "大坂城物語", "original_translation": "Osaka Castle Story", "original_transliteration": "Oosakajyou Monogatari"}
 e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	Whirlwind	1964-01-03	106	f	\N	{"original_title": "士魂魔道 大龍巻", "original_translation": "Buddhist Spirit Great Tornado", "original_transliteration": "Shikonmadou Daitatsumaki"}
 b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_title": "仄暗い水の底から", "original_translation": "Dark Water from the Bottom", "original_transliteration": "Honokurai Mizu No Soko Kara"}
 897f493c-cd9b-485d-8aa6-3459792e4fd8	The Sword of Doom	1966-02-25	120	f	\N	{"original_title": "大菩薩峠", "original_translation": "Great Bodhisattva Pass", "original_transliteration": "Daibasatsu Touge"}
@@ -2668,6 +2667,7 @@ ff2cfc4e-76d6-4985-811f-834d4b7f5485	Return of Daimajin	1966-08-13	79	t	{"The Wr
 b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	t	\N	{"original_title": "吸血髑髏船", "original_translation": "Blood Sucking Skeleton Ship", "original_transliteration": "Kyuuketsu Dokurosen"}
 6c45cc47-8f6d-4861-95ab-4c9a2b404218	Samurai II: Duel at Ichijoji Temple	1955-07-12	103	t	\N	{"original_title": "續宮本武蔵 一乘寺の決斗", "original_translation": "Continued Miyamoto Musashi: Duel of Ichijoji Temple", "original_transliteration": "Zoku Miyamoto Musashi Ichijyouji No Kettou"}
 8196e3f6-20f4-44a6-ab7c-d58dbedc4475	Samurai III: Duel at Ganryu Island	1956-01-03	104	t	\N	{"original_title": "宮本武蔵 完結篇 決闘巌流島", "original_translation": "Miyamoto Musashi Completion: Duel Ganryu Island", "original_transliteration": "Miyamoto Musashi Kanketsuhen Kettou Ganryuushima"}
+65abec00-0bd3-48d7-9394-7816acfe04a3	Daredevil in the Castle	1961-01-03	95	t	\N	{"original_title": "大坂城物語", "original_translation": "Osaka Castle Story", "original_transliteration": "Oosakajyou Monogatari"}
 \.
 
 
@@ -3122,6 +3122,7 @@ f4d4339a-2409-4d7c-a54c-b3696b9cbd43	Kohei	Ezaki	M	f	{"day": 15, "year": 1904, "
 0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Yoshiro	Muraki	M	f	{"day": 15, "year": 1924, "month": 8}	{"day": 26, "year": 2009, "month": 10}	Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "村木 与四郎"}
 dc03d84b-d92e-40f7-af3c-40caf85e6eca	Ichio	Yamazaki	M	f	\N	\N	\N	\N	\N	{"original_name": "山崎 市雄"}
 1af80cca-3720-4976-b0ef-9e16cf7d871f	Ichiro	Inohara	M	f	\N	\N	\N	\N	\N	{"original_name": "猪原 一郎"}
+b49cb604-cad2-484b-ab34-9d6d5951dc70	Kenzo	Murakami	M	f	{"day": 14, "year": 1910, "month": 3}	{"day": 3, "year": 2006, "month": 4}	Gangwon-do, Korea	Setagaya, Tokyo, Japan	\N	{"original_name": "村上 元三"}
 \.
 
 
@@ -3810,6 +3811,20 @@ b093530b-88fa-4439-bce1-aaf1b066b5ba	5e025577-ff1e-4462-9c3d-0446693fe1cd	Sound 
 44c5daba-56db-4918-9e92-3f673631b3b9	6ad606bd-e3cb-45c2-b8a6-bb068854ffd7	Sound Recording	10
 44c5daba-56db-4918-9e92-3f673631b3b9	1af80cca-3720-4976-b0ef-9e16cf7d871f	Lighting	11
 44c5daba-56db-4918-9e92-3f673631b3b9	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	12
+65abec00-0bd3-48d7-9394-7816acfe04a3	7991849b-aa0b-4efd-9759-dcc4ff87ceb1	Director	-1
+65abec00-0bd3-48d7-9394-7816acfe04a3	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+65abec00-0bd3-48d7-9394-7816acfe04a3	b49cb604-cad2-484b-ab34-9d6d5951dc70	Original Story	2
+65abec00-0bd3-48d7-9394-7816acfe04a3	61b4cc3d-d5bd-4e56-9b40-ae56497e3e88	Screenplay	3
+65abec00-0bd3-48d7-9394-7816acfe04a3	7991849b-aa0b-4efd-9759-dcc4ff87ceb1	Screenplay	4
+65abec00-0bd3-48d7-9394-7816acfe04a3	3df58f3a-039b-45ab-bf42-d842796cb7fe	Cinematography	5
+65abec00-0bd3-48d7-9394-7816acfe04a3	f6e9be35-e3c6-41c6-b7d1-076cede500a2	Art Director	6
+65abec00-0bd3-48d7-9394-7816acfe04a3	a78fc680-c144-4f9a-8e27-fc69b70a463f	Sound Recording	7
+65abec00-0bd3-48d7-9394-7816acfe04a3	177089db-5eef-4ab2-8d7a-cf11693545ca	Sound Recording	8
+65abec00-0bd3-48d7-9394-7816acfe04a3	a7476494-4b15-4fd8-93b4-4548ed8f0086	Lighting	9
+65abec00-0bd3-48d7-9394-7816acfe04a3	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	10
+65abec00-0bd3-48d7-9394-7816acfe04a3	d1e73155-2bf5-4378-929f-277d92e5e2ae	Editor	12
+65abec00-0bd3-48d7-9394-7816acfe04a3	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	15
+65abec00-0bd3-48d7-9394-7816acfe04a3	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects Cinematography	16
 \.
 
 
@@ -3869,6 +3884,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	8196e3f6-20f4-44a6-ab7c-d58dbedc4475
 b52fcdd6-691b-4a16-a670-e6ad6f176521	483afdf4-329f-42fb-8d0c-a1d7bd60d5d2
 b52fcdd6-691b-4a16-a670-e6ad6f176521	0541315f-20ef-4562-95a5-8c4f45199d63
 b52fcdd6-691b-4a16-a670-e6ad6f176521	44c5daba-56db-4918-9e92-3f673631b3b9
+b52fcdd6-691b-4a16-a670-e6ad6f176521	65abec00-0bd3-48d7-9394-7816acfe04a3
 \.
 
 
