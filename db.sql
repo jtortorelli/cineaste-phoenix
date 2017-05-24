@@ -2632,7 +2632,6 @@ a189e004-9ee6-4c76-90c6-b4630efccd95	The Sinking of Japan	2006-07-15	135	f	\N	{"
 37e6a670-8016-4594-ba9b-070dd2c76311	Hara-Kiri: Death of a Samurai	2011-10-15	126	f	\N	{"original_title": "一命", "original_translation": "Life", "original_transliteration": "Ichimei"}
 0c035d95-032c-4975-8693-1058d6676add	Kaiji	2009-10-10	129	f	\N	{"original_title": "カイジ", "original_translation": "Kaiji", "original_transliteration": "Kaiji"}
 32feba7e-991a-4f63-90e4-31765bf552bd	Zatoichi	1989-02-04	116	f	{"Zatoichi: The Blind Swordsman","Zatoichi: Darkness is His Ally"}	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
-e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	Whirlwind	1964-01-03	106	f	\N	{"original_title": "士魂魔道 大龍巻", "original_translation": "Buddhist Spirit Great Tornado", "original_transliteration": "Shikonmadou Daitatsumaki"}
 b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_title": "仄暗い水の底から", "original_translation": "Dark Water from the Bottom", "original_transliteration": "Honokurai Mizu No Soko Kara"}
 897f493c-cd9b-485d-8aa6-3459792e4fd8	The Sword of Doom	1966-02-25	120	f	\N	{"original_title": "大菩薩峠", "original_translation": "Great Bodhisattva Pass", "original_transliteration": "Daibasatsu Touge"}
 590ec282-c912-4887-91d3-15fb7f581f40	The Tale of Zatoichi	1962-04-18	96	f	\N	{"original_title": "座頭市物語", "original_translation": "Zatouichi Monogatari", "original_transliteration": "Story of Zatoichi"}
@@ -2646,6 +2645,7 @@ fa1784bb-e22e-4f7c-a9f8-cdfd0e0052f6	Fight, Zatoichi, Fight	1964-10-17	87	f	\N	{
 079eedd8-33f5-45f4-a45b-53d8cdd5aaba	Adventures of Zatoichi	1964-12-30	86	f	\N	{"original_title": "座頭市関所破り", "original_translation": "Zatouichi Sekishyou Yaburi", "original_transliteration": "Zatoichi Barrier Break"}
 7f698138-a8f1-47cc-a15e-5d144cce176b	Zatoichi's Revenge	1965-04-03	84	f	\N	{"original_title": "座頭市二段斬り", "original_translation": "Zatouichi Nidankiri", "original_transliteration": "Zatoichi Two-Step Slash"}
 ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	f	\N	{"original_title": "座頭市喧嘩太鼓", "original_translation": "Zatouichi Kenkadaiko", "original_transliteration": "Zatoichi War Drum"}
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	Whirlwind	1964-01-03	106	t	\N	{"original_title": "士魂魔道 大龍巻", "original_translation": "Buddhist Spirit Great Tornado", "original_transliteration": "Shikonmadou Daitatsumaki"}
 072b2fb3-3b71-49b9-a33c-1fab534f8fea	Zatoichi Meets Yojimbo	1970-01-15	115	f	\N	{"original_title": "座頭市と用心棒", "original_translation": "Zatouichi To Yojinbou", "original_transliteration": "Zatoichi and Yojimbo"}
 ed9ad73c-2b06-490c-9409-e5c8dec2f583	Zatoichi and the Doomed Man	1965-09-18	78	f	\N	{"original_title": "座頭市逆手斬り", "original_translation": "Zatouichi Sakategiri", "original_transliteration": "Zatoichi Enemy Slashing"}
 9fbcb82b-d10b-4790-88b1-c4734ed11258	Zatoichi Goes to the Fire Festival	1970-08-12	96	f	\N	{"original_title": "座頭市あばれ火祭り", "original_translation": "Zatouichi Abarehi Matsuri", "original_transliteration": "Zatoichi Fire Festival"}
@@ -3129,6 +3129,8 @@ b49cb604-cad2-484b-ab34-9d6d5951dc70	Kenzo	Murakami	M	f	{"day": 14, "year": 1910
 944966bf-f205-4e7a-9981-d90d7243b735	Fukuzo	Koizumi	M	f	\N	\N	\N	\N	\N	{"original_name": "小泉 福造"}
 49ec5fc1-871e-4ef6-a1dc-39714630f0f3	Eijiro	Hisaita	M	f	{"day": 3, "year": 1898, "month": 7}	{"day": 9, "year": 1976, "month": 6}	Iwanuma, Natori, Miyagi, Japan	\N	\N	{"original_name": "久板 栄二郎"}
 b643f770-2b75-4065-91ac-4f21ac47453a	Ed	McBain	M	f	{"day": 15, "year": 1926, "month": 10}	{"day": 6, "year": 2005, "month": 7}	New York City, New York, United States	Weston, Connecticut, United States	\N	{"birth_name": "Salvatore Albert Lombino", "japanese_name": "エド・マクベイン"}
+115ab5ac-8e85-41c1-9b42-52e11cd5cd90	Norio	Nanjo	M	f	{"day": 14, "year": 1908, "month": 11}	{"day": 30, "year": 2004, "month": 10}	Tokyo, Japan	\N	\N	{"original_name": "南條 範夫"}
+cf9e71db-529a-49af-88be-b13757cd5e72	Yasuo	Konishi	M	f	\N	\N	\N	\N	\N	{"original_name": "小西 康夫"}
 \.
 
 
@@ -3178,6 +3180,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	Godzilla
 4540124b-dfce-46b4-848f-73d6b20d6e5b	Samurai
 8bcb81b0-4836-444b-80d2-bec6a512db4a	Yojimbo
 aa6c2cbf-b280-4d9f-ba04-72af9c965abc	Earth Defense Force
+cd1e0507-2418-42c6-bacb-e0d9bbe6b05e	Osaka Castle
 \.
 
 
@@ -3211,6 +3214,8 @@ aa6c2cbf-b280-4d9f-ba04-72af9c965abc	ef4f2354-b764-4f5e-af66-813369a2520c	1
 aa6c2cbf-b280-4d9f-ba04-72af9c965abc	b2f4de7f-2091-49d4-af3d-0a4ee1d9cd09	2
 8bcb81b0-4836-444b-80d2-bec6a512db4a	91f3996c-85e9-49f6-8cea-c3dd3ac4c2e2	1
 8bcb81b0-4836-444b-80d2-bec6a512db4a	1e30aa89-d04e-4742-8283-a57bc37fdb8d	2
+cd1e0507-2418-42c6-bacb-e0d9bbe6b05e	65abec00-0bd3-48d7-9394-7816acfe04a3	1
+cd1e0507-2418-42c6-bacb-e0d9bbe6b05e	e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	2
 \.
 
 
@@ -3877,6 +3882,20 @@ db1ac1c3-fc1d-418d-b44b-fb82cbde802c	6160b33a-a5f4-4217-993b-f258ff344777	Assist
 1e30aa89-d04e-4742-8283-a57bc37fdb8d	1af80cca-3720-4976-b0ef-9e16cf7d871f	Lighting	11
 1e30aa89-d04e-4742-8283-a57bc37fdb8d	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	12
 1e30aa89-d04e-4742-8283-a57bc37fdb8d	6160b33a-a5f4-4217-993b-f258ff344777	Assistant Director	14
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	7991849b-aa0b-4efd-9759-dcc4ff87ceb1	Director	-1
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	115ab5ac-8e85-41c1-9b42-52e11cd5cd90	Original Story	2
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	61b4cc3d-d5bd-4e56-9b40-ae56497e3e88	Screenplay	3
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	7991849b-aa0b-4efd-9759-dcc4ff87ceb1	Screenplay	4
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	3df58f3a-039b-45ab-bf42-d842796cb7fe	Cinematography	5
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	f6e9be35-e3c6-41c6-b7d1-076cede500a2	Art Director	6
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	a78fc680-c144-4f9a-8e27-fc69b70a463f	Sound Recording	7
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	cf9e71db-529a-49af-88be-b13757cd5e72	Lighting	8
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	9
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects Cinematography	10
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	15
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	293342a6-c449-4ec7-9103-b3091a184cd2	Music	17
+e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	d1e73155-2bf5-4378-929f-277d92e5e2ae	Editor	20
 \.
 
 
@@ -3943,6 +3962,8 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	1e30aa89-d04e-4742-8283-a57bc37fdb8d
 74df77b8-e02e-493b-8e4b-8e8651fe656f	1e30aa89-d04e-4742-8283-a57bc37fdb8d
 b52fcdd6-691b-4a16-a670-e6ad6f176521	db1ac1c3-fc1d-418d-b44b-fb82cbde802c
 74df77b8-e02e-493b-8e4b-8e8651fe656f	db1ac1c3-fc1d-418d-b44b-fb82cbde802c
+b52fcdd6-691b-4a16-a670-e6ad6f176521	e30025d4-8bbc-476e-ba1c-7030dfa7ddb2
+54ea6648-2944-4da1-a40a-8cca1f1b9ed2	e30025d4-8bbc-476e-ba1c-7030dfa7ddb2
 \.
 
 
@@ -3957,6 +3978,7 @@ c21957cc-cf69-4391-86f7-76e151b5ba73	Daiei
 be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
 95ad9c89-93ff-4636-8cb7-4ce98b441801	Toei
 74df77b8-e02e-493b-8e4b-8e8651fe656f	Kurosawa Productions
+54ea6648-2944-4da1-a40a-8cca1f1b9ed2	Takarazuka
 \.
 
 
