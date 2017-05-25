@@ -2668,6 +2668,17 @@ b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	t	\N	{"or
 6c45cc47-8f6d-4861-95ab-4c9a2b404218	Samurai II: Duel at Ichijoji Temple	1955-07-12	103	t	\N	{"original_title": "續宮本武蔵 一乘寺の決斗", "original_translation": "Continued Miyamoto Musashi: Duel of Ichijoji Temple", "original_transliteration": "Zoku Miyamoto Musashi Ichijyouji No Kettou"}
 8196e3f6-20f4-44a6-ab7c-d58dbedc4475	Samurai III: Duel at Ganryu Island	1956-01-03	104	t	\N	{"original_title": "宮本武蔵 完結篇 決闘巌流島", "original_translation": "Miyamoto Musashi Completion: Duel Ganryu Island", "original_transliteration": "Miyamoto Musashi Kanketsuhen Kettou Ganryuushima"}
 65abec00-0bd3-48d7-9394-7816acfe04a3	Daredevil in the Castle	1961-01-03	95	t	\N	{"original_title": "大坂城物語", "original_translation": "Osaka Castle Story", "original_transliteration": "Oosakajyou Monogatari"}
+aee20f53-2831-4a19-b548-b1469b56410c	Lupin the Third: The Castle of Cagliostro	1979-12-15	100	f	\N	{"original_title": "ルパン三世 カリオストロの城", "original_translation": "Lupin the Third: Castle of Cagliostro", "original_transliteration": "Rupan Sansen Kariosutoro No Shiro"}
+b0104019-6f97-4034-b73c-a9e9472bca4f	Nausicäa of the Valley of the Wind	1984-03-11	116	f	\N	{"original_title": "風の谷のナウシカ", "original_translation": "Nausicäa of the Valley of the Wind", "original_transliteration": "Kaze no Tani no Naushika"}
+7335ae7d-8810-41db-ac54-77a53d1f852f	Castle in the Sky	1986-08-02	124	f	\N	{"original_title": "天空の城ラピュタ", "original_translation": "Castle of Sky Laputa", "original_transliteration": "Tenkuu No Shiro Rapuuta"}
+09f997ae-20b2-4c17-a967-3e00d29e142a	My Neighbor Totoro	1988-04-16	88	f	\N	{"original_title": "となりのトトロ", "original_translation": "Neighbor Totoro", "original_transliteration": "Tonari No Totoro"}
+60923758-6663-4419-9cdd-e79ecac9b662	Kiki's Delivery Service	1989-07-29	102	f	\N	{"original_title": "魔女の宅急便", "original_translation": "Witch's Delivery Service", "original_transliteration": "Majyo No Takkyuubin"}
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	Porco Rosso	1992-07-18	93	f	{""}	{"original_title": "紅の豚", "original_translation": "Crimson Pig", "original_transliteration": "Kurenai No Buta"}
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	Princess Mononoke	1997-07-12	133	f	\N	{"original_title": "もののけ姫", "original_translation": "Princess Mononoke", "original_transliteration": "Mononoke Hime"}
+3a5d8e26-f492-43a1-8906-f471782777cb	Spirited Away	2001-07-20	124	f	\N	{"original_title": "千と千尋の神隠し", "original_translation": "Sen and Chihiro's Great Disappearance", "original_transliteration": "Sen To Chihiro No Kamekakushi"}
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	Howl's Moving Castle	2004-11-20	119	f	\N	{"original_title": "ハウルの動く城", "original_translation": "Howl's Moving Castle", "original_transliteration": "Hauru No Ugoku Shiro"}
+08ce29ca-2d85-494c-9136-737fa248b0eb	Ponyo	2008-07-19	101	f	\N	{"original_title": "崖の上のポニョ", "original_translation": "Ponyo on the Cliff by the Sea", "original_transliteration": "Gake No Ue No Ponyo"}
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	The Wind Rises	2013-07-20	126	f	\N	{"original_title": "風立ちぬ", "original_translation": "Wind Rising", "original_transliteration": "Kaze Tachinu"}
 \.
 
 
