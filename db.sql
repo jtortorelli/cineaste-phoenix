@@ -2572,7 +2572,6 @@ df2bc5e1-38b3-4f31-bc99-5c9fc99fdd06	Ballad	2009-09-05	132	f	\N	{"original_title
 fb7218d1-0de2-47c2-a68e-2c819f2025f8	Kaidan	2007-08-04	119	f	\N	{"original_title": "怪談", "original_translation": "Ghost Story", "original_transliteration": "Kaidan"}
 d4aa5cbb-8515-4815-a62e-2eef504c6e61	The Sword of Alexander	2007-04-07	110	f	\N	{"original_title": "大帝の剣", "original_translation": "Sword of the Emperor", "original_transliteration": "Taitei No Ken"}
 76ee6178-d728-4033-8cfe-01970c1be237	Rurouni Kenshin	2012-08-25	134	f	{"Rurouni Kenshin Part I: Origins"}	{"original_title": "るろうに剣心", "original_translation": "Rurouni Kenshin", "original_transliteration": "Rurouni Kenshin"}
-f5e33833-8abd-45df-a623-85ec5cb83d3d	Godzilla vs. the Smog Monster	1971-07-24	85	f	{"Godzilla vs. Hedorah"}	{"original_title": "ゴジラ対ヘドラ", "original_translation": "Godzilla Against Hedorah", "original_transliteration": "Gojira Tai Hedora"}
 2bf17c7e-01ae-43be-85f0-9a5c2ef47733	The War in Space	1977-12-17	91	f	\N	{"original_title": "惑星大戦争", "original_translation": "Great Planet War", "original_transliteration": "Wakusei Daisensou"}
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	f	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
@@ -2585,7 +2584,6 @@ cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_ti
 c4dff626-aed3-4a1e-9823-3315be614257	L: Change the World	2008-02-09	129	f	\N	{"original_title": "L change the WorLd", "original_translation": "L: Change the World", "original_transliteration": "L Change the World"}
 9241a8af-96f9-4297-a21c-2fd39cafc9d0	Sweet Rain: The Accuracy of Death	2008-03-22	113	f	\N	{"original_title": "死神の精度", "original_translation": "Accuracy of Death", "original_transliteration": "Shinigami No Seido"}
 eb390ec6-d2c1-432a-b10c-15e237c8532a	Rurouni Kenshin: Kyoto Inferno	2014-08-01	139	f	{"Rurouni Kenshin Part II: Kyoto Inferno"}	{"original_title": "るろうに剣心 京都大火編", "original_translation": "Rurouni Kenshin Kyoto Inferno", "original_transliteration": "Rurouni Kenshin Kyouto Taikahen"}
-258a91ff-f401-473a-b93f-604b85d8a406	Godzilla on Monster Island	1972-03-12	89	f	{"Godzilla vs. Gigan"}	{"original_title": "地球攻撃命令 ゴジラ対ガイガン", "original_translation": "Earth Destruction Order: Godzilla Against Gigan", "original_transliteration": "Chikyuu Kougeki Meirei Gojira Tai Gaigan"}
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	Message from Space	1978-04-29	105	f	\N	{"original_title": "宇宙からのメッセージ", "original_translation": "Message from Space", "original_transliteration": "Uchyuu Kara No Messeeji"}
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	f	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
 9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	Patlabor 2: The Movie	1993-08-07	113	f	\N	{"original_title": "機動警察パトレイバー2 the Movie", "original_translation": "Mobile Police Patlabor 2: The Movie", "original_transliteration": "Kidoukeisatsu Patoreibaa 2 The Movie"}
@@ -2679,6 +2677,8 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	f	\N	{"ori
 381c515c-e1bf-49bd-81c0-0126e2bf6719	Zatoichi in Desperation	1972-09-02	95	f	\N	{"original_title": "新座頭市物語・折れた杖", "original_translation": "New Story of Zatoichi Broken Cane", "original_transliteration": "Shin Zatouichi Monogatari Oreta Tsue"}
 8ac9d4ae-b517-4372-9e42-2e327cd0d95c	Zatoichi's Conspiracy	1973-04-21	88	f	\N	{"original_title": "新座頭市物語・笠間の血祭り", "original_translation": "New Story of Zatoichi Kasama Blood Festival", "original_transliteration": "Shin Zatouichi Monogatari Kasama No Chimatsuri"}
 802edf4f-2899-4309-a7ac-a1166137e903	Gamera vs. Zigra	1971-07-17	88	t	\N	{"original_title": "ガメラ対深海怪獣ジグラ", "original_translation": "Gamera Against Deep Sea Monster Zigra", "original_transliteration": "Gamera Tai Shinkai Kaijyuu Jigura"}
+f5e33833-8abd-45df-a623-85ec5cb83d3d	Godzilla vs. Hedorah	1971-07-24	85	f	{"Godzilla vs. the Smog Monster"}	{"original_title": "ゴジラ対ヘドラ", "original_translation": "Godzilla Against Hedorah", "original_transliteration": "Gojira Tai Hedora"}
+258a91ff-f401-473a-b93f-604b85d8a406	Godzilla vs. Gigan	1972-03-12	89	f	{"Godzilla on Monster Island"}	{"original_title": "地球攻撃命令 ゴジラ対ガイガン", "original_translation": "Earth Destruction Order: Godzilla Against Gigan", "original_transliteration": "Chikyuu Kougeki Meirei Gojira Tai Gaigan"}
 \.
 
 
