@@ -2451,7 +2451,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
 8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	f	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
-7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	f	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	f	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
@@ -2475,6 +2474,7 @@ ef01babe-d621-40ca-8d85-363b051921a6	Genocide	1968-11-09	84	t	\N	{"original_titl
 db1ac1c3-fc1d-418d-b44b-fb82cbde802c	High and Low	1963-03-01	143	t	\N	{"original_title": "天国と地獄", "original_translation": "Heaven and Hell", "original_transliteration": "Tengoku To Jigoku"}
 ea195732-907d-4586-b446-608e919f2599	Gamera vs. Guiron	1969-03-21	82	t	{"Attack of the Monsters"}	{"original_title": "ガメラ対大悪獣ギロン", "original_translation": "Gamera Against Great Villain Beast Guiron", "original_transliteration": "Gamera Tai Daiakujyuu Giron"}
 f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	t	{"Gamera vs. Monster X"}	{"original_title": "ガメラ対大魔獣ジャイガー", "original_translation": "Gamera Against Great Demon Beast Jiger", "original_transliteration": "Gamera Tai Daimajyuu Jyaigaa"}
+7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	t	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	f	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
@@ -2490,7 +2490,6 @@ e41cf916-5691-4a46-8cb6-e70f4d185b58	One Missed Call 2	2005-02-05	106	f	\N	{"ori
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	Lupin the Third	2014-08-30	133	f	\N	{"original_title": "ルパン三世", "original_translation": "Lupin the Third", "original_transliteration": "Rupan Sansei"}
 5088aef6-3dcc-4fda-af9e-6777becd1285	13 Assassins	2010-09-25	141	f	\N	{"original_title": "十三人の刺客", "original_translation": "Thirteen Assassins", "original_transliteration": "Jyuusannin No Shikaku"}
 a44dcca3-ca55-4ca7-b7c4-f095367de638	The Triumphant General Rouge	2009-03-07	123	f	\N	{"original_title": "ジェネラル・ルージュの凱旋", "original_translation": "Triumph of General Rouge", "original_transliteration": "Jyeneraru Ruujyu No Gaisen"}
-e7741ae5-bed4-46d9-8ca2-aeac4accf28c	Space Amoeba	1970-08-01	84	f	{"Yog, Monster from Space"}	{"original_title": "ゲゾラ・ガニメ・カメーバ 決戦!南海の大怪獣", "original_translation": "Gezora Ganime Kamoeba Battle! South Seas Giant Monsters", "original_transliteration": "Gezora Ganime Kameeba Kessen! Nankai No Daikaijyuu"}
 3b7381aa-ff9a-4b2e-806a-1c6b700614ae	The Submersion of Japan	1973-12-29	140	f	{"Tidal Wave"}	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	f	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	f	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
@@ -2679,6 +2678,7 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	f	\N	{"ori
 802edf4f-2899-4309-a7ac-a1166137e903	Gamera vs. Zigra	1971-07-17	88	t	\N	{"original_title": "ガメラ対深海怪獣ジグラ", "original_translation": "Gamera Against Deep Sea Monster Zigra", "original_transliteration": "Gamera Tai Shinkai Kaijyuu Jigura"}
 f5e33833-8abd-45df-a623-85ec5cb83d3d	Godzilla vs. Hedorah	1971-07-24	85	f	{"Godzilla vs. the Smog Monster"}	{"original_title": "ゴジラ対ヘドラ", "original_translation": "Godzilla Against Hedorah", "original_transliteration": "Gojira Tai Hedora"}
 258a91ff-f401-473a-b93f-604b85d8a406	Godzilla vs. Gigan	1972-03-12	89	f	{"Godzilla on Monster Island"}	{"original_title": "地球攻撃命令 ゴジラ対ガイガン", "original_translation": "Earth Destruction Order: Godzilla Against Gigan", "original_transliteration": "Chikyuu Kougeki Meirei Gojira Tai Gaigan"}
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	Space Amoeba	1970-08-01	84	t	{"Yog, Monster from Space"}	{"original_title": "ゲゾラ・ガニメ・カメーバ 決戦!南海の大怪獣", "original_translation": "Gezora Ganime Kamoeba Battle! South Seas Giant Monsters", "original_transliteration": "Gezora Ganime Kameeba Kessen! Nankai No Daikaijyuu"}
 \.
 
 
