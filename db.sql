@@ -3147,6 +3147,13 @@ eed3d07e-b759-4006-94af-98f6052db359	Yutaro	Shimizu	M	f	\N	\N	\N	\N	\N	{"origina
 d47cf135-1818-4b7e-ac22-4db12359eacf	Shozo	Izumi	M	f	\N	\N	\N	\N	\N	{"original_name": "泉 正蔵"}
 d78c9a7b-a48b-4177-890e-6757d20575aa	Hiroshi	Yamaguchi	M	f	\N	\N	\N	\N	\N	{"original_name": "山口 煕"}
 4a121ee0-c617-4b9b-be2c-8503b2ef7572	Hideo	Okuyama	M	f	\N	\N	\N	\N	\N	{"original_name": "奥山 秀夫"}
+d74102bb-afed-4395-9ed6-13d176fe8ffc	Ted	Sherdeman	M	f	{"day": 21, "year": 1909, "month": 6}	{"day": 22, "year": 1987, "month": 8}	\N	\N	\N	{"japanese_name": "テッド・シャードマン"}
+92d29ce7-ebd7-496e-8ce4-c7269a2e46a1	Kiichi	Onda	M	f	\N	\N	\N	\N	\N	{"original_name": "隠田 紀一"}
+d467d019-ab50-478b-9ab5-d19f05d5f0cd	Ume	Takeda	M	f	{"day": 24, "year": 1921, "month": 3}	{"unknown": 1}	Nakano, Nagano, Japan	\N	\N	{"original_name": "武田 うめ"}
+267bd025-7057-4466-bdcd-b72b5f339f62	Fumio	Tanaka	M	f	{"day": 22, "year": 1941, "month": 9}	{"day": 12, "year": 2009, "month": 4}	Tokyo, Japan	\N	{"Mitsuru Takihara (滝原 満)","Keiichiro Kusanagi (草薙 圭一郎)"}	{"original_name": "田中 文雄"}
+08e483d6-9486-4b86-8345-9925d760a067	Ei	Ogawa	M	f	{"day": 10, "year": 1930, "month": 3}	{"day": 27, "year": 1994, "month": 4}	\N	\N	{"Akira Ezato (江里 明)"}	{"original_name": "小川 英"}
+f3fd7490-faa0-404c-985b-329cd038a492	Kanae	Masuo	M	f	\N	\N	\N	\N	\N	{"original_name": "増尾 鼎"}
+d8c23641-8e49-4d62-9aa5-e39bcedf7729	Masahisa	Nagami	M	f	\N	\N	\N	\N	\N	{"original_name": "永見 正久"}
 \.
 
 
@@ -3952,6 +3959,32 @@ f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	51459937-b608-4581-8812-27bc6bb177f9	Editor
 802edf4f-2899-4309-a7ac-a1166137e903	528d732d-4d4c-430f-92a0-07de1e0b311d	Art Director	8
 802edf4f-2899-4309-a7ac-a1166137e903	a63d1091-af4f-49a3-9520-a3eb2ff778d2	Music	9
 802edf4f-2899-4309-a7ac-a1166137e903	51459937-b608-4581-8812-27bc6bb177f9	Editor	19
+7392a4a7-9894-462c-97f2-7a929ea2ce00	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-2
+7392a4a7-9894-462c-97f2-7a929ea2ce00	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	-1
+7392a4a7-9894-462c-97f2-7a929ea2ce00	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+7392a4a7-9894-462c-97f2-7a929ea2ce00	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Screenplay	2
+7392a4a7-9894-462c-97f2-7a929ea2ce00	d74102bb-afed-4395-9ed6-13d176fe8ffc	Screenplay	3
+7392a4a7-9894-462c-97f2-7a929ea2ce00	f8797cb2-6240-46d2-9772-5a58aeb0bc2e	Cinematography	4
+7392a4a7-9894-462c-97f2-7a929ea2ce00	c70d0b2e-8511-4bfb-8527-808b3fef2a09	Art Director	5
+7392a4a7-9894-462c-97f2-7a929ea2ce00	e12e2330-3a9a-489b-b6ed-7d9746a406d6	Sound Recording	6
+7392a4a7-9894-462c-97f2-7a929ea2ce00	92d29ce7-ebd7-496e-8ce4-c7269a2e46a1	Lighting	7
+7392a4a7-9894-462c-97f2-7a929ea2ce00	d467d019-ab50-478b-9ab5-d19f05d5f0cd	Editor	10
+7392a4a7-9894-462c-97f2-7a929ea2ce00	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	17
+7392a4a7-9894-462c-97f2-7a929ea2ce00	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	21
+7392a4a7-9894-462c-97f2-7a929ea2ce00	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	22
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-1
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	2
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	08e483d6-9486-4b86-8345-9925d760a067	Screenplay	3
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	f8797cb2-6240-46d2-9772-5a58aeb0bc2e	Cinematography	4
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	c70d0b2e-8511-4bfb-8527-808b3fef2a09	Art Director	5
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	f3fd7490-faa0-404c-985b-329cd038a492	Sound Recording	6
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	b8928aa8-991f-46b3-aca4-c72ba3656249	Lighting	7
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	8
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	d8c23641-8e49-4d62-9aa5-e39bcedf7729	Editor	10
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects	16
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	19
+e7741ae5-bed4-46d9-8ca2-aeac4accf28c	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	23
 \.
 
 
