@@ -1,6 +1,7 @@
 $bowlby: 'Bowlby One SC', cursive;
 $roboto-condensed: 'Roboto Condensed', sans-serif;
 $roboto: 'Roboto', sans-serif;
+$fontsize: 12px;
 
 .table-nonfluid {
   width: auto !important;
@@ -23,6 +24,7 @@ h2 {
 
 body {
   font-family: $roboto;
+  font-size: $fontsize;
 }
 
 #overview {
@@ -91,6 +93,7 @@ a.image-link {
   li > a, li:hover > a, li.active > a:hover, li.active > a, li.active > a:focus {
     border: 0;
     background-color: transparent;
+    font-size: 14px;
   }
 }
 
@@ -113,4 +116,8 @@ a.image-link {
 
 p {
   overflow: hidden;
+}
+
+.btn {
+  font-size: $fontsize;
 }
