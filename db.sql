@@ -3154,6 +3154,23 @@ d467d019-ab50-478b-9ab5-d19f05d5f0cd	Ume	Takeda	M	f	{"day": 24, "year": 1921, "m
 08e483d6-9486-4b86-8345-9925d760a067	Ei	Ogawa	M	f	{"day": 10, "year": 1930, "month": 3}	{"day": 27, "year": 1994, "month": 4}	\N	\N	{"Akira Ezato (江里 明)"}	{"original_name": "小川 英"}
 f3fd7490-faa0-404c-985b-329cd038a492	Kanae	Masuo	M	f	\N	\N	\N	\N	\N	{"original_name": "増尾 鼎"}
 d8c23641-8e49-4d62-9aa5-e39bcedf7729	Masahisa	Nagami	M	f	\N	\N	\N	\N	\N	{"original_name": "永見 正久"}
+e1026af0-8928-4540-81eb-0ce054a8aedf	Motoyoshi	Tomioka	M	f	{"day": 15, "year": 1924, "month": 6}	{"day": 20, "year": 2011, "month": 12}	Tokyo, Japan	\N	\N	{"original_name": "富岡 素敬"}
+d41cecce-6939-469c-bbf8-bf184426eb86	Funyoshi	Hara	M	f	{"year": 1919}	\N	Tochigi, Japan	\N	\N	{"original_name": "原 文良"}
+36017e21-c720-40c2-9284-4c84ef41869b	Yoshimitsu	Banno	M	f	{"day": 30, "year": 1931, "month": 3}	{"day": 7, "year": 2017, "month": 5}	Sakurai, Ochi, Ehime, Japan	\N	\N	{"original_name": "坂野 義光"}
+0a13c80f-22f4-44e6-8eb0-cd93e8b75a86	Yoichi	Manoda	M	f	{"day": 6, "year": 1935, "month": 10}	\N	Tokyo, Japan	\N	\N	{"original_name": "真野田 陽一"}
+6f7311a6-04cc-4382-bdca-a623caceea8b	Riichiro	Manabe	M	f	{"day": 9, "year": 1924, "month": 11}	{"day": 29, "year": 2015, "month": 1}			\N	{"original_name": "眞鍋 理一郎"}
+e9f9bfb5-dcb4-4582-84b0-db72db7001b4	Kiyoshi	Hasegawa	M	f	{"day": 6, "year": 1931, "month": 4}	\N	Chiba, Japan	\N	\N	{"original_name": "長谷川 清"}
+07aa8f25-0496-4785-a819-4ae6d478fab3	Yoshifumi	Honda	M	f	{"day": 23, "year": 1933, "month": 2}	\N	Fukushima, Japan	\N	\N	{"original_name": "本多 好文"}
+c317a02d-33b3-4f13-8759-d7e0e83edee2	Kojiro	Sato	M	f	{"year": 1924}	\N	Tokyo, Japan	\N	\N	{"original_name": "佐藤 幸次郎"}
+31f21ea2-0c0e-435d-8059-39796d754be4	Yoshio	Tamura	M	f	{"year": 1939}	\N	Tokyo, Japan	\N	\N	{"original_name": "田村 嘉男"}
+97d629b3-3446-4296-a8e4-f1513719c3ac	Yuzuru	Aizawa	M	f	{"day": 9, "year": 1924, "month": 11}	{"day": 22, "year": 2012, "month": 11}	Okayama, Japan	\N	\N	{"original_name": "逢沢 譲"}
+00e98889-dcb6-4d41-a8f7-4fc94fda6632	Shiro	Hayashi	M	f	\N	\N	\N	\N	\N	{"original_name": "林頴 四郎"}
+92b6ffab-3172-4011-8ff9-1428559e3e3a	Masakuni	Morimoto	M	f	\N	\N	\N	\N	\N	{"original_name": "森本 正邦"}
+6b5cae4d-55dd-458a-b4ec-5afe7152224f	Michiko	Ikeda	M	f	{"day": 20, "year": 1936, "month": 2}	\N	Tochigi, Japan	\N	\N	{"original_name": "池田 美千子"}
+e8373ccf-f76b-47e0-8002-91b2b651d551	Hiroyasu	Yamamura	M	f	{"day": 28, "year": 1938, "month": 1}	\N	\N	\N	\N	{"original_name": "山浦 弘靖"}
+481f186f-9e39-4e5c-85f7-56e9bb4cc6bd	Kazuo	Satsuya	M	f	{"day": 20, "year": 1935, "month": 7}	{"day": 6, "year": 1993, "month": 1}	Tokyo, Japan	\N	\N	{"original_name": "薩谷 和夫"}
+0ae112d3-4a03-4beb-8f5d-faefc5c13b9b	Yukiko	Takayama	M	f	{"day": 4, "year": 1945, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "高山 由紀子"}
+362da3f2-b643-417b-9d05-8c32c380d999	Kensho	Yamashita	M	f	{"day": 8, "year": 1944, "month": 7}	{"day": 16, "year": 2016, "month": 8}	Kushira, Kimotsuki, Kagoshima, Japan	\N	\N	{"original_name": "山下 賢章"}
 \.
 
 
@@ -3985,6 +4002,73 @@ e7741ae5-bed4-46d9-8ca2-aeac4accf28c	d8c23641-8e49-4d62-9aa5-e39bcedf7729	Editor
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects	16
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	19
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	23
+42255770-e43c-473d-81ca-f412b6f78c62	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-2
+42255770-e43c-473d-81ca-f412b6f78c62	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	-1
+42255770-e43c-473d-81ca-f412b6f78c62	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+42255770-e43c-473d-81ca-f412b6f78c62	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Screenplay	2
+42255770-e43c-473d-81ca-f412b6f78c62	e1026af0-8928-4540-81eb-0ce054a8aedf	Cinematography	3
+42255770-e43c-473d-81ca-f412b6f78c62	c70d0b2e-8511-4bfb-8527-808b3fef2a09	Art Director	4
+42255770-e43c-473d-81ca-f412b6f78c62	d99098d2-e43a-46a0-99aa-9458a2892bb1	Sound Recording	5
+42255770-e43c-473d-81ca-f412b6f78c62	d41cecce-6939-469c-bbf8-bf184426eb86	Lighting	6
+42255770-e43c-473d-81ca-f412b6f78c62	43f92b30-e8dc-496c-836f-a39ec34ce058	Music	8
+42255770-e43c-473d-81ca-f412b6f78c62	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Assistant Director	14
+42255770-e43c-473d-81ca-f412b6f78c62	d8c23641-8e49-4d62-9aa5-e39bcedf7729	Editor	15
+f5e33833-8abd-45df-a623-85ec5cb83d3d	36017e21-c720-40c2-9284-4c84ef41869b	Director	-1
+f5e33833-8abd-45df-a623-85ec5cb83d3d	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+f5e33833-8abd-45df-a623-85ec5cb83d3d	61b4cc3d-d5bd-4e56-9b40-ae56497e3e88	Screenplay	2
+f5e33833-8abd-45df-a623-85ec5cb83d3d	36017e21-c720-40c2-9284-4c84ef41869b	Screenplay	3
+f5e33833-8abd-45df-a623-85ec5cb83d3d	0a13c80f-22f4-44e6-8eb0-cd93e8b75a86	Cinematography	4
+f5e33833-8abd-45df-a623-85ec5cb83d3d	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Art Director	5
+f5e33833-8abd-45df-a623-85ec5cb83d3d	e12e2330-3a9a-489b-b6ed-7d9746a406d6	Sound Recording	6
+f5e33833-8abd-45df-a623-85ec5cb83d3d	d41cecce-6939-469c-bbf8-bf184426eb86	Lighting	7
+f5e33833-8abd-45df-a623-85ec5cb83d3d	6f7311a6-04cc-4382-bdca-a623caceea8b	Music	8
+f5e33833-8abd-45df-a623-85ec5cb83d3d	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects	10
+f5e33833-8abd-45df-a623-85ec5cb83d3d	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor	15
+258a91ff-f401-473a-b93f-604b85d8a406	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Director	-1
+258a91ff-f401-473a-b93f-604b85d8a406	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+258a91ff-f401-473a-b93f-604b85d8a406	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Screenplay	2
+258a91ff-f401-473a-b93f-604b85d8a406	e9f9bfb5-dcb4-4582-84b0-db72db7001b4	Cinematography	3
+258a91ff-f401-473a-b93f-604b85d8a406	07aa8f25-0496-4785-a819-4ae6d478fab3	Art Director	4
+258a91ff-f401-473a-b93f-604b85d8a406	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	5
+258a91ff-f401-473a-b93f-604b85d8a406	c317a02d-33b3-4f13-8759-d7e0e83edee2	Lighting	6
+258a91ff-f401-473a-b93f-604b85d8a406	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	7
+258a91ff-f401-473a-b93f-604b85d8a406	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects	17
+258a91ff-f401-473a-b93f-604b85d8a406	31f21ea2-0c0e-435d-8059-39796d754be4	Editor	24
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Director	-1
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Original Story	2
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Screenplay	3
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	97d629b3-3446-4296-a8e4-f1513719c3ac	Cinematography	4
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	07aa8f25-0496-4785-a819-4ae6d478fab3	Art Director	5
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	00e98889-dcb6-4d41-a8f7-4fc94fda6632	Sound Recording	6
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	92b6ffab-3172-4011-8ff9-1428559e3e3a	Lighting	7
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	6f7311a6-04cc-4382-bdca-a623caceea8b	Music	10
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	15
+ead6a8bb-36ee-46db-bd54-0761b0dd3d22	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects	19
+e74d0fad-f701-4540-b48e-9e73e2062b0b	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Director	-2
+e74d0fad-f701-4540-b48e-9e73e2062b0b	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+e74d0fad-f701-4540-b48e-9e73e2062b0b	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+e74d0fad-f701-4540-b48e-9e73e2062b0b	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Original Story	2
+e74d0fad-f701-4540-b48e-9e73e2062b0b	1877d46d-9ace-4741-836c-0b03933c496d	Original Story	3
+e74d0fad-f701-4540-b48e-9e73e2062b0b	e8373ccf-f76b-47e0-8002-91b2b651d551	Screenplay	4
+e74d0fad-f701-4540-b48e-9e73e2062b0b	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Screenplay	5
+e74d0fad-f701-4540-b48e-9e73e2062b0b	97d629b3-3446-4296-a8e4-f1513719c3ac	Cinematography	6
+e74d0fad-f701-4540-b48e-9e73e2062b0b	481f186f-9e39-4e5c-85f7-56e9bb4cc6bd	Art Director	7
+e74d0fad-f701-4540-b48e-9e73e2062b0b	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	8
+e74d0fad-f701-4540-b48e-9e73e2062b0b	92b6ffab-3172-4011-8ff9-1428559e3e3a	Lighting	9
+e74d0fad-f701-4540-b48e-9e73e2062b0b	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	10
+e74d0fad-f701-4540-b48e-9e73e2062b0b	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	15
+b36b76fa-643c-4c91-bf67-f73c7482ba94	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-2
+b36b76fa-643c-4c91-bf67-f73c7482ba94	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+b36b76fa-643c-4c91-bf67-f73c7482ba94	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+b36b76fa-643c-4c91-bf67-f73c7482ba94	0ae112d3-4a03-4beb-8f5d-faefc5c13b9b	Screenplay	2
+b36b76fa-643c-4c91-bf67-f73c7482ba94	e1026af0-8928-4540-81eb-0ce054a8aedf	Cinematography	3
+b36b76fa-643c-4c91-bf67-f73c7482ba94	07aa8f25-0496-4785-a819-4ae6d478fab3	Art Director	4
+b36b76fa-643c-4c91-bf67-f73c7482ba94	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	5
+b36b76fa-643c-4c91-bf67-f73c7482ba94	b8928aa8-991f-46b3-aca4-c72ba3656249	Lighting	6
+b36b76fa-643c-4c91-bf67-f73c7482ba94	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	7
+b36b76fa-643c-4c91-bf67-f73c7482ba94	362da3f2-b643-417b-9d05-8c32c380d999	Assistant Director	11
+b36b76fa-643c-4c91-bf67-f73c7482ba94	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor	12
 \.
 
 
