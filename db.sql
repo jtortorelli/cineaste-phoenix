@@ -2504,10 +2504,10 @@ c287b984-0a4b-406f-a9a7-c21023ecd189	Oblivion Island: Haruka and the Magic Mirro
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	f	\N	{"original_title": "デスノート", "original_translation": "Death Note", "original_transliteration": "Desu Nooto"}
 242c97f0-edcc-4857-8211-bb130160275e	Tsubaki Sanjuro	2007-12-01	119	f	\N	{"original_title": "椿三十郎", "original_translation": "Thirty-Year-Old Camellia", "original_transliteration": "Tsubaki Sanjyuurou"}
 88a761bb-acae-4a56-b157-ed2fe51951ab	Kaiji 2	2011-11-05	133	f	\N	{"original_title": "カイジ2", "original_translation": "Kaiji 2", "original_transliteration": "Kaiji 2"}
-092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	f	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	f	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"original_title": "着信アリ", "original_translation": "Incoming Call", "original_transliteration": "Chyakushin Ari"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	t	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
+092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	t	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -2520,7 +2520,6 @@ a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	f	
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
 24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
 1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2000-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
-424cf769-b58f-4044-ad2e-b9b6aee6c477	Lake of Dracula	1971-06-16	82	f	\N	{"original_title": "呪いの館 血を吸う眼", "original_translation": "House of Curses: Bloodsucking Eyes", "original_transliteration": "Noroi No Yakata Chiwosuu Me"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	f	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	f	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	f	\N	{"original_title": "ゴジラvsキングギドラ", "original_translation": "Godzilla VS King Ghidorah", "original_transliteration": "Gojira VS Kingugidora"}
@@ -2536,7 +2535,6 @@ c35ae200-de99-427d-b769-a8b4df1280ca	Masked Rider: The Next	2007-10-27	113	f	\N	
 93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	f	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31	139	f	{"20th Century Boys 2: The Last Hope"}	{"original_title": "20世紀少年 第2章 最後の希望", "original_translation": "20th Century Boys Second Chapter: The Last Hope", "original_transliteration": "20 Seiki Shyounen Dai 2 Shou Saigo No Kibou"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
-842265ea-5b60-41d5-bd6f-a727713dd12f	Evil of Dracula	1974-07-20	83	f	\N	{"original_title": "血を吸う薔薇", "original_translation": "Bloodsucking Rose", "original_transliteration": "Chiwosuu Bara"}
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	f	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	f	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
@@ -2679,6 +2677,8 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	f	\N	{"ori
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	Space Amoeba	1970-08-01	84	t	{"Yog, Monster from Space"}	{"original_title": "ゲゾラ・ガニメ・カメーバ 決戦!南海の大怪獣", "original_translation": "Gezora Ganime Kamoeba Battle! South Seas Giant Monsters", "original_transliteration": "Gezora Ganime Kameeba Kessen! Nankai No Daikaijyuu"}
 f5e33833-8abd-45df-a623-85ec5cb83d3d	Godzilla vs. Hedorah	1971-07-24	85	t	{"Godzilla vs. the Smog Monster"}	{"original_title": "ゴジラ対ヘドラ", "original_translation": "Godzilla Against Hedorah", "original_transliteration": "Gojira Tai Hedora"}
 258a91ff-f401-473a-b93f-604b85d8a406	Godzilla vs. Gigan	1972-03-12	89	t	{"Godzilla on Monster Island"}	{"original_title": "地球攻撃命令 ゴジラ対ガイガン", "original_translation": "Earth Destruction Order: Godzilla Against Gigan", "original_transliteration": "Chikyuu Kougeki Meirei Gojira Tai Gaigan"}
+424cf769-b58f-4044-ad2e-b9b6aee6c477	Lake of Dracula	1971-06-16	82	t	\N	{"original_title": "呪いの館 血を吸う眼", "original_translation": "House of Curses: Bloodsucking Eyes", "original_transliteration": "Noroi No Yakata Chiwosuu Me"}
+842265ea-5b60-41d5-bd6f-a727713dd12f	Evil of Dracula	1974-07-20	83	t	\N	{"original_title": "血を吸う薔薇", "original_translation": "Bloodsucking Rose", "original_transliteration": "Chiwosuu Bara"}
 \.
 
 
@@ -3171,6 +3171,12 @@ e8373ccf-f76b-47e0-8002-91b2b651d551	Hiroyasu	Yamamura	M	f	{"day": 28, "year": 1
 481f186f-9e39-4e5c-85f7-56e9bb4cc6bd	Kazuo	Satsuya	M	f	{"day": 20, "year": 1935, "month": 7}	{"day": 6, "year": 1993, "month": 1}	Tokyo, Japan	\N	\N	{"original_name": "薩谷 和夫"}
 0ae112d3-4a03-4beb-8f5d-faefc5c13b9b	Yukiko	Takayama	M	f	{"day": 4, "year": 1945, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "高山 由紀子"}
 362da3f2-b643-417b-9d05-8c32c380d999	Kensho	Yamashita	M	f	{"day": 8, "year": 1944, "month": 7}	{"day": 16, "year": 2016, "month": 8}	Kushira, Kimotsuki, Kagoshima, Japan	\N	\N	{"original_name": "山下 賢章"}
+68ad58b5-db61-4d6d-8531-9cc4be59b29c	Michio	Yamamoto	M	f	{"day": 6, "year": 1933, "month": 7}	{"day": 23, "year": 2004, "month": 8}	Nagaoka, Niigata, Japan	\N	\N	{"original_name": "山本 迪夫"}
+a748a0a8-185c-4b92-89c6-9064450ebcf0	Hiroshi	Nagano	M	f	{"day": 1, "year": 1934, "month": 1}	{"day": 26, "year": 2012, "month": 10}	Kawasaki, Kanagawa, Japan	Kawasaki, Kanagawa, Japan	\N	{"original_name": "長野 洋"}
+f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Kazumi	Hara	M	f	{"day": 11, "year": 1931, "month": 12}	\N	\N	\N	\N	{"original_name": "原 一民"}
+e6e3eb12-09d0-43bc-b6d0-5f4b153504db	Minoru	Tomita	M	f	\N	\N	\N	\N	\N	{"original_name": "富田 実"}
+12f4a47d-533a-4745-9e56-486ce8004323	Sho	Takemitsu	M	f	\N	\N	\N	\N	\N	{"original_name": "武末 勝"}
+e3609a7f-5285-426b-811d-dd3512452d72	Hisashi	Kondo	M	f	\N	\N	\N	\N	\N	{"original_name": "近藤 久"}
 \.
 
 
@@ -4069,6 +4075,37 @@ b36b76fa-643c-4c91-bf67-f73c7482ba94	b8928aa8-991f-46b3-aca4-c72ba3656249	Lighti
 b36b76fa-643c-4c91-bf67-f73c7482ba94	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	7
 b36b76fa-643c-4c91-bf67-f73c7482ba94	362da3f2-b643-417b-9d05-8c32c380d999	Assistant Director	11
 b36b76fa-643c-4c91-bf67-f73c7482ba94	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor	12
+092d908c-750c-4c66-9d34-5c0b69089b6c	68ad58b5-db61-4d6d-8531-9cc4be59b29c	Director	-1
+092d908c-750c-4c66-9d34-5c0b69089b6c	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+092d908c-750c-4c66-9d34-5c0b69089b6c	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	2
+092d908c-750c-4c66-9d34-5c0b69089b6c	08e483d6-9486-4b86-8345-9925d760a067	Screenplay	3
+092d908c-750c-4c66-9d34-5c0b69089b6c	a748a0a8-185c-4b92-89c6-9064450ebcf0	Screenplay	4
+092d908c-750c-4c66-9d34-5c0b69089b6c	f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Cinematography	5
+092d908c-750c-4c66-9d34-5c0b69089b6c	07aa8f25-0496-4785-a819-4ae6d478fab3	Art Director	6
+092d908c-750c-4c66-9d34-5c0b69089b6c	e6e3eb12-09d0-43bc-b6d0-5f4b153504db	Sound Recording	7
+092d908c-750c-4c66-9d34-5c0b69089b6c	c317a02d-33b3-4f13-8759-d7e0e83edee2	Lighting	8
+092d908c-750c-4c66-9d34-5c0b69089b6c	6f7311a6-04cc-4382-bdca-a623caceea8b	Music	9
+092d908c-750c-4c66-9d34-5c0b69089b6c	d1e73155-2bf5-4378-929f-277d92e5e2ae	Editor	12
+424cf769-b58f-4044-ad2e-b9b6aee6c477	68ad58b5-db61-4d6d-8531-9cc4be59b29c	Director	-1
+424cf769-b58f-4044-ad2e-b9b6aee6c477	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	1
+424cf769-b58f-4044-ad2e-b9b6aee6c477	08e483d6-9486-4b86-8345-9925d760a067	Screenplay	2
+424cf769-b58f-4044-ad2e-b9b6aee6c477	12f4a47d-533a-4745-9e56-486ce8004323	Screenplay	3
+424cf769-b58f-4044-ad2e-b9b6aee6c477	07259617-c6ef-42ad-afac-b37d29f83e4e	Cinematography	4
+424cf769-b58f-4044-ad2e-b9b6aee6c477	48a7856e-e00d-410a-8dee-c9069575da5c	Art Director	5
+424cf769-b58f-4044-ad2e-b9b6aee6c477	b16d5b1e-8e3e-4814-9155-0a2eb9e06e3b	Sound Recording	6
+424cf769-b58f-4044-ad2e-b9b6aee6c477	c317a02d-33b3-4f13-8759-d7e0e83edee2	Lighting	7
+424cf769-b58f-4044-ad2e-b9b6aee6c477	6f7311a6-04cc-4382-bdca-a623caceea8b	Music	8
+424cf769-b58f-4044-ad2e-b9b6aee6c477	e3609a7f-5285-426b-811d-dd3512452d72	Editor	11
+842265ea-5b60-41d5-bd6f-a727713dd12f	68ad58b5-db61-4d6d-8531-9cc4be59b29c	Director	-1
+842265ea-5b60-41d5-bd6f-a727713dd12f	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	1
+842265ea-5b60-41d5-bd6f-a727713dd12f	08e483d6-9486-4b86-8345-9925d760a067	Screenplay	2
+842265ea-5b60-41d5-bd6f-a727713dd12f	12f4a47d-533a-4745-9e56-486ce8004323	Screenplay	3
+842265ea-5b60-41d5-bd6f-a727713dd12f	f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Cinematography	4
+842265ea-5b60-41d5-bd6f-a727713dd12f	481f186f-9e39-4e5c-85f7-56e9bb4cc6bd	Art Director	5
+842265ea-5b60-41d5-bd6f-a727713dd12f	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	6
+842265ea-5b60-41d5-bd6f-a727713dd12f	92b6ffab-3172-4011-8ff9-1428559e3e3a	Lighting	7
+842265ea-5b60-41d5-bd6f-a727713dd12f	6f7311a6-04cc-4382-bdca-a623caceea8b	Music	8
+842265ea-5b60-41d5-bd6f-a727713dd12f	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	9
 \.
 
 
@@ -4149,6 +4186,9 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	ead6a8bb-36ee-46db-bd54-0761b0dd3d22
 b52fcdd6-691b-4a16-a670-e6ad6f176521	b36b76fa-643c-4c91-bf67-f73c7482ba94
 b52fcdd6-691b-4a16-a670-e6ad6f176521	f5e33833-8abd-45df-a623-85ec5cb83d3d
 b52fcdd6-691b-4a16-a670-e6ad6f176521	258a91ff-f401-473a-b93f-604b85d8a406
+b52fcdd6-691b-4a16-a670-e6ad6f176521	092d908c-750c-4c66-9d34-5c0b69089b6c
+b52fcdd6-691b-4a16-a670-e6ad6f176521	424cf769-b58f-4044-ad2e-b9b6aee6c477
+b52fcdd6-691b-4a16-a670-e6ad6f176521	842265ea-5b60-41d5-bd6f-a727713dd12f
 \.
 
 
