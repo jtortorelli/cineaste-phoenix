@@ -2504,10 +2504,10 @@ c287b984-0a4b-406f-a9a7-c21023ecd189	Oblivion Island: Haruka and the Magic Mirro
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	f	\N	{"original_title": "デスノート", "original_translation": "Death Note", "original_transliteration": "Desu Nooto"}
 242c97f0-edcc-4857-8211-bb130160275e	Tsubaki Sanjuro	2007-12-01	119	f	\N	{"original_title": "椿三十郎", "original_translation": "Thirty-Year-Old Camellia", "original_transliteration": "Tsubaki Sanjyuurou"}
 88a761bb-acae-4a56-b157-ed2fe51951ab	Kaiji 2	2011-11-05	133	f	\N	{"original_title": "カイジ2", "original_translation": "Kaiji 2", "original_transliteration": "Kaiji 2"}
-9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	f	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"original_title": "着信アリ", "original_translation": "Incoming Call", "original_transliteration": "Chyakushin Ari"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	t	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	t	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	t	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -3177,6 +3177,12 @@ f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Kazumi	Hara	M	f	{"day": 11, "year": 1931, "
 e6e3eb12-09d0-43bc-b6d0-5f4b153504db	Minoru	Tomita	M	f	\N	\N	\N	\N	\N	{"original_name": "富田 実"}
 12f4a47d-533a-4745-9e56-486ce8004323	Sho	Takemitsu	M	f	\N	\N	\N	\N	\N	{"original_name": "武末 勝"}
 e3609a7f-5285-426b-811d-dd3512452d72	Hisashi	Kondo	M	f	\N	\N	\N	\N	\N	{"original_name": "近藤 久"}
+520c957d-c00e-4139-b9d6-2462273148cf	Kenjiro	Omori	M	f	{"day": 3, "year": 1933, "month": 11}	{"day": 3, "year": 2006, "month": 12}	Qingdao, China	Shibuya, Tokyo, Japan	\N	{"original_name": "大森 健次郎"}
+4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Sakyo	Komatsu	M	f	{"day": 28, "year": 1931, "month": 1}	{"day": 26, "year": 2011, "month": 7}	Nishi, Osaka, Japan	Mino, Osaka, Japan	\N	{"birth_name": "Minoru Komatsu (小松 実)", "original_name": "小松 左京"}
+dc0d8254-fdb0-4b75-8198-17d52e9ffc4d	Shoji	Ueda	M	f	{"day": 1, "year": 1938, "month": 1}	\N	Funabashi, Chiba, Japan	\N	\N	{"original_name": "上田 正治"}
+6b5800f5-ccd8-498d-855f-b5f76c1cd0aa	Shinobu	Muraki	M	f	{"day": 2, "year": 1923, "month": 9}	{"day": 16, "year": 1997, "month": 1}	Tokyo, Japan	\N	\N	{"birth_name": "Shinobu Nagaoka (長岡 忍)", "original_name": "村木 忍"}
+99487723-208d-46c0-8e6d-0ddca9a5a10e	Masaaki	Hirao	M	f	{"day": 24, "year": 1937, "month": 12}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Isao Hirao (平尾 勇)", "original_name": "平尾 昌晃"}
+32fbe797-4b21-4326-8783-26b5ff597967	Kensuke	Kyo	M	f	{"day": 26, "year": 1937, "month": 8}	\N	Kyoto, Japan	\N	\N	{"birth_name": "Kenzo Anno (安野 健三)", "original_name": "京 建輔"}
 \.
 
 
@@ -4106,6 +4112,21 @@ b36b76fa-643c-4c91-bf67-f73c7482ba94	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor
 842265ea-5b60-41d5-bd6f-a727713dd12f	92b6ffab-3172-4011-8ff9-1428559e3e3a	Lighting	7
 842265ea-5b60-41d5-bd6f-a727713dd12f	6f7311a6-04cc-4382-bdca-a623caceea8b	Music	8
 842265ea-5b60-41d5-bd6f-a727713dd12f	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	9
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Director	-3
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	520c957d-c00e-4139-b9d6-2462273148cf	Co-Director	-2
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	2
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Original Story	3
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	08e483d6-9486-4b86-8345-9925d760a067	Screenplay	4
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	dc0d8254-fdb0-4b75-8198-17d52e9ffc4d	Cinematography	5
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Cinematography	6
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	6b5800f5-ccd8-498d-855f-b5f76c1cd0aa	Art Director	7
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	1c30afb0-3f4d-4017-84fd-cb68e9a2e6f0	Sound Recording	8
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	92b6ffab-3172-4011-8ff9-1428559e3e3a	Lighting	9
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	99487723-208d-46c0-8e6d-0ddca9a5a10e	Music	11
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	32fbe797-4b21-4326-8783-26b5ff597967	Music	12
+9a752a5a-d621-40dc-a992-3f9dcf56d6b9	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	19
 \.
 
 
@@ -4189,6 +4210,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	258a91ff-f401-473a-b93f-604b85d8a406
 b52fcdd6-691b-4a16-a670-e6ad6f176521	092d908c-750c-4c66-9d34-5c0b69089b6c
 b52fcdd6-691b-4a16-a670-e6ad6f176521	424cf769-b58f-4044-ad2e-b9b6aee6c477
 b52fcdd6-691b-4a16-a670-e6ad6f176521	842265ea-5b60-41d5-bd6f-a727713dd12f
+b52fcdd6-691b-4a16-a670-e6ad6f176521	9a752a5a-d621-40dc-a992-3f9dcf56d6b9
 \.
 
 
