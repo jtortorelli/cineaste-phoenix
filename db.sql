@@ -2489,7 +2489,6 @@ e41cf916-5691-4a46-8cb6-e70f4d185b58	One Missed Call 2	2005-02-05	106	f	\N	{"ori
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	Lupin the Third	2014-08-30	133	f	\N	{"original_title": "ルパン三世", "original_translation": "Lupin the Third", "original_transliteration": "Rupan Sansei"}
 5088aef6-3dcc-4fda-af9e-6777becd1285	13 Assassins	2010-09-25	141	f	\N	{"original_title": "十三人の刺客", "original_translation": "Thirteen Assassins", "original_transliteration": "Jyuusannin No Shikaku"}
 a44dcca3-ca55-4ca7-b7c4-f095367de638	The Triumphant General Rouge	2009-03-07	123	f	\N	{"original_title": "ジェネラル・ルージュの凱旋", "original_translation": "Triumph of General Rouge", "original_transliteration": "Jyeneraru Ruujyu No Gaisen"}
-3b7381aa-ff9a-4b2e-806a-1c6b700614ae	The Submersion of Japan	1973-12-29	140	f	{"Tidal Wave"}	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	f	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	f	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
 0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	f	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
@@ -2508,6 +2507,7 @@ c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	f	\N	{"origi
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	t	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	t	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	t	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	The Submersion of Japan	1973-12-29	140	t	{"Tidal Wave"}	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -3183,6 +3183,9 @@ dc0d8254-fdb0-4b75-8198-17d52e9ffc4d	Shoji	Ueda	M	f	{"day": 1, "year": 1938, "mo
 6b5800f5-ccd8-498d-855f-b5f76c1cd0aa	Shinobu	Muraki	M	f	{"day": 2, "year": 1923, "month": 9}	{"day": 16, "year": 1997, "month": 1}	Tokyo, Japan	\N	\N	{"birth_name": "Shinobu Nagaoka (長岡 忍)", "original_name": "村木 忍"}
 99487723-208d-46c0-8e6d-0ddca9a5a10e	Masaaki	Hirao	M	f	{"day": 24, "year": 1937, "month": 12}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Isao Hirao (平尾 勇)", "original_name": "平尾 昌晃"}
 32fbe797-4b21-4326-8783-26b5ff597967	Kensuke	Kyo	M	f	{"day": 26, "year": 1937, "month": 8}	\N	Kyoto, Japan	\N	\N	{"birth_name": "Kenzo Anno (安野 健三)", "original_name": "京 建輔"}
+1b451d5e-b876-4b14-87cb-459ffdefacd8	Hiroshi	Murai	M	f	\N	\N	\N	\N	\N	{"original_name": "村井 博"}
+69b19edc-5c0c-44da-8a27-7019891016af	Daisuke	Kimura	M	f	{"day": 13, "year": 1939, "month": 7}	\N	Tokyo, Japan	\N	\N	{"original_name": "木村 大作"}
+88139a2f-443e-42c3-b291-a0ead74a32e6	Koji	Hashimoto	M	f	{"day": 21, "year": 1936, "month": 1}	{"day": 9, "year": 2005, "month": 1}	Tochigi, Ashikaga, Japan	\N	\N	{"original_name": "橋本 幸治"}
 \.
 
 
@@ -4127,6 +4130,21 @@ b36b76fa-643c-4c91-bf67-f73c7482ba94	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	99487723-208d-46c0-8e6d-0ddca9a5a10e	Music	11
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	32fbe797-4b21-4326-8783-26b5ff597967	Music	12
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	19
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	6160b33a-a5f4-4217-993b-f258ff344777	Director	-2
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	2
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Original Story	3
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	2209b83b-f80d-4f9b-be22-838581803d4b	Screenplay	4
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	1b451d5e-b876-4b14-87cb-459ffdefacd8	Cinematography	5
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	69b19edc-5c0c-44da-8a27-7019891016af	Cinematography	6
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	7
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Art Director	8
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	1c30afb0-3f4d-4017-84fd-cb68e9a2e6f0	Sound Recording	9
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	c317a02d-33b3-4f13-8759-d7e0e83edee2	Lighting	10
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	88139a2f-443e-42c3-b291-a0ead74a32e6	Assistant Director	11
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	12
+3b7381aa-ff9a-4b2e-806a-1c6b700614ae	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	18
 \.
 
 
@@ -4211,6 +4229,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	092d908c-750c-4c66-9d34-5c0b69089b6c
 b52fcdd6-691b-4a16-a670-e6ad6f176521	424cf769-b58f-4044-ad2e-b9b6aee6c477
 b52fcdd6-691b-4a16-a670-e6ad6f176521	842265ea-5b60-41d5-bd6f-a727713dd12f
 b52fcdd6-691b-4a16-a670-e6ad6f176521	9a752a5a-d621-40dc-a992-3f9dcf56d6b9
+b52fcdd6-691b-4a16-a670-e6ad6f176521	3b7381aa-ff9a-4b2e-806a-1c6b700614ae
 \.
 
 
