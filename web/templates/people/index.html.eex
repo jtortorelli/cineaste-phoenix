@@ -13,7 +13,7 @@
             <br/>
             <%= raw render_index_display_name(view.display_name) %>
             <br/>
-            <span class="subtitle"><%= raw render_view_roles(view) %></span>
+            <span class="subtitle gray"><%= raw render_view_roles(view) %></span>
           </div>
         <% end %>
       </div>

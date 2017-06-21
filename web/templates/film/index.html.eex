@@ -11,14 +11,14 @@
           <a v-bind:href="'/films/' + film.id">
           <img class="img-rounded shadowed" v-bind:src="'<%= render_poster()%>' + film.id + '.jpg'" width="135" height="200" style="margin-bottom: 5px;"/><br/>
         </a>
-          <span>{{film.title}}</span><br/>
+          <span class="table-header">{{film.title}}</span><br/>
           <span class="subdue">{{film.year}}</span>
         </div>
       </div>
       <div class="visible-xs-block">
         <ul class="index">
           <li v-for="film in filteredFilms">
-            <a v-bind:href="'/films/' + film.id">{{ film.title }} ({{ film.year }})</a>
+            <a v-bind:href="'/films/' + film.id"><span class="table-header">{{ film.title }}</span> <span class="thin">({{ film.year }})</span></a>
         </ul>
       </div>
     </div>

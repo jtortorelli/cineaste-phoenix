@@ -7,9 +7,11 @@ defmodule Cineaste.PeopleView do
   def render_link(conn, view) do
     case view.type do
       "person" ->
-        link "#{Enum.join(view.display_name, ", ")}", to: people_path(conn, :show_person, view.id)
+        family_name = Enum.at(view.display_name, 0)
+        given_name = Enum.at(view.display_name, 1)
+        link raw("<span class=\"table-header\">#{family_name}</span> #{given_name}"), to: people_path(conn, :show_person, view.id)
       "group" ->
-        link "#{view.display_name}", to: people_path(conn, :show_group, view.id)
+        link raw("<span class=\"table-header\">#{view.display_name}</span>"), to: people_path(conn, :show_group, view.id)
     end
   end
 
@@ -76,7 +78,7 @@ defmodule Cineaste.PeopleView do
   end
 
   def render_index_display_name([family_name | [given_name | []]]) do
-    "<span class=\"table-header\">#{family_name}</span><br/><span class=\"subdue\">#{given_name}</span>"
+    "<span class=\"table-header\">#{family_name}</span><br/>#{given_name}"
   end
 
   def render_index_display_name([group_name | []]) do
