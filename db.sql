@@ -2728,7 +2728,6 @@ bd14a659-bf60-4b65-9ec2-514bad9ccb72	Takashi	Shimura	M	t	{"day": 12, "year": 190
 f9221586-cca1-42ce-82c9-310042ffe9fe	Ren	Imaizumi	M	t	\N	\N	\N	\N	\N	{"original_name": "&#20170;&#27849;&#24265;"}
 5240cb5f-b0a8-4c64-aa01-93a65b45d419	Saburo	Iketani	M	t	{"day": 19, "year": 1923, "month": 8}	{"day": 19, "year": 2002, "month": 10}	Chuo, Tokyo, Japan	\N	\N	{"original_name": "&#27744;&#35895; &#19977;&#37070;"}
 f5b35e44-efd4-4298-8124-4bccd4325e23	Katsumi	Tezuka	M	t	{"day": 21, "year": 1912, "month": 8}	{"unknown": 1}	\N	\N	\N	{"original_name": "&#25163;&#22618; &#21213;&#24051;"}
-9b787e61-5c06-463d-aa62-18c142735fc8	Haruo	Nakajima	M	t	{"day": 1, "year": 1929, "month": 1}	\N	Sakata, Yamagata, Japan	\N	\N	{"original_name": "&#20013;&#23798; &#26149;&#38596;"}
 468e289d-6838-4fb7-b710-7b47a209e5d0	Seijiro	Onda	M	t	\N	\N	\N	\N	\N	{"original_name": "&#24681;&#30000;&#28165;&#20108;&#37070;"}
 580c0f24-0d62-4891-91dd-3f0f52b834d7	Kichijiro	Ueda	M	t	{"day": 30, "year": 1904, "month": 3}	{"day": 3, "year": 1972, "month": 11}	Sannomiya, Kobe, Hyogo, Japan	Kojimacho, Chofu, Tokyo, Japan	\N	{"birth_name": "Sadao Ueda (&#19978;&#30000; &#23450;&#38596;)", "original_name": "&#19978;&#30000; &#21513;&#20108;&#37070;"}
 efaedbdc-65d4-4bdd-904c-3eb10cfe25d9	Kaoru	Yachigusa	F	t	{"day": 6, "year": 1931, "month": 1}	\N	Osaka, Japan	\N	\N	{"birth_name": "Hitomi Matsuda (&#26494;&#30000; &#30643;)", "original_name": "&#20843;&#21315;&#33609; &#34219;"}
@@ -3194,6 +3193,7 @@ c07b56b1-7660-4e4b-b16c-33e14bf1cb73	Shinji	Kojima	M	f	\N	\N	\N	\N	\N	\N
 4b3e4500-95d5-499c-bfe8-b5e8c5656b8f	Isao	Tomita	M	f	{"day": 22, "year": 1932, "month": 4}	{"day": 5, "year": 2016, "month": 5}	Tama, Tokyo, Japan	\N	\N	{"original_name": "冨田 勲"}
 cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "month": 7}	{"day": 5, "year": 2016, "month": 1}	Aichi, Japan	\N	\N	{"original_name": "小川 信夫"}
 86d95011-4e64-4a38-ab69-3d9004bbf00a	Koichi	Kawakita	M	f	{"day": 5, "year": 1942, "month": 12}	{"day": 5, "year": 2014, "month": 12}	Nihonbashi, Chuo, Tokyo, Japan	\N	\N	{"original_name": "川北 紘一"}
+9b787e61-5c06-463d-aa62-18c142735fc8	Haruo	Nakajima	M	t	{"day": 1, "year": 1929, "month": 1}	{"day": 7, "year": 2017, "month": 8}	Sakata, Yamagata, Japan	\N	\N	{"original_name": "&#20013;&#23798; &#26149;&#38596;"}
 \.
 
 
