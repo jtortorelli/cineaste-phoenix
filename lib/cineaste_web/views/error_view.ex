@@ -1,4 +1,4 @@
-defmodule Cineaste.ErrorView do
+defmodule CineasteWeb.ErrorView do
   use Cineaste.Web, :view
 
   def render("404.html", _assigns) do

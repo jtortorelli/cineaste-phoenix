@@ -1,11 +1,11 @@
-defmodule Cineaste.FilmView do
+defmodule CineasteWeb.FilmView do
   use Cineaste.Web, :view
   alias Ecto
   import Ecto.Query
   alias Cineaste.Repo
   alias Cineaste.Film
   alias Cineaste.SeriesFilm
-  alias Cineaste.S3View
+  alias CineasteWeb.S3View
   require Logger
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)

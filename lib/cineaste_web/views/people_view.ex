@@ -1,8 +1,8 @@
-defmodule Cineaste.PeopleView do
+defmodule CineasteWeb.PeopleView do
   use Cineaste.Web, :view
-  alias Cineaste.CommonView
+  alias CineasteWeb.CommonView
   alias Cineaste.Person
-  alias Cineaste.S3View
+  alias CineasteWeb.S3View
 
   def render_link(conn, view) do
     case view.type do

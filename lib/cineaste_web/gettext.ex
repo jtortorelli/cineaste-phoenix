@@ -1,4 +1,4 @@
-defmodule Cineaste.Gettext do
+defmodule CineasteWeb.Gettext do
   @moduledoc """
   A module providing Internationalization with a gettext-based API.
 

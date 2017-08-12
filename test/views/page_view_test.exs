@@ -1,3 +1,3 @@
 defmodule Cineaste.PageViewTest do
-  use Cineaste.ConnCase, async: true
+  use CineasteWeb.ConnCase, async: true
 end

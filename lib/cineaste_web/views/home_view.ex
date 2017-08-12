@@ -1,6 +1,6 @@
-defmodule Cineaste.HomeView do
+defmodule CineasteWeb.HomeView do
   use Cineaste.Web, :view
-  alias Cineaste.S3View
+  alias CineasteWeb.S3View
 
   def display_banner() do
     url = S3View.get_display_banner()

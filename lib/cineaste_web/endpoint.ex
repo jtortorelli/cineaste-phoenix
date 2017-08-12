@@ -1,7 +1,7 @@
-defmodule Cineaste.Endpoint do
+defmodule CineasteWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :cineaste
 
-  socket "/socket", Cineaste.UserSocket
+  socket "/socket", CineasteWeb.UserSocket
 
   # Serve at "/" the static files from "priv/static" directory.
   #
@@ -38,5 +38,5 @@ defmodule Cineaste.Endpoint do
     key: "_cineaste_key",
     signing_salt: "tHyd4nD2"
 
-  plug Cineaste.Router
+  plug CineasteWeb.Router
 end

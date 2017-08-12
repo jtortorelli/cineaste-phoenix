@@ -1,4 +1,4 @@
-defmodule Cineaste.PageController do
+defmodule CineasteWeb.PageController do
   use Cineaste.Web, :controller
 
   def index(conn, _params) do

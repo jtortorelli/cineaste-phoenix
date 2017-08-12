@@ -1,10 +1,10 @@
-defmodule Cineaste.FilmController do
+defmodule CineasteWeb.FilmController do
   use Cineaste.Web, :controller
   alias Cineaste.FilmIndexView
   alias Cineaste.FilmStaffView
   alias Cineaste.FilmCastView
-  alias Cineaste.ErrorView
-  alias Cineaste.S3View
+  alias CineasteWeb.ErrorView
+  alias CineasteWeb.S3View
   alias Cineaste.Film
   alias Cineaste.FilmImage
 

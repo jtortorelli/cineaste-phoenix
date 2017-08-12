@@ -1,12 +1,12 @@
-defmodule Cineaste.PeopleController do
+defmodule CineasteWeb.PeopleController do
   use Cineaste.Web, :controller
   alias Cineaste.PeopleIndexView
   alias Cineaste.Person
   alias Cineaste.Group
-  alias Cineaste.ErrorView
+  alias CineasteWeb.ErrorView
   alias Cineaste.PersonRolesView
   alias Cineaste.GroupRolesView
-  alias Cineaste.S3View
+  alias CineasteWeb.S3View
 
   def index(conn, _params) do
     people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn(view) -> view.sort_name end)

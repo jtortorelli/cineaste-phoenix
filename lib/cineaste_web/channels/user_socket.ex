@@ -1,4 +1,4 @@
-defmodule Cineaste.UserSocket do
+defmodule CineasteWeb.UserSocket do
   use Phoenix.Socket
 
   ## Channels

@@ -1,4 +1,4 @@
-defmodule Cineaste.ErrorHelpers do
+defmodule CineasteWeb.ErrorHelpers do
   @moduledoc """
   Conveniences for translating and building error messages.
   """
@@ -32,9 +32,9 @@ defmodule Cineaste.ErrorHelpers do
     #     dgettext "errors", "is invalid"
     #
     if count = opts[:count] do
-      Gettext.dngettext(Cineaste.Gettext, "errors", msg, msg, count, opts)
+      Gettext.dngettext(CineasteWeb.Gettext, "errors", msg, msg, count, opts)
     else
-      Gettext.dgettext(Cineaste.Gettext, "errors", msg, opts)
+      Gettext.dgettext(CineasteWeb.Gettext, "errors", msg, opts)
     end
   end
 end

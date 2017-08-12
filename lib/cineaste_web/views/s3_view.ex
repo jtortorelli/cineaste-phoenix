@@ -1,4 +1,4 @@
-defmodule Cineaste.S3View do
+defmodule CineasteWeb.S3View do
   use Cineaste.Web, :view
 
   def get_gallery_url(film_id, size) do

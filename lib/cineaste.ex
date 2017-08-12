@@ -11,7 +11,7 @@ defmodule Cineaste do
       # Start the Ecto repository
       supervisor(Cineaste.Repo, []),
       # Start the endpoint when the application starts
-      supervisor(Cineaste.Endpoint, []),
+      supervisor(CineasteWeb.Endpoint, []),
       # Start your own worker by calling: Cineaste.Worker.start_link(arg1, arg2, arg3)
       # worker(Cineaste.Worker, [arg1, arg2, arg3]),
     ]

@@ -1,4 +1,4 @@
-defmodule Cineaste.Router do
+defmodule CineasteWeb.Router do
   use Cineaste.Web, :router
 
   pipeline :browser do
@@ -13,7 +13,7 @@ defmodule Cineaste.Router do
     plug :accepts, ["json"]
   end
 
-  scope "/", Cineaste do
+  scope "/", CineasteWeb do
     pipe_through :browser # Use the default browser stack
 
     # get "/", PageController, :index

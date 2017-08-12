@@ -1,4 +1,4 @@
-defmodule Cineaste.ConnCase do
+defmodule CineasteWeb.ConnCase do
   @moduledoc """
   This module defines the test case to be used by
   tests that require setting up a connection.
@@ -25,10 +25,10 @@ defmodule Cineaste.ConnCase do
       import Ecto.Changeset
       import Ecto.Query
 
-      import Cineaste.Router.Helpers
+      import CineasteWeb.Router.Helpers
 
       # The default endpoint for testing
-      @endpoint Cineaste.Endpoint
+      @endpoint CineasteWeb.Endpoint
     end
   end
 

@@ -1,5 +1,5 @@
 defmodule Cineaste.PageControllerTest do
-  use Cineaste.ConnCase
+  use CineasteWeb.ConnCase
 
   test "GET /", %{conn: conn} do
     conn = get conn, "/"

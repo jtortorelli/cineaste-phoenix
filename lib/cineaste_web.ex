@@ -28,20 +28,20 @@ defmodule Cineaste.Web do
 
   def controller do
     quote do
-      use Phoenix.Controller
+      use Phoenix.Controller, namespace: CineasteWeb
 
       alias Cineaste.Repo
       import Ecto
       import Ecto.Query
 
-      import Cineaste.Router.Helpers
-      import Cineaste.Gettext
+      import CineasteWeb.Router.Helpers
+      import CineasteWeb.Gettext
     end
   end
 
   def view do
     quote do
-      use Phoenix.View, root: "web/templates"
+      use Phoenix.View, root: "lib/cineaste_web/templates", namespace: CineasteWeb
 
       # Import convenience functions from controllers
       import Phoenix.Controller, only: [get_csrf_token: 0, get_flash: 2, view_module: 1]
@@ -49,9 +49,9 @@ defmodule Cineaste.Web do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import Cineaste.Router.Helpers
-      import Cineaste.ErrorHelpers
-      import Cineaste.Gettext
+      import CineasteWeb.Router.Helpers
+      import CineasteWeb.ErrorHelpers
+      import CineasteWeb.Gettext
     end
   end
 
@@ -68,7 +68,7 @@ defmodule Cineaste.Web do
       alias Cineaste.Repo
       import Ecto
       import Ecto.Query
-      import Cineaste.Gettext
+      import CineasteWeb.Gettext
     end
   end
 

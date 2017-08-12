@@ -10,10 +10,10 @@ config :cineaste,
   ecto_repos: [Cineaste.Repo]
 
 # Configures the endpoint
-config :cineaste, Cineaste.Endpoint,
+config :cineaste, CineasteWeb.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "5PY/T5LmBMluz16Sx80Vd0yMeds2RCmbFn23ioFx7/0XNawFzL+tGjWjzsq8Ej1f",
-  render_errors: [view: Cineaste.ErrorView, accepts: ~w(html json)],
+  render_errors: [view: CineasteWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Cineaste.PubSub,
            adapter: Phoenix.PubSub.PG2]
 
