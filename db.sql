@@ -281,7 +281,8 @@ CREATE VIEW people_index_view AS
                   WHERE (p.id = prv.person_id)
                   GROUP BY prv.role
                   ORDER BY (count(*)) DESC
-                 LIMIT 3) AS "array") AS roles
+                 LIMIT 3) AS "array") AS roles,
+    NULL::text[] AS members
    FROM people p
   WHERE (p.showcase = true)
 UNION
@@ -296,7 +297,12 @@ UNION
                   WHERE (g.id = grv.group_id)
                   GROUP BY grv.role
                   ORDER BY (count(*)) DESC
-                 LIMIT 3) AS "array") AS roles
+                 LIMIT 3) AS "array") AS roles,
+    ( SELECT ARRAY( SELECT (((p.given_name)::text || ' '::text) || (p.family_name)::text)
+                   FROM people p
+                  WHERE (p.id IN ( SELECT gm.person_id
+                           FROM group_memberships gm
+                          WHERE (gm.group_id = g.id)))) AS "array") AS members
    FROM groups g
   WHERE (g.showcase = true);
 
@@ -3228,6 +3234,7 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20161226213706	2016-12-26 21:38:27
 20170107235902	2017-01-08 02:12:08
 20170507184156	2017-05-07 21:14:16.523506
+20170829235509	2017-08-29 23:58:32.22079
 \.
 
 
