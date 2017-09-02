@@ -73,12 +73,11 @@ exports.config = {
 
   npm: {
     enabled: true,
-    whitelist: ["phoenix", "phoenix_html", "lightbox2", "vue"],
+    whitelist: ["phoenix", "phoenix_html", "lightbox2"],
     globals: {
       $: 'jquery',
       jQuery: 'jquery',
-      bootstrap: 'bootstrap-sass',
-      Vue: 'vue/dist/vue.min.js'
+      bootstrap: 'bootstrap-sass'
     }
   }
 };
