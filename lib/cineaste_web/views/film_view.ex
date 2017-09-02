@@ -4,6 +4,7 @@ defmodule CineasteWeb.FilmView do
   import Ecto.Query
   alias Cineaste.Repo
   alias Cineaste.Film
+  alias Cineaste.FilmIndexView
   alias Cineaste.SeriesFilm
   alias CineasteWeb.S3View
   require Logger
@@ -83,8 +84,8 @@ defmodule CineasteWeb.FilmView do
     S3View.get_poster_url()
   end
 
-  def render_film_link(conn, view) do
-    raw link raw("<img class=\"img-rounded shadowed\" src=\"#{render_poster(view.id)}\" width=\"135\" height=\"200\" style=\"margin-bottom: 5px;\">"), to: film_path(conn, :show, view.id)
+  def render_film_link(view) do
+    raw "<a href=\"/films/#{view.id}\"><img class=\"img-rounded shadowed\" src=\"#{render_poster(view.id)}\" width=\"135\" height=\"200\" style=\"margin-bottom: 5px;\"></a>"
   end
 
   def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "person"}) do
@@ -98,5 +99,28 @@ defmodule CineasteWeb.FilmView do
   def render_people_link(_conn, %{names: %{display_name: text}, showcase: false}) do
     text
   end
+
+  def filter_film_list(film_list, searchTerm) do
+    searchTerms = String.split(searchTerm)
+    Enum.filter(film_list, fn(film) -> filter_film(film, searchTerms) end)
+  end
+
+  def filter_film(%FilmIndexView{} = view, searchTerms) do
+    containsSearchTerm(view.title, searchTerms) or containsSearchTerm(view.aliases, searchTerms)
+  end
+
+  def containsSearchTerm(nil, _) do
+    false
+  end
+
+  def containsSearchTerm([_h | _t] = aliases, searchTerms) do
+    Enum.any?(aliases, fn(a) -> containsSearchTerm(a, searchTerms) end)
+  end
+
+  def containsSearchTerm(title, searchTerms) do
+    Enum.all?(searchTerms, fn(term) -> String.contains?(String.downcase(title), String.downcase(term)) end)
+  end
+
+
 
 end

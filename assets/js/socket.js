@@ -53,10 +53,26 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 
 socket.connect()
 
-// Now that you are connected, you can join channels with a topic:
-let channel = socket.channel("topic:subtopic", {})
-channel.join()
-  .receive("ok", resp => { console.log("Joined successfully", resp) })
-  .receive("error", resp => { console.log("Unable to join", resp) })
+$(document).ready(function() {
+
+  // Now that you are connected, you can join channels with a topic:
+  let filmChannel = socket.channel("film:lobby", {})
+  let filmSearch = $("#film-search-bar")
+  let filmListsContainer = $("#film-lists")
+
+  filmSearch.on("keyup", function() {
+    filmChannel.push("film:filter", {body: filmSearch.val()})
+  })
+
+  filmChannel.on("film:filtered", payload => {
+    filmListsContainer.html(payload.html)
+  })
+
+  filmChannel.join()
+    .receive("ok", resp => { console.log("Joined film channel successfully", resp) })
+    .receive("error", resp => { console.log("Unable to join film channel", resp) })
+
+})
+
 
 export default socket

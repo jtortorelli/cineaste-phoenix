@@ -7,9 +7,12 @@ defmodule CineasteWeb.FilmController do
   alias CineasteWeb.S3View
   alias Cineaste.Film
   alias Cineaste.FilmImage
+  alias CineasteWeb.FilmMonitor
+
 
   def index(conn, _params) do
     film_index_views = Repo.all(FilmIndexView) |> Enum.sort_by(fn(view) -> FilmIndexView.sort_title(view) end)
+    FilmMonitor.set_state(film_index_views)
     render conn, "index.html", film_index_views: film_index_views
   end
 

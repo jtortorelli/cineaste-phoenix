@@ -2,11 +2,13 @@
   <div class="row">
     <h2>Films</h2>
     <div id="film-index">
-      <div id="search-bar" class="input-group input-group-sm">
+      <div class="search-bar input-group input-group-sm">
         <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
-        <input v-model="searchTerm" type="text" class="form-control" id="film-search">
+        <input id="film-search-bar" type="text" class="form-control" id="film-search">
       </div>
-      <%= render "films.html", conn: @conn, film_index_views: @film_index_views, filtered_index_views: @film_index_views %>
+      <div id="film-lists">
+        <%= render "films.html", conn: @conn, film_index_views: @film_index_views %>
+      </div>
     </div>
   </div>
 </div>
