@@ -14,7 +14,8 @@ defmodule Cineaste do
       supervisor(CineasteWeb.Endpoint, []),
       # Start your own worker by calling: Cineaste.Worker.start_link(arg1, arg2, arg3)
       # worker(Cineaste.Worker, [arg1, arg2, arg3]),
-      worker(CineasteWeb.FilmMonitor, [[]])
+      worker(CineasteWeb.FilmMonitor, [[]]),
+      worker(CineasteWeb.PeopleMonitor, [[]])
     ]
 
     # See http://elixir-lang.org/docs/stable/elixir/Supervisor.html

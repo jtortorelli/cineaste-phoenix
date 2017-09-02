@@ -1,4 +1,4 @@
-defmodule CineasteWeb.FilmMonitor do
+defmodule CineasteWeb.PeopleMonitor do
   use GenServer
 
   def start_link(initial_state) do

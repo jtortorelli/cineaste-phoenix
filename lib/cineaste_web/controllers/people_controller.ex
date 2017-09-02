@@ -7,9 +7,11 @@ defmodule CineasteWeb.PeopleController do
   alias Cineaste.PersonRolesView
   alias Cineaste.GroupRolesView
   alias CineasteWeb.S3View
+  alias CineasteWeb.PeopleMonitor
 
   def index(conn, _params) do
     people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn(view) -> view.sort_name end)
+    PeopleMonitor.set_state(people_index_views)
     render conn, "index.html", people_index_views: people_index_views
   end
 
