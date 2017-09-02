@@ -61,12 +61,22 @@ $(document).ready(function() {
   let filmListsContainer = $("#film-lists")
 
   filmSearch.on("keyup", function() {
-    filmChannel.push("film:filter", {body: filmSearch.val()})
+    delay(function() {
+      filmChannel.push("film:filter", {body: filmSearch.val()})
+    }, 500);
   })
 
   filmChannel.on("film:filtered", payload => {
     filmListsContainer.html(payload.html)
   })
+
+  var delay = (function() {
+    var timer = 0;
+    return function(callback, ms) {
+      clearTimeout(timer);
+      timer = setTimeout(callback, ms);
+    };
+  })();
 
   filmChannel.join()
     .receive("ok", resp => { console.log("Joined film channel successfully", resp) })
