@@ -7,7 +7,7 @@
         <input type="text" class="form-control" id="people-search-bar">
       </div>
       <div id="people-list">
-        <%= render "people.html", conn: @conn, people_index_views: @people_index_views %>
+        <%= render "people.html", people_index_views: @people_index_views %>
       </div>
     </div>
   </div>

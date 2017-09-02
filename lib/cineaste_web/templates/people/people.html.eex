@@ -1,7 +1,7 @@
 <div class="hidden-xs" style="display: flex; flex-wrap: wrap; justify-content: center;">
   <%= for view <- @people_index_views do %>
     <div style="text-align: center; display: inline-block; max-width: 110px; min-width: 110px; margin: 5px;">
-      <%= raw render_image_link(@conn, view) %>
+      <%= raw render_image_link(view) %>
       <br/>
       <%= raw render_index_display_name(view.display_name) %>
       <br/>
@@ -13,7 +13,7 @@
   <ul class="index">
     <%= for view <- @people_index_views do %>
     <li>
-      <%= render_link(@conn, view) %>
+      <%= render_link(view) %>
     </li>
     <% end %>
   </ul>

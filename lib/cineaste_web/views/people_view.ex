@@ -4,23 +4,23 @@ defmodule CineasteWeb.PeopleView do
   alias Cineaste.Person
   alias CineasteWeb.S3View
 
-  def render_link(conn, view) do
+  def render_link(view) do
     case view.type do
       "person" ->
         family_name = Enum.at(view.display_name, 0)
         given_name = Enum.at(view.display_name, 1)
-        link raw("<span class=\"table-header\">#{family_name}</span> #{given_name}"), to: people_path(conn, :show_person, view.id)
+        raw "<a href=\"/people/person/#{view.id}\"><span class=\"table-header\">#{family_name}</span> #{given_name}</a>"
       "group" ->
-        link raw("<span class=\"table-header\">#{view.display_name}</span>"), to: people_path(conn, :show_group, view.id)
+        raw "<a href=\"/people/group/#{view.id}\"><span class=\"table-header\">#{view.display_name}</span></a>"
     end
   end
 
-  def render_image_link(conn, view) do
+  def render_image_link(view) do
     case view.type do
       "person" ->
-        raw link raw("<img class=\"img-circle shadowed\" src=\"#{render_person_profile_pic(view.id)}\" height=\"100px\" width=\"100px\">"), to: people_path(conn, :show_person, view.id)
+        raw "<a href=\"/people/person/#{view.id}\"><img class=\"img-circle shadowed\" src=\"#{render_person_profile_pic(view.id)}\" height=\"100px\" width=\"100px\"></a>"
       "group" ->
-        raw link raw("<img class=\"img-circle shadowed\" src=\"#{render_group_profile_pic(view.id)}\" height=\"100px\" width=\"100px\">"), to: people_path(conn, :show_group, view.id)
+        raw "<a href=\"/people/group/#{view.id}\"><img class=\"img-circle shadowed\" src=\"#{render_group_profile_pic(view.id)}\" height=\"100px\" width=\"100px\"></a>"
     end
   end
 
