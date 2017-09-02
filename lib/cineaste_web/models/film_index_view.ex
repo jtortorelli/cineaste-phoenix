@@ -2,7 +2,6 @@ defmodule Cineaste.FilmIndexView do
   use Cineaste.Web, :model
 
   @primary_key false
-  @derive {Poison.Encoder, except: [:__meta__]}
   schema "film_index_view" do
     field :id, Ecto.UUID
     field :title, :string

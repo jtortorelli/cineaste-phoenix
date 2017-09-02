@@ -3,6 +3,7 @@ defmodule CineasteWeb.UserSocket do
 
   ## Channels
   # channel "room:*", Cineaste.RoomChannel
+  channel "film:*", CineasteWeb.FilmChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket,

@@ -19,7 +19,7 @@ defmodule Cineaste.Mixfile do
   def application do
     [mod: {Cineaste, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex, :timex, :poison, :earmark, :httpoison]]
+                    :phoenix_ecto, :postgrex, :timex, :earmark, :httpoison]]
   end
 
   # Specifies which paths to compile per environment.
@@ -39,7 +39,6 @@ defmodule Cineaste.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:timex, "~> 3.1.24"},
-     {:poison, "~> 3.0", override: true},
      {:earmark, "~>1.2.0"},
      {:httpoison, "~>0.11.2"}]
   end
