@@ -6,11 +6,20 @@
         <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
         <input v-model="searchTerm" type="text" class="form-control" id="film-search">
       </div>
-      <div>
+      <div class="hidden-xs" style="display: flex; flex-wrap: wrap; justify-content: left;">
+        <%= for view <- @film_index_views do %>
+          <div style="text-align: center; display: inline-block; max-width: 150px; min-width: 150px;">
+            <%= render_film_link(@conn, view) %>
+            <span class="table-header"><%= view.title %></span><br/>
+            <span class="subdue"><%= view.year %></span>
+          </div>
+        <% end %>
+      </div>
+      <div class="visible-xs-block">
         <ul class="index">
           <%= for view <- @film_index_views do %>
           <li>
-            <%= link "#{view.title} (#{view.year})", to: film_path(@conn, :show, view.id) %>
+            <%= link raw("<span class=\"table-header\">#{view.title}</span> <span class=\"thin\">(#{view.year})</span>"), to: film_path(@conn, :show, view.id) %>
           </li>
           <% end %>
         </ul>

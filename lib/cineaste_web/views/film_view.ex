@@ -83,6 +83,10 @@ defmodule CineasteWeb.FilmView do
     S3View.get_poster_url()
   end
 
+  def render_film_link(conn, view) do
+    raw link raw("<img class=\"img-rounded shadowed\" src=\"#{render_poster(view.id)}\" width=\"135\" height=\"200\" style=\"margin-bottom: 5px;\">"), to: film_path(conn, :show, view.id)
+  end
+
   def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "person"}) do
     link "#{text}", to: people_path(conn, :show_person, id)
   end
