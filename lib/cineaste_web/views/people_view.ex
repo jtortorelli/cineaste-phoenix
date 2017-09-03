@@ -181,4 +181,29 @@ defmodule CineasteWeb.PeopleView do
     CommonView.render_table_row("Active Period", period)
   end
 
+  def filter_people_list(people_list, searchTerm) do
+    searchTerms = String.split(searchTerm)
+    Enum.filter(people_list, fn(p) -> filter_people(p, searchTerms) end)
+  end
+
+  def filter_people(%{type: "person"} = person_view, searchTerms) do
+    containsSearchTerm(Enum.join(person_view.display_name, " "), searchTerms) or containsSearchTerm(person_view.aliases, searchTerms)
+  end
+
+  def filter_people(%{type: "group"} = group_view, searchTerms) do
+    containsSearchTerm(Enum.at(group_view.display_name, 0), searchTerms) or containsSearchTerm(group_view.members, searchTerms)
+  end
+
+  def containsSearchTerm(nil, _) do
+    false
+  end
+
+  def containsSearchTerm([_h | _t] = fields, searchTerms) do
+    Enum.any?(fields, fn(f) -> containsSearchTerm(f, searchTerms) end)
+  end
+
+  def containsSearchTerm(field, searchTerms) do
+    Enum.all?(searchTerms, fn(term) -> String.contains?(String.downcase(field), String.downcase(term)) end)
+  end
+
 end

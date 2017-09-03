@@ -6,7 +6,7 @@
         <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
         <input type="text" class="form-control" id="people-search-bar">
       </div>
-      <div id="people-list">
+      <div id="people-lists">
         <%= render "people.html", people_index_views: @people_index_views %>
       </div>
     </div>

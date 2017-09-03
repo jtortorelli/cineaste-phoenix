@@ -57,8 +57,14 @@ $(document).ready(function() {
 
   // Now that you are connected, you can join channels with a topic:
   let filmChannel = socket.channel("film:lobby", {})
+  let peopleChannel = socket.channel("people:lobby", {})
   let filmSearch = $("#film-search-bar")
+  let peopleSearch = $("#people-search-bar")
   let filmListsContainer = $("#film-lists")
+  let peopleListsContainer = $("#people-lists")
+
+  filmSearch.val('')
+  peopleSearch.val('')
 
   filmSearch.on("keyup", function() {
     delay(function() {
@@ -66,8 +72,18 @@ $(document).ready(function() {
     }, 500);
   })
 
+  peopleSearch.on("keyup", function() {
+    delay(function() {
+      peopleChannel.push("people:filter", {body: peopleSearch.val()})
+    }, 500);
+  })
+
   filmChannel.on("film:filtered", payload => {
     filmListsContainer.html(payload.html)
+  })
+
+  peopleChannel.on("people:filtered", payload => {
+    peopleListsContainer.html(payload.html)
   })
 
   var delay = (function() {
@@ -82,6 +98,9 @@ $(document).ready(function() {
     .receive("ok", resp => { console.log("Joined film channel successfully", resp) })
     .receive("error", resp => { console.log("Unable to join film channel", resp) })
 
+  peopleChannel.join()
+    .receive("ok", resp => { console.log("Joined people channel successfully", resp) })
+    .receive("error", resp => { console.log("Unable to join people channel", resp) })
 })
 
 
