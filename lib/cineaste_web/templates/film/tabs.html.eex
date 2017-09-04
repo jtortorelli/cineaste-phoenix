@@ -3,7 +3,12 @@
     <li role="presentation" class="active">
       <a href="#overview" aria-controls="overview" role="tab" data-toggle="tab">Overview</a>
     </li>
-    <%= if !Enum.empty?(@gallery_images) do %>
+    <%= if @has_cast do %>
+      <li role="presentation">
+        <a href="#cast" aria-controls="cast" role="tab" data-toggle="tab">Cast</a>
+      </li>
+    <% end %>
+    <%= if @has_gallery do %>
       <li role="presentation">
         <a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">Gallery</a>
       </li>

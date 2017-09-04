@@ -37,16 +37,20 @@ defmodule CineasteWeb.FilmController do
     film_image_names = Repo.all(from image in FilmImage, where: image.film_id == ^film.id and image.type == "gallery", order_by: image.file_name)
     |> Enum.map(fn(x) -> x.file_name end)
 
+    has_gallery = not Enum.empty?(film_image_names)
+
     film_cast_views = Repo.all(from view in FilmCastView, where: view.film_id == ^film.id, order_by: view.order)
 
     top_billed_cast = Enum.filter(film_cast_views, fn x -> x.order < 99 end)
 
     other_cast = Enum.filter(film_cast_views, fn x -> x.order >= 99 end) |> Enum.sort_by(fn(view) -> view.names.sort_name end)
 
+    has_cast = not Enum.empty?(Enum.concat(top_billed_cast, other_cast))
+
     film_synopsis = HTTPoison.get!(S3View.get_film_synopsis_url(film.id)).body
     |> Earmark.as_html!
 
-    render conn, "show.html", film: film, film_staff_views: film_staff_views, top_billed_cast: top_billed_cast, other_cast: other_cast, synopsis: film_synopsis, gallery_images: film_image_names
+    render conn, "show.html", film: film, film_staff_views: film_staff_views, top_billed_cast: top_billed_cast, other_cast: other_cast, has_cast: has_cast, synopsis: film_synopsis, gallery_images: film_image_names, has_gallery: has_gallery
   end
 
   defp _render_film_page(conn, _) do

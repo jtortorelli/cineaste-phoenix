@@ -1,9 +1,12 @@
 <div class="container">
 <h2><%= @film.title %></h2>
-<%= render "tabs.html", gallery_images: @gallery_images %>
+<%= render "tabs.html", has_gallery: @has_gallery, has_cast: @has_cast %>
 <div class="tab-content">
-  <%= render "overview.html", conn: @conn, film: @film, film_staff_views: @film_staff_views, top_billed_cast: @top_billed_cast, other_cast: @other_cast, synopsis: @synopsis %>
-  <%= if !Enum.empty?(@gallery_images) do %>
+  <%= render "overview.html", conn: @conn, film: @film, film_staff_views: @film_staff_views, synopsis: @synopsis %>
+  <%= if @has_cast do %>
+    <%= render "cast.html", conn: @conn, top_billed_cast: @top_billed_cast, other_cast: @other_cast %>
+  <% end %>
+  <%= if @has_gallery do %>
     <%= render_gallery(@film.id, @gallery_images) %>
   <% end %>
 </div>

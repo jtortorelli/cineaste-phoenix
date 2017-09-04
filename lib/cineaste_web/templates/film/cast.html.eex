@@ -1,2 +1,9 @@
-<%= render_top_billed_cast(@conn, @top_billed_cast) %>
-<%= render_other_cast(@conn, @other_cast) %>
+<div role="tabpanel" class="tab-pane fade" id="cast">
+  <div class="container">
+    <div class="row">
+      <%= render_top_billed_cast(@conn, @top_billed_cast) %>
+      <%= render_other_cast(@conn, @other_cast) %>
+    </div>
+  </div>
+</div>
+

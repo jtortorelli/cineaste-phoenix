@@ -28,7 +28,7 @@ body {
 }
 
 #overview {
-  font-family: $roboto-condensed;
+  font-family: $roboto;
 }
 
 #synopsis-modal {
@@ -98,10 +98,16 @@ a.image-link {
   font-weight: 900;
   text-transform: uppercase;
   border-bottom: 0;
-  li > a, li:hover > a, li.active > a:hover, li.active > a, li.active > a:focus {
+  li > a, li:hover > a {
     border: 0;
     background-color: transparent;
     font-size: 14px;
+  }
+  li.active > a, li.active > a:hover, li.active > a:focus {
+    border: 0;
+    background-color: #ca2936;
+    color: white;
+    border-radius: 7px 7px 7px 7px;
   }
 }
 

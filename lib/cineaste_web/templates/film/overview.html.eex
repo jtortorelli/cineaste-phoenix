@@ -1,33 +1,28 @@
   <div role="tabpanel" class="tab-pane fade in active" id="overview">
     <div class="container">
-    <div class="row">
-      <div class="col-md-4">
-        <div id="poster">
-          <table class="table table-nonfluid">
-            <thead><span class="table-header">Poster</span></thead>
-            <tr>
-              <td>
-                <img class="img-rounded shadowed" src="<%= render_poster(@film.id) %>" height="400" width="270" />
-              </td>
-            </tr>
-          </table>
+      <div class="row">
+        <div class="col-md-4">
+          <div id="poster">
+            <table class="table table-nonfluid">
+              <thead><span class="table-header">Poster</span></thead>
+              <tr>
+                <td>
+                  <img class="img-rounded shadowed" src="<%= render_poster(@film.id) %>" height="400" width="270" />
+                </td>
+              </tr>
+            </table>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div id="info">
-          <%= render "info.html", film: @film, synopsis: @synopsis, conn: @conn %>
+        <div class="col-md-4">
+          <div id="info">
+            <%= render "info.html", film: @film, synopsis: @synopsis, conn: @conn %>
+          </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div id="staff">
-          <%= render "staff.html", film_staff_views: @film_staff_views, conn: @conn %>
+        <div class="col-md-4">
+          <div id="staff">
+            <%= render "staff.html", film_staff_views: @film_staff_views, conn: @conn %>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <%= render "cast.html", conn: @conn, top_billed_cast: @top_billed_cast, other_cast: @other_cast %>
-      </div>
-    </div>
-  </div>
   </div>
