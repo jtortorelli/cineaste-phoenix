@@ -13,5 +13,10 @@
         <a href="#gallery" aria-controls="gallery" role="tab" data-toggle="tab">Gallery</a>
       </li>
     <% end %>
+    <%= if @credits do %>
+      <li role="presentation">
+        <a href="#credits" aria-controls="credits" role="tab" data-toggle="tab">Credits</a>
+      </li>
+    <% end %>
   </ul>
 </div>

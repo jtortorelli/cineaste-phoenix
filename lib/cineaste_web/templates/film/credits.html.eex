@@ -1,0 +1,8 @@
+<div role="tabpanel" class="tab-pane fade" id="credits">
+  <div class="container">
+    <div class="row">
+      <span class="table-header">Complete Cast & Credits</span>
+      <%= raw @credits %>
+    </div>
+  </div>
+</div>

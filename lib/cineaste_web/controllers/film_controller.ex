@@ -8,6 +8,7 @@ defmodule CineasteWeb.FilmController do
   alias Cineaste.Film
   alias Cineaste.FilmImage
   alias CineasteWeb.FilmMonitor
+  require Logger
 
 
   def index(conn, _params) do
@@ -50,7 +51,9 @@ defmodule CineasteWeb.FilmController do
     film_synopsis = HTTPoison.get!(S3View.get_film_synopsis_url(film.id)).body
     |> Earmark.as_html!
 
-    render conn, "show.html", film: film, film_staff_views: film_staff_views, top_billed_cast: top_billed_cast, other_cast: other_cast, has_cast: has_cast, synopsis: film_synopsis, gallery_images: film_image_names, has_gallery: has_gallery
+    credits = _get_film_credits(HTTPoison.get!(S3View.get_film_credits_url(film.id)))
+
+    render conn, "show.html", film: film, film_staff_views: film_staff_views, top_billed_cast: top_billed_cast, other_cast: other_cast, has_cast: has_cast, synopsis: film_synopsis, gallery_images: film_image_names, has_gallery: has_gallery, credits: credits
   end
 
   defp _render_film_page(conn, _) do
@@ -61,6 +64,17 @@ defmodule CineasteWeb.FilmController do
     conn
     |> put_status(404)
     |> render(ErrorView, :"404", message: "The thing was not found")
+  end
+
+  defp _get_film_credits(%HTTPoison.Response{status_code: 200, body: body}) do
+    String.replace(body, ",,,", "| | | | |")
+    |> String.replace(",", " | ")
+    |> Earmark.as_html!
+    |> String.replace("<table>", "<table class=\"table table-nonfluid no-border table-striped\">")
+  end
+
+  defp _get_film_credits(_) do
+    nil
   end
 
 end

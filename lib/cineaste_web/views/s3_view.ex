@@ -49,6 +49,14 @@ defmodule CineasteWeb.S3View do
     |> Kernel.<>(".md")
   end
 
+  def get_film_credits_url(film_id) do
+    get_base_text_url()
+    |> Kernel.<>(Application.get_env(:cineaste, :s3)[:credits])
+    |> Kernel.<>("/")
+    |> Kernel.<>(film_id)
+    |> Kernel.<>(".csv")
+  end
+
   def get_bio_url(type, id) do
     get_base_text_url()
     |> Kernel.<>(Application.get_env(:cineaste, :s3)[:bios])

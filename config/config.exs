@@ -32,7 +32,8 @@ config :cineaste, :s3,
   profiles: "/profiles",
   site_images: "/site",
   synopses: "/synopses",
-  bios: "/bios"
+  bios: "/bios",
+  credits: "/credits"
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
