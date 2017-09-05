@@ -67,10 +67,15 @@ defmodule CineasteWeb.FilmController do
   end
 
   defp _get_film_credits(%HTTPoison.Response{status_code: 200, body: body}) do
-    String.replace(body, ",,,", "| | | | |")
-    |> String.replace(",", " | ")
+    convert = fn(row, acc) ->
+      [a , b , c , d] = String.trim(row) |> String.split(",")
+      acc <> "| #{a}<br/>#{c} | #{b}<br/>#{d} |\n"
+    end
+
+    String.split(body, "\r\n")
+    |> Enum.reduce("", fn(row, acc) -> convert.(row, acc) end)
     |> Earmark.as_html!
-    |> String.replace("<table>", "<table class=\"table table-nonfluid no-border table-striped\">")
+    |> String.replace("<table>", "<table class=\"table table-nonfluid table-striped\">")
   end
 
   defp _get_film_credits(_) do
