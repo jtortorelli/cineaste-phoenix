@@ -3200,6 +3200,7 @@ c07b56b1-7660-4e4b-b16c-33e14bf1cb73	Shinji	Kojima	M	f	\N	\N	\N	\N	\N	\N
 cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "month": 7}	{"day": 5, "year": 2016, "month": 1}	Aichi, Japan	\N	\N	{"original_name": "小川 信夫"}
 86d95011-4e64-4a38-ab69-3d9004bbf00a	Koichi	Kawakita	M	f	{"day": 5, "year": 1942, "month": 12}	{"day": 5, "year": 2014, "month": 12}	Nihonbashi, Chuo, Tokyo, Japan	\N	\N	{"original_name": "川北 紘一"}
 9b787e61-5c06-463d-aa62-18c142735fc8	Haruo	Nakajima	M	t	{"day": 1, "year": 1929, "month": 1}	{"day": 7, "year": 2017, "month": 8}	Sakata, Yamagata, Japan	\N	\N	{"original_name": "&#20013;&#23798; &#26149;&#38596;"}
+69c969a1-30fc-4533-b90c-bd400cfaac72	Tatsuo	Kita	M	f	\N	\N	\N	\N	\N	{"original_name": "北 辰雄"}
 \.
 
 
@@ -3675,19 +3676,6 @@ ba6031ef-c7b0-451c-8465-cb2a3c494896	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Specia
 653335e2-101e-4303-90a2-eb71dac3c6e3	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	10
 653335e2-101e-4303-90a2-eb71dac3c6e3	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects	11
 653335e2-101e-4303-90a2-eb71dac3c6e3	c7826ac4-c962-4f2e-b62b-b0258eeadbee	Editor	16
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-1
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	730e679a-bb91-449b-86fb-3384fc4b9720	Original Story	2
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	84c442af-6bd6-4e53-93c6-f4b213175de4	Screenplay	3
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	61b4cc3d-d5bd-4e56-9b40-ae56497e3e88	Screenplay	4
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	5f8cfa7b-c504-4902-bd08-e030af359323	Cinematography	5
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	c70d0b2e-8511-4bfb-8527-808b3fef2a09	Art Director	6
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	177089db-5eef-4ab2-8d7a-cf11693545ca	Sound Recording	7
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Lighting	8
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	9
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	10
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Assistant Director	15
-56dab76c-fc4d-4547-b2fe-3a743154f1d5	d1e73155-2bf5-4378-929f-277d92e5e2ae	Editor	16
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	a1d942b8-21be-40de-be75-6a2d63a7d5f8	Director	-1
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	a5e97a63-5c15-41ba-85c9-71f2c7af4f01	Producer	1
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	3d231f5f-cbda-4086-ac77-7403eac26317	Original Story	3
@@ -4178,6 +4166,19 @@ bc28d5c1-e623-43b0-b097-c58ac18680bd	36017e21-c720-40c2-9284-4c84ef41869b	Co-Dir
 bc28d5c1-e623-43b0-b097-c58ac18680bd	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	16
 bc28d5c1-e623-43b0-b097-c58ac18680bd	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	22
 bc28d5c1-e623-43b0-b097-c58ac18680bd	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Assistant Director	30
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-1
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	730e679a-bb91-449b-86fb-3384fc4b9720	Original Story	2
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	84c442af-6bd6-4e53-93c6-f4b213175de4	Screenplay	3
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	61b4cc3d-d5bd-4e56-9b40-ae56497e3e88	Screenplay	4
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	5f8cfa7b-c504-4902-bd08-e030af359323	Cinematography	5
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	69c969a1-30fc-4533-b90c-bd400cfaac72	Art Director	6
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	177089db-5eef-4ab2-8d7a-cf11693545ca	Sound Recording	7
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Lighting	8
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	9
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	10
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Assistant Director	15
+56dab76c-fc4d-4547-b2fe-3a743154f1d5	d1e73155-2bf5-4378-929f-277d92e5e2ae	Editor	16
 \.
 
 
