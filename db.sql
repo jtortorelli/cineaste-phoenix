@@ -2818,7 +2818,6 @@ cae2fb10-3188-41b9-9a7f-d23a5d8f9eb2	Junpei	Natsuki	M	t	{"day": 15, "year": 1918
 9c7cc495-89cb-4892-8d6f-0308ac4b1c54	Kamatari	Fujiwara	M	t	{"day": 15, "year": 1905, "month": 1}	{"day": 21, "year": 1985, "month": 12}	Tokyo, Japan	\N	\N	{"original_name": "&#34276;&#21407; &#37340;&#36275;"}
 54bbf86b-1738-4b48-a846-745cac5fd622	Koji	Furuhata	M	t	\N	\N	\N	\N	\N	{"original_name": "&#21476;&#30033; &#24344;&#20108;"}
 505a2aab-1965-4e16-a6b4-697e14d85d1a	Akira	Sera	M	t	{"day": 14, "year": 1912, "month": 10}	{"unknown": 1}	Azino, Kojima, Okayama, Japan	\N	\N	{"birth_name": "Akira Watanabe (&#28193;&#36794; &#31456;)", "original_name": "&#28716;&#33391; &#26126;"}
-06adecc6-cbbe-4893-a916-16e683448590	Yoshio	Tsuchiya	M	t	{"day": 18, "year": 1927, "month": 5}	\N	Yamanashi, Japan	\N	\N	{"original_name": "&#22303;&#23627; &#22025;&#30007;"}
 ecb241cd-e5e8-4239-a084-3fc522475618	George	Furness	M	t	{"year": 1896}	{"day": 2, "year": 1985, "month": 4}	New Jersey, United States	\N	\N	{"japanese_name": "&#12472;&#12519;&#12540;&#12472;&#12539;A&#12539;&#12501;&#12449;&#12540;&#12493;&#12473;"}
 bdd9d156-3b37-4094-b65a-162ce892674d	Eitaro	Ozawa	M	t	{"day": 27, "year": 1909, "month": 3}	{"day": 23, "year": 1988, "month": 4}	Tamura, Shiba, Tokyo, Japan	Zushi, Kanagawa, Japan	\N	{"original_name": "&#23567;&#27810; &#26628;&#22826;&#37070;"}
 006a5098-4f81-40eb-8f8e-785e6f43a956	Toshiro	Mifune	M	t	{"day": 1, "year": 1920, "month": 4}	{"day": 24, "year": 1997, "month": 12}	Qingdao, China	Mitaka, Tokyo, Japan	\N	{"original_name": "&#19977;&#33337; &#25935;&#37070;"}
@@ -3201,6 +3200,7 @@ cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "
 86d95011-4e64-4a38-ab69-3d9004bbf00a	Koichi	Kawakita	M	f	{"day": 5, "year": 1942, "month": 12}	{"day": 5, "year": 2014, "month": 12}	Nihonbashi, Chuo, Tokyo, Japan	\N	\N	{"original_name": "川北 紘一"}
 9b787e61-5c06-463d-aa62-18c142735fc8	Haruo	Nakajima	M	t	{"day": 1, "year": 1929, "month": 1}	{"day": 7, "year": 2017, "month": 8}	Sakata, Yamagata, Japan	\N	\N	{"original_name": "&#20013;&#23798; &#26149;&#38596;"}
 69c969a1-30fc-4533-b90c-bd400cfaac72	Tatsuo	Kita	M	f	\N	\N	\N	\N	\N	{"original_name": "北 辰雄"}
+06adecc6-cbbe-4893-a916-16e683448590	Yoshio	Tsuchiya	M	t	{"day": 18, "year": 1927, "month": 5}	{"day": 2, "year": 2017, "month": 2}	Yamanashi, Japan	\N	\N	{"original_name": "&#22303;&#23627; &#22025;&#30007;"}
 \.
 
 
