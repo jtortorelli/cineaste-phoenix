@@ -3137,7 +3137,6 @@ f4d4339a-2409-4d7c-a54c-b3696b9cbd43	Kohei	Ezaki	M	f	{"day": 15, "year": 1904, "
 0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Yoshiro	Muraki	M	f	{"day": 15, "year": 1924, "month": 8}	{"day": 26, "year": 2009, "month": 10}	Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "村木 与四郎"}
 dc03d84b-d92e-40f7-af3c-40caf85e6eca	Ichio	Yamazaki	M	f	\N	\N	\N	\N	\N	{"original_name": "山崎 市雄"}
 1af80cca-3720-4976-b0ef-9e16cf7d871f	Ichiro	Inohara	M	f	\N	\N	\N	\N	\N	{"original_name": "猪原 一郎"}
-b49cb604-cad2-484b-ab34-9d6d5951dc70	Kenzo	Murakami	M	f	{"day": 14, "year": 1910, "month": 3}	{"day": 3, "year": 2006, "month": 4}	Gangwon-do, Korea	Setagaya, Tokyo, Japan	\N	{"original_name": "村上 元三"}
 425a85c7-ebd8-4927-9f8b-a1a3806f0a40	Kazuo	Miyagawa	M	f	{"day": 25, "year": 1908, "month": 2}	{"day": 7, "year": 1999, "month": 8}	Oike, Kawaramachi, Kyoto, Japan	\N	\N	{"original_name": "宮川 一夫"}
 6160b33a-a5f4-4217-993b-f258ff344777	Shiro	Moritani	M	f	{"day": 28, "year": 1931, "month": 9}	{"day": 2, "year": 1984, "month": 12}	Tokyo, Japan	\N	\N	{"original_name": "森谷 司郎"}
 95cd36b0-b16e-4beb-a0ef-ac32519075e6	Shugoro	Yamamoto	M	f	{"day": 22, "year": 1903, "month": 6}	{"day": 14, "year": 1967, "month": 2}	Hatsukari, Kitatsuru, Yamanashi, Japan	Honmoku, Naka, Yokohama, Kanagawa, Japan	\N	{"original_name": "山本 周五郎"}
@@ -3201,6 +3200,7 @@ cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "
 9b787e61-5c06-463d-aa62-18c142735fc8	Haruo	Nakajima	M	t	{"day": 1, "year": 1929, "month": 1}	{"day": 7, "year": 2017, "month": 8}	Sakata, Yamagata, Japan	\N	\N	{"original_name": "&#20013;&#23798; &#26149;&#38596;"}
 69c969a1-30fc-4533-b90c-bd400cfaac72	Tatsuo	Kita	M	f	\N	\N	\N	\N	\N	{"original_name": "北 辰雄"}
 06adecc6-cbbe-4893-a916-16e683448590	Yoshio	Tsuchiya	M	t	{"day": 18, "year": 1927, "month": 5}	{"day": 2, "year": 2017, "month": 2}	Yamanashi, Japan	\N	\N	{"original_name": "&#22303;&#23627; &#22025;&#30007;"}
+b49cb604-cad2-484b-ab34-9d6d5951dc70	Genzo	Murakami	M	f	{"day": 14, "year": 1910, "month": 3}	{"day": 3, "year": 2006, "month": 4}	Gangwon-do, Korea	Setagaya, Tokyo, Japan	\N	{"original_name": "村上 元三"}
 \.
 
 
