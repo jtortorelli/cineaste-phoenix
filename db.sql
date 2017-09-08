@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.6.1
--- Dumped by pg_dump version 9.6.1
+-- Dumped from database version 9.6.5
+-- Dumped by pg_dump version 9.6.5
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2786,7 +2786,6 @@ c0aaff10-a67a-4304-a3c3-875a00348870	Junichiro	Mukai	M	t	{"day": 4, "year": 1927
 20079bf2-7dc2-4e24-83bc-16f43af26cc6	Minoru	Chiaki	M	t	{"day": 28, "year": 1917, "month": 4}	{"day": 1, "year": 1999, "month": 11}	Onnenai, Nakagawa, Hokkaido, Japan	Fuchu, Tokyo, Japan	\N	{"birth_name": "Katsuji Sasaki (&#20304;&#12293;&#26408; &#21213;&#27835;)", "original_name": "&#21315;&#31179; &#23455;"}
 12f88b8e-e9ba-4771-9c4d-786dc69c24af	Yuji	Koseki	M	t	{"day": 11, "year": 1909, "month": 8}	{"day": 18, "year": 1989, "month": 8}	Fukushima, Japan	\N	\N	{"original_name": "&#21476;&#38306; &#35029;&#32780;"}
 d9b9fe70-61d5-477e-b927-453ab57591c9	Haruya	Kato	M	t	{"day": 22, "year": 1928, "month": 6}	\N	Minato, Tokyo, Japan	\N	\N	{"original_name": "&#21152;&#34276; &#26149;&#21705;"}
-b41f2e59-2044-488c-b56f-8d3cfad0464c	Kozo	Nomura	M	t	{"day": 22, "year": 1931, "month": 12}	\N	Nerima, Toshima, Tokyo, Japan	\N	\N	{"birth_name": "Kazuhiro Osao (&#23614;&#26873; &#19968;&#28009;)", "original_name": "&#37326;&#26449; &#28009;&#19977;"}
 4ba64419-409e-4f61-bd6e-d4a651cfe3e5	Akira	Kubo	M	t	{"day": 1, "year": 1936, "month": 12}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Yasuyoshi Yamauchi (&#23665;&#20869; &#24247;&#20736;)", "original_name": "&#20037;&#20445; &#26126;"}
 65a0d327-c858-475a-9648-63eb3eecd3a8	Keiju	Kobayashi	M	t	{"day": 23, "year": 1923, "month": 11}	{"day": 16, "year": 2010, "month": 9}	Murota, Gunma, Japan	Minato, Tokyo, Japan	\N	{"original_name": "&#23567;&#26519; &#26690;&#27193;"}
 737e6959-4253-4ff2-abff-b6da339f2774	Ryo	Ikebe	M	t	{"day": 11, "year": 1918, "month": 2}	{"day": 8, "year": 2010, "month": 10}	Omori, Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "&#27744;&#37096; &#33391;"}
@@ -3201,6 +3200,7 @@ cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "
 69c969a1-30fc-4533-b90c-bd400cfaac72	Tatsuo	Kita	M	f	\N	\N	\N	\N	\N	{"original_name": "北 辰雄"}
 06adecc6-cbbe-4893-a916-16e683448590	Yoshio	Tsuchiya	M	t	{"day": 18, "year": 1927, "month": 5}	{"day": 2, "year": 2017, "month": 2}	Yamanashi, Japan	\N	\N	{"original_name": "&#22303;&#23627; &#22025;&#30007;"}
 b49cb604-cad2-484b-ab34-9d6d5951dc70	Genzo	Murakami	M	f	{"day": 14, "year": 1910, "month": 3}	{"day": 3, "year": 2006, "month": 4}	Gangwon-do, Korea	Setagaya, Tokyo, Japan	\N	{"original_name": "村上 元三"}
+b41f2e59-2044-488c-b56f-8d3cfad0464c	Kozo	Nomura	M	t	{"day": 22, "year": 1931, "month": 12}	\N	Nerima, Toshima, Tokyo, Japan	\N	{"Akiji Nomura (野村明司)"}	{"birth_name": "Kazuhiro Osao (&#23614;&#26873; &#19968;&#28009;)", "original_name": "&#37326;&#26449; &#28009;&#19977;"}
 \.
 
 
