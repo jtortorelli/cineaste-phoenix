@@ -3031,7 +3031,6 @@ df40aa02-23ca-407e-96ba-0aceacdbbdea	Yukio	Ito	M	f	\N	\N	\N	\N	\N	{"original_nam
 1715410d-9cf0-4ecd-9857-4fb5f1bd4b97	Tadashi	Yamanouchi	M	f	{"day": 22, "year": 1927, "month": 8}	{"day": 20, "year": 1980, "month": 12}	Tokyo, Japan	\N	\N	{"original_name": "山内 正"}
 09aaa976-2352-491d-b7d1-27bf5b0fd8c5	Tatsuji	Nakashizuka	M	f	\N	\N	\N	\N	\N	{"original_name": "中静 達治"}
 334edb75-cdf8-4c2f-b22f-7697030a7701	Shigeo	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_name": "田中 重雄"}
-8f0d87f4-a164-4c5a-af72-3d85ba1449ee	Misao	Takahashi	M	f	{"day": 10, "year": 1905, "month": 1}	{"day": 3, "year": 1993, "month": 11}	Tokyo, Japan	\N	\N	{"original_name": "高橋 通夫"}
 1ccef90e-d58d-4bbc-996a-08005f93cd9d	Tokuji	Shibata	M	f	\N	\N	\N	\N	\N	{"original_name": "柴田 篤二"}
 3eb06002-3915-448e-a679-6fc538a995f1	Yukio	Okumura	M	f	\N	\N	\N	\N	\N	{"original_name": "奥村 幸雄"}
 1c177c21-bbf9-4d93-9986-ec61102dbb87	Tsunekichi	Shibata	M	f	\N	\N	\N	\N	\N	{"original_name": "柴田 恒吉"}
@@ -3201,6 +3200,7 @@ cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "
 06adecc6-cbbe-4893-a916-16e683448590	Yoshio	Tsuchiya	M	t	{"day": 18, "year": 1927, "month": 5}	{"day": 2, "year": 2017, "month": 2}	Yamanashi, Japan	\N	\N	{"original_name": "&#22303;&#23627; &#22025;&#30007;"}
 b49cb604-cad2-484b-ab34-9d6d5951dc70	Genzo	Murakami	M	f	{"day": 14, "year": 1910, "month": 3}	{"day": 3, "year": 2006, "month": 4}	Gangwon-do, Korea	Setagaya, Tokyo, Japan	\N	{"original_name": "村上 元三"}
 b41f2e59-2044-488c-b56f-8d3cfad0464c	Kozo	Nomura	M	t	{"day": 22, "year": 1931, "month": 12}	\N	Nerima, Toshima, Tokyo, Japan	\N	{"Akiji Nomura (野村明司)"}	{"birth_name": "Kazuhiro Osao (&#23614;&#26873; &#19968;&#28009;)", "original_name": "&#37326;&#26449; &#28009;&#19977;"}
+8f0d87f4-a164-4c5a-af72-3d85ba1449ee	Michio	Takahashi	M	f	{"day": 10, "year": 1905, "month": 1}	{"day": 3, "year": 1993, "month": 11}	Tokyo, Japan	\N	\N	{"original_name": "高橋 通夫"}
 \.
 
 
