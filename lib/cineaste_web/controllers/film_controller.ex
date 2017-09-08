@@ -10,6 +10,8 @@ defmodule CineasteWeb.FilmController do
   alias CineasteWeb.FilmMonitor
   require Logger
 
+  NimbleCSV.define(MyParser, [])
+
 
   def index(conn, _params) do
     film_index_views = Repo.all(FilmIndexView) |> Enum.sort_by(fn(view) -> FilmIndexView.sort_title(view) end)
@@ -67,13 +69,9 @@ defmodule CineasteWeb.FilmController do
   end
 
   defp _get_film_credits(%HTTPoison.Response{status_code: 200, body: body}) do
-    convert = fn(row, acc) ->
-      [a , b , c , d] = String.trim(row) |> String.split(",")
-      acc <> "| #{a}<br/>#{c} | #{b}<br/>#{d} |\n"
-    end
-
-    String.split(body, "\r\n")
-    |> Enum.reduce("", fn(row, acc) -> convert.(row, acc) end)
+    MyParser.parse_string(body, headers: false)
+    |> Enum.map(fn[a,b,c,d] -> "| #{a}<br/>#{c} | #{b}<br/>#{d} |" end)
+    |> Enum.join("\n")
     |> Earmark.as_html!
     |> String.replace("<table>", "<table class=\"table table-nonfluid table-striped\">")
   end

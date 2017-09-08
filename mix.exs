@@ -40,7 +40,8 @@ defmodule Cineaste.Mixfile do
      {:cowboy, "~> 1.0"},
      {:timex, "~> 3.1.24"},
      {:earmark, "~>1.2.0"},
-     {:httpoison, "~>0.11.2"}]
+     {:httpoison, "~>0.11.2"},
+     {:nimble_csv, "~>0.2.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
