@@ -2899,7 +2899,6 @@ fea4a4e7-4d03-4b5b-add0-3a545a2ccb21	Tatsuo	Matsumura	M	t	{"day": 18, "year": 19
 5e35fe94-1c41-4e60-a400-aa44c201deb1	Yosuke	Natsuki	M	t	{"day": 27, "year": 1936, "month": 2}	\N	Hachioji, Tokyo, Japan	\N	\N	{"birth_name": "Tamotsu Akuzawa (&#38463;&#20037;&#27810; &#26377;)", "original_name": "&#22799;&#26408; &#38525;&#20171;"}
 ff1185b5-9359-441b-8c3d-cd6ea90d67b9	Norihei	Miki	M	t	{"day": 11, "year": 1924, "month": 4}	{"day": 25, "year": 1999, "month": 1}	Hama, Nihonbashi, Tokyo, Japan	\N	\N	{"birth_name": "Tadashi Tanuma (&#30000;&#27836; &#21063;&#23376;)", "original_name": "&#19977;&#26408; &#12398;&#12426;&#24179;"}
 27bfdcc6-5f02-47fd-ae38-7ea8d9fac219	Tatsuya	Mihashi	M	t	{"day": 2, "year": 1923, "month": 11}	{"day": 15, "year": 2004, "month": 5}	Chuo, Tokyo, Japan	\N	\N	{"original_name": "&#19977;&#27211; &#36948;&#20063;"}
-f02a3856-95fc-4e5b-8d58-9f733e3b2278	Hiroshi	Sekida	M	t	{"day": 17, "year": 1932, "month": 11}	\N	Setagaya, Tokyo, Japan	\N	\N	{"original_name": "&#38306;&#30000; &#35029;"}
 9d5454d0-b6de-4b62-bf4e-da467bd6c53b	Akira	Wakamatsu	M	t	{"day": 12, "year": 1933, "month": 6}	\N	Fukushima, Japan	\N	\N	{"original_name": "&#33509;&#26494; &#26126;"}
 e82833e4-7eee-4ef1-88e5-a285946593aa	Akio	Kusama	M	t	{"day": 7, "year": 1913, "month": 10}	{"unknown": 1}	\N	\N	\N	{"original_name": "&#33609;&#38291; &#29835;&#22827;"}
 bee0c590-edb2-4f54-8d6a-7e105e2ed741	Kyoko	Ai	F	t	{"day": 2, "year": 1943, "month": 3}	\N	\N	\N	\N	{"birth_name": "Misho Tabuchi (&#30000;&#28181; &#32654;&#31911;)", "original_name": "&#24859; &#20140;&#23376;"}
@@ -3201,6 +3200,7 @@ cf5b3659-5375-4608-bde7-7d6270f27b7a	Nobuo	Ogawa	M	f	{"day": 13, "year": 1930, "
 b49cb604-cad2-484b-ab34-9d6d5951dc70	Genzo	Murakami	M	f	{"day": 14, "year": 1910, "month": 3}	{"day": 3, "year": 2006, "month": 4}	Gangwon-do, Korea	Setagaya, Tokyo, Japan	\N	{"original_name": "村上 元三"}
 b41f2e59-2044-488c-b56f-8d3cfad0464c	Kozo	Nomura	M	t	{"day": 22, "year": 1931, "month": 12}	\N	Nerima, Toshima, Tokyo, Japan	\N	{"Akiji Nomura (野村明司)"}	{"birth_name": "Kazuhiro Osao (&#23614;&#26873; &#19968;&#28009;)", "original_name": "&#37326;&#26449; &#28009;&#19977;"}
 8f0d87f4-a164-4c5a-af72-3d85ba1449ee	Michio	Takahashi	M	f	{"day": 10, "year": 1905, "month": 1}	{"day": 3, "year": 1993, "month": 11}	Tokyo, Japan	\N	\N	{"original_name": "高橋 通夫"}
+f02a3856-95fc-4e5b-8d58-9f733e3b2278	Hiroshi	Sekita	M	t	{"day": 17, "year": 1932, "month": 11}	\N	Setagaya, Tokyo, Japan	\N	\N	{"original_name": "&#38306;&#30000; &#35029;"}
 \.
 
 
