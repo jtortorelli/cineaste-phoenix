@@ -3588,7 +3588,6 @@ f474852a-cc25-477d-a7b9-06aa688f7fb2	78f3b649-dfe7-49bc-aeb4-d4e02a28e67c	Sound 
 f474852a-cc25-477d-a7b9-06aa688f7fb2	6afdc4fe-fec9-4640-9299-40d56e5fb25a	Lighting	6
 f474852a-cc25-477d-a7b9-06aa688f7fb2	54122b4f-936f-47e5-a637-3ba3d24763b9	Music	7
 f474852a-cc25-477d-a7b9-06aa688f7fb2	aa27cf6a-ae9a-4e2a-9921-a67f6b2f8184	Editor	10
-f474852a-cc25-477d-a7b9-06aa688f7fb2	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects Assistant Director	14
 f474852a-cc25-477d-a7b9-06aa688f7fb2	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	17
 f474852a-cc25-477d-a7b9-06aa688f7fb2	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	21
 23c1c82e-aedb-4c9b-b040-c780eec577e8	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-2
@@ -4181,6 +4180,7 @@ ef01babe-d621-40ca-8d85-363b051921a6	a63d1091-af4f-49a3-9520-a3eb2ff778d2	Music	
 ef01babe-d621-40ca-8d85-363b051921a6	bdf1596b-70f1-4d02-a4a7-47da0f31eee2	Lighting	8
 ef01babe-d621-40ca-8d85-363b051921a6	4282aa50-5c6f-411f-8293-36d2798949d7	Editor	9
 ef01babe-d621-40ca-8d85-363b051921a6	0e124ef1-d5e9-4473-8dad-ca7833fccb33	Sound Recording	10
+f474852a-cc25-477d-a7b9-06aa688f7fb2	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects Co-Director	14
 \.
 
 
