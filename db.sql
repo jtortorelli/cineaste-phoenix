@@ -4011,7 +4011,6 @@ e7741ae5-bed4-46d9-8ca2-aeac4accf28c	c83bbdef-93a5-45dd-a789-5d44400ab825	Specia
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	19
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Assistant Director	23
 42255770-e43c-473d-81ca-f412b6f78c62	5358c92d-79db-46c1-83d5-ab6b1444506a	Director	-2
-42255770-e43c-473d-81ca-f412b6f78c62	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	-1
 42255770-e43c-473d-81ca-f412b6f78c62	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
 42255770-e43c-473d-81ca-f412b6f78c62	7a824d10-6fce-4915-9b7b-47a8a3bf5915	Screenplay	2
 42255770-e43c-473d-81ca-f412b6f78c62	e1026af0-8928-4540-81eb-0ce054a8aedf	Cinematography	3
@@ -4181,6 +4180,7 @@ ef01babe-d621-40ca-8d85-363b051921a6	bdf1596b-70f1-4d02-a4a7-47da0f31eee2	Lighti
 ef01babe-d621-40ca-8d85-363b051921a6	4282aa50-5c6f-411f-8293-36d2798949d7	Editor	9
 ef01babe-d621-40ca-8d85-363b051921a6	0e124ef1-d5e9-4473-8dad-ca7833fccb33	Sound Recording	10
 f474852a-cc25-477d-a7b9-06aa688f7fb2	c83bbdef-93a5-45dd-a789-5d44400ab825	Special Effects Co-Director	14
+42255770-e43c-473d-81ca-f412b6f78c62	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Supervisor	-1
 \.
 
 
