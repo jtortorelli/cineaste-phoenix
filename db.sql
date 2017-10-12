@@ -3172,6 +3172,10 @@ e8373ccf-f76b-47e0-8002-91b2b651d551	Hiroyasu	Yamamura	M	f	{"day": 28, "year": 1
 0ae112d3-4a03-4beb-8f5d-faefc5c13b9b	Yukiko	Takayama	M	f	{"day": 4, "year": 1945, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "高山 由紀子"}
 362da3f2-b643-417b-9d05-8c32c380d999	Kensho	Yamashita	M	f	{"day": 8, "year": 1944, "month": 7}	{"day": 16, "year": 2016, "month": 8}	Kushira, Kimotsuki, Kagoshima, Japan	\N	\N	{"original_name": "山下 賢章"}
 68ad58b5-db61-4d6d-8531-9cc4be59b29c	Michio	Yamamoto	M	f	{"day": 6, "year": 1933, "month": 7}	{"day": 23, "year": 2004, "month": 8}	Nagaoka, Niigata, Japan	\N	\N	{"original_name": "山本 迪夫"}
+dc599c6f-4771-40b8-ac89-b5425806483e	Kikuo	Umebayashi	M	f	\N	\N	\N	\N	\N	{"original_name": "梅林 貴久夫"}
+f6293a52-514a-41be-9ab0-5a37e4b6e62f	Sakae	Nagaoka	M	f	\N	\N	\N	\N	\N	{"original_name": "長岡 栄"}
+e362a86a-4390-4819-87cb-3a13399885c9	Genji	Nakaoka	M	f	\N	\N	\N	\N	\N	{"original_name": "中岡 源権"}
+2e8b7b20-d283-4733-bb83-dd416dcf3f3d	Shozaburo	Asai	M	f	\N	\N	\N	\N	\N	{"original_name": "浅井 昭三郎"}
 a748a0a8-185c-4b92-89c6-9064450ebcf0	Hiroshi	Nagano	M	f	{"day": 1, "year": 1934, "month": 1}	{"day": 26, "year": 2012, "month": 10}	Kawasaki, Kanagawa, Japan	Kawasaki, Kanagawa, Japan	\N	{"original_name": "長野 洋"}
 f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Kazumi	Hara	M	f	{"day": 11, "year": 1931, "month": 12}	\N	\N	\N	\N	{"original_name": "原 一民"}
 e6e3eb12-09d0-43bc-b6d0-5f4b153504db	Minoru	Tomita	M	f	\N	\N	\N	\N	\N	{"original_name": "富田 実"}
@@ -3201,6 +3205,49 @@ b49cb604-cad2-484b-ab34-9d6d5951dc70	Genzo	Murakami	M	f	{"day": 14, "year": 1910
 b41f2e59-2044-488c-b56f-8d3cfad0464c	Kozo	Nomura	M	t	{"day": 22, "year": 1931, "month": 12}	\N	Nerima, Toshima, Tokyo, Japan	\N	{"Akiji Nomura (野村明司)"}	{"birth_name": "Kazuhiro Osao (&#23614;&#26873; &#19968;&#28009;)", "original_name": "&#37326;&#26449; &#28009;&#19977;"}
 8f0d87f4-a164-4c5a-af72-3d85ba1449ee	Michio	Takahashi	M	f	{"day": 10, "year": 1905, "month": 1}	{"day": 3, "year": 1993, "month": 11}	Tokyo, Japan	\N	\N	{"original_name": "高橋 通夫"}
 f02a3856-95fc-4e5b-8d58-9f733e3b2278	Hiroshi	Sekita	M	t	{"day": 17, "year": 1932, "month": 11}	\N	Setagaya, Tokyo, Japan	\N	\N	{"original_name": "&#38306;&#30000; &#35029;"}
+eea6697c-022c-42b0-a542-b1b0e6dbd5bd	Kan	Shimozawa	M	f	{"day": 1, "year": 1892, "month": 2}	{"day": 19, "year": 1968, "month": 7}	Atsuta, Hokkaido, Japan	Tokyo, Japan	\N	{"birth_name": "Matsutaro Umetani (梅谷 松太郎)", "original_name": "子母沢 寛"}
+4cfaf605-7117-471e-86de-3f94793e3b0f	Minoru	Inuzuka	M	f	{"day": 15, "year": 1901, "month": 2}	{"day": 17, "year": 2007, "month": 9}	Hanakawado, Asakusa, Tokyo, Japan	Takashima, Shiga, Japan	\N	{"original_name": "犬塚 稔"}
+89964603-5168-40aa-96e1-7476b3f31ee1	Chikashi	Makiura	M	f	\N	\N	\N	\N	\N	{"original_name": "牧浦 地志"}
+0898f9b9-ed92-4aee-a332-3629478345fd	Hiroya	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 博也"}
+2a18b056-87bf-4009-90e5-0ba02ee71db7	Shozo	Honda	M	f	\N	\N	\N	\N	\N	{"original_name": "本多 省三"}
+0456a837-645f-48fd-9f92-d9b757d8da3f	Seiichi	Ota	M	f	\N	\N	\N	\N	\N	{"original_name": "太田 誠一"}
+98f3de43-5571-4485-ad8d-7001e5244197	Ichiro	Saito	M	f	{"day": 23, "year": 1909, "month": 8}	{"day": 16, "year": 1979, "month": 11}	Chiba, Japan	\N	{"Akira Saiki (彩木 暁)"}	{"original_name": "斎藤 一郎"}
+35296c24-aff8-4a24-955e-6cef57bf098d	Takashi	Taniguchi	M	f	\N	\N	\N	\N	\N	{"original_name": "谷口 孝司"}
+e1b7b0be-fe9d-4204-93f7-6a37845acf3e	Tokuzo	Tanaka	M	f	{"day": 15, "year": 1920, "month": 9}	{"day": 20, "year": 2007, "month": 12}	Senba, Higashi, Osaka, Japan	Kashihara, Nara, Japan	\N	{"original_name": "田中 徳三"}
+c7ce71c9-1876-48f5-8b95-bf5f8d5dfe6c	Seiji	Hoshikawa	M	f	{"day": 27, "year": 1921, "month": 10}	{"day": 25, "year": 2008, "month": 7}	Shitaya, Tokyo, Japan	\N	\N	{"original_name": "星川 清司"}
+755c2b8f-96c3-432d-80d7-86515bc25279	Taichiro	Kosugi	M	f	{"day": 6, "year": 1927, "month": 6}	{"day": 9, "year": 1976, "month": 8}	Ishinomaki, Miyagi, Japan	\N	\N	{"original_name": "小杉 太一郎"}
+866e3e42-aa53-452d-ae26-fd6592b7b97f	Kiyokata	Saruwaka	M	f	\N	\N	\N	\N	\N	{"original_name": "猿若 清方"}
+e77890a3-9e19-4bdc-bbc1-3b1bb2370f9c	Takayuki	Yamada	M	f	{"day": 14, "year": 1923, "month": 5}	{"day": 16, "year": 1994, "month": 5}	Hachinohe, Aomori, Japan	Chichi, Saitama, Japan	\N	{"original_name": "山田 隆之"}
+6f239808-07b1-4809-965b-af8c6594bb18	Kazuo	Ikehiro	M	f	{"day": 25, "year": 1929, "month": 10}	\N	Tokyo, Japan	\N	\N	{"original_name": "池広 一夫"}
+b8fca9a8-62c3-47a2-9de6-6f614615913c	Hajime	Takaiwa	M	f	{"day": 9, "year": 1910, "month": 11}	{"day": 28, "year": 2000, "month": 1}	Tokyo, Japan	\N	\N	{"original_name": "高岩 肇"}
+e9f41097-3ccd-4552-a032-80de69658eec	Shigenori	Shimoishizaka	M	f	\N	\N	\N	\N	\N	{"original_name": "下石坂 成典"}
+b77e5ccf-4fcd-42d9-9f44-f4bb3500c0eb	Mitsuo	Miyamoto	M	f	\N	\N	\N	\N	\N	{"original_name": "宮本 光雄"}
+136cb68b-c7fc-4288-94c7-19156cba0196	Akikazu	Ota	M	f	{"day": 12, "year": 1929, "month": 5}	\N	Asakura, Fukuoka, Japan	\N	\N	{"original_name": "太田 昭和"}
+ccac38e6-dc25-4e72-96e7-7b05bfd83150	Senkichiro	Takeda	M	f	\N	\N	\N	\N	\N	{"original_name": "武田 千吉郎"}
+dfc0cf18-3a0b-49c9-ace8-c46c3e1093dc	Hajime	Kaburagi	M	f	{"day": 27, "year": 1926, "month": 2}	{"year": 2014, "month": 10}	Kanagawa, Japan	\N	\N	{"original_name": "鏑木 創"}
+06c8a843-97eb-4722-aa01-faef4532b919	Shozo	Saito	M	f	\N	\N	\N	\N	\N	{"original_name": "斉藤 省三"}
+24ed59c1-83a8-4f96-8e93-2507af5b7bd1	Akira	Inoue	M	f	{"day": 10, "year": 1928, "month": 12}	\N	Kyoto, Japan	\N	\N	{"original_name": "井上 昭"}
+04f1d695-da22-478e-8b43-9ccb76962105	Ryozo	Kasahara	M	f	{"day": 19, "year": 1912, "month": 1}	{"day": 22, "year": 2002, "month": 6}	Ashikagami, Ashikaga, Tochigi, Japan	\N	\N	{"original_name": "笠原 良三"}
+85a1eab1-ae36-42ea-bc67-5f6e36d3257e	Hisashi	Sugiura	M	f	\N	\N	\N	\N	\N	{"original_name": "杉浦 久"}
+0c684461-0c49-4682-aadb-6cc1af9adeb7	Yoshiharu	Hayashi	M	f	\N	\N	\N	\N	\N	{"original_name": "林 義治"}
+b6e67c38-0588-4ecf-a9f3-bee191517c54	Yasukazu	Takemura	M	f	\N	\N	\N	\N	\N	{"original_name": "竹村 康和"}
+e76f73cb-d520-4442-bf14-5614b0ba62a5	Satsuo	Yamamoto	M	f	{"day": 15, "year": 1910, "month": 7}	{"day": 11, "year": 1983, "month": 8}	Kagoshima, Japan	\N	\N	{"original_name": "山本 薩夫"}
+36ee116a-673c-4a55-8169-3163464498d7	Shunji	Kurokawa	M	f	\N	\N	\N	\N	\N	{"original_name": "黒川 俊二"}
+5f599f42-4889-4ce8-b23a-367791a3252b	Masaatsu	Matsumura	M	f	\N	\N	\N	\N	\N	{"original_name": "松村 正温"}
+1cf59146-e981-46ec-9b01-1450ba8ebdef	Takehiro	Nakajima	M	f	{"day": 12, "year": 1935, "month": 11}	\N	Kyoto, Japan	\N	\N	{"original_name": "中島 丈博"}
+ac8a94a6-2935-4ab4-b67c-8865afb2dcb5	Kihachi	Okamoto	M	f	{"day": 17, "year": 1924, "month": 2}	{"day": 19, "year": 2005, "month": 2}	Yonago, Tottori, Japan	Tama, Kawasaki, Kanagawa, Japan	\N	{"birth_name": "Kihachiro Okamoto (岡本 喜八郎)", "original_name": "岡本 喜八"}
+815ffce8-b112-4cb8-aef0-4e2fa7ada2b2	Reijiro	Yamashita	M	f	\N	\N	\N	\N	\N	{"original_name": "山下 礼二郎"}
+402a7a06-8192-4133-9231-61fee30737c9	Koji	Matsumoto	M	f	\N	\N	\N	\N	\N	{"original_name": "松本 孝二"}
+2170162a-7a56-43bb-a4b3-3ff44937fda7	Hiroyoshi	Nishioka	M	f	\N	\N	\N	\N	\N	{"original_name": "西岡 弘善"}
+41a85d5b-2352-4427-b18d-a6fa148585f4	Yukio	Kaibara	M	f	{"day": 26, "year": 1919, "month": 3}	{"unknown": 1}	Kyoto, Japan	\N	\N	{"original_name": "海原 幸夫"}
+490ed5ca-7aff-4292-8b03-c0bd5ad69033	Shintaro	Katsu	M	f	{"day": 29, "year": 1931, "month": 11}	{"day": 21, "year": 1997, "month": 6}	Fukagawa, Tokyo, Japan	Kashiwa, Chiba, Japan	\N	{"birth_name": "Toshio Okumura (奥村 利夫)", "original_name": "勝 新太郎"}
+12c324b2-9c57-4947-800c-96d1b309ad3c	Nobuo	Ono	M	f	{"day": 7, "year": 1904, "month": 7}	{"day": 28, "year": 1991, "month": 10}	Honjo, Saitama, Japan	\N	\N	{"original_name": "宇野 信夫"}
+60c09593-f588-4450-98ef-d22e1c6ef07d	Daisuke	Ito	M	f	{"day": 12, "year": 1898, "month": 10}	{"day": 19, "year": 1981, "month": 7}	Motoyuigi, Uwajima, Ehime, Japan	Kyoto, Japan	\N	{"original_name": "伊藤 大輔"}
+2fea7e63-28dd-459e-9f33-042f71f4f8ef	Gen	Otani	M	f	\N	\N	\N	\N	\N	{"original_name": "大谷 厳"}
+d789ecf3-ca94-4e52-997d-0de4b356ab45	Kunihiko	Murai	M	f	{"day": 4, "year": 1945, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "村井 邦彦"}
+affd7eb1-6bbf-4daa-ab3e-96b0d580bfab	Kaneto	Shindo	M	f	{"day": 22, "year": 1912, "month": 4}	{"day": 29, "year": 2012, "month": 5}	Ishida, Saeki, Hiroshima, Japan	Minato, Tokyo, Japan	\N	{"original_name": "新藤 兼人"}
+8727b908-42b5-49ef-806a-a0ac9f193c2e	Kinya	Naoi	M	f	\N	\N	\N	\N	\N	{"original_name": "直居 欽哉"}
+5f837927-cd5b-4316-ac09-b42d60dc9a71	Kei	Hattori	M	f	{"day": 7, "year": 1932, "month": 7}	\N	Tokyo, Japan	\N	{"Keiko Hattori (服部 佳子)"}	{"original_name": "服部 佳"}
 \.
 
 
