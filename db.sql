@@ -2456,7 +2456,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
-8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	f	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 ce555690-494d-4983-a2a7-c99fb2fc0387	Daimajin Strikes Again	1966-12-10	87	t	{"The Return of Daimajin"}	{"original_title": "大魔神逆襲", "original_translation": "Great Demon Counterattack", "original_transliteration": "Daimajin Gyakushyuu"}
@@ -2481,6 +2480,7 @@ ea195732-907d-4586-b446-608e919f2599	Gamera vs. Guiron	1969-03-21	82	t	{"Attack 
 f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	t	{"Gamera vs. Monster X"}	{"original_title": "ガメラ対大魔獣ジャイガー", "original_translation": "Gamera Against Great Demon Beast Jiger", "original_transliteration": "Gamera Tai Daimajyuu Jyaigaa"}
 7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	t	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	t	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
+8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	t	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	Zeiram 2	1994-12-17	100	f	\N	{"original_title": "ゼイラム2", "original_translation": "Zeiram 2", "original_transliteration": "Zeiramu 2"}
@@ -3248,6 +3248,15 @@ d789ecf3-ca94-4e52-997d-0de4b356ab45	Kunihiko	Murai	M	f	{"day": 4, "year": 1945,
 affd7eb1-6bbf-4daa-ab3e-96b0d580bfab	Kaneto	Shindo	M	f	{"day": 22, "year": 1912, "month": 4}	{"day": 29, "year": 2012, "month": 5}	Ishida, Saeki, Hiroshima, Japan	Minato, Tokyo, Japan	\N	{"original_name": "新藤 兼人"}
 8727b908-42b5-49ef-806a-a0ac9f193c2e	Kinya	Naoi	M	f	\N	\N	\N	\N	\N	{"original_name": "直居 欽哉"}
 5f837927-cd5b-4316-ac09-b42d60dc9a71	Kei	Hattori	M	f	{"day": 7, "year": 1932, "month": 7}	\N	Tokyo, Japan	\N	{"Keiko Hattori (服部 佳子)"}	{"original_name": "服部 佳"}
+c9ca12b5-cf03-474f-97fd-0c51ef79a872	Hideo	Gosha	M	f	{"day": 26, "year": 1929, "month": 2}	{"day": 30, "year": 1992, "month": 8}	Tokyo, Japan	Kyoto, Japan	\N	{"original_name": "五社英雄"}
+46fd92ad-b43d-4e8f-9bae-548e412b4829	Ginichi	Kishimoto	M	f	\N	\N	\N	\N	\N	{"original_name": "岸本吟一"}
+1a33dab4-3679-47ef-8203-4f3ba0cee116	Tetsuro	Tanba	M	f	{"day": 17, "year": 1922, "month": 7}	{"day": 24, "year": 2006, "month": 9}	Okubo, Tama, Tokyo, Japan	Mitaka, Tokyo, Japan	{"Tetsuro Tamba"}	{"birth_name": "Shosaburo Tanba (丹波 正三郎)", "original_name": "丹波哲郎"}
+72d8eb65-fe60-4943-aa14-6a82ea6a7408	Keiichi	Abe	M	f	{"day": 11, "year": 1923, "month": 11}	{"day": 15, "year": 1991, "month": 8}	Miyagi, Japan	Tokyo, Japan	\N	{"original_name": "阿部桂一"}
+2f2f445f-5b59-4e1f-8cc1-baf3f8e91ed8	Eizaburo	Shiba	M	f	\N	\N	\N	\N	\N	{"original_name": "柴英三郎"}
+09778dd2-1ad8-4d18-9a22-7f30ca99b80e	Tadashi	Sakai	M	f	\N	\N	\N	\N	\N	{"original_name": "酒井忠"}
+6def4348-7013-4427-a3ca-81616e36b1fc	Junichi	Osumi	M	f	\N	\N	\N	\N	\N	{"original_name": "大角純一"}
+466e2111-14af-4331-adc3-89ed16bfff24	Kenyo	Takayasu	M	f	\N	\N	\N	\N	\N	{"original_name": "福安賢洋"}
+ba24b36a-fab4-4b3e-bd0a-fafb2c0dbf4d	Hiroyoshi	Somekawa	M	f	\N	\N	\N	\N	\N	{"original_name": "染川広義"}
 \.
 
 
@@ -4512,6 +4521,19 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Theme 
 8ac9d4ae-b517-4372-9e42-2e327cd0d95c	0456a837-645f-48fd-9f92-d9b757d8da3f	Art Director	9
 8ac9d4ae-b517-4372-9e42-2e327cd0d95c	64d0b412-18b4-495b-bf51-f8f59395c90b	Music	10
 8ac9d4ae-b517-4372-9e42-2e327cd0d95c	0c684461-0c49-4682-aadb-6cc1af9adeb7	Editor	11
+8673b73b-ffce-464d-8673-c8ca60b10cf8	c9ca12b5-cf03-474f-97fd-0c51ef79a872	Director	-1
+8673b73b-ffce-464d-8673-c8ca60b10cf8	46fd92ad-b43d-4e8f-9bae-548e412b4829	Producer	1
+8673b73b-ffce-464d-8673-c8ca60b10cf8	1a33dab4-3679-47ef-8203-4f3ba0cee116	Producer	2
+8673b73b-ffce-464d-8673-c8ca60b10cf8	72d8eb65-fe60-4943-aa14-6a82ea6a7408	Screenplay	5
+8673b73b-ffce-464d-8673-c8ca60b10cf8	2f2f445f-5b59-4e1f-8cc1-baf3f8e91ed8	Screenplay	6
+8673b73b-ffce-464d-8673-c8ca60b10cf8	46fd92ad-b43d-4e8f-9bae-548e412b4829	Screenplay	7
+8673b73b-ffce-464d-8673-c8ca60b10cf8	c9ca12b5-cf03-474f-97fd-0c51ef79a872	Screenplay	8
+8673b73b-ffce-464d-8673-c8ca60b10cf8	09778dd2-1ad8-4d18-9a22-7f30ca99b80e	Cinematography	9
+8673b73b-ffce-464d-8673-c8ca60b10cf8	6def4348-7013-4427-a3ca-81616e36b1fc	Art Director	10
+8673b73b-ffce-464d-8673-c8ca60b10cf8	466e2111-14af-4331-adc3-89ed16bfff24	Sound Recording	11
+8673b73b-ffce-464d-8673-c8ca60b10cf8	139d9d4e-57f3-4a85-bf1b-f72ebcf0b2c0	Music	12
+8673b73b-ffce-464d-8673-c8ca60b10cf8	ba24b36a-fab4-4b3e-bd0a-fafb2c0dbf4d	Lighting	13
+8673b73b-ffce-464d-8673-c8ca60b10cf8	2e2c8b9c-e622-4534-8196-2cd54cf9d3d5	Editor	14
 \.
 
 
@@ -4631,6 +4653,8 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	381c515c-e1bf-49bd-81c0-0126e2bf6719
 fc33484a-0757-4e04-b475-cccd8e5ac814	381c515c-e1bf-49bd-81c0-0126e2bf6719
 b52fcdd6-691b-4a16-a670-e6ad6f176521	8ac9d4ae-b517-4372-9e42-2e327cd0d95c
 fc33484a-0757-4e04-b475-cccd8e5ac814	8ac9d4ae-b517-4372-9e42-2e327cd0d95c
+be46d083-e66d-4292-86fa-b1e26d4f5eed	8673b73b-ffce-464d-8673-c8ca60b10cf8
+396d3e44-3a24-4a03-8a0e-739954a62b23	8673b73b-ffce-464d-8673-c8ca60b10cf8
 \.
 
 
@@ -4648,6 +4672,7 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
 54ea6648-2944-4da1-a40a-8cca1f1b9ed2	Takarazuka
 28e2fef3-1dee-47f3-aae5-dee1be652154	Dainichi
 fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
+396d3e44-3a24-4a03-8a0e-739954a62b23	Samurai Productions
 \.
 
 
