@@ -2654,37 +2654,37 @@ b0104019-6f97-4034-b73c-a9e9472bca4f	Nausicäa of the Valley of the Wind	1984-03
 666e57df-17a2-4ab7-b28e-ec6d9122e3fc	Howl's Moving Castle	2004-11-20	119	f	\N	{"original_title": "ハウルの動く城", "original_translation": "Howl's Moving Castle", "original_transliteration": "Hauru No Ugoku Shiro"}
 08ce29ca-2d85-494c-9136-737fa248b0eb	Ponyo	2008-07-19	101	f	\N	{"original_title": "崖の上のポニョ", "original_translation": "Ponyo on the Cliff by the Sea", "original_transliteration": "Gake No Ue No Ponyo"}
 a3a047ea-2b0a-46e9-b266-e1c81071d9e9	The Wind Rises	2013-07-20	126	f	\N	{"original_title": "風立ちぬ", "original_translation": "Wind Rising", "original_transliteration": "Kaze Tachinu"}
-590ec282-c912-4887-91d3-15fb7f581f40	The Tale of Zatoichi	1962-04-18	96	f	\N	{"original_title": "座頭市物語", "original_translation": "Story of Zatoichi", "original_transliteration": "Zatouichi Monogatari"}
-39675aec-9067-4575-a1a1-9fbecdd88675	The Tale of Zatoichi Continues	1962-10-12	73	f	\N	{"original_title": "続・座頭市物語", "original_translation": "Story of Zatoichi Continued", "original_transliteration": "Zoku Zatouichi Monogatari"}
-979f5970-26c8-476a-9e55-3844963ee9a1	New Tale of Zatoichi	1963-03-15	91	f	\N	{"original_title": "新・座頭市物語", "original_translation": "New Story of Zatoichi", "original_transliteration": "Shin Zatouichi Monogatari"}
-4c6b33c0-c731-4b31-a84c-4ef3e8edcf9c	Zatoichi the Fugitive	1963-08-10	86	f	\N	{"original_title": "座頭市兇状旅", "original_translation": "Zatoichi Funeral Journey", "original_transliteration": "Zatouichi Kyoujyoutabi"}
-7e76cb19-b5c2-4090-b8f3-ec4aa47c5636	Zatoichi on the Road	1963-11-30	88	f	\N	{"original_title": "座頭市喧嘩旅", "original_translation": "Zatoichi Fighting Journey", "original_transliteration": "Zatouichi Kenkatabi"}
-815adb31-c73a-4a87-a6b5-7ed3230a5d21	Zatoichi and the Chest of Gold	1964-03-14	83	f	\N	{"original_title": "座頭市千両首", "original_translation": "Zatoichi Thousand Ryo Neck", "original_transliteration": "Zatouichi Senryoukubi"}
-6818987e-5678-465e-84c9-0465a25bcac3	Zatoichi's Flashing Sword	1964-07-11	82	f	\N	{"original_title": "座頭市あばれ凧", "original_translation": "Zatoichi Wild Kite", "original_transliteration": "Zatouichi Abaredako"}
-fa1784bb-e22e-4f7c-a9f8-cdfd0e0052f6	Fight, Zatoichi, Fight	1964-10-17	87	f	\N	{"original_title": "座頭市血笑旅", "original_translation": "Zatoichi Blood Smile Journey", "original_transliteration": "Zatouichi Kesshyoutabi"}
-079eedd8-33f5-45f4-a45b-53d8cdd5aaba	Adventures of Zatoichi	1964-12-30	86	f	\N	{"original_title": "座頭市関所破り", "original_translation": "Zatoichi Barrier Break", "original_transliteration": "Zatouichi Sekishyou Yaburi"}
-7f698138-a8f1-47cc-a15e-5d144cce176b	Zatoichi's Revenge	1965-04-03	84	f	\N	{"original_title": "座頭市二段斬り", "original_translation": "Zatoichi Two-Step Slash", "original_transliteration": "Zatouichi Nidankiri"}
-ed9ad73c-2b06-490c-9409-e5c8dec2f583	Zatoichi and the Doomed Man	1965-09-18	78	f	\N	{"original_title": "座頭市逆手斬り", "original_translation": "Zatoichi Enemy Slashing", "original_transliteration": "Zatouichi Sakategiri"}
-6d07b165-ef5c-40ab-ad68-e53e8bc9f7fa	Zatoichi and the Chess Expert	1965-12-24	87	f	\N	{"original_title": "座頭市地獄旅", "original_translation": "Zatoichi Hell Journey", "original_transliteration": "Zatouichi Jigokutabi"}
-0da7c76b-1bdb-41d0-a403-79109f7804f8	Zatoichi's Vengeance	1966-05-03	83	f	\N	{"original_title": "座頭市の歌が聞える", "original_translation": "Listening to Song of Zatoichi", "original_transliteration": "Zatouichi No Utaga Kikoeru"}
-9a26d075-9c52-4795-a209-40844549a919	Zatoichi's Pilgrimage	1966-08-13	82	f	\N	{"original_title": "座頭市海を渡る", "original_translation": "Zatoichi Cross the Ocean", "original_transliteration": "Zatouichi Umi O Wataru"}
-0eef4e8f-4c53-480f-a875-8659546a943e	Zatoichi's Cane Sword	1967-01-03	93	f	\N	{"original_title": "座頭市鉄火旅", "original_translation": "Zatoichi Fire Journey", "original_transliteration": "Zatouichi Tekkatabi"}
-b37e654d-9604-45bb-9b18-aad485e4b30d	Zatoichi the Outlaw	1967-08-12	96	f	\N	{"original_title": "座頭市牢破り", "original_translation": "Zatoichi Jailbreak", "original_transliteration": "Zatouichi Rouyaburi"}
-ac6e5a74-3b42-416d-a73a-93ceced56b19	Zatoichi Challenged	1967-12-30	87	f	\N	{"original_title": "座頭市血煙り街道", "original_translation": "Zatoichi Blood Smoke Road", "original_transliteration": "Zatouichi Chikemurikaidou"}
-5810d823-af91-47ae-ab7d-20a34efbda83	Zatoichi and the Fugitives	1968-08-10	82	f	\N	{"original_title": "座頭市果し状", "original_translation": "Zatoichi Letter of Challenge", "original_transliteration": "Zatouichi Hatashijyou"}
-ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	f	\N	{"original_title": "座頭市喧嘩太鼓", "original_translation": "Zatoichi War Drum", "original_transliteration": "Zatouichi Kenkadaiko"}
-072b2fb3-3b71-49b9-a33c-1fab534f8fea	Zatoichi Meets Yojimbo	1970-01-15	115	f	\N	{"original_title": "座頭市と用心棒", "original_translation": "Zatoichi and Yojimbo", "original_transliteration": "Zatouichi To Yojinbou"}
-9fbcb82b-d10b-4790-88b1-c4734ed11258	Zatoichi Goes to the Fire Festival	1970-08-12	96	f	\N	{"original_title": "座頭市あばれ火祭り", "original_translation": "Zatoichi Fire Festival", "original_transliteration": "Zatouichi Abarehi Matsuri"}
-650f80b2-ef90-4fe3-abec-08c5befc3955	Zatoichi Meets the One-Armed Swordsman	1971-01-13	94	f	\N	{"original_title": "新座頭市・破れ！唐人剣", "original_translation": "New Zatoichi Slash! Tangese Sword", "original_transliteration": "Shin Zatouichi Yabare! Toujinken"}
-21e27984-4ac9-4a94-b056-9b8c1649a02f	Zatoichi at Large	1972-01-15	90	f	\N	{"original_title": "座頭市御用旅", "original_translation": "Zatoichi Favorite Journey", "original_transliteration": "Zatouichi Goyoutabi"}
-381c515c-e1bf-49bd-81c0-0126e2bf6719	Zatoichi in Desperation	1972-09-02	95	f	\N	{"original_title": "新座頭市物語・折れた杖", "original_translation": "New Story of Zatoichi Broken Cane", "original_transliteration": "Shin Zatouichi Monogatari Oreta Tsue"}
-8ac9d4ae-b517-4372-9e42-2e327cd0d95c	Zatoichi's Conspiracy	1973-04-21	88	f	\N	{"original_title": "新座頭市物語・笠間の血祭り", "original_translation": "New Story of Zatoichi Kasama Blood Festival", "original_transliteration": "Shin Zatouichi Monogatari Kasama No Chimatsuri"}
 802edf4f-2899-4309-a7ac-a1166137e903	Gamera vs. Zigra	1971-07-17	88	t	\N	{"original_title": "ガメラ対深海怪獣ジグラ", "original_translation": "Gamera Against Deep Sea Monster Zigra", "original_transliteration": "Gamera Tai Shinkai Kaijyuu Jigura"}
+590ec282-c912-4887-91d3-15fb7f581f40	The Tale of Zatoichi	1962-04-18	96	t	\N	{"original_title": "座頭市物語", "original_translation": "Story of Zatoichi", "original_transliteration": "Zatouichi Monogatari"}
+39675aec-9067-4575-a1a1-9fbecdd88675	The Tale of Zatoichi Continues	1962-10-12	73	t	\N	{"original_title": "続・座頭市物語", "original_translation": "Story of Zatoichi Continued", "original_transliteration": "Zoku Zatouichi Monogatari"}
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	Space Amoeba	1970-08-01	84	t	{"Yog, Monster from Space"}	{"original_title": "ゲゾラ・ガニメ・カメーバ 決戦!南海の大怪獣", "original_translation": "Gezora Ganime Kamoeba Battle! South Seas Giant Monsters", "original_transliteration": "Gezora Ganime Kameeba Kessen! Nankai No Daikaijyuu"}
 f5e33833-8abd-45df-a623-85ec5cb83d3d	Godzilla vs. Hedorah	1971-07-24	85	t	{"Godzilla vs. the Smog Monster"}	{"original_title": "ゴジラ対ヘドラ", "original_translation": "Godzilla Against Hedorah", "original_transliteration": "Gojira Tai Hedora"}
+979f5970-26c8-476a-9e55-3844963ee9a1	New Tale of Zatoichi	1963-03-15	91	t	\N	{"original_title": "新・座頭市物語", "original_translation": "New Story of Zatoichi", "original_transliteration": "Shin Zatouichi Monogatari"}
 258a91ff-f401-473a-b93f-604b85d8a406	Godzilla vs. Gigan	1972-03-12	89	t	{"Godzilla on Monster Island"}	{"original_title": "地球攻撃命令 ゴジラ対ガイガン", "original_translation": "Earth Destruction Order: Godzilla Against Gigan", "original_transliteration": "Chikyuu Kougeki Meirei Gojira Tai Gaigan"}
 424cf769-b58f-4044-ad2e-b9b6aee6c477	Lake of Dracula	1971-06-16	82	t	\N	{"original_title": "呪いの館 血を吸う眼", "original_translation": "House of Curses: Bloodsucking Eyes", "original_transliteration": "Noroi No Yakata Chiwosuu Me"}
 842265ea-5b60-41d5-bd6f-a727713dd12f	Evil of Dracula	1974-07-20	83	t	\N	{"original_title": "血を吸う薔薇", "original_translation": "Bloodsucking Rose", "original_transliteration": "Chiwosuu Bara"}
+4c6b33c0-c731-4b31-a84c-4ef3e8edcf9c	Zatoichi the Fugitive	1963-08-10	86	t	\N	{"original_title": "座頭市兇状旅", "original_translation": "Zatoichi Funeral Journey", "original_transliteration": "Zatouichi Kyoujyoutabi"}
+7e76cb19-b5c2-4090-b8f3-ec4aa47c5636	Zatoichi on the Road	1963-11-30	88	t	\N	{"original_title": "座頭市喧嘩旅", "original_translation": "Zatoichi Fighting Journey", "original_transliteration": "Zatouichi Kenkatabi"}
+815adb31-c73a-4a87-a6b5-7ed3230a5d21	Zatoichi and the Chest of Gold	1964-03-14	83	t	\N	{"original_title": "座頭市千両首", "original_translation": "Zatoichi Thousand Ryo Neck", "original_transliteration": "Zatouichi Senryoukubi"}
+6818987e-5678-465e-84c9-0465a25bcac3	Zatoichi's Flashing Sword	1964-07-11	82	t	\N	{"original_title": "座頭市あばれ凧", "original_translation": "Zatoichi Wild Kite", "original_transliteration": "Zatouichi Abaredako"}
+fa1784bb-e22e-4f7c-a9f8-cdfd0e0052f6	Fight, Zatoichi, Fight	1964-10-17	87	t	\N	{"original_title": "座頭市血笑旅", "original_translation": "Zatoichi Blood Smile Journey", "original_transliteration": "Zatouichi Kesshyoutabi"}
+079eedd8-33f5-45f4-a45b-53d8cdd5aaba	Adventures of Zatoichi	1964-12-30	86	t	\N	{"original_title": "座頭市関所破り", "original_translation": "Zatoichi Barrier Break", "original_transliteration": "Zatouichi Sekishyou Yaburi"}
+7f698138-a8f1-47cc-a15e-5d144cce176b	Zatoichi's Revenge	1965-04-03	84	t	\N	{"original_title": "座頭市二段斬り", "original_translation": "Zatoichi Two-Step Slash", "original_transliteration": "Zatouichi Nidankiri"}
+ed9ad73c-2b06-490c-9409-e5c8dec2f583	Zatoichi and the Doomed Man	1965-09-18	78	t	\N	{"original_title": "座頭市逆手斬り", "original_translation": "Zatoichi Enemy Slashing", "original_transliteration": "Zatouichi Sakategiri"}
+6d07b165-ef5c-40ab-ad68-e53e8bc9f7fa	Zatoichi and the Chess Expert	1965-12-24	87	t	\N	{"original_title": "座頭市地獄旅", "original_translation": "Zatoichi Hell Journey", "original_transliteration": "Zatouichi Jigokutabi"}
+0da7c76b-1bdb-41d0-a403-79109f7804f8	Zatoichi's Vengeance	1966-05-03	83	t	\N	{"original_title": "座頭市の歌が聞える", "original_translation": "Listening to Song of Zatoichi", "original_transliteration": "Zatouichi No Utaga Kikoeru"}
+9a26d075-9c52-4795-a209-40844549a919	Zatoichi's Pilgrimage	1966-08-13	82	t	\N	{"original_title": "座頭市海を渡る", "original_translation": "Zatoichi Cross the Ocean", "original_transliteration": "Zatouichi Umi O Wataru"}
+0eef4e8f-4c53-480f-a875-8659546a943e	Zatoichi's Cane Sword	1967-01-03	93	t	\N	{"original_title": "座頭市鉄火旅", "original_translation": "Zatoichi Fire Journey", "original_transliteration": "Zatouichi Tekkatabi"}
+b37e654d-9604-45bb-9b18-aad485e4b30d	Zatoichi the Outlaw	1967-08-12	96	t	\N	{"original_title": "座頭市牢破り", "original_translation": "Zatoichi Jailbreak", "original_transliteration": "Zatouichi Rouyaburi"}
+ac6e5a74-3b42-416d-a73a-93ceced56b19	Zatoichi Challenged	1967-12-30	87	t	\N	{"original_title": "座頭市血煙り街道", "original_translation": "Zatoichi Blood Smoke Road", "original_transliteration": "Zatouichi Chikemurikaidou"}
+5810d823-af91-47ae-ab7d-20a34efbda83	Zatoichi and the Fugitives	1968-08-10	82	t	\N	{"original_title": "座頭市果し状", "original_translation": "Zatoichi Letter of Challenge", "original_transliteration": "Zatouichi Hatashijyou"}
+ed4456f3-4bf8-4cb5-b606-ec727cf522d9	Samaritan Zatoichi	1968-12-28	82	t	\N	{"original_title": "座頭市喧嘩太鼓", "original_translation": "Zatoichi War Drum", "original_transliteration": "Zatouichi Kenkadaiko"}
+072b2fb3-3b71-49b9-a33c-1fab534f8fea	Zatoichi Meets Yojimbo	1970-01-15	115	t	\N	{"original_title": "座頭市と用心棒", "original_translation": "Zatoichi and Yojimbo", "original_transliteration": "Zatouichi To Yojinbou"}
+9fbcb82b-d10b-4790-88b1-c4734ed11258	Zatoichi Goes to the Fire Festival	1970-08-12	96	t	\N	{"original_title": "座頭市あばれ火祭り", "original_translation": "Zatoichi Fire Festival", "original_transliteration": "Zatouichi Abarehi Matsuri"}
+650f80b2-ef90-4fe3-abec-08c5befc3955	Zatoichi Meets the One-Armed Swordsman	1971-01-13	94	t	\N	{"original_title": "新座頭市・破れ！唐人剣", "original_translation": "New Zatoichi Slash! Tangese Sword", "original_transliteration": "Shin Zatouichi Yabare! Toujinken"}
+21e27984-4ac9-4a94-b056-9b8c1649a02f	Zatoichi at Large	1972-01-15	90	t	\N	{"original_title": "座頭市御用旅", "original_translation": "Zatoichi Favorite Journey", "original_transliteration": "Zatouichi Goyoutabi"}
+381c515c-e1bf-49bd-81c0-0126e2bf6719	Zatoichi in Desperation	1972-09-02	95	t	\N	{"original_title": "新座頭市物語・折れた杖", "original_translation": "New Story of Zatoichi Broken Cane", "original_transliteration": "Shin Zatouichi Monogatari Oreta Tsue"}
+8ac9d4ae-b517-4372-9e42-2e327cd0d95c	Zatoichi's Conspiracy	1973-04-21	88	t	\N	{"original_title": "新座頭市物語・笠間の血祭り", "original_translation": "New Story of Zatoichi Kasama Blood Festival", "original_transliteration": "Shin Zatouichi Monogatari Kasama No Chimatsuri"}
 \.
 
 
@@ -3300,6 +3300,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	Godzilla
 aa6c2cbf-b280-4d9f-ba04-72af9c965abc	Earth Defense Force
 cd1e0507-2418-42c6-bacb-e0d9bbe6b05e	Osaka Castle
 93240054-d306-4a0c-8536-20dc01d84964	Bloodthirsty Trilogy
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	Zatoichi
 \.
 
 
@@ -3347,6 +3348,31 @@ abf663c4-4467-4a76-a25f-735b00fbc120	258a91ff-f401-473a-b93f-604b85d8a406	12
 abf663c4-4467-4a76-a25f-735b00fbc120	ead6a8bb-36ee-46db-bd54-0761b0dd3d22	13
 abf663c4-4467-4a76-a25f-735b00fbc120	e74d0fad-f701-4540-b48e-9e73e2062b0b	14
 abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	590ec282-c912-4887-91d3-15fb7f581f40	1
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	39675aec-9067-4575-a1a1-9fbecdd88675	2
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	979f5970-26c8-476a-9e55-3844963ee9a1	3
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	4c6b33c0-c731-4b31-a84c-4ef3e8edcf9c	4
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	7e76cb19-b5c2-4090-b8f3-ec4aa47c5636	5
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	815adb31-c73a-4a87-a6b5-7ed3230a5d21	6
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	6818987e-5678-465e-84c9-0465a25bcac3	7
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	fa1784bb-e22e-4f7c-a9f8-cdfd0e0052f6	8
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	079eedd8-33f5-45f4-a45b-53d8cdd5aaba	9
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	7f698138-a8f1-47cc-a15e-5d144cce176b	10
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	ed9ad73c-2b06-490c-9409-e5c8dec2f583	11
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	6d07b165-ef5c-40ab-ad68-e53e8bc9f7fa	12
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	0da7c76b-1bdb-41d0-a403-79109f7804f8	13
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	9a26d075-9c52-4795-a209-40844549a919	14
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	0eef4e8f-4c53-480f-a875-8659546a943e	15
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	b37e654d-9604-45bb-9b18-aad485e4b30d	16
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	ac6e5a74-3b42-416d-a73a-93ceced56b19	17
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	5810d823-af91-47ae-ab7d-20a34efbda83	18
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	ed4456f3-4bf8-4cb5-b606-ec727cf522d9	19
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	072b2fb3-3b71-49b9-a33c-1fab534f8fea	20
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	9fbcb82b-d10b-4790-88b1-c4734ed11258	21
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	650f80b2-ef90-4fe3-abec-08c5befc3955	22
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	21e27984-4ac9-4a94-b056-9b8c1649a02f	23
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	381c515c-e1bf-49bd-81c0-0126e2bf6719	24
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	8ac9d4ae-b517-4372-9e42-2e327cd0d95c	25
 \.
 
 
@@ -4572,6 +4598,39 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	842265ea-5b60-41d5-bd6f-a727713dd12f
 b52fcdd6-691b-4a16-a670-e6ad6f176521	9a752a5a-d621-40dc-a992-3f9dcf56d6b9
 b52fcdd6-691b-4a16-a670-e6ad6f176521	3b7381aa-ff9a-4b2e-806a-1c6b700614ae
 b52fcdd6-691b-4a16-a670-e6ad6f176521	bc28d5c1-e623-43b0-b097-c58ac18680bd
+c21957cc-cf69-4391-86f7-76e151b5ba73	590ec282-c912-4887-91d3-15fb7f581f40
+c21957cc-cf69-4391-86f7-76e151b5ba73	39675aec-9067-4575-a1a1-9fbecdd88675
+c21957cc-cf69-4391-86f7-76e151b5ba73	979f5970-26c8-476a-9e55-3844963ee9a1
+c21957cc-cf69-4391-86f7-76e151b5ba73	4c6b33c0-c731-4b31-a84c-4ef3e8edcf9c
+c21957cc-cf69-4391-86f7-76e151b5ba73	7e76cb19-b5c2-4090-b8f3-ec4aa47c5636
+c21957cc-cf69-4391-86f7-76e151b5ba73	815adb31-c73a-4a87-a6b5-7ed3230a5d21
+c21957cc-cf69-4391-86f7-76e151b5ba73	6818987e-5678-465e-84c9-0465a25bcac3
+c21957cc-cf69-4391-86f7-76e151b5ba73	fa1784bb-e22e-4f7c-a9f8-cdfd0e0052f6
+c21957cc-cf69-4391-86f7-76e151b5ba73	079eedd8-33f5-45f4-a45b-53d8cdd5aaba
+c21957cc-cf69-4391-86f7-76e151b5ba73	7f698138-a8f1-47cc-a15e-5d144cce176b
+c21957cc-cf69-4391-86f7-76e151b5ba73	ed9ad73c-2b06-490c-9409-e5c8dec2f583
+c21957cc-cf69-4391-86f7-76e151b5ba73	6d07b165-ef5c-40ab-ad68-e53e8bc9f7fa
+c21957cc-cf69-4391-86f7-76e151b5ba73	0da7c76b-1bdb-41d0-a403-79109f7804f8
+c21957cc-cf69-4391-86f7-76e151b5ba73	9a26d075-9c52-4795-a209-40844549a919
+c21957cc-cf69-4391-86f7-76e151b5ba73	0eef4e8f-4c53-480f-a875-8659546a943e
+c21957cc-cf69-4391-86f7-76e151b5ba73	b37e654d-9604-45bb-9b18-aad485e4b30d
+fc33484a-0757-4e04-b475-cccd8e5ac814	b37e654d-9604-45bb-9b18-aad485e4b30d
+c21957cc-cf69-4391-86f7-76e151b5ba73	ac6e5a74-3b42-416d-a73a-93ceced56b19
+c21957cc-cf69-4391-86f7-76e151b5ba73	5810d823-af91-47ae-ab7d-20a34efbda83
+c21957cc-cf69-4391-86f7-76e151b5ba73	ed4456f3-4bf8-4cb5-b606-ec727cf522d9
+c21957cc-cf69-4391-86f7-76e151b5ba73	072b2fb3-3b71-49b9-a33c-1fab534f8fea
+fc33484a-0757-4e04-b475-cccd8e5ac814	072b2fb3-3b71-49b9-a33c-1fab534f8fea
+28e2fef3-1dee-47f3-aae5-dee1be652154	9fbcb82b-d10b-4790-88b1-c4734ed11258
+c21957cc-cf69-4391-86f7-76e151b5ba73	9fbcb82b-d10b-4790-88b1-c4734ed11258
+fc33484a-0757-4e04-b475-cccd8e5ac814	9fbcb82b-d10b-4790-88b1-c4734ed11258
+b52fcdd6-691b-4a16-a670-e6ad6f176521	650f80b2-ef90-4fe3-abec-08c5befc3955
+fc33484a-0757-4e04-b475-cccd8e5ac814	650f80b2-ef90-4fe3-abec-08c5befc3955
+b52fcdd6-691b-4a16-a670-e6ad6f176521	21e27984-4ac9-4a94-b056-9b8c1649a02f
+fc33484a-0757-4e04-b475-cccd8e5ac814	21e27984-4ac9-4a94-b056-9b8c1649a02f
+b52fcdd6-691b-4a16-a670-e6ad6f176521	381c515c-e1bf-49bd-81c0-0126e2bf6719
+fc33484a-0757-4e04-b475-cccd8e5ac814	381c515c-e1bf-49bd-81c0-0126e2bf6719
+b52fcdd6-691b-4a16-a670-e6ad6f176521	8ac9d4ae-b517-4372-9e42-2e327cd0d95c
+fc33484a-0757-4e04-b475-cccd8e5ac814	8ac9d4ae-b517-4372-9e42-2e327cd0d95c
 \.
 
 
@@ -4588,6 +4647,7 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
 74df77b8-e02e-493b-8e4b-8e8651fe656f	Kurosawa Productions
 54ea6648-2944-4da1-a40a-8cca1f1b9ed2	Takarazuka
 28e2fef3-1dee-47f3-aae5-dee1be652154	Dainichi
+fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
 \.
 
 
