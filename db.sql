@@ -2580,7 +2580,6 @@ bf991fa1-ed29-4370-9377-ecc1b58126db	Goemon	2009-05-01	128	f	\N	{"original_title
 2b01cced-46eb-4c43-aaab-99c8481f2360	Dororo	2007-01-27	138	f	\N	{"original_title": "どろろ", "original_translation": "Dororo", "original_transliteration": "Dororo"}
 7e38ded9-ae5c-4b92-bb14-39b55ac5acff	20th Century Boys: Redemption	2009-08-29	155	f	{"20th Century Boys 3: Redemption"}	{"original_title": "20世紀少年 最終章 ぼくらの旗", "original_translation": "20th Century Boys Final Chapter: Our Flag", "original_transliteration": "20 Seiki Shyounen Saishyuushyou Bokura No Hata"}
 08560f6a-e21e-40dc-9b24-f1b9c3ee7dcf	Kamui Gaiden	2009-09-19	120	f	{"Kamui: The Lone Ninja"}	{"original_title": "カムイ外伝", "original_translation": "Kamui Story", "original_transliteration": "Kamui Gaiden"}
-06b610ac-b58a-4ed0-93eb-63a43b0aaa85	Daigoro vs. Goliath	1972-12-17	85	f	\N	{"original_title": "怪獣大奮戦 ダイゴロウ対ゴリアス", "original_translation": "Big Monster Battle Daigoro Against Goliath", "original_transliteration": "Kaijyuu Daifunsen Daigorou Tai Goriasu"}
 d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	f	\N	{"original_title": "東京湾炎上", "original_translation": "Tokyo Bay Fire", "original_transliteration": "Toukyouwan Enjyou"}
 46d52769-4d58-4cec-a521-a57138748655	Makai Tensho: Samurai Reincarnation	1981-06-06	122	f	\N	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	f	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
@@ -2602,6 +2601,7 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"or
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	Daigoro vs. Goliath	1972-12-17	85	t	\N	{"original_title": "怪獣大奮戦 ダイゴロウ対ゴリアス", "original_translation": "Big Monster Battle Daigoro Against Goliath", "original_transliteration": "Kaijyuu Daifunsen Daigorou Tai Goriasu"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -3279,6 +3279,15 @@ c9ca12b5-cf03-474f-97fd-0c51ef79a872	Hideo	Gosha	M	f	{"day": 26, "year": 1929, "
 6def4348-7013-4427-a3ca-81616e36b1fc	Junichi	Osumi	M	f	\N	\N	\N	\N	\N	{"original_name": "大角純一"}
 466e2111-14af-4331-adc3-89ed16bfff24	Kenyo	Takayasu	M	f	\N	\N	\N	\N	\N	{"original_name": "福安賢洋"}
 ba24b36a-fab4-4b3e-bd0a-fafb2c0dbf4d	Hiroyoshi	Somekawa	M	f	\N	\N	\N	\N	\N	{"original_name": "染川広義"}
+ea2338bd-21ce-4d04-bad3-a89fa1f52024	Toshihiro	Iijima	M	f	{"day": 3, "year": 1932, "month": 9}	\N	Tokyo, Japan	\N	{"Kitanobu Senju (千束北男)"}	{"original_name": "飯島 敏宏"}
+12171394-251e-40c0-97b8-07aec5d49668	Junkichi	Oki	M	f	{"day": 23, "year": 1940, "month": 11}	{"day": 13, "year": 1996, "month": 12}	\N	\N	{"Jun Oki (大木 淳)"}	{"original_name": "大木 淳吉"}
+a21e48ab-e30c-4c50-a590-a01bcc74805f	Minoru	Nakano	M	f	\N	\N	\N	\N	\N	{"original_name": "中野 稔"}
+147915c9-4e58-41e2-abfb-2c59f98e15f8	Hajime	Tsuburaya	M	f	{"day": 23, "year": 1931, "month": 4}	{"day": 9, "year": 1973, "month": 2}	Tokyo, Japan	\N	\N	{"original_name": "円谷 一"}
+5a159a3b-ed79-4bf9-bcb0-478c6269fa43	Shoko	Maita	M	f	{"day": 13, "year": 1935, "month": 3}	\N	Niigyo, Manchuria	\N	{"Toru Fuyuki (冬木 透)"}	{"original_name": "蒔田 尚昊"}
+57499d0b-69e9-4abe-94fd-0ef83eb5f769	Yasuzo	Inagaki	M	f	\N	\N	\N	\N	\N	{"original_name": "稲垣 涌三"}
+c2ce51a6-f9cb-43c1-af63-a99b69be4a4e	Noriyoshi	Ikeya	M	f	{"day": 31, "year": 1940, "month": 8}	{"day": 25, "year": 2016, "month": 10}	\N	\N	\N	{"original_name": "池谷 仙克"}
+9679998a-af62-4621-bba2-5bc74558c7e8	Saru	Arai	M	f	\N	\N	\N	\N	\N	{"original_name": "新井 盛"}
+416a7fcb-7d47-482a-ab0d-9b4a7f8ce7f6	Takao	Shirae	M	f	\N	\N	\N	\N	\N	{"original_name": "白江 隆夫"}
 \.
 
 
@@ -3414,6 +3423,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 --
 
 COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	33f7c137-fba9-42be-aa4d-d3caac47e2df	Sound Recording	7
 \.
 
 
@@ -4566,6 +4576,16 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Theme 
 8673b73b-ffce-464d-8673-c8ca60b10cf8	139d9d4e-57f3-4a85-bf1b-f72ebcf0b2c0	Music	12
 8673b73b-ffce-464d-8673-c8ca60b10cf8	ba24b36a-fab4-4b3e-bd0a-fafb2c0dbf4d	Lighting	13
 8673b73b-ffce-464d-8673-c8ca60b10cf8	2e2c8b9c-e622-4534-8196-2cd54cf9d3d5	Editor	14
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	ea2338bd-21ce-4d04-bad3-a89fa1f52024	Director	-3
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	12171394-251e-40c0-97b8-07aec5d49668	Special Effects	-2
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	a21e48ab-e30c-4c50-a590-a01bcc74805f	Special Effects	-1
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	147915c9-4e58-41e2-abfb-2c59f98e15f8	Producer	1
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	ea2338bd-21ce-4d04-bad3-a89fa1f52024	Screenplay	2
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	5a159a3b-ed79-4bf9-bcb0-478c6269fa43	Music	3
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	57499d0b-69e9-4abe-94fd-0ef83eb5f769	Cinematography	4
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	c2ce51a6-f9cb-43c1-af63-a99b69be4a4e	Art Director	5
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	9679998a-af62-4621-bba2-5bc74558c7e8	Lighting	6
+06b610ac-b58a-4ed0-93eb-63a43b0aaa85	416a7fcb-7d47-482a-ab0d-9b4a7f8ce7f6	Editor	17
 \.
 
 
@@ -4687,6 +4707,8 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	8ac9d4ae-b517-4372-9e42-2e327cd0d95c
 fc33484a-0757-4e04-b475-cccd8e5ac814	8ac9d4ae-b517-4372-9e42-2e327cd0d95c
 be46d083-e66d-4292-86fa-b1e26d4f5eed	8673b73b-ffce-464d-8673-c8ca60b10cf8
 396d3e44-3a24-4a03-8a0e-739954a62b23	8673b73b-ffce-464d-8673-c8ca60b10cf8
+b52fcdd6-691b-4a16-a670-e6ad6f176521	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
+f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
 \.
 
 
@@ -4705,6 +4727,7 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
 28e2fef3-1dee-47f3-aae5-dee1be652154	Dainichi
 fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
 396d3e44-3a24-4a03-8a0e-739954a62b23	Samurai Productions
+f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 \.
 
 
