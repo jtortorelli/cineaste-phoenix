@@ -174,6 +174,20 @@ CREATE VIEW film_index_view AS
 ALTER TABLE film_index_view OWNER TO postgres;
 
 --
+-- Name: staff_group_roles; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE staff_group_roles (
+    film_id uuid,
+    group_id uuid,
+    role character varying(255) NOT NULL,
+    "order" integer DEFAULT 99
+);
+
+
+ALTER TABLE staff_group_roles OWNER TO postgres;
+
+--
 -- Name: staff_person_roles; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -192,12 +206,19 @@ ALTER TABLE staff_person_roles OWNER TO postgres;
 --
 
 CREATE VIEW film_staff_view AS
- SELECT r.film_id,
-    r.role,
-    array_agg(json_build_object('person_id', p.id, 'name', (((p.given_name)::text || ' '::text) || (p.family_name)::text), 'showcase', p.showcase, 'type', 'person', 'order', r."order")) AS staff
-   FROM (staff_person_roles r
-     JOIN people p ON ((p.id = r.person_id)))
-  GROUP BY r.film_id, r.role;
+ SELECT spr.film_id,
+    spr.role,
+    array_agg(json_build_object('person_id', p.id, 'name', (((p.given_name)::text || ' '::text) || (p.family_name)::text), 'showcase', p.showcase, 'type', 'person', 'order', spr."order")) AS staff
+   FROM (staff_person_roles spr
+     JOIN people p ON ((p.id = spr.person_id)))
+  GROUP BY spr.film_id, spr.role
+UNION ALL
+ SELECT sgr.film_id,
+    sgr.role,
+    array_agg(json_build_object('group_id', g.id, 'name', g.name, 'showcase', g.showcase, 'type', 'group', 'order', sgr."order")) AS staff
+   FROM (staff_group_roles sgr
+     JOIN groups g ON ((g.id = sgr.group_id)))
+  GROUP BY sgr.film_id, sgr.role;
 
 
 ALTER TABLE film_staff_view OWNER TO postgres;
@@ -2705,6 +2726,7 @@ COPY group_memberships (group_id, person_id) FROM stdin;
 COPY groups (id, name, showcase, active_start, active_end, props) FROM stdin;
 5bbcef55-15b8-4fc1-a507-a115d57bfbbf	The Peanuts	t	1959	1975	{"original_name": "&#12470;&#12539;&#12500;&#12540;&#12490;&#12483;&#12484;"}
 660408b0-763e-451b-a3de-51cad893c087	The Bambi Pair	f	\N	\N	{"original_name": "&#12506;&#12450;&#12539;&#12496;&#12531;&#12499;"}
+33f7c137-fba9-42be-aa4d-d3caac47e2df	Tokyo Movie Department	f	1957	\N	{"original_name": "東京映画映像部"}
 \.
 
 
@@ -3292,6 +3314,8 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20170107235902	2017-01-08 02:12:08
 20170507184156	2017-05-07 21:14:16.523506
 20170829235509	2017-08-29 23:58:32.22079
+20171106203918	2017-11-06 20:46:00.206868
+20171106205030	2017-11-06 21:03:52.825294
 \.
 
 
@@ -3382,6 +3406,14 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	21e27984-4ac9-4a94-b056-9b8c1649a02f	23
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	381c515c-e1bf-49bd-81c0-0126e2bf6719	24
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	8ac9d4ae-b517-4372-9e42-2e327cd0d95c	25
+\.
+
+
+--
+-- Data for Name: staff_group_roles; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
 \.
 
 
@@ -4802,6 +4834,22 @@ ALTER TABLE ONLY series_films
 
 ALTER TABLE ONLY series_films
     ADD CONSTRAINT series_films_series_id_fkey FOREIGN KEY (series_id) REFERENCES series(id);
+
+
+--
+-- Name: staff_group_roles staff_group_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY staff_group_roles
+    ADD CONSTRAINT staff_group_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+
+
+--
+-- Name: staff_group_roles staff_group_roles_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY staff_group_roles
+    ADD CONSTRAINT staff_group_roles_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id);
 
 
 --
