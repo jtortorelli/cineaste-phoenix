@@ -2594,7 +2594,6 @@ df2bc5e1-38b3-4f31-bc99-5c9fc99fdd06	Ballad	2009-09-05	132	f	\N	{"original_title
 fb7218d1-0de2-47c2-a68e-2c819f2025f8	Kaidan	2007-08-04	119	f	\N	{"original_title": "怪談", "original_translation": "Ghost Story", "original_transliteration": "Kaidan"}
 d4aa5cbb-8515-4815-a62e-2eef504c6e61	The Sword of Alexander	2007-04-07	110	f	\N	{"original_title": "大帝の剣", "original_translation": "Sword of the Emperor", "original_transliteration": "Taitei No Ken"}
 76ee6178-d728-4033-8cfe-01970c1be237	Rurouni Kenshin	2012-08-25	134	f	{"Rurouni Kenshin Part I: Origins"}	{"original_title": "るろうに剣心", "original_translation": "Rurouni Kenshin", "original_transliteration": "Rurouni Kenshin"}
-2bf17c7e-01ae-43be-85f0-9a5c2ef47733	The War in Space	1977-12-17	91	f	\N	{"original_title": "惑星大戦争", "original_translation": "Great Planet War", "original_transliteration": "Wakusei Daisensou"}
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	f	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
@@ -2602,6 +2601,7 @@ f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	Daigoro vs. Goliath	1972-12-17	85	t	\N	{"original_title": "怪獣大奮戦 ダイゴロウ対ゴリアス", "original_translation": "Big Monster Battle Daigoro Against Goliath", "original_transliteration": "Kaijyuu Daifunsen Daigorou Tai Goriasu"}
 d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"original_title": "東京湾炎上", "original_translation": "Tokyo Bay Fire", "original_transliteration": "Toukyouwan Enjyou"}
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	The War in Space	1977-12-17	91	t	\N	{"original_title": "惑星大戦争", "original_translation": "Great Planet War", "original_transliteration": "Wakusei Daisensou"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -3302,6 +3302,8 @@ d793de99-f451-4071-a4c5-0540081ac9a2	Hachiro	Aoyama	M	f	\N	\N	\N	\N	\N	{"origina
 b3aee0fa-cde7-4a61-83f4-dda6ded8fe53	Katsumune	Ishida	M	f	{"day": 20, "year": 1932, "month": 10}	{"day": 2, "year": 2012, "month": 2}	Saka, Komago, Toshima, Tokyo, Japan	Chiba, Tokyo, Japan	\N	{"original_name": "石田 勝心"}
 fa07ffd3-7dda-4430-8737-ff560bac703a	Koji	Tanaka	M	f	{"day": 14, "year": 1941, "month": 2}	\N	Seoul, South Korea	\N	\N	{"original_name": "田中 光二"}
 e34e7b66-99cc-44b2-a734-1aa75c2de44d	Yasuko	Ono	F	f	{"day": 30, "year": 1928, "month": 1}	{"day": 6, "year": 2011, "month": 1}	Azabu, Tokyo, Japan	\N	\N	{"original_name": "大野 靖子"}
+8cc223b6-8561-472e-bdb9-9926491a5ed3	Ryuzo	Nakanishi	M	f	\N	\N	\N	\N	\N	{"original_name": "中西 隆三"}
+236c8f86-82b1-45c6-a8c3-b9fbef09b782	Shuichi	Nagahara	M	f	{"day": 7, "year": 1940, "month": 8}	{"day": 14, "year": 2001, "month": 11}	\N	\N	\N	{"original_name": "永原 秀一"}
 \.
 
 
@@ -4629,6 +4631,21 @@ d085f568-32be-4037-bfb0-f0206a7b8758	dfc0cf18-3a0b-49c9-ace8-c46c3e1093dc	Music	
 d085f568-32be-4037-bfb0-f0206a7b8758	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	19
 d085f568-32be-4037-bfb0-f0206a7b8758	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	25
 d085f568-32be-4037-bfb0-f0206a7b8758	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Assistant Director	28
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	890b42f6-f12a-4afb-8b82-e1f37a6b4dc9	Director	-2
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	267bd025-7057-4466-bdcd-b72b5f339f62	Producer	2
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	c6877155-e133-42c0-874b-1aba9fd78b16	Original Story	3
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	8cc223b6-8561-472e-bdb9-9926491a5ed3	Screenplay	4
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	236c8f86-82b1-45c6-a8c3-b9fbef09b782	Screenplay	5
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	97d629b3-3446-4296-a8e4-f1513719c3ac	Cinematography	6
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	481f186f-9e39-4e5c-85f7-56e9bb4cc6bd	Art Director	7
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	1c30afb0-3f4d-4017-84fd-cb68e9a2e6f0	Sound Recording	8
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	21
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Assistant Director	25
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	c07b56b1-7660-4e4b-b16c-33e14bf1cb73	Lighting	9
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	139d9d4e-57f3-4a85-bf1b-f72ebcf0b2c0	Music	10
+2bf17c7e-01ae-43be-85f0-9a5c2ef47733	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	16
 \.
 
 
@@ -4754,6 +4771,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
 95ad9c89-93ff-4636-8cb7-4ce98b441801	48c3898a-8de2-44dd-8cae-c2983694d0d1
 b52fcdd6-691b-4a16-a670-e6ad6f176521	d085f568-32be-4037-bfb0-f0206a7b8758
+b52fcdd6-691b-4a16-a670-e6ad6f176521	2bf17c7e-01ae-43be-85f0-9a5c2ef47733
 \.
 
 
