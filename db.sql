@@ -2561,13 +2561,13 @@ c35ae200-de99-427d-b769-a8b4df1280ca	Masked Rider: The Next	2007-10-27	113	f	\N	
 93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	f	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31	139	f	{"20th Century Boys 2: The Last Hope"}	{"original_title": "20世紀少年 第2章 最後の希望", "original_translation": "20th Century Boys Second Chapter: The Last Hope", "original_transliteration": "20 Seiki Shyounen Dai 2 Shou Saigo No Kibou"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
-48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	f	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	f	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
 5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
+48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	t	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -3288,6 +3288,17 @@ a21e48ab-e30c-4c50-a590-a01bcc74805f	Minoru	Nakano	M	f	\N	\N	\N	\N	\N	{"original
 c2ce51a6-f9cb-43c1-af63-a99b69be4a4e	Noriyoshi	Ikeya	M	f	{"day": 31, "year": 1940, "month": 8}	{"day": 25, "year": 2016, "month": 10}	\N	\N	\N	{"original_name": "池谷 仙克"}
 9679998a-af62-4621-bba2-5bc74558c7e8	Saru	Arai	M	f	\N	\N	\N	\N	\N	{"original_name": "新井 盛"}
 416a7fcb-7d47-482a-ab0d-9b4a7f8ce7f6	Takao	Shirae	M	f	\N	\N	\N	\N	\N	{"original_name": "白江 隆夫"}
+a25fc6da-b064-484a-9ca5-45adf9330504	Junya	Sato	M	f	{"day": 6, "year": 1932, "month": 11}	\N	Tokyo, Japan	\N	{"Junya Sato (佐藤 純弥)"}	{"original_name": "佐藤 純彌"}
+08005804-0292-44a1-b32b-21fc6e7bdd74	Arei	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 阿礼"}
+d5348e29-45a7-4582-8af3-9fbc03439e29	Ryunosuke	Onoe	M	f	\N	\N	\N	\N	\N	{"original_name": "小野 竜之助"}
+bf1f618f-da22-4382-9eca-50539ffc6692	Masahiko	Iimura	M	f	\N	\N	\N	\N	\N	{"original_name": "飯村 雅彦"}
+c3c5b7e7-215f-4555-8486-9c124e95f07f	Masao	Shimizu	M	f	\N	\N	\N	\N	\N	{"original_name": "清水 政郎"}
+a7de0316-1333-4e70-acc5-487037649f83	Shuichiro	Nakamura	M	f	\N	\N	\N	\N	\N	{"original_name": "中村 修一郎"}
+65a038f7-d9e1-4811-9a30-ddf89f4d14cc	Tadayuki	Kuwana	M	f	\N	\N	\N	\N	\N	{"original_name": "桑名 忠之"}
+ab3f41c2-1450-49d6-9fa2-3cb2cdbcd449	Kenzo	Inoue	M	f	\N	\N	\N	\N	\N	{"original_name": "井上 賢三"}
+822df804-cbbc-482b-bb91-8d8e95eecb0e	Yasuyuki	Kawasaki	M	f	\N	\N	\N	\N	\N	{"original_name": "川崎 保之丞"}
+c0ded0fc-2687-40d1-b11b-8651b3cde87c	Shigeru	Umeya	M	f	\N	\N	\N	\N	\N	{"original_name": "梅谷 茂"}
+d793de99-f451-4071-a4c5-0540081ac9a2	Hachiro	Aoyama	M	f	\N	\N	\N	\N	\N	{"original_name": "青山 八郎"}
 \.
 
 
@@ -4586,6 +4597,20 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Theme 
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	c2ce51a6-f9cb-43c1-af63-a99b69be4a4e	Art Director	5
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	9679998a-af62-4621-bba2-5bc74558c7e8	Lighting	6
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	416a7fcb-7d47-482a-ab0d-9b4a7f8ce7f6	Editor	17
+48c3898a-8de2-44dd-8cae-c2983694d0d1	a25fc6da-b064-484a-9ca5-45adf9330504	Director	-1
+48c3898a-8de2-44dd-8cae-c2983694d0d1	08005804-0292-44a1-b32b-21fc6e7bdd74	Original Story	3
+48c3898a-8de2-44dd-8cae-c2983694d0d1	d5348e29-45a7-4582-8af3-9fbc03439e29	Screenplay	4
+48c3898a-8de2-44dd-8cae-c2983694d0d1	a25fc6da-b064-484a-9ca5-45adf9330504	Screenplay	4
+48c3898a-8de2-44dd-8cae-c2983694d0d1	bf1f618f-da22-4382-9eca-50539ffc6692	Cinematography	5
+48c3898a-8de2-44dd-8cae-c2983694d0d1	bee2d6b7-568f-4386-b380-2ebe35fdc297	Cinematography	6
+48c3898a-8de2-44dd-8cae-c2983694d0d1	a7de0316-1333-4e70-acc5-487037649f83	Art Director	8
+48c3898a-8de2-44dd-8cae-c2983694d0d1	65a038f7-d9e1-4811-9a30-ddf89f4d14cc	Art Director	9
+48c3898a-8de2-44dd-8cae-c2983694d0d1	ab3f41c2-1450-49d6-9fa2-3cb2cdbcd449	Sound Recording	10
+48c3898a-8de2-44dd-8cae-c2983694d0d1	822df804-cbbc-482b-bb91-8d8e95eecb0e	Lighting	11
+48c3898a-8de2-44dd-8cae-c2983694d0d1	c0ded0fc-2687-40d1-b11b-8651b3cde87c	Lighting	12
+48c3898a-8de2-44dd-8cae-c2983694d0d1	67021835-2d1b-4b3d-b42d-9ab3039c5988	Editor	14
+48c3898a-8de2-44dd-8cae-c2983694d0d1	d793de99-f451-4071-a4c5-0540081ac9a2	Music	26
+48c3898a-8de2-44dd-8cae-c2983694d0d1	c3c5b7e7-215f-4555-8486-9c124e95f07f	Cinematography	7
 \.
 
 
@@ -4709,6 +4734,7 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	8673b73b-ffce-464d-8673-c8ca60b10cf8
 396d3e44-3a24-4a03-8a0e-739954a62b23	8673b73b-ffce-464d-8673-c8ca60b10cf8
 b52fcdd6-691b-4a16-a670-e6ad6f176521	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
+95ad9c89-93ff-4636-8cb7-4ce98b441801	48c3898a-8de2-44dd-8cae-c2983694d0d1
 \.
 
 
