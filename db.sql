@@ -2516,7 +2516,6 @@ e41cf916-5691-4a46-8cb6-e70f4d185b58	One Missed Call 2	2005-02-05	106	f	\N	{"ori
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	Lupin the Third	2014-08-30	133	f	\N	{"original_title": "ルパン三世", "original_translation": "Lupin the Third", "original_transliteration": "Rupan Sansei"}
 5088aef6-3dcc-4fda-af9e-6777becd1285	13 Assassins	2010-09-25	141	f	\N	{"original_title": "十三人の刺客", "original_translation": "Thirteen Assassins", "original_transliteration": "Jyuusannin No Shikaku"}
 a44dcca3-ca55-4ca7-b7c4-f095367de638	The Triumphant General Rouge	2009-03-07	123	f	\N	{"original_title": "ジェネラル・ルージュの凱旋", "original_translation": "Triumph of General Rouge", "original_transliteration": "Jyeneraru Ruujyu No Gaisen"}
-6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	f	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	f	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
 0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	f	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
 99365581-abc2-48b0-bbb5-61a081c8c709	Makai Tensho: Samurai Armageddon	1996-04-26	85	f	{"Reborn from Hell: Samurai Armageddon"}	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
@@ -2535,6 +2534,7 @@ e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	t	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	t	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 3b7381aa-ff9a-4b2e-806a-1c6b700614ae	The Submersion of Japan	1973-12-29	140	t	{"Tidal Wave"}	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	t	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -3328,6 +3328,10 @@ d6c39482-45fb-400e-ad05-658812d533d3	Ryu	Hanmura	M	f	{"day": 27, "year": 1933, "
 e25435e0-ada3-4074-8666-6626711d42d1	Katsumi	Endo	M	f	\N	\N	\N	\N	\N	{"original_name": "遠藤 克己"}
 38c18d63-4478-4dc4-a564-71c304f31475	Masaya	Inoue	M	f	\N	\N	\N	\N	\N	{"original_name": "井上 親弥"}
 a3968684-8994-4429-9845-33e0ed54fc00	Kentaro	Haneda	M	f	{"day": 12, "year": 1949, "month": 1}	{"day": 2, "year": 2007, "month": 6}	Kita, Tokyo, Japan	Shinjuku, Tokyo, Japan	\N	{"original_name": "羽田 健太郎"}
+d8de2b28-602f-40b6-9ad2-6bd4e7b6be2a	Hiroichi	Oka	M	f	\N	\N	\N	\N	\N	{"original_name": "大葉 博一"}
+5707e8f2-4ed6-4314-80f2-8b3eea235ac9	Tadaaki	Shimada	M	f	{"year": 1937}	\N	Tokyo, Japan	\N	\N	{"original_name": "島田 忠昭"}
+0ce080f6-0bf6-49e7-a20b-7f075f225912	Tsuneo	Yokoshima	M	f	\N	\N	\N	\N	\N	{"original_name": "横島 恒雄"}
+86e06edd-48fc-4a20-a5c5-710269bcae72	Kei	Taga	M	f	\N	\N	\N	\N	\N	{"original_name": "田賀 保"}
 \.
 
 
@@ -3455,6 +3459,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	21e27984-4ac9-4a94-b056-9b8c1649a02f	23
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	381c515c-e1bf-49bd-81c0-0126e2bf6719	24
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	8ac9d4ae-b517-4372-9e42-2e327cd0d95c	25
+27c45133-7fc7-45cb-9b43-01125c346bba	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	8
 \.
 
 
@@ -4701,6 +4706,15 @@ d085f568-32be-4037-bfb0-f0206a7b8758	86d95011-4e64-4a38-ab69-3d9004bbf00a	Specia
 9bf400db-c02d-4502-b9dd-446e7d3fe231	38c18d63-4478-4dc4-a564-71c304f31475	Editor	9
 9bf400db-c02d-4502-b9dd-446e7d3fe231	56f32850-dde8-4c2e-89c6-0960a80e9fcb	Music Producer	19
 9bf400db-c02d-4502-b9dd-446e7d3fe231	a3968684-8994-4429-9845-33e0ed54fc00	Music	20
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	7887e636-a848-430c-8436-293b47151fd0	Director	-1
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	d8de2b28-602f-40b6-9ad2-6bd4e7b6be2a	Producer	1
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	f1a27fcf-fc61-4758-b3d7-dab10b1303e9	Screenplay	4
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	a63d1091-af4f-49a3-9520-a3eb2ff778d2	Music	5
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	e01927e9-11a5-46a9-a060-baba807daf43	Cinematography	6
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	ccf80df2-a664-4ca3-ad2c-b682ef456b3b	Sound Recording	7
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	5707e8f2-4ed6-4314-80f2-8b3eea235ac9	Lighting	8
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	0ce080f6-0bf6-49e7-a20b-7f075f225912	Art Director	9
+6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	86e06edd-48fc-4a20-a5c5-710269bcae72	Editor	10
 \.
 
 
@@ -4830,6 +4844,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	2bf17c7e-01ae-43be-85f0-9a5c2ef47733
 95ad9c89-93ff-4636-8cb7-4ce98b441801	646d0a87-d4c3-48c0-8bfb-de5db26233d7
 0f87c700-cf02-4810-b05d-e029969912da	646d0a87-d4c3-48c0-8bfb-de5db26233d7
 95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	9bf400db-c02d-4502-b9dd-446e7d3fe231
+c21957cc-cf69-4391-86f7-76e151b5ba73	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403
 \.
 
 
