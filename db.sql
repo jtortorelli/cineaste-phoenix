@@ -2622,7 +2622,6 @@ ace24bd7-2b26-40bb-a818-0404e0f4606e	Retribution	2007-02-24	104	f	\N	{"original_
 c0111612-5ad6-4982-b895-75d8e351f23a	Genghis Khan: To the Ends of the Earth and Sea	2007-03-03	136	f	\N	{"original_title": "蒼き狼 地果て海尽きるまで", "original_translation": "Blue Wolf To the Ends of the Earth and Sea", "original_transliteration": "Aoki Ookami Chisate Umitsukiru Made"}
 92eaa465-8b94-49d6-9726-564a064b3d2b	K-20: The Fiend with Twenty Faces	2008-12-20	137	f	\N	{"original_title": "K-20 怪人二十面相・伝", "original_translation": "K-20 Phantom with Twenty Faces Legend", "original_transliteration": "K-20 Kaijin Nijyuu Mensou Den"}
 a3112f14-09ae-474a-9eb8-b390d0637dd0	Rurouni Kenshin: The Legend Ends	2014-09-13	135	f	{"Rurouni Kenshin Part III: The Legend Ends"}	{"original_title": "るろうに剣心 伝説の最期編", "original_translation": "Rurouni Kenshin Legend Final Chapter", "original_transliteration": "Rurouni Kenshin Densetsu No Saigohen"}
-9bf400db-c02d-4502-b9dd-446e7d3fe231	G. I. Samurai	1979-12-15	139	f	{"Time Slip"}	{"original_title": "戦国自衛隊", "original_translation": "15th Century Self Defense Force", "original_transliteration": "Sengoku Jieitai"}
 6a995dc7-1239-4f95-8fb3-2905b26ead3c	Akira	1988-07-16	124	f	\N	{"original_title": "アキラ", "original_translation": "Akira", "original_transliteration": "Akira"}
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	f	{"Godzilla vs. Mechagodzilla II"}	{"original_title": "ゴジラvsメカゴジラ", "original_translation": "Godzilla VS Mechagodzilla", "original_transliteration": "Gojira VS Mekagojira"}
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	f	{"Gamera 2: Attack of Legion"}	{"original_title": "ガメラ2 レギオン襲来", "original_translation": "Gamera 2: Legion Attack", "original_transliteration": "Gamera 2 Region Shyuurai"}
@@ -2635,6 +2634,7 @@ e867eee7-3dfb-4a98-88d4-94ab919efb14	LoveDeath	2007-05-12	158	f	\N	\N
 6f7545a5-808f-49a1-88e0-b444d1a56f29	Sukiyaki Western Django	2007-09-15	121	f	\N	{"original_title": "スキヤキ・ウエスタン ジャンゴ", "original_translation": "Sukiyaki Western Django", "original_transliteration": "Sukiyaki Uesutan Jyango"}
 ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"original_title": "ゴジラ対メガロ", "original_translation": "Godzilla Against Megalon", "original_transliteration": "Gojira Tai Megaro"}
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	Message from Space	1978-04-29	105	t	\N	{"original_title": "宇宙からのメッセージ", "original_translation": "Message from Space", "original_transliteration": "Uchyuu Kara No Messeeji"}
+9bf400db-c02d-4502-b9dd-446e7d3fe231	G. I. Samurai	1979-12-15	139	t	{"Time Slip"}	{"original_title": "戦国自衛隊", "original_translation": "15th Century Self Defense Force", "original_transliteration": "Sengoku Jieitai"}
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	f	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	Earthquake Archipelago	1980-08-30	126	f	{Deathquake}	{"original_title": "地震列島", "original_translation": "Earthquake Archipelago", "original_transliteration": "Jishin Rettou"}
@@ -3317,6 +3317,17 @@ fe1fd418-8798-4552-ae74-e0f6b1cc3f60	Toru	Nakajima	M	f	\N	\N	\N	\N	\N	{"original
 5bcb42c0-1277-4caf-a8d1-4d533665b6ce	Michio	Mikami	M	f	{"day": 8, "year": 1935, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "三上 陸男"}
 25098573-18e9-483e-adc1-f6c7789e6877	Shigeru	Wakaki	M	f	\N	\N	\N	\N	\N	{"original_name": "若木 得二"}
 352e5706-59a6-437a-81a9-a0fe219778a3	Isamu	Ichida	M	f	\N	\N	\N	\N	\N	{"original_name": "市田 勇"}
+c3312090-7044-4c1e-9a3c-54d0e66ede46	Kosei	Saito	M	f	{"day": 15, "year": 1932, "month": 7}	{"day": 25, "year": 2012, "month": 11}	Shimonoseki, Maruyama, Yamaguchi, Japan	Toshima, Tokyo, Japan	\N	{"original_name": "斎藤 光正"}
+c5167af9-49a3-4710-89bc-092aadd0a2e9	Shinichi	Chiba	M	f	{"day": 22, "year": 1939, "month": 1}	\N	Hakata, Fukuoka, Japan	\N	{"JJ Sonny Chiba","Sonny Chiba","Rindo Wachinaga (和千永 倫道)"}	{"birth_name": "Sadaho Maeda (前田 禎穂)", "original_name": "千葉 真一"}
+56f32850-dde8-4c2e-89c6-0960a80e9fcb	Haruki	Kadokawa	M	f	{"day": 8, "year": 1942, "month": 1}	{"day": 12, "year": 2003, "month": 1}	Mizusashi, Nakashinagawa, Toyama, Japan	\N	\N	{"original_name": "角川 春樹"}
+d6c39482-45fb-400e-ad05-658812d533d3	Ryu	Hanmura	M	f	{"day": 27, "year": 1933, "month": 10}	{"day": 4, "year": 2002, "month": 3}	Katsushika, Tokyo, Japan	\N	\N	{"original_name": "半村 良"}
+5ee15624-fda9-4222-aa8e-3eebffe8250d	Toshio	Kamata	M	f	{"day": 1, "year": 1937, "month": 8}	\N	\N	\N	\N	{"original_name": "鎌田 敏夫"}
+19baa9b7-d467-4de1-a945-9df78799c7e0	Iwao	Isayama	M	f	\N	\N	\N	\N	\N	{"original_name": "伊佐山 巌"}
+08360aa0-6511-484f-bd9f-fada6e4e8eda	Masuo	Tsutsui	M	f	\N	\N	\N	\N	\N	{"original_name": "筒井 増男"}
+050d2fa9-149c-4dcc-a0bf-4b375fafd141	Fumio	Hashimoto	M	f	{"day": 14, "year": 1928, "month": 3}	{"day": 2, "year": 2012, "month": 11}	Kyoto, Japan	\N	\N	{"original_name": "橋本 文雄"}
+e25435e0-ada3-4074-8666-6626711d42d1	Katsumi	Endo	M	f	\N	\N	\N	\N	\N	{"original_name": "遠藤 克己"}
+38c18d63-4478-4dc4-a564-71c304f31475	Masaya	Inoue	M	f	\N	\N	\N	\N	\N	{"original_name": "井上 親弥"}
+a3968684-8994-4429-9845-33e0ed54fc00	Kentaro	Haneda	M	f	{"day": 12, "year": 1949, "month": 1}	{"day": 2, "year": 2007, "month": 6}	Kita, Tokyo, Japan	Shinjuku, Tokyo, Japan	\N	{"original_name": "羽田 健太郎"}
 \.
 
 
@@ -4677,6 +4688,19 @@ d085f568-32be-4037-bfb0-f0206a7b8758	86d95011-4e64-4a38-ab69-3d9004bbf00a	Specia
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	352e5706-59a6-437a-81a9-a0fe219778a3	Editor	22
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	a21e48ab-e30c-4c50-a590-a01bcc74805f	Visual Effects	47
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	91c11908-d3a6-41cd-9f28-98f87bd5ee90	Mecha Design	51
+9bf400db-c02d-4502-b9dd-446e7d3fe231	c3312090-7044-4c1e-9a3c-54d0e66ede46	Director	-2
+9bf400db-c02d-4502-b9dd-446e7d3fe231	c5167af9-49a3-4710-89bc-092aadd0a2e9	Action Director	-1
+9bf400db-c02d-4502-b9dd-446e7d3fe231	56f32850-dde8-4c2e-89c6-0960a80e9fcb	Producer	1
+9bf400db-c02d-4502-b9dd-446e7d3fe231	d6c39482-45fb-400e-ad05-658812d533d3	Original Story	2
+9bf400db-c02d-4502-b9dd-446e7d3fe231	5ee15624-fda9-4222-aa8e-3eebffe8250d	Screenplay	3
+9bf400db-c02d-4502-b9dd-446e7d3fe231	19baa9b7-d467-4de1-a945-9df78799c7e0	Cinematography	4
+9bf400db-c02d-4502-b9dd-446e7d3fe231	f6e9be35-e3c6-41c6-b7d1-076cede500a2	Art Director	5
+9bf400db-c02d-4502-b9dd-446e7d3fe231	08360aa0-6511-484f-bd9f-fada6e4e8eda	Art Director	6
+9bf400db-c02d-4502-b9dd-446e7d3fe231	050d2fa9-149c-4dcc-a0bf-4b375fafd141	Sound Recording	7
+9bf400db-c02d-4502-b9dd-446e7d3fe231	e25435e0-ada3-4074-8666-6626711d42d1	Lighting	8
+9bf400db-c02d-4502-b9dd-446e7d3fe231	38c18d63-4478-4dc4-a564-71c304f31475	Editor	9
+9bf400db-c02d-4502-b9dd-446e7d3fe231	56f32850-dde8-4c2e-89c6-0960a80e9fcb	Music Producer	19
+9bf400db-c02d-4502-b9dd-446e7d3fe231	a3968684-8994-4429-9845-33e0ed54fc00	Music	20
 \.
 
 
@@ -4805,6 +4829,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	d085f568-32be-4037-bfb0-f0206a7b8758
 b52fcdd6-691b-4a16-a670-e6ad6f176521	2bf17c7e-01ae-43be-85f0-9a5c2ef47733
 95ad9c89-93ff-4636-8cb7-4ce98b441801	646d0a87-d4c3-48c0-8bfb-de5db26233d7
 0f87c700-cf02-4810-b05d-e029969912da	646d0a87-d4c3-48c0-8bfb-de5db26233d7
+95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	9bf400db-c02d-4502-b9dd-446e7d3fe231
 \.
 
 
@@ -4825,6 +4850,7 @@ fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
 396d3e44-3a24-4a03-8a0e-739954a62b23	Samurai Productions
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 0f87c700-cf02-4810-b05d-e029969912da	TFC
+95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	Kadokawa
 \.
 
 
