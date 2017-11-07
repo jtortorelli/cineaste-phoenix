@@ -2580,7 +2580,6 @@ bf991fa1-ed29-4370-9377-ecc1b58126db	Goemon	2009-05-01	128	f	\N	{"original_title
 2b01cced-46eb-4c43-aaab-99c8481f2360	Dororo	2007-01-27	138	f	\N	{"original_title": "どろろ", "original_translation": "Dororo", "original_transliteration": "Dororo"}
 7e38ded9-ae5c-4b92-bb14-39b55ac5acff	20th Century Boys: Redemption	2009-08-29	155	f	{"20th Century Boys 3: Redemption"}	{"original_title": "20世紀少年 最終章 ぼくらの旗", "original_translation": "20th Century Boys Final Chapter: Our Flag", "original_transliteration": "20 Seiki Shyounen Saishyuushyou Bokura No Hata"}
 08560f6a-e21e-40dc-9b24-f1b9c3ee7dcf	Kamui Gaiden	2009-09-19	120	f	{"Kamui: The Lone Ninja"}	{"original_title": "カムイ外伝", "original_translation": "Kamui Story", "original_transliteration": "Kamui Gaiden"}
-d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	f	\N	{"original_title": "東京湾炎上", "original_translation": "Tokyo Bay Fire", "original_transliteration": "Toukyouwan Enjyou"}
 46d52769-4d58-4cec-a521-a57138748655	Makai Tensho: Samurai Reincarnation	1981-06-06	122	f	\N	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	f	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	f	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
@@ -2602,6 +2601,7 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"or
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	Daigoro vs. Goliath	1972-12-17	85	t	\N	{"original_title": "怪獣大奮戦 ダイゴロウ対ゴリアス", "original_translation": "Big Monster Battle Daigoro Against Goliath", "original_transliteration": "Kaijyuu Daifunsen Daigorou Tai Goriasu"}
+d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"original_title": "東京湾炎上", "original_translation": "Tokyo Bay Fire", "original_transliteration": "Toukyouwan Enjyou"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -3299,6 +3299,9 @@ ab3f41c2-1450-49d6-9fa2-3cb2cdbcd449	Kenzo	Inoue	M	f	\N	\N	\N	\N	\N	{"original_n
 822df804-cbbc-482b-bb91-8d8e95eecb0e	Yasuyuki	Kawasaki	M	f	\N	\N	\N	\N	\N	{"original_name": "川崎 保之丞"}
 c0ded0fc-2687-40d1-b11b-8651b3cde87c	Shigeru	Umeya	M	f	\N	\N	\N	\N	\N	{"original_name": "梅谷 茂"}
 d793de99-f451-4071-a4c5-0540081ac9a2	Hachiro	Aoyama	M	f	\N	\N	\N	\N	\N	{"original_name": "青山 八郎"}
+b3aee0fa-cde7-4a61-83f4-dda6ded8fe53	Katsumune	Ishida	M	f	{"day": 20, "year": 1932, "month": 10}	{"day": 2, "year": 2012, "month": 2}	Saka, Komago, Toshima, Tokyo, Japan	Chiba, Tokyo, Japan	\N	{"original_name": "石田 勝心"}
+fa07ffd3-7dda-4430-8737-ff560bac703a	Koji	Tanaka	M	f	{"day": 14, "year": 1941, "month": 2}	\N	Seoul, South Korea	\N	\N	{"original_name": "田中 光二"}
+e34e7b66-99cc-44b2-a734-1aa75c2de44d	Yasuko	Ono	F	f	{"day": 30, "year": 1928, "month": 1}	{"day": 6, "year": 2011, "month": 1}	Azabu, Tokyo, Japan	\N	\N	{"original_name": "大野 靖子"}
 \.
 
 
@@ -4611,6 +4614,21 @@ ed4456f3-4bf8-4cb5-b606-ec727cf522d9	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Theme 
 48c3898a-8de2-44dd-8cae-c2983694d0d1	67021835-2d1b-4b3d-b42d-9ab3039c5988	Editor	14
 48c3898a-8de2-44dd-8cae-c2983694d0d1	d793de99-f451-4071-a4c5-0540081ac9a2	Music	26
 48c3898a-8de2-44dd-8cae-c2983694d0d1	c3c5b7e7-215f-4555-8486-9c124e95f07f	Cinematography	7
+d085f568-32be-4037-bfb0-f0206a7b8758	b3aee0fa-cde7-4a61-83f4-dda6ded8fe53	Director	-2
+d085f568-32be-4037-bfb0-f0206a7b8758	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+d085f568-32be-4037-bfb0-f0206a7b8758	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+d085f568-32be-4037-bfb0-f0206a7b8758	67021835-2d1b-4b3d-b42d-9ab3039c5988	Producer	2
+d085f568-32be-4037-bfb0-f0206a7b8758	fa07ffd3-7dda-4430-8737-ff560bac703a	Original Story	3
+d085f568-32be-4037-bfb0-f0206a7b8758	e34e7b66-99cc-44b2-a734-1aa75c2de44d	Screenplay	4
+d085f568-32be-4037-bfb0-f0206a7b8758	98192989-e8a0-4ed7-8d17-295fe8b705cf	Screenplay	5
+d085f568-32be-4037-bfb0-f0206a7b8758	07259617-c6ef-42ad-afac-b37d29f83e4e	Cinematography	6
+d085f568-32be-4037-bfb0-f0206a7b8758	0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Art Director	7
+d085f568-32be-4037-bfb0-f0206a7b8758	b16d5b1e-8e3e-4814-9155-0a2eb9e06e3b	Sound Recording	8
+d085f568-32be-4037-bfb0-f0206a7b8758	b8928aa8-991f-46b3-aca4-c72ba3656249	Lighting	9
+d085f568-32be-4037-bfb0-f0206a7b8758	dfc0cf18-3a0b-49c9-ace8-c46c3e1093dc	Music	12
+d085f568-32be-4037-bfb0-f0206a7b8758	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	19
+d085f568-32be-4037-bfb0-f0206a7b8758	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	25
+d085f568-32be-4037-bfb0-f0206a7b8758	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Assistant Director	28
 \.
 
 
@@ -4735,6 +4753,7 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	8673b73b-ffce-464d-8673-c8ca60b10cf8
 b52fcdd6-691b-4a16-a670-e6ad6f176521	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	06b610ac-b58a-4ed0-93eb-63a43b0aaa85
 95ad9c89-93ff-4636-8cb7-4ce98b441801	48c3898a-8de2-44dd-8cae-c2983694d0d1
+b52fcdd6-691b-4a16-a670-e6ad6f176521	d085f568-32be-4037-bfb0-f0206a7b8758
 \.
 
 
