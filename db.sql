@@ -2549,7 +2549,6 @@ a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	f	
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
 24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
 1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2000-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
-09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	f	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	f	\N	{"original_title": "ゴジラvsキングギドラ", "original_translation": "Godzilla VS King Ghidorah", "original_transliteration": "Gojira VS Kingugidora"}
 328dd5cf-f425-45cf-a487-4457411b78d1	Ghost in the Shell	1995-11-18	85	f	\N	{"original_title": "攻殻機動隊", "original_translation": "Mobile Armored Riot Police", "original_transliteration": "Koukaku Kidoutai"}
 fe6de616-6f61-4c7e-a61e-b892fe6ccddb	Rebirth of Mothra	1996-12-14	106	f	\N	{"original_title": "モスラ", "original_translation": "Mothra", "original_transliteration": "Mosura"}
@@ -2570,6 +2569,7 @@ c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_ti
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	t	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	t	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	t	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -3346,6 +3346,10 @@ e0d83cf1-f349-4a5a-9028-1a8b5418e28a	Masahide	Sakuma	M	f	{"day": 29, "year": 195
 9cb3cc38-1688-49c9-8fa4-d5efd8eb4d3e	Shiro	Fujiwara	M	f	\N	\N	\N	\N	\N	{"original_name": "藤原 四郎"}
 ca97c940-51ef-41d8-92e5-8d545aaf27c4	Kazuo	Takenaka	M	f	\N	\N	\N	\N	\N	{"original_name": "竹中 和雄"}
 aea8b60f-44e4-4948-b16a-3f4589b7155c	Shotaro	Yoshida	M	f	{"day": 26, "year": 1925, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "吉田 庄太郎"}
+b6458865-03a5-4564-9de9-45fd60da5893	Akira	Sakuraki	M	f	\N	\N	\N	\N	\N	{"original_name": "櫻木 晶"}
+3593f713-a7f4-4ff0-afea-2a418be84317	Nobuyuki	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_name": "田中 信行"}
+530f046c-a64a-44ef-9a03-94375dbeeda6	Reijiro	Koroku	M	f	{"day": 13, "year": 1949, "month": 12}	\N	Naka, Okayama, Japan	\N	\N	{"original_name": "小六 禮次郎"}
+bb2f5864-ac73-4b06-9afb-616631bef8a7	Takao	Okawara	M	f	{"day": 20, "year": 1949, "month": 12}	\N	Chiba, Japan	\N	\N	{"original_name": "大河原 孝夫"}
 \.
 
 
@@ -3475,6 +3479,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	381c515c-e1bf-49bd-81c0-0126e2bf6719	24
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	8ac9d4ae-b517-4372-9e42-2e327cd0d95c	25
 27c45133-7fc7-45cb-9b43-01125c346bba	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	8
+abf663c4-4467-4a76-a25f-735b00fbc120	09d7026b-043c-4269-b0b3-c6467fb4fb3a	16
 \.
 
 
@@ -4774,6 +4779,22 @@ a477ef60-d6ae-4406-9914-2a7e060ac379	a21e48ab-e30c-4c50-a590-a01bcc74805f	Visual
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	c07b56b1-7660-4e4b-b16c-33e14bf1cb73	Lighting	13
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	14
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	24
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	88139a2f-443e-42c3-b291-a0ead74a32e6	Director	-2
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	-1
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	c6877155-e133-42c0-874b-1aba9fd78b16	Original Story	2
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	236c8f86-82b1-45c6-a8c3-b9fbef09b782	Screenplay	3
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	267bd025-7057-4466-bdcd-b72b5f339f62	Co-Producer	4
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Cinematography	5
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	b6458865-03a5-4564-9de9-45fd60da5893	Art Director	6
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	3593f713-a7f4-4ff0-afea-2a418be84317	Sound Recording	7
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	c07b56b1-7660-4e4b-b16c-33e14bf1cb73	Lighting	8
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	530f046c-a64a-44ef-9a03-94375dbeeda6	Music	15
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	bb2f5864-ac73-4b06-9afb-616631bef8a7	Assistant Director	28
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor	29
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	362da3f2-b643-417b-9d05-8c32c380d999	Assistant Director	32
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	56
+09d7026b-043c-4269-b0b3-c6467fb4fb3a	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	68
 \.
 
 
@@ -4907,6 +4928,7 @@ c21957cc-cf69-4391-86f7-76e151b5ba73	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403
 b52fcdd6-691b-4a16-a670-e6ad6f176521	c6ea0d4e-7a68-45cb-9da4-c9eae71b705e
 95ad9c89-93ff-4636-8cb7-4ce98b441801	a477ef60-d6ae-4406-9914-2a7e060ac379
 b52fcdd6-691b-4a16-a670-e6ad6f176521	439c5b5d-7127-4f80-bb7a-6fd92fc430b6
+b52fcdd6-691b-4a16-a670-e6ad6f176521	09d7026b-043c-4269-b0b3-c6467fb4fb3a
 \.
 
 
