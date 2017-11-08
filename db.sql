@@ -206,19 +206,21 @@ ALTER TABLE staff_person_roles OWNER TO postgres;
 --
 
 CREATE VIEW film_staff_view AS
- SELECT spr.film_id,
-    spr.role,
-    array_agg(json_build_object('person_id', p.id, 'name', (((p.given_name)::text || ' '::text) || (p.family_name)::text), 'showcase', p.showcase, 'type', 'person', 'order', spr."order")) AS staff
-   FROM (staff_person_roles spr
-     JOIN people p ON ((p.id = spr.person_id)))
-  GROUP BY spr.film_id, spr.role
-UNION ALL
- SELECT sgr.film_id,
-    sgr.role,
-    array_agg(json_build_object('group_id', g.id, 'name', g.name, 'showcase', g.showcase, 'type', 'group', 'order', sgr."order")) AS staff
-   FROM (staff_group_roles sgr
-     JOIN groups g ON ((g.id = sgr.group_id)))
-  GROUP BY sgr.film_id, sgr.role;
+ SELECT fsv.film_id,
+    fsv.role,
+    array_agg(fsv.staff) AS staff
+   FROM ( SELECT spr.film_id,
+            spr.role,
+            json_build_object('person_id', p.id, 'name', (((p.given_name)::text || ' '::text) || (p.family_name)::text), 'showcase', p.showcase, 'type', 'person', 'order', spr."order") AS staff
+           FROM (staff_person_roles spr
+             JOIN people p ON ((p.id = spr.person_id)))
+        UNION ALL
+         SELECT sgr.film_id,
+            sgr.role,
+            json_build_object('group_id', g.id, 'name', g.name, 'showcase', g.showcase, 'type', 'group', 'order', sgr."order") AS staff
+           FROM (staff_group_roles sgr
+             JOIN groups g ON ((g.id = sgr.group_id)))) fsv
+  GROUP BY fsv.film_id, fsv.role;
 
 
 ALTER TABLE film_staff_view OWNER TO postgres;
@@ -2477,7 +2479,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
-a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	f	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 ce555690-494d-4983-a2a7-c99fb2fc0387	Daimajin Strikes Again	1966-12-10	87	t	{"The Return of Daimajin"}	{"original_title": "大魔神逆襲", "original_translation": "Great Demon Counterattack", "original_transliteration": "Daimajin Gyakushyuu"}
 0704c7e5-5709-4401-adaa-8cbec670e47d	Gamera, the Giant Monster	1965-11-27	78	t	{"Gammera the Invincible",Gamera}	{"original_title": "大怪獣ガメラ", "original_translation": "Giant Monster Gamera", "original_transliteration": "Daikaijyuu Gamera"}
@@ -2502,6 +2503,7 @@ f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	t	{"Gamera v
 7392a4a7-9894-462c-97f2-7a929ea2ce00	Latitude Zero	1969-07-26	105	t	\N	{"original_title": "緯度0大作戦", "original_translation": "Latitude Zero Great Strategy", "original_transliteration": "Ido Zero Daisakusen"}
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	t	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
 8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	t	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
+a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	t	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	Zeiram 2	1994-12-17	100	f	\N	{"original_title": "ゼイラム2", "original_translation": "Zeiram 2", "original_transliteration": "Zeiramu 2"}
@@ -2727,6 +2729,7 @@ COPY groups (id, name, showcase, active_start, active_end, props) FROM stdin;
 5bbcef55-15b8-4fc1-a507-a115d57bfbbf	The Peanuts	t	1959	1975	{"original_name": "&#12470;&#12539;&#12500;&#12540;&#12490;&#12483;&#12484;"}
 660408b0-763e-451b-a3de-51cad893c087	The Bambi Pair	f	\N	\N	{"original_name": "&#12506;&#12450;&#12539;&#12496;&#12531;&#12499;"}
 33f7c137-fba9-42be-aa4d-d3caac47e2df	Tokyo Movie Department	f	1957	\N	{"original_name": "東京映画映像部"}
+1da44299-4577-4ca9-aaa2-d1c48fc9e030	Nobody	f	1981	\N	{"original_name": "ノーバディ"}
 \.
 
 
@@ -2817,7 +2820,7 @@ c0eeeca2-2862-4a6f-bf5b-66920a8172a8	Nobuo	Nakamura	M	t	{"day": 14, "year": 1908
 6ec04ee3-d9f9-4d8b-91e2-ab10ae2e9d48	Hiroshi	Tachikawa	M	t	{"day": 7, "year": 1931, "month": 3}	\N	Ogimachi, Tama, Tokyo, Japan	\N	\N	{"birth_name": "Yoichi Tachikawa (&#22826;&#20992;&#24029; &#27915;&#19968;)", "original_name": "&#22826;&#20992;&#24029; &#23515;"}
 2ffd8877-261d-408c-97df-97bd6eb5748d	Mitsuko	Kusabue	F	t	{"day": 22, "year": 1933, "month": 10}	\N	Yokohama, Kanagawa, Japan	\N	\N	{"original_name": "&#33609;&#31515; &#20809;&#23376;"}
 e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Shigeru	Mori	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26862;&#33538;"}
-2caacc76-1f58-43ec-867c-ea717b8db1fb	Akihiko	Arakawa	M	f	\N	\N	\N	\N	\N	\N
+2caacc76-1f58-43ec-867c-ea717b8db1fb	Teruhiko	Arakawa	M	f	\N	\N	\N	\N	\N	\N
 f298c956-ac3a-4d29-b92b-462c16b833e1	Shunro	Oshikawa	M	t	{"day": 21, "year": 1876, "month": 3}	{"day": 16, "year": 1914, "month": 11}	Matsuyama, Ehime, Japan	Tokyo, Japan	\N	{"birth_name": "Masanori Oshikawa (&#25276;&#24029; &#26041;&#23384;)", "original_name": "&#25276;&#24029; &#26149;&#28010;"}
 65171b44-fd3a-4948-9613-3f7206141774	Hideo	Shibuya	M	t	{"day": 20, "year": 1928, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "&#28171;&#35895; &#33521;&#30007;"}
 b883c489-0fe7-4165-86a4-49b531a28c37	Rinsaku	Ogata	M	t	{"day": 6, "year": 1925, "month": 1}	\N	\N	\N	\N	{"original_name": "&#32210;&#26041; &#29136;&#20316;"}
@@ -3335,6 +3338,11 @@ d8de2b28-602f-40b6-9ad2-6bd4e7b6be2a	Hiroichi	Oka	M	f	\N	\N	\N	\N	\N	{"original_
 610714d3-ad1b-492b-85e1-473658cbcc22	Hideyuki	Takai	M	f	{"day": 24, "year": 1941, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "高井 英幸"}
 ae149622-2ff9-4423-8aa9-a7d0d073b297	Iwao	Akune	M	f	\N	\N	\N	\N	\N	{"original_name": "阿久根 巌"}
 1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Eiichi	Asada	M	f	{"day": 13, "year": 1949, "month": 3}	\N	\N	\N	\N	{"original_name": "浅田 英一"}
+a3bc669c-50db-47e6-b696-71007fdc7d27	Seizo	Sengen	M	f	{"day": 23, "year": 1938, "month": 7}	\N	Kyoto, Japan	\N	\N	{"original_name": "仙元 誠三"}
+e3a646f4-9ca6-48f1-9799-7435261a3da3	Tsutomu	Imamura	M	f	\N	\N	\N	\N	\N	{"original_name": "今村 力"}
+e11c6e15-43ad-4b47-b796-e68f9e371e9a	Mitsuo	Watanabe	M	f	\N	\N	\N	\N	\N	{"original_name": "渡辺 三雄"}
+e0d83cf1-f349-4a5a-9028-1a8b5418e28a	Masahide	Sakuma	M	f	{"day": 29, "year": 1952, "month": 2}	{"day": 16, "year": 2014, "month": 1}	Tokyo, Japan	\N	\N	{"original_name": "佐久間 正英"}
+1c0df837-a81e-467d-9e62-2fc00db301db	Hiroyuki	Nanba	M	f	{"day": 9, "year": 1953, "month": 9}	\N	Sugamo, Toshima, Tokyo, Japan	\N	\N	{"original_name": "難波 弘之"}
 \.
 
 
@@ -3372,6 +3380,7 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20170829235509	2017-08-29 23:58:32.22079
 20171106203918	2017-11-06 20:46:00.206868
 20171106205030	2017-11-06 21:03:52.825294
+20171108055812	2017-11-08 06:00:00.909746
 \.
 
 
@@ -3472,6 +3481,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 
 COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	33f7c137-fba9-42be-aa4d-d3caac47e2df	Sound Recording	7
+a477ef60-d6ae-4406-9914-2a7e060ac379	1da44299-4577-4ca9-aaa2-d1c48fc9e030	Music Director	83
 \.
 
 
@@ -4731,6 +4741,20 @@ c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	139d9d4e-57f3-4a85-bf1b-f72ebcf0b2c0	Music	
 c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	20
 c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	37
 c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	40
+a477ef60-d6ae-4406-9914-2a7e060ac379	00e80c55-fe68-425d-91c5-4f22671ba7c8	Director	-2
+a477ef60-d6ae-4406-9914-2a7e060ac379	71342428-9f01-4079-9bef-194a60be69ac	Special Effects Director	-1
+a477ef60-d6ae-4406-9914-2a7e060ac379	56f32850-dde8-4c2e-89c6-0960a80e9fcb	Producer	1
+a477ef60-d6ae-4406-9914-2a7e060ac379	5ee15624-fda9-4222-aa8e-3eebffe8250d	Original Story	2
+a477ef60-d6ae-4406-9914-2a7e060ac379	5ee15624-fda9-4222-aa8e-3eebffe8250d	Screenplay	7
+a477ef60-d6ae-4406-9914-2a7e060ac379	00e80c55-fe68-425d-91c5-4f22671ba7c8	Screenplay	8
+a477ef60-d6ae-4406-9914-2a7e060ac379	a3bc669c-50db-47e6-b696-71007fdc7d27	Cinematography	9
+a477ef60-d6ae-4406-9914-2a7e060ac379	e3a646f4-9ca6-48f1-9799-7435261a3da3	Art Director	10
+a477ef60-d6ae-4406-9914-2a7e060ac379	e11c6e15-43ad-4b47-b796-e68f9e371e9a	Lighting	11
+a477ef60-d6ae-4406-9914-2a7e060ac379	2caacc76-1f58-43ec-867c-ea717b8db1fb	Sound Recording	12
+a477ef60-d6ae-4406-9914-2a7e060ac379	352e5706-59a6-437a-81a9-a0fe219778a3	Editor	13
+a477ef60-d6ae-4406-9914-2a7e060ac379	e0d83cf1-f349-4a5a-9028-1a8b5418e28a	Music Director	84
+a477ef60-d6ae-4406-9914-2a7e060ac379	1c0df837-a81e-467d-9e62-2fc00db301db	Music Director	85
+a477ef60-d6ae-4406-9914-2a7e060ac379	a21e48ab-e30c-4c50-a590-a01bcc74805f	Visual Effects	109
 \.
 
 
@@ -4862,6 +4886,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	2bf17c7e-01ae-43be-85f0-9a5c2ef47733
 95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	9bf400db-c02d-4502-b9dd-446e7d3fe231
 c21957cc-cf69-4391-86f7-76e151b5ba73	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403
 b52fcdd6-691b-4a16-a670-e6ad6f176521	c6ea0d4e-7a68-45cb-9da4-c9eae71b705e
+95ad9c89-93ff-4636-8cb7-4ce98b441801	a477ef60-d6ae-4406-9914-2a7e060ac379
 \.
 
 
