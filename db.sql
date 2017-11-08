@@ -2563,13 +2563,13 @@ c35ae200-de99-427d-b769-a8b4df1280ca	Masked Rider: The Next	2007-10-27	113	f	\N	
 93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	f	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31	139	f	{"20th Century Boys 2: The Last Hope"}	{"original_title": "20世紀少年 第2章 最後の希望", "original_translation": "20th Century Boys Second Chapter: The Last Hope", "original_transliteration": "20 Seiki Shyounen Dai 2 Shou Saigo No Kibou"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
-439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	f	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
 5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	t	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	t	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -3343,6 +3343,9 @@ e3a646f4-9ca6-48f1-9799-7435261a3da3	Tsutomu	Imamura	M	f	\N	\N	\N	\N	\N	{"origin
 e11c6e15-43ad-4b47-b796-e68f9e371e9a	Mitsuo	Watanabe	M	f	\N	\N	\N	\N	\N	{"original_name": "渡辺 三雄"}
 e0d83cf1-f349-4a5a-9028-1a8b5418e28a	Masahide	Sakuma	M	f	{"day": 29, "year": 1952, "month": 2}	{"day": 16, "year": 2014, "month": 1}	Tokyo, Japan	\N	\N	{"original_name": "佐久間 正英"}
 1c0df837-a81e-467d-9e62-2fc00db301db	Hiroyuki	Nanba	M	f	{"day": 9, "year": 1953, "month": 9}	\N	Sugamo, Toshima, Tokyo, Japan	\N	\N	{"original_name": "難波 弘之"}
+9cb3cc38-1688-49c9-8fa4-d5efd8eb4d3e	Shiro	Fujiwara	M	f	\N	\N	\N	\N	\N	{"original_name": "藤原 四郎"}
+ca97c940-51ef-41d8-92e5-8d545aaf27c4	Kazuo	Takenaka	M	f	\N	\N	\N	\N	\N	{"original_name": "竹中 和雄"}
+aea8b60f-44e4-4948-b16a-3f4589b7155c	Shotaro	Yoshida	M	f	{"day": 26, "year": 1925, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "吉田 庄太郎"}
 \.
 
 
@@ -4755,6 +4758,22 @@ a477ef60-d6ae-4406-9914-2a7e060ac379	352e5706-59a6-437a-81a9-a0fe219778a3	Editor
 a477ef60-d6ae-4406-9914-2a7e060ac379	e0d83cf1-f349-4a5a-9028-1a8b5418e28a	Music Director	84
 a477ef60-d6ae-4406-9914-2a7e060ac379	1c0df837-a81e-467d-9e62-2fc00db301db	Music Director	85
 a477ef60-d6ae-4406-9914-2a7e060ac379	a21e48ab-e30c-4c50-a590-a01bcc74805f	Visual Effects	109
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	88139a2f-443e-42c3-b291-a0ead74a32e6	Director	-5
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	-4
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	General Director	-3
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Original Story	-2
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Screenplay	-1
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Producer	2
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	267bd025-7057-4466-bdcd-b72b5f339f62	Co-Producer	3
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	9cb3cc38-1688-49c9-8fa4-d5efd8eb4d3e	Co-Producer	4
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	a3968684-8994-4429-9845-33e0ed54fc00	Music	5
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	f78e2f78-4ca2-4fb5-abfd-89a60c67506e	Cinematography	10
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	ca97c940-51ef-41d8-92e5-8d545aaf27c4	Art Director	11
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	aea8b60f-44e4-4948-b16a-3f4589b7155c	Sound Recording	12
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	c07b56b1-7660-4e4b-b16c-33e14bf1cb73	Lighting	13
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	14
+439c5b5d-7127-4f80-bb7a-6fd92fc430b6	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	24
 \.
 
 
@@ -4887,6 +4906,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	2bf17c7e-01ae-43be-85f0-9a5c2ef47733
 c21957cc-cf69-4391-86f7-76e151b5ba73	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403
 b52fcdd6-691b-4a16-a670-e6ad6f176521	c6ea0d4e-7a68-45cb-9da4-c9eae71b705e
 95ad9c89-93ff-4636-8cb7-4ce98b441801	a477ef60-d6ae-4406-9914-2a7e060ac379
+b52fcdd6-691b-4a16-a670-e6ad6f176521	439c5b5d-7127-4f80-bb7a-6fd92fc430b6
 \.
 
 
