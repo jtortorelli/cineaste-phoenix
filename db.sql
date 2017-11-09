@@ -2610,7 +2610,6 @@ cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_ti
 c4dff626-aed3-4a1e-9823-3315be614257	L: Change the World	2008-02-09	129	f	\N	{"original_title": "L change the WorLd", "original_translation": "L: Change the World", "original_transliteration": "L Change the World"}
 9241a8af-96f9-4297-a21c-2fd39cafc9d0	Sweet Rain: The Accuracy of Death	2008-03-22	113	f	\N	{"original_title": "死神の精度", "original_translation": "Accuracy of Death", "original_transliteration": "Shinigami No Seido"}
 eb390ec6-d2c1-432a-b10c-15e237c8532a	Rurouni Kenshin: Kyoto Inferno	2014-08-01	139	f	{"Rurouni Kenshin Part II: Kyoto Inferno"}	{"original_title": "るろうに剣心 京都大火編", "original_translation": "Rurouni Kenshin Kyoto Inferno", "original_transliteration": "Rurouni Kenshin Kyouto Taikahen"}
-f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	f	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
 9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	Patlabor 2: The Movie	1993-08-07	113	f	\N	{"original_title": "機動警察パトレイバー2 the Movie", "original_translation": "Mobile Police Patlabor 2: The Movie", "original_transliteration": "Kidoukeisatsu Patoreibaa 2 The Movie"}
 f318f528-7c69-40df-a91d-88411c979e67	Gamera: The Guardian of the Universe	1995-03-11	95	f	\N	{"original_title": "ガメラ 大怪獣空中決戦", "original_translation": "Gamera: Giant Monster Air Battle", "original_transliteration": "Gamera Daikaijyuu Kuuchyuu Kessen"}
 b73255d8-4457-4a39-bf7f-e59273d04b88	Ring	1998-01-31	95	f	\N	{"original_title": "リング", "original_translation": "Ring", "original_transliteration": "Ringu"}
@@ -2637,6 +2636,7 @@ e867eee7-3dfb-4a98-88d4-94ab919efb14	LoveDeath	2007-05-12	158	f	\N	\N
 ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"original_title": "ゴジラ対メガロ", "original_translation": "Godzilla Against Megalon", "original_transliteration": "Gojira Tai Megaro"}
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	Message from Space	1978-04-29	105	t	\N	{"original_title": "宇宙からのメッセージ", "original_translation": "Message from Space", "original_transliteration": "Uchyuu Kara No Messeeji"}
 9bf400db-c02d-4502-b9dd-446e7d3fe231	G. I. Samurai	1979-12-15	139	t	{"Time Slip"}	{"original_title": "戦国自衛隊", "original_translation": "15th Century Self Defense Force", "original_transliteration": "Sengoku Jieitai"}
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	t	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	f	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
@@ -3350,6 +3350,10 @@ b6458865-03a5-4564-9de9-45fd60da5893	Akira	Sakuraki	M	f	\N	\N	\N	\N	\N	{"origina
 3593f713-a7f4-4ff0-afea-2a418be84317	Nobuyuki	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_name": "田中 信行"}
 530f046c-a64a-44ef-9a03-94375dbeeda6	Reijiro	Koroku	M	f	{"day": 13, "year": 1949, "month": 12}	\N	Naka, Okayama, Japan	\N	\N	{"original_name": "小六 禮次郎"}
 bb2f5864-ac73-4b06-9afb-616631bef8a7	Takao	Okawara	M	f	{"day": 20, "year": 1949, "month": 12}	\N	Chiba, Japan	\N	\N	{"original_name": "大河原 孝夫"}
+c97017eb-70aa-4861-ad20-7972f84ba9a2	Yasuyoshi	Tokuma	M	f	{"day": 25, "year": 1921, "month": 10}	{"day": 20, "year": 2000, "month": 9}	Yokosuka, Kanagawa, Japan	\N	\N	{"original_name": "徳間 康快"}
+c772adb5-7213-4380-a2aa-24e4855270a0	Shichiro	Murakami	M	f	{"year": 1919}	{"day": 18, "year": 2007, "month": 9}	Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "村上 七郎"}
+0ebef563-1082-49da-bf03-c9921e97a9c1	Maurice	Jarre	M	f	{"day": 13, "year": 1924, "month": 9}	{"day": 29, "year": 2009, "month": 3}	Lyon, France	Malibu, California, United States	\N	{"japanese_name": "モーリス・ジャール"}
+0bcc69f6-d91b-4fce-a2b1-ea6bf8ad2257	Tetsuo	Segawa	M	f	\N	\N	\N	\N	\N	{"original_name": "瀬川 徹夫"}
 \.
 
 
@@ -4795,6 +4799,21 @@ a477ef60-d6ae-4406-9914-2a7e060ac379	a21e48ab-e30c-4c50-a590-a01bcc74805f	Visual
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	362da3f2-b643-417b-9d05-8c32c380d999	Assistant Director	32
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	56
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	68
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	98192989-e8a0-4ed7-8d17-295fe8b705cf	Director	1
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	f1c68ad7-5e4e-4bf8-a174-966878e7bfd5	Special Effects Director	2
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	c97017eb-70aa-4861-ad20-7972f84ba9a2	Producer	3
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	c772adb5-7213-4380-a2aa-24e4855270a0	Producer	4
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Original Story	5
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	e8373ccf-f76b-47e0-8002-91b2b651d551	Screenplay	6
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	98192989-e8a0-4ed7-8d17-295fe8b705cf	Screenplay	7
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	0ebef563-1082-49da-bf03-c9921e97a9c1	Music	8
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	bf1f618f-da22-4382-9eca-50539ffc6692	Cinematography	9
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	48a7856e-e00d-410a-8dee-c9069575da5c	Art Director	10
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	822df804-cbbc-482b-bb91-8d8e95eecb0e	Lighting	11
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	0bcc69f6-d91b-4fce-a2b1-ea6bf8ad2257	Sound Recording	12
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	b819de2f-4340-4a22-bedc-9c6bfc49548c	Editor	13
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	14
+f5eb5937-5b71-4b22-9e9b-c3346f113e50	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	15
 \.
 
 
@@ -4929,6 +4948,9 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	c6ea0d4e-7a68-45cb-9da4-c9eae71b705e
 95ad9c89-93ff-4636-8cb7-4ce98b441801	a477ef60-d6ae-4406-9914-2a7e060ac379
 b52fcdd6-691b-4a16-a670-e6ad6f176521	439c5b5d-7127-4f80-bb7a-6fd92fc430b6
 b52fcdd6-691b-4a16-a670-e6ad6f176521	09d7026b-043c-4269-b0b3-c6467fb4fb3a
+8bffc05c-5e31-4c3f-a5d1-3de658413284	f5eb5937-5b71-4b22-9e9b-c3346f113e50
+2eb26707-fe45-491c-9d66-9bd331c5b536	f5eb5937-5b71-4b22-9e9b-c3346f113e50
+c21957cc-cf69-4391-86f7-76e151b5ba73	f5eb5937-5b71-4b22-9e9b-c3346f113e50
 \.
 
 
@@ -4950,6 +4972,8 @@ fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 0f87c700-cf02-4810-b05d-e029969912da	TFC
 95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	Kadokawa
+8bffc05c-5e31-4c3f-a5d1-3de658413284	Kansai TV
+2eb26707-fe45-491c-9d66-9bd331c5b536	Tokuma Shoten
 \.
 
 
