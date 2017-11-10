@@ -3364,6 +3364,7 @@ e509548c-1fd8-4701-be67-f6c043993659	Kazunori	Ito	M	f	{"day": 24, "year": 1954, 
 9a6a5a5c-3e9f-4933-9a97-625b226bf0e3	Hiroaki	Kamino	M	f	\N	\N	\N	\N	\N	{"original_name": "神野 ひろあき"}
 36b249a6-aedb-4d39-964f-7bc01aed0202	Tetsuji	Mikami	M	f	\N	\N	\N	\N	\N	{"original_name": "三牧 哲二"}
 a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	f	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
+1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Seiji	Morita	M	f	\N	\N	\N	\N	\N	{"original_name": "森田 清次"}
 \.
 
 
@@ -3504,7 +3505,6 @@ abf663c4-4467-4a76-a25f-735b00fbc120	09d7026b-043c-4269-b0b3-c6467fb4fb3a	16
 COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	33f7c137-fba9-42be-aa4d-d3caac47e2df	Sound Recording	7
 a477ef60-d6ae-4406-9914-2a7e060ac379	1da44299-4577-4ca9-aaa2-d1c48fc9e030	Music Director	83
-d1f33930-3bab-48fc-8fc5-c3339d27c413	a39f3d55-d81b-4685-b000-2772b9c20034	Editor	12
 \.
 
 
@@ -4836,6 +4836,7 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	e509548c-1fd8-4701-be67-f6c043993659	Assist
 d1f33930-3bab-48fc-8fc5-c3339d27c413	9a6a5a5c-3e9f-4933-9a97-625b226bf0e3	Art Director	9
 d1f33930-3bab-48fc-8fc5-c3339d27c413	36b249a6-aedb-4d39-964f-7bc01aed0202	Art Director	10
 d1f33930-3bab-48fc-8fc5-c3339d27c413	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	11
+d1f33930-3bab-48fc-8fc5-c3339d27c413	1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Editor	12
 \.
 
 
