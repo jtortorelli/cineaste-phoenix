@@ -2518,7 +2518,6 @@ e41cf916-5691-4a46-8cb6-e70f4d185b58	One Missed Call 2	2005-02-05	106	f	\N	{"ori
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	Lupin the Third	2014-08-30	133	f	\N	{"original_title": "ルパン三世", "original_translation": "Lupin the Third", "original_transliteration": "Rupan Sansei"}
 5088aef6-3dcc-4fda-af9e-6777becd1285	13 Assassins	2010-09-25	141	f	\N	{"original_title": "十三人の刺客", "original_translation": "Thirteen Assassins", "original_transliteration": "Jyuusannin No Shikaku"}
 a44dcca3-ca55-4ca7-b7c4-f095367de638	The Triumphant General Rouge	2009-03-07	123	f	\N	{"original_title": "ジェネラル・ルージュの凱旋", "original_translation": "Triumph of General Rouge", "original_transliteration": "Jyeneraru Ruujyu No Gaisen"}
-5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	f	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
 0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	f	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
 99365581-abc2-48b0-bbb5-61a081c8c709	Makai Tensho: Samurai Armageddon	1996-04-26	85	f	{"Reborn from Hell: Samurai Armageddon"}	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
 a39991bd-6f9b-449f-a011-359411ffbfa1	Tomie	1999-03-06	95	f	\N	{"original_title": "富江", "original_translation": "Tomie", "original_transliteration": "Tomie"}
@@ -2537,6 +2536,7 @@ e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	t	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
 3b7381aa-ff9a-4b2e-806a-1c6b700614ae	The Submersion of Japan	1973-12-29	140	t	{"Tidal Wave"}	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	t	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	t	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -3365,6 +3365,14 @@ e509548c-1fd8-4701-be67-f6c043993659	Kazunori	Ito	M	f	{"day": 24, "year": 1954, 
 36b249a6-aedb-4d39-964f-7bc01aed0202	Tetsuji	Mikami	M	f	\N	\N	\N	\N	\N	{"original_name": "三牧 哲二"}
 a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	f	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
 1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Seiji	Morita	M	f	\N	\N	\N	\N	\N	{"original_name": "森田 清次"}
+950ef895-691a-4f90-9c9f-ffa530dd4bb6	Masato	Harada	M	f	{"day": 3, "year": 1949, "month": 7}	\N	Numazu, Shizuoka, Japan	\N	\N	{"original_name": "原田 眞人"}
+be5537ed-ebbf-4716-825d-8b74eeffaa0a	Eiji	Yamamura	M	f	\N	\N	\N	\N	\N	{"original_name": "山浦 栄二"}
+09012a76-78d1-4771-9e96-8bdba41a71a5	James	Bannon	M	f	\N	\N	\N	\N	\N	{"japanese_name": "ジェームズ・バノン"}
+da84b5cf-c662-46bf-a830-2f979d6497da	Junichi	Fujisawa	M	f	{"day": 20, "year": 1950, "month": 3}	\N	Chiba, Japan	\N	\N	{"original_name": "藤沢 順一"}
+75b642eb-e56f-4142-9bb0-b15b7bb5c397	Fumio	Ogawa	M	f	\N	\N	\N	\N	\N	{"original_name": "小川 富美夫"}
+d83b9cf8-f4c9-4ca5-9302-ebff0892ca4b	Teiichi	Sato	M	f	{"day": 11, "year": 1941, "month": 5}	\N	Chiba, Japan	\N	\N	{"original_name": "斉藤 禎一"}
+7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Tsuyoshi	Awakihara	M	f	{"day": 20, "year": 1935, "month": 7}	\N	Kobe, Hyogo, Japan	\N	\N	{"original_name": "粟木 原毅"}
+d12b85c8-abdc-4051-9c2d-10de23c6d7b4	Toshiyuki	Honda	M	f	{"day": 9, "year": 1957, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "本多 俊之"}
 \.
 
 
@@ -4837,6 +4845,18 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	9a6a5a5c-3e9f-4933-9a97-625b226bf0e3	Art Di
 d1f33930-3bab-48fc-8fc5-c3339d27c413	36b249a6-aedb-4d39-964f-7bc01aed0202	Art Director	10
 d1f33930-3bab-48fc-8fc5-c3339d27c413	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	11
 d1f33930-3bab-48fc-8fc5-c3339d27c413	1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Editor	12
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	950ef895-691a-4f90-9c9f-ffa530dd4bb6	Director	1
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	3
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	be5537ed-ebbf-4716-825d-8b74eeffaa0a	Producer	4
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	950ef895-691a-4f90-9c9f-ffa530dd4bb6	Screenplay	5
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	09012a76-78d1-4771-9e96-8bdba41a71a5	Screenplay	6
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	da84b5cf-c662-46bf-a830-2f979d6497da	Cinematography	7
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	75b642eb-e56f-4142-9bb0-b15b7bb5c397	Art Director	8
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	d83b9cf8-f4c9-4ca5-9302-ebff0892ca4b	Sound Recording	9
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Lighting	10
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor	11
+5fe8aa5c-cb71-478b-b261-657bc3fcff64	d12b85c8-abdc-4051-9c2d-10de23c6d7b4	Music	12
 \.
 
 
@@ -4975,6 +4995,8 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	09d7026b-043c-4269-b0b3-c6467fb4fb3a
 2eb26707-fe45-491c-9d66-9bd331c5b536	f5eb5937-5b71-4b22-9e9b-c3346f113e50
 c21957cc-cf69-4391-86f7-76e151b5ba73	f5eb5937-5b71-4b22-9e9b-c3346f113e50
 d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	d1f33930-3bab-48fc-8fc5-c3339d27c413
+b52fcdd6-691b-4a16-a670-e6ad6f176521	5fe8aa5c-cb71-478b-b261-657bc3fcff64
+930105de-755f-450e-a32f-f9e7e37c1056	5fe8aa5c-cb71-478b-b261-657bc3fcff64
 \.
 
 
@@ -4999,6 +5021,7 @@ f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 8bffc05c-5e31-4c3f-a5d1-3de658413284	Kansai TV
 2eb26707-fe45-491c-9d66-9bd331c5b536	Tokuma Shoten
 d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	Omnibus Promotion
+930105de-755f-450e-a32f-f9e7e37c1056	Sunrise
 \.
 
 
