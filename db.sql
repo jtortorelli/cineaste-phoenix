@@ -2505,7 +2505,6 @@ f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	t	{"Gamera v
 8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	t	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	t	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
-bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	f	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	Zeiram 2	1994-12-17	100	f	\N	{"original_title": "ゼイラム2", "original_translation": "Zeiram 2", "original_transliteration": "Zeiramu 2"}
 bdd71ef3-19fb-49dd-a66f-d0742185846c	Gamera 3: Revenge of Iris	1999-03-06	108	f	{"Gamera 3: The Demon Awakes"}	{"original_title": "ガメラ3 邪神〈イリス〉覚醒", "original_translation": "Gamera 3: Evil Spirit (Iris) Awakens", "original_transliteration": "Gamera 3 Jyashin (Irisu) Kakusei"}
 fcb4b537-1a27-42e2-bafb-2f23564f033a	Ring 2	1999-01-23	95	f	\N	{"original_title": "リング2", "original_translation": "Ring 2", "original_transliteration": "Ringu 2"}
@@ -2537,6 +2536,7 @@ e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	
 3b7381aa-ff9a-4b2e-806a-1c6b700614ae	The Submersion of Japan	1973-12-29	140	t	{"Tidal Wave"}	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	t	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	t	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
+bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	t	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -3373,6 +3373,12 @@ da84b5cf-c662-46bf-a830-2f979d6497da	Junichi	Fujisawa	M	f	{"day": 20, "year": 19
 d83b9cf8-f4c9-4ca5-9302-ebff0892ca4b	Teiichi	Sato	M	f	{"day": 11, "year": 1941, "month": 5}	\N	Chiba, Japan	\N	\N	{"original_name": "斉藤 禎一"}
 7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Tsuyoshi	Awakihara	M	f	{"day": 20, "year": 1935, "month": 7}	\N	Kobe, Hyogo, Japan	\N	\N	{"original_name": "粟木 原毅"}
 d12b85c8-abdc-4051-9c2d-10de23c6d7b4	Toshiyuki	Honda	M	f	{"day": 9, "year": 1957, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "本多 俊之"}
+204e6868-6980-4297-811a-618dc18e111b	Kazuki	Omori	M	f	{"day": 3, "year": 1952, "month": 3}	\N	Osaka, Japan	\N	\N	{"original_name": "大森 一樹"}
+e874dcb8-a06f-48c0-8f7e-5b8ab0725808	Shinichiro	Kobayashi	M	f	{"day": 25, "year": 1955, "month": 5}	\N	Sapporo, Hokkaido, Japan	\N	\N	{"original_name": "小林 晋一郎"}
+cf2be2a5-5344-414c-83f8-062cb700c4fa	Shogo	Tomiyama	M	f	{"day": 27, "year": 1952, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "富山 省吾"}
+55e98028-d761-44c9-90ec-7c1bf393f281	Yudai	Kato	M	f	{"day": 1, "year": 1943, "month": 1}	\N	Taipei, Taiwan	\N	\N	{"original_name": "加藤 雄大"}
+b6feee5f-371c-4339-979b-73218d192c9c	Kazuo	Miyauchi	M	f	{"day": 19, "year": 1940, "month": 11}	\N	Saitama, Japan	\N	\N	{"original_name": "宮内 一男"}
+32e453d4-fc85-4488-98d7-b5c3d2a7b73c	Koichi	Sugiyama	M	f	{"day": 11, "year": 1931, "month": 4}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Koichi Sugiyama (椙山 浩一)", "original_name": "すぎやま こういち"}
 \.
 
 
@@ -3503,6 +3509,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	8ac9d4ae-b517-4372-9e42-2e327cd0d95c	25
 27c45133-7fc7-45cb-9b43-01125c346bba	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	8
 abf663c4-4467-4a76-a25f-735b00fbc120	09d7026b-043c-4269-b0b3-c6467fb4fb3a	16
+abf663c4-4467-4a76-a25f-735b00fbc120	bce2da2a-8823-4d3d-b49e-90c65452f719	17
 \.
 
 
@@ -4857,6 +4864,18 @@ d1f33930-3bab-48fc-8fc5-c3339d27c413	1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Editor
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Lighting	10
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	cd54d1db-167c-4361-98c4-6ebf75294ad0	Editor	11
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	d12b85c8-abdc-4051-9c2d-10de23c6d7b4	Music	12
+bce2da2a-8823-4d3d-b49e-90c65452f719	204e6868-6980-4297-811a-618dc18e111b	Director	1
+bce2da2a-8823-4d3d-b49e-90c65452f719	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+bce2da2a-8823-4d3d-b49e-90c65452f719	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	3
+bce2da2a-8823-4d3d-b49e-90c65452f719	204e6868-6980-4297-811a-618dc18e111b	Screenplay	4
+bce2da2a-8823-4d3d-b49e-90c65452f719	e874dcb8-a06f-48c0-8f7e-5b8ab0725808	Original Story	5
+bce2da2a-8823-4d3d-b49e-90c65452f719	cf2be2a5-5344-414c-83f8-062cb700c4fa	Producer	6
+bce2da2a-8823-4d3d-b49e-90c65452f719	55e98028-d761-44c9-90ec-7c1bf393f281	Cinematography	7
+bce2da2a-8823-4d3d-b49e-90c65452f719	48a7856e-e00d-410a-8dee-c9069575da5c	Art Director	8
+bce2da2a-8823-4d3d-b49e-90c65452f719	b6feee5f-371c-4339-979b-73218d192c9c	Sound Recording	9
+bce2da2a-8823-4d3d-b49e-90c65452f719	7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Lighting	10
+bce2da2a-8823-4d3d-b49e-90c65452f719	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	11
+bce2da2a-8823-4d3d-b49e-90c65452f719	32e453d4-fc85-4488-98d7-b5c3d2a7b73c	Music	12
 \.
 
 
@@ -4997,6 +5016,7 @@ c21957cc-cf69-4391-86f7-76e151b5ba73	f5eb5937-5b71-4b22-9e9b-c3346f113e50
 d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	d1f33930-3bab-48fc-8fc5-c3339d27c413
 b52fcdd6-691b-4a16-a670-e6ad6f176521	5fe8aa5c-cb71-478b-b261-657bc3fcff64
 930105de-755f-450e-a32f-f9e7e37c1056	5fe8aa5c-cb71-478b-b261-657bc3fcff64
+b52fcdd6-691b-4a16-a670-e6ad6f176521	bce2da2a-8823-4d3d-b49e-90c65452f719
 \.
 
 
