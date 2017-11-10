@@ -35,7 +35,7 @@ defmodule CineasteWeb.FilmController do
     film = Repo.preload(film, [:studios])
 
     film_staff_views = Repo.all(from view in FilmStaffView, where: view.film_id == ^film.id)
-    |> Enum.sort_by(fn(view) -> List.first(view.staff).order end)
+    |> Enum.sort_by(fn(view) -> Enum.map(view.staff, fn(staff) -> staff.order end) |> Enum.min end)
 
     film_image_names = Repo.all(from image in FilmImage, where: image.film_id == ^film.id and image.type == "gallery", order_by: image.file_name)
     |> Enum.map(fn(x) -> x.file_name end)
