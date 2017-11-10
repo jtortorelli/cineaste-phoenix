@@ -2596,7 +2596,6 @@ df2bc5e1-38b3-4f31-bc99-5c9fc99fdd06	Ballad	2009-09-05	132	f	\N	{"original_title
 fb7218d1-0de2-47c2-a68e-2c819f2025f8	Kaidan	2007-08-04	119	f	\N	{"original_title": "怪談", "original_translation": "Ghost Story", "original_transliteration": "Kaidan"}
 d4aa5cbb-8515-4815-a62e-2eef504c6e61	The Sword of Alexander	2007-04-07	110	f	\N	{"original_title": "大帝の剣", "original_translation": "Sword of the Emperor", "original_transliteration": "Taitei No Ken"}
 76ee6178-d728-4033-8cfe-01970c1be237	Rurouni Kenshin	2012-08-25	134	f	{"Rurouni Kenshin Part I: Origins"}	{"original_title": "るろうに剣心", "original_translation": "Rurouni Kenshin", "original_transliteration": "Rurouni Kenshin"}
-d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	f	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	f	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
@@ -2604,6 +2603,7 @@ d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	Daigoro vs. Goliath	1972-12-17	85	t	\N	{"original_title": "怪獣大奮戦 ダイゴロウ対ゴリアス", "original_translation": "Big Monster Battle Daigoro Against Goliath", "original_transliteration": "Kaijyuu Daifunsen Daigorou Tai Goriasu"}
 d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"original_title": "東京湾炎上", "original_translation": "Tokyo Bay Fire", "original_transliteration": "Toukyouwan Enjyou"}
 2bf17c7e-01ae-43be-85f0-9a5c2ef47733	The War in Space	1977-12-17	91	t	\N	{"original_title": "惑星大戦争", "original_translation": "Great Planet War", "original_transliteration": "Wakusei Daisensou"}
+d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -2730,6 +2730,7 @@ COPY groups (id, name, showcase, active_start, active_end, props) FROM stdin;
 660408b0-763e-451b-a3de-51cad893c087	The Bambi Pair	f	\N	\N	{"original_name": "&#12506;&#12450;&#12539;&#12496;&#12531;&#12499;"}
 33f7c137-fba9-42be-aa4d-d3caac47e2df	Tokyo Movie Department	f	1957	\N	{"original_name": "東京映画映像部"}
 1da44299-4577-4ca9-aaa2-d1c48fc9e030	Nobody	f	1981	\N	{"original_name": "ノーバディ"}
+a39f3d55-d81b-4685-b000-2772b9c20034	Morita Editorial Office	f	\N	\N	{"original_name": "森田編集室"}
 \.
 
 
@@ -3354,6 +3355,15 @@ c97017eb-70aa-4861-ad20-7972f84ba9a2	Yasuyoshi	Tokuma	M	f	{"day": 25, "year": 19
 c772adb5-7213-4380-a2aa-24e4855270a0	Shichiro	Murakami	M	f	{"year": 1919}	{"day": 18, "year": 2007, "month": 9}	Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "村上 七郎"}
 0ebef563-1082-49da-bf03-c9921e97a9c1	Maurice	Jarre	M	f	{"day": 13, "year": 1924, "month": 9}	{"day": 29, "year": 2009, "month": 3}	Lyon, France	Malibu, California, United States	\N	{"japanese_name": "モーリス・ジャール"}
 0bcc69f6-d91b-4fce-a2b1-ea6bf8ad2257	Tetsuo	Segawa	M	f	\N	\N	\N	\N	\N	{"original_name": "瀬川 徹夫"}
+6abfe2c8-2b4d-4981-b191-35899ab45a90	Mamoru	Oshii	M	f	{"day": 8, "year": 1951, "month": 8}	\N	Ota, Tokyo, Japan	\N	\N	{"original_name": "押井 守"}
+4a654b60-1587-4045-9339-0141d58c077c	Shigeharu	Shiba	M	f	{"day": 1, "year": 1932, "month": 10}	\N	Tokyo, Japan	\N	\N	{"original_name": "斯波 重治"}
+02f27908-a310-47f8-a1ba-db4e0c9c5ac3	Daisuke	Hayashi	M	f	\N	\N	\N	\N	\N	{"original_name": "林 大介"}
+e509548c-1fd8-4701-be67-f6c043993659	Kazunori	Ito	M	f	{"day": 24, "year": 1954, "month": 12}	\N	Kamiyama, Yamagata, Japan	\N	\N	{"original_name": "伊藤 和典"}
+73aa34ca-6731-468e-b9b5-22b21813eaf7	Yosuke	Mamiya	M	f	\N	\N	\N	\N	\N	{"original_name": "間宮 庸介"}
+1b301690-8353-4397-8de2-12245672c365	Yoshimi	Hosaka	M	f	\N	\N	\N	\N	\N	{"original_name": "保坂 芳美"}
+9a6a5a5c-3e9f-4933-9a97-625b226bf0e3	Hiroaki	Kamino	M	f	\N	\N	\N	\N	\N	{"original_name": "神野 ひろあき"}
+36b249a6-aedb-4d39-964f-7bc01aed0202	Tetsuji	Mikami	M	f	\N	\N	\N	\N	\N	{"original_name": "三牧 哲二"}
+a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	f	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
 \.
 
 
@@ -3494,6 +3504,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	09d7026b-043c-4269-b0b3-c6467fb4fb3a	16
 COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	33f7c137-fba9-42be-aa4d-d3caac47e2df	Sound Recording	7
 a477ef60-d6ae-4406-9914-2a7e060ac379	1da44299-4577-4ca9-aaa2-d1c48fc9e030	Music Director	83
+d1f33930-3bab-48fc-8fc5-c3339d27c413	a39f3d55-d81b-4685-b000-2772b9c20034	Editor	12
 \.
 
 
@@ -4814,6 +4825,17 @@ f5eb5937-5b71-4b22-9e9b-c3346f113e50	0bcc69f6-d91b-4fce-a2b1-ea6bf8ad2257	Sound 
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	b819de2f-4340-4a22-bedc-9c6bfc49548c	Editor	13
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	a3950f6b-b64a-4bd3-ba7e-a86641c7763e	Special Effects Art Director	14
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	1384b0eb-f7e0-4b84-ae97-e7f860cd4cbf	Special Effects Assistant Director	15
+d1f33930-3bab-48fc-8fc5-c3339d27c413	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+d1f33930-3bab-48fc-8fc5-c3339d27c413	4a654b60-1587-4045-9339-0141d58c077c	Producer	2
+d1f33930-3bab-48fc-8fc5-c3339d27c413	02f27908-a310-47f8-a1ba-db4e0c9c5ac3	Producer	3
+d1f33930-3bab-48fc-8fc5-c3339d27c413	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	4
+d1f33930-3bab-48fc-8fc5-c3339d27c413	6abfe2c8-2b4d-4981-b191-35899ab45a90	Screenplay	5
+d1f33930-3bab-48fc-8fc5-c3339d27c413	73aa34ca-6731-468e-b9b5-22b21813eaf7	Cinematography	6
+d1f33930-3bab-48fc-8fc5-c3339d27c413	1b301690-8353-4397-8de2-12245672c365	Lighting	7
+d1f33930-3bab-48fc-8fc5-c3339d27c413	e509548c-1fd8-4701-be67-f6c043993659	Assistant Director	8
+d1f33930-3bab-48fc-8fc5-c3339d27c413	9a6a5a5c-3e9f-4933-9a97-625b226bf0e3	Art Director	9
+d1f33930-3bab-48fc-8fc5-c3339d27c413	36b249a6-aedb-4d39-964f-7bc01aed0202	Art Director	10
+d1f33930-3bab-48fc-8fc5-c3339d27c413	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	11
 \.
 
 
@@ -4951,6 +4973,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	09d7026b-043c-4269-b0b3-c6467fb4fb3a
 8bffc05c-5e31-4c3f-a5d1-3de658413284	f5eb5937-5b71-4b22-9e9b-c3346f113e50
 2eb26707-fe45-491c-9d66-9bd331c5b536	f5eb5937-5b71-4b22-9e9b-c3346f113e50
 c21957cc-cf69-4391-86f7-76e151b5ba73	f5eb5937-5b71-4b22-9e9b-c3346f113e50
+d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	d1f33930-3bab-48fc-8fc5-c3339d27c413
 \.
 
 
@@ -4974,6 +4997,7 @@ f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	Kadokawa
 8bffc05c-5e31-4c3f-a5d1-3de658413284	Kansai TV
 2eb26707-fe45-491c-9d66-9bd331c5b536	Tokuma Shoten
+d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	Omnibus Promotion
 \.
 
 
