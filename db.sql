@@ -2479,7 +2479,6 @@ b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost W
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	f	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
-361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	f	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 ce555690-494d-4983-a2a7-c99fb2fc0387	Daimajin Strikes Again	1966-12-10	87	t	{"The Return of Daimajin"}	{"original_title": "大魔神逆襲", "original_translation": "Great Demon Counterattack", "original_transliteration": "Daimajin Gyakushyuu"}
 0704c7e5-5709-4401-adaa-8cbec670e47d	Gamera, the Giant Monster	1965-11-27	78	t	{"Gammera the Invincible",Gamera}	{"original_title": "大怪獣ガメラ", "original_translation": "Giant Monster Gamera", "original_transliteration": "Daikaijyuu Gamera"}
 16789ef4-c05d-4f15-b09f-3bed5291655c	Gamera vs. Barugon	1966-04-17	101	t	{"War of the Monsters"}	{"original_title": "大怪獣決闘 ガメラ対バルゴン", "original_translation": "Giant Monster Battle Gamera Against Barugon", "original_transliteration": "Daikaijyuu Kessen Gamera Tai Barugon"}
@@ -2504,6 +2503,7 @@ f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	t	{"Gamera v
 42255770-e43c-473d-81ca-f412b6f78c62	Godzilla's Revenge	1969-12-20	70	t	{"All Monsters Attack"}	{"original_title": "ゴジラ・ミニラ・ガバラ オール怪獣大進撃", "original_translation": "Godzilla Minya Gabara All Monsters Big Attack", "original_transliteration": "Gojira Minira Gabara Ooru Kaijyuu Daishingeki"}
 8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	t	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	t	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	t	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	Zeiram 2	1994-12-17	100	f	\N	{"original_title": "ゼイラム2", "original_translation": "Zeiram 2", "original_transliteration": "Zeiramu 2"}
 bdd71ef3-19fb-49dd-a66f-d0742185846c	Gamera 3: Revenge of Iris	1999-03-06	108	f	{"Gamera 3: The Demon Awakes"}	{"original_title": "ガメラ3 邪神〈イリス〉覚醒", "original_translation": "Gamera 3: Evil Spirit (Iris) Awakens", "original_transliteration": "Gamera 3 Jyashin (Irisu) Kakusei"}
@@ -3379,6 +3379,8 @@ cf2be2a5-5344-414c-83f8-062cb700c4fa	Shogo	Tomiyama	M	f	{"day": 27, "year": 1952
 55e98028-d761-44c9-90ec-7c1bf393f281	Yudai	Kato	M	f	{"day": 1, "year": 1943, "month": 1}	\N	Taipei, Taiwan	\N	\N	{"original_name": "加藤 雄大"}
 b6feee5f-371c-4339-979b-73218d192c9c	Kazuo	Miyauchi	M	f	{"day": 19, "year": 1940, "month": 11}	\N	Saitama, Japan	\N	\N	{"original_name": "宮内 一男"}
 32e453d4-fc85-4488-98d7-b5c3d2a7b73c	Koichi	Sugiyama	M	f	{"day": 11, "year": 1931, "month": 4}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Koichi Sugiyama (椙山 浩一)", "original_name": "すぎやま こういち"}
+ecbcacdc-e0d7-419d-9130-2b3089931512	Naoko	Asanashi	M	f	\N	\N	\N	\N	\N	{"original_name": "浅梨 なおこ"}
+005f652b-c4d8-4d05-b632-557c2a41de1e	Nikko	Tezuka	M	f	\N	\N	\N	\N	\N	{"original_name": "手塚 常光"}
 \.
 
 
@@ -3435,6 +3437,7 @@ aa6c2cbf-b280-4d9f-ba04-72af9c965abc	Earth Defense Force
 cd1e0507-2418-42c6-bacb-e0d9bbe6b05e	Osaka Castle
 93240054-d306-4a0c-8536-20dc01d84964	Bloodthirsty Trilogy
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	Zatoichi
+272da49b-b792-48aa-83e2-c03554654bb8	Kerberos
 \.
 
 
@@ -3510,6 +3513,8 @@ abf663c4-4467-4a76-a25f-735b00fbc120	b36b76fa-643c-4c91-bf67-f73c7482ba94	15
 27c45133-7fc7-45cb-9b43-01125c346bba	6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	8
 abf663c4-4467-4a76-a25f-735b00fbc120	09d7026b-043c-4269-b0b3-c6467fb4fb3a	16
 abf663c4-4467-4a76-a25f-735b00fbc120	bce2da2a-8823-4d3d-b49e-90c65452f719	17
+272da49b-b792-48aa-83e2-c03554654bb8	d1f33930-3bab-48fc-8fc5-c3339d27c413	1
+272da49b-b792-48aa-83e2-c03554654bb8	361e3cdb-8f40-4a21-974a-3e792abe9e4a	2
 \.
 
 
@@ -4876,6 +4881,15 @@ bce2da2a-8823-4d3d-b49e-90c65452f719	b6feee5f-371c-4339-979b-73218d192c9c	Sound 
 bce2da2a-8823-4d3d-b49e-90c65452f719	7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Lighting	10
 bce2da2a-8823-4d3d-b49e-90c65452f719	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	11
 bce2da2a-8823-4d3d-b49e-90c65452f719	32e453d4-fc85-4488-98d7-b5c3d2a7b73c	Music	12
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	6abfe2c8-2b4d-4981-b191-35899ab45a90	Screenplay	2
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	6abfe2c8-2b4d-4981-b191-35899ab45a90	Original Story	3
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	73aa34ca-6731-468e-b9b5-22b21813eaf7	Cinematography	4
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	1b301690-8353-4397-8de2-12245672c365	Lighting	5
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	6
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	ecbcacdc-e0d7-419d-9130-2b3089931512	Sound Recording	7
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Editor	8
+361e3cdb-8f40-4a21-974a-3e792abe9e4a	005f652b-c4d8-4d05-b632-557c2a41de1e	Art Director	9
 \.
 
 
@@ -5017,6 +5031,9 @@ d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	d1f33930-3bab-48fc-8fc5-c3339d27c413
 b52fcdd6-691b-4a16-a670-e6ad6f176521	5fe8aa5c-cb71-478b-b261-657bc3fcff64
 930105de-755f-450e-a32f-f9e7e37c1056	5fe8aa5c-cb71-478b-b261-657bc3fcff64
 b52fcdd6-691b-4a16-a670-e6ad6f176521	bce2da2a-8823-4d3d-b49e-90c65452f719
+d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	361e3cdb-8f40-4a21-974a-3e792abe9e4a
+c22c320a-fa72-4287-a97c-a1478e9f1e63	361e3cdb-8f40-4a21-974a-3e792abe9e4a
+787f4d01-040c-47ed-8d21-7bb887cd34a6	361e3cdb-8f40-4a21-974a-3e792abe9e4a
 \.
 
 
@@ -5042,6 +5059,8 @@ f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 2eb26707-fe45-491c-9d66-9bd331c5b536	Tokuma Shoten
 d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	Omnibus Promotion
 930105de-755f-450e-a32f-f9e7e37c1056	Sunrise
+c22c320a-fa72-4287-a97c-a1478e9f1e63	Bandai
+787f4d01-040c-47ed-8d21-7bb887cd34a6	Fuji TV
 \.
 
 
