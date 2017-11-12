@@ -2561,7 +2561,6 @@ c35ae200-de99-427d-b769-a8b4df1280ca	Masked Rider: The Next	2007-10-27	113	f	\N	
 93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	f	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31	139	f	{"20th Century Boys 2: The Last Hope"}	{"original_title": "20世紀少年 第2章 最後の希望", "original_translation": "20th Century Boys Second Chapter: The Last Hope", "original_transliteration": "20 Seiki Shyounen Dai 2 Shou Saigo No Kibou"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
-8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	f	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	f	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
 5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	f	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
@@ -2570,6 +2569,7 @@ bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	t	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	t	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	t	\N	{"original_title": "ゴジラvsキングギドラ", "original_translation": "Godzilla VS King Ghidorah", "original_transliteration": "Gojira VS Kingugidora"}
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	t	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -3385,6 +3385,18 @@ ecbcacdc-e0d7-419d-9130-2b3089931512	Naoko	Asanashi	M	f	\N	\N	\N	\N	\N	{"origina
 4db42981-3d08-4be6-a616-c2d10f0c836a	Yoshinori	Sekiguchi	M	f	{"day": 10, "year": 1947, "month": 1}	\N	Tokyo, Japan	\N	\N	{"original_name": "関口 芳則"}
 87b8d051-853c-4f36-b1a5-e8a90a3ec3aa	Ken	Sakai	M	f	\N	\N	\N	\N	\N	{"original_name": "酒井 賢"}
 c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Kenji	Suzuki	M	f	{"day": 9, "year": 1957, "month": 7}	\N	Ibaraki, Japan	\N	\N	{"original_name": "鈴木 健二"}
+a487b3f6-70fa-4a73-bb88-cab349a731b3	Keita	Amemiya	M	f	{"day": 24, "year": 1959, "month": 8}	\N	Urayasu, Chiba, Japan	\N	\N	{"original_name": "雨宮 慶太"}
+70ad5086-a687-4208-8566-139b0ee66673	Shigeki	Takeuchi	M	f	\N	\N	\N	\N	\N	{"original_name": "竹内 茂樹"}
+b732ed8a-d5e8-4771-a59c-d001c40899b7	Yu	Ichida	M	f	\N	\N	\N	\N	\N	{"original_name": "市田 裕"}
+f9009415-0f02-4c68-a394-e6e794d3b7da	Hajime	Matsumoto	M	f	{"day": 4, "year": 1963, "month": 5}	\N	Kanagawa, Japan	\N	\N	{"original_name": "松本 肇"}
+79f56dae-3fed-4c61-bbac-bce1ab79827b	Hiroshi	Honjo	M	f	\N	\N	\N	\N	\N	{"original_name": "本所 寛"}
+5d9f56b1-6b3e-4b99-9c0b-fd36cb8c9155	Yoshimi	Hosaki	M	f	\N	\N	\N	\N	\N	{"original_name": "保崎 芳美"}
+6a143585-e569-4cd1-8abf-32a705706f81	Toshio	Miike	M	f	{"day": 26, "year": 1961, "month": 5}	\N	Kumamoto, Japan	\N	\N	{"original_name": "三池 敏夫"}
+56a3b249-186c-4b03-8c6b-3cf0d6235a5c	Akihiko	Takahashi	M	f	\N	\N	\N	\N	\N	{"original_name": "高橋 昭彦"}
+d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Koichi	Ota	M	f	\N	\N	\N	\N	\N	{"original_name": "太田 浩一"}
+7fc8f4b9-13b7-4f5a-9a54-b2e14f149a3c	Shinji	Kinoshita	M	f	\N	\N	\N	\N	\N	{"original_name": "木下 伸司"}
+07728b4c-d966-48f7-bb4b-0305ac033029	Katsumi	Ito	M	f	\N	\N	\N	\N	\N	{"original_name": "伊藤 克己"}
+fb05cf6a-18db-4f21-b060-51b728ba9de6	Koichi	Sugisawa	M	f	\N	\N	\N	\N	\N	{"original_name": "杉澤 康一"}
 \.
 
 
@@ -4909,6 +4921,20 @@ f362dad8-915b-4d38-8d55-9a0d06a950a9	7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Lighti
 f362dad8-915b-4d38-8d55-9a0d06a950a9	6b5cae4d-55dd-458a-b4ec-5afe7152224f	Editor	11
 f362dad8-915b-4d38-8d55-9a0d06a950a9	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	12
 f362dad8-915b-4d38-8d55-9a0d06a950a9	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Assistant Director	13
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	a487b3f6-70fa-4a73-bb88-cab349a731b3	Director	1
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	70ad5086-a687-4208-8566-139b0ee66673	Producer	2
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	b732ed8a-d5e8-4771-a59c-d001c40899b7	Producer	3
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	f9009415-0f02-4c68-a394-e6e794d3b7da	Screenplay	4
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	a487b3f6-70fa-4a73-bb88-cab349a731b3	Screenplay	5
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	79f56dae-3fed-4c61-bbac-bce1ab79827b	Cinematography	6
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	5d9f56b1-6b3e-4b99-9c0b-fd36cb8c9155	Lighting	7
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	6a143585-e569-4cd1-8abf-32a705706f81	Art Director	8
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	56a3b249-186c-4b03-8c6b-3cf0d6235a5c	Art Director	9
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	a487b3f6-70fa-4a73-bb88-cab349a731b3	Character Design	10
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Music	11
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	7fc8f4b9-13b7-4f5a-9a54-b2e14f149a3c	Music	12
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	07728b4c-d966-48f7-bb4b-0305ac033029	Sound Recording	13
+8c6d6694-71ee-4755-9810-4d9e49e9dc76	fb05cf6a-18db-4f21-b060-51b728ba9de6	Editor	14
 \.
 
 
@@ -5054,6 +5080,8 @@ d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	361e3cdb-8f40-4a21-974a-3e792abe9e4a
 c22c320a-fa72-4287-a97c-a1478e9f1e63	361e3cdb-8f40-4a21-974a-3e792abe9e4a
 787f4d01-040c-47ed-8d21-7bb887cd34a6	361e3cdb-8f40-4a21-974a-3e792abe9e4a
 b52fcdd6-691b-4a16-a670-e6ad6f176521	f362dad8-915b-4d38-8d55-9a0d06a950a9
+bf4edb31-c65b-4908-baaf-269fc27dfd1e	8c6d6694-71ee-4755-9810-4d9e49e9dc76
+f1a9628f-f167-4b02-8bc3-8dbb3ee55804	8c6d6694-71ee-4755-9810-4d9e49e9dc76
 \.
 
 
@@ -5081,6 +5109,8 @@ d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	Omnibus Promotion
 930105de-755f-450e-a32f-f9e7e37c1056	Sunrise
 c22c320a-fa72-4287-a97c-a1478e9f1e63	Bandai
 787f4d01-040c-47ed-8d21-7bb887cd34a6	Fuji TV
+bf4edb31-c65b-4908-baaf-269fc27dfd1e	Gaga Communications
+f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd
 \.
 
 
