@@ -2583,7 +2583,6 @@ bf991fa1-ed29-4370-9377-ecc1b58126db	Goemon	2009-05-01	128	f	\N	{"original_title
 7e38ded9-ae5c-4b92-bb14-39b55ac5acff	20th Century Boys: Redemption	2009-08-29	155	f	{"20th Century Boys 3: Redemption"}	{"original_title": "20世紀少年 最終章 ぼくらの旗", "original_translation": "20th Century Boys Final Chapter: Our Flag", "original_transliteration": "20 Seiki Shyounen Saishyuushyou Bokura No Hata"}
 08560f6a-e21e-40dc-9b24-f1b9c3ee7dcf	Kamui Gaiden	2009-09-19	120	f	{"Kamui: The Lone Ninja"}	{"original_title": "カムイ外伝", "original_translation": "Kamui Story", "original_transliteration": "Kamui Gaiden"}
 46d52769-4d58-4cec-a521-a57138748655	Makai Tensho: Samurai Reincarnation	1981-06-06	122	f	\N	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
-18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	f	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	f	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
 286bb8ad-de51-4416-89a7-185e33711092	Rebirth of Mothra 3	1998-12-12	100	f	\N	{"original_title": "モスラ3 キングギドラ来襲", "original_translation": "Mothra 3: King Ghidorah Appears", "original_transliteration": "Mosura 3 Kingugidora Raishyuu"}
 98571eeb-d5f6-4eaa-a819-12a21b08cc78	Tomie: Forbidden Fruit	2002-06-29	91	f	\N	{"original_title": "富江 最終章 -禁断の果実-", "original_translation": "Tomie Final Chapter: Forbidden Fruit", "original_transliteration": "Tomie Saishyuushyou Kindan No Kajitsu"}
@@ -2604,6 +2603,7 @@ d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
 d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"original_title": "東京湾炎上", "original_translation": "Tokyo Bay Fire", "original_transliteration": "Toukyouwan Enjyou"}
 2bf17c7e-01ae-43be-85f0-9a5c2ef47733	The War in Space	1977-12-17	91	t	\N	{"original_title": "惑星大戦争", "original_translation": "Great Planet War", "original_transliteration": "Wakusei Daisensou"}
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	t	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -3397,6 +3397,12 @@ d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Koichi	Ota	M	f	\N	\N	\N	\N	\N	{"original_na
 7fc8f4b9-13b7-4f5a-9a54-b2e14f149a3c	Shinji	Kinoshita	M	f	\N	\N	\N	\N	\N	{"original_name": "木下 伸司"}
 07728b4c-d966-48f7-bb4b-0305ac033029	Katsumi	Ito	M	f	\N	\N	\N	\N	\N	{"original_name": "伊藤 克己"}
 fb05cf6a-18db-4f21-b060-51b728ba9de6	Koichi	Sugisawa	M	f	\N	\N	\N	\N	\N	{"original_name": "杉澤 康一"}
+3e9c08d4-1a04-464b-8ccd-fdc2002d0f65	Katsushi	Murakami	M	f	\N	\N	\N	\N	\N	{"original_name": "村上 克司"}
+303bd8fb-e80c-4c66-922b-f9ed970adcaf	Kyoichi	Mori	M	f	\N	\N	\N	\N	\N	{"original_name": "森 恭一"}
+352db1f3-f22a-4564-9c6b-fe9dc45be790	Hidefumi	Hanaya	M	f	\N	\N	\N	\N	\N	{"original_name": "花谷 秀文"}
+2839af26-63e0-4cc9-87a6-9c846fef6512	Masashi	Iwahashi	M	f	\N	\N	\N	\N	\N	{"original_name": "岩橋 政志"}
+6fafc4ae-e64f-4595-af16-8a382f658252	Hiroshi	Matsuo	M	f	\N	\N	\N	\N	\N	{"original_name": "松尾 浩"}
+b8fc87c3-d6bf-4083-9cb4-ae72ea0b8dec	Shigeru	Chiba	M	f	{"day": 4, "year": 1954, "month": 2}	\N	Kikuchi, Kumamoto, Japan	\N	\N	{"original_name": "千葉 繁"}
 \.
 
 
@@ -4935,6 +4941,18 @@ f362dad8-915b-4d38-8d55-9a0d06a950a9	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Specia
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	7fc8f4b9-13b7-4f5a-9a54-b2e14f149a3c	Music	12
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	07728b4c-d966-48f7-bb4b-0305ac033029	Sound Recording	13
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	fb05cf6a-18db-4f21-b060-51b728ba9de6	Editor	14
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	6abfe2c8-2b4d-4981-b191-35899ab45a90	Screenplay	2
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	3e9c08d4-1a04-464b-8ccd-fdc2002d0f65	Producer	3
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	303bd8fb-e80c-4c66-922b-f9ed970adcaf	Producer	4
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	73aa34ca-6731-468e-b9b5-22b21813eaf7	Cinematography	5
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	1b301690-8353-4397-8de2-12245672c365	Lighting	6
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	352db1f3-f22a-4564-9c6b-fe9dc45be790	Art Director	7
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	2839af26-63e0-4cc9-87a6-9c846fef6512	Sound Recording	8
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	6fafc4ae-e64f-4595-af16-8a382f658252	Editor	9
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	e509548c-1fd8-4701-be67-f6c043993659	Co-Director	10
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	11
+18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	b8fc87c3-d6bf-4083-9cb4-ae72ea0b8dec	Sound Director	12
 \.
 
 
@@ -5082,6 +5100,8 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	361e3cdb-8f40-4a21-974a-3e792abe9e4a
 b52fcdd6-691b-4a16-a670-e6ad6f176521	f362dad8-915b-4d38-8d55-9a0d06a950a9
 bf4edb31-c65b-4908-baaf-269fc27dfd1e	8c6d6694-71ee-4755-9810-4d9e49e9dc76
 f1a9628f-f167-4b02-8bc3-8dbb3ee55804	8c6d6694-71ee-4755-9810-4d9e49e9dc76
+c22c320a-fa72-4287-a97c-a1478e9f1e63	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
+31339e95-9c10-4572-a7e5-49591e93c17a	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 \.
 
 
@@ -5111,6 +5131,7 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	Bandai
 787f4d01-040c-47ed-8d21-7bb887cd34a6	Fuji TV
 bf4edb31-c65b-4908-baaf-269fc27dfd1e	Gaga Communications
 f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd
+31339e95-9c10-4572-a7e5-49591e93c17a	Embodiment Films
 \.
 
 
