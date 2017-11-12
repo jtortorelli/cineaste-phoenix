@@ -2595,7 +2595,6 @@ df2bc5e1-38b3-4f31-bc99-5c9fc99fdd06	Ballad	2009-09-05	132	f	\N	{"original_title
 fb7218d1-0de2-47c2-a68e-2c819f2025f8	Kaidan	2007-08-04	119	f	\N	{"original_title": "怪談", "original_translation": "Ghost Story", "original_transliteration": "Kaidan"}
 d4aa5cbb-8515-4815-a62e-2eef504c6e61	The Sword of Alexander	2007-04-07	110	f	\N	{"original_title": "大帝の剣", "original_translation": "Sword of the Emperor", "original_transliteration": "Taitei No Ken"}
 76ee6178-d728-4033-8cfe-01970c1be237	Rurouni Kenshin	2012-08-25	134	f	{"Rurouni Kenshin Part I: Origins"}	{"original_title": "るろうに剣心", "original_translation": "Rurouni Kenshin", "original_transliteration": "Rurouni Kenshin"}
-4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	f	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
 15f943e0-ce0c-4421-97a3-627f5c09a856	Eko Eko Azarak III: Misa, the Dark Angel	1998-01-15	95	f	\N	{"original_title": "エコエコアザラクIII -MISA THE DARK ANGEL-", "original_translation": "Eko Eko Azarak III: Misa the Dark Angel", "original_transliteration": "Eko Eko Azaraku III Misa the Dark Angel"}
 f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	f	\N	{"original_title": "パラサイト・イヴ", "original_translation": "Parasite Eve", "original_transliteration": "Parasaito Ibu"}
 d9419337-9051-43e5-b241-882b46b1f1e4	Versus	2001-09-08	119	f	\N	\N
@@ -2604,6 +2603,7 @@ d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"origina
 2bf17c7e-01ae-43be-85f0-9a5c2ef47733	The War in Space	1977-12-17	91	t	\N	{"original_title": "惑星大戦争", "original_translation": "Great Planet War", "original_transliteration": "Wakusei Daisensou"}
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	t	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
+4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	t	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -3403,6 +3403,10 @@ fb05cf6a-18db-4f21-b060-51b728ba9de6	Koichi	Sugisawa	M	f	\N	\N	\N	\N	\N	{"origin
 2839af26-63e0-4cc9-87a6-9c846fef6512	Masashi	Iwahashi	M	f	\N	\N	\N	\N	\N	{"original_name": "岩橋 政志"}
 6fafc4ae-e64f-4595-af16-8a382f658252	Hiroshi	Matsuo	M	f	\N	\N	\N	\N	\N	{"original_name": "松尾 浩"}
 b8fc87c3-d6bf-4083-9cb4-ae72ea0b8dec	Shigeru	Chiba	M	f	{"day": 4, "year": 1954, "month": 2}	\N	Kikuchi, Kumamoto, Japan	\N	\N	{"original_name": "千葉 繁"}
+abdf435c-d20d-4309-b937-f7dd54c3f99e	Masahisa	Kishimoto	M	f	{"day": 10, "year": 1946, "month": 10}	\N	Tokyo, Japan	\N	\N	{"original_name": "岸本 正広"}
+2d33b583-ec35-417f-99d4-e15d83ca2d1a	Hideki	Mochitsuki	M	f	\N	\N	\N	\N	\N	{"original_name": "望月 英樹"}
+7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Miho	Yoneda	M	f	\N	\N	\N	\N	\N	{"original_name": "米田 美保"}
+8c03a378-f4b6-4863-af99-47d6535e64bc	Masaaki	Tezuka	M	f	{"day": 24, "year": 1955, "month": 1}	\N	Tochigi, Japan	\N	\N	{"original_name": "手塚 昌明"}
 \.
 
 
@@ -3538,6 +3542,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	bce2da2a-8823-4d3d-b49e-90c65452f719	17
 272da49b-b792-48aa-83e2-c03554654bb8	d1f33930-3bab-48fc-8fc5-c3339d27c413	1
 272da49b-b792-48aa-83e2-c03554654bb8	361e3cdb-8f40-4a21-974a-3e792abe9e4a	2
 abf663c4-4467-4a76-a25f-735b00fbc120	f362dad8-915b-4d38-8d55-9a0d06a950a9	18
+abf663c4-4467-4a76-a25f-735b00fbc120	4a4b6286-fcdc-4755-8870-83196ac7da97	19
 \.
 
 
@@ -4953,6 +4958,20 @@ f362dad8-915b-4d38-8d55-9a0d06a950a9	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Specia
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	e509548c-1fd8-4701-be67-f6c043993659	Co-Director	10
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	11
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	b8fc87c3-d6bf-4083-9cb4-ae72ea0b8dec	Sound Director	12
+4a4b6286-fcdc-4755-8870-83196ac7da97	bb2f5864-ac73-4b06-9afb-616631bef8a7	Director	1
+4a4b6286-fcdc-4755-8870-83196ac7da97	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+4a4b6286-fcdc-4755-8870-83196ac7da97	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	3
+4a4b6286-fcdc-4755-8870-83196ac7da97	204e6868-6980-4297-811a-618dc18e111b	Screenplay	4
+4a4b6286-fcdc-4755-8870-83196ac7da97	64d0b412-18b4-495b-bf51-f8f59395c90b	Music Director	5
+4a4b6286-fcdc-4755-8870-83196ac7da97	cf2be2a5-5344-414c-83f8-062cb700c4fa	Producer	6
+4a4b6286-fcdc-4755-8870-83196ac7da97	abdf435c-d20d-4309-b937-f7dd54c3f99e	Cinematography	7
+4a4b6286-fcdc-4755-8870-83196ac7da97	87b8d051-853c-4f36-b1a5-e8a90a3ec3aa	Art Director	8
+4a4b6286-fcdc-4755-8870-83196ac7da97	d83b9cf8-f4c9-4ca5-9302-ebff0892ca4b	Sound Recording	9
+4a4b6286-fcdc-4755-8870-83196ac7da97	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighting	10
+4a4b6286-fcdc-4755-8870-83196ac7da97	7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Editor	11
+4a4b6286-fcdc-4755-8870-83196ac7da97	8c03a378-f4b6-4863-af99-47d6535e64bc	Assistant Director	12
+4a4b6286-fcdc-4755-8870-83196ac7da97	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	13
+4a4b6286-fcdc-4755-8870-83196ac7da97	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Assistant Director	14
 \.
 
 
@@ -5102,6 +5121,7 @@ bf4edb31-c65b-4908-baaf-269fc27dfd1e	8c6d6694-71ee-4755-9810-4d9e49e9dc76
 f1a9628f-f167-4b02-8bc3-8dbb3ee55804	8c6d6694-71ee-4755-9810-4d9e49e9dc76
 c22c320a-fa72-4287-a97c-a1478e9f1e63	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 31339e95-9c10-4572-a7e5-49591e93c17a	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
+b52fcdd6-691b-4a16-a670-e6ad6f176521	4a4b6286-fcdc-4755-8870-83196ac7da97
 \.
 
 
