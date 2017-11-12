@@ -18,8 +18,13 @@ defmodule Cineaste.FilmIndexView do
   def sort_title(film_index_view) do
     if (String.starts_with?(film_index_view.title, "The ")) do
       String.trim_leading(film_index_view.title, "The ")
+      |> String.replace(~r/[\.,'-]/, "")
+      |> String.replace(" ", "")
+      |> String.downcase()
     else
-      film_index_view.title
+      String.replace(film_index_view.title, ~r/[\.,'-]/, "")
+      |> String.replace(" ", "")
+      |> String.downcase()
     end
   end
 end
