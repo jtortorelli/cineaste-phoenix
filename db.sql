@@ -2624,7 +2624,6 @@ c0111612-5ad6-4982-b895-75d8e351f23a	Genghis Khan: To the Ends of the Earth and 
 92eaa465-8b94-49d6-9726-564a064b3d2b	K-20: The Fiend with Twenty Faces	2008-12-20	137	f	\N	{"original_title": "K-20 怪人二十面相・伝", "original_translation": "K-20 Phantom with Twenty Faces Legend", "original_transliteration": "K-20 Kaijin Nijyuu Mensou Den"}
 a3112f14-09ae-474a-9eb8-b390d0637dd0	Rurouni Kenshin: The Legend Ends	2014-09-13	135	f	{"Rurouni Kenshin Part III: The Legend Ends"}	{"original_title": "るろうに剣心 伝説の最期編", "original_translation": "Rurouni Kenshin Legend Final Chapter", "original_transliteration": "Rurouni Kenshin Densetsu No Saigohen"}
 6a995dc7-1239-4f95-8fb3-2905b26ead3c	Akira	1988-07-16	124	f	\N	{"original_title": "アキラ", "original_translation": "Akira", "original_transliteration": "Akira"}
-e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	f	{"Godzilla vs. Mechagodzilla II"}	{"original_title": "ゴジラvsメカゴジラ", "original_translation": "Godzilla VS Mechagodzilla", "original_transliteration": "Gojira VS Mekagojira"}
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	f	{"Gamera 2: Attack of Legion"}	{"original_title": "ガメラ2 レギオン襲来", "original_translation": "Gamera 2: Legion Attack", "original_transliteration": "Gamera 2 Region Shyuurai"}
 07f023e7-46b1-44e8-a896-4897c25ca928	Rasen	1998-01-31	97	f	\N	{"original_title": "らせん", "original_translation": "Spiral", "original_transliteration": "Rasen"}
 d47406e8-fd4b-4031-87e9-387f905eeb13	GMK	2001-12-15	105	f	\N	{"original_title": "ゴジラ・モスラ・キングギドラ 大怪獣総攻撃", "original_translation": "Godzilla, Mothra, King Ghidorah: Giant Monsters All Out Attack", "original_transliteration": "Gojira Mosura Kingugidora Daikaijyuu Soukougeki"}
@@ -2637,6 +2636,7 @@ ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"o
 646d0a87-d4c3-48c0-8bfb-de5db26233d7	Message from Space	1978-04-29	105	t	\N	{"original_title": "宇宙からのメッセージ", "original_translation": "Message from Space", "original_transliteration": "Uchyuu Kara No Messeeji"}
 9bf400db-c02d-4502-b9dd-446e7d3fe231	G. I. Samurai	1979-12-15	139	t	{"Time Slip"}	{"original_title": "戦国自衛隊", "original_translation": "15th Century Self Defense Force", "original_transliteration": "Sengoku Jieitai"}
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	t	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	t	{"Godzilla vs. Mechagodzilla II"}	{"original_title": "ゴジラvsメカゴジラ", "original_translation": "Godzilla VS Mechagodzilla", "original_transliteration": "Gojira VS Mekagojira"}
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	f	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
@@ -3407,6 +3407,7 @@ abdf435c-d20d-4309-b937-f7dd54c3f99e	Masahisa	Kishimoto	M	f	{"day": 10, "year": 
 2d33b583-ec35-417f-99d4-e15d83ca2d1a	Hideki	Mochitsuki	M	f	\N	\N	\N	\N	\N	{"original_name": "望月 英樹"}
 7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Miho	Yoneda	M	f	\N	\N	\N	\N	\N	{"original_name": "米田 美保"}
 8c03a378-f4b6-4863-af99-47d6535e64bc	Masaaki	Tezuka	M	f	{"day": 24, "year": 1955, "month": 1}	\N	Tochigi, Japan	\N	\N	{"original_name": "手塚 昌明"}
+01a0b874-1049-43af-89ed-a0b88645c4d5	Wataru	Mimura	M	f	{"year": 1954, "month": 5}	\N	Mie, Japan	\N	\N	{"original_name": "三村 渉"}
 \.
 
 
@@ -3543,6 +3544,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	bce2da2a-8823-4d3d-b49e-90c65452f719	17
 272da49b-b792-48aa-83e2-c03554654bb8	361e3cdb-8f40-4a21-974a-3e792abe9e4a	2
 abf663c4-4467-4a76-a25f-735b00fbc120	f362dad8-915b-4d38-8d55-9a0d06a950a9	18
 abf663c4-4467-4a76-a25f-735b00fbc120	4a4b6286-fcdc-4755-8870-83196ac7da97	19
+abf663c4-4467-4a76-a25f-735b00fbc120	e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	20
 \.
 
 
@@ -4972,6 +4974,19 @@ f362dad8-915b-4d38-8d55-9a0d06a950a9	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Specia
 4a4b6286-fcdc-4755-8870-83196ac7da97	8c03a378-f4b6-4863-af99-47d6535e64bc	Assistant Director	12
 4a4b6286-fcdc-4755-8870-83196ac7da97	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	13
 4a4b6286-fcdc-4755-8870-83196ac7da97	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Assistant Director	14
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	bb2f5864-ac73-4b06-9afb-616631bef8a7	Director	1
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	3
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	01a0b874-1049-43af-89ed-a0b88645c4d5	Screenplay	4
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	64d0b412-18b4-495b-bf51-f8f59395c90b	Music Director	5
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	cf2be2a5-5344-414c-83f8-062cb700c4fa	Producer	6
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	4db42981-3d08-4be6-a616-c2d10f0c836a	Cinematography	7
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	87b8d051-853c-4f36-b1a5-e8a90a3ec3aa	Art Director	8
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	b6feee5f-371c-4339-979b-73218d192c9c	Sound Recording	9
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighting	10
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Editor	11
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	8c03a378-f4b6-4863-af99-47d6535e64bc	Assistant Director	12
+e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	13
 \.
 
 
@@ -5122,6 +5137,7 @@ f1a9628f-f167-4b02-8bc3-8dbb3ee55804	8c6d6694-71ee-4755-9810-4d9e49e9dc76
 c22c320a-fa72-4287-a97c-a1478e9f1e63	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 31339e95-9c10-4572-a7e5-49591e93c17a	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 b52fcdd6-691b-4a16-a670-e6ad6f176521	4a4b6286-fcdc-4755-8870-83196ac7da97
+b52fcdd6-691b-4a16-a670-e6ad6f176521	e0c22c94-00bf-42c2-b0f1-f4189ba6e60e
 \.
 
 
