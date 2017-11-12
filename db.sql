@@ -2517,7 +2517,6 @@ e41cf916-5691-4a46-8cb6-e70f4d185b58	One Missed Call 2	2005-02-05	106	f	\N	{"ori
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	Lupin the Third	2014-08-30	133	f	\N	{"original_title": "ルパン三世", "original_translation": "Lupin the Third", "original_transliteration": "Rupan Sansei"}
 5088aef6-3dcc-4fda-af9e-6777becd1285	13 Assassins	2010-09-25	141	f	\N	{"original_title": "十三人の刺客", "original_translation": "Thirteen Assassins", "original_transliteration": "Jyuusannin No Shikaku"}
 a44dcca3-ca55-4ca7-b7c4-f095367de638	The Triumphant General Rouge	2009-03-07	123	f	\N	{"original_title": "ジェネラル・ルージュの凱旋", "original_translation": "Triumph of General Rouge", "original_transliteration": "Jyeneraru Ruujyu No Gaisen"}
-0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	f	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
 99365581-abc2-48b0-bbb5-61a081c8c709	Makai Tensho: Samurai Armageddon	1996-04-26	85	f	{"Reborn from Hell: Samurai Armageddon"}	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
 a39991bd-6f9b-449f-a011-359411ffbfa1	Tomie	1999-03-06	95	f	\N	{"original_title": "富江", "original_translation": "Tomie", "original_transliteration": "Tomie"}
 c40ae945-d13c-4778-a0a6-6d78b94966ae	Godzilla: Final Wars	2004-12-04	125	f	\N	{"original_title": "ゴジラ ファイナル ウォーズ", "original_translation": "Godzilla: Final Wars", "original_transliteration": "Gojira Fainaru Uoozu"}
@@ -2537,6 +2536,7 @@ e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	
 6a3a47b5-cc33-4a7d-8bac-b2aaf023b403	Gamera, the Space Monster	1980-03-20	109	t	{"Super Monster Gamera"}	{"original_title": "宇宙怪獣ガメラ", "original_translation": "Space Monster Gamera", "original_transliteration": "Uchyuu Kaijyuu Gamera"}
 5fe8aa5c-cb71-478b-b261-657bc3fcff64	Gunhed	1989-07-22	100	t	\N	{"original_title": "ガンヘッド", "original_translation": "Gunhed", "original_transliteration": "Ganheddo"}
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	t	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
+0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	t	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
@@ -3408,6 +3408,8 @@ abdf435c-d20d-4309-b937-f7dd54c3f99e	Masahisa	Kishimoto	M	f	{"day": 10, "year": 
 7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Miho	Yoneda	M	f	\N	\N	\N	\N	\N	{"original_name": "米田 美保"}
 8c03a378-f4b6-4863-af99-47d6535e64bc	Masaaki	Tezuka	M	f	{"day": 24, "year": 1955, "month": 1}	\N	Tochigi, Japan	\N	\N	{"original_name": "手塚 昌明"}
 01a0b874-1049-43af-89ed-a0b88645c4d5	Wataru	Mimura	M	f	{"year": 1954, "month": 5}	\N	Mie, Japan	\N	\N	{"original_name": "三村 渉"}
+135254ee-1674-4d01-9836-9203c8127858	Noboru	Ikeda	M	f	\N	\N	\N	\N	\N	{"original_name": "池田 昇"}
+12af77b7-a7ea-4295-b3b2-3300efd9f56c	Kiyoko	Ogino	F	f	\N	\N	\N	\N	\N	{"original_name": "荻野 清子"}
 \.
 
 
@@ -4987,6 +4989,17 @@ e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighti
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Editor	11
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	8c03a378-f4b6-4863-af99-47d6535e64bc	Assistant Director	12
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	13
+0551ee7d-fecc-4851-a083-f75c65daf18a	bb2f5864-ac73-4b06-9afb-616631bef8a7	Director	1
+0551ee7d-fecc-4851-a083-f75c65daf18a	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+0551ee7d-fecc-4851-a083-f75c65daf18a	cf2be2a5-5344-414c-83f8-062cb700c4fa	Producer	3
+0551ee7d-fecc-4851-a083-f75c65daf18a	01a0b874-1049-43af-89ed-a0b88645c4d5	Screenplay	4
+0551ee7d-fecc-4851-a083-f75c65daf18a	4db42981-3d08-4be6-a616-c2d10f0c836a	Cinematography	5
+0551ee7d-fecc-4851-a083-f75c65daf18a	75b642eb-e56f-4142-9bb0-b15b7bb5c397	Art Director	6
+0551ee7d-fecc-4851-a083-f75c65daf18a	135254ee-1674-4d01-9836-9203c8127858	Sound Recording	7
+0551ee7d-fecc-4851-a083-f75c65daf18a	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighting	8
+0551ee7d-fecc-4851-a083-f75c65daf18a	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	9
+0551ee7d-fecc-4851-a083-f75c65daf18a	12af77b7-a7ea-4295-b3b2-3300efd9f56c	Music	10
+0551ee7d-fecc-4851-a083-f75c65daf18a	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	11
 \.
 
 
@@ -5138,6 +5151,7 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 31339e95-9c10-4572-a7e5-49591e93c17a	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 b52fcdd6-691b-4a16-a670-e6ad6f176521	4a4b6286-fcdc-4755-8870-83196ac7da97
 b52fcdd6-691b-4a16-a670-e6ad6f176521	e0c22c94-00bf-42c2-b0f1-f4189ba6e60e
+b52fcdd6-691b-4a16-a670-e6ad6f176521	0551ee7d-fecc-4851-a083-f75c65daf18a
 \.
 
 
