@@ -2640,7 +2640,6 @@ e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	t	
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	f	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
-d141f540-c0e2-43b4-be80-06f510646d52	Godzilla VS Space Godzilla	1994-12-10	108	f	\N	{"original_title": "ゴジラvsスペースゴジラ", "original_translation": "Godzilla VS Space Godzilla", "original_transliteration": "Gojira VS Supeesugojira"}
 9595f0f3-16ab-47e9-9668-fdbb080091ee	Godzilla VS Destroyer	1995-12-09	103	f	{"Godzilla vs. Destoroyah"}	{"original_title": "ゴジラvsデストロイア", "original_translation": "Godzilla VS Destroyer", "original_transliteration": "Gojira VS Desutoroia"}
 3df82c9d-f929-4cfe-9b94-d7356b30f32f	Ring 0: Birthday	2000-01-22	99	f	\N	{"original_title": "リング0 バースデイ", "original_translation": "Ring 0: Birthday", "original_transliteration": "Ringu 0 Baasudei"}
 21fd4b5c-720f-42b5-8751-94d42bf6be02	Godzilla X Mothra X Mechagodzilla: Tokyo SOS	2003-12-13	91	f	\N	{"original_title": "ゴジラ×モスラ×メカゴジラ 東京SOS", "original_translation": "Godzilla X Mothra X Mechagodzilla: Tokyo SOS", "original_transliteration": "Gojira X Mosura X Mekagojira Toukyou SOS"}
@@ -2658,6 +2657,7 @@ b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_t
 b36b76fa-643c-4c91-bf67-f73c7482ba94	Terror of Mechagodzilla	1975-03-15	83	t	{"The Terror of Godzilla"}	{"original_title": "メカゴジラの逆襲", "original_translation": "Counterattack of Mechagodzilla", "original_transliteration": "Mekagojira No Gyakushyuu"}
 e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	Whirlwind	1964-01-03	106	t	\N	{"original_title": "士魂魔道 大龍巻", "original_translation": "Warrior's Spirit Great Tornado", "original_transliteration": "Shikonmadou Daitatsumaki"}
 c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	Earthquake Archipelago	1980-08-30	126	t	{Deathquake}	{"original_title": "地震列島", "original_translation": "Earthquake Archipelago", "original_transliteration": "Jishin Rettou"}
+d141f540-c0e2-43b4-be80-06f510646d52	Godzilla VS Space Godzilla	1994-12-10	108	t	\N	{"original_title": "ゴジラvsスペースゴジラ", "original_translation": "Godzilla VS Space Godzilla", "original_transliteration": "Gojira VS Supeesugojira"}
 6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2003-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	Warning from Space	1956-01-29	82	t	\N	{"original_title": "宇宙人東京に現わる", "original_translation": "Space Men Appear in Tokyo", "original_transliteration": "Uchyuujin Toukyou Ni Arawaru"}
 9ec4301a-1522-4af9-b83b-92d50b4f0db9	Daimajin	1966-04-17	84	t	\N	{"original_title": "大魔神", "original_translation": "Great Demon", "original_transliteration": "Daimajin"}
@@ -3410,6 +3410,8 @@ abdf435c-d20d-4309-b937-f7dd54c3f99e	Masahisa	Kishimoto	M	f	{"day": 10, "year": 
 01a0b874-1049-43af-89ed-a0b88645c4d5	Wataru	Mimura	M	f	{"year": 1954, "month": 5}	\N	Mie, Japan	\N	\N	{"original_name": "三村 渉"}
 135254ee-1674-4d01-9836-9203c8127858	Noboru	Ikeda	M	f	\N	\N	\N	\N	\N	{"original_name": "池田 昇"}
 12af77b7-a7ea-4295-b3b2-3300efd9f56c	Kiyoko	Ogino	F	f	\N	\N	\N	\N	\N	{"original_name": "荻野 清子"}
+7651bac9-caaf-4765-8b1b-3066b4f27692	Hiroshi	Kashiwabara	M	f	{"day": 6, "year": 1949, "month": 9}	\N	Nihonbashi, Chuo, Tokyo, Japan	\N	\N	{"original_name": "柏原 寛司"}
+33598932-bc25-4a85-b927-47164c0989b0	Takayuki	Hattori	M	f	{"day": 21, "year": 1965, "month": 11}	\N	\N	\N	\N	{"original_name": "服部 隆之"}
 \.
 
 
@@ -3547,6 +3549,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	bce2da2a-8823-4d3d-b49e-90c65452f719	17
 abf663c4-4467-4a76-a25f-735b00fbc120	f362dad8-915b-4d38-8d55-9a0d06a950a9	18
 abf663c4-4467-4a76-a25f-735b00fbc120	4a4b6286-fcdc-4755-8870-83196ac7da97	19
 abf663c4-4467-4a76-a25f-735b00fbc120	e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	20
+abf663c4-4467-4a76-a25f-735b00fbc120	d141f540-c0e2-43b4-be80-06f510646d52	21
 \.
 
 
@@ -5000,6 +5003,18 @@ e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Specia
 0551ee7d-fecc-4851-a083-f75c65daf18a	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	9
 0551ee7d-fecc-4851-a083-f75c65daf18a	12af77b7-a7ea-4295-b3b2-3300efd9f56c	Music	10
 0551ee7d-fecc-4851-a083-f75c65daf18a	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	11
+d141f540-c0e2-43b4-be80-06f510646d52	362da3f2-b643-417b-9d05-8c32c380d999	Director	1
+d141f540-c0e2-43b4-be80-06f510646d52	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+d141f540-c0e2-43b4-be80-06f510646d52	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	3
+d141f540-c0e2-43b4-be80-06f510646d52	7651bac9-caaf-4765-8b1b-3066b4f27692	Screenplay	4
+d141f540-c0e2-43b4-be80-06f510646d52	33598932-bc25-4a85-b927-47164c0989b0	Music	5
+d141f540-c0e2-43b4-be80-06f510646d52	cf2be2a5-5344-414c-83f8-062cb700c4fa	Co-Producer	6
+d141f540-c0e2-43b4-be80-06f510646d52	abdf435c-d20d-4309-b937-f7dd54c3f99e	Cinematography	7
+d141f540-c0e2-43b4-be80-06f510646d52	87b8d051-853c-4f36-b1a5-e8a90a3ec3aa	Art Director	8
+d141f540-c0e2-43b4-be80-06f510646d52	b6feee5f-371c-4339-979b-73218d192c9c	Sound Recording	9
+d141f540-c0e2-43b4-be80-06f510646d52	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighting	10
+d141f540-c0e2-43b4-be80-06f510646d52	7687fe23-f49f-43b3-9f5b-90df2ed31bb2	Editor	11
+d141f540-c0e2-43b4-be80-06f510646d52	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	12
 \.
 
 
@@ -5152,6 +5167,7 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	18c426a6-8cf3-44e0-ac1a-f2d741dda9d1
 b52fcdd6-691b-4a16-a670-e6ad6f176521	4a4b6286-fcdc-4755-8870-83196ac7da97
 b52fcdd6-691b-4a16-a670-e6ad6f176521	e0c22c94-00bf-42c2-b0f1-f4189ba6e60e
 b52fcdd6-691b-4a16-a670-e6ad6f176521	0551ee7d-fecc-4851-a083-f75c65daf18a
+b52fcdd6-691b-4a16-a670-e6ad6f176521	d141f540-c0e2-43b4-be80-06f510646d52
 \.
 
 
