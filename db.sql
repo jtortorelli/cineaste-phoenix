@@ -2548,7 +2548,6 @@ a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	f	
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
 24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
 1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2000-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
-328dd5cf-f425-45cf-a487-4457411b78d1	Ghost in the Shell	1995-11-18	85	f	\N	{"original_title": "攻殻機動隊", "original_translation": "Mobile Armored Riot Police", "original_transliteration": "Koukaku Kidoutai"}
 fe6de616-6f61-4c7e-a61e-b892fe6ccddb	Rebirth of Mothra	1996-12-14	106	f	\N	{"original_title": "モスラ", "original_translation": "Mothra", "original_transliteration": "Mosura"}
 ea15e6b4-5bac-48d9-836b-eda509c39ba6	Tomie: Another Face	1999-12-26	95	f	\N	{"original_title": "富江 恐怖の美少女", "original_translation": "Tomie: Beautiful Girl of Terror", "original_transliteration": "Tomie Kyoufu No Bishyoujyou"}
 8d1d9023-f052-43ba-bec7-3de46d40dc3b	Chaos	2000-10-21	104	f	\N	{"original_title": "カオス", "original_translation": "Chaos", "original_transliteration": "Kaosu"}
@@ -2570,6 +2569,7 @@ bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	
 f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	t	\N	{"original_title": "ゴジラvsキングギドラ", "original_translation": "Godzilla VS King Ghidorah", "original_transliteration": "Gojira VS Kingugidora"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	t	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	t	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
+328dd5cf-f425-45cf-a487-4457411b78d1	Ghost in the Shell	1995-11-18	85	t	\N	{"original_title": "攻殻機動隊", "original_translation": "Mobile Armored Riot Police", "original_transliteration": "Koukaku Kidoutai"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 b91e69c2-1d07-48e7-b3e1-9576417b518d	Battle Royale	2000-12-16	114	f	\N	{"original_title": "バトル・ロワイアル", "original_translation": "Battle Royale", "original_transliteration": "Batoru Rowaiaru"}
@@ -3440,6 +3440,11 @@ c65d0de0-9a24-4861-949e-bf7cbb13ebd0	Fumio	Matsumura	M	f	{"day": 18, "year": 194
 cda4a781-a17c-4cf8-a3d9-1dc86e2f97a0	Masaru	Saiki	M	f	\N	\N	\N	\N	\N	{"original_name": "才木 勝"}
 123c83aa-94e2-4562-b9c5-e43bf625e34c	Junkichi	Sugano	M	f	{"day": 22, "year": 1931, "month": 4}	{"day": 9, "year": 2013, "month": 5}	Fukushima, Japan	\N	\N	{"original_name": "菅野 順吉"}
 84fd26a4-e754-45f8-9461-45c1d0c1db46	Katsumi	Ota	M	f	\N	\N	\N	\N	\N	{"original_name": "太田 克己"}
+98d2a572-9aad-44b6-8ace-f9add0ea558d	Shiro	Masamune	M	f	{"day": 23, "year": 1961, "month": 11}	\N	Kobe, Hyogo, Japan	\N	\N	{"original_name": "正宗 士郎"}
+8c79be4a-6a68-4fcb-9f7a-0791c55dbe82	Hiromasa	Ogura	M	f	{"day": 1, "year": 1954, "month": 9}	\N	Tokyo, Japan	\N	\N	{"original_name": "小倉 宏昌"}
+5e500733-9325-4425-a517-0453be65b1ff	Hisao	Shirai	M	f	{"day": 12, "year": 1946, "month": 12}	\N	Saitama, Japan	\N	\N	{"original_name": "白井 久男"}
+e1824175-349a-409b-9799-0863397254da	Shuichi	Kakesu	M	f	{"day": 1, "year": 1957, "month": 1}	\N	Katsura, Chiba, Japan	\N	\N	{"original_name": "掛須 秀一"}
+7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Kazuhiro	Wakabayashi	M	f	{"day": 20, "year": 1964, "month": 12}	\N	Tokyo, Japan	\N	\N	{"original_name": "若林 和弘"}
 \.
 
 
@@ -5091,6 +5096,14 @@ c09478fe-08da-45ef-b4c2-9ecc076cb73b	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor
 0c039e43-df7f-4bf0-83f1-e7717611bf73	d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Music	9
 0c039e43-df7f-4bf0-83f1-e7717611bf73	7fc8f4b9-13b7-4f5a-9a54-b2e14f149a3c	Music	10
 0c039e43-df7f-4bf0-83f1-e7717611bf73	a487b3f6-70fa-4a73-bb88-cab349a731b3	Character Design	11
+328dd5cf-f425-45cf-a487-4457411b78d1	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+328dd5cf-f425-45cf-a487-4457411b78d1	98d2a572-9aad-44b6-8ace-f9add0ea558d	Original Story	2
+328dd5cf-f425-45cf-a487-4457411b78d1	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	3
+328dd5cf-f425-45cf-a487-4457411b78d1	8c79be4a-6a68-4fcb-9f7a-0791c55dbe82	Art Director	4
+328dd5cf-f425-45cf-a487-4457411b78d1	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	5
+328dd5cf-f425-45cf-a487-4457411b78d1	5e500733-9325-4425-a517-0453be65b1ff	Cinematography	6
+328dd5cf-f425-45cf-a487-4457411b78d1	e1824175-349a-409b-9799-0863397254da	Editor	7
+328dd5cf-f425-45cf-a487-4457411b78d1	7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Sound Recording	8
 \.
 
 
@@ -5252,6 +5265,10 @@ ecb911c2-dd74-4fdf-9005-210865f7ed7a	f318f528-7c69-40df-a91d-88411c979e67
 bf4edb31-c65b-4908-baaf-269fc27dfd1e	c09478fe-08da-45ef-b4c2-9ecc076cb73b
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	c09478fe-08da-45ef-b4c2-9ecc076cb73b
 95ad9c89-93ff-4636-8cb7-4ce98b441801	0c039e43-df7f-4bf0-83f1-e7717611bf73
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	328dd5cf-f425-45cf-a487-4457411b78d1
+c22c320a-fa72-4287-a97c-a1478e9f1e63	328dd5cf-f425-45cf-a487-4457411b78d1
+4f8a7cfa-1ebc-4e66-a874-4d1c843176f2	328dd5cf-f425-45cf-a487-4457411b78d1
+2fe3e582-9ca5-401c-817d-f6c2135601a0	328dd5cf-f425-45cf-a487-4457411b78d1
 \.
 
 
@@ -5284,6 +5301,9 @@ f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd
 ecb911c2-dd74-4fdf-9005-210865f7ed7a	Nippon TV
 622319bd-fb9f-46b9-b308-1362956dab5d	Hakuhodo
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Entertainment
+4f8a7cfa-1ebc-4e66-a874-4d1c843176f2	Manga Entertainment
+2fe3e582-9ca5-401c-817d-f6c2135601a0	Production I.G
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	Kodansha
 \.
 
 
