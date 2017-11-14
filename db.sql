@@ -2570,7 +2570,6 @@ bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	t	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	t	\N	{"original_title": "ゴジラvsキングギドラ", "original_translation": "Godzilla VS King Ghidorah", "original_transliteration": "Gojira VS Kingugidora"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	t	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: The Wizard of Darkness	1995-04-08	80	f	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 b91e69c2-1d07-48e7-b3e1-9576417b518d	Battle Royale	2000-12-16	114	f	\N	{"original_title": "バトル・ロワイアル", "original_translation": "Battle Royale", "original_transliteration": "Batoru Rowaiaru"}
@@ -2604,6 +2603,7 @@ d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"origina
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	t	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	t	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: Wizard of Darkness	1995-04-08	80	t	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
@@ -3426,6 +3426,15 @@ d4f52193-310b-487c-a9d4-513d6f9ad42b	Shinji	Higuchi	M	f	{"day": 22, "year": 1965
 e57ae890-dbda-46f4-b9d9-5e3952970a60	Shosuke	Yoshisumi	M	f	\N	\N	\N	\N	\N	{"original_name": "吉角 荘介"}
 6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Shizuo	Arakawa	M	f	\N	\N	\N	\N	\N	{"original_name": "荒川 鎮雄"}
 0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Ko	Otani	M	f	{"day": 1, "year": 1957, "month": 5}	\N	Tokyo, Japan	\N	\N	{"original_name": "大谷 幸"}
+d693a559-2571-422e-924e-60605d8438b7	Shimako	Sato	F	f	{"year": 1964}	\N	Mizusawa, Iwate, Japan	\N	\N	{"original_name": "佐藤 嗣麻子"}
+1622376a-5b1e-4bab-8d76-cae60bc857b1	Shinichi	Koga	M	f	{"day": 18, "year": 1936, "month": 8}	\N	Omuta, Fukuoka, Japan	\N	\N	{"birth_name": "Shinsaku Koga (古賀 申策)", "original_name": "古賀 新一"}
+41aa7127-1011-4dba-b802-567494cb49a5	Junki	Takegami	M	f	{"day": 26, "year": 1955, "month": 2}	\N	Kagoshima, Japan	\N	{"Keiji Tanimoto (谷本 敬次)"}	{"birth_name": "Shozo Yamazaki (山崎 昌三)", "original_name": "武上 純希"}
+0c909a84-eec5-455c-a5b8-2c0684a32c41	Mikiya	Katakura	M	f	\N	\N	\N	\N	\N	{"original_name": "片倉 三起也"}
+5116f3ba-d4df-4639-9b9d-6fba0f2a4602	Shoei	Sudo	M	f	\N	\N	\N	\N	\N	{"original_name": "須藤 昭榮"}
+84eca95d-1b6a-4381-81d8-e42854ea11bc	Mitsuhiro	Yoshimura	M	f	\N	\N	\N	\N	\N	{"original_name": "吉村 光巧"}
+a9199a74-827c-4391-bdbd-7a99243681a4	Koji	Inoue	M	f	\N	\N	\N	\N	\N	{"original_name": "井上 公二"}
+67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Kyodai	Sakamoto	M	f	\N	\N	\N	\N	\N	{"original_name": "坂本 享大"}
+8db60ae7-f5c2-43d0-a4f5-33293923d5db	Hiroshi	Kawahara	M	f	\N	\N	\N	\N	\N	{"original_name": "河原 弘志"}
 \.
 
 
@@ -5056,6 +5065,16 @@ f318f528-7c69-40df-a91d-88411c979e67	1d416a11-7716-474b-9ca8-61a307e90991	Sound 
 f318f528-7c69-40df-a91d-88411c979e67	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighting	8
 f318f528-7c69-40df-a91d-88411c979e67	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	9
 f318f528-7c69-40df-a91d-88411c979e67	0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Music	10
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	d693a559-2571-422e-924e-60605d8438b7	Director	1
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	1622376a-5b1e-4bab-8d76-cae60bc857b1	Original Story	2
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	41aa7127-1011-4dba-b802-567494cb49a5	Screenplay	3
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	d693a559-2571-422e-924e-60605d8438b7	Story Draft	4
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	0c909a84-eec5-455c-a5b8-2c0684a32c41	Music	5
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	5116f3ba-d4df-4639-9b9d-6fba0f2a4602	Cinematography	6
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	84eca95d-1b6a-4381-81d8-e42854ea11bc	Lighting	7
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	a9199a74-827c-4391-bdbd-7a99243681a4	Sound Recording	8
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Art Director	9
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor	10
 \.
 
 
@@ -5214,6 +5233,8 @@ f1a9628f-f167-4b02-8bc3-8dbb3ee55804	cb8d5a73-7c9c-4093-878d-4eb6c074c7b3
 c21957cc-cf69-4391-86f7-76e151b5ba73	f318f528-7c69-40df-a91d-88411c979e67
 ecb911c2-dd74-4fdf-9005-210865f7ed7a	f318f528-7c69-40df-a91d-88411c979e67
 622319bd-fb9f-46b9-b308-1362956dab5d	f318f528-7c69-40df-a91d-88411c979e67
+bf4edb31-c65b-4908-baaf-269fc27dfd1e	c09478fe-08da-45ef-b4c2-9ecc076cb73b
+f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	c09478fe-08da-45ef-b4c2-9ecc076cb73b
 \.
 
 
@@ -5232,7 +5253,6 @@ be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
 28e2fef3-1dee-47f3-aae5-dee1be652154	Dainichi
 fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
 396d3e44-3a24-4a03-8a0e-739954a62b23	Samurai Productions
-f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Productions
 0f87c700-cf02-4810-b05d-e029969912da	TFC
 95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	Kadokawa
 8bffc05c-5e31-4c3f-a5d1-3de658413284	Kansai TV
@@ -5246,6 +5266,7 @@ f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd
 31339e95-9c10-4572-a7e5-49591e93c17a	Embodiment Films
 ecb911c2-dd74-4fdf-9005-210865f7ed7a	Nippon TV
 622319bd-fb9f-46b9-b308-1362956dab5d	Hakuhodo
+f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Entertainment
 \.
 
 
