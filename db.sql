@@ -2623,7 +2623,6 @@ c0111612-5ad6-4982-b895-75d8e351f23a	Genghis Khan: To the Ends of the Earth and 
 92eaa465-8b94-49d6-9726-564a064b3d2b	K-20: The Fiend with Twenty Faces	2008-12-20	137	f	\N	{"original_title": "K-20 怪人二十面相・伝", "original_translation": "K-20 Phantom with Twenty Faces Legend", "original_transliteration": "K-20 Kaijin Nijyuu Mensou Den"}
 a3112f14-09ae-474a-9eb8-b390d0637dd0	Rurouni Kenshin: The Legend Ends	2014-09-13	135	f	{"Rurouni Kenshin Part III: The Legend Ends"}	{"original_title": "るろうに剣心 伝説の最期編", "original_translation": "Rurouni Kenshin Legend Final Chapter", "original_transliteration": "Rurouni Kenshin Densetsu No Saigohen"}
 6a995dc7-1239-4f95-8fb3-2905b26ead3c	Akira	1988-07-16	124	f	\N	{"original_title": "アキラ", "original_translation": "Akira", "original_transliteration": "Akira"}
-e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	f	{"Gamera 2: Attack of Legion"}	{"original_title": "ガメラ2 レギオン襲来", "original_translation": "Gamera 2: Legion Attack", "original_transliteration": "Gamera 2 Region Shyuurai"}
 07f023e7-46b1-44e8-a896-4897c25ca928	Rasen	1998-01-31	97	f	\N	{"original_title": "らせん", "original_translation": "Spiral", "original_transliteration": "Rasen"}
 d47406e8-fd4b-4031-87e9-387f905eeb13	GMK	2001-12-15	105	f	\N	{"original_title": "ゴジラ・モスラ・キングギドラ 大怪獣総攻撃", "original_translation": "Godzilla, Mothra, King Ghidorah: Giant Monsters All Out Attack", "original_transliteration": "Gojira Mosura Kingugidora Daikaijyuu Soukougeki"}
 2a3810e7-dee8-45c2-8982-5730cc86e50c	Azumi	2003-05-10	142	f	\N	{"original_title": "あずみ", "original_translation": "Azumi", "original_transliteration": "Azumi"}
@@ -2637,6 +2636,7 @@ ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"o
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	t	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	t	{"Godzilla vs. Mechagodzilla II"}	{"original_title": "ゴジラvsメカゴジラ", "original_translation": "Godzilla VS Mechagodzilla", "original_transliteration": "Gojira VS Mekagojira"}
 f318f528-7c69-40df-a91d-88411c979e67	Gamera: The Guardian of the Universe	1995-03-11	95	t	\N	{"original_title": "ガメラ 大怪獣空中決戦", "original_translation": "Gamera: Giant Monster Air Battle", "original_transliteration": "Gamera Daikaijyuu Kuuchyuu Kessen"}
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	t	{"Gamera 2: Attack of Legion"}	{"original_title": "ガメラ2 レギオン襲来", "original_translation": "Gamera 2: Legion Attack", "original_transliteration": "Gamera 2 Region Shyuurai"}
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	f	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
@@ -3595,6 +3595,7 @@ d031f54b-1192-4bbf-a385-093b82f4c31e	cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	2
 abf663c4-4467-4a76-a25f-735b00fbc120	9595f0f3-16ab-47e9-9668-fdbb080091ee	22
 863152f1-6f6e-4df9-b4de-25f23bd00ed4	c09478fe-08da-45ef-b4c2-9ecc076cb73b	1
 863152f1-6f6e-4df9-b4de-25f23bd00ed4	8028131f-b3eb-486f-a742-8dbbd07a6516	2
+27c45133-7fc7-45cb-9b43-01125c346bba	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	10
 \.
 
 
@@ -5073,16 +5074,6 @@ cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	edd286e3-ac47-4d8f-b4ea-c152a1b3e1f9	Art Di
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	1b301690-8353-4397-8de2-12245672c365	Lighting	10
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Music	12
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	5bba3b7e-dfc0-4ab1-870c-49807db25a5c	Editor	13
-f318f528-7c69-40df-a91d-88411c979e67	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
-f318f528-7c69-40df-a91d-88411c979e67	d4f52193-310b-487c-a9d4-513d6f9ad42b	Special Effects Director	2
-f318f528-7c69-40df-a91d-88411c979e67	c97017eb-70aa-4861-ad20-7972f84ba9a2	Executive Producer	3
-f318f528-7c69-40df-a91d-88411c979e67	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	4
-f318f528-7c69-40df-a91d-88411c979e67	686fbcb5-17b5-456f-b14b-45ac4a30fc47	Cinematography	5
-f318f528-7c69-40df-a91d-88411c979e67	74813008-535a-4713-8487-61f77ad9da0a	Art Director	6
-f318f528-7c69-40df-a91d-88411c979e67	1d416a11-7716-474b-9ca8-61a307e90991	Sound Recording	7
-f318f528-7c69-40df-a91d-88411c979e67	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighting	8
-f318f528-7c69-40df-a91d-88411c979e67	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	9
-f318f528-7c69-40df-a91d-88411c979e67	0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Music	10
 0c039e43-df7f-4bf0-83f1-e7717611bf73	a487b3f6-70fa-4a73-bb88-cab349a731b3	Director	1
 0c039e43-df7f-4bf0-83f1-e7717611bf73	91c11908-d3a6-41cd-9f28-98f87bd5ee90	Original Story	2
 0c039e43-df7f-4bf0-83f1-e7717611bf73	86e4d82c-58eb-4fe5-9c32-ccb3a446d07c	Screenplay	3
@@ -5135,6 +5126,29 @@ c09478fe-08da-45ef-b4c2-9ecc076cb73b	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Digita
 8028131f-b3eb-486f-a742-8dbbd07a6516	67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Art Director	8
 8028131f-b3eb-486f-a742-8dbbd07a6516	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor	9
 8028131f-b3eb-486f-a742-8dbbd07a6516	bbd9577c-7b1c-4879-8508-4dd72ccc488c	SFX Supervisor	10
+f318f528-7c69-40df-a91d-88411c979e67	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
+f318f528-7c69-40df-a91d-88411c979e67	d4f52193-310b-487c-a9d4-513d6f9ad42b	Special Effects Director	2
+f318f528-7c69-40df-a91d-88411c979e67	c97017eb-70aa-4861-ad20-7972f84ba9a2	Executive Producer	3
+f318f528-7c69-40df-a91d-88411c979e67	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	4
+f318f528-7c69-40df-a91d-88411c979e67	686fbcb5-17b5-456f-b14b-45ac4a30fc47	Cinematography	5
+f318f528-7c69-40df-a91d-88411c979e67	74813008-535a-4713-8487-61f77ad9da0a	Art Director	6
+f318f528-7c69-40df-a91d-88411c979e67	1d416a11-7716-474b-9ca8-61a307e90991	Sound Recording	7
+f318f528-7c69-40df-a91d-88411c979e67	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighting	8
+f318f528-7c69-40df-a91d-88411c979e67	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	9
+f318f528-7c69-40df-a91d-88411c979e67	0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Music	10
+f318f528-7c69-40df-a91d-88411c979e67	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Assistant Director	11
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	d4f52193-310b-487c-a9d4-513d6f9ad42b	Special Effects Director	2
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	c97017eb-70aa-4861-ad20-7972f84ba9a2	Executive Producer	3
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	4
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Music	5
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	686fbcb5-17b5-456f-b14b-45ac4a30fc47	Cinematography	6
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	74813008-535a-4713-8487-61f77ad9da0a	Art Director	7
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	1d416a11-7716-474b-9ca8-61a307e90991	Sound Recording	8
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighting	9
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	10
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Assistant Director	11
+e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	d4f52193-310b-487c-a9d4-513d6f9ad42b	Monster Design	12
 \.
 
 
@@ -5303,6 +5317,11 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	328dd5cf-f425-45cf-a487-4457411b78d1
 b52fcdd6-691b-4a16-a670-e6ad6f176521	9595f0f3-16ab-47e9-9668-fdbb080091ee
 bf4edb31-c65b-4908-baaf-269fc27dfd1e	8028131f-b3eb-486f-a742-8dbbd07a6516
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	8028131f-b3eb-486f-a742-8dbbd07a6516
+c21957cc-cf69-4391-86f7-76e151b5ba73	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
+622319bd-fb9f-46b9-b308-1362956dab5d	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
+f74f431b-795a-4dfd-a460-cb3a4a19f23b	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
 \.
 
 
@@ -5338,6 +5357,8 @@ f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Entertainment
 4f8a7cfa-1ebc-4e66-a874-4d1c843176f2	Manga Entertainment
 2fe3e582-9ca5-401c-817d-f6c2135601a0	Production I.G
 35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	Kodansha
+f74f431b-795a-4dfd-a460-cb3a4a19f23b	Fujitsu
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	Nippon Shuppan Hanbai
 \.
 
 
