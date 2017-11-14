@@ -2537,7 +2537,6 @@ e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	
 bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	t	\N	{"original_title": "ゴジラvsビオランテ", "original_translation": "Godzilla VS Biollante", "original_transliteration": "Gojira VS Biorante"}
 0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	t	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	Zeiram 2	1994-12-17	100	t	\N	{"original_title": "ゼイラム2", "original_translation": "Zeiram 2", "original_transliteration": "Zeiramu 2"}
-0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	f	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	f	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
 4f663866-4a44-4560-bd28-58446fbd15a0	Returner	2002-08-31	116	f	\N	{"original_title": "リターナー", "original_translation": "Returner", "original_transliteration": "Retaanaa"}
@@ -2570,6 +2569,7 @@ bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	
 09d7026b-043c-4269-b0b3-c6467fb4fb3a	The Return of Godzilla	1984-12-15	103	t	{"Godzilla 1985"}	{"original_title": "ゴジラ", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	t	\N	{"original_title": "ゴジラvsキングギドラ", "original_translation": "Godzilla VS King Ghidorah", "original_transliteration": "Gojira VS Kingugidora"}
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	t	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
+0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	t	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 b91e69c2-1d07-48e7-b3e1-9576417b518d	Battle Royale	2000-12-16	114	f	\N	{"original_title": "バトル・ロワイアル", "original_translation": "Battle Royale", "original_transliteration": "Batoru Rowaiaru"}
@@ -3435,6 +3435,11 @@ d693a559-2571-422e-924e-60605d8438b7	Shimako	Sato	F	f	{"year": 1964}	\N	Mizusawa
 a9199a74-827c-4391-bdbd-7a99243681a4	Koji	Inoue	M	f	\N	\N	\N	\N	\N	{"original_name": "井上 公二"}
 67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Kyodai	Sakamoto	M	f	\N	\N	\N	\N	\N	{"original_name": "坂本 享大"}
 8db60ae7-f5c2-43d0-a4f5-33293923d5db	Hiroshi	Kawahara	M	f	\N	\N	\N	\N	\N	{"original_name": "河原 弘志"}
+86e4d82c-58eb-4fe5-9c32-ccb3a446d07c	Toshio	Inoue	M	f	{"day": 28, "year": 1959, "month": 11}	\N	Saitama, Japan	\N	\N	{"original_name": "井上 敏樹"}
+c65d0de0-9a24-4861-949e-bf7cbb13ebd0	Fumio	Matsumura	M	f	{"day": 18, "year": 1948, "month": 1}	\N	Tokyo, Japan	\N	\N	{"original_name": "松村 文雄"}
+cda4a781-a17c-4cf8-a3d9-1dc86e2f97a0	Masaru	Saiki	M	f	\N	\N	\N	\N	\N	{"original_name": "才木 勝"}
+123c83aa-94e2-4562-b9c5-e43bf625e34c	Junkichi	Sugano	M	f	{"day": 22, "year": 1931, "month": 4}	{"day": 9, "year": 2013, "month": 5}	Fukushima, Japan	\N	\N	{"original_name": "菅野 順吉"}
+84fd26a4-e754-45f8-9461-45c1d0c1db46	Katsumi	Ota	M	f	\N	\N	\N	\N	\N	{"original_name": "太田 克己"}
 \.
 
 
@@ -5075,6 +5080,17 @@ c09478fe-08da-45ef-b4c2-9ecc076cb73b	84eca95d-1b6a-4381-81d8-e42854ea11bc	Lighti
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	a9199a74-827c-4391-bdbd-7a99243681a4	Sound Recording	8
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Art Director	9
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor	10
+0c039e43-df7f-4bf0-83f1-e7717611bf73	a487b3f6-70fa-4a73-bb88-cab349a731b3	Director	1
+0c039e43-df7f-4bf0-83f1-e7717611bf73	91c11908-d3a6-41cd-9f28-98f87bd5ee90	Original Story	2
+0c039e43-df7f-4bf0-83f1-e7717611bf73	86e4d82c-58eb-4fe5-9c32-ccb3a446d07c	Screenplay	3
+0c039e43-df7f-4bf0-83f1-e7717611bf73	c65d0de0-9a24-4861-949e-bf7cbb13ebd0	Cinematography	4
+0c039e43-df7f-4bf0-83f1-e7717611bf73	cda4a781-a17c-4cf8-a3d9-1dc86e2f97a0	Lighting	5
+0c039e43-df7f-4bf0-83f1-e7717611bf73	edd286e3-ac47-4d8f-b4ea-c152a1b3e1f9	Art Director	6
+0c039e43-df7f-4bf0-83f1-e7717611bf73	123c83aa-94e2-4562-b9c5-e43bf625e34c	Editor	7
+0c039e43-df7f-4bf0-83f1-e7717611bf73	84fd26a4-e754-45f8-9461-45c1d0c1db46	Sound Recording	8
+0c039e43-df7f-4bf0-83f1-e7717611bf73	d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Music	9
+0c039e43-df7f-4bf0-83f1-e7717611bf73	7fc8f4b9-13b7-4f5a-9a54-b2e14f149a3c	Music	10
+0c039e43-df7f-4bf0-83f1-e7717611bf73	a487b3f6-70fa-4a73-bb88-cab349a731b3	Character Design	11
 \.
 
 
@@ -5235,6 +5251,7 @@ ecb911c2-dd74-4fdf-9005-210865f7ed7a	f318f528-7c69-40df-a91d-88411c979e67
 622319bd-fb9f-46b9-b308-1362956dab5d	f318f528-7c69-40df-a91d-88411c979e67
 bf4edb31-c65b-4908-baaf-269fc27dfd1e	c09478fe-08da-45ef-b4c2-9ecc076cb73b
 f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	c09478fe-08da-45ef-b4c2-9ecc076cb73b
+95ad9c89-93ff-4636-8cb7-4ce98b441801	0c039e43-df7f-4bf0-83f1-e7717611bf73
 \.
 
 
