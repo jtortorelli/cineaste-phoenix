@@ -2582,7 +2582,6 @@ bf991fa1-ed29-4370-9377-ecc1b58126db	Goemon	2009-05-01	128	f	\N	{"original_title
 7e38ded9-ae5c-4b92-bb14-39b55ac5acff	20th Century Boys: Redemption	2009-08-29	155	f	{"20th Century Boys 3: Redemption"}	{"original_title": "20世紀少年 最終章 ぼくらの旗", "original_translation": "20th Century Boys Final Chapter: Our Flag", "original_transliteration": "20 Seiki Shyounen Saishyuushyou Bokura No Hata"}
 08560f6a-e21e-40dc-9b24-f1b9c3ee7dcf	Kamui Gaiden	2009-09-19	120	f	{"Kamui: The Lone Ninja"}	{"original_title": "カムイ外伝", "original_translation": "Kamui Story", "original_transliteration": "Kamui Gaiden"}
 46d52769-4d58-4cec-a521-a57138748655	Makai Tensho: Samurai Reincarnation	1981-06-06	122	f	\N	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
-8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	f	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
 286bb8ad-de51-4416-89a7-185e33711092	Rebirth of Mothra 3	1998-12-12	100	f	\N	{"original_title": "モスラ3 キングギドラ来襲", "original_translation": "Mothra 3: King Ghidorah Appears", "original_transliteration": "Mosura 3 Kingugidora Raishyuu"}
 98571eeb-d5f6-4eaa-a819-12a21b08cc78	Tomie: Forbidden Fruit	2002-06-29	91	f	\N	{"original_title": "富江 最終章 -禁断の果実-", "original_translation": "Tomie Final Chapter: Forbidden Fruit", "original_transliteration": "Tomie Saishyuushyou Kindan No Kajitsu"}
 1fdae7be-7d2f-4a82-ac1c-049f70ba5f21	Battle Royale II: Requiem	2003-07-05	133	f	\N	{"original_title": "バトル・ロワイアルII 鎮魂歌 (レクイエム)", "original_translation": "Battle Royale II Fantasy (Requiem)", "original_transliteration": "Batoru Rowaiaru II Chinkonka (Rekuiemu)"}
@@ -2603,6 +2602,7 @@ d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"origina
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	t	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	t	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
+8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	t	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: Wizard of Darkness	1995-04-08	80	t	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 67cae0c6-8e05-45cb-87e7-dfef76e3dcd1	Aragami	2003-03-27	78	f	\N	{"original_title": "荒神", "original_translation": "God of War", "original_transliteration": "Aragami"}
 220678c5-6783-436e-a83d-866bc99ea80b	Samurai Commando: Mission 1549	2005-06-11	120	f	\N	{"original_title": "戦国自衛隊1549", "original_translation": "15th Century Self Defense Force 1549", "original_transliteration": "Sengoku Jieitai 1549"}
@@ -3447,6 +3447,8 @@ e1824175-349a-409b-9799-0863397254da	Shuichi	Kakesu	M	f	{"day": 1, "year": 1957,
 7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Kazuhiro	Wakabayashi	M	f	{"day": 20, "year": 1964, "month": 12}	\N	Tokyo, Japan	\N	\N	{"original_name": "若林 和弘"}
 67d04f44-6f2a-4096-8d05-fb980ae6a628	Yoshio	Suzuki	M	f	{"year": 1935}	\N	Tokyo, Japan	\N	\N	{"original_name": "鈴木 儀雄"}
 165e74a2-313b-42e8-b6d7-acdc5646d123	Chizuko	Osada	M	f	\N	\N	\N	\N	\N	{"original_name": "長田 千鶴子"}
+bbd9577c-7b1c-4879-8508-4dd72ccc488c	Takashi	Yamazaki	M	f	{"day": 12, "year": 1964, "month": 6}	\N	Matsumoto, Nagano, Japan	\N	\N	{"original_name": "山崎 貴"}
+84f9acff-d598-48a8-b5bf-fd9ca03ebb38	Hideaki	Yoneyama	M	f	\N	\N	\N	\N	\N	{"original_name": "米山 英明"}
 \.
 
 
@@ -3505,6 +3507,7 @@ cd1e0507-2418-42c6-bacb-e0d9bbe6b05e	Osaka Castle
 0185bfd4-7e7d-4d7c-97a3-8a02617f3420	Zatoichi
 272da49b-b792-48aa-83e2-c03554654bb8	Kerberos
 d031f54b-1192-4bbf-a385-093b82f4c31e	Zeiram
+863152f1-6f6e-4df9-b4de-25f23bd00ed4	Eko Eko Azarak
 \.
 
 
@@ -3590,6 +3593,8 @@ d031f54b-1192-4bbf-a385-093b82f4c31e	8c6d6694-71ee-4755-9810-4d9e49e9dc76	1
 d031f54b-1192-4bbf-a385-093b82f4c31e	cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	2
 27c45133-7fc7-45cb-9b43-01125c346bba	f318f528-7c69-40df-a91d-88411c979e67	9
 abf663c4-4467-4a76-a25f-735b00fbc120	9595f0f3-16ab-47e9-9668-fdbb080091ee	22
+863152f1-6f6e-4df9-b4de-25f23bd00ed4	c09478fe-08da-45ef-b4c2-9ecc076cb73b	1
+863152f1-6f6e-4df9-b4de-25f23bd00ed4	8028131f-b3eb-486f-a742-8dbbd07a6516	2
 \.
 
 
@@ -5078,16 +5083,6 @@ f318f528-7c69-40df-a91d-88411c979e67	1d416a11-7716-474b-9ca8-61a307e90991	Sound 
 f318f528-7c69-40df-a91d-88411c979e67	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighting	8
 f318f528-7c69-40df-a91d-88411c979e67	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	9
 f318f528-7c69-40df-a91d-88411c979e67	0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Music	10
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	d693a559-2571-422e-924e-60605d8438b7	Director	1
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	1622376a-5b1e-4bab-8d76-cae60bc857b1	Original Story	2
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	41aa7127-1011-4dba-b802-567494cb49a5	Screenplay	3
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	d693a559-2571-422e-924e-60605d8438b7	Story Draft	4
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	0c909a84-eec5-455c-a5b8-2c0684a32c41	Music	5
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	5116f3ba-d4df-4639-9b9d-6fba0f2a4602	Cinematography	6
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	84eca95d-1b6a-4381-81d8-e42854ea11bc	Lighting	7
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	a9199a74-827c-4391-bdbd-7a99243681a4	Sound Recording	8
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Art Director	9
-c09478fe-08da-45ef-b4c2-9ecc076cb73b	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor	10
 0c039e43-df7f-4bf0-83f1-e7717611bf73	a487b3f6-70fa-4a73-bb88-cab349a731b3	Director	1
 0c039e43-df7f-4bf0-83f1-e7717611bf73	91c11908-d3a6-41cd-9f28-98f87bd5ee90	Original Story	2
 0c039e43-df7f-4bf0-83f1-e7717611bf73	86e4d82c-58eb-4fe5-9c32-ccb3a446d07c	Screenplay	3
@@ -5119,6 +5114,27 @@ c09478fe-08da-45ef-b4c2-9ecc076cb73b	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor
 9595f0f3-16ab-47e9-9668-fdbb080091ee	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighting	10
 9595f0f3-16ab-47e9-9668-fdbb080091ee	165e74a2-313b-42e8-b6d7-acdc5646d123	Editor	11
 9595f0f3-16ab-47e9-9668-fdbb080091ee	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	12
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	d693a559-2571-422e-924e-60605d8438b7	Director	1
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	1622376a-5b1e-4bab-8d76-cae60bc857b1	Original Story	2
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	41aa7127-1011-4dba-b802-567494cb49a5	Screenplay	3
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	d693a559-2571-422e-924e-60605d8438b7	Story Draft	4
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	0c909a84-eec5-455c-a5b8-2c0684a32c41	Music	5
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	5116f3ba-d4df-4639-9b9d-6fba0f2a4602	Cinematography	6
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	84eca95d-1b6a-4381-81d8-e42854ea11bc	Lighting	7
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	a9199a74-827c-4391-bdbd-7a99243681a4	Sound Recording	8
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Art Director	9
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor	10
+c09478fe-08da-45ef-b4c2-9ecc076cb73b	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Digital Visual Effects	11
+8028131f-b3eb-486f-a742-8dbbd07a6516	d693a559-2571-422e-924e-60605d8438b7	Director	1
+8028131f-b3eb-486f-a742-8dbbd07a6516	d693a559-2571-422e-924e-60605d8438b7	Screenplay	2
+8028131f-b3eb-486f-a742-8dbbd07a6516	1622376a-5b1e-4bab-8d76-cae60bc857b1	Original Story	3
+8028131f-b3eb-486f-a742-8dbbd07a6516	0c909a84-eec5-455c-a5b8-2c0684a32c41	Music	4
+8028131f-b3eb-486f-a742-8dbbd07a6516	5116f3ba-d4df-4639-9b9d-6fba0f2a4602	Cinematography	5
+8028131f-b3eb-486f-a742-8dbbd07a6516	84eca95d-1b6a-4381-81d8-e42854ea11bc	Lighting	6
+8028131f-b3eb-486f-a742-8dbbd07a6516	84f9acff-d598-48a8-b5bf-fd9ca03ebb38	Sound Recording	7
+8028131f-b3eb-486f-a742-8dbbd07a6516	67906fb6-fbd8-4d43-a9bf-bac53593e2c4	Art Director	8
+8028131f-b3eb-486f-a742-8dbbd07a6516	8db60ae7-f5c2-43d0-a4f5-33293923d5db	Editor	9
+8028131f-b3eb-486f-a742-8dbbd07a6516	bbd9577c-7b1c-4879-8508-4dd72ccc488c	SFX Supervisor	10
 \.
 
 
@@ -5285,6 +5301,8 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	328dd5cf-f425-45cf-a487-4457411b78d1
 4f8a7cfa-1ebc-4e66-a874-4d1c843176f2	328dd5cf-f425-45cf-a487-4457411b78d1
 2fe3e582-9ca5-401c-817d-f6c2135601a0	328dd5cf-f425-45cf-a487-4457411b78d1
 b52fcdd6-691b-4a16-a670-e6ad6f176521	9595f0f3-16ab-47e9-9668-fdbb080091ee
+bf4edb31-c65b-4908-baaf-269fc27dfd1e	8028131f-b3eb-486f-a742-8dbbd07a6516
+f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	8028131f-b3eb-486f-a742-8dbbd07a6516
 \.
 
 
