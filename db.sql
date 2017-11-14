@@ -2611,7 +2611,6 @@ c4dff626-aed3-4a1e-9823-3315be614257	L: Change the World	2008-02-09	129	f	\N	{"o
 9241a8af-96f9-4297-a21c-2fd39cafc9d0	Sweet Rain: The Accuracy of Death	2008-03-22	113	f	\N	{"original_title": "死神の精度", "original_translation": "Accuracy of Death", "original_transliteration": "Shinigami No Seido"}
 eb390ec6-d2c1-432a-b10c-15e237c8532a	Rurouni Kenshin: Kyoto Inferno	2014-08-01	139	f	{"Rurouni Kenshin Part II: Kyoto Inferno"}	{"original_title": "るろうに剣心 京都大火編", "original_translation": "Rurouni Kenshin Kyoto Inferno", "original_transliteration": "Rurouni Kenshin Kyouto Taikahen"}
 9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	Patlabor 2: The Movie	1993-08-07	113	f	\N	{"original_title": "機動警察パトレイバー2 the Movie", "original_translation": "Mobile Police Patlabor 2: The Movie", "original_transliteration": "Kidoukeisatsu Patoreibaa 2 The Movie"}
-f318f528-7c69-40df-a91d-88411c979e67	Gamera: The Guardian of the Universe	1995-03-11	95	f	\N	{"original_title": "ガメラ 大怪獣空中決戦", "original_translation": "Gamera: Giant Monster Air Battle", "original_transliteration": "Gamera Daikaijyuu Kuuchyuu Kessen"}
 b73255d8-4457-4a39-bf7f-e59273d04b88	Ring	1998-01-31	95	f	\N	{"original_title": "リング", "original_translation": "Ring", "original_transliteration": "Ringu"}
 6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	Godzilla X Megaguirus	2000-12-16	105	f	\N	{"original_title": "ゴジラ×メガギラス G消滅作戦", "original_translation": "Godzilla X Megaguirus: G Annihilation Strategy", "original_transliteration": "Gojira X Megagirasu G Shyoumetsu Sakusen"}
 135cec93-8734-4a8a-b7a7-9c5e90e38e26	Alive	2003-06-21	119	f	\N	\N
@@ -2637,6 +2636,7 @@ ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"o
 9bf400db-c02d-4502-b9dd-446e7d3fe231	G. I. Samurai	1979-12-15	139	t	{"Time Slip"}	{"original_title": "戦国自衛隊", "original_translation": "15th Century Self Defense Force", "original_transliteration": "Sengoku Jieitai"}
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	t	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	t	{"Godzilla vs. Mechagodzilla II"}	{"original_title": "ゴジラvsメカゴジラ", "original_translation": "Godzilla VS Mechagodzilla", "original_transliteration": "Gojira VS Mekagojira"}
+f318f528-7c69-40df-a91d-88411c979e67	Gamera: The Guardian of the Universe	1995-03-11	95	t	\N	{"original_title": "ガメラ 大怪獣空中決戦", "original_translation": "Gamera: Giant Monster Air Battle", "original_transliteration": "Gamera Daikaijyuu Kuuchyuu Kessen"}
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	f	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
@@ -3418,6 +3418,14 @@ abdf435c-d20d-4309-b937-f7dd54c3f99e	Masahisa	Kishimoto	M	f	{"day": 10, "year": 
 63024a65-8fb6-4e62-9007-732f367d4104	Hiroshi	Kidokoro	M	f	\N	\N	\N	\N	\N	{"original_name": "木所 寛"}
 edd286e3-ac47-4d8f-b4ea-c152a1b3e1f9	Akihiko	Iguchi	M	f	\N	\N	\N	\N	\N	{"original_name": "井口 昭彦"}
 5bba3b7e-dfc0-4ab1-870c-49807db25a5c	Haruhito	Konno	M	f	\N	\N	\N	\N	\N	{"original_name": "今野 治人"}
+48b8ca0f-893e-4397-8a56-017c39cd1e3b	Shusuke	Kaneko	M	f	{"day": 8, "year": 1955, "month": 6}	\N	Shibuya, Tokyo, Japan	\N	\N	{"original_name": "金子 修介"}
+d4f52193-310b-487c-a9d4-513d6f9ad42b	Shinji	Higuchi	M	f	{"day": 22, "year": 1965, "month": 9}	\N	Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "樋口 真嗣"}
+686fbcb5-17b5-456f-b14b-45ac4a30fc47	Junichi	Tozawa	M	f	\N	\N	\N	\N	\N	{"original_name": "戸沢 潤一"}
+74813008-535a-4713-8487-61f77ad9da0a	Ichi	Oikawa	M	f	\N	\N	\N	\N	\N	{"original_name": "及川 一"}
+1d416a11-7716-474b-9ca8-61a307e90991	Yasuo	Hashimoto	M	f	\N	\N	\N	\N	\N	{"original_name": "橋本 泰夫"}
+e57ae890-dbda-46f4-b9d9-5e3952970a60	Shosuke	Yoshisumi	M	f	\N	\N	\N	\N	\N	{"original_name": "吉角 荘介"}
+6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Shizuo	Arakawa	M	f	\N	\N	\N	\N	\N	{"original_name": "荒川 鎮雄"}
+0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Ko	Otani	M	f	{"day": 1, "year": 1957, "month": 5}	\N	Tokyo, Japan	\N	\N	{"original_name": "大谷 幸"}
 \.
 
 
@@ -3559,6 +3567,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	20
 abf663c4-4467-4a76-a25f-735b00fbc120	d141f540-c0e2-43b4-be80-06f510646d52	21
 d031f54b-1192-4bbf-a385-093b82f4c31e	8c6d6694-71ee-4755-9810-4d9e49e9dc76	1
 d031f54b-1192-4bbf-a385-093b82f4c31e	cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	2
+27c45133-7fc7-45cb-9b43-01125c346bba	f318f528-7c69-40df-a91d-88411c979e67	9
 \.
 
 
@@ -5037,6 +5046,16 @@ cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	edd286e3-ac47-4d8f-b4ea-c152a1b3e1f9	Art Di
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	1b301690-8353-4397-8de2-12245672c365	Lighting	10
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	d53ba38b-a66c-4ccf-8c71-cfab88114ac0	Music	12
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	5bba3b7e-dfc0-4ab1-870c-49807db25a5c	Editor	13
+f318f528-7c69-40df-a91d-88411c979e67	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
+f318f528-7c69-40df-a91d-88411c979e67	d4f52193-310b-487c-a9d4-513d6f9ad42b	Special Effects Director	2
+f318f528-7c69-40df-a91d-88411c979e67	c97017eb-70aa-4861-ad20-7972f84ba9a2	Executive Producer	3
+f318f528-7c69-40df-a91d-88411c979e67	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	4
+f318f528-7c69-40df-a91d-88411c979e67	686fbcb5-17b5-456f-b14b-45ac4a30fc47	Cinematography	5
+f318f528-7c69-40df-a91d-88411c979e67	74813008-535a-4713-8487-61f77ad9da0a	Art Director	6
+f318f528-7c69-40df-a91d-88411c979e67	1d416a11-7716-474b-9ca8-61a307e90991	Sound Recording	7
+f318f528-7c69-40df-a91d-88411c979e67	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighting	8
+f318f528-7c69-40df-a91d-88411c979e67	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	9
+f318f528-7c69-40df-a91d-88411c979e67	0b1bbe5c-45a9-4837-b6a4-63c6d9e7fcbe	Music	10
 \.
 
 
@@ -5192,6 +5211,9 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	0551ee7d-fecc-4851-a083-f75c65daf18a
 b52fcdd6-691b-4a16-a670-e6ad6f176521	d141f540-c0e2-43b4-be80-06f510646d52
 31339e95-9c10-4572-a7e5-49591e93c17a	cb8d5a73-7c9c-4093-878d-4eb6c074c7b3
 f1a9628f-f167-4b02-8bc3-8dbb3ee55804	cb8d5a73-7c9c-4093-878d-4eb6c074c7b3
+c21957cc-cf69-4391-86f7-76e151b5ba73	f318f528-7c69-40df-a91d-88411c979e67
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	f318f528-7c69-40df-a91d-88411c979e67
+622319bd-fb9f-46b9-b308-1362956dab5d	f318f528-7c69-40df-a91d-88411c979e67
 \.
 
 
@@ -5222,6 +5244,8 @@ c22c320a-fa72-4287-a97c-a1478e9f1e63	Bandai
 bf4edb31-c65b-4908-baaf-269fc27dfd1e	Gaga Communications
 f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd
 31339e95-9c10-4572-a7e5-49591e93c17a	Embodiment Films
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	Nippon TV
+622319bd-fb9f-46b9-b308-1362956dab5d	Hakuhodo
 \.
 
 
