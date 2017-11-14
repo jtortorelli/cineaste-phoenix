@@ -2548,7 +2548,6 @@ a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	f	
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
 24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
 1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2000-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
-fe6de616-6f61-4c7e-a61e-b892fe6ccddb	Rebirth of Mothra	1996-12-14	106	f	\N	{"original_title": "モスラ", "original_translation": "Mothra", "original_transliteration": "Mosura"}
 ea15e6b4-5bac-48d9-836b-eda509c39ba6	Tomie: Another Face	1999-12-26	95	f	\N	{"original_title": "富江 恐怖の美少女", "original_translation": "Tomie: Beautiful Girl of Terror", "original_transliteration": "Tomie Kyoufu No Bishyoujyou"}
 8d1d9023-f052-43ba-bec7-3de46d40dc3b	Chaos	2000-10-21	104	f	\N	{"original_title": "カオス", "original_translation": "Chaos", "original_transliteration": "Kaosu"}
 804be70b-0082-41f7-8579-c1502f07c1df	Always: Sunset on Third Street	2005-11-05	133	f	\N	{"original_title": "ALWAYS 三丁目の夕日", "original_translation": "Always: Sunset on Third Street", "original_transliteration": "Always San Chyoume No Yuuhi"}
@@ -2570,6 +2569,7 @@ f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	t	
 8c6d6694-71ee-4755-9810-4d9e49e9dc76	Zeiram	1991-12-21	97	t	\N	{"original_title": "ゼイラム", "original_translation": "Zeiram", "original_transliteration": "Zeiramu"}
 0c039e43-df7f-4bf0-83f1-e7717611bf73	Mechanical Violator Hakaider	1995-04-15	52	t	\N	{"original_title": "人造人間ハカイダー", "original_translation": "Android Hakaider", "original_transliteration": "Shinzou Ningen Hakaidaa"}
 328dd5cf-f425-45cf-a487-4457411b78d1	Ghost in the Shell	1995-11-18	85	t	\N	{"original_title": "攻殻機動隊", "original_translation": "Mobile Armored Riot Police", "original_transliteration": "Koukaku Kidoutai"}
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	Rebirth of Mothra	1996-12-14	106	t	\N	{"original_title": "モスラ", "original_translation": "Mothra", "original_transliteration": "Mosura"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	f	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 b91e69c2-1d07-48e7-b3e1-9576417b518d	Battle Royale	2000-12-16	114	f	\N	{"original_title": "バトル・ロワイアル", "original_translation": "Battle Royale", "original_transliteration": "Batoru Rowaiaru"}
@@ -3449,6 +3449,11 @@ e1824175-349a-409b-9799-0863397254da	Shuichi	Kakesu	M	f	{"day": 1, "year": 1957,
 165e74a2-313b-42e8-b6d7-acdc5646d123	Chizuko	Osada	M	f	\N	\N	\N	\N	\N	{"original_name": "長田 千鶴子"}
 bbd9577c-7b1c-4879-8508-4dd72ccc488c	Takashi	Yamazaki	M	f	{"day": 12, "year": 1964, "month": 6}	\N	Matsumoto, Nagano, Japan	\N	\N	{"original_name": "山崎 貴"}
 84f9acff-d598-48a8-b5bf-fd9ca03ebb38	Hideaki	Yoneyama	M	f	\N	\N	\N	\N	\N	{"original_name": "米山 英明"}
+e0630a0b-4a0b-4912-84e4-9e47764478d2	Okihiro	Yoneda	M	f	{"day": 8, "year": 1954, "month": 5}	\N	Nagano, Japan	\N	\N	{"original_name": "米田 興弘"}
+9ff45b07-138b-4523-9060-9f248ffd6298	Masumi	Suetani	M	f	{"day": 31, "year": 1951, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "末谷 真澄"}
+6965bb1b-e87a-4253-b1da-07bafca41247	Toshiyuki	Watanabe	M	f	{"day": 3, "year": 1955, "month": 2}	\N	Aichi, Japan	\N	\N	{"original_name": "渡辺 俊幸"}
+05bffd38-1a3c-4e56-861e-bd1fabab8a3b	Kyoko	Heya	M	f	{"year": 1954}	\N	Minami, Hiroshima, Japan	\N	\N	{"original_name": "部谷 京子"}
+8858e248-623a-496b-a341-7595cd8106db	Teruo	Osawa	M	f	{"year": 1938}	\N	Tokyo, Japan	\N	\N	{"original_name": "大澤 暉男"}
 \.
 
 
@@ -5149,6 +5154,18 @@ e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	e57ae890-dbda-46f4-b9d9-5e3952970a60	Lighti
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	6a6d68f5-3f02-450a-b6ae-7d96517f13a5	Editor	10
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Assistant Director	11
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	d4f52193-310b-487c-a9d4-513d6f9ad42b	Monster Design	12
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	e0630a0b-4a0b-4912-84e4-9e47764478d2	Director	1
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	86d95011-4e64-4a38-ab69-3d9004bbf00a	Special Effects Director	2
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	c6877155-e133-42c0-874b-1aba9fd78b16	Original Story	3
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	cf2be2a5-5344-414c-83f8-062cb700c4fa	Producer	4
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	9ff45b07-138b-4523-9060-9f248ffd6298	Screenplay	5
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	6965bb1b-e87a-4253-b1da-07bafca41247	Music	6
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	4db42981-3d08-4be6-a616-c2d10f0c836a	Cinematography	7
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	05bffd38-1a3c-4e56-861e-bd1fabab8a3b	Art Director	8
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	b6feee5f-371c-4339-979b-73218d192c9c	Sound Recording	9
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	8858e248-623a-496b-a341-7595cd8106db	Lighting	10
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	cf5b3659-5375-4608-bde7-7d6270f27b7a	Editor	11
+fe6de616-6f61-4c7e-a61e-b892fe6ccddb	c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Special Effects Assistant Director	12
 \.
 
 
@@ -5322,6 +5339,7 @@ ecb911c2-dd74-4fdf-9005-210865f7ed7a	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
 622319bd-fb9f-46b9-b308-1362956dab5d	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
 f74f431b-795a-4dfd-a460-cb3a4a19f23b	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
 8ff60889-b929-4c84-b51f-3a1e41a4e86d	e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb
+b52fcdd6-691b-4a16-a670-e6ad6f176521	fe6de616-6f61-4c7e-a61e-b892fe6ccddb
 \.
 
 
