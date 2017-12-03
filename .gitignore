@@ -25,3 +25,5 @@ erl_crash.dump
 
 /node_modules
 /.idea
+
+/priv/repo/seeds/initial_data
