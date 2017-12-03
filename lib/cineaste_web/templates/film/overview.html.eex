@@ -7,7 +7,7 @@
               <thead><span class="table-header">Poster</span></thead>
               <tr>
                 <td>
-                  <img class="img-rounded shadowed poster" src="<%= render_poster(@film.id) %>" />
+                  <img class="img-rounded shadowed scalable-pic" src="<%= render_poster(@film.id) %>" />
                 </td>
               </tr>
             </table>

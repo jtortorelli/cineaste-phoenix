@@ -2,7 +2,7 @@
   <div class="container">
     <%= for i <- @file_names do %>
       <a class="image-link" href="<%= @full_url <> i <> ".jpg" %>" data-lightbox="#{film_id}">
-        <img class="img-rounded" src="<%= @thumb_url <> i <> ".jpg" %>" />
+        <img class="img-rounded scalable-pic" src="<%= @thumb_url <> i <> ".jpg" %>" />
       </a>
     <% end %>
   </div>
