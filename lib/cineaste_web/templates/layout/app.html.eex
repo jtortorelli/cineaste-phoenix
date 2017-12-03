@@ -34,6 +34,7 @@
             </div>
             <div class="collapse navbar-collapse" id="cineaste-navbar">
                 <ul class="nav navbar-nav">
+                    <li><a href="<%= about_path(@conn, :index) %>">About</a></li>
                     <li><a href="<%= film_path(@conn, :index) %>">Films</a></li>
                     <li><a href="<%= people_path(@conn, :index) %>">People</a></li>
                 </ul>

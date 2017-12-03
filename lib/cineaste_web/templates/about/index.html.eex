@@ -1,0 +1,95 @@
+<div class="container">
+  <div class="row">
+    <h2>About</h2>
+    <div>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a>
+        </li>
+        <li role="presentation">
+          <a href="#acknowledgements" aria-controls="acknowledgements" role="tab" data-toggle="tab">Acknowledgements</a>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="history">
+        <div class="container">
+          <div class="row">
+            <p>
+              <i>The Godzilla Cineaste</i> began as a hobby project ca. 2004. The cineaste himself was in high school at the time and was teaching himself HTML and CSS on the fly. The website's purpose was to serve as a repository for all the useless information the cineaste had collected about the Godzilla film series over a lifetime of being an avid fan. The project was in development for roughly 2 years under the title <i>Godzilla Universes</i> before being hosted under the title <i>The Godzilla Database</i>. Every individual page was hand-coded because the cineaste hadn't taught himself about web frameworks, databases or server-side processing yet. Although when he did his little brain promptly exploded and the website (which had been renamed <i>The Godzilla Cineaste</i> to match the domain name his dad purchased) was taken down pending a rewrite. The cineaste did not think much of this because the website was woefully incomplete when it was hosted anyway, but after 4 years of an "under construction" banner squatting on his landing page he began to feel pretty bad about it. Attempts were made to rewrite the page using Django and Rails but due to other demands on the cineaste's time (such as his real life grown up job and his then-girlfriend-now-spouse), these efforts never became fruitful.
+            </p>
+            <p>
+              Development of the current iteration of <i>The Godzilla Cineaste</i> began in earnest in 2016 using the Play framework with a Neo4j backend. This was later swapped out wholesale for the Phoenix framework with a PostgreSQL backend because relational databases rock and so does Elixir (and also partly to spite certain reactive manifesto fanatics the cineaste happened to be working with at the time). This is the version of the site that relaunched in the fall of 2016 and has been sailing along happily ever since. The site is not complete by any means (there's a ton of information to collect and format for display), but it looks pretty and it doesn't have any holes or broken links like the last version did, and that's just fine by the cineaste.
+            </p>
+            <p>
+              For those that are curious and tech-savvy this website uses a combination of the <a href="http://phoenixframework.org/">Phoenix</a> framework, written in <a href="http://elixir-lang.github.io/">Elixir</a>, HTML/CSS, and JavaScript, a <a href="https://www.postgresql.org/">PostgreSQL</a> backend, with additional content served up by Amazon S3 (images, certain text blocks via markdown, etc.), updates logged on a <a href="https://twitter.com/gojira_cineaste">Twitter feed</a>, and is hosted and deployed by <a href="https://www.heroku.com">Heroku</a>. The source code is available on <a href="https://github.com/jtortorelli/cineaste-phoenix">GitHub</a>.
+            </p>
+            <p>
+              The cineaste works as a software developer and avid movie collector living in the greater Nashville area with his small (but growing) family.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="acknowledgements">
+        <div class="container">
+          <div class="row">
+            <p>
+              The cineaste would like to pay tribute to the pioneering Godzilla fan websites that provided him with vital useless information during his formative years.
+            </p>
+            <p>
+              <ul>
+                <li>Gojira Stomp</li>
+                <li>Tokyo Monsters (James Ballard, if you're reading this, I haven't forgiven you for that awful April Fools joke you guys played on us)</li>
+                <li>Kaiju HQ (I miss the Monster Island Funnies...)</li>
+                <li><a href="http://www.godzillatemple.com/">Barry's Temple of Godzilla</a> (This is still up and it looks exactly the same as it did 15 years ago)</li>
+                <li><a href="https://www.tohokingdom.com/">Toho Kingdom</a> (The pinnacle of useless information)</li>
+                <li><a href="http://www.stomptokyo.com/">Stomp Tokyo</a> (Some of the funniest and most accurate film reviews on the web)</li>
+                <li><a href="http://www.angelfire.com/movies/GodzillaTower/">Godzilla Tower</a></li>
+                <li><a href="http://www.kaijuphile.com/rodansroost/">Rodan's Roost</a></li>
+                <li>Monster Zero News (now <a href="http://www.scifijapan.com/articles/">SciFi Japan</a>)</li>
+              </ul>
+            </p>
+            <p>
+              Other websites that were invaluable sources of useless and unuseless information while conducting research for this website include but are not limited to:
+            </p>
+            <p>
+              <ul>
+                <li><a href="http://www.jmdb.ne.jp/">The Japanese Movie Database</a></li>
+                <li><a href="http://www.toho.co.jp/library/system/index.php">Toho's Official Film Library</a></li>
+                <li><a href="http://www.midnighteye.com/">Midnight Eye</a> (Defunct, but their archives are still up)</li>
+                <li><a href="https://vantagepointinterviews.com/">Vantage Point Interviews</a> (especially for their <a href="https://vantagepointinterviews.com/2015/08/25/susan-watson-speaks-actress-linda-miller-remembers-king-kong-escapes/">interview with Linda Miller</a>)</li>
+                <li><a href="https://ja.wikipedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8">Japanese Wikipedia</a> (because I can be lazy in <b>two</b> languages)</li>
+              </ul>
+            </p>
+            <p>
+              It would be remiss of the cineaste at this point not to express thanks to the creators of <i>Mystery Science Theater 3000</i> for exposing me from the earliest age to Godzilla and Gamera, albeit in a format the cineaste was too young to appreciate at the time. Keep circulating the tapes.
+            </p>
+            <p>
+              Although there are several books written about Japanese films and about Japanese science fiction films specifically, the cineaste benefitted greatly from two books in particular: <i>The Official Godzilla Compendium</i> by J.D. Lees and Marc Cerasini, and <i>Monsters Are Attacking Tokyo!</i> by Stuart Galbraith IV.
+            </p>
+            <p>
+              The cineaste would like to call out a number of studios and media labels for their work in making the vast majority of my film catalog available in the United States:
+            </p>
+            <p>
+              <ul>
+                <li>Columbia/TriStar/Sony Pictures (Heisei and Millennium Godzilla films)</li>
+                <li>Tokyo Shock/Media Blasters (Classic Toho Sci-Fi, plus a bunch of edgy stuff)</li>
+                <li>Classic Media (Certain Showa Godzilla films, especially their second go-round with terrific special features)</li>
+                <li>The Criterion Collection (The original Godzilla film, Kurosawa, the Samurai Trilogy, a few others...)</li>
+                <li>Viz Pictures/New People (K-20, 20th Century Boys, Death Note, Gantz, although their output has kinda dried up...)</li>
+                <li>Funimation (Goemon, Attack on Titan, and all the anime you can eat)</li>
+                <li>ADV Films (Shusuke Kaneko's Gamera films, Pyrokinesis, Parasite Eve, they're now Section23 and they mostly deal with anime)</li>
+                <li>Mill Creek Entertainment (All the Gamera films on Blu-Ray, plus the Daimajin films)</li>
+                <li>Kraken Entertainment (Some choice Godzilla films on Blu-Ray, but just the international versions)</li>
+                <li>Shout Factory (Had the first go at the Showa Gamera films before they were picked up by Mill Creek, had a brief window when they held the rights to both Gamera <i>and</i> MST3K so we got a great MST3K vs. Gamera box set)</li>
+              </ul>
+            </p>
+            <p>
+              The cineaste is indebted to <a href="https://www.yesasia.com/us/en/home.html">YesAsia</a> for providing genuine, legitimate Japanese products (especially of recent releases) to North American consumers. Also eBay, but be careful: buying foreign films from eBay is something of a lottery.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
