@@ -7,7 +7,13 @@
           <a href="#history" aria-controls="history" role="tab" data-toggle="tab">History</a>
         </li>
         <li role="presentation">
+          <a href="#faq" aria-controls="faq" role="tab" data-toggle="tab">FAQ</a>
+        </li>
+        <li role="presentation">
           <a href="#acknowledgements" aria-controls="acknowledgements" role="tab" data-toggle="tab">Acknowledgements</a>
+        </li>
+        <li role="presentation">
+          <a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a>
         </li>
       </ul>
     </div>
@@ -76,12 +82,12 @@
                 <li>Tokyo Shock/Media Blasters (Classic Toho Sci-Fi, plus a bunch of edgy stuff)</li>
                 <li>Classic Media (Certain Showa Godzilla films, especially their second go-round with terrific special features)</li>
                 <li>The Criterion Collection (The original Godzilla film, Kurosawa, the Samurai Trilogy, a few others...)</li>
-                <li>Viz Pictures/New People (K-20, 20th Century Boys, Death Note, Gantz, although their output has kinda dried up...)</li>
-                <li>Funimation (Goemon, Attack on Titan, and all the anime you can eat)</li>
-                <li>ADV Films (Shusuke Kaneko's Gamera films, Pyrokinesis, Parasite Eve, they're now Section23 and they mostly deal with anime)</li>
-                <li>Mill Creek Entertainment (All the Gamera films on Blu-Ray, plus the Daimajin films)</li>
+                <li>Viz Pictures/New People (<i>K-20</i>, <i>20th Century Boys</i>, <i>Death Note</i>, <i>Gantz</i>, although their output has kinda dried up...)</li>
+                <li>Funimation (<i>Goemon</i>, <i>Attack on Titan</i>, and all the anime you can eat)</li>
+                <li>ADV Films (Shusuke Kaneko's <i>Gamera</i> films, <i>Pyrokinesis</i>, <i>Parasite Eve</i>, they're now Section23 and they mostly deal with anime)</li>
+                <li>Mill Creek Entertainment (All the Gamera films on Blu-Ray, plus the <i>Daimajin</i> films)</li>
                 <li>Kraken Entertainment (Some choice Godzilla films on Blu-Ray, but just the international versions)</li>
-                <li>Shout Factory (Had the first go at the Showa Gamera films before they were picked up by Mill Creek, had a brief window when they held the rights to both Gamera <i>and</i> MST3K so we got a great MST3K vs. Gamera box set)</li>
+                <li>Shout Factory (Had the first go at the Showa Gamera films before they were picked up by Mill Creek, had a brief window when they held the rights to both Gamera <b>and</b> <i>MST3K</i> so we got a great <i>MST3K vs. Gamera</i> box set)</li>
               </ul>
             </p>
             <p>
@@ -90,6 +96,128 @@
           </div>
         </div>
       </div>
+      <div role="tabpanel" class="tab-pane fade" id="faq">
+        <div class="container">
+          <div class="row">
+            <dl>
+              <dt>How do you decide which films to include on here?</dt>
+              <dd>
+                <p>
+                  My instinctive answer is, "I go for the films that interest me." If you're not satisfied by that answer, I'll try to lay down some guidelines that I've used in the past when obtaining/researching films.
+                </p>
+                <p>
+                  For starters, this site has sprouted out of a childhood fascination in <i>kaiju</i> films, specifically the Godzilla series. This is reflected in the name "The Godzilla Cineaste." When initially designing this site, I started with just the films in the Godzilla series, and then expanded it to include all of Toho's classic sci-fi films, especially those made by Ishiro Honda and Eiji Tsuburaya.
+                </p>
+                <p>
+                  I was hesitant to branch out into other films until I watched the <i>Death Note</i> films for the first time. I picked them up on a whim because I was a fan of Shusuke Kaneko's <i>Gamera</i> films and I was curious to see how these films played out. Well, anyone who's seen <i>Death Note</i> can attest to how great is is, and it led me to pursue more films released "post-Godzilla."
+                </p>
+                <p>
+                  If you've read Stuart Galbraith's fantastic book <i>Monsters Are Attacking Tokyo!</i> you know that the author gathered interviews from a wide variety of actors and directors from both inside and outside the <i>kaiju</i> genre in order to paint a more complete picture of the Japanese filmscape and how <i>kaiju</i> films fit into it. You could say taht I was struck with a similar purpose in expanding the site to include more movies of a wider variety.
+                </p>
+                <p>
+                  To prevent the site's content from spiraling out of control, I've instituted a set of rules to determine if a film should be included for display here:
+                </p>
+                <p>
+                  <ol>
+                    <li>
+                      Obviously, it must be Japanese. Specifically, produced by a Japanese film company or with a Japanese director and crew. Mamoru Oshii's <i>Avalon</i> qualifies because although it was filmed in Poland with a Polish cast, it was produced by a Japanese studio.
+                    </li>
+                    <li>
+                      Only feature length, theatrical releases. No made-for-TV movies. "Feature length" for a Japanese film, especially from the 60s and 70s, usually means about 90 minutes. The shortest films can be a little as 70 minutes.
+                    </li>
+                    <li>
+                      Typically only live-action films are considered. Apart from the sheer volume of Japanese animated works, there are other caveats of note (which I discuss elsewhere) that preempt me from covering animated films on this site. Exceptions are made for animated films by directors whose output is primarily live-action (Mamoru Oshii, Shinsuke Sato, etc.) and for the Studio Ghibli catalog.
+                    </li>
+                    <li>
+                      If a film does not fall strictly within the genre of sci-fi/fantasy, the meta-genre under which <i>kaiju eiga</i> lies, the film must have a logical connection to the genre, such as through the director. For example, Takashi Yamazaki is known for directing several sci-fi films (<i>Returner</i>, <i>Space Battleship Yamato</i>, the <i>Parasyte</i> films, etc.) and so it makes sense to include his other films such as the <i>Always</i> trilogy, <i>Ballad</i>, etc.
+                    </li>
+                  </ol>
+                </p>
+                <p>
+                  Admittedly, I often play fast and loose with that last rule. This is where, as I said before, I may deviate from these rules by pursuing films for no reason other than that they interest me. However, my tastes rarely fall outside of sci-fi/fantasy, so there is a generally homogeneous flavor to the film selection.
+                </p>
+              </dd>
+              <dt>Why no animated films?</dt>
+              <dd>
+                <p>
+                  Firstly, the volume of animated works produced in Japan is such that I would never hope to provide even a rudimentary overview of that film format. Constraints on my time and budget prohibit me from even attempting this.
+                </p>
+                <p>
+                  Secondly, feature length animated films in Japan are not always planned as such. The OVA format, a substantial direct-to-video release, can be recombined with other OVAs in a series to produce a feature length film. Individual episodes of a long running anime may also be strung together to produce a feature length film for theatrical or home video distribution or rerelease. (This is the case with certain live-action television series as well.) I've mentioned earlier my rule to restrict my film selection to theatrically released films, but the ambiguity of an anime film's origins makes categorization more complicated.
+                </p>
+                <p>
+                  Thirdly, one of the chief reasons I'm more of a film buff than a TV/anime buff is I prefer the film format for delivering a story. I feel that when you go into a movie, everything you need to understand the plot should be provided to you in that format (unless the whole purpose of the film is to not be understood, which is sometimes the case). The trouble with anime films is that they more often than not require you to have invested in the original series run beforehand in order to know the setting and the characters. In this case the film is less a standalone affair and more an elongated TV episode with higher production values. For this reason, I can't cover anime films on my site without also covering the series from which it spawned, which brings me back to the whole time/money investment thing.
+                </p>
+                <p>
+                  Certain live-action films have this difficulty as well. Toya Sato's <i>Gokusen: The Movie</i> is more or less the series capper for the TV series of the same name, and makes specific references to characters and events from the series, indicating that the audience ought to already be familiar with the series before watching the movie.
+                </p>
+              </dd>
+              <dt>Why do you omit certain characters and subplots from your synopses?</dt>
+              <dd>
+                <p>
+                  Firstly, because a "synopsis" by definition implies a "brief" and "general" description of a work. Aside from the bare essentials, no further detail is demanded.
+                </p>
+                <p>
+                  Secondly, although I could write complete plot descriptions that account for every little detail in each film (which I <i>have</i> tried to do before now), it would be overloading all the normal readers (i.e.,the ones that aren't nerds) wich information that they couldn't appreciate without having already drunk deeply from the well of <i>kaiju</i>-dom.
+                </p>
+                <p>
+                  Thirdly, although spoiler alerts apply for all synopses, by omitting extraneous details I leave room for prospective viewers to enjoy the experience of watching a new film without a verbatim play-by-play to direct their expectations (and by omitting certain key plot details, they can be surprised by the film as well).
+                </p>
+              </dd>
+              <dt>Do you sell these movies?</dt>
+              <dd>
+                <p>
+                  No. But I <i>can</i> tell you where to look.
+                </p>
+                <p>
+                  Obviously for any film with a North American release (Region 1 DVD or Region A Blu-Ray), Amazon is your number one bet. There are many studios and labels that have worked to bring Japanese films to the United States (see the acknowledgements section on this page), and most of their releases are still available on Amazon. Some have fallen out of print, so the prices are going up, but they're still easily identifiable and they're genuine.
+                </p>
+                <p>
+                  For films which have <i>not</i> been released in North America, you're obviously going to have to dig deeper in the bowels of the internet to find anything. "Dumpster diving on eBay" is an effective tactic of mine, although you're never guaranteed a legitimate product; more often than not you'll either receive a bootleg sourced from an official Asian release (with region encoding removed and English subtitles added) or somebody's homemade POS ripped from a flash player on the internet. Unless you get the official Thai release of <i>anything</i>, in which case it's automatically guaranteed to be a POS. Just sayin'.
+                </p>
+                <p>
+                  If you want to take your chances with eBay, do so at your own risk. I admit, there are some out-of-print films that you can only find in bootlegged form, and some films that haven't seen North American release are widely advertised and sold on eBay in more or less bootlegged form (something screwy about copyright on films that haven't been licensed in North America or something). However, if you are of upstanding moral fiber <i>and</i> want to invest in higher quality products there is always <a href="https://www.yesasia.com/us/en/home.html">YesAsia.com</a>. YesAsia sells legitimate Asian versions of popular movies straight from the source. The product pages will even tell you if a movie is available in a particular region, comes with or without subtitles in which languages, etc. They have a good selection of newer titles and they deal in US currency and PayPal. An important tip: don't feel like you have to get the Japanese version of anything. Those versions are typically very expensive and have no subtitles. If you have the option, go with the Hong Kong versions; they are more affordable and often come with English subtitles.
+                </p>
+                <p>
+                  If you have a computer, DVD region encoding shouldn't be an issue for you. The VLC player will allow you to start up a DVD, menus and all, no matter what region it is. If you want to watch your Asian films on your TV, you may have to invest in a region-free DVD/Blu-Ray player. Blu-Ray encoding is tricker to get around, but if you go with the Hong Kong releases it shouldn't matter: North America and Hong Kong are in the same Blu-Ray region (Region A).
+                </p>
+                <p>
+                  One final warning: not all subtitles are equal. It may take some bad experiences to recognize which sources or which Asian labels are any good at having correctly spelled, grammatically correct English subtitles, but that's part of the risk of buying a foreign product.
+                </p>
+              </dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="contact">
+        <div class="container">
+          <div class="row">
+            <p>
+              While the cineaste would prefer not to give away his personal contact information, he is very much interested in receiving viewer feedback concerning the content on the site. The best way, in the cineaste's opinion, to accomplish this is to open an issue on the <a href="https://github.com/jtortorelli/cineaste-phoenix/issues">GitHub</a> project. You'll have to create a GitHub account (which is free) and if you don't have a software background you may have to get used to certain computery words when writing up an issue. GitHub provides some default labels you can use to properly categorize your feedback.
+            </p>
+            <p>
+              <ul>
+                <li>
+                  For typos or what you perceive to be incorrect information pertaining to a person or film, use the "bug" label. Please include a description of the issue and, if something requires correction, a source to support your requested change (news article, rival website, etc.). If valid, I will make the appropriate change and close the issue as resolved. You can also use bugs for pointing out any broken or malfunctioning links or pages (you know, "actual bugs").
+                </li>
+                <li>
+                  If you have a request for a feature to be added, use the "enhancement" label. Please understand that this site is a hobby, so brand new features may take a while to implement. It may also be the case that you are requesting something that's already on my to-do list. If certain features stand out in terms of popularity and I deem them worthy of my time to include on the site, I'll create a milestone in GitHub to track its progress. Check the milestones section on the project to make sure a feature you're about to request isn't already in progress.
+                </li>
+                <li>
+                  If you have a general question about the site, use the "question" label. Certain questions may be deemed worthy of inclusion on the FAQ page on the site.
+                </li>
+              </ul>
+            </p>
+            <p>
+              The cineaste is fully prepared to ignore any issues he perceives as spam, that don't have helpful descriptions, or that don't use labels for easy categorization.
+            </p>
+            <p>
+              To be notified of updates as they occur, please consider following our <a href="https://twitter.com/gojira_cineaste">Twitter feed</a>. If you have a fun idea for a Twitter poll relevant to the content on the website (favorite movie out of a series, better director or actor, etc.), please mention @gojira_cineaste with your idea. You can also mention @gojira_cineaste to ask questions or point out issues with the site, although the same restrictions apply with regards to spam, unhelpful comments, etc. Serial offenders will be blocked with extreme prejudice (the Twitter feed is part of the hobby and hobbies should be fun, dammit).
+            </p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
