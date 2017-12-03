@@ -49,6 +49,22 @@ body {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .nav {
+      padding-left:2px;
+      padding-right:2px;
+  }
+  .nav li {
+      display:block !important;
+      width:100%;
+      margin:0px;
+  }
+  .nav li.active {
+      border-bottom:1px solid #ddd!important;
+      margin: 0px;
+  }
+}
+
 .container {
   max-width: 920px !important;
   padding: 5px;
