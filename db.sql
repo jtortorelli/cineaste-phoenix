@@ -2506,7 +2506,6 @@ a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	t	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
 e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 fcb4b537-1a27-42e2-bafb-2f23564f033a	Ring 2	1999-01-23	95	f	\N	{"original_title": "リング2", "original_translation": "Ring 2", "original_transliteration": "Ringu 2"}
-cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	Godzilla X Mechagodzilla	2002-12-14	88	f	\N	{"original_title": "ゴジラ×メカゴジラ", "original_translation": "Godzilla X Mechagodzilla", "original_transliteration": "Gojira X Mekagojira"}
 b45d956a-595b-4980-8d3f-7ddd7063e283	Azumi 2: Death or Love	2005-03-12	112	f	\N	{"original_title": "あずみ2 Death or Love", "original_translation": "Azumi 2 Death or Love", "original_transliteration": "Azumi 2 Death or Love"}
 234560f2-ada9-40e4-8f50-701f701dec82	The Eternal Zero	2013-12-21	144	f	\N	{"original_title": "永遠の0", "original_translation": "Eternal Zero", "original_transliteration": "Eien No Zero"}
 060ee386-1a7f-4e91-bb93-f7c6f249f71b	Gantz: Perfect Answer	2011-04-23	141	f	\N	{"original_title": "ガンツ・パーフェクトアンサー", "original_translation": "Gants: Perfect Answer", "original_transliteration": "Gantsu Paafekuto Ansaa"}
@@ -2536,8 +2535,8 @@ bce2da2a-8823-4d3d-b49e-90c65452f719	Godzilla VS Biollante	1989-12-16	105	t	\N	{
 0551ee7d-fecc-4851-a083-f75c65daf18a	Yamato Takeru	1994-07-09	103	t	{"Orochi, the Eight-Headed Dragon"}	{"original_title": "ヤマトタケル", "original_translation": "The Strength of Yamato", "original_transliteration": "Yamato Takeru"}
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	Zeiram 2	1994-12-17	100	t	\N	{"original_title": "ゼイラム2", "original_translation": "Zeiram 2", "original_transliteration": "Zeiramu 2"}
 0a4a2822-7bca-4000-96c6-268000432e56	Juvenile	2000-07-15	105	t	\N	{"original_title": "ジュブナイル Boys Meet the Future", "original_translation": "Juvenile: Boys Meet the Future", "original_transliteration": "Jyubunairu Boys Meet the Future"}
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	Godzilla X Mechagodzilla	2002-12-14	88	t	\N	{"original_title": "ゴジラ×メカゴジラ", "original_translation": "Godzilla X Mechagodzilla", "original_transliteration": "Gojira X Mekagojira"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
-4f663866-4a44-4560-bd28-58446fbd15a0	Returner	2002-08-31	116	f	\N	{"original_title": "リターナー", "original_translation": "Returner", "original_transliteration": "Retaanaa"}
 aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	Parasyte: Completion	2015-04-25	117	f	\N	{"original_title": "寄生獣 完結編", "original_translation": "Parasitic Beast Completion", "original_transliteration": "Kiseijyuu Kanketsuhen"}
 dd83f9ef-cece-4825-b1ed-f63063b0226b	Onmyoji	2001-10-06	116	f	\N	{"original_title": "陰陽師", "original_translation": "Yin Yang Master", "original_transliteration": "Onmyouji"}
 e2a0f019-2668-4657-a1a0-02fc7fb5c188	Masked Rider: The First	2005-11-05	90	f	\N	{"original_title": "仮面ライダー THE FIRST", "original_translation": "Masked Rider: The First", "original_transliteration": "Kamen Raidaa The First"}
@@ -2569,6 +2568,7 @@ f362dad8-915b-4d38-8d55-9a0d06a950a9	Godzilla VS King Ghidorah	1991-12-14	103	t	
 fe6de616-6f61-4c7e-a61e-b892fe6ccddb	Rebirth of Mothra	1996-12-14	106	t	\N	{"original_title": "モスラ", "original_translation": "Mothra", "original_transliteration": "Mosura"}
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	t	\N	{"original_title": "タオの月", "original_translation": "Moon of Tao", "original_transliteration": "Tao No Tsuki"}
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	t	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
+4f663866-4a44-4560-bd28-58446fbd15a0	Returner	2002-08-31	116	t	\N	{"original_title": "リターナー", "original_translation": "Returner", "original_transliteration": "Retaanaa"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 a3c23594-00db-4cc9-901a-7bbd87f0c32e	Always: Sunset on Third Street 2	2007-11-03	146	f	\N	{"original_title": "ALWAYS 続・三丁目の夕日", "original_translation": "Always Continued: Sunset on Third Street", "original_transliteration": "Always Zoku San Chyoume No Yuuhi"}
 c2c2bbd6-f2e0-41a6-b350-f6e42b1654b6	The Sky Crawlers	2008-08-02	122	f	\N	{"original_title": "スカイ・クロラ", "original_translation": "Sky Crawler", "original_transliteration": "Sukai Kurora"}
@@ -3509,6 +3509,12 @@ ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Yuji	Shimomura	M	f	{"year": 1973}	\N	\N	\N	
 98a58b4a-fa82-46cb-8105-04d2b597c313	Takashi	Konno	M	f	\N	\N	\N	\N	\N	\N
 10ded5cd-e5d7-49f1-bc23-376e8c615b12	Isao	Kiriyama	M	f	\N	\N	\N	\N	\N	{"original_name": "桐山 勲"}
 fe22240a-4c1c-47fe-bfbc-74eab4e8a3df	Keiichi	Hasegawa	M	f	{"day": 1, "year": 1962, "month": 2}	\N	Atami, Shizuoka, Japan	\N	\N	{"original_name": "長谷川 圭一"}
+84662ced-ad08-4f40-9ca5-e769154cd372	Kenya	Hirata	M	f	{"day": 4, "year": 1972, "month": 7}	\N	Nara, Japan	\N	\N	{"original_name": "平田 研也"}
+0ebb98c5-3dcf-43fb-a3a1-6cfc05df3d1c	Akihiko	Matsumoto	M	f	{"day": 14, "year": 1963, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "松本 晃彦"}
+76c63464-1828-4c68-997d-f0e01d4522d5	Akira	Sako	M	f	{"day": 30, "year": 1969, "month": 5}	\N		\N	\N	{"original_name": "佐光 朗"}
+6835cc4f-213e-4d6b-a394-820b0387ac5a	Chuji	Sato	M	f	\N	\N	\N	\N	\N	{"original_name": "佐藤 忠治"}
+1e8ea26b-5087-4f94-a7ef-8e4f4b67e33c	Yasushi	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_name": "田中 靖志"}
+98780c47-ba75-41f7-a94a-a5d0c33519ae	Takuya	Taguchi	M	f	\N	\N	\N	\N	\N	{"original_name": "田口 拓也"}
 \.
 
 
@@ -3665,6 +3671,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	9595f0f3-16ab-47e9-9668-fdbb080091ee	22
 abf663c4-4467-4a76-a25f-735b00fbc120	940f82be-26cc-43ae-8fb1-9a144f4fc453	23
 abf663c4-4467-4a76-a25f-735b00fbc120	6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	24
 abf663c4-4467-4a76-a25f-735b00fbc120	d47406e8-fd4b-4031-87e9-387f905eeb13	25
+abf663c4-4467-4a76-a25f-735b00fbc120	cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	26
 \.
 
 
@@ -5382,6 +5389,29 @@ d47406e8-fd4b-4031-87e9-387f905eeb13	d83b9cf8-f4c9-4ca5-9302-ebff0892ca4b	Sound 
 d47406e8-fd4b-4031-87e9-387f905eeb13	7865b29c-439d-4f8f-8d29-3d1a08a54aaa	Lighting	11
 d47406e8-fd4b-4031-87e9-387f905eeb13	2f6156e5-e4f5-4a31-b4ed-289f173f851e	Special Effects Assistant Director	13
 d47406e8-fd4b-4031-87e9-387f905eeb13	7322f59d-4de0-401d-a62f-bb29790eaf7a	Editor	12
+4f663866-4a44-4560-bd28-58446fbd15a0	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Director	1
+4f663866-4a44-4560-bd28-58446fbd15a0	84662ced-ad08-4f40-9ca5-e769154cd372	Screenplay	2
+4f663866-4a44-4560-bd28-58446fbd15a0	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Screenplay	3
+4f663866-4a44-4560-bd28-58446fbd15a0	0ebb98c5-3dcf-43fb-a3a1-6cfc05df3d1c	Music	4
+4f663866-4a44-4560-bd28-58446fbd15a0	03dca383-7eb2-458c-94cd-745c46c8c9b0	Cinematography	5
+4f663866-4a44-4560-bd28-58446fbd15a0	76c63464-1828-4c68-997d-f0e01d4522d5	Cinematography	6
+4f663866-4a44-4560-bd28-58446fbd15a0	f3ab81f0-1521-408d-a493-110ccf660b79	Lighting	7
+4f663866-4a44-4560-bd28-58446fbd15a0	6835cc4f-213e-4d6b-a394-820b0387ac5a	Sound Recording	8
+4f663866-4a44-4560-bd28-58446fbd15a0	1e8ea26b-5087-4f94-a7ef-8e4f4b67e33c	Sound Recording	9
+4f663866-4a44-4560-bd28-58446fbd15a0	fb16a56b-7e00-4c0c-8c4b-4a0d543dcc06	Art Director	10
+4f663866-4a44-4560-bd28-58446fbd15a0	98780c47-ba75-41f7-a94a-a5d0c33519ae	Editor	11
+4f663866-4a44-4560-bd28-58446fbd15a0	ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Stunts	12
+4f663866-4a44-4560-bd28-58446fbd15a0	bbd9577c-7b1c-4879-8508-4dd72ccc488c	VFX	13
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	8c03a378-f4b6-4863-af99-47d6535e64bc	Director	1
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	cf2be2a5-5344-414c-83f8-062cb700c4fa	Producer	2
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	01a0b874-1049-43af-89ed-a0b88645c4d5	Screenplay	3
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	abdf435c-d20d-4309-b937-f7dd54c3f99e	Cinematography	4
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	50d3b755-07fe-4e6b-a513-c3c8c442da5b	Art Director	5
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	d83b9cf8-f4c9-4ca5-9302-ebff0892ca4b	Sound Recording	6
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	2d33b583-ec35-417f-99d4-e15d83ca2d1a	Lighting	7
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	e517a7ed-a915-4672-b74d-4db901c11f2d	Editor	8
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	1d2a7328-2213-4325-a928-29a5ecc806df	Music	9
+cd384f7c-2a1a-473c-8ecf-867ab9bacc5a	2f6156e5-e4f5-4a31-b4ed-289f173f851e	Special Effects	10
 \.
 
 
@@ -5592,6 +5622,13 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	d47406e8-fd4b-4031-87e9-387f905eeb13
 2877ec88-b21f-46ef-9f54-4249fd08923a	d9419337-9051-43e5-b241-882b46b1f1e4
 5d260381-a7a4-40b0-86d5-8869d09cb61c	d9419337-9051-43e5-b241-882b46b1f1e4
 8898e051-4d70-4904-82d5-bbaa5bfa5f20	d9419337-9051-43e5-b241-882b46b1f1e4
+787f4d01-040c-47ed-8d21-7bb887cd34a6	4f663866-4a44-4560-bd28-58446fbd15a0
+b52fcdd6-691b-4a16-a670-e6ad6f176521	4f663866-4a44-4560-bd28-58446fbd15a0
+5bc59f00-4df5-4f2e-b520-4fa724e4abf5	4f663866-4a44-4560-bd28-58446fbd15a0
+1384d84f-f933-4305-abaf-1e4e3c1a3430	4f663866-4a44-4560-bd28-58446fbd15a0
+4c9c0a7e-e1e6-4160-9a6f-86655690967c	4f663866-4a44-4560-bd28-58446fbd15a0
+ea512640-6306-4eb0-b076-baef4673d43c	4f663866-4a44-4560-bd28-58446fbd15a0
+b52fcdd6-691b-4a16-a670-e6ad6f176521	cd384f7c-2a1a-473c-8ecf-867ab9bacc5a
 \.
 
 
@@ -5644,6 +5681,7 @@ ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	WOWOW
 2877ec88-b21f-46ef-9f54-4249fd08923a	Napalm Films
 5d260381-a7a4-40b0-86d5-8869d09cb61c	Suplex
 8898e051-4d70-4904-82d5-bbaa5bfa5f20	KSS
+5bc59f00-4df5-4f2e-b520-4fa724e4abf5	Amuse Pictures
 \.
 
 
