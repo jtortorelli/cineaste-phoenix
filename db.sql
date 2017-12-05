@@ -2733,6 +2733,7 @@ COPY groups (id, name, showcase, active_start, active_end, props) FROM stdin;
 a39f3d55-d81b-4685-b000-2772b9c20034	Morita Editorial Office	f	\N	\N	{"original_name": "森田編集室"}
 02da10e1-3210-4bd4-a3b0-ecf80f5f7bea	Ohta Fact	f	\N	\N	\N
 28f668f9-3716-474f-8911-7f4a912c0608	Buddy-Zoo	f	\N	\N	\N
+62d712fb-e411-4a20-950d-734821e8e697	Sextasy Room	f	\N	\N	\N
 \.
 
 
@@ -3713,6 +3714,7 @@ COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
 a477ef60-d6ae-4406-9914-2a7e060ac379	1da44299-4577-4ca9-aaa2-d1c48fc9e030	Music Director	83
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	02da10e1-3210-4bd4-a3b0-ecf80f5f7bea	Sound Recording	11
 ae7919c4-fa6b-403c-91b2-a75e01d747b1	28f668f9-3716-474f-8911-7f4a912c0608	Music	10
+2a3810e7-dee8-45c2-8982-5730cc86e50c	62d712fb-e411-4a20-950d-734821e8e697	Music	11
 \.
 
 
