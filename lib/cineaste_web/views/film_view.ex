@@ -11,6 +11,10 @@ defmodule CineasteWeb.FilmView do
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
 
+  def display_original_title(%{"original_title" => title, "original_transliteration" => same, "original_translation" => same} = props) do
+    render "original_title_min.html", title: title, transliteration: same
+  end
+
   def display_original_title(%{"original_title" => title, "original_transliteration" => transliteration, "original_translation" => translation} = props) do
     Logger.debug "inside display_original_title"
     Logger.debug "value of props: #{inspect(props)}"
@@ -20,6 +24,7 @@ defmodule CineasteWeb.FilmView do
   def display_original_title(_), do: nil
 
   def display_aliases([_head | _tail] = aliases), do: render "aliases.html", aliases: aliases
+  
   def display_aliases(_), do: nil
 
   def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")

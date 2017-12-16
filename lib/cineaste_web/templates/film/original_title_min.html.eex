@@ -1,0 +1,9 @@
+<tr>
+  <td class="subdue">
+    Original Title
+  </td>
+  <td class="minor">
+    <%= raw @title %><br/>
+    <span class="subtitle"><%= @transliteration %></span><br/>
+  </td>
+</tr>
