@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.6.5
--- Dumped by pg_dump version 9.6.5
+-- Dumped from database version 9.6.6
+-- Dumped by pg_dump version 10.1
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -2517,7 +2517,6 @@ a39991bd-6f9b-449f-a011-359411ffbfa1	Tomie	1999-03-06	95	f	\N	{"original_title":
 c287b984-0a4b-406f-a9a7-c21023ecd189	Oblivion Island: Haruka and the Magic Mirror	2009-08-22	93	f	\N	{"original_title": "ホッタラケの島 〜遥と魔法の鏡〜", "original_translation": "Hottarake Island: Haruka and the Magic Mirror", "original_transliteration": "Hottarake No Shima Haruka To Mahou No Kagame"}
 010090c2-b952-4ae7-8dc0-15b2ecc0dce6	Battlefield Baseball	2002-07-19	87	f	\N	{"original_title": "地獄甲子園", "original_translation": "Hell Stadium", "original_transliteration": "Jigoku Koushien"}
 80239011-e3d9-4de4-9e9e-fb0733260577	Hidden Fortress: The Last Princess	2008-05-10	118	f	\N	{"original_title": "隠し砦の三悪人 THE LAST PRINCESS", "original_translation": "Three Villains of the Hidden Fortress: The Last Princess", "original_transliteration": "Kakushi Toride No San Akunin The Last Princess"}
-ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	f	\N	{"original_title": "デスノート", "original_translation": "Death Note", "original_transliteration": "Desu Nooto"}
 242c97f0-edcc-4857-8211-bb130160275e	Tsubaki Sanjuro	2007-12-01	119	f	\N	{"original_title": "椿三十郎", "original_translation": "Thirty-Year-Old Camellia", "original_transliteration": "Tsubaki Sanjyuurou"}
 88a761bb-acae-4a56-b157-ed2fe51951ab	Kaiji 2	2011-11-05	133	f	\N	{"original_title": "カイジ2", "original_translation": "Kaiji 2", "original_transliteration": "Kaiji 2"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	t	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
@@ -2535,10 +2534,10 @@ c03741eb-2f51-411e-937c-5b1ce71efb6b	One Missed Call	2003-11-03	112	t	\N	{"origi
 c40ae945-d13c-4778-a0a6-6d78b94966ae	Godzilla: Final Wars	2004-12-04	125	t	\N	{"original_title": "ゴジラ ファイナル ウォーズ", "original_translation": "Godzilla: Final Wars", "original_transliteration": "Gojira Fainaru Uoozu"}
 b45d956a-595b-4980-8d3f-7ddd7063e283	Azumi 2: Death or Love	2005-03-12	112	t	\N	{"original_title": "あずみ2 Death or Love", "original_translation": "Azumi 2 Death or Love", "original_transliteration": "Azumi 2 Death or Love"}
 e41cf916-5691-4a46-8cb6-e70f4d185b58	One Missed Call 2	2005-02-05	106	t	\N	{"original_title": "着信アリ2", "original_translation": "Incoming Call 2", "original_transliteration": "Chyakushin Ari 2"}
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	Death Note	2006-06-17	126	t	\N	{"original_title": "デスノート", "original_translation": "Death Note", "original_transliteration": "Desu Nooto"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
 aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	Parasyte: Completion	2015-04-25	117	f	\N	{"original_title": "寄生獣 完結編", "original_translation": "Parasitic Beast Completion", "original_transliteration": "Kiseijyuu Kanketsuhen"}
 dd83f9ef-cece-4825-b1ed-f63063b0226b	Onmyoji	2001-10-06	116	f	\N	{"original_title": "陰陽師", "original_translation": "Yin Yang Master", "original_transliteration": "Onmyouji"}
-a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	f	\N	{"original_title": "デスノート the Last name", "original_translation": "Death Note: The Last Name", "original_transliteration": "Desu Nooto The Last Name"}
 2f2754dd-ea02-4cbc-957e-b4d23f38fc65	20th Century Boys	2008-08-30	142	f	{"20th Century Boys 1: The Beginning of the End"}	{"original_title": "20世紀少年", "original_translation": "20th Century Boys", "original_transliteration": "20 Seiki Shyounen"}
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
 24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
@@ -2548,7 +2547,6 @@ ea15e6b4-5bac-48d9-836b-eda509c39ba6	Tomie: Another Face	1999-12-26	95	f	\N	{"or
 c7a3c4ef-364c-404e-8a16-4a1fce836949	Jin-Roh: The Wolf Brigade	2000-06-03	98	f	\N	{"original_title": "人狼", "original_translation": "Werewolf", "original_transliteration": "Jinrou"}
 c40759c6-257e-452d-a313-b4f7114e7db9	Onmyoji II	2003-10-04	115	f	\N	{"original_title": "陰陽師II", "original_translation": "Yin Yang Master II", "original_transliteration": "Onmyouji II"}
 c35ae200-de99-427d-b769-a8b4df1280ca	Masked Rider: The Next	2007-10-27	113	f	\N	{"original_title": "仮面ライダー THE NEXT", "original_translation": "Masked Rider: The Next", "original_transliteration": "Kamen Raidaa The Next"}
-93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	f	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31	139	f	{"20th Century Boys 2: The Last Hope"}	{"original_title": "20世紀少年 第2章 最後の希望", "original_translation": "20th Century Boys Second Chapter: The Last Hope", "original_transliteration": "20 Seiki Shyounen Dai 2 Shou Saigo No Kibou"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
 228788dc-95fe-4cf7-b819-2e659fb3f314	Space Battleship Yamato	2010-12-01	138	f	\N	{"original_title": "SPACE BATTLESHIP ヤマト", "original_translation": "Space Battleship Yamato", "original_transliteration": "Space Battleship Yamato"}
@@ -2566,6 +2564,7 @@ ae7919c4-fa6b-403c-91b2-a75e01d747b1	Moon Over Tao	1997-11-29	96	t	\N	{"original
 940f82be-26cc-43ae-8fb1-9a144f4fc453	Godzilla 2000	1999-12-11	108	t	\N	{"original_title": "ゴジラ2000 ミレニアム", "original_translation": "Godzilla 2000 Millennium", "original_transliteration": "Gojira 2000 Mireniamu"}
 4f663866-4a44-4560-bd28-58446fbd15a0	Returner	2002-08-31	116	t	\N	{"original_title": "リターナー", "original_translation": "Returner", "original_transliteration": "Retaanaa"}
 a8a2ffad-16c0-4b72-b8aa-f94638e8e3a2	Casshern	2004-04-24	141	t	\N	{"original_title": "キャシャーン", "original_translation": "Casshern", "original_transliteration": "Kyashiaan"}
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	Death Note: The Last Name	2006-11-03	140	t	\N	{"original_title": "デスノート the Last name", "original_translation": "Death Note: The Last Name", "original_transliteration": "Desu Nooto The Last Name"}
 e2a0f019-2668-4657-a1a0-02fc7fb5c188	Masked Rider: The First	2005-11-05	90	t	\N	{"original_title": "仮面ライダー THE FIRST", "original_translation": "Masked Rider: The First", "original_transliteration": "Kamen Raidaa The First"}
 804be70b-0082-41f7-8579-c1502f07c1df	Always	2005-11-05	133	t	\N	{"original_title": "ALWAYS 三丁目の夕日", "original_translation": "Always: Sunset on Third Street", "original_transliteration": "Always San Chyoume No Yuuhi"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
@@ -2636,14 +2635,14 @@ baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"o
 3df82c9d-f929-4cfe-9b94-d7356b30f32f	Ring 0: Birthday	2000-01-22	99	f	\N	{"original_title": "リング0 バースデイ", "original_translation": "Ring 0: Birthday", "original_transliteration": "Ringu 0 Baasudei"}
 5449600a-b42d-4b3b-8551-4bfce2101463	Stand By Me, Doraemon	2014-08-08	95	f	\N	{"original_title": "STAND BY ME ドラえもん", "original_translation": "Stand By Me, Doraemon", "original_transliteration": "Stand By Me Doraemon"}
 a4641997-f1b1-4a18-b269-2b91914292cb	Library Wars	2013-04-27	128	f	\N	{"original_title": "図書館戦争", "original_translation": "Library War", "original_transliteration": "Toshyoukan Sensou"}
-cfaf4ab5-af6a-417b-91ee-65ad2af67155	One Missed Call: Final	2006-06-24	105	f	\N	{"original_title": "着信アリFinal", "original_translation": "Incoming Call Final", "original_transliteration": "Chyakushin Ari Final"}
-a189e004-9ee6-4c76-90c6-b4630efccd95	The Sinking of Japan	2006-07-15	135	f	\N	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 7e322ca6-fe1c-4c13-9b6d-4991f675f2ed	Gamera the Brave	2006-04-29	96	f	\N	{"original_title": "小さき勇者たち〜ガメラ〜", "original_translation": "The Little Braves: Gamera", "original_transliteration": "Chisaki Yuushyatachi Gamera"}
 37e6a670-8016-4594-ba9b-070dd2c76311	Hara-Kiri: Death of a Samurai	2011-10-15	126	f	\N	{"original_title": "一命", "original_translation": "Life", "original_transliteration": "Ichimei"}
 0c035d95-032c-4975-8693-1058d6676add	Kaiji	2009-10-10	129	f	\N	{"original_title": "カイジ", "original_translation": "Kaiji", "original_transliteration": "Kaiji"}
 32feba7e-991a-4f63-90e4-31765bf552bd	Zatoichi	1989-02-04	116	f	{"Zatoichi: The Blind Swordsman","Zatoichi: Darkness is His Ally"}	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_title": "仄暗い水の底から", "original_translation": "Dark Water from the Bottom", "original_transliteration": "Honokurai Mizu No Soko Kara"}
 897f493c-cd9b-485d-8aa6-3459792e4fd8	The Sword of Doom	1966-02-25	120	f	\N	{"original_title": "大菩薩峠", "original_translation": "Great Bodhisattva Pass", "original_transliteration": "Daibasatsu Touge"}
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	One Missed Call: Final	2006-06-24	105	t	\N	{"original_title": "着信アリFinal", "original_translation": "Incoming Call Final", "original_transliteration": "Chyakushin Ari Final"}
+a189e004-9ee6-4c76-90c6-b4630efccd95	The Sinking of Japan	2006-07-15	135	t	\N	{"original_title": "日本沈没", "original_translation": "Japan Sunk", "original_transliteration": "Nippon Chinbotsu"}
 b36b76fa-643c-4c91-bf67-f73c7482ba94	Terror of Mechagodzilla	1975-03-15	83	t	{"The Terror of Godzilla"}	{"original_title": "メカゴジラの逆襲", "original_translation": "Counterattack of Mechagodzilla", "original_transliteration": "Mekagojira No Gyakushyuu"}
 e30025d4-8bbc-476e-ba1c-7030dfa7ddb2	Whirlwind	1964-01-03	106	t	\N	{"original_title": "士魂魔道 大龍巻", "original_translation": "Warrior's Spirit Great Tornado", "original_transliteration": "Shikonmadou Daitatsumaki"}
 c6ea0d4e-7a68-45cb-9da4-c9eae71b705e	Earthquake Archipelago	1980-08-30	126	t	{Deathquake}	{"original_title": "地震列島", "original_translation": "Earthquake Archipelago", "original_transliteration": "Jishin Rettou"}
@@ -2711,6 +2710,7 @@ d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	Attack on Titan	2015-08-01	98	f	{"Attack on
 f4172754-166d-447c-b57f-251ab69e08ed	Attack on Titan: End of the World	2015-09-19	87	f	{"Attack on Titan: The Movie Part 2"}	{"original_title": "進撃の巨人 エンド オブ ザ ワールド", "original_translation": "Attack of Titan End of the World", "original_transliteration": "Shingeki No Kyojin Endo Obu Za Waarudo"}
 c4d93caa-1243-48ef-b1c0-6be48c681c53	Shin Godzilla	2016-07-29	119	f	{"Godzilla Resurgence"}	{"original_title": "シン・ゴジラ", "original_translation": "Shin Godzilla", "original_transliteration": "Shin Gojira"}
 91b3b4e9-f72e-4c60-a50f-1829fdb2940f	Lorelei	2005-03-05	128	t	{"Lorelei: The Witch of the Pacific Ocean"}	{"original_title": "ローレライ", "original_translation": "Lorelei", "original_transliteration": "Roorerai"}
+93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	t	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 \.
 
 
@@ -3614,6 +3614,25 @@ f733c491-73bb-4ef5-808f-b16b71b05a50	Ryuta	Kosaki	M	f	{"day": 25, "year": 1971, 
 717af968-345e-47cb-8429-003fc9d5a52c	Toshiro	Imaizumi	M	f	{"day": 20, "year": 1951, "month": 3}	{"day": 21, "year": 2008, "month": 5}	Fukuoka, Japan	\N	\N	{"original_name": "今泉 敏郎"}
 1373e9ca-1f6d-4a15-b1d5-73fd6cee7645	Seiichiro	Mieno	M	f	\N	\N	\N	\N	\N	{"original_name": "三重野 聖一郎"}
 50918edb-3152-4bd8-887f-a50a4c6c5518	Yasushi	Akimoto	M	f	{"day": 2, "year": 1958, "month": 5}	\N	Meguro, Tokyo, Japan	\N	\N	{"original_name": "秋元 康"}
+4d7557eb-d727-470b-9f59-46c8ba1df91a	Tsugumi	Oba	M	f	\N	\N	\N	\N	\N	{"original_name": "大場 つぐみ"}
+2c87b93f-8b1f-465e-9d71-6755d690d9d1	Takeshi	Obata	M	f	{"day": 11, "year": 1969, "month": 2}	\N	Niigata, Japan	\N	\N	{"original_name": "小畑 健"}
+dca81abf-e8c9-4586-8cc4-030e845bc9bb	Tetsuya	Oishi	M	f	{"year": 1968}	\N	Fukuoka, Japan	\N	\N	{"original_name": "大石 哲也"}
+92a520f9-ee5d-454e-9e57-b7472b23371e	Hiroshi	Takase	M	f	{"day": 13, "year": 1955, "month": 10}	{"day": 7, "year": 2006, "month": 9}	Tokyo, Japan	\N	\N	{"original_name": "高瀬比 呂志"}
+87ee0c8a-d4da-446e-8d12-5cfdaf236b57	Izuru	Narushima	M	f	{"year": 1961}	\N	Yamanashi, Japan	\N	\N	{"original_name": "成島 出"}
+473d104f-10b1-4cd2-9bd3-9cc8d965ff88	Masato	Kato	M	f	{"day": 14, "year": 1954, "month": 1}	\N	Akita, Japan	\N	\N	{"original_name": "加藤 正人"}
+9175cc74-625d-4f11-91c1-aac7ea781321	Taro	Kawazu	M	f	{"year": 1969}	\N	Tokyo, Japan	\N	\N	{"original_name": "河津 太郎"}
+60805dd1-9f1d-479a-ae04-e69d3c1fcc57	Yasuaki	Harada	M	f	{"year": 1959}	\N	Toyota, Aichi, Japan	\N	\N	{"original_name": "原田 恭明"}
+1615252c-d979-482c-9fd7-d80f83dce550	Kazuo	Umezu	M	f	{"day": 3, "year": 1936, "month": 9}	\N	Takano, Ito, Wakayama, Japan	\N	\N	{"birth_name": "Kazuo Umezu (楳図 一雄)", "original_name": "楳図 かずお"}
+5a2871c1-93ba-4e5c-9a3c-ec7120d548ad	Yoshinori	Matsugae	M	f	\N	\N	\N	\N	\N	{"original_name": "松枝 佳紀"}
+5a5570c2-43f1-4c00-bce8-eaf732be38cf	Wataru	Hokoyama	M	f	{"day": 24, "year": 1974, "month": 8}	\N		\N	\N	{"original_name": "鋒山 亘"}
+9075e423-0eaa-49ae-8416-735f6528f2e7	Masamichi	Joho	M	f	\N	\N	\N	\N	\N	{"original_name": "上保 正道"}
+a147bfad-e4d4-4001-b80e-fae3fbdb5afc	Henji	Iwakumi	M	f	\N	\N	\N	\N	\N	{"original_name": "岩丸 恒"}
+363e8fe9-8bf0-4f7b-bc9d-c4c7585323fe	Minoru	Ishiyama	M	f	\N	\N	\N	\N	\N	{"original_name": "石山 稔"}
+6967db5d-018c-4b27-b07f-a47679a00f63	Manabu	Aso	M	f	\N	\N	\N	\N	\N	{"original_name": "麻生 学"}
+50b4e0b1-e9f5-4527-a64e-0800483bead5	Norihiro	Isoda	M	f	\N	\N	\N	\N	\N	{"original_name": "磯田 典宏"}
+90a925ba-7690-4600-8aa9-74086f6432d8	Kiyoshi	Okano	M	f	\N	\N	\N	\N	\N	{"original_name": "岡野 清"}
+b60bc1a3-5dd0-400f-83e7-209d73ef6670	Akimasa	Kawashima	M	f	{"day": 8, "year": 1950, "month": 9}	\N	Akishima, Tokyo, Japan	\N	\N	{"original_name": "川島 章正"}
+d7f8b56e-01bd-4034-aea4-bfda0e59e670	Yushin	Jiro	M	f	{"day": 21, "year": 1975, "month": 20}	\N	Tokyo, Japan	\N	{"Shinjiro (真二郎)"}	{"original_name": "二郎 遊真"}
 \.
 
 
@@ -3677,6 +3696,7 @@ d031f54b-1192-4bbf-a385-093b82f4c31e	Zeiram
 8501e824-0447-42b3-8feb-ec170b10d114	Battle Royale
 f6660459-31ec-48c7-82db-9194dbf7ea13	One Missed Call
 2d9fdd03-947b-4d11-b895-a368712fa88a	Azumi
+68314e4a-7e61-4850-af2b-5edfda855afe	Death Note
 \.
 
 
@@ -3782,6 +3802,9 @@ f6660459-31ec-48c7-82db-9194dbf7ea13	c03741eb-2f51-411e-937c-5b1ce71efb6b	1
 f6660459-31ec-48c7-82db-9194dbf7ea13	e41cf916-5691-4a46-8cb6-e70f4d185b58	2
 2d9fdd03-947b-4d11-b895-a368712fa88a	2a3810e7-dee8-45c2-8982-5730cc86e50c	1
 2d9fdd03-947b-4d11-b895-a368712fa88a	b45d956a-595b-4980-8d3f-7ddd7063e283	2
+68314e4a-7e61-4850-af2b-5edfda855afe	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	1
+68314e4a-7e61-4850-af2b-5edfda855afe	a30b441a-bdc6-4b6c-b947-43f9e509b2bd	2
+f6660459-31ec-48c7-82db-9194dbf7ea13	cfaf4ab5-af6a-417b-91ee-65ad2af67155	3
 \.
 
 
@@ -5745,6 +5768,60 @@ bdd71ef3-19fb-49dd-a66f-d0742185846c	129ce783-00e1-46cd-ab70-12f0d28e32f6	Physic
 4f663866-4a44-4560-bd28-58446fbd15a0	ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Stunts	12
 4f663866-4a44-4560-bd28-58446fbd15a0	129ce783-00e1-46cd-ab70-12f0d28e32f6	Special Effects Director	13
 4f663866-4a44-4560-bd28-58446fbd15a0	bbd9577c-7b1c-4879-8508-4dd72ccc488c	VFX	14
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	4d7557eb-d727-470b-9f59-46c8ba1df91a	Original Story	2
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	2c87b93f-8b1f-465e-9d71-6755d690d9d1	Original Story	3
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	dca81abf-e8c9-4586-8cc4-030e845bc9bb	Screenplay	4
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	5
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	92a520f9-ee5d-454e-9e57-b7472b23371e	Cinematography	6
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	be9e7ced-a62d-4777-8c6b-e5b91fa440e5	Lighting	7
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	d31eec12-69c3-47c0-b596-6e995f97629c	Sound Recording	8
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	74813008-535a-4713-8487-61f77ad9da0a	Art Director	9
+ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	12644b1c-c732-4c25-b039-58178b1f4530	Editor	10
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	6967db5d-018c-4b27-b07f-a47679a00f63	Director	1
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	50918edb-3152-4bd8-887f-a50a4c6c5518	Original Story	2
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	2cc1b4eb-07d0-4e17-bd5c-8588ff09e505	Screenplay	3
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	d7f8b56e-01bd-4034-aea4-bfda0e59e670	Screenplay	4
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	5648cfe6-ad11-488a-8e7b-85ab04bd8615	Cinematography	5
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	50b4e0b1-e9f5-4527-a64e-0800483bead5	Art Director	6
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	90a925ba-7690-4600-8aa9-74086f6432d8	Lighting	7
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	3df79857-bd69-478e-ad00-0074df084a8e	Sound Recording	8
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	b60bc1a3-5dd0-400f-83e7-209d73ef6670	Editor	9
+cfaf4ab5-af6a-417b-91ee-65ad2af67155	f1f05124-be49-4cc2-ab32-49e2cfe4306f	Music	10
+a189e004-9ee6-4c76-90c6-b4630efccd95	d4f52193-310b-487c-a9d4-513d6f9ad42b	Director	1
+a189e004-9ee6-4c76-90c6-b4630efccd95	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Director	2
+a189e004-9ee6-4c76-90c6-b4630efccd95	129ce783-00e1-46cd-ab70-12f0d28e32f6	Co-Director	3
+a189e004-9ee6-4c76-90c6-b4630efccd95	129ce783-00e1-46cd-ab70-12f0d28e32f6	Special Effects Supervisor	4
+a189e004-9ee6-4c76-90c6-b4630efccd95	4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Original Story	5
+a189e004-9ee6-4c76-90c6-b4630efccd95	87ee0c8a-d4da-446e-8d12-5cfdaf236b57	Screenplay	6
+a189e004-9ee6-4c76-90c6-b4630efccd95	473d104f-10b1-4cd2-9bd3-9cc8d965ff88	Screenplay	7
+a189e004-9ee6-4c76-90c6-b4630efccd95	17839254-1eb2-4604-a33f-028e8b22bc95	Music	8
+a189e004-9ee6-4c76-90c6-b4630efccd95	9175cc74-625d-4f11-91c1-aac7ea781321	Cinematography	9
+a189e004-9ee6-4c76-90c6-b4630efccd95	60805dd1-9f1d-479a-ae04-e69d3c1fcc57	Art Director	10
+a189e004-9ee6-4c76-90c6-b4630efccd95	b483f91b-b6ae-4c71-bb55-0f8c3361eccc	Sound Recording	11
+a189e004-9ee6-4c76-90c6-b4630efccd95	6b0a756a-aedf-4f88-a9e3-97addf84b0a6	Editor	12
+a189e004-9ee6-4c76-90c6-b4630efccd95	e8440bbd-2fc3-4485-9a82-a6bba62ee797	Special Molding	13
+93c6c6f9-c068-4976-9c72-10950be7d973	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
+93c6c6f9-c068-4976-9c72-10950be7d973	1615252c-d979-482c-9fd7-d80f83dce550	Original Story	2
+93c6c6f9-c068-4976-9c72-10950be7d973	5a2871c1-93ba-4e5c-9a3c-ec7120d548ad	Screenplay	3
+93c6c6f9-c068-4976-9c72-10950be7d973	5a5570c2-43f1-4c00-bce8-eaf732be38cf	Music	4
+93c6c6f9-c068-4976-9c72-10950be7d973	f12fe9a2-fdee-480c-9300-a96db3474f8f	Cinematography	5
+93c6c6f9-c068-4976-9c72-10950be7d973	9075e423-0eaa-49ae-8416-735f6528f2e7	Lighting	6
+93c6c6f9-c068-4976-9c72-10950be7d973	a147bfad-e4d4-4001-b80e-fae3fbdb5afc	Sound Recording	7
+93c6c6f9-c068-4976-9c72-10950be7d973	74813008-535a-4713-8487-61f77ad9da0a	Art Director	8
+93c6c6f9-c068-4976-9c72-10950be7d973	12644b1c-c732-4c25-b039-58178b1f4530	Editor	9
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	4d7557eb-d727-470b-9f59-46c8ba1df91a	Original Story	2
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	2c87b93f-8b1f-465e-9d71-6755d690d9d1	Original Story	3
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	dca81abf-e8c9-4586-8cc4-030e845bc9bb	Screenplay	4
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Screenplay	5
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	6
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	f12fe9a2-fdee-480c-9300-a96db3474f8f	Cinematography	7
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	363e8fe9-8bf0-4f7b-bc9d-c4c7585323fe	Cinematography	8
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	9075e423-0eaa-49ae-8416-735f6528f2e7	Lighting	9
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	d31eec12-69c3-47c0-b596-6e995f97629c	Sound Recording	10
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	74813008-535a-4713-8487-61f77ad9da0a	Art Director	11
+a30b441a-bdc6-4b6c-b947-43f9e509b2bd	12644b1c-c732-4c25-b039-58178b1f4530	Editor	12
 \.
 
 
@@ -6066,6 +6143,49 @@ d6cf04e7-daca-4461-94f3-066bbe703cfe	804be70b-0082-41f7-8579-c1502f07c1df
 95ad9c89-93ff-4636-8cb7-4ce98b441801	e2a0f019-2668-4657-a1a0-02fc7fb5c188
 940edae6-9a72-47e0-b46b-b9db0eedb8b2	e2a0f019-2668-4657-a1a0-02fc7fb5c188
 1d0b5d1a-0602-41f5-9ae6-296faea03a78	e2a0f019-2668-4657-a1a0-02fc7fb5c188
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+5000e02b-dc6b-4038-930a-c8e71b8d1995	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+682a8dd1-41ba-45a6-8775-d7a7fed75561	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+dc9a29d3-6f41-451f-b138-91c3422cf239	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+d6cf04e7-daca-4461-94f3-066bbe703cfe	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+902387e1-808f-4fdc-9465-933503350f48	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+732802d4-0269-415d-b00a-6f4f35321fff	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+fe73b252-2b31-49a6-9963-b80366290547	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+0be9d67e-717f-4556-8229-b99d7228592e	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+8386c201-b736-4bdd-8d98-078bb0ec2b58	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+be46d083-e66d-4292-86fa-b1e26d4f5eed	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+5000e02b-dc6b-4038-930a-c8e71b8d1995	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+682a8dd1-41ba-45a6-8775-d7a7fed75561	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+dc9a29d3-6f41-451f-b138-91c3422cf239	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+d6cf04e7-daca-4461-94f3-066bbe703cfe	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+902387e1-808f-4fdc-9465-933503350f48	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+732802d4-0269-415d-b00a-6f4f35321fff	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+fe73b252-2b31-49a6-9963-b80366290547	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+0be9d67e-717f-4556-8229-b99d7228592e	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+8386c201-b736-4bdd-8d98-078bb0ec2b58	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+be46d083-e66d-4292-86fa-b1e26d4f5eed	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	a30b441a-bdc6-4b6c-b947-43f9e509b2bd
+95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	cfaf4ab5-af6a-417b-91ee-65ad2af67155
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	cfaf4ab5-af6a-417b-91ee-65ad2af67155
+b52fcdd6-691b-4a16-a670-e6ad6f176521	cfaf4ab5-af6a-417b-91ee-65ad2af67155
+27e36c78-9526-4349-9150-626375461187	a189e004-9ee6-4c76-90c6-b4630efccd95
+b52fcdd6-691b-4a16-a670-e6ad6f176521	a189e004-9ee6-4c76-90c6-b4630efccd95
+f695a28d-3f2e-40f8-9eda-10f47374b841	a189e004-9ee6-4c76-90c6-b4630efccd95
+3733c5a3-f95e-4812-99fd-c773295420c9	a189e004-9ee6-4c76-90c6-b4630efccd95
+6891b1d3-1bb5-43bc-8291-9b6481ec5f61	a189e004-9ee6-4c76-90c6-b4630efccd95
+ef25dbec-3df9-424c-91a2-104b11dd2d63	a189e004-9ee6-4c76-90c6-b4630efccd95
+cb3fc43d-63c8-4f90-83b1-7696b38b9dea	a189e004-9ee6-4c76-90c6-b4630efccd95
+5b3c714e-1212-4b5a-9bbf-fcd63987fb35	a189e004-9ee6-4c76-90c6-b4630efccd95
+2c86e98c-23e2-4eca-9662-d044a8263b12	a189e004-9ee6-4c76-90c6-b4630efccd95
+7f8abf80-ed58-418f-bef8-f533ea3f5d59	93c6c6f9-c068-4976-9c72-10950be7d973
+be46d083-e66d-4292-86fa-b1e26d4f5eed	93c6c6f9-c068-4976-9c72-10950be7d973
+bc48e0b7-adb1-47ed-8348-43c59e09b08c	93c6c6f9-c068-4976-9c72-10950be7d973
+77c6cd9a-c258-4126-8777-38e78b245e9f	93c6c6f9-c068-4976-9c72-10950be7d973
+80419cac-e90c-44d3-8d91-06f5d20c5e00	93c6c6f9-c068-4976-9c72-10950be7d973
 \.
 
 
@@ -6158,6 +6278,15 @@ dc9a29d3-6f41-451f-b138-91c3422cf239	Hiroshima TV
 d6cf04e7-daca-4461-94f3-066bbe703cfe	FBS
 8edda6fb-913a-4c64-9b04-c2120ddc8cfa	Toei Video
 940edae6-9a72-47e0-b46b-b9db0eedb8b2	Toei Channel
+902387e1-808f-4fdc-9465-933503350f48	Shueisha
+732802d4-0269-415d-b00a-6f4f35321fff	Horipro
+8386c201-b736-4bdd-8d98-078bb0ec2b58	Konami
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	Nikkatsu
+6891b1d3-1bb5-43bc-8291-9b6481ec5f61	J-Dream
+cb3fc43d-63c8-4f90-83b1-7696b38b9dea	MBS
+2c86e98c-23e2-4eca-9662-d044a8263b12	Mainichi News
+77c6cd9a-c258-4126-8777-38e78b245e9f	Panorama Communications
+80419cac-e90c-44d3-8d91-06f5d20c5e00	Arcimboldo
 \.
 
 
