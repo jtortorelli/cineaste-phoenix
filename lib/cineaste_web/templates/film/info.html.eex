@@ -1,5 +1,10 @@
 <table class="table table-nonfluid">
   <thead><span class="table-header">Info</span></thead>
+  <tr>
+    <td colspan="2">
+      <%= render "synopsis.html", synopsis: @synopsis %>
+    </td>
+  </tr>
   <%= display_original_title(@film.props) %>
   <%= display_aliases(@film.aliases) %>
   <tr>
@@ -12,16 +17,6 @@
   </tr>
   <tr>
     <td class="subdue">
-      Produced by
-    </td>
-    <td class="minor">
-      <%= for studio <- @film.studios do %>
-        <%= studio.name %><br/>
-      <% end %>
-    </td>
-  </tr>
-  <tr>
-    <td class="subdue">
       Runtime
     </td>
     <td class="minor">
@@ -29,9 +24,14 @@
     </td>
   </tr>
   <%= display_series_info(@conn, @film) %>
+
   <tr>
-    <td colspan="2">
-      <%= render "synopsis.html", synopsis: @synopsis %>
+    <td colspan="2" class="subdue">
+      Produced by<br/>
+      <%= for studio <- @film.studios do %>
+        <span class="label label-info studios"><%= studio.name %></span>
+      <% end %>
     </td>
   </tr>
+
 </table>

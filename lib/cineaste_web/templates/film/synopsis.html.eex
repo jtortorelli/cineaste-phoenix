@@ -1,6 +1,6 @@
 
             <!-- Synopsis modal button -->
-            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#synopsis-modal">
+            <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#synopsis-modal">
                 View Spoilerific Synopsis
             </button>
 
