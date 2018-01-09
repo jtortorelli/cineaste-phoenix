@@ -4,7 +4,7 @@
   </td>
   <td class="minor">
     <%= for alias <- @aliases do %>
-    <%= raw alias %><br/>
+    <i><%= raw alias %></i><br/>
     <% end %>
   </td>
 </tr>
