@@ -387,7 +387,8 @@ ALTER TABLE studio_films OWNER TO postgres;
 
 CREATE TABLE studios (
     id uuid NOT NULL,
-    name character varying(255) NOT NULL
+    name character varying(255) NOT NULL,
+    props jsonb
 );
 
 
@@ -3788,6 +3789,7 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 20171106203918	2017-11-06 20:46:00.206868
 20171106205030	2017-11-06 21:03:52.825294
 20171108055812	2017-11-08 06:00:00.909746
+20180109144938	2018-01-09 14:51:58.291811
 \.
 
 
@@ -6943,170 +6945,179 @@ d6cf04e7-daca-4461-94f3-066bbe703cfe	060ee386-1a7f-4e91-bb93-f7c6f249f71b
 -- Data for Name: studios; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY studios (id, name) FROM stdin;
-b52fcdd6-691b-4a16-a670-e6ad6f176521	Toho
-a7136259-307b-4315-9247-4bd6ee60ae61	Mifune Productions
-c21957cc-cf69-4391-86f7-76e151b5ba73	Daiei
-be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku
-95ad9c89-93ff-4636-8cb7-4ce98b441801	Toei
-74df77b8-e02e-493b-8e4b-8e8651fe656f	Kurosawa Productions
-54ea6648-2944-4da1-a40a-8cca1f1b9ed2	Takarazuka
-28e2fef3-1dee-47f3-aae5-dee1be652154	Dainichi
-fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions
-396d3e44-3a24-4a03-8a0e-739954a62b23	Samurai Productions
-0f87c700-cf02-4810-b05d-e029969912da	TFC
-95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	Kadokawa
-8bffc05c-5e31-4c3f-a5d1-3de658413284	Kansai TV
-2eb26707-fe45-491c-9d66-9bd331c5b536	Tokuma Shoten
-d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	Omnibus Promotion
-930105de-755f-450e-a32f-f9e7e37c1056	Sunrise
-c22c320a-fa72-4287-a97c-a1478e9f1e63	Bandai
-787f4d01-040c-47ed-8d21-7bb887cd34a6	Fuji TV
-bf4edb31-c65b-4908-baaf-269fc27dfd1e	Gaga Communications
-f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd
-31339e95-9c10-4572-a7e5-49591e93c17a	Embodiment Films
-ecb911c2-dd74-4fdf-9005-210865f7ed7a	Nippon TV
-622319bd-fb9f-46b9-b308-1362956dab5d	Hakuhodo
-f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Entertainment
-4f8a7cfa-1ebc-4e66-a874-4d1c843176f2	Manga Entertainment
-2fe3e582-9ca5-401c-817d-f6c2135601a0	Production I.G
-35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	Kodansha
-f74f431b-795a-4dfd-a460-cb3a4a19f23b	Fujitsu
-8ff60889-b929-4c84-b51f-3a1e41a4e86d	Nippon Shuppan Hanbai
-27e36c78-9526-4349-9150-626375461187	TBS
-1384d84f-f933-4305-abaf-1e4e3c1a3430	Robot
-2452df96-20d2-464b-b4e7-ac9cf34c3615	Media Factory
-5b3c714e-1212-4b5a-9bbf-fcd63987fb35	Shogakukan
-ea512640-6306-4eb0-b076-baef4673d43c	Imagica
-550511b2-be85-4333-b3a8-ca343ad9edb0	Mitsui & Co.
-97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	JR East Japan
-4c9c0a7e-e1e6-4160-9a6f-86655690967c	Shirogumi
-e43f1680-a413-42a2-bd09-81cff6f66f0c	Am Associates
-a1286086-7bd1-45c7-a988-34bab0ca3912	Hiromi
-ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	WOWOW
-851e9b58-a2ef-48ba-ae73-b4781cdf6483	Wevco
-2877ec88-b21f-46ef-9f54-4249fd08923a	Napalm Films
-5d260381-a7a4-40b0-86d5-8869d09cb61c	Suplex
-8898e051-4d70-4904-82d5-bbaa5bfa5f20	KSS
-5bc59f00-4df5-4f2e-b520-4fa724e4abf5	Amuse Pictures
-7fc3a1f6-33a5-428e-af2c-3753dd265262	Studio 3
-5ac759ec-6f7e-40e8-bf80-4f109df969ac	Nippon Herald Films
-3733c5a3-f95e-4812-99fd-c773295420c9	Dentsu
-f695a28d-3f2e-40f8-9eda-10f47374b841	Sedic International
-0c2232f6-8838-464b-8e4c-994e6c365c73	Tristone Entertainment
-68310946-ab97-450b-9fd9-c86f8e2e3327	Skyworks
-b495d61f-7023-4c74-bd68-851a8c27d3d4	Fukasaku Group
-ac95b1c7-b4b4-41ad-bd4b-93d396672b5a	TV Asahi
-7348379f-198b-4b72-bbd2-4f9fa2304205	Tokyo FM
-2d4e020d-9f25-49ec-94ee-620be95efec9	Sega
-66a96825-2a00-4eb3-8eb4-5198a52ee959	Toei TV
-1d0b5d1a-0602-41f5-9ae6-296faea03a78	Toei Agency
-ef25dbec-3df9-424c-91a2-104b11dd2d63	SDP
-3129448a-a66b-4e9d-a97e-f68cc68304a4	Asahi Broadcasting
-91130cb9-55c8-4a71-bf18-7f5f18360b8e	Progressive Pictures
-0fddc385-883d-4a73-83e5-064b99d595b8	Electric Ghost
-bc48e0b7-adb1-47ed-8348-43c59e09b08c	Satellite Theater
-d24b5bd4-f724-45da-86d2-6d3840933b87	Takara
-d1dedab2-78df-4f73-a841-2e45a9ce09c0	Itochu
-3d4fba01-8d1a-4b35-9037-64a099697030	E Solutions
-8949c18c-f42d-4742-9336-381cf94d6197	Clearthlife
-9b2767b6-b356-4497-95e4-0a18d371f2f3	Big Shot
-346eb948-e8b7-48ed-87ef-4b0df9727a4f	Bandai Visual
-ed55b4f9-283c-4d15-bcaa-ea2137e5a71d	CBC TV
-75f1779c-b1c6-44da-8db8-ccfd598b3676	King Records
-7f8abf80-ed58-418f-bef8-f533ea3f5d59	Toshiba Entertainment
-dd47be95-6449-4ac4-acd8-385057770557	Mediawave
-952ee78b-09b4-453f-8a25-0db1e35effc8	Geneon Entertainment
-7c76f83f-5c6d-4c49-b085-80a2da7ef6da	Crossmedia
-fe73b252-2b31-49a6-9963-b80366290547	Yomiuri TV
-4f64ea86-817d-4bac-ad6d-7a3976190a7e	Yomiuri Shinbun
-0be9d67e-717f-4556-8229-b99d7228592e	VAP
-5000e02b-dc6b-4038-930a-c8e71b8d1995	STV
-c4b0bb6f-09ce-47ba-af20-67505cb55d31	Miyagi TV
-682a8dd1-41ba-45a6-8775-d7a7fed75561	Chukyo TV
-dc9a29d3-6f41-451f-b138-91c3422cf239	Hiroshima TV
-d6cf04e7-daca-4461-94f3-066bbe703cfe	FBS
-8edda6fb-913a-4c64-9b04-c2120ddc8cfa	Toei Video
-940edae6-9a72-47e0-b46b-b9db0eedb8b2	Toei Channel
-902387e1-808f-4fdc-9465-933503350f48	Shueisha
-732802d4-0269-415d-b00a-6f4f35321fff	Horipro
-8386c201-b736-4bdd-8d98-078bb0ec2b58	Konami
-033b1895-23bc-494e-8ad6-07ae9ac94dd1	Nikkatsu
-6891b1d3-1bb5-43bc-8291-9b6481ec5f61	J-Dream
-cb3fc43d-63c8-4f90-83b1-7696b38b9dea	MBS
-2c86e98c-23e2-4eca-9662-d044a8263b12	Mainichi News
-77c6cd9a-c258-4126-8777-38e78b245e9f	Panorama Communications
-80419cac-e90c-44d3-8d91-06f5d20c5e00	Arcimboldo
-93b77f24-f402-40bb-80ef-d1ea32bfc555	Shizuoka Daiichi TV
-bcc85400-d54e-4621-80b0-93df115f91a6	Avex Entertainment
-c8a8636b-659c-40f3-850a-241b9354f3a3	Fields Corporation
-c662a00b-5ca3-48a4-a9d2-4b7f97f29a78	Yahoo
-ea462a38-d00c-409c-8290-3fd799335c00	Japan Airlines
-48516720-7a25-46ec-8902-36dfa4a3f212	HIS
-dd75d074-31ad-4d3d-b5a6-71df90981366	T&M
-ae447cd1-e57e-47ce-9155-de3a44b0fc42	Sogei
-d4737d9c-de84-4522-9247-499d348f9a9d	Heartis
-a60d8c8f-80eb-49f4-a00b-adeeccc2cb1b	Smart X
-ef0be4e9-8880-4c54-85e0-6bfc60e170c5	Genkishobo
-86296873-92a1-4bca-95b7-a4ed2ed8c9b8	Japan FM Network
-f6bdc582-8104-41b3-bb31-48b5f746d2b5	Universal Pictures Japan
-327d9483-eb6f-4e7e-b06f-0a147765b4c4	Energy
-ad5d081e-42bd-46f8-b2dd-870d9f32eea9	Earth Star Entertainment
-8671b2b6-2fab-4193-b611-9f73cebde086	Enterbrain
-7c64a3e8-da80-407c-a206-b9d66646b8dd	Sky Perfect Well Think
-3a94f48e-e95e-412c-8ec0-7e0a5076c576	Geo
-fcac3e11-9225-4335-bc36-e30761da0d39	Yahoo! Japan
-c9fd1ac1-2186-4d0d-bc55-04596da437b3	Nagoya TV
-7d5e2d3f-b7d8-40d1-814d-58eaf4e7c99d	KBC
-324e559c-c05c-4c78-9f00-748ca64c91eb	Hokkaido TV
-c1d50fef-adf2-44e7-bdc9-22b3ced93f80	Toranoana
-66b52215-5fc4-443d-85d7-742b824f0de5	Tommy Walker
-ff5b812a-f514-4117-b3fa-e6b5d99f5ac2	INP
-6b6ef967-7825-40a0-86b0-f8e8fe67403a	Quaras
-2f13ec7f-fb34-48e0-ac7f-0c3bc2e7b7cb	Cine Bazaar
-cc5e2b4e-563c-4dd5-9d0b-caf828417115	Office Crescendo
-e42222b5-0255-4e64-8a0a-35b0032fc995	D-Rights
-84bb0640-f950-4444-b3fd-a0752d1fde78	Twins Japan
-df96f4f4-6577-4108-b125-5a5074b77f13	RKB
-7e2e3eef-ded2-4cf5-9563-5155e079e2b3	HBC
-d2f9fa0d-5b69-4c61-9c37-8e313e999681	Asahi Shinbun
-3bff10d8-6ba9-410b-9fdd-0d82ed9e2bae	TC Entertainment
-35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	J Storm
-d647cdf6-43d2-445c-9593-f7206e116702	First Pictures
-7638cc12-a625-48ca-8514-befa6bb440d8	Northern Japan Maritime Affairs
-209d1edc-c64a-437b-8260-63e78a4ff630	Vision West
-11fadb17-ee9d-4ca2-b0c0-a1cd816dc2ef	Amuse Soft Entertainment
-8d667002-41a7-46cc-8a2b-b01b294381fb	Sankei Shinbun
-5b8f8e6e-b294-4f76-b25b-f4e62bcff851	Warner Bros.
-a9de5554-4e9b-40f7-b089-c1c775605675	Hakuhodo DY Media Partners
-0ce8d818-e838-48ff-84c5-50f06d1a29bd	D.N. Dream Partners
-abcb65f2-bd34-47a7-a97d-aeb0937fabd6	Chuokoron Shinsha
-79ebced0-bee3-455c-b237-96cc856509b1	Hochi Shinbun
-667fcb8d-f13b-4b41-a3f3-582bde81c6ca	Daichi Shokai
-8c7c8f96-a4ed-4702-875f-afd39dd85d38	Kinoshita Corporation
-7c56082e-7fc3-427a-be6a-f051598a9336	Kiriya Pictures
-332019a9-b8ef-430e-b2c3-74b40f65163a	Cell
-94925f82-09cf-4081-ac76-6f1fb262d764	Kogyo Yoshimoto
-f0c794d4-f038-4f03-94b4-59857f782fed	Dream Kid
-960bd4af-2a62-42a8-8b29-8201348c5968	Hot Toys
-0f0584ca-8ec3-4ffc-bc82-261598702349	Pony Canyon
-a4aed089-3a5e-460a-8cec-bcb600bb750a	ADK
-2bb655a0-dc3b-44d5-8dea-788a6d74500b	LesPros Entertainment
-0ccd2286-57a1-44dc-bb6e-45d98a9f3fdd	Shin-Ei Animation
-e5d8848b-ee68-459c-9e1f-733e8e7c994e	Futabasha
-d57b6d56-b515-4e5f-b161-e6b0db813664	Total
-32bba2fc-8e31-45eb-9a1f-a2bdcf17a14f	Shogakukan-Shueisha Productions
-8aee6036-9fc2-4922-8adc-b2870c6c9fde	Optrom
-26fdd4b3-236b-479d-b159-b209b4679d21	Recorded Picture Company
-1f1622f2-3e26-4884-a2e5-2f1c4f05ae53	Tsutaya Group
-b0a005ac-f480-48bc-b446-ceacae5f8a2a	KHB
-621b7066-f836-4b38-9362-1185e202613b	Shizuoka Asahi TV
-dcba7eef-96d9-4b05-ae7e-6c2a6de8da1f	Hiroshima Home TV
-82759028-e58f-43a7-8444-c009f0b7e294	Deiz
-48a8bb4b-1852-4a9f-85b2-0bd7a3797b27	Geneon Universal Entertainment
-7e008ff1-5599-4163-a5a3-ceb2a7ffc9eb	Hint
-67f119b3-c16f-4b4b-94cb-e9050f8a2692	TBS Radio
-5f9b21b3-ab8a-44fc-be68-2781b8f9dc3d	Shuji Abe Office
+COPY studios (id, name, props) FROM stdin;
+f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd	\N
+31339e95-9c10-4572-a7e5-49591e93c17a	Embodiment Films	\N
+84bb0640-f950-4444-b3fd-a0752d1fde78	Twins Japan	{"japanese_name": "ツインズジャパン"}
+4f8a7cfa-1ebc-4e66-a874-4d1c843176f2	Manga Entertainment	\N
+851e9b58-a2ef-48ba-ae73-b4781cdf6483	Wevco	\N
+2877ec88-b21f-46ef-9f54-4249fd08923a	Napalm Films	\N
+5d260381-a7a4-40b0-86d5-8869d09cb61c	Suplex	\N
+7fc3a1f6-33a5-428e-af2c-3753dd265262	Studio 3	\N
+68310946-ab97-450b-9fd9-c86f8e2e3327	Skyworks	\N
+327d9483-eb6f-4e7e-b06f-0a147765b4c4	Energy	\N
+ad5d081e-42bd-46f8-b2dd-870d9f32eea9	Earth Star Entertainment	\N
+11fadb17-ee9d-4ca2-b0c0-a1cd816dc2ef	Amuse Soft Entertainment	{"display": "ASE", "japanese_name": "アミューズソフトエンタテインメント"}
+3129448a-a66b-4e9d-a97e-f68cc68304a4	Asahi Broadcasting Corporation	{"display": "ABC", "japanese_name": "朝日放送"}
+c22c320a-fa72-4287-a97c-a1478e9f1e63	Bandai	{"japanese_name": "バンダイ"}
+346eb948-e8b7-48ed-87ef-4b0df9727a4f	Bandai Visual	{"japanese_name": "バンダイビジュアル"}
+ed55b4f9-283c-4d15-bcaa-ea2137e5a71d	CBC TV	{"display": "CBC", "japanese_name": "CBCテレビ"}
+2f13ec7f-fb34-48e0-ac7f-0c3bc2e7b7cb	Cine Bazaar	{"japanese_name": "シネバザール"}
+7c76f83f-5c6d-4c49-b085-80a2da7ef6da	Crossmedia	{"japanese_name": "クロスメディア"}
+e42222b5-0255-4e64-8a0a-35b0032fc995	D-Rights	{"japanese_name": "ディーライツ"}
+c21957cc-cf69-4391-86f7-76e151b5ba73	Daiei	{"japanese_name": "大映"}
+3733c5a3-f95e-4812-99fd-c773295420c9	Dentsu	{"japanese_name": "電通"}
+0fddc385-883d-4a73-83e5-064b99d595b8	Electric Ghost	{"japanese_name": "エレクトリック・ゴースト"}
+d6cf04e7-daca-4461-94f3-066bbe703cfe	Fukuoka Broadcasting System	{"display": "FBS", "japanese_name": "福岡放送"}
+d647cdf6-43d2-445c-9593-f7206e116702	First Pictures	{"japanese_name": "ファーストピクチャーズ"}
+f74f431b-795a-4dfd-a460-cb3a4a19f23b	Fujitsu	{"japanese_name": "富士通"}
+952ee78b-09b4-453f-8a25-0db1e35effc8	Geneon Entertainment	{"display": "Geneon", "japanese_name": "ジェネオンエンタテインメント"}
+3a94f48e-e95e-412c-8ec0-7e0a5076c576	Geo	{"japanese_name": "ゲオ"}
+48516720-7a25-46ec-8902-36dfa4a3f212	HIS	{"japanese_name": "エイチ・アイ・エス"}
+622319bd-fb9f-46b9-b308-1362956dab5d	Hakuhodo	{"japanese_name": "博報堂"}
+d4737d9c-de84-4522-9247-499d348f9a9d	Heartis	{"japanese_name": "ハーティス"}
+a1286086-7bd1-45c7-a988-34bab0ca3912	Hiromi	{"japanese_name": "広美"}
+732802d4-0269-415d-b00a-6f4f35321fff	Horipro	{"japanese_name": "ホリプロ"}
+ff5b812a-f514-4117-b3fa-e6b5d99f5ac2	INP	{"japanese_name": "アイ・エヌ・ピー"}
+35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	J Storm	{"japanese_name": "ジェイ・ストーム"}
+ea462a38-d00c-409c-8290-3fd799335c00	Japan Airlines	{"display": "JAL", "japanese_name": "日本航空"}
+86296873-92a1-4bca-95b7-a4ed2ed8c9b8	Japan FM Network Association	{"display": "JFN", "japanese_name": "全国FM放送協議会"}
+8898e051-4d70-4904-82d5-bbaa5bfa5f20	KSS	{"japanese_name": "ケイエスエス"}
+fc33484a-0757-4e04-b475-cccd8e5ac814	Katsu Productions	{"japanese_name": "勝プロダクション"}
+75f1779c-b1c6-44da-8db8-ccfd598b3676	King Records	{"display": "King", "japanese_name": "キングレコード"}
+74df77b8-e02e-493b-8e4b-8e8651fe656f	Kurosawa Productions	{"japanese_name": "黒澤プロダクション"}
+2c86e98c-23e2-4eca-9662-d044a8263b12	The Mainichi Newspapers	{"display": "Mainichi Shimbun", "japanese_name": "毎日新聞社"}
+dd47be95-6449-4ac4-acd8-385057770557	Mediawave	{"japanese_name": "メディアウェイブ"}
+550511b2-be85-4333-b3a8-ca343ad9edb0	Mitsui & Co.	{"japanese_name": "三井物産"}
+c9fd1ac1-2186-4d0d-bc55-04596da437b3	Nagoya Broadcasting Network	{"display": "NBN", "japanese_name": "名古屋テレビ放送"}
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	Nippon Shuppan Hanbai	{"display": "Nippan", "japanese_name": "日本出版販売"}
+7638cc12-a625-48ca-8514-befa6bb440d8	Northern Japan Maritime Affairs	{"japanese_name": "北日本海事"}
+cc5e2b4e-563c-4dd5-9d0b-caf828417115	Office Crescendo	{"japanese_name": "オフィスクレッシェンド"}
+2fe3e582-9ca5-401c-817d-f6c2135601a0	Production I.G	{"japanese_name": "プロダクション・アイジー"}
+6b6ef967-7825-40a0-86b0-f8e8fe67403a	Quaras	{"japanese_name": "クオラス"}
+df96f4f4-6577-4108-b125-5a5074b77f13	RKB Mainichi Broadcasting	{"display": "RKB", "japanese_name": "RKB毎日放送"}
+5000e02b-dc6b-4038-930a-c8e71b8d1995	Sapporo Television Broadcasting	{"display": "STV", "japanese_name": "札幌テレビ放送"}
+8d667002-41a7-46cc-8a2b-b01b294381fb	Sankei Shimbun	{"japanese_name": "産経新聞"}
+f695a28d-3f2e-40f8-9eda-10f47374b841	Sedic International	{"japanese_name": "セディックインターナショナル"}
+4c9c0a7e-e1e6-4160-9a6f-86655690967c	Shirogumi	{"japanese_name": "白組"}
+be46d083-e66d-4292-86fa-b1e26d4f5eed	Shochiku	{"japanese_name": "松竹"}
+5b3c714e-1212-4b5a-9bbf-fcd63987fb35	Shogakukan	{"japanese_name": "小学館"}
+7c64a3e8-da80-407c-a206-b9d66646b8dd	Sky Perfect Well Think	{"japanese_name": "スカパー・ウェルシンク"}
+ae447cd1-e57e-47ce-9155-de3a44b0fc42	Sogei	{"japanese_name": "創芸"}
+dd75d074-31ad-4d3d-b5a6-71df90981366	T&M	{"japanese_name": "ティー・アンド・エム"}
+0f87c700-cf02-4810-b05d-e029969912da	Tohokushinsha Film Company	{"display": "TFC", "japanese_name": "東北新社"}
+d24b5bd4-f724-45da-86d2-6d3840933b87	Takara Tomy	{"japanese_name": "タカラトミー"}
+95ad9c89-93ff-4636-8cb7-4ce98b441801	Toei	{"japanese_name": "東映"}
+940edae6-9a72-47e0-b46b-b9db0eedb8b2	Toei Channel	{"japanese_name": "東映チャンネル"}
+8edda6fb-913a-4c64-9b04-c2120ddc8cfa	Toei Video Company	{"display": "Toei Video", "japanese_name": "東映ビデオ"}
+b52fcdd6-691b-4a16-a670-e6ad6f176521	Toho	{"japanese_name": "東宝"}
+66b52215-5fc4-443d-85d7-742b824f0de5	Tommy Walker	{"japanese_name": "トミーウォーカー"}
+7f8abf80-ed58-418f-bef8-f533ea3f5d59	Toshiba Entertainment	{"display": "Toshiba", "japanese_name": "東芝エンタテインメント"}
+0be9d67e-717f-4556-8229-b99d7228592e	Video Audio Project	{"display": "VAP", "japanese_name": "バップ"}
+209d1edc-c64a-437b-8260-63e78a4ff630	Vision West	{"japanese_name": "ヴィジョンウエスト"}
+ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	WOWOW	{"japanese_name": "ワウワウ"}
+4f64ea86-817d-4bac-ad6d-7a3976190a7e	Yomiuri Shimbun	{"japanese_name": "読売新聞"}
+fcac3e11-9225-4335-bc36-e30761da0d39	Yahoo! Japan	{"display": "Yahoo", "japanese_name": "ヤフー ジャパン"}
+7c56082e-7fc3-427a-be6a-f051598a9336	Kiriya Pictures	\N
+332019a9-b8ef-430e-b2c3-74b40f65163a	Cell	\N
+26fdd4b3-236b-479d-b159-b209b4679d21	Recorded Picture Company	\N
+82759028-e58f-43a7-8444-c009f0b7e294	Deiz	\N
+a4aed089-3a5e-460a-8cec-bcb600bb750a	Asatsu-DK	{"display": "ADK", "japanese_name": "アサツー ディ・ケイ"}
+e43f1680-a413-42a2-bd09-81cff6f66f0c	Am Associates	{"japanese_name": "アム・アソシエイツ"}
+5bc59f00-4df5-4f2e-b520-4fa724e4abf5	Amuse Pictures	{"display": "Amuse", "japanese_name": "アミューズピクチャーズ"}
+80419cac-e90c-44d3-8d91-06f5d20c5e00	Arcimboldo	{"japanese_name": "アルチンボルド"}
+d2f9fa0d-5b69-4c61-9c37-8e313e999681	Asahi Shimbun	{"japanese_name": "朝日新聞社"}
+bcc85400-d54e-4621-80b0-93df115f91a6	Avex Entertainment	{"display": "Avex", "japanese_name": "エイベックス・エンタテインメント"}
+9b2767b6-b356-4497-95e4-0a18d371f2f3	Big Shot	{"japanese_name": "ビッグショット"}
+682a8dd1-41ba-45a6-8775-d7a7fed75561	Chukyo TV Broadcasting	{"display": "CTV", "japanese_name": "中京テレビ放送"}
+abcb65f2-bd34-47a7-a97d-aeb0937fabd6	Chuokoron Shinsha	{"display": "Chuoko", "japanese_name": "中央公論新社"}
+8949c18c-f42d-4742-9336-381cf94d6197	K.K. Clearthlife	{"display": "Clearthlife", "japanese_name": "クレアスライフ"}
+0ce8d818-e838-48ff-84c5-50f06d1a29bd	D.N. Dream Partners	{"display": "DNDP", "japanese_name": "D.N.ドリームパートナーズ"}
+667fcb8d-f13b-4b41-a3f3-582bde81c6ca	Daichi Shokai	{"display": "Daichi", "japanese_name": "大一商会"}
+28e2fef3-1dee-47f3-aae5-dee1be652154	Dainichi	{"japanese_name": "ダイニチ"}
+f0c794d4-f038-4f03-94b4-59857f782fed	Dream Kid	{"japanese_name": "ドリームキッド"}
+3d4fba01-8d1a-4b35-9037-64a099697030	E Solutions	{"japanese_name": "イーンソリューションズ"}
+8671b2b6-2fab-4193-b611-9f73cebde086	Enterbrain	{"japanese_name": "エンターブレイン"}
+c8a8636b-659c-40f3-850a-241b9354f3a3	Fields Corporation	{"display": "Fields", "japanese_name": "フィールズ"}
+787f4d01-040c-47ed-8d21-7bb887cd34a6	Fuji Television	{"display": "Fuji TV", "japanese_name": "フジテレビジョン"}
+b495d61f-7023-4c74-bd68-851a8c27d3d4	Fukasaku Group	{"japanese_name": "深作組"}
+e5d8848b-ee68-459c-9e1f-733e8e7c994e	Futabasha Publishers	{"display": "Futabasha", "japanese_name": "双葉社"}
+bf4edb31-c65b-4908-baaf-269fc27dfd1e	Gaga Communications	{"display": "Gaga", "japanese_name": "ギャガ・コミュニケーションズ"}
+48a8bb4b-1852-4a9f-85b2-0bd7a3797b27	Geneon Universal Entertainment	{"display": "Geneon Universal", "japanese_name": "ジェネオン・ユニバーサル・エンターテイメントジャパン"}
+ef0be4e9-8880-4c54-85e0-6bfc60e170c5	Genkishobo	{"japanese_name": "幻戯書房"}
+7e2e3eef-ded2-4cf5-9563-5155e079e2b3	Hokkaido Broadcasting	{"display": "HBC", "japanese_name": "北海道放送"}
+a9de5554-4e9b-40f7-b089-c1c775605675	Hakuhodo DY Media Partners	{"display": "Hakuhodo DYMP", "japanese_name": "博報堂DYメディアパートナーズ"}
+7e008ff1-5599-4163-a5a3-ceb2a7ffc9eb	Hint	{"japanese_name": "ヒント"}
+dcba7eef-96d9-4b05-ae7e-6c2a6de8da1f	Hiroshima Home TV	{"display": "UHT", "japanese_name": "広島ホームテレビ"}
+dc9a29d3-6f41-451f-b138-91c3422cf239	Hiroshima TV	{"display": "HTV", "japanese_name": "広島テレビ放送"}
+79ebced0-bee3-455c-b237-96cc856509b1	Hochi Shimbun	{"japanese_name": "報知新聞"}
+324e559c-c05c-4c78-9f00-748ca64c91eb	Hokkaido Television Broadcasting	{"display": "HTB", "japanese_name": "北海道テレビ放送"}
+960bd4af-2a62-42a8-8b29-8201348c5968	Hot Toys	{"japanese_name": "ホットトイズ"}
+ea512640-6306-4eb0-b076-baef4673d43c	Imagica	{"japanese_name": "イマジカ"}
+d1dedab2-78df-4f73-a841-2e45a9ce09c0	Itochu Corporation	{"display": "Itochu", "japanese_name": "伊藤忠商事"}
+6891b1d3-1bb5-43bc-8291-9b6481ec5f61	J Dream	{"japanese_name": "ジェイ・ドリーム"}
+97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	East Japan Marketing & Communications	{"display": "Jeki", "japanese_name": "ジェイアール東日本企画"}
+7d5e2d3f-b7d8-40d1-814d-58eaf4e7c99d	Kyushu Asahi Broadcasting	{"display": "KBC", "japanese_name": "九州朝日放送"}
+b0a005ac-f480-48bc-b446-ceacae5f8a2a	Higashi Nippon Broadcasting	{"display": "KHB", "japanese_name": "東日本放送"}
+95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	Kadokawa	{"japanese_name": "角川"}
+8bffc05c-5e31-4c3f-a5d1-3de658413284	Kansai Telecasting Corporation	{"display": "KTV", "japanese_name": "関西テレビ放送"}
+8c7c8f96-a4ed-4702-875f-afd39dd85d38	Kinoshita Corporation	{"display": "Kinoshita", "japanese_name": "木下工務店"}
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	Kodansha	{"japanese_name": "講談社"}
+94925f82-09cf-4081-ac76-6f1fb262d764	Kogyo Yoshimoto	{"display": "Yoshimoto", "japanese_name": "吉本興業"}
+8386c201-b736-4bdd-8d98-078bb0ec2b58	Konami Digital Entertainment	{"display": "Konami", "japanese_name": "コナミデジタルエンタテインメント"}
+2bb655a0-dc3b-44d5-8dea-788a6d74500b	LesPros Entertainment	{"display": "LesPros", "japanese_name": "レプロエンタテインメント"}
+cb3fc43d-63c8-4f90-83b1-7696b38b9dea	Mainichi Broadcasting System	{"display": "MBS", "japanese_name": "毎日放送"}
+2452df96-20d2-464b-b4e7-ac9cf34c3615	Media Factory	{"japanese_name": "メディアファクトリー"}
+a7136259-307b-4315-9247-4bd6ee60ae61	Mifune Productions	{"japanese_name": "三船プロダクション"}
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	Miyagi Television Broadcasting	{"display": "MMT", "japanese_name": "宮城テレビ放送"}
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	Nikkatsu	{"japanese_name": "日活"}
+5ac759ec-6f7e-40e8-bf80-4f109df969ac	Nippon Herald Films	{"display": "Nippon Herald", "japanese_name": "日本ヘラルド"}
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	Nippon Television Network	{"display": "NTV", "japanese_name": "日本テレビ放送網"}
+d9a3e0a2-e0fd-42a5-bf3f-5c1902df0c26	Omnibus Promotion	{"display": "Omnibus", "japanese_name": "オムニバスプロモーション"}
+8aee6036-9fc2-4922-8adc-b2870c6c9fde	Optrom	{"japanese_name": "オプトロム"}
+77c6cd9a-c258-4126-8777-38e78b245e9f	Panorama Communications	{"display": "Panorama", "japanese_name": "パノラマ・コミュニケーションズ"}
+0f0584ca-8ec3-4ffc-bc82-261598702349	Pony Canyon	{"japanese_name": "ポニーキャニオン"}
+91130cb9-55c8-4a71-bf18-7f5f18360b8e	Progressive Pictures	{"display": "Progressive", "japanese_name": "プログレッシブピクチャーズ"}
+1384d84f-f933-4305-abaf-1e4e3c1a3430	Robot Communications	{"display": "Robot", "japanese_name": "ロボット"}
+ef25dbec-3df9-424c-91a2-104b11dd2d63	Stardust Pictures	{"display": "SDP", "japanese_name": "スターダストピクチャーズ"}
+5f9b21b3-ab8a-44fc-be68-2781b8f9dc3d	Shuji Abe Office	{"display": "Shuji Abe", "japanese_name": "阿部秀司事務所"}
+67f119b3-c16f-4b4b-94cb-e9050f8a2692	TBS Radio	{"display": "TBS R", "japanese_name": "TBSラジオ"}
+d57b6d56-b515-4e5f-b161-e6b0db813664	Total	{"japanese_name": "トータル"}
+396d3e44-3a24-4a03-8a0e-739954a62b23	Samurai Productions	{"japanese_name": "さむらいプロダクション"}
+bc48e0b7-adb1-47ed-8348-43c59e09b08c	Satellite Theater	{"japanese_name": "衛星劇場"}
+2d4e020d-9f25-49ec-94ee-620be95efec9	Sega Games	{"display": "Sega", "japanese_name": "セガゲームス"}
+0ccd2286-57a1-44dc-bb6e-45d98a9f3fdd	Shin-Ei Animation	{"japanese_name": "シンエイ動画"}
+621b7066-f836-4b38-9362-1185e202613b	Shizuoka Asahi TV	{"display": "SATV", "japanese_name": "静岡朝日テレビ"}
+93b77f24-f402-40bb-80ef-d1ea32bfc555	Shizuoka Daiichi TV	{"display": "SDT", "japanese_name": "静岡第一テレビ"}
+32bba2fc-8e31-45eb-9a1f-a2bdcf17a14f	Shogakukan-Shueisha Productions	{"display": "ShoPro", "japanese_name": "小学館集英社プロダクション"}
+902387e1-808f-4fdc-9465-933503350f48	Shueisha	{"japanese_name": "集英社"}
+a60d8c8f-80eb-49f4-a00b-adeeccc2cb1b	Smart X	{"japanese_name": "スマート・エックス"}
+930105de-755f-450e-a32f-f9e7e37c1056	Sunrise	{"japanese_name": "サンライズ"}
+3bff10d8-6ba9-410b-9fdd-0d82ed9e2bae	TC Entertainment	{"display": "TCE", "japanese_name": "TCエンタテインメント"}
+ac95b1c7-b4b4-41ad-bd4b-93d396672b5a	TV Asahi	{"japanese_name": "テレビ朝日"}
+54ea6648-2944-4da1-a40a-8cca1f1b9ed2	Takarazuka Eizo	{"display": "Takarazuka", "japanese_name": "宝塚映像"}
+1d0b5d1a-0602-41f5-9ae6-296faea03a78	Toei Advertising	{"display": "Toei AG", "japanese_name": "東映エージエンシー"}
+66a96825-2a00-4eb3-8eb4-5198a52ee959	Toei TV Production	{"display": "TTP", "japanese_name": "東映テレビ・プロダクション"}
+2eb26707-fe45-491c-9d66-9bd331c5b536	Tokuma Shoten Publishing	{"display": "Tokuma", "japanese_name": "徳間書店"}
+27e36c78-9526-4349-9150-626375461187	Tokyo Broadcasting System	{"display": "TBS", "japanese_name": "TBSテレビ"}
+7348379f-198b-4b72-bbd2-4f9fa2304205	Tokyo FM Broadcasting	{"display": "TFM", "japanese_name": "エフエム東京"}
+c1d50fef-adf2-44e7-bdc9-22b3ced93f80	Comic Toranoana	{"display": "Toranoana", "japanese_name": "コミックとらのあな"}
+0c2232f6-8838-464b-8e4c-994e6c365c73	Tristone Entertainment	{"display": "Tristone", "japanese_name": "トライストーン・エンタテイメント"}
+f7e9c0c6-b673-47d9-b9f0-e85cb7d6b512	Tsuburaya Entertainment	{"display": "Tsuburaya", "japanese_name": "円谷エンターテインメント"}
+1f1622f2-3e26-4884-a2e5-2f1c4f05ae53	Tsutaya Group	{"display": "Tsutaya"}
+f6bdc582-8104-41b3-bb31-48b5f746d2b5	Universal Pictures Japan	{"display": "Universal", "japanese_name": "ユニバーサル・ピクチャーズ・ジャパン"}
+5b8f8e6e-b294-4f76-b25b-f4e62bcff851	Warner Bros.	{"japanese_name": "ワーナー ブラザース"}
+fe73b252-2b31-49a6-9963-b80366290547	Yomiuri Telecasting	{"display": "YTV", "japanese_name": "讀賣テレビ放送"}
+b4365289-fc48-491a-aa9f-9adb3773bb23	OLM	{"japanese_name": "オー・エル・エム"}
+1d824d09-0537-4b93-a556-5a5365dc7849	Yamanashi Daily Newspaper	{"display": "Sanichi", "japanese_name": "山梨日日新聞"}
+c21ca390-b5f9-4c52-91a0-177208a34e2b	Yamanashi Broadcasting System	{"display": "YBS", "japanese_name": "山梨放送"}
+416bad46-c754-457a-bb07-f2c214d77642	Sony Music Entertainment	{"display": "SME", "japanese_name": "ソニー・ミュージックエンタテインメント"}
+39a15341-0262-447e-bef9-4fed6928d092	Amuse	{"japanese_name": "アミューズ"}
+841de419-73c6-47b5-8999-53e153a082c5	KDDI	\N
+5fda1868-1b14-4387-a847-fbc9edc048ab	C&I Entertainment	{"display": "C&I", "japanese_name": "C&Iエンタテインメント"}
+af5b412b-70c5-4e08-82e5-cc8a11e6e242	TMS Entertainment	{"display": "TMS", "japanese_name": "トムス・エンタテインメント"}
+2189260b-684f-4400-8fb4-bafe87d52848	GYAO	\N
+6e8c1e71-0add-4728-ba56-2da02d24c74c	Tohan	{"japanese_name": "トーハン"}
 \.
 
 
