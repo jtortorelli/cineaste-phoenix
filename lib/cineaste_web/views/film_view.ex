@@ -6,6 +6,7 @@ defmodule CineasteWeb.FilmView do
   alias Cineaste.Film
   alias Cineaste.FilmIndexView
   alias Cineaste.SeriesFilm
+  alias Cineaste.Studio
   alias CineasteWeb.S3View
   require Logger
 
@@ -24,7 +25,7 @@ defmodule CineasteWeb.FilmView do
   def display_original_title(_), do: nil
 
   def display_aliases([_head | _tail] = aliases), do: render "aliases.html", aliases: aliases
-  
+
   def display_aliases(_), do: nil
 
   def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")
@@ -126,6 +127,8 @@ defmodule CineasteWeb.FilmView do
     Enum.all?(searchTerms, fn(term) -> String.contains?(String.downcase(title), String.downcase(term)) end)
   end
 
+  def display_studio_name(%Studio{props: %{"display" => display}}), do: display
+  def display_studio_name(studio), do: studio.name
 
 
 end

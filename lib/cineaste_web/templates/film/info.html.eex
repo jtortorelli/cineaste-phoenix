@@ -29,7 +29,7 @@
     <td colspan="2" class="subdue">
       Produced by<br/>
       <%= for studio <- @film.studios do %>
-        <span class="label label-info studios"><%= studio.name %></span>
+        <span class="label label-info studios"><%= display_studio_name(studio) %></span>
       <% end %>
     </td>
   </tr>
