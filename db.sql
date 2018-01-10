@@ -3151,7 +3151,6 @@ d4374410-4d45-4928-9216-559cf8217068	Yosuke	Uchida	M	f	\N	\N	\N	\N	\N	{"original
 686f2dc2-a12d-4f46-af2f-b0d3c81069c9	Bontaro	Miake	M	f	{"day": 15, "year": 1906, "month": 10}	{"year": 1987}	Masuda, Mino, Shimane, Japan	\N	\N	{"birth_name": "Susumu Miake (見明 先先)", "original_name": "見明 凡太朗"}
 524b444f-a3c5-4fd2-b5a1-919939b43c4c	Mieko	Nagai	F	f	\N	\N	\N	\N	\N	{"original_name": "永井 ミエ子"}
 1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	Kiyoko	Hirai	F	f	\N	\N	\N	\N	\N	{"original_name": "平井 岐代子"}
-449ff18f-f1bf-4f74-b7d0-d725027fa078	Akira	Kurosawa	M	f	{"day": 23, "year": 1910, "month": 3}	{"day": 6, "year": 1998, "month": 9}	Oimachi, Ebara, Tokyo, Japan	Seijo, Setagaya, Tokyo, Japan	\N	{"original_name": "黒澤 明"}
 50fd1eb9-7289-4cf4-bdc6-065797936bd7	Ryunosuke	Akutagawa	M	f	{"day": 1, "year": 1892, "month": 3}	{"day": 24, "year": 1927, "month": 7}	Kyobashi, Tokyo, Japan	Tabata, Takinogawa, Toshima, Tokyo, Japan	\N	{"original_name": "芥川 龍之介"}
 2209b83b-f80d-4f9b-be22-838581803d4b	Shinobu	Hashimoto	M	f	{"day": 18, "year": 1918, "month": 4}	\N	Tsurui, Kisaki, Hyogo, Japan	\N	\N	{"original_name": "橋本 忍"}
 786ceebd-6927-4242-a1cd-5933186090c3	Kazuo	Miyakawa	M	f	{"day": 25, "year": 1908, "month": 2}	{"day": 7, "year": 1999, "month": 8}	Oike, Kawaramachi, Kyoto, Japan	\N	\N	{"original_name": "宮川 一夫"}
@@ -3778,6 +3777,7 @@ d48d6c50-5433-46dc-b9c9-e5abc1fce49d	Izumi	Otomi	M	f	\N	\N	\N	\N	\N	{"original_n
 9aab5d33-a49e-432c-8d37-53a0980155ad	Kozuke	Yamada	M	f	{"year": 1976}	\N	Fukuoka, Japan	\N	\N	{"original_name": "山田 康介"}
 9d40b8c4-35cf-4522-b486-199cb50f5645	Takayuki	Kawabe	M	f	\N	\N	\N	\N	\N	{"original_name": "川邊 隆之"}
 a7882810-c919-486e-a135-3f9a882744ed	Eri	Sakushima	M	f	\N	\N	\N	\N	\N	{"original_name": "佐久嶋 依里"}
+449ff18f-f1bf-4f74-b7d0-d725027fa078	Akira	Kurosawa	M	t	{"day": 23, "year": 1910, "month": 3}	{"day": 6, "year": 1998, "month": 9}	Oimachi, Ebara, Tokyo, Japan	Seijo, Setagaya, Tokyo, Japan	\N	{"original_name": "黒澤 明"}
 \.
 
 
