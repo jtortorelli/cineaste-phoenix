@@ -1,7 +1,7 @@
 <div class="container">
 
   <div>
-    <img class="img-thumbnail" src="<%= render_group_profile_pic(@group.id) %>"/>
+    <img class="img-circle shadowed scalable-pic" src="<%= render_group_profile_pic(@group.id) %>"/>
     <h2><%= @group.name %></h2>
   </div>
   <%= render "tabs.html" %>
