@@ -3,7 +3,7 @@
     Original Title
   </td>
   <td class="minor">
-    <%= raw @title %><br/>
+    <i><%= raw @title %></i><br/>
     <span class="subtitle"><%= @transliteration %></span><br/>
     <span class="subtitle"><%= @translation %></span><br/>
   </td>
