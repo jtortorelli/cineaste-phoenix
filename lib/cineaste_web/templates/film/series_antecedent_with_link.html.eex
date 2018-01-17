@@ -3,6 +3,6 @@
     Preceded by
   </td>
   <td class="minor">
-    <%= link "#{@film.title}",  to: film_path(@conn, :show, @film.id)%>
+    <i><%= link "#{@film.title}",  to: film_path(@conn, :show, @film.id)%></i>
   </td>
 </tr>

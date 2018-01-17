@@ -3,6 +3,6 @@
     Preceded by
   </td>
   <td class="minor">
-    <%= @film.title %>
+    <i><%= @film.title %></i>
   </td>
 </tr>
