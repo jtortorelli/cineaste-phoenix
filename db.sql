@@ -2658,23 +2658,23 @@ b093530b-88fa-4439-bce1-aaf1b066b5ba	The Living Skeleton	1968-11-09	81	t	\N	{"or
 6c45cc47-8f6d-4861-95ab-4c9a2b404218	Samurai II: Duel at Ichijoji Temple	1955-07-12	103	t	\N	{"original_title": "續宮本武蔵 一乘寺の決斗", "original_translation": "Continued Miyamoto Musashi: Duel of Ichijoji Temple", "original_transliteration": "Zoku Miyamoto Musashi Ichijyouji No Kettou"}
 8196e3f6-20f4-44a6-ab7c-d58dbedc4475	Samurai III: Duel at Ganryu Island	1956-01-03	104	t	\N	{"original_title": "宮本武蔵 完結篇 決闘巌流島", "original_translation": "Miyamoto Musashi Completion: Duel Ganryu Island", "original_transliteration": "Miyamoto Musashi Kanketsuhen Kettou Ganryuushima"}
 65abec00-0bd3-48d7-9394-7816acfe04a3	Daredevil in the Castle	1961-01-03	95	t	\N	{"original_title": "大坂城物語", "original_translation": "Osaka Castle Story", "original_transliteration": "Oosakajyou Monogatari"}
-aee20f53-2831-4a19-b548-b1469b56410c	Lupin the Third: The Castle of Cagliostro	1979-12-15	100	f	\N	{"original_title": "ルパン三世 カリオストロの城", "original_translation": "Lupin the Third: Castle of Cagliostro", "original_transliteration": "Rupan Sansen Kariosutoro No Shiro"}
-b0104019-6f97-4034-b73c-a9e9472bca4f	Nausicäa of the Valley of the Wind	1984-03-11	116	f	\N	{"original_title": "風の谷のナウシカ", "original_translation": "Nausicäa of the Valley of the Wind", "original_transliteration": "Kaze no Tani no Naushika"}
-7335ae7d-8810-41db-ac54-77a53d1f852f	Castle in the Sky	1986-08-02	124	f	\N	{"original_title": "天空の城ラピュタ", "original_translation": "Castle of Sky Laputa", "original_transliteration": "Tenkuu No Shiro Rapuuta"}
-09f997ae-20b2-4c17-a967-3e00d29e142a	My Neighbor Totoro	1988-04-16	88	f	\N	{"original_title": "となりのトトロ", "original_translation": "Neighbor Totoro", "original_transliteration": "Tonari No Totoro"}
-60923758-6663-4419-9cdd-e79ecac9b662	Kiki's Delivery Service	1989-07-29	102	f	\N	{"original_title": "魔女の宅急便", "original_translation": "Witch's Delivery Service", "original_transliteration": "Majyo No Takkyuubin"}
-75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	Porco Rosso	1992-07-18	93	f	{""}	{"original_title": "紅の豚", "original_translation": "Crimson Pig", "original_transliteration": "Kurenai No Buta"}
-305b2030-ab77-4ab9-b7b6-e259986eb2d8	Princess Mononoke	1997-07-12	133	f	\N	{"original_title": "もののけ姫", "original_translation": "Princess Mononoke", "original_transliteration": "Mononoke Hime"}
-3a5d8e26-f492-43a1-8906-f471782777cb	Spirited Away	2001-07-20	124	f	\N	{"original_title": "千と千尋の神隠し", "original_translation": "Sen and Chihiro's Great Disappearance", "original_transliteration": "Sen To Chihiro No Kamekakushi"}
-666e57df-17a2-4ab7-b28e-ec6d9122e3fc	Howl's Moving Castle	2004-11-20	119	f	\N	{"original_title": "ハウルの動く城", "original_translation": "Howl's Moving Castle", "original_transliteration": "Hauru No Ugoku Shiro"}
-08ce29ca-2d85-494c-9136-737fa248b0eb	Ponyo	2008-07-19	101	f	\N	{"original_title": "崖の上のポニョ", "original_translation": "Ponyo on the Cliff by the Sea", "original_transliteration": "Gake No Ue No Ponyo"}
-a3a047ea-2b0a-46e9-b266-e1c81071d9e9	The Wind Rises	2013-07-20	126	f	\N	{"original_title": "風立ちぬ", "original_translation": "Wind Rising", "original_transliteration": "Kaze Tachinu"}
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	Porco Rosso	1992-07-18	93	t	\N	{"original_title": "紅の豚", "original_translation": "Crimson Pig", "original_transliteration": "Kurenai No Buta"}
+aee20f53-2831-4a19-b548-b1469b56410c	Lupin the Third: The Castle of Cagliostro	1979-12-15	100	t	\N	{"original_title": "ルパン三世 カリオストロの城", "original_translation": "Lupin the Third: Castle of Cagliostro", "original_transliteration": "Rupan Sansen Kariosutoro No Shiro"}
+7335ae7d-8810-41db-ac54-77a53d1f852f	Castle in the Sky	1986-08-02	124	t	\N	{"original_title": "天空の城ラピュタ", "original_translation": "Castle of Sky Laputa", "original_transliteration": "Tenkuu No Shiro Rapuuta"}
+09f997ae-20b2-4c17-a967-3e00d29e142a	My Neighbor Totoro	1988-04-16	88	t	\N	{"original_title": "となりのトトロ", "original_translation": "Neighbor Totoro", "original_transliteration": "Tonari No Totoro"}
+60923758-6663-4419-9cdd-e79ecac9b662	Kiki's Delivery Service	1989-07-29	102	t	\N	{"original_title": "魔女の宅急便", "original_translation": "Witch's Delivery Service", "original_transliteration": "Majyo No Takkyuubin"}
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	Princess Mononoke	1997-07-12	133	t	\N	{"original_title": "もののけ姫", "original_translation": "Princess Mononoke", "original_transliteration": "Mononoke Hime"}
+3a5d8e26-f492-43a1-8906-f471782777cb	Spirited Away	2001-07-20	124	t	\N	{"original_title": "千と千尋の神隠し", "original_translation": "Sen and Chihiro's Great Disappearance", "original_transliteration": "Sen To Chihiro No Kamekakushi"}
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	Howl's Moving Castle	2004-11-20	119	t	\N	{"original_title": "ハウルの動く城", "original_translation": "Howl's Moving Castle", "original_transliteration": "Hauru No Ugoku Shiro"}
+08ce29ca-2d85-494c-9136-737fa248b0eb	Ponyo	2008-07-19	101	t	\N	{"original_title": "崖の上のポニョ", "original_translation": "Ponyo on the Cliff by the Sea", "original_transliteration": "Gake No Ue No Ponyo"}
+b0104019-6f97-4034-b73c-a9e9472bca4f	Nausicaä of the Valley of the Wind	1984-03-11	116	t	\N	{"original_title": "風の谷のナウシカ", "original_translation": "Nausicaä of the Valley of the Wind", "original_transliteration": "Kaze no Tani no Naushika"}
 802edf4f-2899-4309-a7ac-a1166137e903	Gamera vs. Zigra	1971-07-17	88	t	\N	{"original_title": "ガメラ対深海怪獣ジグラ", "original_translation": "Gamera Against Deep Sea Monster Zigra", "original_transliteration": "Gamera Tai Shinkai Kaijyuu Jigura"}
 590ec282-c912-4887-91d3-15fb7f581f40	The Tale of Zatoichi	1962-04-18	96	t	\N	{"original_title": "座頭市物語", "original_translation": "Story of Zatoichi", "original_transliteration": "Zatouichi Monogatari"}
 39675aec-9067-4575-a1a1-9fbecdd88675	The Tale of Zatoichi Continues	1962-10-12	73	t	\N	{"original_title": "続・座頭市物語", "original_translation": "Story of Zatoichi Continued", "original_transliteration": "Zoku Zatouichi Monogatari"}
 e7741ae5-bed4-46d9-8ca2-aeac4accf28c	Space Amoeba	1970-08-01	84	t	{"Yog, Monster from Space"}	{"original_title": "ゲゾラ・ガニメ・カメーバ 決戦!南海の大怪獣", "original_translation": "Gezora Ganime Kamoeba Battle! South Seas Giant Monsters", "original_transliteration": "Gezora Ganime Kameeba Kessen! Nankai No Daikaijyuu"}
 f5e33833-8abd-45df-a623-85ec5cb83d3d	Godzilla vs. Hedorah	1971-07-24	85	t	{"Godzilla vs. the Smog Monster"}	{"original_title": "ゴジラ対ヘドラ", "original_translation": "Godzilla Against Hedorah", "original_transliteration": "Gojira Tai Hedora"}
 979f5970-26c8-476a-9e55-3844963ee9a1	New Tale of Zatoichi	1963-03-15	91	t	\N	{"original_title": "新・座頭市物語", "original_translation": "New Story of Zatoichi", "original_transliteration": "Shin Zatouichi Monogatari"}
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	The Wind Rises	2013-07-20	126	t	\N	{"original_title": "風立ちぬ", "original_translation": "Wind Rising", "original_transliteration": "Kaze Tachinu"}
 258a91ff-f401-473a-b93f-604b85d8a406	Godzilla vs. Gigan	1972-03-12	89	t	{"Godzilla on Monster Island"}	{"original_title": "地球攻撃命令 ゴジラ対ガイガン", "original_translation": "Earth Destruction Order: Godzilla Against Gigan", "original_transliteration": "Chikyuu Kougeki Meirei Gojira Tai Gaigan"}
 424cf769-b58f-4044-ad2e-b9b6aee6c477	Lake of Dracula	1971-06-16	82	t	\N	{"original_title": "呪いの館 血を吸う眼", "original_translation": "House of Curses: Bloodsucking Eyes", "original_transliteration": "Noroi No Yakata Chiwosuu Me"}
 842265ea-5b60-41d5-bd6f-a727713dd12f	Evil of Dracula	1974-07-20	83	t	\N	{"original_title": "血を吸う薔薇", "original_translation": "Bloodsucking Rose", "original_transliteration": "Chiwosuu Bara"}
@@ -3778,6 +3778,44 @@ d48d6c50-5433-46dc-b9c9-e5abc1fce49d	Izumi	Otomi	M	f	\N	\N	\N	\N	\N	{"original_n
 9d40b8c4-35cf-4522-b486-199cb50f5645	Takayuki	Kawabe	M	f	\N	\N	\N	\N	\N	{"original_name": "川邊 隆之"}
 a7882810-c919-486e-a135-3f9a882744ed	Eri	Sakushima	M	f	\N	\N	\N	\N	\N	{"original_name": "佐久嶋 依里"}
 449ff18f-f1bf-4f74-b7d0-d725027fa078	Akira	Kurosawa	M	t	{"day": 23, "year": 1910, "month": 3}	{"day": 6, "year": 1998, "month": 9}	Oimachi, Ebara, Tokyo, Japan	Seijo, Setagaya, Tokyo, Japan	\N	{"original_name": "黒澤 明"}
+f787c85f-595a-41ff-b1ff-2e723b45346e	Hayao	Miyazaki	M	f	{"day": 15, "year": 1941, "month": 1}	\N	Tokyo, Japan	\N	\N	{"original_name": "宮崎 駿"}
+8e5ec803-2628-4fbb-9589-3c7abd771802	Haruya	Yamazaki	M	f	{"day": 2, "year": 1938, "month": 2}	{"year": 2002, "month": 2}	\N	\N	\N	{"original_name": "山崎 晴哉"}
+a8ebc05a-e3d2-4e25-9cbe-16b3d461be0f	Yuji	Ono	M	f	{"day": 30, "year": 1941, "month": 5}	\N	Atami, Shizuoka, Japan	\N	\N	{"original_name": "大野 雄二"}
+69bcbad8-9ab3-44f3-b5c2-ca4e39b4b5c5	Shichiro	Kobayashi	M	f	{"day": 30, "year": 1932, "month": 8}	\N	Seto, Toro, Hokkaido, Japan	\N	\N	{"original_name": "小林 七郎"}
+6b4b9ef7-844d-4890-9d2a-2c386e44fb19	Hirofumi	Takahashi	M	f	\N	\N	\N	\N	\N	{"original_name": "高橋 宏固"}
+d3ecf55c-f130-41cf-a8f1-d49d484a1498	Tsurubuchi	Yumitsu	M	f	\N	\N	\N	\N	\N	{"original_name": "鶴渕 允寿"}
+98a51dd4-943d-43b6-8fff-3f33d68089f0	Isao	Takahata	M	f	{"day": 29, "year": 1935, "month": 10}	\N	Ujiyamada, Mie, Japan	\N	\N	{"original_name": "高畑 勲"}
+b0e0ee9e-6222-4698-8cc9-0717e67d74a8	Michitaka	Kondo	M	f	{"day": 2, "year": 1920, "month": 2}	{"day": 30, "year": 2010, "month": 6}	Odawara, Kanagawa, Japan	\N	\N	{"original_name": "近藤 道生"}
+90365947-98b4-4459-8d19-a20e47da84e4	Mitsuki	Nakamura	M	f	{"day": 7, "year": 1944, "month": 4}	{"day": 16, "year": 2011, "month": 5}	Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "中村 光毅"}
+4e755f76-1afd-4a55-81f2-68ce588027a7	Koji	Shiragami	M	f	{"day": 16, "year": 1959, "month": 4}	\N	\N	\N	\N	{"original_name": "白神 孝始"}
+5ebea738-ae4f-4b8d-adbc-23b5c2b35f2b	Tomoko	Kida	M	f	\N	\N	\N	\N	\N	{"original_name": "木田 伴子"}
+0c146801-de09-4ec0-9fed-77ce54042c27	Naoki	Kaneko	M	f	{"day": 22, "year": 1958, "month": 1}	\N	\N	\N	\N	{"original_name": "金子 尚樹"}
+4a354db9-a7bd-43de-aa54-680f19053676	Seiji	Sakai	M	f	\N	\N	\N	\N	\N	{"original_name": "酒井 正次"}
+95972016-1dc8-4374-8b74-b13306f8519c	Toshiro	Nozaki	M	f	{"day": 26, "year": 1950, "month": 9}	\N	\N	\N	\N	{"original_name": "野崎 俊郎"}
+910012cc-80a6-423e-8cf3-5dbf4f34541d	Nizo	Yamamoto	M	f	{"day": 27, "year": 1953, "month": 6}	\N	Nagasaki, Japan	\N	\N	{"original_name": "山本 二三"}
+48a47efa-5e13-4221-85b5-6c77873383fd	Takeshi	Seyama	M	f	{"year": 1944}	\N	Tokyo, Japan	\N	\N	{"original_name": "瀬山 武司"}
+7f883282-6819-42d2-99c3-d24e6198f5ee	Toru	Hara	M	f	{"day": 26, "year": 1935, "month": 12}	\N	Kitakyushu, Fukuoka, Japan	\N	\N	{"original_name": "原 徹"}
+a30a783e-b2e4-456e-b15b-e581e1d88278	Kazuo	Oga	M	f	{"day": 29, "year": 1952, "month": 2}	\N	Otamachi, Semboku, Akita, Japan	\N	\N	{"original_name": "男鹿 和雄"}
+01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Toshio	Suzuki	M	f	{"day": 19, "year": 1948, "month": 8}	\N	Nagoya, Aichi, Japan	\N	\N	{"original_name": "鈴木 敏夫"}
+b166ae47-3a51-4d6c-ac8b-e38d1eb7a1c2	Mikihiko	Suzuki	M	f	{"day": 27, "year": 1929, "month": 1}	\N	Tokyo, Japan	\N	\N	{"original_name": "都築 幹彦"}
+79d33c29-594e-463a-8be8-6402a4bbb322	Morihisa	Takagi	M	f	{"day": 25, "year": 1918, "month": 10}	{"day": 12, "year": 2000, "month": 8}	Kobe, Hyogo, Japan	\N	\N	{"original_name": "高木 盛久"}
+06cea825-ddab-472e-b3c9-14e13132822e	Eiko	Kadono	M	f	{"day": 1, "year": 1935, "month": 1}	\N	Tokyo, Japan	\N	\N	{"original_name": "角野 栄子"}
+fc576a20-fe9c-4828-b534-19a05585f1ef	Hiroshi	Ono	M	f	{"year": 1952}	\N	Aichi, Japan	\N	\N	{"original_name": "大野 広司"}
+8a25e544-936d-4bde-bc3c-6abccab6a9bd	Juro	Sugimura	M	f	{"day": 2, "year": 1953, "month": 10}	\N	Sapporo, Hokkaido, Japan	\N	\N	{"original_name": "杉村 重郎"}
+5861839f-f859-4279-84a9-01ec7035a4c3	Naoko	Asari	M	f	\N	\N	\N	\N	\N	{"original_name": "浅梨 なおこ"}
+6555077f-30ef-4659-9baf-de2138e3461e	Matsuo	Toshimiko	M	f	{"day": 23, "year": 1923, "month": 11}	{"day": 8, "year": 2004, "month": 11}	Tokyo, Japan	\N	\N	{"original_name": "利光 松男"}
+e4adfae2-2f0a-48da-a934-5fc86b792748	Yoshio	Sasaki	M	f	{"day": 10, "year": 1913, "month": 8}	{"day": 22, "year": 2007, "month": 10}	Tokyo, Japan	\N	\N	{"original_name": "佐々木 芳雄"}
+5b7f66df-d4d7-4a43-9506-ee212ca4ced3	Katsu	Hisamura	M	f	{"day": 4, "year": 1958, "month": 12}	\N	Aichi, Japan	\N	\N	{"original_name": "久村 佳津"}
+4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Atsushi	Okui	M	f	{"year": 1963}	\N	Shimane, Japan	\N	\N	{"original_name": "奥井 敦"}
+baffe081-a1ef-4f60-8756-fe55c2c71377	Naoya	Tanaka	M	f	{"year": 1963}	\N	Tokyo, Japan	\N	\N	{"original_name": "田中 直哉"}
+0d98540a-06d0-4324-b30c-7b40d669c6ad	Yoji	Takeshige	M	f	{"year": 1964}	\N	Philadelphia, Pennsylvania, United States	\N	\N	{"original_name": "武重 洋二"}
+0148c650-938b-40c2-ade6-ccadab124349	Satoshi	Kuroda	M	f	{"year": 1963}	\N	Miyazaki, Japan	\N	\N	{"original_name": "黒田 聡"}
+579e9ac2-b84e-4c24-a26e-55268e03aa2d	Shuji	Inoue	M	f	\N	\N	\N	\N	\N	{"original_name": "井上 秀司"}
+9aa8d783-006c-42d0-950c-45561d546c0e	Noboru	Yoshida	M	f	{"year": 1964}	\N	Matsue, Shimane, Japan	\N	\N	{"original_name": "吉田 昇"}
+b37bc229-fb86-4052-afc5-20c790b5cc18	Diana	Jones	M	f	{"day": 16, "year": 1934, "month": 8}	{"day": 26, "year": 2011, "month": 3}	London, England, United Kingdom	Bristol, England, United Kingdom	\N	{"japanese_name": "ダイアナ・ウィン・ジョーンズ"}
+980b3973-171e-47d1-9ca8-883424de0d1d	Eriko	Kimura	F	f	{"day": 5, "year": 1961, "month": 7}	\N	\N	\N	\N	{"original_name": "木村 絵理子"}
+8f75a035-1097-4c3a-947e-72f838320019	So	Takagi	M	f	\N	\N	\N	\N	\N	{"original_name": "高木 創"}
+610229eb-7c6b-4a0b-8503-e14ca7392fa6	Satoshi	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 敏"}
 \.
 
 
@@ -6371,6 +6409,128 @@ c4d93caa-1243-48ef-b1c0-6be48c681c53	b483f91b-b6ae-4c71-bb55-0f8c3361eccc	Sound 
 c4d93caa-1243-48ef-b1c0-6be48c681c53	66d0d0db-6399-4097-9164-c12894ab0ea2	Godzilla Concept Design	15
 c4d93caa-1243-48ef-b1c0-6be48c681c53	66d0d0db-6399-4097-9164-c12894ab0ea2	Image Design	16
 c4d93caa-1243-48ef-b1c0-6be48c681c53	b72dadf8-6518-4254-a1f2-4df458af2d8e	Music	17
+aee20f53-2831-4a19-b548-b1469b56410c	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+aee20f53-2831-4a19-b548-b1469b56410c	2469b5e0-a795-4bf0-875c-74c292e684cb	Original Story	2
+aee20f53-2831-4a19-b548-b1469b56410c	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	3
+aee20f53-2831-4a19-b548-b1469b56410c	8e5ec803-2628-4fbb-9589-3c7abd771802	Screenplay	4
+aee20f53-2831-4a19-b548-b1469b56410c	a8ebc05a-e3d2-4e25-9cbe-16b3d461be0f	Music	5
+aee20f53-2831-4a19-b548-b1469b56410c	69bcbad8-9ab3-44f3-b5c2-ca4e39b4b5c5	Art Director	6
+aee20f53-2831-4a19-b548-b1469b56410c	6b4b9ef7-844d-4890-9d2a-2c386e44fb19	Cinematography	7
+aee20f53-2831-4a19-b548-b1469b56410c	610229eb-7c6b-4a0b-8503-e14ca7392fa6	Sound Recording	8
+aee20f53-2831-4a19-b548-b1469b56410c	d3ecf55c-f130-41cf-a8f1-d49d484a1498	Editor	9
+b0104019-6f97-4034-b73c-a9e9472bca4f	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+b0104019-6f97-4034-b73c-a9e9472bca4f	98a51dd4-943d-43b6-8fff-3f33d68089f0	Producer	2
+b0104019-6f97-4034-b73c-a9e9472bca4f	c97017eb-70aa-4861-ad20-7972f84ba9a2	Producer	3
+b0104019-6f97-4034-b73c-a9e9472bca4f	b0e0ee9e-6222-4698-8cc9-0717e67d74a8	Producer	4
+b0104019-6f97-4034-b73c-a9e9472bca4f	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	5
+b0104019-6f97-4034-b73c-a9e9472bca4f	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	6
+b0104019-6f97-4034-b73c-a9e9472bca4f	90365947-98b4-4459-8d19-a20e47da84e4	Art Director	7
+b0104019-6f97-4034-b73c-a9e9472bca4f	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	8
+b0104019-6f97-4034-b73c-a9e9472bca4f	4a654b60-1587-4045-9339-0141d58c077c	Sound Recording	9
+b0104019-6f97-4034-b73c-a9e9472bca4f	66d0d0db-6399-4097-9164-c12894ab0ea2	Key Animation	10
+b0104019-6f97-4034-b73c-a9e9472bca4f	0c146801-de09-4ec0-9fed-77ce54042c27	Editor	13
+b0104019-6f97-4034-b73c-a9e9472bca4f	4a354db9-a7bd-43de-aa54-680f19053676	Editor	14
+b0104019-6f97-4034-b73c-a9e9472bca4f	4e755f76-1afd-4a55-81f2-68ce588027a7	Cinematography	11
+b0104019-6f97-4034-b73c-a9e9472bca4f	5ebea738-ae4f-4b8d-adbc-23b5c2b35f2b	Editor	12
+7335ae7d-8810-41db-ac54-77a53d1f852f	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+7335ae7d-8810-41db-ac54-77a53d1f852f	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	2
+7335ae7d-8810-41db-ac54-77a53d1f852f	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	3
+7335ae7d-8810-41db-ac54-77a53d1f852f	98a51dd4-943d-43b6-8fff-3f33d68089f0	Producer	4
+7335ae7d-8810-41db-ac54-77a53d1f852f	c97017eb-70aa-4861-ad20-7972f84ba9a2	Producer	5
+7335ae7d-8810-41db-ac54-77a53d1f852f	95972016-1dc8-4374-8b74-b13306f8519c	Art Director	6
+7335ae7d-8810-41db-ac54-77a53d1f852f	910012cc-80a6-423e-8cf3-5dbf4f34541d	Art Director	7
+7335ae7d-8810-41db-ac54-77a53d1f852f	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	8
+7335ae7d-8810-41db-ac54-77a53d1f852f	6b4b9ef7-844d-4890-9d2a-2c386e44fb19	Cinematography	9
+7335ae7d-8810-41db-ac54-77a53d1f852f	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	10
+7335ae7d-8810-41db-ac54-77a53d1f852f	4a654b60-1587-4045-9339-0141d58c077c	Sound Recording	11
+09f997ae-20b2-4c17-a967-3e00d29e142a	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+09f997ae-20b2-4c17-a967-3e00d29e142a	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	2
+09f997ae-20b2-4c17-a967-3e00d29e142a	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	3
+09f997ae-20b2-4c17-a967-3e00d29e142a	7f883282-6819-42d2-99c3-d24e6198f5ee	Producer	4
+09f997ae-20b2-4c17-a967-3e00d29e142a	c97017eb-70aa-4861-ad20-7972f84ba9a2	Producer	5
+09f997ae-20b2-4c17-a967-3e00d29e142a	a30a783e-b2e4-456e-b15b-e581e1d88278	Art Director	6
+09f997ae-20b2-4c17-a967-3e00d29e142a	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	7
+09f997ae-20b2-4c17-a967-3e00d29e142a	5e500733-9325-4425-a517-0453be65b1ff	Cinematography	8
+09f997ae-20b2-4c17-a967-3e00d29e142a	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	9
+09f997ae-20b2-4c17-a967-3e00d29e142a	4a654b60-1587-4045-9339-0141d58c077c	Sound Recording	10
+60923758-6663-4419-9cdd-e79ecac9b662	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+60923758-6663-4419-9cdd-e79ecac9b662	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	2
+60923758-6663-4419-9cdd-e79ecac9b662	f787c85f-595a-41ff-b1ff-2e723b45346e	Producer	3
+60923758-6663-4419-9cdd-e79ecac9b662	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Assistant Producer	4
+60923758-6663-4419-9cdd-e79ecac9b662	c97017eb-70aa-4861-ad20-7972f84ba9a2	Producer	5
+60923758-6663-4419-9cdd-e79ecac9b662	b166ae47-3a51-4d6c-ac8b-e38d1eb7a1c2	Producer	6
+60923758-6663-4419-9cdd-e79ecac9b662	79d33c29-594e-463a-8be8-6402a4bbb322	Producer	7
+60923758-6663-4419-9cdd-e79ecac9b662	06cea825-ddab-472e-b3c9-14e13132822e	Original Story	8
+60923758-6663-4419-9cdd-e79ecac9b662	fc576a20-fe9c-4828-b534-19a05585f1ef	Art Director	9
+60923758-6663-4419-9cdd-e79ecac9b662	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	10
+60923758-6663-4419-9cdd-e79ecac9b662	8a25e544-936d-4bde-bc3c-6abccab6a9bd	Cinematography	11
+60923758-6663-4419-9cdd-e79ecac9b662	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	12
+60923758-6663-4419-9cdd-e79ecac9b662	5861839f-f859-4279-84a9-01ec7035a4c3	Sound Recording	13
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Producer	2
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	c97017eb-70aa-4861-ad20-7972f84ba9a2	Producer	3
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	6555077f-30ef-4659-9baf-de2138e3461e	Producer	4
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	e4adfae2-2f0a-48da-a934-5fc86b792748	Producer	5
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	6
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	7
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	8
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	5b7f66df-d4d7-4a43-9506-ee212ca4ced3	Art Director	9
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	10
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	11
+75bcdc56-aedf-45c3-b087-bdb7c6bb11bc	5861839f-f859-4279-84a9-01ec7035a4c3	Sound Recording	12
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Producer	2
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	c97017eb-70aa-4861-ad20-7972f84ba9a2	Executive Producer	3
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	4
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	5
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	6
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	910012cc-80a6-423e-8cf3-5dbf4f34541d	Art Director	7
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	baffe081-a1ef-4f60-8756-fe55c2c71377	Art Director	8
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	0d98540a-06d0-4324-b30c-7b40d669c6ad	Art Director	9
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	0148c650-938b-40c2-ade6-ccadab124349	Art Director	10
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	a30a783e-b2e4-456e-b15b-e581e1d88278	Art Director	11
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	12
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	579e9ac2-b84e-4c24-a26e-55268e03aa2d	Sound Recording	13
+305b2030-ab77-4ab9-b7b6-e259986eb2d8	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	14
+3a5d8e26-f492-43a1-8906-f471782777cb	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+3a5d8e26-f492-43a1-8906-f471782777cb	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Producer	2
+3a5d8e26-f492-43a1-8906-f471782777cb	c97017eb-70aa-4861-ad20-7972f84ba9a2	Executive Producer	3
+3a5d8e26-f492-43a1-8906-f471782777cb	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	4
+3a5d8e26-f492-43a1-8906-f471782777cb	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	5
+3a5d8e26-f492-43a1-8906-f471782777cb	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	6
+3a5d8e26-f492-43a1-8906-f471782777cb	0d98540a-06d0-4324-b30c-7b40d669c6ad	Art Director	7
+3a5d8e26-f492-43a1-8906-f471782777cb	9aa8d783-006c-42d0-950c-45561d546c0e	Assistant Art Director	8
+3a5d8e26-f492-43a1-8906-f471782777cb	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	9
+3a5d8e26-f492-43a1-8906-f471782777cb	7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Sound Recording	10
+3a5d8e26-f492-43a1-8906-f471782777cb	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	11
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Producer	2
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	b37bc229-fb86-4052-afc5-20c790b5cc18	Original Story	3
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	4
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	5
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	0d98540a-06d0-4324-b30c-7b40d669c6ad	Art Director	6
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	9aa8d783-006c-42d0-950c-45561d546c0e	Art Director	7
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	8
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Sound Recording	9
+666e57df-17a2-4ab7-b28e-ec6d9122e3fc	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	10
+08ce29ca-2d85-494c-9136-737fa248b0eb	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+08ce29ca-2d85-494c-9136-737fa248b0eb	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	2
+08ce29ca-2d85-494c-9136-737fa248b0eb	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	3
+08ce29ca-2d85-494c-9136-737fa248b0eb	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Producer	4
+08ce29ca-2d85-494c-9136-737fa248b0eb	9aa8d783-006c-42d0-950c-45561d546c0e	Art Director	5
+08ce29ca-2d85-494c-9136-737fa248b0eb	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	6
+08ce29ca-2d85-494c-9136-737fa248b0eb	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	7
+08ce29ca-2d85-494c-9136-737fa248b0eb	980b3973-171e-47d1-9ca8-883424de0d1d	Sound Recording	8
+08ce29ca-2d85-494c-9136-737fa248b0eb	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	9
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	f787c85f-595a-41ff-b1ff-2e723b45346e	Director	1
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	f787c85f-595a-41ff-b1ff-2e723b45346e	Original Story	2
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	f787c85f-595a-41ff-b1ff-2e723b45346e	Screenplay	3
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	01a13109-a7dd-4fc5-b7cb-330ad92c7d4e	Producer	4
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	9f76e552-8ef4-49fd-aeee-57ec830c7fee	Music	5
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	0d98540a-06d0-4324-b30c-7b40d669c6ad	Art Director	6
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	7
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	8f75a035-1097-4c3a-947e-72f838320019	Sound Recording	8
+a3a047ea-2b0a-46e9-b266-e1c81071d9e9	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	9
 \.
 
 
@@ -7098,6 +7258,54 @@ ed55b4f9-283c-4d15-bcaa-ea2137e5a71d	a229e05d-ee47-46ec-9e2b-6410b7ddf4e9
 df96f4f4-6577-4108-b125-5a5074b77f13	a229e05d-ee47-46ec-9e2b-6410b7ddf4e9
 7e2e3eef-ded2-4cf5-9563-5155e079e2b3	a229e05d-ee47-46ec-9e2b-6410b7ddf4e9
 6e8c1e71-0add-4728-ba56-2da02d24c74c	a229e05d-ee47-46ec-9e2b-6410b7ddf4e9
+fc9d7e3e-827d-4ab0-85b4-01a3af046f69	aee20f53-2831-4a19-b548-b1469b56410c
+2eb26707-fe45-491c-9d66-9bd331c5b536	b0104019-6f97-4034-b73c-a9e9472bca4f
+622319bd-fb9f-46b9-b308-1362956dab5d	b0104019-6f97-4034-b73c-a9e9472bca4f
+f9a47b83-f161-47a6-9e5d-19f330307a64	b0104019-6f97-4034-b73c-a9e9472bca4f
+2eb26707-fe45-491c-9d66-9bd331c5b536	7335ae7d-8810-41db-ac54-77a53d1f852f
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	7335ae7d-8810-41db-ac54-77a53d1f852f
+2eb26707-fe45-491c-9d66-9bd331c5b536	09f997ae-20b2-4c17-a967-3e00d29e142a
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	09f997ae-20b2-4c17-a967-3e00d29e142a
+2eb26707-fe45-491c-9d66-9bd331c5b536	60923758-6663-4419-9cdd-e79ecac9b662
+9f97e004-cc6c-49f9-a784-4a55c0f5d00a	60923758-6663-4419-9cdd-e79ecac9b662
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	60923758-6663-4419-9cdd-e79ecac9b662
+2eb26707-fe45-491c-9d66-9bd331c5b536	75bcdc56-aedf-45c3-b087-bdb7c6bb11bc
+ea462a38-d00c-409c-8290-3fd799335c00	75bcdc56-aedf-45c3-b087-bdb7c6bb11bc
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	75bcdc56-aedf-45c3-b087-bdb7c6bb11bc
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	75bcdc56-aedf-45c3-b087-bdb7c6bb11bc
+2eb26707-fe45-491c-9d66-9bd331c5b536	305b2030-ab77-4ab9-b7b6-e259986eb2d8
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	305b2030-ab77-4ab9-b7b6-e259986eb2d8
+3733c5a3-f95e-4812-99fd-c773295420c9	305b2030-ab77-4ab9-b7b6-e259986eb2d8
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	305b2030-ab77-4ab9-b7b6-e259986eb2d8
+2eb26707-fe45-491c-9d66-9bd331c5b536	3a5d8e26-f492-43a1-8906-f471782777cb
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	3a5d8e26-f492-43a1-8906-f471782777cb
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	3a5d8e26-f492-43a1-8906-f471782777cb
+3733c5a3-f95e-4812-99fd-c773295420c9	3a5d8e26-f492-43a1-8906-f471782777cb
+6e95bc24-9706-49df-a404-a8f4ab6cbb3c	3a5d8e26-f492-43a1-8906-f471782777cb
+0f87c700-cf02-4810-b05d-e029969912da	3a5d8e26-f492-43a1-8906-f471782777cb
+2c59fb6a-1fd2-41dd-8ad8-037f4bd8629a	3a5d8e26-f492-43a1-8906-f471782777cb
+2eb26707-fe45-491c-9d66-9bd331c5b536	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+3733c5a3-f95e-4812-99fd-c773295420c9	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+ce35c634-651a-46b2-b382-135d5216cadb	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+e42222b5-0255-4e64-8a0a-35b0032fc995	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+b52fcdd6-691b-4a16-a670-e6ad6f176521	666e57df-17a2-4ab7-b28e-ec6d9122e3fc
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	08ce29ca-2d85-494c-9136-737fa248b0eb
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	08ce29ca-2d85-494c-9136-737fa248b0eb
+3733c5a3-f95e-4812-99fd-c773295420c9	08ce29ca-2d85-494c-9136-737fa248b0eb
+a9de5554-4e9b-40f7-b089-c1c775605675	08ce29ca-2d85-494c-9136-737fa248b0eb
+6e95bc24-9706-49df-a404-a8f4ab6cbb3c	08ce29ca-2d85-494c-9136-737fa248b0eb
+2c59fb6a-1fd2-41dd-8ad8-037f4bd8629a	08ce29ca-2d85-494c-9136-737fa248b0eb
+b52fcdd6-691b-4a16-a670-e6ad6f176521	08ce29ca-2d85-494c-9136-737fa248b0eb
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+3733c5a3-f95e-4812-99fd-c773295420c9	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+a9de5554-4e9b-40f7-b089-c1c775605675	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+6e95bc24-9706-49df-a404-a8f4ab6cbb3c	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+e42222b5-0255-4e64-8a0a-35b0032fc995	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+b52fcdd6-691b-4a16-a670-e6ad6f176521	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+841de419-73c6-47b5-8999-53e153a082c5	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
 \.
 
 
@@ -7278,6 +7486,13 @@ c21ca390-b5f9-4c52-91a0-177208a34e2b	Yamanashi Broadcasting System	{"display": "
 af5b412b-70c5-4e08-82e5-cc8a11e6e242	TMS Entertainment	{"display": "TMS", "japanese_name": "トムス・エンタテインメント"}
 2189260b-684f-4400-8fb4-bafe87d52848	GYAO	\N
 6e8c1e71-0add-4728-ba56-2da02d24c74c	Tohan	{"japanese_name": "トーハン"}
+fc9d7e3e-827d-4ab0-85b4-01a3af046f69	Tokyo Movie	{"japanese_name": "東京ムービー"}
+f9a47b83-f161-47a6-9e5d-19f330307a64	Top Craft	{"japanese_name": "トップクラフト"}
+67b6dc19-4e33-4b5a-b5a0-c57e462a024e	Studio Ghibli	{"japanese_name": "スタジオジブリ"}
+9f97e004-cc6c-49f9-a784-4a55c0f5d00a	Yamato Transport	{"japanese_name": "ヤマト運輸"}
+6e95bc24-9706-49df-a404-a8f4ab6cbb3c	Walt Disney	{"display": "Disney", "japanese_name": "ウォルト・ディズニー・ジャパン"}
+2c59fb6a-1fd2-41dd-8ad8-037f4bd8629a	Mitsubishi Corporation	{"display": "Mitsubishi", "japanese_name": "三菱商事"}
+ce35c634-651a-46b2-b382-135d5216cadb	Buena Vista Home Entertainment	{"display": "Buena Vista", "japanese_name": "ブエナ ビスタ ホーム エンターテイメント"}
 \.
 
 
