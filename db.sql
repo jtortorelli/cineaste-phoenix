@@ -2712,6 +2712,16 @@ f4172754-166d-447c-b57f-251ab69e08ed	Attack on Titan: End of the World	2015-09-1
 93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	t	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	t	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 c4d93caa-1243-48ef-b1c0-6be48c681c53	Shin Godzilla	2016-07-29	119	t	{"Godzilla Resurgence"}	{"original_title": "シン・ゴジラ", "original_translation": "Shin Godzilla", "original_transliteration": "Shin Gojira"}
+22317580-1676-41c6-b638-83b082405a62	Wolf Children	2012-07-21	117	f	\N	{"original_title": "おおかみこどもの雨と雪", "original_translation": "Wolf and Children's Rain and Snow", "original_transliteration": "Ookami Kodomo No Ame To Yuki"}
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	Assassination Classroom	2015-03-21	110	f	\N	{"original_title": "暗殺教室", "original_translation": "Assassination Classroom", "original_transliteration": "Ansatsu Kyoushitsu"}
+39313ad4-4e0c-4378-90b9-6e6f691651b1	Assassination Classroom: Graduation	2016-03-25	117	f	\N	{"original_title": "暗殺教室〜卒業編〜", "original_translation": "Assassination Classroom~Graduation~", "original_transliteration": "Ansatsu Kyoushitsu~Sotsugyouhen~"}
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	Library Wars: The Last Mission	2015-10-10	120	f	\N	{"original_title": "図書館戦争-THE LAST MISSION-", "original_translation": "Library Wars -The Last Mission-", "original_transliteration": "Toshyokan Sensou -The Last Mission-"}
+96e7aa10-fc05-4790-bd57-660da4339f28	I Am A Hero	2016-04-23	127	f	\N	{"original_title": "アイアムアヒーロー", "original_translation": "I Am A Hero", "original_transliteration": "Ai Amu A Hiiroo"}
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	A Man Called Pirate	2016-12-10	145	f	{"Fueled: A Man Called Pirate"}	{"original_title": "海賊とよばれた男", "original_translation": "A Man Called Pirate", "original_transliteration": "Kaizokuto Yubareta Otoko"}
+44106e53-5f4a-40cf-9206-3244eb3aa620	Death Note: Light Up the New World	2016-10-29	135	f	\N	{"original_title": "デスノート Light up the NEW world", "original_translation": "Death Note Light up the NEW World", "original_transliteration": "Desu Nooto Light up the NEW world"}
+2a2c4aa6-1a29-4c0d-8224-4050fe6a21df	The Top Secret	2016-08-06	148	f	\N	{"original_title": "秘密 - THE TOP SECRET", "original_translation": "Secret - The Top Secret", "original_transliteration": "Himitsu - The Top Secret"}
+b8f05bfc-0f37-48bf-a304-fa0f7db6c988	All-Round Appraiser Q: The Eyes of Mona Lisa	2014-05-31	119	f	\N	{"original_title": "万能鑑定士Q -モナ・リザの瞳-", "original_translation": "Universal Appraiser Q -Mona Lisa's Eyes- ", "original_transliteration": "Honnou Kanteishi Q -Mona Riza No Hitomi-"}
+f7dcf70a-a776-4ad5-9447-b9b5c7ba11cb	Godzilla: Planet of the Monsters	2017-11-17	89	f	\N	{"original_title": "GODZILLA 怪獣惑星", "original_translation": "Godzilla Monster Planet", "original_transliteration": "Godzilla Kaijyuu Wakusei"}
 \.
 
 
