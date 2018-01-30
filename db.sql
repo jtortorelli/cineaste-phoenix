@@ -2932,7 +2932,6 @@ f0cbc8fc-5aac-4278-8713-439075090442	Bokuzen	Hidari	M	t	{"day": 20, "year": 1894
 b4904523-7ec4-4801-95ac-d5b65b69b168	Daisuke	Kato	M	t	{"day": 8, "year": 1911, "month": 2}	{"day": 31, "year": 1975, "month": 7}	Akasuka, Tokyo, Japan	\N	\N	{"birth_name": "Tokunosuke Kato (&#21152;&#34276; &#24499;&#20043;&#21161;)", "original_name": "&#21152;&#26481; &#22823;&#20171;"}
 fea4a4e7-4d03-4b5b-add0-3a545a2ccb21	Tatsuo	Matsumura	M	t	{"day": 18, "year": 1914, "month": 12}	{"day": 18, "year": 2005, "month": 6}	Yokohama, Kanagawa, Japan	Shinjuku, Tokyo, Japan	\N	{"original_name": "&#26494;&#26449; &#36948;&#38596;"}
 7b5238d1-ec51-47fa-ae20-8f15e501944f	Robert	Dunham	M	t	{"day": 6, "year": 1931, "month": 7}	{"day": 6, "year": 2001, "month": 8}	Portland, Maine, United States	Sarasota, Florida, United States	{"Dan Yuma (&#12480;&#12531;&#12539;&#12518;&#12510;)"}	{"japanese_name": "&#12525;&#12496;&#12540;&#12488;&#12539;&#12480;&#12531;&#12495;&#12512;"}
-5e35fe94-1c41-4e60-a400-aa44c201deb1	Yosuke	Natsuki	M	t	{"day": 27, "year": 1936, "month": 2}	\N	Hachioji, Tokyo, Japan	\N	\N	{"birth_name": "Tamotsu Akuzawa (&#38463;&#20037;&#27810; &#26377;)", "original_name": "&#22799;&#26408; &#38525;&#20171;"}
 ff1185b5-9359-441b-8c3d-cd6ea90d67b9	Norihei	Miki	M	t	{"day": 11, "year": 1924, "month": 4}	{"day": 25, "year": 1999, "month": 1}	Hama, Nihonbashi, Tokyo, Japan	\N	\N	{"birth_name": "Tadashi Tanuma (&#30000;&#27836; &#21063;&#23376;)", "original_name": "&#19977;&#26408; &#12398;&#12426;&#24179;"}
 27bfdcc6-5f02-47fd-ae38-7ea8d9fac219	Tatsuya	Mihashi	M	t	{"day": 2, "year": 1923, "month": 11}	{"day": 15, "year": 2004, "month": 5}	Chuo, Tokyo, Japan	\N	\N	{"original_name": "&#19977;&#27211; &#36948;&#20063;"}
 9d5454d0-b6de-4b62-bf4e-da467bd6c53b	Akira	Wakamatsu	M	t	{"day": 12, "year": 1933, "month": 6}	\N	Fukushima, Japan	\N	\N	{"original_name": "&#33509;&#26494; &#26126;"}
@@ -3816,6 +3815,7 @@ b37bc229-fb86-4052-afc5-20c790b5cc18	Diana	Jones	M	f	{"day": 16, "year": 1934, "
 980b3973-171e-47d1-9ca8-883424de0d1d	Eriko	Kimura	F	f	{"day": 5, "year": 1961, "month": 7}	\N	\N	\N	\N	{"original_name": "木村 絵理子"}
 8f75a035-1097-4c3a-947e-72f838320019	So	Takagi	M	f	\N	\N	\N	\N	\N	{"original_name": "高木 創"}
 610229eb-7c6b-4a0b-8503-e14ca7392fa6	Satoshi	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 敏"}
+5e35fe94-1c41-4e60-a400-aa44c201deb1	Yosuke	Natsuki	M	t	{"day": 27, "year": 1936, "month": 2}	{"day": 14, "year": 2018, "month": 1}	Hachioji, Tokyo, Japan	\N	\N	{"birth_name": "Tamotsu Akuzawa (&#38463;&#20037;&#27810; &#26377;)", "original_name": "&#22799;&#26408; &#38525;&#20171;"}
 \.
 
 
