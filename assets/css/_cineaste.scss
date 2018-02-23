@@ -172,3 +172,28 @@ span.studios {
 div#info {
   max-width: 300px;
 }
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 140px;
+    display:none;
+}
+
+.btn-cineaste {
+  color: $cineaste-red;
+  background-color: white;
+}
+
+a#back-to-top:hover {
+  color: $cineaste-red;
+}
+
+.btn-circle.btn-xl {
+  width: 60px;
+  height: 60px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+}

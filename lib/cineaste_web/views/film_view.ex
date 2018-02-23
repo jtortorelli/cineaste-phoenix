@@ -8,6 +8,7 @@ defmodule CineasteWeb.FilmView do
   alias Cineaste.SeriesFilm
   alias Cineaste.Studio
   alias CineasteWeb.S3View
+  alias CineasteWeb.CommonView
   require Logger
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
@@ -129,6 +130,8 @@ defmodule CineasteWeb.FilmView do
 
   def display_studio_name(%Studio{props: %{"display" => display}}), do: display
   def display_studio_name(studio), do: studio.name
+
+  def render_back_button, do: CommonView.render_back_button
 
 
 end

@@ -20,3 +20,4 @@ import "lightbox2"
 // paths "./socket" or full ones "web/static/js/socket".
 
 import socket from "./socket"
+import "./back-to-top"

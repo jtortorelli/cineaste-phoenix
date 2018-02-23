@@ -206,4 +206,6 @@ defmodule CineasteWeb.PeopleView do
     Enum.all?(searchTerms, fn(term) -> String.contains?(String.downcase(field), String.downcase(term)) end)
   end
 
+  def render_back_button, do: CommonView.render_back_button
+
 end
