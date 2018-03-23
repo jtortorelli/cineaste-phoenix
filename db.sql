@@ -2,14 +2,15 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 9.6.6
--- Dumped by pg_dump version 10.1
+-- Dumped from database version 10.3
+-- Dumped by pg_dump version 10.3
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
 SET client_encoding = 'UTF8';
 SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
 SET check_function_bodies = false;
 SET client_min_messages = warning;
 SET row_security = off;
@@ -28,8 +29,6 @@ CREATE EXTENSION IF NOT EXISTS plpgsql WITH SCHEMA pg_catalog;
 COMMENT ON EXTENSION plpgsql IS 'PL/pgSQL procedural language';
 
 
-SET search_path = public, pg_catalog;
-
 SET default_tablespace = '';
 
 SET default_with_oids = false;
@@ -38,7 +37,7 @@ SET default_with_oids = false;
 -- Name: actor_group_roles; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE actor_group_roles (
+CREATE TABLE public.actor_group_roles (
     film_id uuid,
     group_id uuid,
     roles character varying(255)[] NOT NULL,
@@ -46,13 +45,13 @@ CREATE TABLE actor_group_roles (
 );
 
 
-ALTER TABLE actor_group_roles OWNER TO postgres;
+ALTER TABLE public.actor_group_roles OWNER TO postgres;
 
 --
 -- Name: actor_person_roles; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE actor_person_roles (
+CREATE TABLE public.actor_person_roles (
     film_id uuid,
     person_id uuid,
     roles character varying(255)[] NOT NULL,
@@ -60,13 +59,13 @@ CREATE TABLE actor_person_roles (
 );
 
 
-ALTER TABLE actor_person_roles OWNER TO postgres;
+ALTER TABLE public.actor_person_roles OWNER TO postgres;
 
 --
 -- Name: groups; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE groups (
+CREATE TABLE public.groups (
     id uuid NOT NULL,
     name character varying(255) NOT NULL,
     showcase boolean DEFAULT false NOT NULL,
@@ -76,13 +75,13 @@ CREATE TABLE groups (
 );
 
 
-ALTER TABLE groups OWNER TO postgres;
+ALTER TABLE public.groups OWNER TO postgres;
 
 --
 -- Name: people; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE people (
+CREATE TABLE public.people (
     id uuid NOT NULL,
     given_name character varying(255) NOT NULL,
     family_name character varying(255) NOT NULL,
@@ -97,13 +96,13 @@ CREATE TABLE people (
 );
 
 
-ALTER TABLE people OWNER TO postgres;
+ALTER TABLE public.people OWNER TO postgres;
 
 --
 -- Name: film_cast_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
-CREATE VIEW film_cast_view AS
+CREATE VIEW public.film_cast_view AS
  SELECT r.film_id,
     p.id AS entity_id,
     r.roles,
@@ -111,8 +110,8 @@ CREATE VIEW film_cast_view AS
     p.showcase,
     'person'::text AS type,
     jsonb_build_object('display_name', (((p.given_name)::text || ' '::text) || (p.family_name)::text), 'sort_name', (((p.family_name)::text || ' '::text) || (p.given_name)::text)) AS names
-   FROM (actor_person_roles r
-     JOIN people p ON ((p.id = r.person_id)))
+   FROM (public.actor_person_roles r
+     JOIN public.people p ON ((p.id = r.person_id)))
 UNION
  SELECT r.film_id,
     g.id AS entity_id,
@@ -121,17 +120,17 @@ UNION
     g.showcase,
     'group'::text AS type,
     jsonb_build_object('display_name', g.name, 'sort_name', regexp_replace((g.name)::text, '^The '::text, ''::text)) AS names
-   FROM (actor_group_roles r
-     JOIN groups g ON ((g.id = r.group_id)));
+   FROM (public.actor_group_roles r
+     JOIN public.groups g ON ((g.id = r.group_id)));
 
 
-ALTER TABLE film_cast_view OWNER TO postgres;
+ALTER TABLE public.film_cast_view OWNER TO postgres;
 
 --
 -- Name: film_images; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE film_images (
+CREATE TABLE public.film_images (
     film_id uuid NOT NULL,
     type character varying(255) NOT NULL,
     file_name character varying(255) NOT NULL,
@@ -139,13 +138,13 @@ CREATE TABLE film_images (
 );
 
 
-ALTER TABLE film_images OWNER TO postgres;
+ALTER TABLE public.film_images OWNER TO postgres;
 
 --
 -- Name: films; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE films (
+CREATE TABLE public.films (
     id uuid NOT NULL,
     title character varying(255) NOT NULL,
     release_date date NOT NULL,
@@ -156,28 +155,28 @@ CREATE TABLE films (
 );
 
 
-ALTER TABLE films OWNER TO postgres;
+ALTER TABLE public.films OWNER TO postgres;
 
 --
 -- Name: film_index_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
-CREATE VIEW film_index_view AS
+CREATE VIEW public.film_index_view AS
  SELECT films.id,
     films.title,
     (date_part('year'::text, films.release_date))::integer AS year,
     films.aliases
-   FROM films
+   FROM public.films
   WHERE (films.showcase = true);
 
 
-ALTER TABLE film_index_view OWNER TO postgres;
+ALTER TABLE public.film_index_view OWNER TO postgres;
 
 --
 -- Name: staff_group_roles; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE staff_group_roles (
+CREATE TABLE public.staff_group_roles (
     film_id uuid,
     group_id uuid,
     role character varying(255) NOT NULL,
@@ -185,13 +184,13 @@ CREATE TABLE staff_group_roles (
 );
 
 
-ALTER TABLE staff_group_roles OWNER TO postgres;
+ALTER TABLE public.staff_group_roles OWNER TO postgres;
 
 --
 -- Name: staff_person_roles; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE staff_person_roles (
+CREATE TABLE public.staff_person_roles (
     film_id uuid,
     person_id uuid,
     role character varying(255) NOT NULL,
@@ -199,49 +198,49 @@ CREATE TABLE staff_person_roles (
 );
 
 
-ALTER TABLE staff_person_roles OWNER TO postgres;
+ALTER TABLE public.staff_person_roles OWNER TO postgres;
 
 --
 -- Name: film_staff_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
-CREATE VIEW film_staff_view AS
+CREATE VIEW public.film_staff_view AS
  SELECT fsv.film_id,
     fsv.role,
     array_agg(fsv.staff) AS staff
    FROM ( SELECT spr.film_id,
             spr.role,
             json_build_object('person_id', p.id, 'name', (((p.given_name)::text || ' '::text) || (p.family_name)::text), 'showcase', p.showcase, 'type', 'person', 'order', spr."order") AS staff
-           FROM (staff_person_roles spr
-             JOIN people p ON ((p.id = spr.person_id)))
+           FROM (public.staff_person_roles spr
+             JOIN public.people p ON ((p.id = spr.person_id)))
         UNION ALL
          SELECT sgr.film_id,
             sgr.role,
             json_build_object('group_id', g.id, 'name', g.name, 'showcase', g.showcase, 'type', 'group', 'order', sgr."order") AS staff
-           FROM (staff_group_roles sgr
-             JOIN groups g ON ((g.id = sgr.group_id)))) fsv
+           FROM (public.staff_group_roles sgr
+             JOIN public.groups g ON ((g.id = sgr.group_id)))) fsv
   GROUP BY fsv.film_id, fsv.role;
 
 
-ALTER TABLE film_staff_view OWNER TO postgres;
+ALTER TABLE public.film_staff_view OWNER TO postgres;
 
 --
 -- Name: group_memberships; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE group_memberships (
+CREATE TABLE public.group_memberships (
     group_id uuid,
     person_id uuid
 );
 
 
-ALTER TABLE group_memberships OWNER TO postgres;
+ALTER TABLE public.group_memberships OWNER TO postgres;
 
 --
 -- Name: group_roles_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
-CREATE VIEW group_roles_view AS
+CREATE VIEW public.group_roles_view AS
  SELECT f.title AS film_title,
     f.release_date AS film_release_date,
     f.showcase AS film_showcase,
@@ -249,19 +248,19 @@ CREATE VIEW group_roles_view AS
     'Actor'::text AS role,
     r.roles AS characters,
     g.id AS group_id
-   FROM ((actor_group_roles r
-     JOIN films f ON ((f.id = r.film_id)))
-     JOIN groups g ON ((g.id = r.group_id)))
+   FROM ((public.actor_group_roles r
+     JOIN public.films f ON ((f.id = r.film_id)))
+     JOIN public.groups g ON ((g.id = r.group_id)))
   ORDER BY g.id, 'Actor'::text, f.release_date;
 
 
-ALTER TABLE group_roles_view OWNER TO postgres;
+ALTER TABLE public.group_roles_view OWNER TO postgres;
 
 --
 -- Name: person_roles_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
-CREATE VIEW person_roles_view AS
+CREATE VIEW public.person_roles_view AS
  SELECT f.title AS film_title,
     f.release_date AS film_release_date,
     f.showcase AS film_showcase,
@@ -269,9 +268,9 @@ CREATE VIEW person_roles_view AS
     r.role,
     NULL::character varying[] AS characters,
     p.id AS person_id
-   FROM ((staff_person_roles r
-     JOIN films f ON ((f.id = r.film_id)))
-     JOIN people p ON ((p.id = r.person_id)))
+   FROM ((public.staff_person_roles r
+     JOIN public.films f ON ((f.id = r.film_id)))
+     JOIN public.people p ON ((p.id = r.person_id)))
 UNION
  SELECT f.title AS film_title,
     f.release_date AS film_release_date,
@@ -280,19 +279,19 @@ UNION
     'Actor'::character varying AS role,
     r.roles AS characters,
     p.id AS person_id
-   FROM ((actor_person_roles r
-     JOIN films f ON ((f.id = r.film_id)))
-     JOIN people p ON ((p.id = r.person_id)))
+   FROM ((public.actor_person_roles r
+     JOIN public.films f ON ((f.id = r.film_id)))
+     JOIN public.people p ON ((p.id = r.person_id)))
   ORDER BY 7, 5, 2;
 
 
-ALTER TABLE person_roles_view OWNER TO postgres;
+ALTER TABLE public.person_roles_view OWNER TO postgres;
 
 --
 -- Name: people_index_view; Type: VIEW; Schema: public; Owner: postgres
 --
 
-CREATE VIEW people_index_view AS
+CREATE VIEW public.people_index_view AS
  SELECT p.id,
     'person'::text AS type,
     p.gender,
@@ -300,13 +299,13 @@ CREATE VIEW people_index_view AS
     ARRAY[p.family_name, p.given_name] AS display_name,
     p.aliases,
     ( SELECT ARRAY( SELECT prv.role
-                   FROM person_roles_view prv
+                   FROM public.person_roles_view prv
                   WHERE (p.id = prv.person_id)
                   GROUP BY prv.role
                   ORDER BY (count(*)) DESC
                  LIMIT 3) AS "array") AS roles,
     NULL::text[] AS members
-   FROM people p
+   FROM public.people p
   WHERE (p.showcase = true)
 UNION
  SELECT g.id,
@@ -316,89 +315,89 @@ UNION
     ARRAY[g.name] AS display_name,
     NULL::character varying[] AS aliases,
     ( SELECT ARRAY( SELECT grv.role
-                   FROM group_roles_view grv
+                   FROM public.group_roles_view grv
                   WHERE (g.id = grv.group_id)
                   GROUP BY grv.role
                   ORDER BY (count(*)) DESC
                  LIMIT 3) AS "array") AS roles,
     ( SELECT ARRAY( SELECT (((p.given_name)::text || ' '::text) || (p.family_name)::text)
-                   FROM people p
+                   FROM public.people p
                   WHERE (p.id IN ( SELECT gm.person_id
-                           FROM group_memberships gm
+                           FROM public.group_memberships gm
                           WHERE (gm.group_id = g.id)))) AS "array") AS members
-   FROM groups g
+   FROM public.groups g
   WHERE (g.showcase = true);
 
 
-ALTER TABLE people_index_view OWNER TO postgres;
+ALTER TABLE public.people_index_view OWNER TO postgres;
 
 --
 -- Name: schema_migrations; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE schema_migrations (
+CREATE TABLE public.schema_migrations (
     version bigint NOT NULL,
     inserted_at timestamp without time zone
 );
 
 
-ALTER TABLE schema_migrations OWNER TO postgres;
+ALTER TABLE public.schema_migrations OWNER TO postgres;
 
 --
 -- Name: series; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE series (
+CREATE TABLE public.series (
     id uuid NOT NULL,
     name character varying(255) NOT NULL
 );
 
 
-ALTER TABLE series OWNER TO postgres;
+ALTER TABLE public.series OWNER TO postgres;
 
 --
 -- Name: series_films; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE series_films (
+CREATE TABLE public.series_films (
     series_id uuid,
     film_id uuid,
     "order" integer NOT NULL
 );
 
 
-ALTER TABLE series_films OWNER TO postgres;
+ALTER TABLE public.series_films OWNER TO postgres;
 
 --
 -- Name: studio_films; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE studio_films (
+CREATE TABLE public.studio_films (
     studio_id uuid,
     film_id uuid
 );
 
 
-ALTER TABLE studio_films OWNER TO postgres;
+ALTER TABLE public.studio_films OWNER TO postgres;
 
 --
 -- Name: studios; Type: TABLE; Schema: public; Owner: postgres
 --
 
-CREATE TABLE studios (
+CREATE TABLE public.studios (
     id uuid NOT NULL,
     name character varying(255) NOT NULL,
     props jsonb
 );
 
 
-ALTER TABLE studios OWNER TO postgres;
+ALTER TABLE public.studios OWNER TO postgres;
 
 --
 -- Data for Name: actor_group_roles; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY actor_group_roles (film_id, group_id, roles, "order") FROM stdin;
+COPY public.actor_group_roles (film_id, group_id, roles, "order") FROM stdin;
 a62c9a6b-aa36-4d5d-b869-2fc79efa28ab	5bbcef55-15b8-4fc1-a507-a115d57bfbbf	{"The Shobijin"}	4
 75bb901c-e41c-494f-aae8-7a5282f3bf96	5bbcef55-15b8-4fc1-a507-a115d57bfbbf	{"The Shobijin"}	6
 2f761ce5-34ae-4e7e-8ce0-90fec7f94f68	5bbcef55-15b8-4fc1-a507-a115d57bfbbf	{"The Shobijin"}	5
@@ -410,7 +409,7 @@ f474852a-cc25-477d-a7b9-06aa688f7fb2	660408b0-763e-451b-a3de-51cad893c087	{"The 
 -- Data for Name: actor_person_roles; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
+COPY public.actor_person_roles (film_id, person_id, roles, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	34de1ef2-9428-4c7e-8512-5683f7cced38	{Tsukioka}	1
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	fae6c562-be36-496b-acdb-889a433773cc	{"Hidemi Yamaji"}	2
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	20079bf2-7dc2-4e24-83bc-16f43af26cc6	{Kobayashi}	3
@@ -1502,7 +1501,7 @@ f474852a-cc25-477d-a7b9-06aa688f7fb2	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Red 
 -- Data for Name: film_images; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY film_images (film_id, type, file_name, caption) FROM stdin;
+COPY public.film_images (film_id, type, file_name, caption) FROM stdin;
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	gallery	00052	\N
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	gallery	00501	\N
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	gallery	01075	\N
@@ -2449,7 +2448,7 @@ f474852a-cc25-477d-a7b9-06aa688f7fb2	gallery	02437	\N
 -- Data for Name: films; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY films (id, title, release_date, duration, showcase, aliases, props) FROM stdin;
+COPY public.films (id, title, release_date, duration, showcase, aliases, props) FROM stdin;
 653335e2-101e-4303-90a2-eb71dac3c6e3	Godzilla, King of the Monsters	1954-11-03	97	t	{Godzilla}	{"original_title": "&#12468;&#12472;&#12521;", "original_translation": "Godzilla", "original_transliteration": "Gojira"}
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	Godzilla Raids Again	1955-04-24	82	t	{"Gigantis, the Fire Monster"}	{"original_title": "&#12468;&#12472;&#12521;&#12398;&#36870;&#35186;", "original_translation": "Counterattack of Godzilla", "original_transliteration": "Gojira No Gyakushyuu"}
 d6a05fe9-ea91-4b75-a04a-77c8217a56cd	King Kong vs. Godzilla	1962-08-11	97	t	\N	{"original_title": "&#12461;&#12531;&#12464;&#12467;&#12531;&#12464;&#23550;&#12468;&#12472;&#12521;", "original_translation": "King Kong Against Godzilla", "original_transliteration": "Kingukongu Tai Gojira"}
@@ -2478,6 +2477,7 @@ e8ccb201-e076-48cb-9307-f8b99101f133	The Human Vapor	1960-12-11	91	t	\N	{"origin
 b30c5657-a980-489b-bd91-d58e63609102	Samurai Pirate	1963-10-26	97	t	{"The Lost World of Sinbad"}	{"original_title": "&#22823;&#30423;&#36042;", "original_translation": "Great Bandit", "original_transliteration": "Daitouzoku"}
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	Dogora, the Space Monster	1964-08-11	81	t	{Dogora}	{"original_title": "&#23431;&#23449;&#22823;&#24618;&#29539;&#12489;&#12468;&#12521;", "original_translation": "Space Giant Monster Dogora", "original_transliteration": "Uchyuu Daikaijyuu Dogora"}
 183fbe01-1bd2-4ade-b83b-6248ec7d7fee	Frankenstein Conquers the World	1965-08-08	94	t	{"Frankenstein vs. Baragon"}	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#23550;&#22320;&#24213;&#24618;&#29539;&#12496;&#12521;&#12468;&#12531;", "original_translation": "Frankenstein Against Underground Monster Baragon", "original_transliteration": "Furankenshyutain Tai Chitei Kaijyuu Baragon"}
+88a761bb-acae-4a56-b157-ed2fe51951ab	Kaiji 2	2011-11-05	133	f	\N	{"original_title": "カイジ2", "original_translation": "Kaiji 2", "original_transliteration": "Kaiji 2"}
 23c1c82e-aedb-4c9b-b040-c780eec577e8	War of the Gargantuas	1966-07-31	88	t	\N	{"original_title": "&#12501;&#12521;&#12531;&#12465;&#12531;&#12471;&#12517;&#12479;&#12452;&#12531;&#12398;&#24618;&#29539; &#12469;&#12531;&#12480;&#23550;&#12460;&#12452;&#12521;", "original_translation": "Monsters of Frankenstein Sanda Against Gaira", "original_transliteration": "Furankenshyutain no Kaijyuu Sanda Tai Gaira"}
 ce555690-494d-4983-a2a7-c99fb2fc0387	Daimajin Strikes Again	1966-12-10	87	t	{"The Return of Daimajin"}	{"original_title": "大魔神逆襲", "original_translation": "Great Demon Counterattack", "original_transliteration": "Daimajin Gyakushyuu"}
 0704c7e5-5709-4401-adaa-8cbec670e47d	Gamera, the Giant Monster	1965-11-27	78	t	{"Gammera the Invincible",Gamera}	{"original_title": "大怪獣ガメラ", "original_translation": "Giant Monster Gamera", "original_transliteration": "Daikaijyuu Gamera"}
@@ -2504,14 +2504,11 @@ f3bbb9b5-4893-4e50-a6e0-7a25f1b8d618	Gamera vs. Jiger	1970-03-21	83	t	{"Gamera v
 8673b73b-ffce-464d-8673-c8ca60b10cf8	Three Outlaw Samurai	1964-05-13	94	t	\N	{"original_title": "三匹の侍", "original_translation": "Three Samurai", "original_transliteration": "Sanbiki No Samurai"}
 a477ef60-d6ae-4406-9914-2a7e060ac379	Legend of the Eight Samurai	1983-12-10	136	t	\N	{"original_title": "里見八犬伝", "original_translation": "Legend of Satomi's Eight Dogs", "original_transliteration": "Satomi Hakken Den"}
 361e3cdb-8f40-4a21-974a-3e792abe9e4a	Stray Dog: Kerberos Panzer Cops	1991-03-23	99	t	\N	{"original_title": "ケルベロス-地獄の番犬", "original_translation": "Kerberos - Guard Dog of Hell", "original_transliteration": "Keruberosu - Jigoku no Banken"}
-e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	f	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
 fcb4b537-1a27-42e2-bafb-2f23564f033a	Ring 2	1999-01-23	95	f	\N	{"original_title": "リング2", "original_translation": "Ring 2", "original_transliteration": "Ringu 2"}
 234560f2-ada9-40e4-8f50-701f701dec82	The Eternal Zero	2013-12-21	144	f	\N	{"original_title": "永遠の0", "original_translation": "Eternal Zero", "original_transliteration": "Eien No Zero"}
 99365581-abc2-48b0-bbb5-61a081c8c709	Makai Tensho: Samurai Armageddon	1996-04-26	85	f	{"Reborn from Hell: Samurai Armageddon"}	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
 a39991bd-6f9b-449f-a011-359411ffbfa1	Tomie	1999-03-06	95	f	\N	{"original_title": "富江", "original_translation": "Tomie", "original_transliteration": "Tomie"}
-91d16b63-9716-4725-b319-b9ff46c80487	Parasyte	2014-11-29	109	f	\N	{"original_title": "寄生獣", "original_translation": "Parasitic Beast", "original_transliteration": "Kiseijyuu"}
 010090c2-b952-4ae7-8dc0-15b2ecc0dce6	Battlefield Baseball	2002-07-19	87	f	\N	{"original_title": "地獄甲子園", "original_translation": "Hell Stadium", "original_transliteration": "Jigoku Koushien"}
-88a761bb-acae-4a56-b157-ed2fe51951ab	Kaiji 2	2011-11-05	133	f	\N	{"original_title": "カイジ2", "original_translation": "Kaiji 2", "original_transliteration": "Kaiji 2"}
 e74d0fad-f701-4540-b48e-9e73e2062b0b	Godzilla vs. the Cosmic Monster	1974-03-21	84	t	{"Godzilla vs. the Bionic Monster","Godzilla vs. Mechagodzilla"}	{"original_title": "ゴジラ対メカゴジラ", "original_translation": "Godzilla Against Mechagodzilla", "original_transliteration": "Gojira Tai Mekagojira"}
 092d908c-750c-4c66-9d34-5c0b69089b6c	Vampire Doll	1970-07-04	71	t	\N	{"original_title": "幽霊屋敷の恐怖 血を吸う人形", "original_translation": "Horror of Haunted House: Bloodsucking Doll", "original_transliteration": "Yuureiyashiki No Kyoufu Chiwosuu Ningyou"}
 9a752a5a-d621-40dc-a992-3f9dcf56d6b9	Espy	1974-12-28	94	t	\N	{"original_title": "エスパイ", "original_translation": "Espy", "original_transliteration": "Esupai"}
@@ -2536,7 +2533,6 @@ c287b984-0a4b-406f-a9a7-c21023ecd189	Oblivion Island	2009-08-22	93	t	\N	{"origin
 060ee386-1a7f-4e91-bb93-f7c6f249f71b	Gantz: Perfect Answer	2011-04-23	141	t	\N	{"original_title": "ガンツ・パーフェクトアンサー", "original_translation": "Gants: Perfect Answer", "original_transliteration": "Gantsu Paafekuto Ansaa"}
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	Lupin the Third	2014-08-30	133	t	\N	{"original_title": "ルパン三世", "original_translation": "Lupin the Third", "original_transliteration": "Rupan Sansei"}
 e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title": "五条霊戦記", "original_translation": "Gojo Spiritual War Record", "original_transliteration": "Gojyoureisenki"}
-aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	Parasyte: Completion	2015-04-25	117	f	\N	{"original_title": "寄生獣 完結編", "original_translation": "Parasitic Beast Completion", "original_transliteration": "Kiseijyuu Kanketsuhen"}
 dd83f9ef-cece-4825-b1ed-f63063b0226b	Onmyoji	2001-10-06	116	f	\N	{"original_title": "陰陽師", "original_translation": "Yin Yang Master", "original_transliteration": "Onmyouji"}
 73d1a65b-19cc-456c-98cd-2ab5e14bf18a	Gokusen: The Movie	2009-07-11	118	f	\N	{"original_title": "ごくせん THE MOVIE", "original_translation": "Gokusen the Movie", "original_transliteration": "Gokusen the Movie"}
 24222558-97ce-4345-b89b-a8f457b981b1	Deadball	2011-07-23	99	f	\N	{"original_title": "デッドボール", "original_translation": "Deadball", "original_transliteration": "Deddobooru"}
@@ -2546,6 +2542,7 @@ ea15e6b4-5bac-48d9-836b-eda509c39ba6	Tomie: Another Face	1999-12-26	95	f	\N	{"or
 c7a3c4ef-364c-404e-8a16-4a1fce836949	Jin-Roh: The Wolf Brigade	2000-06-03	98	f	\N	{"original_title": "人狼", "original_translation": "Werewolf", "original_transliteration": "Jinrou"}
 c40759c6-257e-452d-a313-b4f7114e7db9	Onmyoji II	2003-10-04	115	f	\N	{"original_title": "陰陽師II", "original_translation": "Yin Yang Master II", "original_transliteration": "Onmyouji II"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
+8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	t	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	t	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	t	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
@@ -2569,7 +2566,6 @@ fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31
 5da0a53b-039d-48f1-a7e6-12b23f34354b	Assault Girls	2009-12-19	70	t	\N	{"original_title": "アサルト・ガールズ", "original_translation": "Assault Girls", "original_transliteration": "Asaruto Gaaruzu"}
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 cbde47ee-1057-467a-a853-421d97c5440d	The Grudge	2003-01-25	92	f	\N	{"original_title": "呪怨", "original_translation": "Grudge", "original_transliteration": "Jyuon"}
-46d52769-4d58-4cec-a521-a57138748655	Makai Tensho: Samurai Reincarnation	1981-06-06	122	f	\N	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
 98571eeb-d5f6-4eaa-a819-12a21b08cc78	Tomie: Forbidden Fruit	2002-06-29	91	f	\N	{"original_title": "富江 最終章 -禁断の果実-", "original_translation": "Tomie Final Chapter: Forbidden Fruit", "original_transliteration": "Tomie Saishyuushyou Kindan No Kajitsu"}
 48170d76-e893-49a1-aaf7-43b7ffa6e3a7	Avalon	2001-01-20	106	f	\N	{"original_title": "アヴァロン", "original_translation": "Avalon", "original_transliteration": "Avuaron"}
 4fea4d88-a085-4624-b86a-373e9088a940	The Grudge 2	2003-08-23	92	f	\N	{"original_title": "呪怨2", "original_translation": "Grudge 2", "original_transliteration": "Jyuon"}
@@ -2581,7 +2577,6 @@ d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"origina
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	t	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	t	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
-8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	t	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: Wizard of Darkness	1995-04-08	80	t	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	t	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 b91e69c2-1d07-48e7-b3e1-9576417b518d	Battle Royale	2000-12-16	114	t	\N	{"original_title": "バトル・ロワイアル", "original_translation": "Battle Royale", "original_transliteration": "Batoru Rowaiaru"}
@@ -2599,15 +2594,10 @@ bf991fa1-ed29-4370-9377-ecc1b58126db	Goemon	2009-05-01	128	t	\N	{"original_title
 df2bc5e1-38b3-4f31-bc99-5c9fc99fdd06	Ballad	2009-09-05	132	t	\N	{"original_title": "BALLAD 名もなき恋のうた", "original_translation": "Ballad: The Nameless Love Song", "original_transliteration": "Ballad Namonaki Koi No Ute"}
 76ee6178-d728-4033-8cfe-01970c1be237	Rurouni Kenshin	2012-08-25	134	t	{"Rurouni Kenshin Part I: Origins"}	{"original_title": "るろうに剣心", "original_translation": "Rurouni Kenshin", "original_transliteration": "Rurouni Kenshin"}
 cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
-c4dff626-aed3-4a1e-9823-3315be614257	L: Change the World	2008-02-09	129	f	\N	{"original_title": "L change the WorLd", "original_translation": "L: Change the World", "original_transliteration": "L Change the World"}
 9241a8af-96f9-4297-a21c-2fd39cafc9d0	Sweet Rain: The Accuracy of Death	2008-03-22	113	f	\N	{"original_title": "死神の精度", "original_translation": "Accuracy of Death", "original_transliteration": "Shinigami No Seido"}
-eb390ec6-d2c1-432a-b10c-15e237c8532a	Rurouni Kenshin: Kyoto Inferno	2014-08-01	139	f	{"Rurouni Kenshin Part II: Kyoto Inferno"}	{"original_title": "るろうに剣心 京都大火編", "original_translation": "Rurouni Kenshin Kyoto Inferno", "original_transliteration": "Rurouni Kenshin Kyouto Taikahen"}
-9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	Patlabor 2: The Movie	1993-08-07	113	f	\N	{"original_title": "機動警察パトレイバー2 the Movie", "original_translation": "Mobile Police Patlabor 2: The Movie", "original_transliteration": "Kidoukeisatsu Patoreibaa 2 The Movie"}
 b73255d8-4457-4a39-bf7f-e59273d04b88	Ring	1998-01-31	95	f	\N	{"original_title": "リング", "original_translation": "Ring", "original_transliteration": "Ringu"}
 67877b75-fcb4-440b-a182-6f2228c9ea91	The Princess Blade	2001-12-15	93	f	\N	{"original_title": "修羅雪姫", "original_translation": "Lady Snowblood", "original_transliteration": "Shyurayuki Hime"}
 ace24bd7-2b26-40bb-a818-0404e0f4606e	Retribution	2007-02-24	104	f	\N	{"original_title": "叫", "original_translation": "Cry", "original_transliteration": "Sakebi"}
-a3112f14-09ae-474a-9eb8-b390d0637dd0	Rurouni Kenshin: The Legend Ends	2014-09-13	135	f	{"Rurouni Kenshin Part III: The Legend Ends"}	{"original_title": "るろうに剣心 伝説の最期編", "original_translation": "Rurouni Kenshin Legend Final Chapter", "original_transliteration": "Rurouni Kenshin Densetsu No Saigohen"}
-6a995dc7-1239-4f95-8fb3-2905b26ead3c	Akira	1988-07-16	124	f	\N	{"original_title": "アキラ", "original_translation": "Akira", "original_transliteration": "Akira"}
 07f023e7-46b1-44e8-a896-4897c25ca928	Rasen	1998-01-31	97	f	\N	{"original_title": "らせん", "original_translation": "Spiral", "original_transliteration": "Rasen"}
 6f7545a5-808f-49a1-88e0-b444d1a56f29	Sukiyaki Western Django	2007-09-15	121	f	\N	{"original_title": "スキヤキ・ウエスタン ジャンゴ", "original_translation": "Sukiyaki Western Django", "original_transliteration": "Sukiyaki Uesutan Jyango"}
 ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"original_title": "ゴジラ対メガロ", "original_translation": "Godzilla Against Megalon", "original_transliteration": "Gojira Tai Megaro"}
@@ -2616,6 +2606,8 @@ ead6a8bb-36ee-46db-bd54-0761b0dd3d22	Godzilla vs. Megalon	1973-03-17	82	t	\N	{"o
 f5eb5937-5b71-4b22-9e9b-c3346f113e50	Tokyo Blackout	1987-01-17	120	t	\N	{"original_title": "首都消失", "original_translation": "Capital Disappears", "original_transliteration": "Shyuto Shyoushitsu"}
 e0c22c94-00bf-42c2-b0f1-f4189ba6e60e	Godzilla VS Mechagodzilla	1993-12-11	108	t	{"Godzilla vs. Mechagodzilla II"}	{"original_title": "ゴジラvsメカゴジラ", "original_translation": "Godzilla VS Mechagodzilla", "original_transliteration": "Gojira VS Mekagojira"}
 f318f528-7c69-40df-a91d-88411c979e67	Gamera: The Guardian of the Universe	1995-03-11	95	t	\N	{"original_title": "ガメラ 大怪獣空中決戦", "original_translation": "Gamera: Giant Monster Air Battle", "original_transliteration": "Gamera Daikaijyuu Kuuchyuu Kessen"}
+37e6a670-8016-4594-ba9b-070dd2c76311	Hara-Kiri: Death of a Samurai	2011-10-15	126	t	\N	{"original_title": "一命", "original_translation": "Life", "original_transliteration": "Ichimei"}
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	Patlabor 2: The Movie	1993-08-07	113	t	\N	{"original_title": "機動警察パトレイバー2 the Movie", "original_translation": "Mobile Police Patlabor 2: The Movie", "original_transliteration": "Kidoukeisatsu Patoreibaa 2 The Movie"}
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	t	{"Gamera 2: Attack of Legion"}	{"original_title": "ガメラ2 レギオン襲来", "original_translation": "Gamera 2: Legion Attack", "original_transliteration": "Gamera 2 Region Shyuurai"}
 6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	Godzilla X Megaguirus	2000-12-16	105	t	\N	{"original_title": "ゴジラ×メガギラス G消滅作戦", "original_translation": "Godzilla X Megaguirus: G Annihilation Strategy", "original_transliteration": "Gojira X Megagirasu G Shyoumetsu Sakusen"}
 d47406e8-fd4b-4031-87e9-387f905eeb13	GMK	2001-12-15	105	t	\N	{"original_title": "ゴジラ・モスラ・キングギドラ 大怪獣総攻撃", "original_translation": "Godzilla, Mothra, King Ghidorah: Giant Monsters All Out Attack", "original_transliteration": "Gojira Mosura Kingugidora Daikaijyuu Soukougeki"}
@@ -2629,13 +2621,9 @@ e867eee7-3dfb-4a98-88d4-94ab919efb14	LoveDeath	2007-05-12	158	t	\N	\N
 38418f59-0ae8-4ed9-98f9-a4f058074d45	Rescue Wings	2008-12-13	108	t	\N	{"original_title": "空へ-救いの翼 RESCUE WINGS-", "original_translation": "To the Sky, Wings of Salvation: Rescue Wings", "original_transliteration": "Sorae Sukui No Tsubasa Rescue Wings"}
 aae318c6-45cb-4cb0-b67c-a92d3f124bde	Friends	2011-12-17	87	t	\N	{"original_title": "friends もののけ島のナキ", "original_translation": "Friends: Naki of Monster Island", "original_transliteration": "Friends Mononoke Shima No Naki"}
 5988c778-2ffb-4036-8341-962e43b21b7d	Always 3	2012-01-21	142	t	\N	{"original_title": "ALWAYS 三丁目の夕日'64", "original_translation": "Always: Sunset on Third Street '64", "original_transliteration": "Always San Chyoume No Yuuhi '64'"}
-c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platinum Data	2013-03-16	133	f	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
-baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	f	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
 3df82c9d-f929-4cfe-9b94-d7356b30f32f	Ring 0: Birthday	2000-01-22	99	f	\N	{"original_title": "リング0 バースデイ", "original_translation": "Ring 0: Birthday", "original_transliteration": "Ringu 0 Baasudei"}
 5449600a-b42d-4b3b-8551-4bfce2101463	Stand By Me, Doraemon	2014-08-08	95	f	\N	{"original_title": "STAND BY ME ドラえもん", "original_translation": "Stand By Me, Doraemon", "original_transliteration": "Stand By Me Doraemon"}
-a4641997-f1b1-4a18-b269-2b91914292cb	Library Wars	2013-04-27	128	f	\N	{"original_title": "図書館戦争", "original_translation": "Library War", "original_transliteration": "Toshyoukan Sensou"}
 7e322ca6-fe1c-4c13-9b6d-4991f675f2ed	Gamera the Brave	2006-04-29	96	f	\N	{"original_title": "小さき勇者たち〜ガメラ〜", "original_translation": "The Little Braves: Gamera", "original_transliteration": "Chisaki Yuushyatachi Gamera"}
-32feba7e-991a-4f63-90e4-31765bf552bd	Zatoichi	1989-02-04	116	f	{"Zatoichi: The Blind Swordsman","Zatoichi: Darkness is His Ally"}	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 b286aeb7-b2b2-44bd-b8d0-926e7682d1d2	Dark Water	2002-01-19	101	f	\N	{"original_title": "仄暗い水の底から", "original_translation": "Dark Water from the Bottom", "original_transliteration": "Honokurai Mizu No Soko Kara"}
 897f493c-cd9b-485d-8aa6-3459792e4fd8	The Sword of Doom	1966-02-25	120	f	\N	{"original_title": "大菩薩峠", "original_translation": "Great Bodhisattva Pass", "original_transliteration": "Daibasatsu Touge"}
 cfaf4ab5-af6a-417b-91ee-65ad2af67155	One Missed Call: Final	2006-06-24	105	t	\N	{"original_title": "着信アリFinal", "original_translation": "Incoming Call Final", "original_transliteration": "Chyakushin Ari Final"}
@@ -2649,7 +2637,8 @@ d141f540-c0e2-43b4-be80-06f510646d52	Godzilla VS Space Godzilla	1994-12-10	108	t
 21fd4b5c-720f-42b5-8751-94d42bf6be02	Godzilla X Mothra X Mechagodzilla: Tokyo SOS	2003-12-13	91	t	\N	{"original_title": "ゴジラ×モスラ×メカゴジラ 東京SOS", "original_translation": "Godzilla X Mothra X Mechagodzilla: Tokyo SOS", "original_transliteration": "Gojira X Mosura X Mekagojira Toukyou SOS"}
 a3847c07-94a1-4ed0-bf99-30f71334aa12	The Glorious Team Batista	2008-02-09	118	t	\N	{"original_title": "チーム・バチスタの栄光", "original_translation": "Glory of Team Batista", "original_transliteration": "Chiimu Bachisuta No Eikou"}
 0c035d95-032c-4975-8693-1058d6676add	Kaiji	2009-10-10	129	t	\N	{"original_title": "カイジ", "original_translation": "Kaiji", "original_transliteration": "Kaiji"}
-37e6a670-8016-4594-ba9b-070dd2c76311	Hara-Kiri: Death of a Samurai	2011-10-15	126	t	\N	{"original_title": "一命", "original_translation": "Life", "original_transliteration": "Ichimei"}
+a4641997-f1b1-4a18-b269-2b91914292cb	Library Wars	2013-04-27	128	t	\N	{"original_title": "図書館戦争", "original_translation": "Library War", "original_transliteration": "Toshyoukan Sensou"}
+baa6395c-0362-4423-a6bb-a71d94e449b9	Patlabor: The Movie	1989-07-15	100	t	\N	{"original_title": "機動警察パトレイバー the Movie", "original_translation": "Mobile Police Patlabor: The Movie", "original_transliteration": "Kitoukeisatsu Patoreibaa The Movie"}
 6d87cd92-cf55-4369-8081-6f331d4119bf	Zatoichi: The Blind Swordsman	2003-09-06	115	f	\N	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
 7c83d9c1-2c56-4a75-874b-5ee2f80f4bb8	Warning from Space	1956-01-29	82	t	\N	{"original_title": "宇宙人東京に現わる", "original_translation": "Space Men Appear in Tokyo", "original_transliteration": "Uchyuujin Toukyou Ni Arawaru"}
 9ec4301a-1522-4af9-b83b-92d50b4f0db9	Daimajin	1966-04-17	84	t	\N	{"original_title": "大魔神", "original_translation": "Great Demon", "original_transliteration": "Daimajin"}
@@ -2706,22 +2695,32 @@ f42f913d-0daa-478d-8351-24fbe682d437	Parasite Eve	1997-02-01	120	t	\N	{"original
 bdd71ef3-19fb-49dd-a66f-d0742185846c	Gamera 3: Revenge of Iris	1999-03-06	108	t	{"Gamera 3: The Demon Awakes","Gamera 3: Incomplete Struggle"}	{"original_title": "ガメラ3 邪神〈イリス〉覚醒", "original_translation": "Gamera 3: Evil Spirit (Iris) Awakens", "original_transliteration": "Gamera 3 Jyashin (Irisu) Kakusei"}
 f5cab5fa-f1e8-44e3-940f-30c9144bc5e4	Sky High	2003-11-08	123	t	\N	{"original_title": "スカイハイ", "original_translation": "Sky High", "original_transliteration": "Sukai Hai"}
 2a3810e7-dee8-45c2-8982-5730cc86e50c	Azumi	2003-05-10	142	t	\N	{"original_title": "あずみ", "original_translation": "Azumi", "original_transliteration": "Azumi"}
-d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	Attack on Titan	2015-08-01	98	f	{"Attack on Titan: The Movie Part 1"}	{"original_title": "進撃の巨人", "original_translation": "Attack of Titan", "original_transliteration": "Shingeki No Kyojin"}
-f4172754-166d-447c-b57f-251ab69e08ed	Attack on Titan: End of the World	2015-09-19	87	f	{"Attack on Titan: The Movie Part 2"}	{"original_title": "進撃の巨人 エンド オブ ザ ワールド", "original_translation": "Attack of Titan End of the World", "original_transliteration": "Shingeki No Kyojin Endo Obu Za Waarudo"}
 91b3b4e9-f72e-4c60-a50f-1829fdb2940f	Lorelei	2005-03-05	128	t	{"Lorelei: The Witch of the Pacific Ocean"}	{"original_title": "ローレライ", "original_translation": "Lorelei", "original_transliteration": "Roorerai"}
 93c6c6f9-c068-4976-9c72-10950be7d973	God's Left Hand, Devil's Right Hand	2006-07-22	95	t	\N	{"original_title": "神の左手悪魔の右手", "original_translation": "God's Left Hand Devil's Right Hand", "original_transliteration": "Kami No Hidarite Akuma No Migite"}
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	t	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 c4d93caa-1243-48ef-b1c0-6be48c681c53	Shin Godzilla	2016-07-29	119	t	{"Godzilla Resurgence"}	{"original_title": "シン・ゴジラ", "original_translation": "Shin Godzilla", "original_transliteration": "Shin Gojira"}
 22317580-1676-41c6-b638-83b082405a62	Wolf Children	2012-07-21	117	f	\N	{"original_title": "おおかみこどもの雨と雪", "original_translation": "Wolf and Children's Rain and Snow", "original_transliteration": "Ookami Kodomo No Ame To Yuki"}
-49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	Assassination Classroom	2015-03-21	110	f	\N	{"original_title": "暗殺教室", "original_translation": "Assassination Classroom", "original_transliteration": "Ansatsu Kyoushitsu"}
-39313ad4-4e0c-4378-90b9-6e6f691651b1	Assassination Classroom: Graduation	2016-03-25	117	f	\N	{"original_title": "暗殺教室〜卒業編〜", "original_translation": "Assassination Classroom~Graduation~", "original_transliteration": "Ansatsu Kyoushitsu~Sotsugyouhen~"}
-8e72221a-b3d5-4a85-bd92-30d496e8c2bd	Library Wars: The Last Mission	2015-10-10	120	f	\N	{"original_title": "図書館戦争-THE LAST MISSION-", "original_translation": "Library Wars -The Last Mission-", "original_transliteration": "Toshyokan Sensou -The Last Mission-"}
-96e7aa10-fc05-4790-bd57-660da4339f28	I Am A Hero	2016-04-23	127	f	\N	{"original_title": "アイアムアヒーロー", "original_translation": "I Am A Hero", "original_transliteration": "Ai Amu A Hiiroo"}
 34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	A Man Called Pirate	2016-12-10	145	f	{"Fueled: A Man Called Pirate"}	{"original_title": "海賊とよばれた男", "original_translation": "A Man Called Pirate", "original_transliteration": "Kaizokuto Yubareta Otoko"}
-44106e53-5f4a-40cf-9206-3244eb3aa620	Death Note: Light Up the New World	2016-10-29	135	f	\N	{"original_title": "デスノート Light up the NEW world", "original_translation": "Death Note Light up the NEW World", "original_transliteration": "Desu Nooto Light up the NEW world"}
 2a2c4aa6-1a29-4c0d-8224-4050fe6a21df	The Top Secret	2016-08-06	148	f	\N	{"original_title": "秘密 - THE TOP SECRET", "original_translation": "Secret - The Top Secret", "original_transliteration": "Himitsu - The Top Secret"}
 b8f05bfc-0f37-48bf-a304-fa0f7db6c988	All-Round Appraiser Q: The Eyes of Mona Lisa	2014-05-31	119	f	\N	{"original_title": "万能鑑定士Q -モナ・リザの瞳-", "original_translation": "Universal Appraiser Q -Mona Lisa's Eyes- ", "original_transliteration": "Honnou Kanteishi Q -Mona Riza No Hitomi-"}
 f7dcf70a-a776-4ad5-9447-b9b5c7ba11cb	Godzilla: Planet of the Monsters	2017-11-17	89	f	\N	{"original_title": "GODZILLA 怪獣惑星", "original_translation": "Godzilla Monster Planet", "original_transliteration": "Godzilla Kaijyuu Wakusei"}
+e1f6af59-f60e-4213-b722-1d0f987da1f8	Kagemusha	1980-04-26	179	t	\N	{"original_title": "影武者", "original_translation": "Shadow Warrior", "original_transliteration": "Kagemushya"}
+91d16b63-9716-4725-b319-b9ff46c80487	Parasyte	2014-11-29	109	t	\N	{"original_title": "寄生獣", "original_translation": "Parasitic Beast", "original_transliteration": "Kiseijyuu"}
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	Parasyte: Completion	2015-04-25	117	t	\N	{"original_title": "寄生獣 完結編", "original_translation": "Parasitic Beast Completion", "original_transliteration": "Kiseijyuu Kanketsuhen"}
+46d52769-4d58-4cec-a521-a57138748655	Makai Tensho: Samurai Reincarnation	1981-06-06	122	t	\N	{"original_title": "魔界転生", "original_translation": "Demon World Incarnation", "original_transliteration": "Makai Tenshyou"}
+c4dff626-aed3-4a1e-9823-3315be614257	L: Change the World	2008-02-09	129	t	\N	{"original_title": "L change the WorLd", "original_translation": "L: Change the World", "original_transliteration": "L Change the World"}
+eb390ec6-d2c1-432a-b10c-15e237c8532a	Rurouni Kenshin: Kyoto Inferno	2014-08-01	139	t	{"Rurouni Kenshin Part II: Kyoto Inferno"}	{"original_title": "るろうに剣心 京都大火編", "original_translation": "Rurouni Kenshin Kyoto Inferno", "original_transliteration": "Rurouni Kenshin Kyouto Taikahen"}
+a3112f14-09ae-474a-9eb8-b390d0637dd0	Rurouni Kenshin: The Legend Ends	2014-09-13	135	t	{"Rurouni Kenshin Part III: The Legend Ends"}	{"original_title": "るろうに剣心 伝説の最期編", "original_translation": "Rurouni Kenshin Legend Final Chapter", "original_transliteration": "Rurouni Kenshin Densetsu No Saigohen"}
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	Akira	1988-07-16	124	t	\N	{"original_title": "アキラ", "original_translation": "Akira", "original_transliteration": "Akira"}
+32feba7e-991a-4f63-90e4-31765bf552bd	Zatoichi	1989-02-04	116	t	{"Zatoichi: The Blind Swordsman","Zatoichi: Darkness is His Ally"}	{"original_title": "座頭市", "original_translation": "Zatoichi", "original_transliteration": "Zatouichi"}
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	Attack on Titan	2015-08-01	98	t	{"Attack on Titan: The Movie Part 1"}	{"original_title": "進撃の巨人", "original_translation": "Attack of Titan", "original_transliteration": "Shingeki No Kyojin"}
+f4172754-166d-447c-b57f-251ab69e08ed	Attack on Titan: End of the World	2015-09-19	87	t	{"Attack on Titan: The Movie Part 2"}	{"original_title": "進撃の巨人 エンド オブ ザ ワールド", "original_translation": "Attack of Titan End of the World", "original_transliteration": "Shingeki No Kyojin Endo Obu Za Waarudo"}
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	Assassination Classroom	2015-03-21	110	t	\N	{"original_title": "暗殺教室", "original_translation": "Assassination Classroom", "original_transliteration": "Ansatsu Kyoushitsu"}
+39313ad4-4e0c-4378-90b9-6e6f691651b1	Assassination Classroom: Graduation	2016-03-25	117	t	\N	{"original_title": "暗殺教室〜卒業編〜", "original_translation": "Assassination Classroom~Graduation~", "original_transliteration": "Ansatsu Kyoushitsu~Sotsugyouhen~"}
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	Library Wars: The Last Mission	2015-10-10	120	t	\N	{"original_title": "図書館戦争-THE LAST MISSION-", "original_translation": "Library Wars -The Last Mission-", "original_transliteration": "Toshyokan Sensou -The Last Mission-"}
+96e7aa10-fc05-4790-bd57-660da4339f28	I Am A Hero	2016-04-23	127	t	\N	{"original_title": "アイアムアヒーロー", "original_translation": "I Am A Hero", "original_transliteration": "Ai Amu A Hiiroo"}
+44106e53-5f4a-40cf-9206-3244eb3aa620	Death Note: Light Up the New World	2016-10-29	135	t	\N	{"original_title": "デスノート Light up the NEW world", "original_translation": "Death Note Light up the NEW World", "original_transliteration": "Desu Nooto Light up the NEW world"}
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platina Data	2013-03-16	133	t	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
 \.
 
 
@@ -2729,7 +2728,7 @@ f7dcf70a-a776-4ad5-9447-b9b5c7ba11cb	Godzilla: Planet of the Monsters	2017-11-17
 -- Data for Name: group_memberships; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY group_memberships (group_id, person_id) FROM stdin;
+COPY public.group_memberships (group_id, person_id) FROM stdin;
 5bbcef55-15b8-4fc1-a507-a115d57bfbbf	b8fae912-626e-4e22-aac4-10062bd7082f
 5bbcef55-15b8-4fc1-a507-a115d57bfbbf	701ee638-17cf-45b4-8815-95f87d4caf9a
 \.
@@ -2739,7 +2738,7 @@ COPY group_memberships (group_id, person_id) FROM stdin;
 -- Data for Name: groups; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY groups (id, name, showcase, active_start, active_end, props) FROM stdin;
+COPY public.groups (id, name, showcase, active_start, active_end, props) FROM stdin;
 5bbcef55-15b8-4fc1-a507-a115d57bfbbf	The Peanuts	t	1959	1975	{"original_name": "&#12470;&#12539;&#12500;&#12540;&#12490;&#12483;&#12484;"}
 660408b0-763e-451b-a3de-51cad893c087	The Bambi Pair	f	\N	\N	{"original_name": "&#12506;&#12450;&#12539;&#12496;&#12531;&#12499;"}
 33f7c137-fba9-42be-aa4d-d3caac47e2df	Tokyo Movie Department	f	1957	\N	{"original_name": "東京映画映像部"}
@@ -2758,7 +2757,7 @@ d100f247-637c-4ee9-a57f-c90015aa7fe0	Shezoo	f	\N	\N	\N
 -- Data for Name: people; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY people (id, given_name, family_name, gender, showcase, dob, dod, birth_place, death_place, aliases, other_names) FROM stdin;
+COPY public.people (id, given_name, family_name, gender, showcase, dob, dod, birth_place, death_place, aliases, other_names) FROM stdin;
 dd78923c-483a-474d-9b5a-11d4cc6b72dc	Nick	Adams	M	t	{"day": 10, "year": 1931, "month": 7}	{"day": 7, "year": 1968, "month": 2}	Nanticoke, Pennsylvania, United States	Beverly Hills, California, United States	\N	{"birth_name": "Nicholas Aloysius Adamschock", "japanese_name": "&#12491;&#12483;&#12463;&#12539;&#12450;&#12480;&#12512;&#12473;"}
 2869c9ca-e710-4a53-a103-ff393b129884	Eiji	Tsuburaya	M	t	{"day": 7, "year": 1901, "month": 7}	{"day": 25, "year": 1970, "month": 1}	Sukagawa, Fukushima, Japan	Ito, Shizuoka, Japan	\N	{"birth_name": "Eiichi Tsuburaya (&#20870;&#35895; &#33521;&#19968;)", "original_name": "&#20870;&#35895; &#33521;&#20108;"}
 c4d992f8-9b89-4eda-ae22-192e469d5c9f	Motoyoshi	Oda	M	t	{"day": 21, "year": 1909, "month": 7}	{"day": 21, "year": 1973, "month": 10}	Mojiko, Fukuoka, Japan	\N	\N	{"original_name": "&#23567;&#30000; &#22522;&#32681;"}
@@ -2814,6 +2813,7 @@ b53e5364-0ae6-4a10-b2d2-d41e6c87bd49	Minoru	Ito	M	t	{"day": 13, "year": 1928, "m
 c6877155-e133-42c0-874b-1aba9fd78b16	Tomoyuki	Tanaka	M	t	{"day": 26, "year": 1910, "month": 4}	{"day": 2, "year": 1997, "month": 4}	Kashiwara, Osaka, Japan	\N	\N	{"original_name": "&#30000;&#20013; &#21451;&#24184;"}
 fae6c562-be36-496b-acdb-889a433773cc	Setsuko	Wakayama	F	t	{"day": 7, "year": 1929, "month": 6}	{"day": 9, "year": 1985, "month": 5}	Meguro, Tokyo, Japan	Chofu, Tokyo, Japan	\N	{"birth_name": "Setsuko Sakazume (&#22338;&#29226; &#12475;&#12484;&#23376;)", "original_name": "&#33509;&#23665; &#12475;&#12484;&#23376;"}
 43f92b30-e8dc-496c-836f-a39ec34ce058	Kunio	Miyauchi	M	t	{"day": 16, "year": 1932, "month": 2}	{"day": 27, "year": 2006, "month": 11}	Setagaya, Tokyo, Japan	Fuchu, Tokyo, Japan	\N	{"birth_name": "Kokuro Miyauchi (&#23470;&#20869; &#22269;&#37070;)", "original_name": "&#23470;&#20869; &#22283;&#37070;"}
+a860b944-2633-47f3-bea6-8f6a2dece2ff	Hideo	Sunazuka	M	t	{"day": 7, "year": 1932, "month": 8}	\N	Atami, Shizuoka, Japan	\N	\N	{"original_name": "&#30722;&#22618; &#31168;&#22827;"}
 040d7f31-5c23-49df-9b69-d3fb78b6d93f	Tetsu	Nakamura	M	t	{"day": 19, "year": 1908, "month": 9}	{"day": 3, "year": 1992, "month": 8}	Vancouver, British Columbia, Canada	\N	\N	{"birth_name": "Satoshi Nakamura (&#20013;&#26449; &#21746;)", "original_name": "&#20013;&#26449; &#21746;"}
 1cfeedcd-f22a-4d2a-9858-491a773d65ad	Yutaka	Sada	M	t	{"day": 30, "year": 1922, "month": 3}	\N	Sendagi, Hongo, Tokyo, Japan	\N	\N	{"original_name": "&#20304;&#30000; &#35914;"}
 11865fca-5abe-4412-a3c3-be4e82245730	Haruko	Sugimura	F	t	{"day": 6, "year": 1906, "month": 1}	{"day": 4, "year": 1997, "month": 4}	Hiroshima, Japan	Bunkyo, Tokyo, Japan	\N	{"birth_name": "Haruko Nakano (&#20013;&#37326; &#26149;&#23376;)", "original_name": "&#26441;&#26449; &#26149;&#23376;"}
@@ -2821,7 +2821,6 @@ fae6c562-be36-496b-acdb-889a433773cc	Setsuko	Wakayama	F	t	{"day": 7, "year": 192
 3254e908-84ac-4e17-a4aa-36858e3c0942	Kenichi	Enomoto	M	t	{"day": 11, "year": 1904, "month": 10}	{"day": 7, "year": 1970, "month": 1}	Aoyama, Akasaka, Tokyo, Japan	\N	\N	{"original_name": "&#27022;&#26412; &#20581;&#19968;"}
 e230df43-9ff7-46ea-8e2a-a1f31a2b3204	Goro	Mutsumi	M	t	{"day": 11, "year": 1934, "month": 9}	\N	Higashi-Nada, Kobe, Hyogo, Japan	\N	\N	{"birth_name": "Seiji Nakanishi (&#20013;&#35199; &#28165;&#20108;)", "original_name": "&#30566; &#20116;&#26391;"}
 37f86cbf-f363-4661-a911-94a2505f0da0	Jun	Funato	M	t	{"day": 26, "year": 1938, "month": 11}	\N	Wakayama, Japan	\N	\N	{"birth_name": "Tsunetaka Nishina (&#20161;&#31185; &#24120;&#38534;)", "original_name": "&#33337;&#25144; &#38918;"}
-c9c178e8-1d9e-410e-af95-01a1cbfda822	William	Hodgson	M	t	{"day": 15, "year": 1877, "month": 11}	{"year": 1918, "month": 4}	Blackmore End, Essex, England	Ypres, Belgium	\N	{"japanese_name": "&#12454;&#12452;&#12522;&#12450;&#12512;&#12539;&#12507;&#12540;&#12503;&#12539;&#12507;&#12472;&#12473;&#12531;"}
 8354c6a4-fa6b-4ac6-8f8a-d29ff1d1d3bb	Heihachiro	Okawa	M	t	{"day": 9, "year": 1905, "month": 9}	{"day": 27, "year": 1971, "month": 5}	Saitama, Japan	\N	{"Henry Okawa (&#12504;&#12531;&#12522;&#12540;&#22823;&#24029;)"}	{"original_name": "&#22823;&#24029; &#24179;&#20843;&#37070;"}
 415eddaf-1711-4795-9381-bc001c89b0a7	Naoya	Kusakawa	M	t	{"day": 11, "year": 1929, "month": 6}	\N	Manchuria	\N	\N	{"original_name": "&#33609;&#24029; &#30452;&#20063;"}
 f9a23daa-fab8-418d-90f0-30a195ca171d	Yoshio	Katsube	M	t	{"day": 19, "year": 1934, "month": 3}	\N	Ota, Shimane, Japan	\N	\N	{"original_name": "&#21213;&#37096; &#32681;&#22827;"}
@@ -2842,6 +2841,7 @@ c0eeeca2-2862-4a6f-bf5b-66920a8172a8	Nobuo	Nakamura	M	t	{"day": 14, "year": 1908
 2ffd8877-261d-408c-97df-97bd6eb5748d	Mitsuko	Kusabue	F	t	{"day": 22, "year": 1933, "month": 10}	\N	Yokohama, Kanagawa, Japan	\N	\N	{"original_name": "&#33609;&#31515; &#20809;&#23376;"}
 e4fc3ee2-b54f-4ec0-8a84-64352507c5de	Shigeru	Mori	M	f	\N	\N	\N	\N	\N	{"original_name": "&#26862;&#33538;"}
 2caacc76-1f58-43ec-867c-ea717b8db1fb	Teruhiko	Arakawa	M	f	\N	\N	\N	\N	\N	\N
+32b3608c-6052-4ea4-9f14-38fa182a0340	Shoji	Oki	M	t	{"day": 27, "year": 1936, "month": 9}	\N	Numazu, Shizuoka, Japan	\N	\N	{"original_name": "&#22823;&#26408; &#27491;&#21496;"}
 f298c956-ac3a-4d29-b92b-462c16b833e1	Shunro	Oshikawa	M	t	{"day": 21, "year": 1876, "month": 3}	{"day": 16, "year": 1914, "month": 11}	Matsuyama, Ehime, Japan	Tokyo, Japan	\N	{"birth_name": "Masanori Oshikawa (&#25276;&#24029; &#26041;&#23384;)", "original_name": "&#25276;&#24029; &#26149;&#28010;"}
 65171b44-fd3a-4948-9613-3f7206141774	Hideo	Shibuya	M	t	{"day": 20, "year": 1928, "month": 2}	\N	Tokyo, Japan	\N	\N	{"original_name": "&#28171;&#35895; &#33521;&#30007;"}
 b883c489-0fe7-4165-86a4-49b531a28c37	Rinsaku	Ogata	M	t	{"day": 6, "year": 1925, "month": 1}	\N	\N	\N	\N	{"original_name": "&#32210;&#26041; &#29136;&#20316;"}
@@ -2851,7 +2851,6 @@ f38a2a42-a836-4c62-a1d5-265cba51076b	Keiji	Sakakida	M	t	{"day": 15, "year": 1900
 b08c8645-13e0-4392-b01e-3d1d069d60ae	Fuminto	Matsuo	M	t	{"day": 6, "year": 1916, "month": 8}	{"unknown": 1}	Higashi, Yokohama, Kanagawa, Japan	\N	\N	{"original_name": "&#26494;&#23614; &#25991;&#20154;"}
 23034690-67d2-4b91-a857-a04f9f810deb	Sonosuke	Sawamura	M	t	{"day": 1, "year": 1918, "month": 7}	{"day": 3, "year": 1978, "month": 11}	Akakusa, Tokyo, Japan	\N	\N	{"original_name": "&#28580;&#26449; &#23447;&#20043;&#21161;"}
 60c38e10-e1ed-46f5-b167-2938649e4503	Ikuma	Dan	M	t	{"day": 17, "year": 1924, "month": 4}	{"day": 17, "year": 2001, "month": 5}	Yotsuya, Tokyo, Japan	Suzhou, Jiangsu, China	\N	{"original_name": "&#22296; &#20234;&#29590;&#30952;"}
-fe24405b-2c4d-479e-8f0c-0233a656f259	Harold	Conway	M	t	{"day": 24, "year": 1911, "month": 5}	{"year": 1996}	Pennsylvania, United States	Japan	\N	{"japanese_name": "&#12495;&#12525;&#12523;&#12489;&#12539;S&#12539;&#12467;&#12531;&#12454;&#12455;&#12452;"}
 68f3c5f0-720d-4047-afd0-8bcdf0e89892	Ganjiro	Nakamura	M	t	{"day": 17, "year": 1902, "month": 2}	{"day": 13, "year": 1983, "month": 4}	Osaka, Japan	\N	\N	{"birth_name": "Yoshio Hayashi (&#26519;&#22909;&#38596;)", "original_name": "&#20013;&#26449;&#40200;&#27835;&#37070;"}
 19291744-943e-4d56-a006-f82021b01e1a	Ichiro	Arishima	M	t	{"day": 1, "year": 1916, "month": 3}	{"day": 20, "year": 1987, "month": 7}	Nagoya, Aichi, Japan	\N	\N	{"birth_name": "Tadao Oshima (&#22823;&#23798; &#24544;&#38596;)", "original_name": "&#26377;&#23798; &#19968;&#37070;"}
 f30c8c01-5689-44b7-9009-468f0165763b	Kyoko	Anzai	F	t	{"day": 27, "year": 1934, "month": 9}	{"day": 28, "year": 2002, "month": 12}	Osaka, Japan	Shibuya, Tokyo, Japan	\N	{"original_name": "&#23433;&#35199; &#37111;&#23376;"}
@@ -2871,8 +2870,6 @@ bdd9d156-3b37-4094-b65a-162ce892674d	Eitaro	Ozawa	M	t	{"day": 27, "year": 1909, 
 def945ba-826b-4d5a-b100-ce9eb2362805	Minoru	Takada	M	t	{"day": 20, "year": 1899, "month": 12}	{"day": 27, "year": 1977, "month": 12}	Higashinaruse, Ogachi, Akita, Japan	\N	\N	{"birth_name": "Noboru Takada (&#39640;&#30000; &#26119;)", "original_name": "&#39640;&#30000; &#31252;"}
 16cf1b1e-dfd0-420d-a624-325b6287dd1a	Frankie	Sakai	M	t	{"day": 13, "year": 1929, "month": 2}	{"day": 10, "year": 1996, "month": 6}	Kagoshima, Japan	Minato, Tokyo, Japan	\N	{"birth_name": "Masatoshi Sakai (&#22586; &#27491;&#20426;)", "original_name": "&#12501;&#12521;&#12531;&#12461;&#12540;&#22586;"}
 eb909bc3-8688-4b5d-91c7-bae649a84c2a	Masanari	Nihei	M	t	{"day": 4, "year": 1940, "month": 12}	\N	Nagatacho, Kojimachi, Tokyo, Japan	\N	\N	{"original_name": "&#20108;&#29942; &#27491;&#20063;"}
-a860b944-2633-47f3-bea6-8f6a2dece2ff	Hideo	Sunazuka	M	t	{"day": 7, "year": 1932, "month": 8}	\N	Atami, Shizuoka, Japan	\N	\N	{"original_name": "&#30722;&#22618; &#31168;&#22827;"}
-32b3608c-6052-4ea4-9f14-38fa182a0340	Shoji	Oki	M	t	{"day": 27, "year": 1936, "month": 9}	\N	Numazu, Shizuoka, Japan	\N	\N	{"original_name": "&#22823;&#26408; &#27491;&#21496;"}
 2f7a44eb-826b-477e-973b-5c57a715b25a	Mitsuo	Tsuda	M	t	{"day": 13, "year": 1910, "month": 9}	{"unknown": 1}	Fukushima, Japan	\N	\N	{"original_name": "&#27941;&#30000; &#20809;&#30007;"}
 92dd9d68-0b73-443a-8aae-f0e7bba34f32	Kamayuki	Tsubono	M	t	{"day": 26, "year": 1919, "month": 7}	{"unknown": 1}	\N	\N	\N	{"original_name": "&#22378;&#37326; &#37772;&#20043;"}
 20f64b6e-c968-4cf2-b195-76561d8acea6	Soji	Ubukata	M	t	{"day": 29, "year": 1908, "month": 3}	{"unknown": 1}	Tokyo, Japan	\N	\N	{"original_name": "&#29983;&#26041; &#22766;&#20816;"}
@@ -3008,6 +3005,7 @@ a37d0291-2e69-40af-86f0-133859aaf1ff	Kisaku	Ito	M	f	{"day": 1, "year": 1899, "mo
 f0248816-9020-47ff-a5f2-b77c0e43002c	Ko	Nishimura	M	f	{"day": 25, "year": 1923, "month": 1}	{"day": 15, "year": 1997, "month": 4}	Sapporo, Hokkaido, Japan	Kokubunji, Tokyo, Japan	\N	{"original_name": "&#35199;&#26449; &#26179;"}
 a7476494-4b15-4fd8-93b4-4548ed8f0086	Shoshichi	Kojima	M	f	\N	\N	\N	\N	\N	{"original_name": "&#23567;&#23798;&#27491;&#19971;"}
 479f2ab3-c3c5-4049-8b4e-99367ceb893d	Seiji	Onaka	M	f	{"day": 15, "year": 1934, "month": 12}	\N	Nara, Japan	\N	\N	{"original_name": "&#22823;&#20210; &#28165;&#27835;"}
+a63d1091-af4f-49a3-9520-a3eb2ff778d2	Shunsuke	Kikuchi	M	f	{"day": 1, "year": 1931, "month": 11}	\N	Hirosaki, Aomori, Japan	\N	\N	{"original_name": "菊池 俊輔"}
 46232c4d-423c-40eb-941d-087f6a1d0643	Hideo	Mihara	M	f	{"day": 9, "year": 1912, "month": 1}	{"day": 1, "year": 2003, "month": 11}	Asakasa, Tokyo, Japan	Tokyo, Japan	\N	{"original_name": "&#20304;&#20271; &#31168;&#30007;"}
 08872122-2396-4e80-9a74-ef85447c4057	Mitsuo	Kaneko	M	f	\N	\N	\N	\N	\N	{"original_name": "&#37329;&#23376;&#20809;&#30007;"}
 24651b22-cbb0-4472-9d73-c96ed96829d6	Choshichiro	Mikami	M	f	\N	\N	\N	\N	\N	{"original_name": "&#19977;&#19978;&#38263;&#19971;&#37070;"}
@@ -3094,7 +3092,6 @@ b86bdf63-3b93-45b4-9fac-e502ae05c8dc	Sozaburo	Shinomura	M	f	\N	\N	\N	\N	\N	\N
 1efc7ab0-558e-40d5-9ff6-e7d469357984	Shoichi	Uehara	M	f	\N	\N	\N	\N	\N	{"original_name": "上原 正一"}
 9a0aefbe-591f-4dae-9c4d-5ff785c4a061	Hiroshi	Yamada	M	f	\N	\N	\N	\N	\N	{"original_name": "山田 弘"}
 b4496161-1678-4409-b9fd-da6ef674df01	Hiroshi	Imai	M	f	\N	\N	\N	\N	\N	{"original_name": "今井 ひろし"}
-a63d1091-af4f-49a3-9520-a3eb2ff778d2	Shunsuke	Kikuchi	M	f	{"day": 1, "year": 1931, "month": 11}	\N	Hirosaki, Aomori, Japan	\N	\N	{"original_name": "菊池 俊輔"}
 4139cd2f-a171-45dd-9606-0621de923045	Eibi	Motomochi	M	f	\N	\N	\N	\N	\N	{"original_name": "元持 栄美"}
 89bb92ec-906d-4ae8-8296-1c917f0224b1	Takashi	Inomata	M	f	\N	\N	\N	\N	\N	{"original_name": "猪股 尭"}
 7c84b99f-8441-4bca-b272-28871206e3c8	Noboru	Nishiyama	M	f	\N	\N	\N	\N	\N	{"original_name": "西山 登"}
@@ -3184,6 +3181,7 @@ dc03d84b-d92e-40f7-af3c-40caf85e6eca	Ichio	Yamazaki	M	f	\N	\N	\N	\N	\N	{"origina
 944966bf-f205-4e7a-9981-d90d7243b735	Fukuzo	Koizumi	M	f	\N	\N	\N	\N	\N	{"original_name": "小泉 福造"}
 49ec5fc1-871e-4ef6-a1dc-39714630f0f3	Eijiro	Hisaita	M	f	{"day": 3, "year": 1898, "month": 7}	{"day": 9, "year": 1976, "month": 6}	Iwanuma, Natori, Miyagi, Japan	\N	\N	{"original_name": "久板 栄二郎"}
 b643f770-2b75-4065-91ac-4f21ac47453a	Ed	McBain	M	f	{"day": 15, "year": 1926, "month": 10}	{"day": 6, "year": 2005, "month": 7}	New York City, New York, United States	Weston, Connecticut, United States	\N	{"birth_name": "Salvatore Albert Lombino", "japanese_name": "エド・マクベイン"}
+416a7fcb-7d47-482a-ab0d-9b4a7f8ce7f6	Takao	Shirae	M	f	\N	\N	\N	\N	\N	{"original_name": "白江 隆夫"}
 115ab5ac-8e85-41c1-9b42-52e11cd5cd90	Norio	Nanjo	M	f	{"day": 14, "year": 1908, "month": 11}	{"day": 30, "year": 2004, "month": 10}	Tokyo, Japan	\N	\N	{"original_name": "南條 範夫"}
 cf9e71db-529a-49af-88be-b13757cd5e72	Yasuo	Konishi	M	f	\N	\N	\N	\N	\N	{"original_name": "小西 康夫"}
 51459937-b608-4581-8812-27bc6bb177f9	Yoshiyuki	Miyazaki	M	f	\N	\N	\N	\N	\N	{"original_name": "宮崎 善行"}
@@ -3227,6 +3225,7 @@ e3609a7f-5285-426b-811d-dd3512452d72	Hisashi	Kondo	M	f	\N	\N	\N	\N	\N	{"original
 520c957d-c00e-4139-b9d6-2462273148cf	Kenjiro	Omori	M	f	{"day": 3, "year": 1933, "month": 11}	{"day": 3, "year": 2006, "month": 12}	Qingdao, China	Shibuya, Tokyo, Japan	\N	{"original_name": "大森 健次郎"}
 4467cbd3-7a74-4fc0-b7ed-6290d4f64596	Sakyo	Komatsu	M	f	{"day": 28, "year": 1931, "month": 1}	{"day": 26, "year": 2011, "month": 7}	Nishi, Osaka, Japan	Mino, Osaka, Japan	\N	{"birth_name": "Minoru Komatsu (小松 実)", "original_name": "小松 左京"}
 dc0d8254-fdb0-4b75-8198-17d52e9ffc4d	Shoji	Ueda	M	f	{"day": 1, "year": 1938, "month": 1}	\N	Funabashi, Chiba, Japan	\N	\N	{"original_name": "上田 正治"}
+70ad5086-a687-4208-8566-139b0ee66673	Shigeki	Takeuchi	M	f	\N	\N	\N	\N	\N	{"original_name": "竹内 茂樹"}
 6b5800f5-ccd8-498d-855f-b5f76c1cd0aa	Shinobu	Muraki	M	f	{"day": 2, "year": 1923, "month": 9}	{"day": 16, "year": 1997, "month": 1}	Tokyo, Japan	\N	\N	{"birth_name": "Shinobu Nagaoka (長岡 忍)", "original_name": "村木 忍"}
 99487723-208d-46c0-8e6d-0ddca9a5a10e	Masaaki	Hirao	M	f	{"day": 24, "year": 1937, "month": 12}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Isao Hirao (平尾 勇)", "original_name": "平尾 昌晃"}
 32fbe797-4b21-4326-8783-26b5ff597967	Kensuke	Kyo	M	f	{"day": 26, "year": 1937, "month": 8}	\N	Kyoto, Japan	\N	\N	{"birth_name": "Kenzo Anno (安野 健三)", "original_name": "京 建輔"}
@@ -3308,7 +3307,6 @@ a21e48ab-e30c-4c50-a590-a01bcc74805f	Minoru	Nakano	M	f	\N	\N	\N	\N	\N	{"original
 57499d0b-69e9-4abe-94fd-0ef83eb5f769	Yasuzo	Inagaki	M	f	\N	\N	\N	\N	\N	{"original_name": "稲垣 涌三"}
 c2ce51a6-f9cb-43c1-af63-a99b69be4a4e	Noriyoshi	Ikeya	M	f	{"day": 31, "year": 1940, "month": 8}	{"day": 25, "year": 2016, "month": 10}	\N	\N	\N	{"original_name": "池谷 仙克"}
 9679998a-af62-4621-bba2-5bc74558c7e8	Saru	Arai	M	f	\N	\N	\N	\N	\N	{"original_name": "新井 盛"}
-416a7fcb-7d47-482a-ab0d-9b4a7f8ce7f6	Takao	Shirae	M	f	\N	\N	\N	\N	\N	{"original_name": "白江 隆夫"}
 a25fc6da-b064-484a-9ca5-45adf9330504	Junya	Sato	M	f	{"day": 6, "year": 1932, "month": 11}	\N	Tokyo, Japan	\N	{"Junya Sato (佐藤 純弥)"}	{"original_name": "佐藤 純彌"}
 08005804-0292-44a1-b32b-21fc6e7bdd74	Arei	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 阿礼"}
 d5348e29-45a7-4582-8af3-9fbc03439e29	Ryunosuke	Onoe	M	f	\N	\N	\N	\N	\N	{"original_name": "小野 竜之助"}
@@ -3404,7 +3402,6 @@ ecbcacdc-e0d7-419d-9130-2b3089931512	Naoko	Asanashi	M	f	\N	\N	\N	\N	\N	{"origina
 87b8d051-853c-4f36-b1a5-e8a90a3ec3aa	Ken	Sakai	M	f	\N	\N	\N	\N	\N	{"original_name": "酒井 賢"}
 c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Kenji	Suzuki	M	f	{"day": 9, "year": 1957, "month": 7}	\N	Ibaraki, Japan	\N	\N	{"original_name": "鈴木 健二"}
 a487b3f6-70fa-4a73-bb88-cab349a731b3	Keita	Amemiya	M	f	{"day": 24, "year": 1959, "month": 8}	\N	Urayasu, Chiba, Japan	\N	\N	{"original_name": "雨宮 慶太"}
-70ad5086-a687-4208-8566-139b0ee66673	Shigeki	Takeuchi	M	f	\N	\N	\N	\N	\N	{"original_name": "竹内 茂樹"}
 b732ed8a-d5e8-4771-a59c-d001c40899b7	Yu	Ichida	M	f	\N	\N	\N	\N	\N	{"original_name": "市田 裕"}
 f9009415-0f02-4c68-a394-e6e794d3b7da	Hajime	Matsumoto	M	f	{"day": 4, "year": 1963, "month": 5}	\N	Kanagawa, Japan	\N	\N	{"original_name": "松本 肇"}
 79f56dae-3fed-4c61-bbac-bce1ab79827b	Hiroshi	Honjo	M	f	\N	\N	\N	\N	\N	{"original_name": "本所 寛"}
@@ -3511,6 +3508,7 @@ fb16a56b-7e00-4c0c-8c4b-4a0d543dcc06	Anri	Jojo	M	f	{"year": 1962}	\N	Tokyo, Japa
 1d2a7328-2213-4325-a928-29a5ecc806df	Michiru	Oshima	F	f	{"day": 16, "year": 1961, "month": 3}	\N	Nagasaki, Japan	\N	\N	{"original_name": "大島 ミチル"}
 2f6156e5-e4f5-4a31-b4ed-289f173f851e	Yuichi	Kikuchi	M	f	{"day": 3, "year": 1970, "month": 3}	\N	Iwate, Japan	\N	\N	{"original_name": "菊地 雄一"}
 c33abc34-5327-4f7c-be7e-79d6abd7f7ba	Koshun	Takami	M	f	{"day": 10, "year": 1969, "month": 1}	\N	Nada, Kobe, Hyogo, Japan	\N	\N	{"birth_name": "Hiroharu Takami (高見 宏治)", "original_name": "高見 広春"}
+9c22d6dc-aef8-41e4-a2c9-5d70725947cd	Manabu	Shiraishi	M	f	\N	\N	\N	\N	\N	{"original_name": "白石 学"}
 93d867fe-9397-4248-b5bc-d198f19a3252	Kenta	Fukasaku	M	f	{"day": 15, "year": 1972, "month": 9}	\N	Tokyo, Japan	\N	\N	{"original_name": "深作 健太"}
 b7a6b700-9f85-4c6e-995a-285bd6adbf58	Masamichi	Amano	M	f	{"day": 26, "year": 1957, "month": 1}	\N	Akita, Japan	\N	\N	{"original_name": "天野 正道"}
 052de1bb-6a4c-402f-9e7a-a6a56844b3be	Katsumi	Yanagijima	M	f	{"year": 1950}	\N	Gifu, Japan	\N	\N	{"original_name": "柳島 克己"}
@@ -3615,6 +3613,7 @@ adeb17b8-6fd9-459c-847d-0447af4e6f38	Yoshitaka	Sakamoto	M	f	{"day": 14, "year": 
 86419c88-5156-461c-a5d7-8858d37cabce	Takeshi	Murosone	M	f	\N	\N	\N	\N	\N	{"original_name": "室薗 剛"}
 ecc709b7-ebbd-4d80-b7f8-274183a128bd	Ryo	Hanamura	M	f	{"day": 27, "year": 1933, "month": 10}	{"day": 4, "year": 2002, "month": 3}	Katsushika, Tokyo, Japan	\N	\N	{"original_name": "半村 良"}
 58f57b15-b22e-4c54-b0c9-c892fc3e4726	Takayuki	Nitta	M	f	\N	\N	\N	\N	\N	{"original_name": "新田 隆之"}
+a0d4f41a-17d5-41c2-8934-e065a4a85205	Akiko	Nogi	F	f	{"year": 1974}	\N	Tokyo, Japan	\N	\N	{"original_name": "野木 亜紀子"}
 5c425c4a-492d-4e75-b9aa-0b544db3e802	Ryohei	Saigan	M	f	{"day": 30, "year": 1947, "month": 7}	\N		\N	\N	{"original_name": "西岸 良平"}
 6e9ff7f8-3e9b-4cee-9a1c-89dfbbb66ee8	Takeshi	Okubo	M	f	\N	\N	\N	\N	\N	{"original_name": "大久保 武志"}
 b0b13286-8a9a-4c13-9427-be294c02d733	Ten	Shimoyama	M	f	{"day": 6, "year": 1966, "month": 3}	\N	Hiraichi, Aomori, Japan	\N	\N	{"original_name": "下山 天"}
@@ -3665,7 +3664,6 @@ eaa4bcf7-6b19-49fc-af96-0d009e994e91	Akio	Kimura	M	f	\N	\N	\N	\N	\N	{"original_n
 35839e17-c401-4ddf-90d3-63c1b78f50a6	Saruhiro	Shibayama	M	f	\N	\N	\N	\N	\N	{"original_name": "柴山 申広"}
 557488d2-0c99-499c-8951-1d8e1e1546a3	Shinji	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_name": "田中 慎二"}
 409d64cf-499d-4448-86fa-67b7cca73ab9	Koji	Kanaya	M	f	{"year": 1965}	\N	\N	\N	\N	{"original_name": "金谷 宏二"}
-9c22d6dc-aef8-41e4-a2c9-5d70725947cd	Manabu	Shiraishi	M	f	\N	\N	\N	\N	\N	{"original_name": "白石 学"}
 7c488e9f-1160-4847-a4c4-a799c1550999	Tomoki	Nagasaka	M	f	{"day": 11, "year": 1975, "month": 2}	\N	\N	\N	\N	{"original_name": "長坂 智樹"}
 5a20fb36-2128-481c-90c4-d4aa17ba459d	Hideo	Sakaki	M	f	{"day": 4, "year": 1970, "month": 6}	\N	Goto, Nagasaki, Japan	\N	\N	{"original_name": "榊 英雄"}
 2ff50ae0-77d1-46d7-9e01-3d9c99a1260f	Toshiyuki	Kubota	M	f	\N	\N	\N	\N	\N	\N
@@ -3826,6 +3824,71 @@ b37bc229-fb86-4052-afc5-20c790b5cc18	Diana	Jones	M	f	{"day": 16, "year": 1934, "
 8f75a035-1097-4c3a-947e-72f838320019	So	Takagi	M	f	\N	\N	\N	\N	\N	{"original_name": "高木 創"}
 610229eb-7c6b-4a0b-8503-e14ca7392fa6	Satoshi	Kato	M	f	\N	\N	\N	\N	\N	{"original_name": "加藤 敏"}
 5e35fe94-1c41-4e60-a400-aa44c201deb1	Yosuke	Natsuki	M	t	{"day": 27, "year": 1936, "month": 2}	{"day": 14, "year": 2018, "month": 1}	Hachioji, Tokyo, Japan	\N	\N	{"birth_name": "Tamotsu Akuzawa (&#38463;&#20037;&#27810; &#26377;)", "original_name": "&#22799;&#26408; &#38525;&#20171;"}
+40eb79fc-5755-4223-b077-12c4e66bf835	Francis	Coppola	M	f	{"day": 7, "year": 1939, "month": 4}	\N	Detroit, Michigan, United States	\N	\N	{"middle_name": "Ford", "japanese_name": "フランシス・フォード・コッポラ"}
+09e08c88-44a4-4148-8c7a-666682e00146	George	Lucas	M	f	{"day": 14, "year": 1944, "month": 5}	\N	Modesto, California, United States	\N	\N	{"japanese_name": "ジョージ・ルーカス"}
+340ba693-a5ff-4b61-bbed-41abf248f85e	Teruyo	Nogami	M	f	{"day": 24, "year": 1927, "month": 5}	\N	Tokyo, Japan	\N	\N	{"original_name": "野上 照代"}
+5cc2f3ba-45cc-41e8-9d28-02d50e82dcbf	Masato	Ide	M	f	{"day": 1, "year": 1920, "month": 1}	\N	Saga, Japan	\N	\N	{"original_name": "井手 雅人"}
+8edcb9ae-989f-49d5-9cce-68671dd36442	Takeshi	Sano	M	f	{"day": 4, "year": 1930, "month": 3}	{"day": 11, "year": 2011, "month": 5}	Kyoto, Japan	Kyoto, Japan	\N	{"original_name": "佐野 武治"}
+6802fe1c-3b82-4c42-9b64-0e12e37b8b96	Shinichiro	Ikebe	M	f	{"day": 15, "year": 1943, "month": 9}	\N	Mito, Ibaraki, Japan	\N	\N	{"original_name": "池辺 晋一郎"}
+b1d7d286-0e01-410a-a47e-34d862a65722	Masami	Yuki	M	f	{"day": 19, "year": 1957, "month": 12}	\N	Sapporo, Hokkaido, Japan	\N	\N	{"original_name": "ゆうき まさみ"}
+0d864fe2-91c5-4c6a-b6c9-6e68f950f932	Mitsunobu	Yoshida	M	f	\N	\N	\N	\N	\N	{"original_name": "吉田 光伸"}
+e97c66e9-d66e-4148-bad4-05f8527cfb29	Hideo	Nakata	M	f	{"day": 19, "year": 1961, "month": 7}	\N	Kanamachi, Okayama, Japan	\N	\N	{"original_name": "中田 秀夫"}
+a29bd6cd-2414-41bb-89b9-4198ef987ed8	Hirotoshi	Kobayashi	M	f	{"day": 29, "year": 1960, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "小林 弘利"}
+545bdec3-0caf-43d5-bd2e-5b492fd35025	Tokusho	Kikumura	M	f	\N	\N	\N	\N	\N	{"original_name": "喜久村 徳章"}
+777bd198-f7a1-42a9-98dd-9515409ffe22	Yuki	Nakamura	M	f	\N	\N	\N	\N	\N	{"original_name": "中村 裕樹"}
+67e34347-cd31-4e0e-b7f1-4c97cc695f40	Kyoko	Yauchi	M	f	\N	\N	\N	\N	\N	{"original_name": "矢内 京子"}
+9d9be0bf-e74b-4e10-a9f3-4833e8640d8a	Masato	Komatsu	M	f	\N	\N	\N	\N	\N	{"original_name": "小松 将人"}
+dc91df6b-94a2-4019-8162-309f456c4a6b	Nobuyuki	Takahashi	M	f	\N	\N	\N	\N	\N	{"original_name": "高橋 信之"}
+ec08db60-905d-4f2f-afbb-6481f8768377	Katsunari	Mano	M	f	{"day": 13, "year": 1975, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "真野 勝成"}
+09d21247-c3b9-42ac-b0d0-5aefcbd118e9	Yutaka	Yamada	M	f	{"day": 14, "year": 1989, "month": 3}	\N	Tokyo, Japan	\N	\N	{"original_name": "やまだ 豊"}
+1fa1805e-0ccd-46c7-96ee-6d870426f7e5	Iwao	Saito	M	f	\N	\N	\N	\N	\N	{"original_name": "斎藤 岩男"}
+b8b9ad6f-b432-469d-ba69-5ee62777e22f	Eiichiro	Hasumi	M	f	{"day": 29, "year": 1967, "month": 3}	\N	Chiba, Japan	\N	\N	{"original_name": "羽住 英一郎"}
+36faa24a-f665-4d86-a6d7-bfc72ed75939	Yusei	Matsui	M	f	{"day": 31, "year": 1979, "month": 1}	\N	Iruma, Saitama, Japan	\N	\N	{"original_name": "松井 優征"}
+135e644b-d6d7-4192-84da-becbfbb73823	Tatsuya	Kanazawa	M	f	{"day": 26, "year": 1971, "month": 8}	\N	Gunma, Japan	\N	\N	{"original_name": "金沢 達也"}
+2c8930a2-e600-4444-ba0e-2f898960d932	Fumihiko	Yanagiya	M	f	\N	\N	\N	\N	\N	{"original_name": "柳屋 文彦"}
+3f1b96fd-5e1d-4540-afd6-01bbf51352f1	Yoji	Sakaki	M	f	\N	\N	\N	\N	\N	{"original_name": "棈木 陽次"}
+7dd12d51-6edf-461b-8540-258cdef9d02e	Hajime	Isayama	M	f	{"day": 29, "year": 1986, "month": 8}	\N	Oyama, Oita, Japan	\N	\N	{"original_name": "諫山 創"}
+4c2eb8ac-6da0-4522-99a2-1f39987515bd	Tomohiro	Masayama	M	f	{"day": 5, "year": 1962, "month": 7}	\N	Chiyoda, Tokyo, Japan	\N	\N	{"original_name": "町山 智浩"}
+c1571776-6c50-44d0-a24c-a6b36cc7caa7	Takashi	Sugimoto	M	f	\N	\N	\N	\N	\N	{"original_name": "杉本 崇"}
+8a29ed43-2fae-4fba-b9c7-4fab1fccb51f	Hironobu	Tanaka	M	f	\N	\N	\N	\N	\N	{"original_name": "田中 博信"}
+d076bccf-264e-4e19-b036-ff7fb6a9f7fb	Yusuke	Ishida	M	f	{"day": 5, "year": 1977, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "石田 雄介"}
+5788cc3b-2bf1-4f6f-9d01-f9f4c64ba4d7	Minami	Tsujino	M	f	\N	\N	\N	\N	\N	{"original_name": "ツジノ ミナミ"}
+f93fe7cf-b1ad-434a-bcf9-5aae1b5aed3d	Hiro	Arikawa	M	f	{"day": 9, "year": 1972, "month": 6}	\N	Kochi, Japan	\N	\N	{"original_name": "有川 浩"}
+dcb32025-3e6e-471d-acdc-b01fb69e2ea3	Yu	Takami	M	f	\N	\N	\N	\N	\N	{"original_name": "髙見 優"}
+6366920b-1224-4e08-866d-54bbd5e24fc9	Hitoshi	Iwaaki	M	f	{"day": 28, "year": 1960, "month": 7}	\N	Tokyo, Japan	\N	\N	{"original_name": "岩明 均"}
+d996ffde-6929-41ee-8ff7-d75f5e4efa00	Takato	Ishikawa	M	f	{"day": 22, "year": 1938, "month": 5}	\N	Fukuoka, Japan	\N	\N	{"original_name": "石川 孝人"}
+ed23737f-3ede-4148-ac2a-c4bbf09809f0	Toshiharu	Mizutani	M	f	\N	\N	\N	\N	\N	{"original_name": "水谷 利春"}
+50a51da5-a521-4a05-8632-addd3ac4bc01	Senchi	Horiuchi	M	f	\N	\N	\N	\N	\N	{"original_name": "堀内 戦治"}
+b123d854-4a66-4205-baea-c4880e6e0fe4	Shoichi	Ato	M	f	\N	\N	\N	\N	\N	{"original_name": "阿藤 正一"}
+827ccc71-ab7c-4bc4-a9fd-4a898a27cb45	Shozo	Sakane	M	f	\N	\N	\N	\N	\N	{"original_name": "坂根 省三"}
+7f4b87a9-4737-4606-bc0c-18d1b3dae474	Katsuji	Misawa	M	f	\N	\N	\N	\N	\N	{"original_name": "三澤 勝治"}
+dccbb5f6-d7d3-42f5-9d31-9b198bd05bfa	Chiyo	Umeda	M	f	\N	\N	\N	\N	\N	{"original_name": "梅田 千代夫"}
+e4baf52a-e480-43e3-ad8a-d15df1e99fe2	Susumu	Takakura	M	f	\N	\N	\N	\N	\N	{"original_name": "高倉 進"}
+bdd11c1f-46bc-48c5-b33c-f7209415136d	Etsuaki	Masuda	M	f	\N	\N	\N	\N	\N	{"original_name": "増田 悦章"}
+aa08a7b2-b6b4-4e53-8d99-08e72a5c52bc	Susumu	Aketagawa	M	f	{"day": 28, "year": 1941, "month": 11}	\N	\N	\N	\N	{"original_name": "明田川 進"}
+a8b7c3da-de87-49d9-81f8-9f19302ed913	Junnosuke	Ogaki	M	f	\N	\N	\N	\N	\N	{"original_name": "穗垣 順之助"}
+2464441e-bfe9-4ddf-a0cf-8443ff35a4e1	Shigeji	Nakayama	M	f	\N	\N	\N	\N	\N	{"original_name": "中山 茂二"}
+cdefe055-b6d5-4e8f-9e0a-316294f86c9e	Tsutomu	Ohashi	M	f	{"day": 14, "year": 1933, "month": 3}	\N	Oyama, Tochigi, Japan	\N	{"Shoji Yamashiro (山城 祥二)"}	{"original_name": "大橋 力"}
+e2eea82f-75f6-4b7f-af0d-0300fb1e0a70	Kengo	Hanazawa	M	f	{"day": 5, "year": 1974, "month": 1}	\N	Hachinohe, Aomori, Tokyo	\N	\N	{"original_name": "花沢 健吾"}
+9ca95836-35e6-4672-8f18-55f4623ee737	Norimichi	Ikawa	M	f	\N	\N	\N	\N	\N	{"original_name": "井川 徳道"}
+4596c5ea-e6d1-4a88-994e-649b18eef2e2	Tsukamoto	Adams	M	f	\N	\N	\N	\N	\N	{"middle_name": "Jun", "original_name": "塚本ジューン・アダムス"}
+71b15435-86f7-4793-b5e2-04cb8ca24683	Nima	Fakhrara	M	f	\N	\N	\N	\N	\N	{"japanese_name": "ニマ・ファクララ"}
+8239b961-4c19-4e07-a545-4da458270593	Yoshikazu	Sano	M	f	\N	\N	\N	\N	\N	{"original_name": "佐野 義和"}
+3f424128-aee5-426a-9ec0-66e05ab65a46	Tsutomu	Nakamura	M	f	\N	\N	\N	\N	\N	{"original_name": "中村 努"}
+1d11ee0a-fe43-4b3b-a794-4b418a3ef1cf	Keiko	Higashino	F	f	{"day": 4, "year": 1958, "month": 2}	\N	Ikeno, Osaka, Japan	\N	\N	{"original_name": "東野 圭吾"}
+689ab864-92b7-41d0-aa61-1de8fc672fdc	Hozan	Yamamoto	M	f	{"day": 6, "year": 1937, "month": 10}	{"day": 10, "year": 2014, "month": 2}	Otsu, Shiga, Japan	\N	\N	{"original_name": "山本 邦山"}
+c710e21d-acd9-4278-81fe-afb26d6eb2d5	Tatsumi	Ichiyama	M	f	\N	\N	\N	\N	\N	{"original_name": "市山 達巳"}
+230a8f05-b735-41a0-939b-b9debab902e4	Hideya	Hamada	M	f	{"day": 12, "year": 1972, "month": 12}	\N	Takamatsu, Kagawa, Japan	\N	\N	{"original_name": "浜田 秀哉"}
+2356dcf7-84f7-416c-b389-e05cef8345c9	Mitsuaki	Kanno	M	f	{"day": 10, "year": 1939, "month": 7}	{"day": 15, "year": 1983, "month": 8}	Miyagi, Japan	\N	\N	{"original_name": "菅野 光亮"}
+562ed319-b4f1-4392-a091-a7873ab7b898	Kyohei	Nakaoka	M	f	{"day": 11, "year": 1954, "month": 11}	\N	Fukuoka, Japan	\N	\N	{"original_name": "中岡 京平"}
+ca615777-37c9-4453-9361-f9fba34a7b77	Hiroyuki	Sawano	M	f	{"day": 12, "year": 1980, "month": 9}	\N	Tokyo, Japan	\N	\N	{"original_name": "澤野 弘之"}
+596c0913-5424-4e1b-a8b4-4a725982c232	Katsuhiro	Otomo	M	f	{"day": 14, "year": 1954, "month": 4}	\N	Miyagi, Japan	\N	\N	{"original_name": "大友 克洋"}
+aa4f8ff5-896e-444b-923d-f00b8bcfcce4	Mutsuo	Naganuma	M	f	{"year": 1945}	\N	Shimonobu, Nagano, Shimoina, Japan	\N	\N	{"original_name": "長沼 六男"}
+706d731c-0079-49e8-bc57-a4b8cd1a3157	Tatsuo	Nogami	M	f	{"day": 28, "year": 1928, "month": 3}	{"day": 20, "year": 2013, "month": 7}	Tokyo, Japan	\N	\N	{"original_name": "野上 龍雄"}
+61721da8-e7da-4500-9678-a6a3d11ec9c2	Izo	Hashimoto	M	f	{"day": 21, "year": 1954, "month": 2}	\N	Shimane, Japan	\N	\N	{"original_name": "橋本 以蔵"}
+e977aa10-a1b3-4259-8ff8-44cff8760110	Hideo	Kumagai	M	f	\N	\N	\N	\N	\N	{"original_name": "熊谷 秀夫"}
+fe24405b-2c4d-479e-8f0c-0233a656f259	Harold	Conway	M	t	{"day": 24, "year": 1911, "month": 5}	{"year": 1996}	Pennsylvania, United States	Japan	\N	{"middle_name": "S", "japanese_name": "ハロルド・S・コンウェイ"}
+c9c178e8-1d9e-410e-af95-01a1cbfda822	William	Hodgson	M	t	{"day": 15, "year": 1877, "month": 11}	{"year": 1918, "month": 4}	Blackmore End, Essex, England	Ypres, Belgium	\N	{"middle_name": "Hope", "japanese_name": "ウイリアム・ホープ・ホジスン"}
 \.
 
 
@@ -3833,7 +3896,7 @@ b37bc229-fb86-4052-afc5-20c790b5cc18	Diana	Jones	M	f	{"day": 16, "year": 1934, "
 -- Data for Name: schema_migrations; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY schema_migrations (version, inserted_at) FROM stdin;
+COPY public.schema_migrations (version, inserted_at) FROM stdin;
 20161006021230	2016-10-07 00:23:34
 20161007001507	2016-10-07 12:45:18
 20161010010437	2016-10-10 01:13:54
@@ -3872,7 +3935,7 @@ COPY schema_migrations (version, inserted_at) FROM stdin;
 -- Data for Name: series; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY series (id, name) FROM stdin;
+COPY public.series (id, name) FROM stdin;
 abf663c4-4467-4a76-a25f-735b00fbc120	Godzilla
 7719d635-5ead-451c-bd0a-f901523814aa	Frankenstein
 27c45133-7fc7-45cb-9b43-01125c346bba	Gamera
@@ -3896,6 +3959,12 @@ f6660459-31ec-48c7-82db-9194dbf7ea13	One Missed Call
 67c26f0b-1111-4e02-8cbe-f7bc3fa709cc	20th Century Boys
 3a71a1c2-a284-4b2c-92ed-ffa3bda06d25	Team Batista
 9d304c9f-acdb-4fbe-b758-98f7999d1b15	Gantz
+62263dcb-5eaa-4a87-a1f5-db8f15f90c6a	Assassination Classroom
+d3c7c00d-7145-450f-ab40-456fdf84ddf5	Attack on Titan
+b0becaca-428b-40dd-a966-73b670dbe4e2	Library Wars
+c7f42c04-ca6b-4c1d-9a02-152988bcc786	Parasyte
+818fef33-abe9-4567-8e20-b9808ebf5fd7	Patlabor
+869e1fcc-a50b-4a35-b60b-e794a01e5ad4	Rurouni Kenshin
 \.
 
 
@@ -3903,7 +3972,7 @@ f6660459-31ec-48c7-82db-9194dbf7ea13	One Missed Call
 -- Data for Name: series_films; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY series_films (series_id, film_id, "order") FROM stdin;
+COPY public.series_films (series_id, film_id, "order") FROM stdin;
 7719d635-5ead-451c-bd0a-f901523814aa	183fbe01-1bd2-4ade-b83b-6248ec7d7fee	1
 7719d635-5ead-451c-bd0a-f901523814aa	23c1c82e-aedb-4c9b-b040-c780eec577e8	2
 662d184c-742a-48e0-b472-e6f7fb7a182e	9ec4301a-1522-4af9-b83b-92d50b4f0db9	1
@@ -4017,6 +4086,22 @@ f6660459-31ec-48c7-82db-9194dbf7ea13	cfaf4ab5-af6a-417b-91ee-65ad2af67155	3
 9d304c9f-acdb-4fbe-b758-98f7999d1b15	060ee386-1a7f-4e91-bb93-f7c6f249f71b	2
 58d09d1b-6638-4103-8913-c48fd0a75986	5988c778-2ffb-4036-8341-962e43b21b7d	3
 abf663c4-4467-4a76-a25f-735b00fbc120	c4d93caa-1243-48ef-b1c0-6be48c681c53	29
+62263dcb-5eaa-4a87-a1f5-db8f15f90c6a	49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	1
+62263dcb-5eaa-4a87-a1f5-db8f15f90c6a	39313ad4-4e0c-4378-90b9-6e6f691651b1	2
+d3c7c00d-7145-450f-ab40-456fdf84ddf5	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	1
+d3c7c00d-7145-450f-ab40-456fdf84ddf5	f4172754-166d-447c-b57f-251ab69e08ed	2
+68314e4a-7e61-4850-af2b-5edfda855afe	c4dff626-aed3-4a1e-9823-3315be614257	3
+68314e4a-7e61-4850-af2b-5edfda855afe	44106e53-5f4a-40cf-9206-3244eb3aa620	4
+b0becaca-428b-40dd-a966-73b670dbe4e2	a4641997-f1b1-4a18-b269-2b91914292cb	1
+b0becaca-428b-40dd-a966-73b670dbe4e2	8e72221a-b3d5-4a85-bd92-30d496e8c2bd	2
+c7f42c04-ca6b-4c1d-9a02-152988bcc786	91d16b63-9716-4725-b319-b9ff46c80487	1
+c7f42c04-ca6b-4c1d-9a02-152988bcc786	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	2
+818fef33-abe9-4567-8e20-b9808ebf5fd7	baa6395c-0362-4423-a6bb-a71d94e449b9	1
+818fef33-abe9-4567-8e20-b9808ebf5fd7	9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	2
+869e1fcc-a50b-4a35-b60b-e794a01e5ad4	76ee6178-d728-4033-8cfe-01970c1be237	1
+869e1fcc-a50b-4a35-b60b-e794a01e5ad4	eb390ec6-d2c1-432a-b10c-15e237c8532a	2
+869e1fcc-a50b-4a35-b60b-e794a01e5ad4	a3112f14-09ae-474a-9eb8-b390d0637dd0	3
+0185bfd4-7e7d-4d7c-97a3-8a02617f3420	32feba7e-991a-4f63-90e4-31765bf552bd	26
 \.
 
 
@@ -4024,7 +4109,7 @@ abf663c4-4467-4a76-a25f-735b00fbc120	c4d93caa-1243-48ef-b1c0-6be48c681c53	29
 -- Data for Name: staff_group_roles; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY staff_group_roles (film_id, group_id, role, "order") FROM stdin;
+COPY public.staff_group_roles (film_id, group_id, role, "order") FROM stdin;
 06b610ac-b58a-4ed0-93eb-63a43b0aaa85	33f7c137-fba9-42be-aa4d-d3caac47e2df	Sound Recording	7
 a477ef60-d6ae-4406-9914-2a7e060ac379	1da44299-4577-4ca9-aaa2-d1c48fc9e030	Music Director	83
 cb8d5a73-7c9c-4093-878d-4eb6c074c7b3	02da10e1-3210-4bd4-a3b0-ecf80f5f7bea	Sound Recording	11
@@ -4042,7 +4127,7 @@ c287b984-0a4b-406f-a9a7-c21023ecd189	2bd04369-1ac3-4f1c-8504-693148a28e47	Editor
 -- Data for Name: staff_person_roles; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY staff_person_roles (film_id, person_id, role, "order") FROM stdin;
+COPY public.staff_person_roles (film_id, person_id, role, "order") FROM stdin;
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	c4d992f8-9b89-4eda-ae22-192e469d5c9f	Director	-2
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	2869c9ca-e710-4a53-a103-ff393b129884	Special Effects Director	-1
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	1
@@ -6541,6 +6626,230 @@ a3a047ea-2b0a-46e9-b266-e1c81071d9e9	0d98540a-06d0-4324-b30c-7b40d669c6ad	Art Di
 a3a047ea-2b0a-46e9-b266-e1c81071d9e9	4bdb9a16-7120-494f-b9d4-2357dcf2d6ed	Cinematography	7
 a3a047ea-2b0a-46e9-b266-e1c81071d9e9	8f75a035-1097-4c3a-947e-72f838320019	Sound Recording	8
 a3a047ea-2b0a-46e9-b266-e1c81071d9e9	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	9
+e1f6af59-f60e-4213-b722-1d0f987da1f8	449ff18f-f1bf-4f74-b7d0-d725027fa078	Director	1
+e1f6af59-f60e-4213-b722-1d0f987da1f8	449ff18f-f1bf-4f74-b7d0-d725027fa078	Producer	2
+e1f6af59-f60e-4213-b722-1d0f987da1f8	c6877155-e133-42c0-874b-1aba9fd78b16	Producer	3
+e1f6af59-f60e-4213-b722-1d0f987da1f8	40eb79fc-5755-4223-b077-12c4e66bf835	Foreign Version Producer	4
+e1f6af59-f60e-4213-b722-1d0f987da1f8	09e08c88-44a4-4148-8c7a-666682e00146	Foreign Version Producer	5
+e1f6af59-f60e-4213-b722-1d0f987da1f8	340ba693-a5ff-4b61-bbed-41abf248f85e	Assistant Producer	6
+e1f6af59-f60e-4213-b722-1d0f987da1f8	449ff18f-f1bf-4f74-b7d0-d725027fa078	Screenplay	7
+e1f6af59-f60e-4213-b722-1d0f987da1f8	5cc2f3ba-45cc-41e8-9d28-02d50e82dcbf	Screenplay	8
+e1f6af59-f60e-4213-b722-1d0f987da1f8	5358c92d-79db-46c1-83d5-ab6b1444506a	Chief Assistant Director	9
+e1f6af59-f60e-4213-b722-1d0f987da1f8	2209b83b-f80d-4f9b-be22-838581803d4b	Adviser	10
+e1f6af59-f60e-4213-b722-1d0f987da1f8	9d1ccb86-2857-4a3a-b0e3-f30030053941	Cinematography	11
+e1f6af59-f60e-4213-b722-1d0f987da1f8	dc0d8254-fdb0-4b75-8198-17d52e9ffc4d	Cinematography	12
+e1f6af59-f60e-4213-b722-1d0f987da1f8	dcf535d9-0eeb-4d33-9323-6c9a5222056e	Cinematography Cooperation	13
+e1f6af59-f60e-4213-b722-1d0f987da1f8	425a85c7-ebd8-4927-9f8b-a1a3806f0a40	Cinematography Cooperation	14
+e1f6af59-f60e-4213-b722-1d0f987da1f8	0c5b7ba3-0ddb-4948-92e3-5f18d542e397	Art Director	15
+e1f6af59-f60e-4213-b722-1d0f987da1f8	8fbf0eb6-d46a-4f69-94ca-c3bfaf6b5e07	Sound Recording	16
+e1f6af59-f60e-4213-b722-1d0f987da1f8	8edcb9ae-989f-49d5-9cce-68671dd36442	Lighting	17
+e1f6af59-f60e-4213-b722-1d0f987da1f8	6802fe1c-3b82-4c42-9b64-0e12e37b8b96	Music	18
+46d52769-4d58-4cec-a521-a57138748655	00e80c55-fe68-425d-91c5-4f22671ba7c8	Director	1
+46d52769-4d58-4cec-a521-a57138748655	56f32850-dde8-4c2e-89c6-0960a80e9fcb	Producer	2
+46d52769-4d58-4cec-a521-a57138748655	63ce8e7e-9404-4cb1-b85f-9abecb6c23af	Original Story	3
+46d52769-4d58-4cec-a521-a57138748655	706d731c-0079-49e8-bc57-a4b8cd1a3157	Screenplay	4
+46d52769-4d58-4cec-a521-a57138748655	d996ffde-6929-41ee-8ff7-d75f5e4efa00	Screenplay	5
+46d52769-4d58-4cec-a521-a57138748655	00e80c55-fe68-425d-91c5-4f22671ba7c8	Screenplay	6
+46d52769-4d58-4cec-a521-a57138748655	e9f9bfb5-dcb4-4582-84b0-db72db7001b4	Cinematography	7
+46d52769-4d58-4cec-a521-a57138748655	827ccc71-ab7c-4bc4-a9fd-4a898a27cb45	Cinematography	8
+46d52769-4d58-4cec-a521-a57138748655	bdd11c1f-46bc-48c5-b33c-f7209415136d	Lighting	9
+46d52769-4d58-4cec-a521-a57138748655	2464441e-bfe9-4ddf-a0cf-8443ff35a4e1	Sound Recording	10
+46d52769-4d58-4cec-a521-a57138748655	352e5706-59a6-437a-81a9-a0fe219778a3	Editor	11
+46d52769-4d58-4cec-a521-a57138748655	9ca95836-35e6-4672-8f18-55f4623ee737	Art Director	12
+46d52769-4d58-4cec-a521-a57138748655	8239b961-4c19-4e07-a545-4da458270593	Art Director	13
+46d52769-4d58-4cec-a521-a57138748655	689ab864-92b7-41d0-aa61-1de8fc672fdc	Music	14
+46d52769-4d58-4cec-a521-a57138748655	2356dcf7-84f7-416c-b389-e05cef8345c9	Music	15
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	596c0913-5424-4e1b-a8b4-4a725982c232	Director	1
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	596c0913-5424-4e1b-a8b4-4a725982c232	Screenplay	2
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	61721da8-e7da-4500-9678-a6a3d11ec9c2	Screenplay	3
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	ed23737f-3ede-4148-ac2a-c4bbf09809f0	Art Director	4
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	7f4b87a9-4737-4606-bc0c-18d1b3dae474	Cinematography	5
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	aa08a7b2-b6b4-4e53-8d99-08e72a5c52bc	Sound Recording	6
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	cdefe055-b6d5-4e8f-9e0a-316294f86c9e	Music	7
+6a995dc7-1239-4f95-8fb3-2905b26ead3c	48a47efa-5e13-4221-85b5-6c77873383fd	Editor	8
+baa6395c-0362-4423-a6bb-a71d94e449b9	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+baa6395c-0362-4423-a6bb-a71d94e449b9	b1d7d286-0e01-410a-a47e-34d862a65722	Draft	3
+baa6395c-0362-4423-a6bb-a71d94e449b9	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	4
+baa6395c-0362-4423-a6bb-a71d94e449b9	8c79be4a-6a68-4fcb-9f7a-0791c55dbe82	Art Director	5
+baa6395c-0362-4423-a6bb-a71d94e449b9	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	6
+baa6395c-0362-4423-a6bb-a71d94e449b9	4a654b60-1587-4045-9339-0141d58c077c	Sound Recording	7
+baa6395c-0362-4423-a6bb-a71d94e449b9	0d864fe2-91c5-4c6a-b6c9-6e68f950f932	Cinematography	8
+baa6395c-0362-4423-a6bb-a71d94e449b9	1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Editor	9
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	3
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	56a3b249-186c-4b03-8c6b-3cf0d6235a5c	Cinematography	4
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	8c79be4a-6a68-4fcb-9f7a-0791c55dbe82	Art Director	5
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	6
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	5861839f-f859-4279-84a9-01ec7035a4c3	Sound	7
+9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	e1824175-349a-409b-9799-0863397254da	Editor	8
+32feba7e-991a-4f63-90e4-31765bf552bd	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Director	1
+32feba7e-991a-4f63-90e4-31765bf552bd	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Producer	2
+32feba7e-991a-4f63-90e4-31765bf552bd	4596c5ea-e6d1-4a88-994e-649b18eef2e2	Producer	3
+32feba7e-991a-4f63-90e4-31765bf552bd	eea6697c-022c-42b0-a542-b1b0e6dbd5bd	Original Story	4
+32feba7e-991a-4f63-90e4-31765bf552bd	490ed5ca-7aff-4292-8b03-c0bd5ad69033	Screenplay	5
+32feba7e-991a-4f63-90e4-31765bf552bd	3f424128-aee5-426a-9ec0-66e05ab65a46	Screenplay	6
+32feba7e-991a-4f63-90e4-31765bf552bd	c710e21d-acd9-4278-81fe-afb26d6eb2d5	Screenplay	7
+32feba7e-991a-4f63-90e4-31765bf552bd	562ed319-b4f1-4392-a091-a7873ab7b898	Adaptation	8
+32feba7e-991a-4f63-90e4-31765bf552bd	aa4f8ff5-896e-444b-923d-f00b8bcfcce4	Cinematography	9
+32feba7e-991a-4f63-90e4-31765bf552bd	e977aa10-a1b3-4259-8ff8-44cff8760110	Lighting	10
+32feba7e-991a-4f63-90e4-31765bf552bd	50a51da5-a521-4a05-8632-addd3ac4bc01	Sound Recording	11
+32feba7e-991a-4f63-90e4-31765bf552bd	dccbb5f6-d7d3-42f5-9d31-9b198bd05bfa	Art Director	12
+32feba7e-991a-4f63-90e4-31765bf552bd	b819de2f-4340-4a22-bedc-9c6bfc49548c	Editor	13
+c4dff626-aed3-4a1e-9823-3315be614257	e97c66e9-d66e-4148-bad4-05f8527cfb29	Director	1
+c4dff626-aed3-4a1e-9823-3315be614257	4d7557eb-d727-470b-9f59-46c8ba1df91a	Original Story	2
+c4dff626-aed3-4a1e-9823-3315be614257	2c87b93f-8b1f-465e-9d71-6755d690d9d1	Original Story	3
+c4dff626-aed3-4a1e-9823-3315be614257	a29bd6cd-2414-41bb-89b9-4198ef987ed8	Screenplay	4
+c4dff626-aed3-4a1e-9823-3315be614257	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	5
+c4dff626-aed3-4a1e-9823-3315be614257	545bdec3-0caf-43d5-bd2e-5b492fd35025	Cinematography	6
+c4dff626-aed3-4a1e-9823-3315be614257	777bd198-f7a1-42a9-98dd-9515409ffe22	Lighting	7
+c4dff626-aed3-4a1e-9823-3315be614257	67e34347-cd31-4e0e-b7f1-4c97cc695f40	Art Director	8
+c4dff626-aed3-4a1e-9823-3315be614257	9d9be0bf-e74b-4e10-a9f3-4833e8640d8a	Sound Recording	9
+c4dff626-aed3-4a1e-9823-3315be614257	dc91df6b-94a2-4019-8162-309f456c4a6b	Editor	10
+c4dff626-aed3-4a1e-9823-3315be614257	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Director	11
+44106e53-5f4a-40cf-9206-3244eb3aa620	aff3a0bf-a7c9-408e-b5a2-6374b4118653	Director	1
+44106e53-5f4a-40cf-9206-3244eb3aa620	4d7557eb-d727-470b-9f59-46c8ba1df91a	Original Story	2
+44106e53-5f4a-40cf-9206-3244eb3aa620	2c87b93f-8b1f-465e-9d71-6755d690d9d1	Original Story	3
+44106e53-5f4a-40cf-9206-3244eb3aa620	ec08db60-905d-4f2f-afbb-6481f8768377	Screenplay	4
+44106e53-5f4a-40cf-9206-3244eb3aa620	09d21247-c3b9-42ac-b0d0-5aefcbd118e9	Music	5
+44106e53-5f4a-40cf-9206-3244eb3aa620	9175cc74-625d-4f11-91c1-aac7ea781321	Cinematography	6
+44106e53-5f4a-40cf-9206-3244eb3aa620	1fa1805e-0ccd-46c7-96ee-6d870426f7e5	Art Director	7
+44106e53-5f4a-40cf-9206-3244eb3aa620	55c695e6-f56b-4489-8a9a-c24df51f58a4	Sound Recording	8
+44106e53-5f4a-40cf-9206-3244eb3aa620	ee09d729-f356-4904-823f-16a9708a1790	Editor	9
+44106e53-5f4a-40cf-9206-3244eb3aa620	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects Director	10
+eb390ec6-d2c1-432a-b10c-15e237c8532a	ed37fca5-31b7-4589-8331-40bd4d246de2	Director	1
+eb390ec6-d2c1-432a-b10c-15e237c8532a	e14bfe2d-f31b-4cbc-b3d9-71d0ddc1aaba	Original Story	2
+eb390ec6-d2c1-432a-b10c-15e237c8532a	d1f3c745-d4a3-41ac-96e2-d115f7c2d158	Screenplay	3
+eb390ec6-d2c1-432a-b10c-15e237c8532a	ed37fca5-31b7-4589-8331-40bd4d246de2	Screenplay	4
+eb390ec6-d2c1-432a-b10c-15e237c8532a	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	5
+eb390ec6-d2c1-432a-b10c-15e237c8532a	6482e2c3-f8e4-4a8f-9646-3767b3e951be	Cinematography	6
+eb390ec6-d2c1-432a-b10c-15e237c8532a	4fc104fb-9607-455f-8ded-6d92d7fcb8b3	Lighting	7
+eb390ec6-d2c1-432a-b10c-15e237c8532a	6fe7714a-2590-4c9f-8095-7bef7d4c791c	Art Director	8
+eb390ec6-d2c1-432a-b10c-15e237c8532a	46afeb7f-06ee-4848-8e90-efb27dc5c9af	Sound Recording	9
+eb390ec6-d2c1-432a-b10c-15e237c8532a	ee09d729-f356-4904-823f-16a9708a1790	Editor	10
+a3112f14-09ae-474a-9eb8-b390d0637dd0	ed37fca5-31b7-4589-8331-40bd4d246de2	Director	1
+a3112f14-09ae-474a-9eb8-b390d0637dd0	e14bfe2d-f31b-4cbc-b3d9-71d0ddc1aaba	Original Story	2
+a3112f14-09ae-474a-9eb8-b390d0637dd0	d1f3c745-d4a3-41ac-96e2-d115f7c2d158	Screenplay	3
+a3112f14-09ae-474a-9eb8-b390d0637dd0	ed37fca5-31b7-4589-8331-40bd4d246de2	Screenplay	4
+a3112f14-09ae-474a-9eb8-b390d0637dd0	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	5
+a3112f14-09ae-474a-9eb8-b390d0637dd0	6482e2c3-f8e4-4a8f-9646-3767b3e951be	Cinematography	6
+a3112f14-09ae-474a-9eb8-b390d0637dd0	4fc104fb-9607-455f-8ded-6d92d7fcb8b3	Lighting	7
+a3112f14-09ae-474a-9eb8-b390d0637dd0	6fe7714a-2590-4c9f-8095-7bef7d4c791c	Art Director	8
+a3112f14-09ae-474a-9eb8-b390d0637dd0	46afeb7f-06ee-4848-8e90-efb27dc5c9af	Sound Recording	9
+a3112f14-09ae-474a-9eb8-b390d0637dd0	ee09d729-f356-4904-823f-16a9708a1790	Editor	10
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	b8b9ad6f-b432-469d-ba69-5ee62777e22f	Director	1
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	36faa24a-f665-4d86-a6d7-bfc72ed75939	Original Story	2
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	135e644b-d6d7-4192-84da-becbfbb73823	Screenplay	3
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	4
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	c178ae11-f056-4fd7-9e02-b65ffe90de4e	Cinematography	5
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	07dc4e3f-4551-40d1-9791-87510db57d6f	Lighting	6
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	2c8930a2-e600-4444-ba0e-2f898960d932	Sound Recording	7
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	3f1b96fd-5e1d-4540-afd6-01bbf51352f1	Art Director	8
+49ed8b01-7371-4934-b9fa-d6d6bb6cfc87	6fafc4ae-e64f-4595-af16-8a382f658252	Editor	9
+39313ad4-4e0c-4378-90b9-6e6f691651b1	b8b9ad6f-b432-469d-ba69-5ee62777e22f	Director	1
+39313ad4-4e0c-4378-90b9-6e6f691651b1	36faa24a-f665-4d86-a6d7-bfc72ed75939	Original Story	2
+39313ad4-4e0c-4378-90b9-6e6f691651b1	135e644b-d6d7-4192-84da-becbfbb73823	Screenplay	3
+39313ad4-4e0c-4378-90b9-6e6f691651b1	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	4
+39313ad4-4e0c-4378-90b9-6e6f691651b1	c178ae11-f056-4fd7-9e02-b65ffe90de4e	Cinematography	5
+39313ad4-4e0c-4378-90b9-6e6f691651b1	07dc4e3f-4551-40d1-9791-87510db57d6f	Lighting	6
+39313ad4-4e0c-4378-90b9-6e6f691651b1	2c8930a2-e600-4444-ba0e-2f898960d932	Sound Recording	7
+39313ad4-4e0c-4378-90b9-6e6f691651b1	3f1b96fd-5e1d-4540-afd6-01bbf51352f1	Art Director	8
+39313ad4-4e0c-4378-90b9-6e6f691651b1	6fafc4ae-e64f-4595-af16-8a382f658252	Editor	9
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	d4f52193-310b-487c-a9d4-513d6f9ad42b	Director	1
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	7dd12d51-6edf-461b-8540-258cdef9d02e	Original Story	2
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	1078eb9b-3d42-4fa5-9559-137f4bdddd3f	Screenplay	3
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	4c2eb8ac-6da0-4522-99a2-1f39987515bd	Screenplay	4
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	129ce783-00e1-46cd-ab70-12f0d28e32f6	Special Effects Director	5
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	36d03558-3919-4f2c-870d-a2c2d440c0c1	Cinematography	6
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	c1571776-6c50-44d0-a24c-a6b36cc7caa7	Lighting	7
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	09658e53-28e2-4374-b392-d892e2c192ab	Art Director	8
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	b483f91b-b6ae-4c71-bb55-0f8c3361eccc	Sound Recording	9
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	8a29ed43-2fae-4fba-b9c7-4fab1fccb51f	Sound Recording	10
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	d076bccf-264e-4e19-b036-ff7fb6a9f7fb	Editor	11
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	02c4a9a3-f309-4672-b739-5d9842b3c6ab	VFX Supervisor	12
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	5788cc3b-2bf1-4f6f-9d01-f9f4c64ba4d7	VFX Supervisor	13
+d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c	b72dadf8-6518-4254-a1f2-4df458af2d8e	Music	14
+f4172754-166d-447c-b57f-251ab69e08ed	d4f52193-310b-487c-a9d4-513d6f9ad42b	Director	1
+f4172754-166d-447c-b57f-251ab69e08ed	7dd12d51-6edf-461b-8540-258cdef9d02e	Original Story	2
+f4172754-166d-447c-b57f-251ab69e08ed	1078eb9b-3d42-4fa5-9559-137f4bdddd3f	Screenplay	3
+f4172754-166d-447c-b57f-251ab69e08ed	4c2eb8ac-6da0-4522-99a2-1f39987515bd	Screenplay	4
+f4172754-166d-447c-b57f-251ab69e08ed	129ce783-00e1-46cd-ab70-12f0d28e32f6	Special Effects Director	5
+f4172754-166d-447c-b57f-251ab69e08ed	36d03558-3919-4f2c-870d-a2c2d440c0c1	Cinematography	6
+f4172754-166d-447c-b57f-251ab69e08ed	c1571776-6c50-44d0-a24c-a6b36cc7caa7	Lighting	7
+f4172754-166d-447c-b57f-251ab69e08ed	09658e53-28e2-4374-b392-d892e2c192ab	Art Director	8
+f4172754-166d-447c-b57f-251ab69e08ed	b483f91b-b6ae-4c71-bb55-0f8c3361eccc	Sound Recording	9
+f4172754-166d-447c-b57f-251ab69e08ed	8a29ed43-2fae-4fba-b9c7-4fab1fccb51f	Sound Recording	10
+f4172754-166d-447c-b57f-251ab69e08ed	d076bccf-264e-4e19-b036-ff7fb6a9f7fb	Editor	11
+f4172754-166d-447c-b57f-251ab69e08ed	02c4a9a3-f309-4672-b739-5d9842b3c6ab	VFX Supervisor	12
+f4172754-166d-447c-b57f-251ab69e08ed	5788cc3b-2bf1-4f6f-9d01-f9f4c64ba4d7	VFX Supervisor	13
+f4172754-166d-447c-b57f-251ab69e08ed	b72dadf8-6518-4254-a1f2-4df458af2d8e	Music	14
+a4641997-f1b1-4a18-b269-2b91914292cb	aff3a0bf-a7c9-408e-b5a2-6374b4118653	Director	1
+a4641997-f1b1-4a18-b269-2b91914292cb	f93fe7cf-b1ad-434a-bcf9-5aae1b5aed3d	Original Story	2
+a4641997-f1b1-4a18-b269-2b91914292cb	a0d4f41a-17d5-41c2-8934-e065a4a85205	Screenplay	3
+a4641997-f1b1-4a18-b269-2b91914292cb	dcb32025-3e6e-471d-acdc-b01fb69e2ea3	Music	4
+a4641997-f1b1-4a18-b269-2b91914292cb	9175cc74-625d-4f11-91c1-aac7ea781321	Cinematography	5
+a4641997-f1b1-4a18-b269-2b91914292cb	1fa1805e-0ccd-46c7-96ee-6d870426f7e5	Art Director	6
+a4641997-f1b1-4a18-b269-2b91914292cb	55c695e6-f56b-4489-8a9a-c24df51f58a4	Sound Recording	7
+a4641997-f1b1-4a18-b269-2b91914292cb	ee09d729-f356-4904-823f-16a9708a1790	Editor	8
+a4641997-f1b1-4a18-b269-2b91914292cb	7c740c39-4d86-45fd-8cb8-fc84a0bff003	VFX Supervisor	9
+a4641997-f1b1-4a18-b269-2b91914292cb	ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Action Director	10
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	aff3a0bf-a7c9-408e-b5a2-6374b4118653	Director	1
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	f93fe7cf-b1ad-434a-bcf9-5aae1b5aed3d	Original Story	2
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	a0d4f41a-17d5-41c2-8934-e065a4a85205	Screenplay	3
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	dcb32025-3e6e-471d-acdc-b01fb69e2ea3	Music	4
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	9175cc74-625d-4f11-91c1-aac7ea781321	Cinematography	5
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	1fa1805e-0ccd-46c7-96ee-6d870426f7e5	Art Director	6
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	55c695e6-f56b-4489-8a9a-c24df51f58a4	Sound Recording	7
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	ee09d729-f356-4904-823f-16a9708a1790	Editor	8
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	7c740c39-4d86-45fd-8cb8-fc84a0bff003	VFX Supervisor	9
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	5788cc3b-2bf1-4f6f-9d01-f9f4c64ba4d7	VFX Supervisor	10
+8e72221a-b3d5-4a85-bd92-30d496e8c2bd	ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Action Director	11
+91d16b63-9716-4725-b319-b9ff46c80487	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Director	1
+91d16b63-9716-4725-b319-b9ff46c80487	6366920b-1224-4e08-866d-54bbd5e24fc9	Original Story	2
+91d16b63-9716-4725-b319-b9ff46c80487	f733c491-73bb-4ef5-808f-b16b71b05a50	Screenplay	3
+91d16b63-9716-4725-b319-b9ff46c80487	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Screenplay	4
+91d16b63-9716-4725-b319-b9ff46c80487	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	5
+91d16b63-9716-4725-b319-b9ff46c80487	b123d854-4a66-4205-baea-c4880e6e0fe4	Cinematography	6
+91d16b63-9716-4725-b319-b9ff46c80487	e4baf52a-e480-43e3-ad8a-d15df1e99fe2	Lighting	7
+91d16b63-9716-4725-b319-b9ff46c80487	4bee847e-68c4-441b-b6c7-4353d1242766	Art Director	8
+91d16b63-9716-4725-b319-b9ff46c80487	a7882810-c919-486e-a135-3f9a882744ed	Art Director	9
+91d16b63-9716-4725-b319-b9ff46c80487	1f030200-341c-4315-bb29-4bba62f3c830	Sound Recording	10
+91d16b63-9716-4725-b319-b9ff46c80487	a8b7c3da-de87-49d9-81f8-9f19302ed913	Editor	11
+91d16b63-9716-4725-b319-b9ff46c80487	6d91eec1-db72-4005-8863-2e7e03fa7795	VFX Director	12
+91d16b63-9716-4725-b319-b9ff46c80487	bbd9577c-7b1c-4879-8508-4dd72ccc488c	VFX	13
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Director	1
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	6366920b-1224-4e08-866d-54bbd5e24fc9	Original Story	2
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	f733c491-73bb-4ef5-808f-b16b71b05a50	Screenplay	3
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Screenplay	4
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	5
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	b123d854-4a66-4205-baea-c4880e6e0fe4	Cinematography	6
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	e4baf52a-e480-43e3-ad8a-d15df1e99fe2	Lighting	7
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	4bee847e-68c4-441b-b6c7-4353d1242766	Art Director	8
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	a7882810-c919-486e-a135-3f9a882744ed	Art Director	9
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	1f030200-341c-4315-bb29-4bba62f3c830	Sound Recording	10
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	a8b7c3da-de87-49d9-81f8-9f19302ed913	Editor	11
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	6d91eec1-db72-4005-8863-2e7e03fa7795	VFX Director	12
+aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75	bbd9577c-7b1c-4879-8508-4dd72ccc488c	VFX	13
+96e7aa10-fc05-4790-bd57-660da4339f28	aff3a0bf-a7c9-408e-b5a2-6374b4118653	Director	1
+96e7aa10-fc05-4790-bd57-660da4339f28	e2eea82f-75f6-4b7f-af0d-0300fb1e0a70	Original Story	2
+96e7aa10-fc05-4790-bd57-660da4339f28	a0d4f41a-17d5-41c2-8934-e065a4a85205	Screenplay	3
+96e7aa10-fc05-4790-bd57-660da4339f28	9175cc74-625d-4f11-91c1-aac7ea781321	Cinematography	4
+96e7aa10-fc05-4790-bd57-660da4339f28	1fa1805e-0ccd-46c7-96ee-6d870426f7e5	Art Director	5
+96e7aa10-fc05-4790-bd57-660da4339f28	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Effects	6
+96e7aa10-fc05-4790-bd57-660da4339f28	55c695e6-f56b-4489-8a9a-c24df51f58a4	Sound Recording	7
+96e7aa10-fc05-4790-bd57-660da4339f28	ee09d729-f356-4904-823f-16a9708a1790	Editor	9
+96e7aa10-fc05-4790-bd57-660da4339f28	ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Action Coordinator	10
+96e7aa10-fc05-4790-bd57-660da4339f28	71b15435-86f7-4793-b5e2-04cb8ca24683	Music	11
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	ed37fca5-31b7-4589-8331-40bd4d246de2	Director	1
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	1d11ee0a-fe43-4b3b-a794-4b418a3ef1cf	Original Story	2
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	230a8f05-b735-41a0-939b-b9debab902e4	Screenplay	3
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	ca615777-37c9-4453-9361-f9fba34a7b77	Music	4
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	76c63464-1828-4c68-997d-f0e01d4522d5	Cinematography	5
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	6fe7714a-2590-4c9f-8095-7bef7d4c791c	Art Director	6
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	699922e3-caf6-4fe6-868d-6b2b56a433a3	Sound Recording	7
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	3becc0e5-4ae1-4447-a1eb-d71036bc8edd	Lighting	8
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	ee09d729-f356-4904-823f-16a9708a1790	Editor	9
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	ec0eb80a-28af-44fe-9b79-c9ac27428bd5	Action Coordinator	10
+c6499a6a-358d-48a2-ace3-acb7a4af3d29	5788cc3b-2bf1-4f6f-9d01-f9f4c64ba4d7	VFX Supervisor	11
 \.
 
 
@@ -6548,7 +6857,7 @@ a3a047ea-2b0a-46e9-b266-e1c81071d9e9	48a47efa-5e13-4221-85b5-6c77873383fd	Editor
 -- Data for Name: studio_films; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY studio_films (studio_id, film_id) FROM stdin;
+COPY public.studio_films (studio_id, film_id) FROM stdin;
 b52fcdd6-691b-4a16-a670-e6ad6f176521	653335e2-101e-4303-90a2-eb71dac3c6e3
 b52fcdd6-691b-4a16-a670-e6ad6f176521	79a16ff9-c72a-4dd0-ba4e-67f578e97682
 b52fcdd6-691b-4a16-a670-e6ad6f176521	7f9c68a7-8cec-4f4e-be97-528fe66605c3
@@ -7316,6 +7625,166 @@ a9de5554-4e9b-40f7-b089-c1c775605675	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
 e42222b5-0255-4e64-8a0a-35b0032fc995	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
 b52fcdd6-691b-4a16-a670-e6ad6f176521	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
 841de419-73c6-47b5-8999-53e153a082c5	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+cb3fc43d-63c8-4f90-83b1-7696b38b9dea	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+c22c320a-fa72-4287-a97c-a1478e9f1e63	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+622319bd-fb9f-46b9-b308-1362956dab5d	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+b52fcdd6-691b-4a16-a670-e6ad6f176521	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+71941a66-d310-40a2-af58-4bf864ddd247	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+f89d4adf-e4ab-4e0f-91d7-1e3c9959d59b	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+af5b412b-70c5-4e08-82e5-cc8a11e6e242	6a995dc7-1239-4f95-8fb3-2905b26ead3c
+787f4d01-040c-47ed-8d21-7bb887cd34a6	49ed8b01-7371-4934-b9fa-d6d6bb6cfc87
+902387e1-808f-4fdc-9465-933503350f48	49ed8b01-7371-4934-b9fa-d6d6bb6cfc87
+6891b1d3-1bb5-43bc-8291-9b6481ec5f61	49ed8b01-7371-4934-b9fa-d6d6bb6cfc87
+b52fcdd6-691b-4a16-a670-e6ad6f176521	49ed8b01-7371-4934-b9fa-d6d6bb6cfc87
+1384d84f-f933-4305-abaf-1e4e3c1a3430	49ed8b01-7371-4934-b9fa-d6d6bb6cfc87
+787f4d01-040c-47ed-8d21-7bb887cd34a6	39313ad4-4e0c-4378-90b9-6e6f691651b1
+902387e1-808f-4fdc-9465-933503350f48	39313ad4-4e0c-4378-90b9-6e6f691651b1
+6891b1d3-1bb5-43bc-8291-9b6481ec5f61	39313ad4-4e0c-4378-90b9-6e6f691651b1
+b52fcdd6-691b-4a16-a670-e6ad6f176521	39313ad4-4e0c-4378-90b9-6e6f691651b1
+1384d84f-f933-4305-abaf-1e4e3c1a3430	39313ad4-4e0c-4378-90b9-6e6f691651b1
+b52fcdd6-691b-4a16-a670-e6ad6f176521	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+3733c5a3-f95e-4812-99fd-c773295420c9	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+39a15341-0262-447e-bef9-4fed6928d092	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+732802d4-0269-415d-b00a-6f4f35321fff	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+a9de5554-4e9b-40f7-b089-c1c775605675	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+841de419-73c6-47b5-8999-53e153a082c5	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+4f64ea86-817d-4bac-ad6d-7a3976190a7e	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+d2f9fa0d-5b69-4c61-9c37-8e313e999681	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+2189260b-684f-4400-8fb4-bafe87d52848	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+7348379f-198b-4b72-bbd2-4f9fa2304205	d8b036fc-e84c-40e3-a73a-5a0c0dd93b8c
+b52fcdd6-691b-4a16-a670-e6ad6f176521	f4172754-166d-447c-b57f-251ab69e08ed
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	f4172754-166d-447c-b57f-251ab69e08ed
+3733c5a3-f95e-4812-99fd-c773295420c9	f4172754-166d-447c-b57f-251ab69e08ed
+39a15341-0262-447e-bef9-4fed6928d092	f4172754-166d-447c-b57f-251ab69e08ed
+732802d4-0269-415d-b00a-6f4f35321fff	f4172754-166d-447c-b57f-251ab69e08ed
+a9de5554-4e9b-40f7-b089-c1c775605675	f4172754-166d-447c-b57f-251ab69e08ed
+97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	f4172754-166d-447c-b57f-251ab69e08ed
+841de419-73c6-47b5-8999-53e153a082c5	f4172754-166d-447c-b57f-251ab69e08ed
+4f64ea86-817d-4bac-ad6d-7a3976190a7e	f4172754-166d-447c-b57f-251ab69e08ed
+d2f9fa0d-5b69-4c61-9c37-8e313e999681	f4172754-166d-447c-b57f-251ab69e08ed
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	f4172754-166d-447c-b57f-251ab69e08ed
+2189260b-684f-4400-8fb4-bafe87d52848	f4172754-166d-447c-b57f-251ab69e08ed
+7348379f-198b-4b72-bbd2-4f9fa2304205	f4172754-166d-447c-b57f-251ab69e08ed
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	44106e53-5f4a-40cf-9206-3244eb3aa620
+902387e1-808f-4fdc-9465-933503350f48	44106e53-5f4a-40cf-9206-3244eb3aa620
+732802d4-0269-415d-b00a-6f4f35321fff	44106e53-5f4a-40cf-9206-3244eb3aa620
+5b8f8e6e-b294-4f76-b25b-f4e62bcff851	44106e53-5f4a-40cf-9206-3244eb3aa620
+be46d083-e66d-4292-86fa-b1e26d4f5eed	44106e53-5f4a-40cf-9206-3244eb3aa620
+fe73b252-2b31-49a6-9963-b80366290547	44106e53-5f4a-40cf-9206-3244eb3aa620
+0be9d67e-717f-4556-8229-b99d7228592e	44106e53-5f4a-40cf-9206-3244eb3aa620
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	44106e53-5f4a-40cf-9206-3244eb3aa620
+3733c5a3-f95e-4812-99fd-c773295420c9	44106e53-5f4a-40cf-9206-3244eb3aa620
+e358d0a4-5787-469d-9dc4-aaf3d523fd86	44106e53-5f4a-40cf-9206-3244eb3aa620
+dc9a29d3-6f41-451f-b138-91c3422cf239	44106e53-5f4a-40cf-9206-3244eb3aa620
+d6cf04e7-daca-4461-94f3-066bbe703cfe	44106e53-5f4a-40cf-9206-3244eb3aa620
+0ce8d818-e838-48ff-84c5-50f06d1a29bd	44106e53-5f4a-40cf-9206-3244eb3aa620
+5000e02b-dc6b-4038-930a-c8e71b8d1995	44106e53-5f4a-40cf-9206-3244eb3aa620
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	44106e53-5f4a-40cf-9206-3244eb3aa620
+93b77f24-f402-40bb-80ef-d1ea32bfc555	44106e53-5f4a-40cf-9206-3244eb3aa620
+682a8dd1-41ba-45a6-8775-d7a7fed75561	44106e53-5f4a-40cf-9206-3244eb3aa620
+b52fcdd6-691b-4a16-a670-e6ad6f176521	96e7aa10-fc05-4790-bd57-660da4339f28
+bcc85400-d54e-4621-80b0-93df115f91a6	96e7aa10-fc05-4790-bd57-660da4339f28
+5b3c714e-1212-4b5a-9bbf-fcd63987fb35	96e7aa10-fc05-4790-bd57-660da4339f28
+3733c5a3-f95e-4812-99fd-c773295420c9	96e7aa10-fc05-4790-bd57-660da4339f28
+ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	96e7aa10-fc05-4790-bd57-660da4339f28
+a9de5554-4e9b-40f7-b089-c1c775605675	96e7aa10-fc05-4790-bd57-660da4339f28
+97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	96e7aa10-fc05-4790-bd57-660da4339f28
+841de419-73c6-47b5-8999-53e153a082c5	96e7aa10-fc05-4790-bd57-660da4339f28
+7348379f-198b-4b72-bbd2-4f9fa2304205	96e7aa10-fc05-4790-bd57-660da4339f28
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	96e7aa10-fc05-4790-bd57-660da4339f28
+32bba2fc-8e31-45eb-9a1f-a2bdcf17a14f	96e7aa10-fc05-4790-bd57-660da4339f28
+fe747c93-5c2c-4bc3-9cc0-1d2526856da2	96e7aa10-fc05-4790-bd57-660da4339f28
+2189260b-684f-4400-8fb4-bafe87d52848	96e7aa10-fc05-4790-bd57-660da4339f28
+b52fcdd6-691b-4a16-a670-e6ad6f176521	e1f6af59-f60e-4213-b722-1d0f987da1f8
+74df77b8-e02e-493b-8e4b-8e8651fe656f	e1f6af59-f60e-4213-b722-1d0f987da1f8
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	c4dff626-aed3-4a1e-9823-3315be614257
+5000e02b-dc6b-4038-930a-c8e71b8d1995	c4dff626-aed3-4a1e-9823-3315be614257
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	c4dff626-aed3-4a1e-9823-3315be614257
+93b77f24-f402-40bb-80ef-d1ea32bfc555	c4dff626-aed3-4a1e-9823-3315be614257
+682a8dd1-41ba-45a6-8775-d7a7fed75561	c4dff626-aed3-4a1e-9823-3315be614257
+dc9a29d3-6f41-451f-b138-91c3422cf239	c4dff626-aed3-4a1e-9823-3315be614257
+d6cf04e7-daca-4461-94f3-066bbe703cfe	c4dff626-aed3-4a1e-9823-3315be614257
+902387e1-808f-4fdc-9465-933503350f48	c4dff626-aed3-4a1e-9823-3315be614257
+732802d4-0269-415d-b00a-6f4f35321fff	c4dff626-aed3-4a1e-9823-3315be614257
+fe73b252-2b31-49a6-9963-b80366290547	c4dff626-aed3-4a1e-9823-3315be614257
+0be9d67e-717f-4556-8229-b99d7228592e	c4dff626-aed3-4a1e-9823-3315be614257
+be46d083-e66d-4292-86fa-b1e26d4f5eed	c4dff626-aed3-4a1e-9823-3315be614257
+5b8f8e6e-b294-4f76-b25b-f4e62bcff851	c4dff626-aed3-4a1e-9823-3315be614257
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	c4dff626-aed3-4a1e-9823-3315be614257
+27e36c78-9526-4349-9150-626375461187	a4641997-f1b1-4a18-b269-2b91914292cb
+95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	a4641997-f1b1-4a18-b269-2b91914292cb
+b52fcdd6-691b-4a16-a670-e6ad6f176521	a4641997-f1b1-4a18-b269-2b91914292cb
+35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	a4641997-f1b1-4a18-b269-2b91914292cb
+f695a28d-3f2e-40f8-9eda-10f47374b841	a4641997-f1b1-4a18-b269-2b91914292cb
+ed55b4f9-283c-4d15-bcaa-ea2137e5a71d	a4641997-f1b1-4a18-b269-2b91914292cb
+cb3fc43d-63c8-4f90-83b1-7696b38b9dea	a4641997-f1b1-4a18-b269-2b91914292cb
+ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	a4641997-f1b1-4a18-b269-2b91914292cb
+2c86e98c-23e2-4eca-9662-d044a8263b12	a4641997-f1b1-4a18-b269-2b91914292cb
+7e2e3eef-ded2-4cf5-9563-5155e079e2b3	a4641997-f1b1-4a18-b269-2b91914292cb
+27e36c78-9526-4349-9150-626375461187	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+b52fcdd6-691b-4a16-a670-e6ad6f176521	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+ed55b4f9-283c-4d15-bcaa-ea2137e5a71d	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+cb3fc43d-63c8-4f90-83b1-7696b38b9dea	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+2c86e98c-23e2-4eca-9662-d044a8263b12	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+7e2e3eef-ded2-4cf5-9563-5155e079e2b3	8e72221a-b3d5-4a85-bd92-30d496e8c2bd
+95ad9c89-93ff-4636-8cb7-4ce98b441801	46d52769-4d58-4cec-a521-a57138748655
+b52fcdd6-691b-4a16-a670-e6ad6f176521	91d16b63-9716-4725-b319-b9ff46c80487
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	91d16b63-9716-4725-b319-b9ff46c80487
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	91d16b63-9716-4725-b319-b9ff46c80487
+3733c5a3-f95e-4812-99fd-c773295420c9	91d16b63-9716-4725-b319-b9ff46c80487
+fe73b252-2b31-49a6-9963-b80366290547	91d16b63-9716-4725-b319-b9ff46c80487
+0be9d67e-717f-4556-8229-b99d7228592e	91d16b63-9716-4725-b319-b9ff46c80487
+1384d84f-f933-4305-abaf-1e4e3c1a3430	91d16b63-9716-4725-b319-b9ff46c80487
+4c9c0a7e-e1e6-4160-9a6f-86655690967c	91d16b63-9716-4725-b319-b9ff46c80487
+5f9b21b3-ab8a-44fc-be68-2781b8f9dc3d	91d16b63-9716-4725-b319-b9ff46c80487
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	91d16b63-9716-4725-b319-b9ff46c80487
+841de419-73c6-47b5-8999-53e153a082c5	91d16b63-9716-4725-b319-b9ff46c80487
+2189260b-684f-4400-8fb4-bafe87d52848	91d16b63-9716-4725-b319-b9ff46c80487
+b52fcdd6-691b-4a16-a670-e6ad6f176521	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+3733c5a3-f95e-4812-99fd-c773295420c9	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+fe73b252-2b31-49a6-9963-b80366290547	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+0be9d67e-717f-4556-8229-b99d7228592e	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+1384d84f-f933-4305-abaf-1e4e3c1a3430	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+4c9c0a7e-e1e6-4160-9a6f-86655690967c	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+5f9b21b3-ab8a-44fc-be68-2781b8f9dc3d	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+841de419-73c6-47b5-8999-53e153a082c5	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+2189260b-684f-4400-8fb4-bafe87d52848	aa1b31c9-1fed-4e90-a0bf-2b0f12f9ef75
+234794e8-f689-4ab6-969e-674f5d00ed59	baa6395c-0362-4423-a6bb-a71d94e449b9
+346eb948-e8b7-48ed-87ef-4b0df9727a4f	baa6395c-0362-4423-a6bb-a71d94e449b9
+0f87c700-cf02-4810-b05d-e029969912da	baa6395c-0362-4423-a6bb-a71d94e449b9
+234794e8-f689-4ab6-969e-674f5d00ed59	9d0541e8-1c7a-46fd-97da-8793c2ecb4ba
+346eb948-e8b7-48ed-87ef-4b0df9727a4f	9d0541e8-1c7a-46fd-97da-8793c2ecb4ba
+0f87c700-cf02-4810-b05d-e029969912da	9d0541e8-1c7a-46fd-97da-8793c2ecb4ba
+2fe3e582-9ca5-401c-817d-f6c2135601a0	9d0541e8-1c7a-46fd-97da-8793c2ecb4ba
+b52fcdd6-691b-4a16-a670-e6ad6f176521	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+3733c5a3-f95e-4812-99fd-c773295420c9	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+bda41375-f074-4dc1-850d-6fb37425e601	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+8ff60889-b929-4c84-b51f-3a1e41a4e86d	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+fcac3e11-9225-4335-bc36-e30761da0d39	c6499a6a-358d-48a2-ace3-acb7a4af3d29
+5b8f8e6e-b294-4f76-b25b-f4e62bcff851	eb390ec6-d2c1-432a-b10c-15e237c8532a
+39a15341-0262-447e-bef9-4fed6928d092	eb390ec6-d2c1-432a-b10c-15e237c8532a
+902387e1-808f-4fdc-9465-933503350f48	eb390ec6-d2c1-432a-b10c-15e237c8532a
+841de419-73c6-47b5-8999-53e153a082c5	eb390ec6-d2c1-432a-b10c-15e237c8532a
+2189260b-684f-4400-8fb4-bafe87d52848	eb390ec6-d2c1-432a-b10c-15e237c8532a
+5b8f8e6e-b294-4f76-b25b-f4e62bcff851	a3112f14-09ae-474a-9eb8-b390d0637dd0
+39a15341-0262-447e-bef9-4fed6928d092	a3112f14-09ae-474a-9eb8-b390d0637dd0
+902387e1-808f-4fdc-9465-933503350f48	a3112f14-09ae-474a-9eb8-b390d0637dd0
+841de419-73c6-47b5-8999-53e153a082c5	a3112f14-09ae-474a-9eb8-b390d0637dd0
+2189260b-684f-4400-8fb4-bafe87d52848	a3112f14-09ae-474a-9eb8-b390d0637dd0
+7c99582c-a1a6-4175-8388-cf772ebb484f	32feba7e-991a-4f63-90e4-31765bf552bd
+fc33484a-0757-4e04-b475-cccd8e5ac814	32feba7e-991a-4f63-90e4-31765bf552bd
 \.
 
 
@@ -7323,7 +7792,7 @@ b52fcdd6-691b-4a16-a670-e6ad6f176521	a3a047ea-2b0a-46e9-b266-e1c81071d9e9
 -- Data for Name: studios; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY studios (id, name, props) FROM stdin;
+COPY public.studios (id, name, props) FROM stdin;
 f1a9628f-f167-4b02-8bc3-8dbb3ee55804	Crowd	\N
 31339e95-9c10-4572-a7e5-49591e93c17a	Embodiment Films	\N
 84bb0640-f950-4444-b3fd-a0752d1fde78	Twins Japan	{"japanese_name": "ツインズジャパン"}
@@ -7503,6 +7972,13 @@ f9a47b83-f161-47a6-9e5d-19f330307a64	Top Craft	{"japanese_name": "トップク�
 6e95bc24-9706-49df-a404-a8f4ab6cbb3c	Walt Disney	{"display": "Disney", "japanese_name": "ウォルト・ディズニー・ジャパン"}
 2c59fb6a-1fd2-41dd-8ad8-037f4bd8629a	Mitsubishi Corporation	{"display": "Mitsubishi", "japanese_name": "三菱商事"}
 ce35c634-651a-46b2-b382-135d5216cadb	Buena Vista Home Entertainment	{"display": "Buena Vista", "japanese_name": "ブエナ ビスタ ホーム エンターテイメント"}
+71941a66-d310-40a2-af58-4bf864ddd247	Laserdisc	{"japanese_name": "レーザーディスク"}
+f89d4adf-e4ab-4e0f-91d7-1e3c9959d59b	Sumitomo Corporation	{"display": "Sumitomo", "japanese_name": "住友商事"}
+e358d0a4-5787-469d-9dc4-aaf3d523fd86	Hulu	{"japanese_name": "フールー"}
+fe747c93-5c2c-4bc3-9cc0-1d2526856da2	Hikari TV	{"japanese_name": "ひかりTV"}
+234794e8-f689-4ab6-969e-674f5d00ed59	Headgear	{"japanese_name": "ヘッドギア"}
+bda41375-f074-4dc1-850d-6fb37425e601	Gentosha	{"japanese_name": "幻冬舎"}
+7c99582c-a1a6-4175-8388-cf772ebb484f	Miku	{"japanese_name": "三倶"}
 \.
 
 
@@ -7510,7 +7986,7 @@ ce35c634-651a-46b2-b382-135d5216cadb	Buena Vista Home Entertainment	{"display": 
 -- Name: film_images film_images_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY film_images
+ALTER TABLE ONLY public.film_images
     ADD CONSTRAINT film_images_pkey PRIMARY KEY (type, file_name, film_id);
 
 
@@ -7518,7 +7994,7 @@ ALTER TABLE ONLY film_images
 -- Name: films films_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY films
+ALTER TABLE ONLY public.films
     ADD CONSTRAINT films_pkey PRIMARY KEY (id);
 
 
@@ -7526,7 +8002,7 @@ ALTER TABLE ONLY films
 -- Name: groups groups_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY groups
+ALTER TABLE ONLY public.groups
     ADD CONSTRAINT groups_pkey PRIMARY KEY (id);
 
 
@@ -7534,7 +8010,7 @@ ALTER TABLE ONLY groups
 -- Name: people people_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY people
+ALTER TABLE ONLY public.people
     ADD CONSTRAINT people_pkey PRIMARY KEY (id);
 
 
@@ -7542,7 +8018,7 @@ ALTER TABLE ONLY people
 -- Name: schema_migrations schema_migrations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY schema_migrations
+ALTER TABLE ONLY public.schema_migrations
     ADD CONSTRAINT schema_migrations_pkey PRIMARY KEY (version);
 
 
@@ -7550,7 +8026,7 @@ ALTER TABLE ONLY schema_migrations
 -- Name: series series_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY series
+ALTER TABLE ONLY public.series
     ADD CONSTRAINT series_pkey PRIMARY KEY (id);
 
 
@@ -7558,7 +8034,7 @@ ALTER TABLE ONLY series
 -- Name: studios studios_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY studios
+ALTER TABLE ONLY public.studios
     ADD CONSTRAINT studios_pkey PRIMARY KEY (id);
 
 
@@ -7566,120 +8042,120 @@ ALTER TABLE ONLY studios
 -- Name: actor_group_roles actor_group_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY actor_group_roles
-    ADD CONSTRAINT actor_group_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.actor_group_roles
+    ADD CONSTRAINT actor_group_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: actor_group_roles actor_group_roles_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY actor_group_roles
-    ADD CONSTRAINT actor_group_roles_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id);
+ALTER TABLE ONLY public.actor_group_roles
+    ADD CONSTRAINT actor_group_roles_group_id_fkey FOREIGN KEY (group_id) REFERENCES public.groups(id);
 
 
 --
 -- Name: actor_person_roles actor_person_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY actor_person_roles
-    ADD CONSTRAINT actor_person_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.actor_person_roles
+    ADD CONSTRAINT actor_person_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: actor_person_roles actor_person_roles_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY actor_person_roles
-    ADD CONSTRAINT actor_person_roles_person_id_fkey FOREIGN KEY (person_id) REFERENCES people(id);
+ALTER TABLE ONLY public.actor_person_roles
+    ADD CONSTRAINT actor_person_roles_person_id_fkey FOREIGN KEY (person_id) REFERENCES public.people(id);
 
 
 --
 -- Name: film_images film_images_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY film_images
-    ADD CONSTRAINT film_images_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.film_images
+    ADD CONSTRAINT film_images_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: group_memberships group_memberships_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY group_memberships
-    ADD CONSTRAINT group_memberships_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id);
+ALTER TABLE ONLY public.group_memberships
+    ADD CONSTRAINT group_memberships_group_id_fkey FOREIGN KEY (group_id) REFERENCES public.groups(id);
 
 
 --
 -- Name: group_memberships group_memberships_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY group_memberships
-    ADD CONSTRAINT group_memberships_person_id_fkey FOREIGN KEY (person_id) REFERENCES people(id);
+ALTER TABLE ONLY public.group_memberships
+    ADD CONSTRAINT group_memberships_person_id_fkey FOREIGN KEY (person_id) REFERENCES public.people(id);
 
 
 --
 -- Name: series_films series_films_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY series_films
-    ADD CONSTRAINT series_films_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.series_films
+    ADD CONSTRAINT series_films_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: series_films series_films_series_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY series_films
-    ADD CONSTRAINT series_films_series_id_fkey FOREIGN KEY (series_id) REFERENCES series(id);
+ALTER TABLE ONLY public.series_films
+    ADD CONSTRAINT series_films_series_id_fkey FOREIGN KEY (series_id) REFERENCES public.series(id);
 
 
 --
 -- Name: staff_group_roles staff_group_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY staff_group_roles
-    ADD CONSTRAINT staff_group_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.staff_group_roles
+    ADD CONSTRAINT staff_group_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: staff_group_roles staff_group_roles_group_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY staff_group_roles
-    ADD CONSTRAINT staff_group_roles_group_id_fkey FOREIGN KEY (group_id) REFERENCES groups(id);
+ALTER TABLE ONLY public.staff_group_roles
+    ADD CONSTRAINT staff_group_roles_group_id_fkey FOREIGN KEY (group_id) REFERENCES public.groups(id);
 
 
 --
 -- Name: staff_person_roles staff_person_roles_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY staff_person_roles
-    ADD CONSTRAINT staff_person_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.staff_person_roles
+    ADD CONSTRAINT staff_person_roles_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: staff_person_roles staff_person_roles_person_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY staff_person_roles
-    ADD CONSTRAINT staff_person_roles_person_id_fkey FOREIGN KEY (person_id) REFERENCES people(id);
+ALTER TABLE ONLY public.staff_person_roles
+    ADD CONSTRAINT staff_person_roles_person_id_fkey FOREIGN KEY (person_id) REFERENCES public.people(id);
 
 
 --
 -- Name: studio_films studio_films_film_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY studio_films
-    ADD CONSTRAINT studio_films_film_id_fkey FOREIGN KEY (film_id) REFERENCES films(id);
+ALTER TABLE ONLY public.studio_films
+    ADD CONSTRAINT studio_films_film_id_fkey FOREIGN KEY (film_id) REFERENCES public.films(id);
 
 
 --
 -- Name: studio_films studio_films_studio_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
 --
 
-ALTER TABLE ONLY studio_films
-    ADD CONSTRAINT studio_films_studio_id_fkey FOREIGN KEY (studio_id) REFERENCES studios(id);
+ALTER TABLE ONLY public.studio_films
+    ADD CONSTRAINT studio_films_studio_id_fkey FOREIGN KEY (studio_id) REFERENCES public.studios(id);
 
 
 --
