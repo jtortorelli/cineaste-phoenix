@@ -11,5 +11,5 @@
       </div>
     </div>
   </div>
-  <%= render_back_button %>
+  <%= render_back_button() %>
 </div>

@@ -13,13 +13,11 @@ defmodule CineasteWeb.FilmView do
 
   def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
 
-  def display_original_title(%{"original_title" => title, "original_transliteration" => same, "original_translation" => same} = props) do
+  def display_original_title(%{"original_title" => title, "original_transliteration" => same, "original_translation" => same}) do
     render "original_title_min.html", title: title, transliteration: same
   end
 
-  def display_original_title(%{"original_title" => title, "original_transliteration" => transliteration, "original_translation" => translation} = props) do
-    Logger.debug "inside display_original_title"
-    Logger.debug "value of props: #{inspect(props)}"
+  def display_original_title(%{"original_title" => title, "original_transliteration" => transliteration, "original_translation" => translation}) do
     render "original_title.html", title: title, transliteration: transliteration, translation: translation
   end
 

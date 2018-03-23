@@ -13,6 +13,10 @@ defmodule CineasteWeb.PeopleMonitor do
     GenServer.call(__MODULE__, {:get_state})
   end
 
+  def init(args) do
+    {:ok, args}
+  end
+
   def handle_call({:set_state, new_state}, _from, _state) do
     {:reply, new_state, new_state}
   end

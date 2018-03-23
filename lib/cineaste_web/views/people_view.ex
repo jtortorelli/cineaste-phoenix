@@ -126,7 +126,7 @@ defmodule CineasteWeb.PeopleView do
     render "person_dates_living.html", dob: create_display_date(person.dob), age: Person.age(person), birth_place: person.birth_place
   end
 
-  def render_dates(%Person{dob: %{}, dod: %{"unknown" => unknown}} = person) do
+  def render_dates(%Person{dob: %{}, dod: %{"unknown" => _unknown}} = person) do
     render "person_dates_unknown_dod.html", dob: create_display_date(person.dob), birth_place: person.birth_place
   end
 
@@ -147,7 +147,7 @@ defmodule CineasteWeb.PeopleView do
     raw "#{link_text} <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
   end
 
-  def render_film_link(conn, %{film_id: id, film_title: title, film_release_date: date, film_showcase: false, characters: characters}, "Actor") do
+  def render_film_link(_conn, %{film_id: _id, film_title: title, film_release_date: date, film_showcase: false, characters: characters}, "Actor") do
     raw "<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")}) <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
   end
 
