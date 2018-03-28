@@ -143,20 +143,20 @@ defmodule CineasteWeb.PeopleView do
   end
 
   def render_film_link(conn, %{film_id: id, film_title: title, film_release_date: date, film_showcase: true, characters: characters}, "Actor") do
-    {:safe, link_text} = link raw("<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")})"), to: film_path(conn, :show, id)
+    {:safe, link_text} = link raw("<i>#{title}</i> (#{date.year})"), to: film_path(conn, :show, id)
     raw "#{link_text} <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
   end
 
   def render_film_link(_conn, %{film_id: _id, film_title: title, film_release_date: date, film_showcase: false, characters: characters}, "Actor") do
-    raw "<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")}) <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
+    raw "<i>#{title}</i> (#{date.year}) <span class=\"subdue\">... #{Enum.join(characters, ", ")}</span>"
   end
 
   def render_film_link(conn, %{film_id: id, film_title: title, film_release_date: date, film_showcase: true}, _role_name) do
-    link raw("<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")})"), to: film_path(conn, :show, id)
+    link raw("<i>#{title}</i> (#{date.year})"), to: film_path(conn, :show, id)
   end
 
   def render_film_link(_conn, %{film_title: title, film_release_date: date, film_showcase: false}, _role_name) do
-    raw "<i>#{title}</i> (#{Timex.format!(date, "{YYYY}")})"
+    raw "<i>#{title}</i> (#{date.year})"
   end
 
   def render_group_info(group), do: render "group_info.html", group: group
