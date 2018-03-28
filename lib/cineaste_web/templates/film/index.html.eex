@@ -1,13 +1,36 @@
 <div class="container">
   <div class="row">
     <h2>Films</h2>
-    <div id="film-index">
-      <div class="search-bar input-group input-group-sm">
-        <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
-        <input id="film-search-bar" type="text" class="form-control" id="film-search">
+    <div>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+          <a href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">Alphabetical</a>
+        </li>
+        <li role="presentation">
+          <a href="#decade" aria-controls="decade" role="tab", data-toggle="tab">By Decade</a>
+        </li>
+      </ul>
+    </div>
+    <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="alphabetical">
+        <!-- <div class="container"> -->
+          <!-- <div class="row"> -->
+            <div class="search-bar input-group input-group-sm">
+              <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
+              <input id="film-search-bar" type="text" class="form-control" id="film-search">
+            </div>
+            <div id="film-lists">
+              <%= render "films.html", conn: @conn, film_index_views: @film_index_views %>
+            </div>
+          <!-- </div> -->
+        <!-- </div> -->
       </div>
-      <div id="film-lists">
-        <%= render "films.html", conn: @conn, film_index_views: @film_index_views %>
+      <div role="tabpanel" class="tab-pane fade" id="decade">
+        <!-- <div class="container"> -->
+          <!-- <div class="row"> -->
+            
+          <!-- </div> -->
+        <!-- </div> -->
       </div>
     </div>
   </div>
