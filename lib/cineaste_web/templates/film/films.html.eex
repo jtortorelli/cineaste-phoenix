@@ -11,7 +11,7 @@
   <ul class="index">
     <%= for view <- @film_index_views do %>
     <li>
-      <%= raw "<a href=\"/films/#{view.id}\"><span class=\"table-header\">#{view.title}</span> <span class=\"thin\">(#{view.release_date.year})</span></a>" %>
+      <%= render_film_li_link(view) %>
     </li>
     <% end %>
   </ul>

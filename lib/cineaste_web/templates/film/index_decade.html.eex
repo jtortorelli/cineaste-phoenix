@@ -1,0 +1,17 @@
+<div role="tabpanel" class="tab-pane fade" id="decade">
+
+  <%= for view <- @decade_view do %>
+  <p class="decade">
+    <%= render_decade_button(view.decade) %>
+  </p>
+  <%= raw "<div class=\"collapse\" id=\"#{view.decade}\">" %>
+    <ul class="index">
+      <%= for f <- view.films do %>
+        <li>
+        <%= render_film_li_link(f) %>
+       </li>
+      <% end %>
+    </ul>
+  </div>
+  <% end %>
+</div>

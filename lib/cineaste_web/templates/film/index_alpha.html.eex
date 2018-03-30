@@ -1,0 +1,9 @@
+<div role="tabpanel" class="tab-pane fade in active" id="alphabetical">
+      <div class="search-bar input-group input-group-sm">
+        <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
+        <input id="film-search-bar" type="text" class="form-control" id="film-search">
+      </div>
+      <div id="film-lists">
+        <%= render "films.html", conn: @conn, film_index_views: @film_index_views %>
+      </div>
+</div>

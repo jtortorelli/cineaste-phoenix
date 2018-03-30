@@ -131,5 +131,13 @@ defmodule CineasteWeb.FilmView do
 
   def render_back_button, do: CommonView.render_back_button
 
+  def render_decade_button(decade) do
+    raw "<a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"##{decade}\" role=\"button\" aria-expanded=\"false\" aria-controls=\"#{decade}\"><span class=\"heavy\">#{decade}</span></a>"
+  end
+
+  def render_film_li_link(view) do
+    raw "<a href=\"/films/#{view.id}\"><span class=\"table-header\">#{view.title}</span> <span class=\"thin\">(#{view.release_date.year})</span></a>"
+  end
+
 
 end
