@@ -2541,8 +2541,8 @@ ea15e6b4-5bac-48d9-836b-eda509c39ba6	Tomie: Another Face	1999-12-26	95	f	\N	{"or
 8d1d9023-f052-43ba-bec7-3de46d40dc3b	Chaos	2000-10-21	104	f	\N	{"original_title": "カオス", "original_translation": "Chaos", "original_transliteration": "Kaosu"}
 c7a3c4ef-364c-404e-8a16-4a1fce836949	Jin-Roh: The Wolf Brigade	2000-06-03	98	f	\N	{"original_title": "人狼", "original_translation": "Werewolf", "original_transliteration": "Jinrou"}
 c40759c6-257e-452d-a313-b4f7114e7db9	Onmyoji II	2003-10-04	115	f	\N	{"original_title": "陰陽師II", "original_translation": "Yin Yang Master II", "original_transliteration": "Onmyouji II"}
-c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	f	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
 8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	t	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
+c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	t	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	t	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	t	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
@@ -2752,6 +2752,7 @@ d100f247-637c-4ee9-a57f-c90015aa7fe0	Shezoo	f	\N	\N	\N
 2bd04369-1ac3-4f1c-8504-693148a28e47	Luna-parc	f	\N	\N	\N
 688482ab-b915-41bc-8606-7932808ed080	Edison	f	\N	\N	\N
 cb2d6e9a-723a-4f0b-8512-01173a774686	Headgear	f	\N	\N	{"original_name": "ヘッドギア"}
+f6029106-cafe-4cf7-943e-caafc56c46cd	Tatsunoko Productions	f	\N	\N	{"original_name": "タツノコプロ"}
 \.
 
 
@@ -3891,6 +3892,10 @@ aa4f8ff5-896e-444b-923d-f00b8bcfcce4	Mutsuo	Naganuma	M	f	{"year": 1945}	\N	Shimo
 e977aa10-a1b3-4259-8ff8-44cff8760110	Hideo	Kumagai	M	f	\N	\N	\N	\N	\N	{"original_name": "熊谷 秀夫"}
 fe24405b-2c4d-479e-8f0c-0233a656f259	Harold	Conway	M	t	{"day": 24, "year": 1911, "month": 5}	{"year": 1996}	Pennsylvania, United States	Japan	\N	{"middle_name": "S", "japanese_name": "ハロルド・S・コンウェイ"}
 c9c178e8-1d9e-410e-af95-01a1cbfda822	William	Hodgson	M	t	{"day": 15, "year": 1877, "month": 11}	{"year": 1918, "month": 4}	Blackmore End, Essex, England	Ypres, Belgium	\N	{"middle_name": "Hope", "japanese_name": "ウイリアム・ホープ・ホジスン"}
+d176b407-19df-4dc6-a314-e35d4dbcb685	Yoshitake	Hikita	M	f	\N	\N	\N	\N	\N	{"original_name": "疋田 ヨシタケ"}
+3ea14ab9-f956-4145-8c2d-be488744d302	Ryo	Nishimura	M	f	\N	\N	\N	\N	\N	{"original_name": "西村 了"}
+a47141c9-9e5b-4f06-a046-80a02b2e0aa2	Yoichi	Shibuya	M	f	{"day": 9, "year": 1951, "month": 6}	\N	Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "渋谷 陽一"}
+6c8c4114-6d18-4813-8b07-965b14713b19	Takahiro	Tsutai	M	f	{"year": 1964}	\N	Tottori, Japan	\N	\N	{"original_name": "蔦井 孝洋"}
 \.
 
 
@@ -4126,6 +4131,7 @@ c287b984-0a4b-406f-a9a7-c21023ecd189	2bd04369-1ac3-4f1c-8504-693148a28e47	Editor
 32feba7e-991a-4f63-90e4-31765bf552bd	688482ab-b915-41bc-8606-7932808ed080	Music	14
 baa6395c-0362-4423-a6bb-a71d94e449b9	cb2d6e9a-723a-4f0b-8512-01173a774686	Original Story	2
 9d0541e8-1c7a-46fd-97da-8793c2ecb4ba	cb2d6e9a-723a-4f0b-8512-01173a774686	Original Story	2
+c512e380-84ba-447a-8ad7-d228d98704b7	f6029106-cafe-4cf7-943e-caafc56c46cd	Original Story	2
 \.
 
 
@@ -6859,6 +6865,15 @@ a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	dd5f3342-e09e-4d35-8a65-98bdfb890e83	Sound 
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	f2d9eecf-181d-4ecc-be12-46ee0ec48053	Lighting	14
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	bca8d01b-5482-4f59-a75c-cb94118df819	Screenplay Cooperation	15
 a229e05d-ee47-46ec-9e2b-6410b7ddf4e9	d48d6c50-5433-46dc-b9c9-e5abc1fce49d	Screenplay Cooperation	16
+c512e380-84ba-447a-8ad7-d228d98704b7	fc7e0470-fa92-496b-aecf-fc81edec5f8c	Director	1
+c512e380-84ba-447a-8ad7-d228d98704b7	1078eb9b-3d42-4fa5-9559-137f4bdddd3f	Screenplay	3
+c512e380-84ba-447a-8ad7-d228d98704b7	71b15435-86f7-4793-b5e2-04cb8ca24683	Music	4
+c512e380-84ba-447a-8ad7-d228d98704b7	6c8c4114-6d18-4813-8b07-965b14713b19	Cinematography	5
+c512e380-84ba-447a-8ad7-d228d98704b7	60805dd1-9f1d-479a-ae04-e69d3c1fcc57	Art Director	6
+c512e380-84ba-447a-8ad7-d228d98704b7	d176b407-19df-4dc6-a314-e35d4dbcb685	Lighting	7
+c512e380-84ba-447a-8ad7-d228d98704b7	5c2a1c7b-c79a-4e5d-87e6-dcde324f1a0e	Sound Recording	8
+c512e380-84ba-447a-8ad7-d228d98704b7	3ea14ab9-f956-4145-8c2d-be488744d302	Co-Director	9
+c512e380-84ba-447a-8ad7-d228d98704b7	a47141c9-9e5b-4f06-a046-80a02b2e0aa2	Editor	10
 \.
 
 
@@ -7794,6 +7809,19 @@ fcac3e11-9225-4335-bc36-e30761da0d39	c6499a6a-358d-48a2-ace3-acb7a4af3d29
 2189260b-684f-4400-8fb4-bafe87d52848	a3112f14-09ae-474a-9eb8-b390d0637dd0
 7c99582c-a1a6-4175-8388-cf772ebb484f	32feba7e-991a-4f63-90e4-31765bf552bd
 fc33484a-0757-4e04-b475-cccd8e5ac814	32feba7e-991a-4f63-90e4-31765bf552bd
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	c512e380-84ba-447a-8ad7-d228d98704b7
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	c512e380-84ba-447a-8ad7-d228d98704b7
+b52fcdd6-691b-4a16-a670-e6ad6f176521	c512e380-84ba-447a-8ad7-d228d98704b7
+fe73b252-2b31-49a6-9963-b80366290547	c512e380-84ba-447a-8ad7-d228d98704b7
+0be9d67e-717f-4556-8229-b99d7228592e	c512e380-84ba-447a-8ad7-d228d98704b7
+d24b5bd4-f724-45da-86d2-6d3840933b87	c512e380-84ba-447a-8ad7-d228d98704b7
+a30d72e8-2051-41ba-982d-434df25f30f3	c512e380-84ba-447a-8ad7-d228d98704b7
+5000e02b-dc6b-4038-930a-c8e71b8d1995	c512e380-84ba-447a-8ad7-d228d98704b7
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	c512e380-84ba-447a-8ad7-d228d98704b7
+93b77f24-f402-40bb-80ef-d1ea32bfc555	c512e380-84ba-447a-8ad7-d228d98704b7
+682a8dd1-41ba-45a6-8775-d7a7fed75561	c512e380-84ba-447a-8ad7-d228d98704b7
+dc9a29d3-6f41-451f-b138-91c3422cf239	c512e380-84ba-447a-8ad7-d228d98704b7
+d6cf04e7-daca-4461-94f3-066bbe703cfe	c512e380-84ba-447a-8ad7-d228d98704b7
 \.
 
 
@@ -7988,6 +8016,7 @@ fe747c93-5c2c-4bc3-9cc0-1d2526856da2	Hikari TV	{"japanese_name": "ひかりTV"}
 234794e8-f689-4ab6-969e-674f5d00ed59	Headgear	{"japanese_name": "ヘッドギア"}
 bda41375-f074-4dc1-850d-6fb37425e601	Gentosha	{"japanese_name": "幻冬舎"}
 7c99582c-a1a6-4175-8388-cf772ebb484f	Miku	{"japanese_name": "三倶"}
+a30d72e8-2051-41ba-982d-434df25f30f3	Tatsunoko Productions	{"display": "Tatsunoko", "japanese_name": "タツノコプロ"}
 \.
 
 
