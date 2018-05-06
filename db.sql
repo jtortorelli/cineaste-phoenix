@@ -2700,7 +2700,6 @@ f5cab5fa-f1e8-44e3-940f-30c9144bc5e4	Sky High	2003-11-08	123	t	\N	{"original_tit
 58c94670-94fc-43fb-b42b-30ed9a306ae8	Gantz	2011-01-29	130	t	\N	{"original_title": "ガンツ", "original_translation": "Gantz", "original_transliteration": "Gantsu"}
 c4d93caa-1243-48ef-b1c0-6be48c681c53	Shin Godzilla	2016-07-29	119	t	{"Godzilla Resurgence"}	{"original_title": "シン・ゴジラ", "original_translation": "Shin Godzilla", "original_transliteration": "Shin Gojira"}
 22317580-1676-41c6-b638-83b082405a62	Wolf Children	2012-07-21	117	f	\N	{"original_title": "おおかみこどもの雨と雪", "original_translation": "Wolf and Children's Rain and Snow", "original_transliteration": "Ookami Kodomo No Ame To Yuki"}
-34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	A Man Called Pirate	2016-12-10	145	f	{"Fueled: A Man Called Pirate"}	{"original_title": "海賊とよばれた男", "original_translation": "A Man Called Pirate", "original_transliteration": "Kaizokuto Yubareta Otoko"}
 2a2c4aa6-1a29-4c0d-8224-4050fe6a21df	The Top Secret	2016-08-06	148	f	\N	{"original_title": "秘密 - THE TOP SECRET", "original_translation": "Secret - The Top Secret", "original_transliteration": "Himitsu - The Top Secret"}
 b8f05bfc-0f37-48bf-a304-fa0f7db6c988	All-Round Appraiser Q: The Eyes of Mona Lisa	2014-05-31	119	f	\N	{"original_title": "万能鑑定士Q -モナ・リザの瞳-", "original_translation": "Universal Appraiser Q -Mona Lisa's Eyes- ", "original_transliteration": "Honnou Kanteishi Q -Mona Riza No Hitomi-"}
 f7dcf70a-a776-4ad5-9447-b9b5c7ba11cb	Godzilla: Planet of the Monsters	2017-11-17	89	f	\N	{"original_title": "GODZILLA 怪獣惑星", "original_translation": "Godzilla Monster Planet", "original_transliteration": "Godzilla Kaijyuu Wakusei"}
@@ -2721,6 +2720,7 @@ f4172754-166d-447c-b57f-251ab69e08ed	Attack on Titan: End of the World	2015-09-1
 96e7aa10-fc05-4790-bd57-660da4339f28	I Am A Hero	2016-04-23	127	t	\N	{"original_title": "アイアムアヒーロー", "original_translation": "I Am A Hero", "original_transliteration": "Ai Amu A Hiiroo"}
 44106e53-5f4a-40cf-9206-3244eb3aa620	Death Note: Light Up the New World	2016-10-29	135	t	\N	{"original_title": "デスノート Light up the NEW world", "original_translation": "Death Note Light up the NEW World", "original_transliteration": "Desu Nooto Light up the NEW world"}
 c6499a6a-358d-48a2-ace3-acb7a4af3d29	Platina Data	2013-03-16	133	t	\N	{"original_title": "プラチナデータ", "original_translation": "Platina Data", "original_transliteration": "Purachina Deeta"}
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	A Man Called Pirate	2016-12-10	145	t	{"Fueled: The Man They Called Pirate"}	{"original_title": "海賊とよばれた男", "original_translation": "A Man Called Pirate", "original_transliteration": "Kaizokuto Yubareta Otoko"}
 \.
 
 
@@ -3915,6 +3915,7 @@ b16dad70-c831-4015-a326-2128581436ce	Fujiko	Fujio	M	f	{"day": 1, "year": 1933, "
 357424e8-3c48-47c9-a310-10eb12fe6e49	Tomio	Hayashi	M	f	{"day": 26, "year": 1966, "month": 9}	\N	Kanagawa, Japan	\N	\N	{"original_name": "林 民夫"}
 b0478fcc-1464-4f79-9af1-139341d07534	Naoki	Hyakuta	M	f	{"day": 23, "year": 1956, "month": 2}	\N	Osaka, Japan	\N	\N	{"original_name": "百田 尚樹"}
 75572383-e3c3-4a05-a2ee-5f19a5942aa4	Takeyuki	Suzuki	M	f	\N	\N	\N	\N	\N	{"original_name": "鈴木 健之"}
+1768253d-806d-4778-957b-1b37231399c7	Keiichiro	Moriya	M	f	\N	\N	\N	\N	\N	{"original_name": "守屋 圭一郎"}
 \.
 
 
@@ -6954,6 +6955,18 @@ fcb4b537-1a27-42e2-bafb-2f23564f033a	8c489fe1-56f6-49c5-bec1-0b60c59c8e1b	Sound 
 5449600a-b42d-4b3b-8551-4bfce2101463	e2b5f72b-76da-4c4e-a1c2-ea6ae2951c2b	Storyboards	6
 5449600a-b42d-4b3b-8551-4bfce2101463	24f5df9f-30f2-40db-a0c6-7782cad6dda5	Art Director	7
 5449600a-b42d-4b3b-8551-4bfce2101463	75572383-e3c3-4a05-a2ee-5f19a5942aa4	CG Supervisor	8
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Director	1
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	b0478fcc-1464-4f79-9af1-139341d07534	Original Story	2
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	bbd9577c-7b1c-4879-8508-4dd72ccc488c	Screenplay	3
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	1768253d-806d-4778-957b-1b37231399c7	Screenplay	4
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	8372f43d-1876-42af-ae3e-f4d7e2137c63	Music	5
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	03dca383-7eb2-458c-94cd-745c46c8c9b0	Cinematography	6
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	f3ab81f0-1521-408d-a493-110ccf660b79	Lighting	7
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	fb16a56b-7e00-4c0c-8c4b-4a0d543dcc06	Art Director	8
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	5d0b3841-6710-4052-9157-a14bbabd77f0	Sound Recording	9
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	6d91eec1-db72-4005-8863-2e7e03fa7795	VFX Director	10
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	0329141b-1320-4ca6-a45a-994e18f02b85	Editor	11
+34b0e8ab-36ec-4efb-8b38-5f3ef72c769d	bbd9577c-7b1c-4879-8508-4dd72ccc488c	VFX	12
 \.
 
 
@@ -7962,6 +7975,28 @@ c9fd1ac1-2186-4d0d-bc55-04596da437b3	5449600a-b42d-4b3b-8551-4bfce2101463
 7d5e2d3f-b7d8-40d1-814d-58eaf4e7c99d	5449600a-b42d-4b3b-8551-4bfce2101463
 324e559c-c05c-4c78-9f00-748ca64c91eb	5449600a-b42d-4b3b-8551-4bfce2101463
 dcba7eef-96d9-4b05-ae7e-6c2a6de8da1f	5449600a-b42d-4b3b-8551-4bfce2101463
+ecb911c2-dd74-4fdf-9005-210865f7ed7a	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+35dafc66-9b5a-4a6a-b3f8-cebeb9efb361	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+b52fcdd6-691b-4a16-a670-e6ad6f176521	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+fe73b252-2b31-49a6-9963-b80366290547	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+3733c5a3-f95e-4812-99fd-c773295420c9	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+1384d84f-f933-4305-abaf-1e4e3c1a3430	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+732802d4-0269-415d-b00a-6f4f35321fff	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+4c9c0a7e-e1e6-4160-9a6f-86655690967c	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+0ce8d818-e838-48ff-84c5-50f06d1a29bd	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+97b3b3ab-a1b2-4f24-a1a7-192c4f49575e	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+5f9b21b3-ab8a-44fc-be68-2781b8f9dc3d	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+4f64ea86-817d-4bac-ad6d-7a3976190a7e	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+033b1895-23bc-494e-8ad6-07ae9ac94dd1	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+416bad46-c754-457a-bb07-f2c214d77642	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+5000e02b-dc6b-4038-930a-c8e71b8d1995	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+c4b0bb6f-09ce-47ba-af20-67505cb55d31	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+93b77f24-f402-40bb-80ef-d1ea32bfc555	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+682a8dd1-41ba-45a6-8775-d7a7fed75561	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+dc9a29d3-6f41-451f-b138-91c3422cf239	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+131e347d-4a79-4c82-b0fc-331cabe1decf	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
+d6cf04e7-daca-4461-94f3-066bbe703cfe	34b0e8ab-36ec-4efb-8b38-5f3ef72c769d
 \.
 
 
@@ -8164,6 +8199,7 @@ bec1cdf0-6323-4028-bc59-4980aaf79cea	Asmik Ace	{"japanese_name": "アスミッ�
 d3ace65b-cdd0-4515-b224-77ff9da586ae	Chunichi Shimbun	{"japanese_name": "中日新聞社"}
 13d99467-dc6d-41aa-b273-6d3c56b8e7c2	Nishinippon Shimbun	{"japanese_name": "西日本新聞社"}
 3405d242-5b7e-4dac-920c-66b800392670	Fujiko Productions	{"display": "Fujiko Pro", "japanese_name": "藤子プロ"}
+131e347d-4a79-4c82-b0fc-331cabe1decf	Yamaguchi Broadcasting	{"display": "KRY", "japanese_name": "山口放送"}
 \.
 
 
