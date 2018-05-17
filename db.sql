@@ -2567,7 +2567,6 @@ fe9e647e-d817-4ca2-8885-6a7de4e65b7b	20th Century Boys: The Last Hope	2009-01-31
 156b1dbb-5379-4355-b6b3-85b1be2e8e7b	Tomie: Rebirth	2001-03-24	101	f	\N	{"original_title": "富江 re-birth", "original_translation": "Tomie Re-Birth", "original_transliteration": "Tomie Re-Birth"}
 cbde47ee-1057-467a-a853-421d97c5440d	The Grudge	2003-01-25	92	f	\N	{"original_title": "呪怨", "original_translation": "Grudge", "original_transliteration": "Jyuon"}
 98571eeb-d5f6-4eaa-a819-12a21b08cc78	Tomie: Forbidden Fruit	2002-06-29	91	f	\N	{"original_title": "富江 最終章 -禁断の果実-", "original_translation": "Tomie Final Chapter: Forbidden Fruit", "original_transliteration": "Tomie Saishyuushyou Kindan No Kajitsu"}
-48170d76-e893-49a1-aaf7-43b7ffa6e3a7	Avalon	2001-01-20	106	f	\N	{"original_title": "アヴァロン", "original_translation": "Avalon", "original_transliteration": "Avuaron"}
 4fea4d88-a085-4624-b86a-373e9088a940	The Grudge 2	2003-08-23	92	f	\N	{"original_title": "呪怨2", "original_translation": "Grudge 2", "original_transliteration": "Jyuon"}
 8437dbf0-a594-4caf-ac74-9c9eb5c4ca69	Death Trance	2006-05-20	89	f	\N	{"original_title": "デス・トランス", "original_translation": "Death Trance", "original_transliteration": "Desu Toransu"}
 fb7218d1-0de2-47c2-a68e-2c819f2025f8	Kaidan	2007-08-04	119	f	\N	{"original_title": "怪談", "original_translation": "Ghost Story", "original_transliteration": "Kaidan"}
@@ -2577,6 +2576,7 @@ d085f568-32be-4037-bfb0-f0206a7b8758	The Explosion	1975-07-12	100	t	\N	{"origina
 d1f33930-3bab-48fc-8fc5-c3339d27c413	The Red Spectacles	1987-02-07	116	t	\N	{"original_title": "紅い眼鏡", "original_translation": "Red Glasses", "original_transliteration": "Akai Megane"}
 18c426a6-8cf3-44e0-ac1a-f2d741dda9d1	Talking Head	1992-10-10	105	t	\N	{"original_title": "トーキング・ヘッド", "original_translation": "Talking Head", "original_transliteration": "Tookingu Heddo"}
 4a4b6286-fcdc-4755-8870-83196ac7da97	Godzilla VS Mothra	1992-12-12	102	t	{"Godzilla and Mothra: The Battle for Earth"}	{"original_title": "ゴジラvsモスラ", "original_translation": "Godzilla VS Mothra", "original_transliteration": "Gojira VS Mosura"}
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	Avalon	2001-01-20	106	t	\N	{"original_title": "アヴァロン", "original_translation": "Avalon", "original_transliteration": "Avuaron"}
 c09478fe-08da-45ef-b4c2-9ecc076cb73b	Eko Eko Azarak: Wizard of Darkness	1995-04-08	80	t	\N	{"original_title": "エコエコアザラク -WIZARD OF DARKNESS-", "original_translation": "Eko Eko Azarak: Wizard of Darkness", "original_transliteration": "Eko Eko Azaraku Wizard of Darkness"}
 dc903a47-1d7d-4fc6-8608-9955638d3ef1	Rebirth of Mothra 2	1997-12-13	100	t	\N	{"original_title": "モスラ2 海底の大決戦", "original_translation": "Mothra 2: Sea Battle", "original_transliteration": "Mosura 2 Kaitei No Kessen"}
 b91e69c2-1d07-48e7-b3e1-9576417b518d	Battle Royale	2000-12-16	114	t	\N	{"original_title": "バトル・ロワイアル", "original_translation": "Battle Royale", "original_transliteration": "Batoru Rowaiaru"}
@@ -3931,6 +3931,9 @@ ae463ac8-9dfb-4031-a7f6-4ac0c4d7ef39	Kazuo	Kamimura	M	f	{"day": 7, "year": 1940,
 7a3b13a1-1650-4f68-8087-4f3dc5080860	Sork-jun	Lee	M	f	\N	\N	\N	\N	\N	\N
 bde87b18-becb-40cc-9dc2-3298d08e6085	Kei	Kunii	M	f	\N	\N	\N	\N	\N	{"original_name": "国井 桂"}
 bda0723c-d6b9-40b0-9250-2f8874ab473d	Daisuke	Nakagawa	M	f	\N	\N	\N	\N	\N	{"original_name": "中川 大輔"}
+331016a7-7f62-45b1-99a1-258fb3faf3dc	Nobuaki	Koga	M	f	\N	\N	\N	\N	\N	{"original_name": "古賀　信明"}
+1f654e8c-1c77-4978-977f-86e5896971f4	Grzegorz	Kędzierski	M	f	\N	\N	\N	\N	\N	{"japanese_name": "グジェゴシ・ケンジェルスキ"}
+18b9a9d0-eae2-4265-a289-1e28df22f499	Barbara	Nowak	M	f	\N	\N	\N	\N	\N	{"japanese_name": "バルバラ・ノバク"}
 \.
 
 
@@ -7020,6 +7023,15 @@ b8f05bfc-0f37-48bf-a304-fa0f7db6c988	5788cc3b-2bf1-4f6f-9d01-f9f4c64ba4d7	VFX Su
 2a2c4aa6-1a29-4c0d-8224-4050fe6a21df	699922e3-caf6-4fe6-868d-6b2b56a433a3	Sound Recording	11
 2a2c4aa6-1a29-4c0d-8224-4050fe6a21df	ee09d729-f356-4904-823f-16a9708a1790	Editor	12
 2a2c4aa6-1a29-4c0d-8224-4050fe6a21df	b6c2487e-9b32-4e5f-bbf0-3e953a72dcf4	VFX Supervisor	13
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	6abfe2c8-2b4d-4981-b191-35899ab45a90	Director	1
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	e509548c-1fd8-4701-be67-f6c043993659	Screenplay	2
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	a47a6000-0e6e-4800-9b6d-3e6690612880	Music	3
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	1f654e8c-1c77-4978-977f-86e5896971f4	Cinematography	4
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	18b9a9d0-eae2-4265-a289-1e28df22f499	Art Director	5
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	331016a7-7f62-45b1-99a1-258fb3faf3dc	Visual Effects Supervisor	6
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	7c740c39-4d86-45fd-8cb8-fc84a0bff003	Special Assistant Director	7
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Sound Recording	8
+48170d76-e893-49a1-aaf7-43b7ffa6e3a7	6b0a756a-aedf-4f88-a9e3-97addf84b0a6	Editor	9
 \.
 
 
@@ -8073,6 +8085,11 @@ ddc6ccf6-8f68-4f6a-b3ae-14d3175996f2	2a2c4aa6-1a29-4c0d-8224-4050fe6a21df
 35bb99d5-45e1-48d3-b2fc-c0857fdf17b4	2a2c4aa6-1a29-4c0d-8224-4050fe6a21df
 43ef1e71-d2e6-475d-8613-4ab078c3787c	2a2c4aa6-1a29-4c0d-8224-4050fe6a21df
 2189260b-684f-4400-8fb4-bafe87d52848	2a2c4aa6-1a29-4c0d-8224-4050fe6a21df
+346eb948-e8b7-48ed-87ef-4b0df9727a4f	48170d76-e893-49a1-aaf7-43b7ffa6e3a7
+2452df96-20d2-464b-b4e7-ac9cf34c3615	48170d76-e893-49a1-aaf7-43b7ffa6e3a7
+3733c5a3-f95e-4812-99fd-c773295420c9	48170d76-e893-49a1-aaf7-43b7ffa6e3a7
+5ac759ec-6f7e-40e8-bf80-4f109df969ac	48170d76-e893-49a1-aaf7-43b7ffa6e3a7
+82759028-e58f-43a7-8444-c009f0b7e294	48170d76-e893-49a1-aaf7-43b7ffa6e3a7
 \.
 
 
