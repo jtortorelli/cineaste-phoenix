@@ -1,0 +1,3 @@
+<!-- Shin Otomo -->
+
+Supporting actor distinguished by his receding hairline, large nose and squinting glare. Otomo played a lot of tough guy roles, including gangsters, policemen, convicts, and soldiers. As an exclusive contract actor for Toho he appeared in several sci-fi films in the 50s and 60s. He is particularly memorable as Malmess' boss in _Ghidorah, the Three-Headed Monster_ (1964, almost unrecognizable under that huge mustache). He also had prominent roles as a police chief in _The Invisible Man_ (1954), and as the first victim in _The Secret of the Telegian_ (1960). He presumably retired from acting after his contract expired in the early 70s and hasn't been seen since.

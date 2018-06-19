@@ -1,0 +1,7 @@
+<!-- Kaoru Yachigusa -->
+
+Beautiful actress who came from poverty. Yachigusa joined the Takarazuka Revue in 1947 at the age of 16, and gained a reputation for playing comedic roles. In 1954 she appeared in both Hiroshi Inagaki's acclaimed _Musashi Miyamoto_ (aka _Samurai I_) and Carmine Gallone's Italian-Japanese musical _Madama Butterfly_. She apparently was under contract for Toho during the 50s and 60s, at which time she appeared in her sole sci-fi film, _The Human Vapor_ (1960); Yachigusa apparently was less than fond of the film and claimed not to remember working on it during interviews. When Toho released actors from contract in the early 70s, Yachigusa clung to film longer to most, appearing in films throughout the 70s while simultaneously making the transition to television. She has continued to appear in popular films well into the 2000s, including _Like Asura_ (2003), _Negotiator Masayoshi Mashimo_ (2005), _Dear Doctor_ (2009), and _Tsunagu_ (2012).
+
+Kaoru Yachigusa was married to director Senkichi Taniguchi, who was 19 years her senior. It was Taniguchi's third marriage. They remained married for over 50 years until his death in 2007.
+
+Yachigusa was awarded the Medal of Honor, Purple Ribbon in 1997 and the Order of the Rising Sun, 4th Class in 2003. She won the Japanese Academy Award for Best Supporting Actress for 2003's _Like Asura_.
