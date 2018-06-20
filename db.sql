@@ -2,8 +2,8 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 10.3
--- Dumped by pg_dump version 10.3
+-- Dumped from database version 10.4
+-- Dumped by pg_dump version 10.4
 
 SET statement_timeout = 0;
 SET lock_timeout = 0;
@@ -1007,45 +1007,8 @@ b30c5657-a980-489b-bd91-d58e63609102	c0aaff10-a67a-4304-a3c3-875a00348870	{"Jail
 b30c5657-a980-489b-bd91-d58e63609102	c21e21a8-e940-417c-982e-33aacb5e19a7	{Samurai}	23
 b30c5657-a980-489b-bd91-d58e63609102	fd1d5a32-95c6-45da-8b27-99e6f9b8b9af	{"Palace Guard"}	25
 b30c5657-a980-489b-bd91-d58e63609102	e5f1bba1-e4e2-452b-bb62-1747d34ca1e1	{"Giant Bodyguard"}	26
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	ff76604e-909d-489b-8c32-64de3d04a0fc	{"Susumu Hatanaka"}	1
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	975efb7b-e01c-4ca2-9c8d-6deaddcf6ade	{"Makoto Jinguji"}	2
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	235193ac-7eb5-4514-b03d-cefab039ed5f	{"Yoshito Nishibe"}	3
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{Unno}	4
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	6eeae332-74cd-43e3-a747-e0ab5d6d1f66	{"Admiral Kusumi"}	5
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	34de1ef2-9428-4c7e-8512-5683f7cced38	{"Detective Ito"}	6
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Captain Hachiro Jinguji"}	7
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	86209caa-4d37-4745-be23-dbee24bf244a	{"Lt. Amano"}	8
 0a2401ee-c5da-4e00-a2bc-d6ae7026aa13	fefa0ceb-89a5-4d79-8a4a-80dfb16238a0	{Reporter}	24
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Mu Agent No. 23"}	9
 700c2ce1-095e-48ac-96c0-1d31f0c4e52b	d08d501c-fb18-4360-8e59-9685b5ecead3	{Hamako}	4
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	7890926d-3000-43b1-9be4-272609b3cca7	{"High Priest of Mu"}	10
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	b86678a4-b0f5-477d-af53-af0dde7e60ef	{General}	11
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	def945ba-826b-4d5a-b100-ce9eb2362805	{"Military Officer"}	12
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	0b33ac7b-829f-4140-b760-74806280cf6a	{"Kidnapped Scientist"}	13
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	4aac5e75-0c01-418b-98fb-17d3f7138f85	{"Taxi Driver"}	14
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	609b8ee2-5b44-481b-82e9-5fafb7403036	{"Empress of Mu"}	15
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	fd1d5a32-95c6-45da-8b27-99e6f9b8b9af	{"Atragon Crew"}	16
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	6082d456-e1d7-43de-8174-148d1a2b09c0	{"Kidnapped Scientist"}	17
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	f78c7a73-5c05-4dd1-b0a8-c6fdfbee3a3e	{"Military Officer"}	18
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	d85dc51d-4970-45b8-8b69-8472f0099fcb	{"Atragon Crew"}	19
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	040d7f31-5c23-49df-9b69-d3fb78b6d93f	{"Cargo Ship Captain"}	20
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	885202f7-ebc0-41e6-91c8-761c1b65593a	{"Cargo Ship Crew"}	21
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	2f7a44eb-826b-477e-973b-5c57a715b25a	{"Military Officer"}	22
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Policeman}	23
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	b883c489-0fe7-4165-86a4-49b531a28c37	{"Military Officer"}	25
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	fefa0ceb-89a5-4d79-8a4a-80dfb16238a0	{"Mihara Tourist"}	27
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	954bb729-459b-4676-b11b-912a33d3ca6d	{"Mihara Tourist"}	28
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	f41e7c82-78c1-40ed-b341-2e8d2e1b5df2	{"Mu Citizen"}	29
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	f5b35e44-efd4-4298-8124-4bccd4325e23	{"Military Officer"}	30
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	0e2de731-55a7-44be-a0b3-8213183d631e	{"Military Officer"}	31
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	9e5948a3-3002-44bf-912e-5902e5f385f1	{"Atragon Crew"}	33
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	b3d271ee-f159-45dd-b774-cc823c21d82d	{Soldier}	34
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	65171b44-fd3a-4948-9613-3f7206141774	{Soldier}	38
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	5dab35d1-8242-4af3-831c-2cb48b954f61	{"Military Officer"}	39
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{Soldier}	99
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	f9a23daa-fab8-418d-90f0-30a195ca171d	{"Atragon Crew"}	99
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	707ffa12-afe9-4ea9-b269-5c40f47d0620	{"Atragon Crew"}	99
-5df297a2-5f6d-430d-b7fc-952e97ac9d79	0887b3b0-a812-4501-8be9-2d25b4048d43	{"Mu Soldier"}	99
 75bb901c-e41c-494f-aae8-7a5282f3bf96	2aec7762-810f-40b3-943c-211bc049d319	{"Ichiro Sakai"}	1
 75bb901c-e41c-494f-aae8-7a5282f3bf96	63df9c5e-35b7-4e72-9e6f-4bb8216f7842	{"Junko Nakanishi"}	2
 75bb901c-e41c-494f-aae8-7a5282f3bf96	34de1ef2-9428-4c7e-8512-5683f7cced38	{"Dr. Miura"}	3
@@ -1494,6 +1457,47 @@ f474852a-cc25-477d-a7b9-06aa688f7fb2	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Red 
 7be35dd2-8758-4cb8-85af-17985772d431	2ef5fd75-6752-4e6b-ba59-02d2761e999e	{"Possessed Monster Island Tech"}	20
 7be35dd2-8758-4cb8-85af-17985772d431	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{"Moon Base Commander Nishikawa"}	6
 7f9c68a7-8cec-4f4e-be97-528fe66605c3	505a2aab-1965-4e16-a6b4-697e14d85d1a	{"Fishing Company Employee"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	ff76604e-909d-489b-8c32-64de3d04a0fc	{"Susumu Hatanaka"}	1
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	975efb7b-e01c-4ca2-9c8d-6deaddcf6ade	{"Makoto Jinguji"}	2
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	235193ac-7eb5-4514-b03d-cefab039ed5f	{"Yoshito Nishibe"}	3
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	fb14ed7b-7b9e-42da-85bc-5e88f6d86e1c	{Unno}	4
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	6eeae332-74cd-43e3-a747-e0ab5d6d1f66	{"Admiral Kusumi"}	5
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	34de1ef2-9428-4c7e-8512-5683f7cced38	{"Detective Ito"}	6
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	0cd551b9-f7a4-4bdf-b0e5-050c835f1096	{"Captain Hachiro Jinguji"}	7
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	86209caa-4d37-4745-be23-dbee24bf244a	{"Lt. Amano"}	8
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	792be715-31b9-4b8c-8ddf-38fbea1e4101	{"Mu Agent No. 23"}	9
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	7890926d-3000-43b1-9be4-272609b3cca7	{"High Priest of Mu"}	10
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	b86678a4-b0f5-477d-af53-af0dde7e60ef	{General}	11
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	def945ba-826b-4d5a-b100-ce9eb2362805	{"Military Officer"}	12
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	0b33ac7b-829f-4140-b760-74806280cf6a	{"Kidnapped Scientist"}	13
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	4aac5e75-0c01-418b-98fb-17d3f7138f85	{"Taxi Driver"}	14
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	609b8ee2-5b44-481b-82e9-5fafb7403036	{"Empress of Mu"}	15
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	fefa0ceb-89a5-4d79-8a4a-80dfb16238a0	{"Mihara Tourist"}	27
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	f9a23daa-fab8-418d-90f0-30a195ca171d	{"Atragon Crew"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	fd1d5a32-95c6-45da-8b27-99e6f9b8b9af	{"Atragon Crew"}	16
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	954bb729-459b-4676-b11b-912a33d3ca6d	{"Mihara Tourist"}	28
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	707ffa12-afe9-4ea9-b269-5c40f47d0620	{"Atragon Crew"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	6082d456-e1d7-43de-8174-148d1a2b09c0	{"Kidnapped Scientist"}	17
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	f41e7c82-78c1-40ed-b341-2e8d2e1b5df2	{"Mu Citizen"}	29
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	0887b3b0-a812-4501-8be9-2d25b4048d43	{"Mu Soldier"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	f78c7a73-5c05-4dd1-b0a8-c6fdfbee3a3e	{"Military Officer"}	18
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	f5b35e44-efd4-4298-8124-4bccd4325e23	{"Military Officer"}	30
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	3b4d8cf3-372d-4180-a625-d7ece05d7d58	{"Cargo Ship Crew"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	d85dc51d-4970-45b8-8b69-8472f0099fcb	{"Atragon Crew"}	19
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	0e2de731-55a7-44be-a0b3-8213183d631e	{"Military Officer"}	31
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	839d802a-34c1-4258-a75a-2a5bbfe67afc	{"Military Officer"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	040d7f31-5c23-49df-9b69-d3fb78b6d93f	{"Cargo Ship Captain"}	20
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	9e5948a3-3002-44bf-912e-5902e5f385f1	{"Atragon Crew"}	33
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	9b787e61-5c06-463d-aa62-18c142735fc8	{"Military Officer"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	885202f7-ebc0-41e6-91c8-761c1b65593a	{"Cargo Ship Crew"}	21
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	b3d271ee-f159-45dd-b774-cc823c21d82d	{Soldier}	34
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	10af34fa-1751-4bfb-8950-3bd3667cc03f	{"Mihara Tourist"}	99
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	2f7a44eb-826b-477e-973b-5c57a715b25a	{"Military Officer"}	22
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	65171b44-fd3a-4948-9613-3f7206141774	{Soldier}	38
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	8e70dd9b-5105-49c4-9bdf-ba558a60f593	{Policeman}	23
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	5dab35d1-8242-4af3-831c-2cb48b954f61	{"Military Officer"}	39
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	b883c489-0fe7-4165-86a4-49b531a28c37	{"Military Officer"}	25
+5df297a2-5f6d-430d-b7fc-952e97ac9d79	ba096bb3-4c76-453a-8d6a-86a01d2e0337	{Policeman}	99
 \.
 
 
@@ -3164,7 +3168,6 @@ d4374410-4d45-4928-9216-559cf8217068	Yosuke	Uchida	M	f	\N	\N	\N	\N	\N	{"original
 1ec4e3df-c02f-44fd-a7cc-6b842bf44bb4	Kiyoko	Hirai	F	f	\N	\N	\N	\N	\N	{"original_name": "平井 岐代子"}
 50fd1eb9-7289-4cf4-bdc6-065797936bd7	Ryunosuke	Akutagawa	M	f	{"day": 1, "year": 1892, "month": 3}	{"day": 24, "year": 1927, "month": 7}	Kyobashi, Tokyo, Japan	Tabata, Takinogawa, Toshima, Tokyo, Japan	\N	{"original_name": "芥川 龍之介"}
 2209b83b-f80d-4f9b-be22-838581803d4b	Shinobu	Hashimoto	M	f	{"day": 18, "year": 1918, "month": 4}	\N	Tsurui, Kisaki, Hyogo, Japan	\N	\N	{"original_name": "橋本 忍"}
-786ceebd-6927-4242-a1cd-5933186090c3	Kazuo	Miyakawa	M	f	{"day": 25, "year": 1908, "month": 2}	{"day": 7, "year": 1999, "month": 8}	Oike, Kawaramachi, Kyoto, Japan	\N	\N	{"original_name": "宮川 一夫"}
 4c0538b4-3e0f-41ab-b29a-cf058f7f0708	Takashi	Matsuyama	M	f	{"day": 22, "year": 1908, "month": 9}	{"day": 14, "year": 1977, "month": 7}	Kobe, Hyogo, Japan	\N	\N	{"original_name": "松山 崇"}
 cbf78cce-3676-40c9-b871-0dcddd5423df	Fumio	Hayasaka	M	f	{"day": 19, "year": 1914, "month": 8}	{"day": 15, "year": 1955, "month": 10}	Sendai, Miyagi, Japan	Setagaya, Kenichi, Tokyo, Japan	\N	{"original_name": "早坂 文雄"}
 fafb356d-5415-434e-9809-afd08177a68d	Kenichi	Okamoto	M	f	\N	\N	\N	\N	\N	{"original_name": "岡本 健一"}
@@ -4708,7 +4711,6 @@ b093530b-88fa-4439-bce1-aaf1b066b5ba	5e025577-ff1e-4462-9c3d-0446693fe1cd	Sound 
 9883d93a-db06-4c02-ba91-1d41c335acf1	50fd1eb9-7289-4cf4-bdc6-065797936bd7	Original Story	3
 9883d93a-db06-4c02-ba91-1d41c335acf1	449ff18f-f1bf-4f74-b7d0-d725027fa078	Screenplay	4
 9883d93a-db06-4c02-ba91-1d41c335acf1	2209b83b-f80d-4f9b-be22-838581803d4b	Screenplay	5
-9883d93a-db06-4c02-ba91-1d41c335acf1	786ceebd-6927-4242-a1cd-5933186090c3	Cinematography	6
 9883d93a-db06-4c02-ba91-1d41c335acf1	a87ae5a4-cb4e-4605-aaaf-6ca63f38f892	Sound Recording	7
 9883d93a-db06-4c02-ba91-1d41c335acf1	4c0538b4-3e0f-41ab-b29a-cf058f7f0708	Art Director	8
 9883d93a-db06-4c02-ba91-1d41c335acf1	cbf78cce-3676-40c9-b871-0dcddd5423df	Music	9
@@ -7102,6 +7104,7 @@ c40759c6-257e-452d-a313-b4f7114e7db9	129ce783-00e1-46cd-ab70-12f0d28e32f6	Specia
 7e322ca6-fe1c-4c13-9b6d-4991f675f2ed	5c437649-da2d-4de6-87d7-27a6aa305cdd	Editor	9
 7e322ca6-fe1c-4c13-9b6d-4991f675f2ed	e8440bbd-2fc3-4485-9a82-a6bba62ee797	Monster Molding	10
 dd83f9ef-cece-4825-b1ed-f63063b0226b	7322f59d-4de0-401d-a62f-bb29790eaf7a	Editor	12
+9883d93a-db06-4c02-ba91-1d41c335acf1	425a85c7-ebd8-4927-9f8b-a1a3806f0a40	Cinematography	6
 \.
 
 
