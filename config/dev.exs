@@ -41,3 +41,7 @@ config :cineaste, Cineaste.Repo,
   database: "cineaste_dev",
   hostname: "localhost",
   pool_size: 10
+
+config :cineaste, :s3,
+  base_url: "/bucket"
+
