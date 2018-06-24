@@ -2542,10 +2542,10 @@ e0a5b9ea-6ba6-4af6-85e3-92688ab6343f	Gojoe	2000-10-07	137	f	\N	{"original_title"
 1728c27b-80b3-496a-b1c2-c01dc662ed2d	Tomie: Replay	2000-02-11	95	f	\N	{"original_title": "富江 replay", "original_translation": "Tomie Replay", "original_transliteration": "Tomie Replay"}
 ea15e6b4-5bac-48d9-836b-eda509c39ba6	Tomie: Another Face	1999-12-26	95	f	\N	{"original_title": "富江 恐怖の美少女", "original_translation": "Tomie: Beautiful Girl of Terror", "original_transliteration": "Tomie Kyoufu No Bishyoujyou"}
 8d1d9023-f052-43ba-bec7-3de46d40dc3b	Chaos	2000-10-21	104	f	\N	{"original_title": "カオス", "original_translation": "Chaos", "original_transliteration": "Kaosu"}
-c7a3c4ef-364c-404e-8a16-4a1fce836949	Jin-Roh: The Wolf Brigade	2000-06-03	98	f	\N	{"original_title": "人狼", "original_translation": "Werewolf", "original_transliteration": "Jinrou"}
 8028131f-b3eb-486f-a742-8dbbd07a6516	Eko Eko Azarak II: Birth of the Wizard	1996-04-20	83	t	\N	{"original_title": "エコエコアザラクII -BIRTH OF THE WIZARD-", "original_translation": "Eko Eko Azarak II: Birth of the Wizard", "original_transliteration": "Eko Eko Azaraku II Birth of the Wizard"}
 c512e380-84ba-447a-8ad7-d228d98704b7	Gatchaman	2013-08-24	113	t	\N	{"original_title": "ガッチャマン", "original_translation": "Gatchaman", "original_transliteration": "Gacchyaman"}
 dd83f9ef-cece-4825-b1ed-f63063b0226b	Onmyoji	2001-10-06	116	t	\N	{"original_title": "陰陽師", "original_translation": "Yin Yang Master", "original_transliteration": "Onmyouji"}
+c7a3c4ef-364c-404e-8a16-4a1fce836949	Jin-Roh: The Wolf Brigade	2000-06-03	98	t	\N	{"original_title": "人狼", "original_translation": "Man Wolf", "original_transliteration": "Jinrou"}
 bc28d5c1-e623-43b0-b097-c58ac18680bd	Prophecies of Nostradamus	1974-08-03	114	t	{"Catastrophe: 1999","The Last Days of Planet Earth"}	{"original_title": "ノストラダムスの大予言", "original_translation": "Great Prophecies of Nostradamus", "original_transliteration": "Nosutoradamusu No Daiyogen"}
 48c3898a-8de2-44dd-8cae-c2983694d0d1	The Bullet Train	1975-07-05	152	t	{"Super Express 109"}	{"original_title": "新幹線大爆破", "original_translation": "Bullet Train Great Explosion", "original_transliteration": "Shinkansen Daibakaha"}
 439c5b5d-7127-4f80-bb7a-6fd92fc430b6	Sayonara, Jupiter	1984-03-17	129	t	\N	{"original_title": "さよならジュピター", "original_translation": "Farewell Jupiter", "original_transliteration": "Sayonara Jyupitaa"}
@@ -3954,6 +3954,9 @@ fd5f52ff-3492-43c5-818f-1f65fb0c1be6	Yojiro	Takita	M	f	{"day": 4, "year": 1955, 
 4d4cce74-1a82-475f-af47-9ed018f01b69	Nobuko	Tomita	M	f	{"year": 1964}	{"day": 29, "year": 2012, "month": 10}	Kagawa, Japan	\N	\N	{"original_name": "冨田 伸子"}
 c0f944e3-e3e9-4157-8cc3-148b1ea8ac3c	Hiroyoshi	Tsuno	M	f	\N	\N	\N	\N	\N	{"original_name": "土野 宏志"}
 d35ccac7-ff98-4279-8473-be1d689bf594	Itaru	Era	M	f	{"day": 13, "year": 1961, "month": 3}	\N	Kumamoto, Japan	\N	\N	{"original_name": "江良 至"}
+0649cc09-9182-4856-a34b-2f58708fab1c	Kenji	Kamiyama	M	f	{"day": 20, "year": 1966, "month": 3}	\N	Saitama, Japan	\N	\N	{"original_name": "神山 健治"}
+bc9decad-c1a4-4b7e-88dd-7784d5944efa	Hiroyuki	Okiura	M	f	{"day": 13, "year": 1966, "month": 10}	\N	Fuchino, Osaka, Japan	\N	\N	{"original_name": "沖浦 啓之"}
+320b64f4-c4cd-4ea6-b297-a2805dcb463a	Hajime	Mizoguchi	M	f	{"day": 23, "year": 1960, "month": 4}	\N	Tokyo, Japan	\N	\N	{"original_name": "溝口 肇"}
 \.
 
 
@@ -7105,6 +7108,16 @@ c40759c6-257e-452d-a313-b4f7114e7db9	129ce783-00e1-46cd-ab70-12f0d28e32f6	Specia
 7e322ca6-fe1c-4c13-9b6d-4991f675f2ed	e8440bbd-2fc3-4485-9a82-a6bba62ee797	Monster Molding	10
 dd83f9ef-cece-4825-b1ed-f63063b0226b	7322f59d-4de0-401d-a62f-bb29790eaf7a	Editor	12
 9883d93a-db06-4c02-ba91-1d41c335acf1	425a85c7-ebd8-4927-9f8b-a1a3806f0a40	Cinematography	6
+c7a3c4ef-364c-404e-8a16-4a1fce836949	bc9decad-c1a4-4b7e-88dd-7784d5944efa	Director	1
+c7a3c4ef-364c-404e-8a16-4a1fce836949	6abfe2c8-2b4d-4981-b191-35899ab45a90	Original Story	2
+c7a3c4ef-364c-404e-8a16-4a1fce836949	6abfe2c8-2b4d-4981-b191-35899ab45a90	Screenplay	3
+c7a3c4ef-364c-404e-8a16-4a1fce836949	bc9decad-c1a4-4b7e-88dd-7784d5944efa	Storyboarding	4
+c7a3c4ef-364c-404e-8a16-4a1fce836949	0649cc09-9182-4856-a34b-2f58708fab1c	Production	5
+c7a3c4ef-364c-404e-8a16-4a1fce836949	8c79be4a-6a68-4fcb-9f7a-0791c55dbe82	Art Director	6
+c7a3c4ef-364c-404e-8a16-4a1fce836949	5e500733-9325-4425-a517-0453be65b1ff	Cinematography	7
+c7a3c4ef-364c-404e-8a16-4a1fce836949	e1824175-349a-409b-9799-0863397254da	Editor	8
+c7a3c4ef-364c-404e-8a16-4a1fce836949	320b64f4-c4cd-4ea6-b297-a2805dcb463a	Music	9
+c7a3c4ef-364c-404e-8a16-4a1fce836949	7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Sound Recording	10
 \.
 
 
@@ -8179,6 +8192,8 @@ cb3fc43d-63c8-4f90-83b1-7696b38b9dea	c40759c6-257e-452d-a313-b4f7114e7db9
 95e9268c-c1bd-4fef-b7de-7ab3ca7accf1	7e322ca6-fe1c-4c13-9b6d-4991f675f2ed
 ecb911c2-dd74-4fdf-9005-210865f7ed7a	7e322ca6-fe1c-4c13-9b6d-4991f675f2ed
 fcac3e11-9225-4335-bc36-e30761da0d39	7e322ca6-fe1c-4c13-9b6d-4991f675f2ed
+346eb948-e8b7-48ed-87ef-4b0df9727a4f	c7a3c4ef-364c-404e-8a16-4a1fce836949
+2fe3e582-9ca5-401c-817d-f6c2135601a0	c7a3c4ef-364c-404e-8a16-4a1fce836949
 \.
 
 
