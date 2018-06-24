@@ -43,5 +43,5 @@ config :cineaste, Cineaste.Repo,
   pool_size: 10
 
 config :cineaste, :s3,
-  base_url: "/bucket"
+  base_url: "http://localhost:4000/bucket"
 
