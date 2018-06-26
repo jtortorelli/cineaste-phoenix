@@ -73,6 +73,10 @@ defmodule CineasteWeb.PeopleView do
     "SFX Art Director"
   end
 
+  defp convert_role_to_display_value("Chief Assistant Director", _) do
+    "Chief A.D."
+  end
+
   defp convert_role_to_display_value(role, _) do
     role
   end
