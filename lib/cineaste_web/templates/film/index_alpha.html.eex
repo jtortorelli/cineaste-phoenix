@@ -1,4 +1,4 @@
-<div role="tabpanel" class="tab-pane fade in active" id="alphabetical">
+<div id="alphabetical">
       <div class="search-bar input-group input-group-sm">
         <span class="input-group-addon" id="basic-addon3" aria-described-by="basic-addon3">Search</span>
         <input id="film-search-bar" type="text" class="form-control" id="film-search">

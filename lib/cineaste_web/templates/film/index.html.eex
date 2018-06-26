@@ -1,20 +1,7 @@
 <div class="container">
   <div class="row">
     <h2>Films</h2>
-    <div>
-      <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation" class="active">
-          <a href="#alphabetical" aria-controls="alphabetical" role="tab" data-toggle="tab">Alphabetical</a>
-        </li>
-        <li role="presentation">
-          <a href="#decade" aria-controls="decade" role="tab", data-toggle="tab">By Decade</a>
-        </li>
-      </ul>
-    </div>
-    <div class="tab-content">
       <%= render "index_alpha.html", conn: @conn, film_index_views: @film_index_views %>
-      <%= render "index_decade.html", conn: @conn, decade_view: @decade_view %>
-    </div>
   </div>
   <%= render_back_button() %>
 </div>

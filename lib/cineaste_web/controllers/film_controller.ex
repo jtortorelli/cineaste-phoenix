@@ -16,13 +16,9 @@ defmodule CineasteWeb.FilmController do
   def index(conn, _params) do
     film_index_views = Repo.all(FilmIndexView)
     film_index_views_by_title = film_index_views |> Enum.sort_by(&(FilmIndexView.sort_title(&1)))
-    decade_view = film_index_views
-    |> Enum.sort_by(&(Date.to_erl(&1.release_date)))
-    |> Enum.chunk_by(&(div(&1.release_date.year, 10)))
-    |> Enum.map(fn([h | _] = fs) -> %{decade: "#{div(h.release_date.year, 10) * 10}s", films: fs} end)
 
     FilmMonitor.set_state(film_index_views_by_title)
-    render conn, "index.html", film_index_views: film_index_views_by_title, decade_view: decade_view
+    render conn, "index.html", film_index_views: film_index_views_by_title
   end
 
   def show(conn, %{"id" => id}) do
