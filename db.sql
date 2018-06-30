@@ -3385,7 +3385,6 @@ e509548c-1fd8-4701-be67-f6c043993659	Kazunori	Ito	M	f	{"day": 24, "year": 1954, 
 1b301690-8353-4397-8de2-12245672c365	Yoshimi	Hosaka	M	f	\N	\N	\N	\N	\N	{"original_name": "保坂 芳美"}
 9a6a5a5c-3e9f-4933-9a97-625b226bf0e3	Hiroaki	Kamino	M	f	\N	\N	\N	\N	\N	{"original_name": "神野 ひろあき"}
 36b249a6-aedb-4d39-964f-7bc01aed0202	Tetsuji	Mikami	M	f	\N	\N	\N	\N	\N	{"original_name": "三牧 哲二"}
-a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	f	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
 1e1683bc-2b4c-4805-98e3-77bf7df7d61b	Seiji	Morita	M	f	\N	\N	\N	\N	\N	{"original_name": "森田 清次"}
 950ef895-691a-4f90-9c9f-ffa530dd4bb6	Masato	Harada	M	f	{"day": 3, "year": 1949, "month": 7}	\N	Numazu, Shizuoka, Japan	\N	\N	{"original_name": "原田 眞人"}
 be5537ed-ebbf-4716-825d-8b74eeffaa0a	Eiji	Yamamura	M	f	\N	\N	\N	\N	\N	{"original_name": "山浦 栄二"}
@@ -3439,7 +3438,6 @@ abdf435c-d20d-4309-b937-f7dd54c3f99e	Masahisa	Kishimoto	M	f	{"day": 10, "year": 
 edd286e3-ac47-4d8f-b4ea-c152a1b3e1f9	Akihiko	Iguchi	M	f	\N	\N	\N	\N	\N	{"original_name": "井口 昭彦"}
 5bba3b7e-dfc0-4ab1-870c-49807db25a5c	Haruhito	Konno	M	f	\N	\N	\N	\N	\N	{"original_name": "今野 治人"}
 48b8ca0f-893e-4397-8a56-017c39cd1e3b	Shusuke	Kaneko	M	f	{"day": 8, "year": 1955, "month": 6}	\N	Shibuya, Tokyo, Japan	\N	\N	{"original_name": "金子 修介"}
-d4f52193-310b-487c-a9d4-513d6f9ad42b	Shinji	Higuchi	M	f	{"day": 22, "year": 1965, "month": 9}	\N	Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "樋口 真嗣"}
 686fbcb5-17b5-456f-b14b-45ac4a30fc47	Junichi	Tozawa	M	f	\N	\N	\N	\N	\N	{"original_name": "戸沢 潤一"}
 74813008-535a-4713-8487-61f77ad9da0a	Ichi	Oikawa	M	f	\N	\N	\N	\N	\N	{"original_name": "及川 一"}
 1d416a11-7716-474b-9ca8-61a307e90991	Yasuo	Hashimoto	M	f	\N	\N	\N	\N	\N	{"original_name": "橋本 泰夫"}
@@ -3960,6 +3958,8 @@ f787c85f-595a-41ff-b1ff-2e723b45346e	Hayao	Miyazaki	M	t	{"day": 15, "year": 1941
 eea6697c-022c-42b0-a542-b1b0e6dbd5bd	Kan	Shimozawa	M	t	{"day": 1, "year": 1892, "month": 2}	{"day": 19, "year": 1968, "month": 7}	Atsuta, Hokkaido, Japan	Tokyo, Japan	\N	{"birth_name": "Matsutaro Umetani (梅谷 松太郎)", "original_name": "子母沢 寛"}
 c70d0b2e-8511-4bfb-8527-808b3fef2a09	Takeo	Kita	M	t	{"day": 9, "year": 1901, "month": 1}	{"day": 1, "year": 1979, "month": 9}	Osaka, Japan	\N	\N	{"original_name": "&#21271; &#29467;&#22827;"}
 8372f43d-1876-42af-ae3e-f4d7e2137c63	Naoki	Sato	M	t	{"day": 2, "year": 1970, "month": 5}	\N	Chiba, Japan	\N	\N	{"original_name": "佐藤 直紀"}
+a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	t	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
+d4f52193-310b-487c-a9d4-513d6f9ad42b	Shinji	Higuchi	M	t	{"day": 22, "year": 1965, "month": 9}	\N	Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "樋口 真嗣"}
 \.
 
 
