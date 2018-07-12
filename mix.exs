@@ -39,7 +39,7 @@ defmodule Cineaste.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:timex, "~> 3.2.1"},
-     {:earmark, "~>1.2.0"},
+     {:earmark, "~>1.2.5"},
      {:httpoison, "~>0.11.2"},
      {:nimble_csv, "~>0.2.0"}]
   end
