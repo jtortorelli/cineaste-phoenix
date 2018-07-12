@@ -24,7 +24,7 @@ config :logger, :console,
 
 # S3 URLs
 config :cineaste, :s3,
-  base_url: "https://s3-us-west-2.amazonaws.com/cineaste",
+  base_url: "http://d1a12rl65yslnj.cloudfront.net",
   images: "/images",
   text: "/text",
   posters: "/posters",
