@@ -51,17 +51,16 @@ body {
 
 @media screen and (max-width: 480px) {
   .nav {
-      padding-left:2px;
-      padding-right:2px;
+    padding-left: 2px;
+    padding-right: 2px;
   }
   .nav li {
-      display:block !important;
-      width:100%;
-      margin:0px;
+    display: block !important;
+    width: 100%;
+    margin: 0px;
   }
   .nav li.active {
-      border-bottom:1px solid #ddd!important;
-      margin: 0px;
+    margin: 0px;
   }
 }
 
@@ -120,6 +119,7 @@ a.image-link {
     border: 0;
     background-color: transparent;
     font-size: 14px;
+    color: $cineaste-red;
   }
   li.active > a, li.active > a:hover, li.active > a:focus {
     border: 0;
@@ -147,7 +147,7 @@ a.image-link {
 }
 
 .shadowed {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 p {
@@ -178,11 +178,11 @@ div#info {
 }
 
 .back-to-top {
-    cursor: pointer;
-    position: fixed;
-    right: 50px;
-    bottom: 140px;
-    display:none;
+  cursor: pointer;
+  position: fixed;
+  right: 50px;
+  bottom: 140px;
+  display: none;
 }
 
 .btn-cineaste {
@@ -205,3 +205,37 @@ a#back-to-top:hover {
 p.decade {
   margin: 15px;
 }
+
+.panel-cineaste {
+  font-size: 12px;
+  border: none;
+  .panel-heading {
+    @extend .table-header;
+    background-color: transparent;
+  }
+  .panel-body {
+    padding: 0;
+    border-top-color: $cineaste-red !important;
+  }
+  max-width: 767px;
+}
+
+a.panel-link:hover {
+  text-decoration: none;
+}
+a.panel-link:focus {
+  text-decoration: none;
+}
+
+.panel-link:after {
+  font-family: 'Glyphicons Halflings';
+  color: $cineaste-red;
+  content: "\e113";
+}
+.panel-link.collapsed:after {
+  font-family: 'Glyphicons Halflings';
+  color: $cineaste-red;
+  content: "\e114";
+}
+
+

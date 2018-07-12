@@ -1,12 +1,22 @@
-<%= for role_name <- @role_names do %>
-  <p>
-    <%= raw "<span class=\"table-header\">#{role_name}</span> <span class=\"subdue\">(#{Map.get(@role_groups, role_name) |> Enum.count})</span>" %>
-  </p>
-  <ul class="index">
-    <%= for role <- Map.get(@role_groups, role_name) do %>
-      <li>
-        <%= render_film_link(@conn, role, role_name) %>
-      </li>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <%= for {role_name, counter} <- Enum.with_index(@role_names) do %>
+      <div class="panel panel-default panel-cineaste">
+        <div class="panel-heading" role="tab" id="heading<%=counter%>">
+              <a class="panel-link <%= if counter != 0, do: "collapsed"%>" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse<%=counter%>" aria-expanded="<%= counter == 0%>" aria-controls="collapse<%=counter%>">
+              </a>
+                <%= raw "#{role_name} <span class=\"subdue\">(#{Map.get(@role_groups, role_name) |> Enum.count})</span>" %>
+        </div>
+        <div id="collapse<%=counter%>" class="panel-collapse collapse <%= if counter == 0, do: "in", else: ""%>" role="tabpanel" aria-labelledby="heading<%=counter%>">
+            <div class="panel-body">
+                <ul class="index">
+                    <%= for role <- Map.get(@role_groups, role_name) do %>
+                      <li>
+                        <%= render_film_link(@conn, role, role_name) %>
+                      </li>
+                    <% end %>
+                  </ul>
+            </div>
+        </div>
+      </div>
     <% end %>
-  </ul>
-<% end %>
+</div>
