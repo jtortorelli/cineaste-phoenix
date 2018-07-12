@@ -76,5 +76,4 @@ defmodule CineasteWeb.S3View do
     Application.get_env(:cineaste, :s3)[:base_url]
     |> Kernel.<>(Application.get_env(:cineaste, :s3)[:text])
   end
-
 end

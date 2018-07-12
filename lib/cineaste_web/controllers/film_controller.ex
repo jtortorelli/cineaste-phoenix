@@ -12,13 +12,12 @@ defmodule CineasteWeb.FilmController do
 
   NimbleCSV.define(MyParser, [])
 
-
   def index(conn, _params) do
     film_index_views = Repo.all(FilmIndexView)
-    film_index_views_by_title = film_index_views |> Enum.sort_by(&(FilmIndexView.sort_title(&1)))
+    film_index_views_by_title = film_index_views |> Enum.sort_by(&FilmIndexView.sort_title(&1))
 
     FilmMonitor.set_state(film_index_views_by_title)
-    render conn, "index.html", film_index_views: film_index_views_by_title
+    render(conn, "index.html", film_index_views: film_index_views_by_title)
   end
 
   def show(conn, %{"id" => id}) do
@@ -36,28 +35,54 @@ defmodule CineasteWeb.FilmController do
   defp _render_film_page(conn, %Film{} = film) do
     film = Repo.preload(film, [:studios])
 
-    film_staff_views = Repo.all(from view in FilmStaffView, where: view.film_id == ^film.id)
-    |> Enum.sort_by(fn(view) -> Enum.map(view.staff, fn(staff) -> staff.order end) |> Enum.min end)
+    film_staff_views =
+      Repo.all(from(view in FilmStaffView, where: view.film_id == ^film.id))
+      |> Enum.sort_by(fn view ->
+        Enum.map(view.staff, fn staff -> staff.order end) |> Enum.min()
+      end)
 
-    film_image_names = Repo.all(from image in FilmImage, where: image.film_id == ^film.id and image.type == "gallery", order_by: image.file_name)
-    |> Enum.map(fn(x) -> x.file_name end)
+    film_image_names =
+      Repo.all(
+        from(
+          image in FilmImage,
+          where: image.film_id == ^film.id and image.type == "gallery",
+          order_by: image.file_name
+        )
+      )
+      |> Enum.map(fn x -> x.file_name end)
 
     has_gallery = not Enum.empty?(film_image_names)
 
-    film_cast_views = Repo.all(from view in FilmCastView, where: view.film_id == ^film.id, order_by: view.order)
+    film_cast_views =
+      Repo.all(from(view in FilmCastView, where: view.film_id == ^film.id, order_by: view.order))
 
     top_billed_cast = Enum.filter(film_cast_views, fn x -> x.order < 99 end)
 
-    other_cast = Enum.filter(film_cast_views, fn x -> x.order >= 99 end) |> Enum.sort_by(fn(view) -> view.names.sort_name end)
+    other_cast =
+      Enum.filter(film_cast_views, fn x -> x.order >= 99 end)
+      |> Enum.sort_by(fn view -> view.names.sort_name end)
 
     has_cast = not Enum.empty?(Enum.concat(top_billed_cast, other_cast))
 
-    film_synopsis = HTTPoison.get!(S3View.get_film_synopsis_url(film.id)).body
-    |> Earmark.as_html!
+    film_synopsis =
+      HTTPoison.get!(S3View.get_film_synopsis_url(film.id)).body
+      |> Earmark.as_html!()
 
     credits = _get_film_credits(HTTPoison.get!(S3View.get_film_credits_url(film.id)))
 
-    render conn, "show.html", film: film, film_staff_views: film_staff_views, top_billed_cast: top_billed_cast, other_cast: other_cast, has_cast: has_cast, synopsis: film_synopsis, gallery_images: film_image_names, has_gallery: has_gallery, credits: credits
+    render(
+      conn,
+      "show.html",
+      film: film,
+      film_staff_views: film_staff_views,
+      top_billed_cast: top_billed_cast,
+      other_cast: other_cast,
+      has_cast: has_cast,
+      synopsis: film_synopsis,
+      gallery_images: film_image_names,
+      has_gallery: has_gallery,
+      credits: credits
+    )
   end
 
   defp _render_film_page(conn, _) do
@@ -72,14 +97,13 @@ defmodule CineasteWeb.FilmController do
 
   defp _get_film_credits(%HTTPoison.Response{status_code: 200, body: body}) do
     MyParser.parse_string(body, headers: false)
-    |> Enum.map(fn[a,b,c,d] -> "| #{a}<br/>#{c} | #{b}<br/>#{d} |" end)
+    |> Enum.map(fn [a, b, c, d] -> "| #{a}<br/>#{c} | #{b}<br/>#{d} |" end)
     |> Enum.join("\n")
-    |> Earmark.as_html!
+    |> Earmark.as_html!()
     |> String.replace("<table>", "<table class=\"table table-nonfluid table-striped\">")
   end
 
   defp _get_film_credits(_) do
     nil
   end
-
 end

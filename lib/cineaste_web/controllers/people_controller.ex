@@ -10,9 +10,9 @@ defmodule CineasteWeb.PeopleController do
   alias CineasteWeb.PeopleMonitor
 
   def index(conn, _params) do
-    people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn(view) -> view.sort_name end)
+    people_index_views = Repo.all(PeopleIndexView) |> Enum.sort_by(fn view -> view.sort_name end)
     PeopleMonitor.set_state(people_index_views)
-    render conn, "index.html", people_index_views: people_index_views
+    render(conn, "index.html", people_index_views: people_index_views)
   end
 
   def show_person(conn, %{"id" => id}) do
@@ -24,20 +24,21 @@ defmodule CineasteWeb.PeopleController do
   end
 
   def _find_person(conn, {:ok, uuid}) do
-     _render_person_page(conn, Repo.get(Person, uuid))
+    _render_person_page(conn, Repo.get(Person, uuid))
   end
 
   def _find_person(conn, _) do
-     _render_page_not_found_message(conn)
+    _render_page_not_found_message(conn)
   end
 
   def _render_person_page(conn, %Person{} = person) do
-    roles = Repo.all(from view in PersonRolesView, where: view.person_id == ^person.id)
+    roles = Repo.all(from(view in PersonRolesView, where: view.person_id == ^person.id))
 
-    bio = HTTPoison.get!(S3View.get_bio_url("people", person.id)).body
-    |> Earmark.as_html!
+    bio =
+      HTTPoison.get!(S3View.get_bio_url("people", person.id)).body
+      |> Earmark.as_html!()
 
-    render conn, "show_person.html", person: person, bio: bio, roles: roles
+    render(conn, "show_person.html", person: person, bio: bio, roles: roles)
   end
 
   def _render_person_page(conn, _) do
@@ -45,28 +46,27 @@ defmodule CineasteWeb.PeopleController do
   end
 
   def _find_group(conn, {:ok, uuid}) do
-     _render_group_page(conn, Repo.get(Group, uuid))
+    _render_group_page(conn, Repo.get(Group, uuid))
   end
 
   def _find_group(conn, _) do
-     _render_page_not_found_message(conn)
+    _render_page_not_found_message(conn)
   end
 
   def _render_group_page(conn, %Group{} = group) do
     group = Repo.preload(group, [:members])
-    roles = Repo.all(from view in GroupRolesView, where: view.group_id == ^group.id)
+    roles = Repo.all(from(view in GroupRolesView, where: view.group_id == ^group.id))
 
-    bio = HTTPoison.get!(S3View.get_bio_url("groups", group.id)).body
-    |> Earmark.as_html!
+    bio =
+      HTTPoison.get!(S3View.get_bio_url("groups", group.id)).body
+      |> Earmark.as_html!()
 
-    render conn, "show_group.html", group: group, bio: bio, roles: roles
+    render(conn, "show_group.html", group: group, bio: bio, roles: roles)
   end
 
   def _render_group_page(conn, _) do
     _render_page_not_found_message(conn)
   end
-
-
 
   def _render_page_not_found_message(conn) do
     conn

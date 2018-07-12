@@ -4,17 +4,17 @@ defmodule Cineaste.Film do
   @primary_key {:id, Ecto.UUID, []}
   @derive {Phoenix.Param, key: :id}
   schema "films" do
-    field :title, :string
-    field :release_date, :date
-    field :duration, :integer
-    field :showcase, :boolean, default: false
-    field :props, {:map, :string}
-    field :aliases, {:array, :string}
-    many_to_many :staff, Cineaste.Person, join_through: Cineaste.StaffPersonRole
-    many_to_many :cast, Cineaste.Person, join_through: Cineaste.ActorPersonRole
-    many_to_many :studios, Cineaste.Studio, join_through: Cineaste.StudioFilm
-    many_to_many :series, Cineaste.Series, join_through: Cineaste.SeriesFilm
-    has_many :images, Cineaste.FilmImage
+    field(:title, :string)
+    field(:release_date, :date)
+    field(:duration, :integer)
+    field(:showcase, :boolean, default: false)
+    field(:props, {:map, :string})
+    field(:aliases, {:array, :string})
+    many_to_many(:staff, Cineaste.Person, join_through: Cineaste.StaffPersonRole)
+    many_to_many(:cast, Cineaste.Person, join_through: Cineaste.ActorPersonRole)
+    many_to_many(:studios, Cineaste.Studio, join_through: Cineaste.StudioFilm)
+    many_to_many(:series, Cineaste.Series, join_through: Cineaste.SeriesFilm)
+    has_many(:images, Cineaste.FilmImage)
   end
 
   def changeset(film, params \\ %{}) do
@@ -24,7 +24,7 @@ defmodule Cineaste.Film do
   end
 
   def sort_title(film) do
-    if (String.starts_with?(film.title, "The ")) do
+    if String.starts_with?(film.title, "The ") do
       String.trim_leading(film.title, "The ")
     else
       film.title

@@ -11,42 +11,76 @@ defmodule CineasteWeb.FilmView do
   alias CineasteWeb.CommonView
   require Logger
 
-  def sorted_staff(staff), do: Enum.sort_by(staff, fn(x) -> x.order end)
+  def sorted_staff(staff), do: Enum.sort_by(staff, fn x -> x.order end)
 
-  def display_original_title(%{"original_title" => title, "original_transliteration" => same, "original_translation" => same}) do
-    render "original_title_min.html", title: title, transliteration: same
+  def display_original_title(%{
+        "original_title" => title,
+        "original_transliteration" => same,
+        "original_translation" => same
+      }) do
+    render("original_title_min.html", title: title, transliteration: same)
   end
 
-  def display_original_title(%{"original_title" => title, "original_transliteration" => transliteration, "original_translation" => translation}) do
-    render "original_title.html", title: title, transliteration: transliteration, translation: translation
+  def display_original_title(%{
+        "original_title" => title,
+        "original_transliteration" => transliteration,
+        "original_translation" => translation
+      }) do
+    render(
+      "original_title.html",
+      title: title,
+      transliteration: transliteration,
+      translation: translation
+    )
   end
 
   def display_original_title(_), do: nil
 
-  def display_aliases([_head | _tail] = aliases), do: render "aliases.html", aliases: aliases
+  def display_aliases([_head | _tail] = aliases), do: render("aliases.html", aliases: aliases)
 
   def display_aliases(_), do: nil
 
   def display_release_date(date), do: Timex.format!(date, "{Mfull} {D}, {YYYY}")
 
-  def display_series_info(conn, %Film{} = film), do: _display_series_info(conn, Repo.preload(film, [:series]))
+  def display_series_info(conn, %Film{} = film),
+    do: _display_series_info(conn, Repo.preload(film, [:series]))
 
-  defp _display_series_info(conn, %Film{:series => [_h|_t]} = film) do
+  defp _display_series_info(conn, %Film{:series => [_h | _t]} = film) do
     series = List.first(film.series)
-    series_film = Repo.one(from s in SeriesFilm, where: s.film_id == ^film.id and s.series_id == ^series.id)
-    {:safe, antecedent_template} = Repo.one(from s in SeriesFilm, where: s.series_id == ^series.id and s.order == ^(series_film.order - 1)) |> _display_series_antecedent(conn)
-    {:safe, subsequent_template} = Repo.one(from s in SeriesFilm, where: s.series_id == ^series.id and s.order == ^(series_film.order + 1)) |> _display_series_subsequent(conn)
-    raw "#{antecedent_template}#{subsequent_template}"
+
+    series_film =
+      Repo.one(from(s in SeriesFilm, where: s.film_id == ^film.id and s.series_id == ^series.id))
+
+    {:safe, antecedent_template} =
+      Repo.one(
+        from(
+          s in SeriesFilm,
+          where: s.series_id == ^series.id and s.order == ^(series_film.order - 1)
+        )
+      )
+      |> _display_series_antecedent(conn)
+
+    {:safe, subsequent_template} =
+      Repo.one(
+        from(
+          s in SeriesFilm,
+          where: s.series_id == ^series.id and s.order == ^(series_film.order + 1)
+        )
+      )
+      |> _display_series_subsequent(conn)
+
+    raw("#{antecedent_template}#{subsequent_template}")
   end
 
   defp _display_series_info(_, _), do: nil
 
   defp _display_series_antecedent(%SeriesFilm{} = series_film, conn) do
     film = Repo.preload(series_film, [:film]).film
+
     if film.showcase do
-      render "series_antecedent_with_link.html", film: film, conn: conn
+      render("series_antecedent_with_link.html", film: film, conn: conn)
     else
-      render "series_antecedent.html", film: film
+      render("series_antecedent.html", film: film)
     end
   end
 
@@ -54,23 +88,24 @@ defmodule CineasteWeb.FilmView do
 
   defp _display_series_subsequent(%SeriesFilm{} = series_film, conn) do
     film = Repo.preload(series_film, [:film]).film
+
     if film.showcase do
-      render "series_subsequent_with_link.html", film: film, conn: conn
+      render("series_subsequent_with_link.html", film: film, conn: conn)
     else
-      render "series_subsequent.html", film: film
+      render("series_subsequent.html", film: film)
     end
   end
 
   defp _display_series_subsequent(_, _), do: {:safe, ""}
 
-  def render_top_billed_cast(conn, [_h|_t] = top_billed_cast) do
-    render "top_billed_cast.html", conn: conn, top_billed_cast: top_billed_cast
+  def render_top_billed_cast(conn, [_h | _t] = top_billed_cast) do
+    render("top_billed_cast.html", conn: conn, top_billed_cast: top_billed_cast)
   end
 
   def render_top_billed_cast(_, _), do: nil
 
-  def render_other_cast(conn, [_h|_t] = other_cast) do
-    render "other_cast.html", conn: conn, other_cast: other_cast
+  def render_other_cast(conn, [_h | _t] = other_cast) do
+    render("other_cast.html", conn: conn, other_cast: other_cast)
   end
 
   def render_other_cast(_, _), do: nil
@@ -78,7 +113,14 @@ defmodule CineasteWeb.FilmView do
   def render_gallery(film_id, gallery_images) do
     full_url = S3View.get_gallery_url(film_id, "full")
     thumb_url = S3View.get_gallery_url(film_id, "thumbs")
-    render "gallery.html", film_id: film_id, file_names: gallery_images, full_url: full_url, thumb_url: thumb_url
+
+    render(
+      "gallery.html",
+      film_id: film_id,
+      file_names: gallery_images,
+      full_url: full_url,
+      thumb_url: thumb_url
+    )
   end
 
   def render_poster(film_id) do
@@ -90,15 +132,29 @@ defmodule CineasteWeb.FilmView do
   end
 
   def render_film_link(view) do
-    raw "<a href=\"/films/#{view.id}\"><img class=\"img-rounded shadowed\" src=\"#{render_poster(view.id)}\" width=\"135\" height=\"200\" style=\"margin-bottom: 5px;\"></a>"
+    raw(
+      "<a href=\"/films/#{view.id}\"><img class=\"img-rounded shadowed\" src=\"#{
+        render_poster(view.id)
+      }\" width=\"135\" height=\"200\" style=\"margin-bottom: 5px;\"></a>"
+    )
   end
 
-  def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "person"}) do
-    link "#{text}", to: people_path(conn, :show_person, id)
+  def render_people_link(conn, %{
+        entity_id: id,
+        names: %{display_name: text},
+        showcase: true,
+        type: "person"
+      }) do
+    link("#{text}", to: people_path(conn, :show_person, id))
   end
 
-  def render_people_link(conn, %{entity_id: id, names: %{display_name: text}, showcase: true, type: "group"}) do
-    link "#{text}", to: people_path(conn, :show_group, id)
+  def render_people_link(conn, %{
+        entity_id: id,
+        names: %{display_name: text},
+        showcase: true,
+        type: "group"
+      }) do
+    link("#{text}", to: people_path(conn, :show_group, id))
   end
 
   def render_people_link(_conn, %{names: %{display_name: text}, showcase: false}) do
@@ -107,7 +163,7 @@ defmodule CineasteWeb.FilmView do
 
   def filter_film_list(film_list, searchTerm) do
     searchTerms = String.split(searchTerm)
-    Enum.filter(film_list, fn(film) -> filter_film(film, searchTerms) end)
+    Enum.filter(film_list, fn film -> filter_film(film, searchTerms) end)
   end
 
   def filter_film(%FilmIndexView{} = view, searchTerms) do
@@ -119,25 +175,33 @@ defmodule CineasteWeb.FilmView do
   end
 
   def containsSearchTerm([_h | _t] = aliases, searchTerms) do
-    Enum.any?(aliases, fn(a) -> containsSearchTerm(a, searchTerms) end)
+    Enum.any?(aliases, fn a -> containsSearchTerm(a, searchTerms) end)
   end
 
   def containsSearchTerm(title, searchTerms) do
-    Enum.all?(searchTerms, fn(term) -> String.contains?(String.downcase(title), String.downcase(term)) end)
+    Enum.all?(searchTerms, fn term ->
+      String.contains?(String.downcase(title), String.downcase(term))
+    end)
   end
 
   def display_studio_name(%Studio{props: %{"display" => display}}), do: display
   def display_studio_name(studio), do: studio.name
 
-  def render_back_button, do: CommonView.render_back_button
+  def render_back_button, do: CommonView.render_back_button()
 
   def render_decade_button(decade) do
-    raw "<a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"##{decade}\" role=\"button\" aria-expanded=\"false\" aria-controls=\"#{decade}\"><span class=\"heavy\">#{decade}</span></a>"
+    raw(
+      "<a class=\"btn btn-primary\" data-toggle=\"collapse\" href=\"##{decade}\" role=\"button\" aria-expanded=\"false\" aria-controls=\"#{
+        decade
+      }\"><span class=\"heavy\">#{decade}</span></a>"
+    )
   end
 
   def render_film_li_link(view) do
-    raw "<a href=\"/films/#{view.id}\"><span class=\"table-header\">#{view.title}</span> <span class=\"thin\">(#{view.release_date.year})</span></a>"
+    raw(
+      "<a href=\"/films/#{view.id}\"><span class=\"table-header\">#{view.title}</span> <span class=\"thin\">(#{
+        view.release_date.year
+      })</span></a>"
+    )
   end
-
-
 end

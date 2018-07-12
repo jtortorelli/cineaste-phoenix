@@ -4,9 +4,9 @@ defmodule Cineaste.Studio do
   @primary_key {:id, Ecto.UUID, []}
   @derive {Phoenix.Param, key: :id}
   schema "studios" do
-    field :name, :string
-    field :props, {:map, :string}
-    many_to_many :film, Cineaste.Film, join_through: Cineaste.StudioFilm
+    field(:name, :string)
+    field(:props, {:map, :string})
+    many_to_many(:film, Cineaste.Film, join_through: Cineaste.StudioFilm)
   end
 
   def changset(studio, params \\ %{}) do

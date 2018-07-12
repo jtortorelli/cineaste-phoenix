@@ -3,14 +3,14 @@ defmodule Cineaste.PeopleIndexView do
 
   @primary_key false
   schema "people_index_view" do
-    field :id, Ecto.UUID
-    field :type, :string
-    field :gender, :string
-    field :sort_name, :string
-    field :display_name, {:array, :string}
-    field :aliases, {:array, :string}
-    field :roles, {:array, :string}
-    field :members, {:array, :string}
+    field(:id, Ecto.UUID)
+    field(:type, :string)
+    field(:gender, :string)
+    field(:sort_name, :string)
+    field(:display_name, {:array, :string})
+    field(:aliases, {:array, :string})
+    field(:roles, {:array, :string})
+    field(:members, {:array, :string})
   end
 
   def changeset(people_index_view, params \\ %{}) do

@@ -4,6 +4,6 @@ defmodule CineasteWeb.HomeView do
 
   def display_banner() do
     url = S3View.get_display_banner()
-    render "banner.html", banner_url: url
+    render("banner.html", banner_url: url)
   end
 end

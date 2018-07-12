@@ -34,5 +34,4 @@ defmodule CineasteWeb.PageTitle do
   end
 
   defp get(_), do: nil
-
 end
