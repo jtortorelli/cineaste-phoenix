@@ -2974,7 +2974,6 @@ f03e5540-5215-405b-8641-1b3f60ebe755	Kan	Hayashi	M	f	{"year": 1894}	{"unknown": 
 8bd05431-0f6f-47f7-b4c0-c928590e0f5d	Masaki	Onuma	M	f	\N	\N	\N	\N	\N	{"original_name": "&#22823;&#27836;&#27491;&#21916;"}
 e12e2330-3a9a-489b-b6ed-7d9746a406d6	Masao	Fujiyoshi	M	f	{"year": 1913}	\N	Tokyo, Japan	\N	\N	{"original_name": "&#34276;&#22909; &#26124;&#29983;"}
 5d149a9f-cd4e-4b01-91e5-934200b5dcdb	Teruaki	Abe	M	f	\N	\N	\N	\N	\N	{"original_name": "&#23433;&#20493;&#36637;&#26126;"}
-90aad09a-2931-43e7-9f4d-1726e5f68685	Hajime	Koizumi	M	f	\N	\N	\N	\N	\N	{"original_name": "&#23567;&#27849;&#19968;"}
 28c62b3a-217d-4a2f-aab1-3fd7817bd189	Reiko	Kaneko	F	f	\N	\N	\N	\N	\N	{"original_name": "&#20860;&#23376;&#29618;&#23376;"}
 b8928aa8-991f-46b3-aca4-c72ba3656249	Toshio	Takashima	M	f	\N	\N	\N	\N	\N	{"original_name": "&#39640;&#23798;&#21033;&#38596;"}
 a536e565-3ef4-4187-87d7-7b064855fddd	Toru	Watanabe	M	f	\N	\N	\N	\N	\N	{"original_name": "&#28193;&#36794; &#24505;"}
@@ -3402,11 +3401,11 @@ b6feee5f-371c-4339-979b-73218d192c9c	Kazuo	Miyauchi	M	f	{"day": 19, "year": 1940
 32e453d4-fc85-4488-98d7-b5c3d2a7b73c	Koichi	Sugiyama	M	f	{"day": 11, "year": 1931, "month": 4}	\N	Tokyo, Japan	\N	\N	{"birth_name": "Koichi Sugiyama (椙山 浩一)", "original_name": "すぎやま こういち"}
 ecbcacdc-e0d7-419d-9130-2b3089931512	Naoko	Asanashi	M	f	\N	\N	\N	\N	\N	{"original_name": "浅梨 なおこ"}
 005f652b-c4d8-4d05-b632-557c2a41de1e	Nikko	Tezuka	M	f	\N	\N	\N	\N	\N	{"original_name": "手塚 常光"}
-7c740c39-4d86-45fd-8cb8-fc84a0bff003	Makoto	Kamiya	M	f	{"day": 6, "year": 1965, "month": 10}	\N	Tokyo, Japan	\N	\N	{"original_name": "神谷 誠"}
 4db42981-3d08-4be6-a616-c2d10f0c836a	Yoshinori	Sekiguchi	M	f	{"day": 10, "year": 1947, "month": 1}	\N	Tokyo, Japan	\N	\N	{"original_name": "関口 芳則"}
 87b8d051-853c-4f36-b1a5-e8a90a3ec3aa	Ken	Sakai	M	f	\N	\N	\N	\N	\N	{"original_name": "酒井 賢"}
 c44d9b61-0ac8-4482-a661-18f08c0d0cb4	Kenji	Suzuki	M	f	{"day": 9, "year": 1957, "month": 7}	\N	Ibaraki, Japan	\N	\N	{"original_name": "鈴木 健二"}
 a487b3f6-70fa-4a73-bb88-cab349a731b3	Keita	Amemiya	M	f	{"day": 24, "year": 1959, "month": 8}	\N	Urayasu, Chiba, Japan	\N	\N	{"original_name": "雨宮 慶太"}
+7c740c39-4d86-45fd-8cb8-fc84a0bff003	Makoto	Kamiya	M	t	{"day": 6, "year": 1965, "month": 10}	\N	Tokyo, Japan	\N	\N	{"original_name": "神谷 誠"}
 b732ed8a-d5e8-4771-a59c-d001c40899b7	Yu	Ichida	M	f	\N	\N	\N	\N	\N	{"original_name": "市田 裕"}
 f9009415-0f02-4c68-a394-e6e794d3b7da	Hajime	Matsumoto	M	f	{"day": 4, "year": 1963, "month": 5}	\N	Kanagawa, Japan	\N	\N	{"original_name": "松本 肇"}
 79f56dae-3fed-4c61-bbac-bce1ab79827b	Hiroshi	Honjo	M	f	\N	\N	\N	\N	\N	{"original_name": "本所 寛"}
@@ -3960,6 +3959,7 @@ c70d0b2e-8511-4bfb-8527-808b3fef2a09	Takeo	Kita	M	t	{"day": 9, "year": 1901, "mo
 8372f43d-1876-42af-ae3e-f4d7e2137c63	Naoki	Sato	M	t	{"day": 2, "year": 1970, "month": 5}	\N	Chiba, Japan	\N	\N	{"original_name": "佐藤 直紀"}
 a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	t	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
 d4f52193-310b-487c-a9d4-513d6f9ad42b	Shinji	Higuchi	M	t	{"day": 22, "year": 1965, "month": 9}	\N	Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "樋口 真嗣"}
+90aad09a-2931-43e7-9f4d-1726e5f68685	Hajime	Koizumi	M	t	\N	\N	\N	\N	\N	{"original_name": "&#23567;&#27849;&#19968;"}
 \.
 
 
