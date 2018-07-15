@@ -2595,7 +2595,6 @@ bf991fa1-ed29-4370-9377-ecc1b58126db	Goemon	2009-05-01	128	t	\N	{"original_title
 08560f6a-e21e-40dc-9b24-f1b9c3ee7dcf	Kamui Gaiden	2009-09-19	120	t	{"Kamui: The Lone Ninja"}	{"original_title": "カムイ外伝", "original_translation": "Kamui Story", "original_transliteration": "Kamui Gaiden"}
 df2bc5e1-38b3-4f31-bc99-5c9fc99fdd06	Ballad	2009-09-05	132	t	\N	{"original_title": "BALLAD 名もなき恋のうた", "original_translation": "Ballad: The Nameless Love Song", "original_transliteration": "Ballad Namonaki Koi No Ute"}
 76ee6178-d728-4033-8cfe-01970c1be237	Rurouni Kenshin	2012-08-25	134	t	{"Rurouni Kenshin Part I: Origins"}	{"original_title": "るろうに剣心", "original_translation": "Rurouni Kenshin", "original_transliteration": "Rurouni Kenshin"}
-cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	f	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
 9241a8af-96f9-4297-a21c-2fd39cafc9d0	Sweet Rain: The Accuracy of Death	2008-03-22	113	f	\N	{"original_title": "死神の精度", "original_translation": "Accuracy of Death", "original_transliteration": "Shinigami No Seido"}
 ace24bd7-2b26-40bb-a818-0404e0f4606e	Retribution	2007-02-24	104	f	\N	{"original_title": "叫", "original_translation": "Cry", "original_transliteration": "Sakebi"}
 6f7545a5-808f-49a1-88e0-b444d1a56f29	Sukiyaki Western Django	2007-09-15	121	f	\N	{"original_title": "スキヤキ・ウエスタン ジャンゴ", "original_translation": "Sukiyaki Western Django", "original_transliteration": "Sukiyaki Uesutan Jyango"}
@@ -2610,6 +2609,7 @@ f318f528-7c69-40df-a91d-88411c979e67	Gamera: The Guardian of the Universe	1995-0
 b73255d8-4457-4a39-bf7f-e59273d04b88	Ring	1998-01-31	95	t	\N	{"original_title": "リング", "original_translation": "Ring", "original_transliteration": "Ringu"}
 07f023e7-46b1-44e8-a896-4897c25ca928	Rasen	1998-01-31	97	t	\N	{"original_title": "らせん", "original_translation": "Spiral", "original_transliteration": "Rasen"}
 67877b75-fcb4-440b-a182-6f2228c9ea91	The Princess Blade	2001-12-15	93	t	\N	{"original_title": "修羅雪姫", "original_translation": "Lady Snowblood", "original_transliteration": "Shyurayuki Hime"}
+cd273bbe-60b4-4395-b971-83062b4a6cfa	Mushi-shi	2007-03-24	131	t	\N	{"original_title": "蟲師", "original_translation": "Bug Master", "original_transliteration": "Mushishi"}
 e5bbd431-fc4f-40f8-875c-2aa3a94e7dcb	Gamera 2: Advent of Legion	1996-07-13	99	t	{"Gamera 2: Attack of Legion"}	{"original_title": "ガメラ2 レギオン襲来", "original_translation": "Gamera 2: Legion Attack", "original_transliteration": "Gamera 2 Region Shyuurai"}
 6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	Godzilla X Megaguirus	2000-12-16	105	t	\N	{"original_title": "ゴジラ×メガギラス G消滅作戦", "original_translation": "Godzilla X Megaguirus: G Annihilation Strategy", "original_transliteration": "Gojira X Megagirasu G Shyoumetsu Sakusen"}
 d47406e8-fd4b-4031-87e9-387f905eeb13	GMK	2001-12-15	105	t	\N	{"original_title": "ゴジラ・モスラ・キングギドラ 大怪獣総攻撃", "original_translation": "Godzilla, Mothra, King Ghidorah: Giant Monsters All Out Attack", "original_transliteration": "Gojira Mosura Kingugidora Daikaijyuu Soukougeki"}
@@ -3960,6 +3960,9 @@ c70d0b2e-8511-4bfb-8527-808b3fef2a09	Takeo	Kita	M	t	{"day": 9, "year": 1901, "mo
 a47a6000-0e6e-4800-9b6d-3e6690612880	Kenji	Kawai	M	t	{"day": 23, "year": 1957, "month": 4}	\N	\N	\N	\N	{"original_name": "川井 憲次"}
 d4f52193-310b-487c-a9d4-513d6f9ad42b	Shinji	Higuchi	M	t	{"day": 22, "year": 1965, "month": 9}	\N	Shinjuku, Tokyo, Japan	\N	\N	{"original_name": "樋口 真嗣"}
 90aad09a-2931-43e7-9f4d-1726e5f68685	Hajime	Koizumi	M	t	\N	\N	\N	\N	\N	{"original_name": "&#23567;&#27849;&#19968;"}
+d4465a9b-6241-4e1e-abb7-bc0c5cafe27d	Kuniaki	Haishima	M	f	\N	\N	\N	\N	\N	{"original_name": "蓜島 邦明"}
+ccc86fba-fe69-4dbf-9092-888b92c44e61	Sadayuki	Murai	M	f	{"year": 1964}	\N	Nara, Japan	\N	\N	{"original_name": "村井 さだゆき"}
+d0591241-377c-4b3e-bcd8-bc39ed30481c	Yuki	Urushibara	M	f	{"day": 23, "year": 1974, "month": 1}	\N	Yamaguchi, Japan	\N	\N	{"original_name": "漆原 友紀"}
 \.
 
 
@@ -7136,6 +7139,17 @@ c7a3c4ef-364c-404e-8a16-4a1fce836949	7778e13b-2063-4a42-9f58-3eb7fe6e67f7	Sound 
 88a761bb-acae-4a56-b157-ed2fe51951ab	55c695e6-f56b-4489-8a9a-c24df51f58a4	Sound Recording	9
 88a761bb-acae-4a56-b157-ed2fe51951ab	de452b12-4971-4d3a-b122-8c7bbf3d1cbd	Art Director	10
 88a761bb-acae-4a56-b157-ed2fe51951ab	cbd5d02a-c14f-4702-bd83-d87cc0e4f67b	Editor	11
+cd273bbe-60b4-4395-b971-83062b4a6cfa	596c0913-5424-4e1b-a8b4-4a725982c232	Director	1
+cd273bbe-60b4-4395-b971-83062b4a6cfa	d0591241-377c-4b3e-bcd8-bc39ed30481c	Original Story	2
+cd273bbe-60b4-4395-b971-83062b4a6cfa	596c0913-5424-4e1b-a8b4-4a725982c232	Screenplay	3
+cd273bbe-60b4-4395-b971-83062b4a6cfa	ccc86fba-fe69-4dbf-9092-888b92c44e61	Screenplay	4
+cd273bbe-60b4-4395-b971-83062b4a6cfa	0f64ac74-59ba-4b25-9fc6-141aba350e1c	Cinematography	5
+cd273bbe-60b4-4395-b971-83062b4a6cfa	b7369ff2-f853-4be1-8971-e92eb541b099	Lighting	6
+cd273bbe-60b4-4395-b971-83062b4a6cfa	c2ce51a6-f9cb-43c1-af63-a99b69be4a4e	Art Director	7
+cd273bbe-60b4-4395-b971-83062b4a6cfa	331016a7-7f62-45b1-99a1-258fb3faf3dc	VFX Supervisor	8
+cd273bbe-60b4-4395-b971-83062b4a6cfa	d4465a9b-6241-4e1e-abb7-bc0c5cafe27d	Music	9
+cd273bbe-60b4-4395-b971-83062b4a6cfa	0558944f-fbb4-4f4f-8389-688e3ca21ec7	Sound Recording	10
+cd273bbe-60b4-4395-b971-83062b4a6cfa	e9ba2dbc-8abe-4596-823c-1bbc0bed2a8a	Editor	11
 \.
 
 
@@ -8225,6 +8239,13 @@ fe73b252-2b31-49a6-9963-b80366290547	88a761bb-acae-4a56-b157-ed2fe51951ab
 0be9d67e-717f-4556-8229-b99d7228592e	88a761bb-acae-4a56-b157-ed2fe51951ab
 0ce8d818-e838-48ff-84c5-50f06d1a29bd	88a761bb-acae-4a56-b157-ed2fe51951ab
 7e008ff1-5599-4163-a5a3-ceb2a7ffc9eb	88a761bb-acae-4a56-b157-ed2fe51951ab
+0f87c700-cf02-4810-b05d-e029969912da	cd273bbe-60b4-4395-b971-83062b4a6cfa
+c22c320a-fa72-4287-a97c-a1478e9f1e63	cd273bbe-60b4-4395-b971-83062b4a6cfa
+7f8abf80-ed58-418f-bef8-f533ea3f5d59	cd273bbe-60b4-4395-b971-83062b4a6cfa
+13dfbfa8-9bf6-4e18-9913-c22fba14d266	cd273bbe-60b4-4395-b971-83062b4a6cfa
+fcac3e11-9225-4335-bc36-e30761da0d39	cd273bbe-60b4-4395-b971-83062b4a6cfa
+e605db8c-5bf2-4dce-9a0a-f456f73216cf	cd273bbe-60b4-4395-b971-83062b4a6cfa
+64d20d13-67a7-4a67-8cb6-c7e4de73bcd2	cd273bbe-60b4-4395-b971-83062b4a6cfa
 \.
 
 
@@ -8435,6 +8456,9 @@ bd7c8c45-04e9-4dfd-8111-bcd4e6095e26	Oz	{"japanese_name": "オズ"}
 3549d21f-c2b9-469e-b6c7-0b1d7a7b6c15	Kinoshita Group Holdings	{"display": "Kinoshita Group", "japanese_name": "木下グループホールディングス"}
 43ef1e71-d2e6-475d-8613-4ab078c3787c	Hakusensha	{"japanese_name": "白泉社"}
 231934e7-262f-4c86-a51d-83485421158b	Towani	{"japanese_name": "トワーニ"}
+13dfbfa8-9bf6-4e18-9913-c22fba14d266	Pyramid Films	{"japanese_name": "ピラミッドフィルム"}
+e605db8c-5bf2-4dce-9a0a-f456f73216cf	Tokyu Recreation	{"japanese_name": "東急レクリエーション"}
+64d20d13-67a7-4a67-8cb6-c7e4de73bcd2	Ogura Office	{"japanese_name": "小椋事務所"}
 \.
 
 
