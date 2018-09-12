@@ -6100,7 +6100,6 @@ bdd71ef3-19fb-49dd-a66f-d0742185846c	129ce783-00e1-46cd-ab70-12f0d28e32f6	Physic
 6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	e517a7ed-a915-4672-b74d-4db901c11f2d	Editor	10
 6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	1d2a7328-2213-4325-a928-29a5ecc806df	Music	11
 6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	2f6156e5-e4f5-4a31-b4ed-289f173f851e	Special Effects Assistant Director	12
-6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	129ce783-00e1-46cd-ab70-12f0d28e32f6	Physcial Effects Assistant	13
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	48b8ca0f-893e-4397-8a56-017c39cd1e3b	Director	1
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	4d7557eb-d727-470b-9f59-46c8ba1df91a	Original Story	2
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	2c87b93f-8b1f-465e-9d71-6755d690d9d1	Original Story	3
@@ -6111,6 +6110,7 @@ ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	be9e7ced-a62d-4777-8c6b-e5b91fa440e5	Lighti
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	d31eec12-69c3-47c0-b596-6e995f97629c	Sound Recording	8
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	74813008-535a-4713-8487-61f77ad9da0a	Art Director	9
 ac185eaf-3ac8-4d1b-b886-2648b8fb3cb6	12644b1c-c732-4c25-b039-58178b1f4530	Editor	10
+6a6dc0b2-0fa6-48ba-b444-bb6a723877ee	129ce783-00e1-46cd-ab70-12f0d28e32f6	Physical Effects Assistant	13
 cfaf4ab5-af6a-417b-91ee-65ad2af67155	6967db5d-018c-4b27-b07f-a47679a00f63	Director	1
 cfaf4ab5-af6a-417b-91ee-65ad2af67155	50918edb-3152-4bd8-887f-a50a4c6c5518	Original Story	2
 cfaf4ab5-af6a-417b-91ee-65ad2af67155	2cc1b4eb-07d0-4e17-bd5c-8588ff09e505	Screenplay	3
